@@ -1,0 +1,60 @@
+# Use an official Ubuntu base image
+FROM nvidia/cuda:12.1.1-runtime-ubuntu22.04
+
+# Set non-interactive mode to avoid prompts during installation
+ENV DEBIAN_FRONTEND=noninteractive
+
+# Install dependencies required for pyenv and Python builds
+RUN apt-get update && apt-get install -y \
+    cuda \
+    build-essential \
+    libssl-dev \
+    zlib1g-dev \
+    libbz2-dev \
+    libreadline-dev \
+    libsqlite3-dev \
+    wget \
+    curl \
+    llvm \
+    libncurses5-dev \
+    libncursesw5-dev \
+    xz-utils \
+    tk-dev \
+    libffi-dev \
+    liblzma-dev \
+    python3-openssl \
+    git \
+    && rm -rf /var/lib/apt/lists/*
+
+
+# Install pyenv
+RUN curl https://pyenv.run | bash
+
+# Set environment variables for pyenv
+ENV PYTHON_VER="3.9"
+ENV PATH="/root/.pyenv/bin:${PATH}"
+ENV PYENV_ROOT="/root/.pyenv"
+ENV PATH="${PYENV_ROOT}/shims:${PATH}"
+
+# Install Python 3.13.0t using pyenv
+RUN /bin/bash -c "source ~/.bashrc && pyenv install ${PYTHON_VER}"
+
+# Set the global Python version
+RUN /bin/bash -c "source ~/.bashrc && pyenv global $PYTHON_VER"
+
+# Verify the Python version
+RUN /bin/bash -c "source ~/.bashrc && pyenv rehash && python --version"
+
+# Install and upgrade pip
+RUN /root/.pyenv/shims/python -m pip install --upgrade pip
+
+# Copy requirements.txt from the current directory to /root/ inside the container
+COPY requirements.txt /root/
+
+# Set the working directory inside the container
+WORKDIR /root/
+
+# Install all pip dependencies
+RUN /root/.pyenv/shims/python -m pip install --no-cache-dir -r requirements.txt
+
+
