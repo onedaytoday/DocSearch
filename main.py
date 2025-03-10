@@ -1,4 +1,3 @@
-
 import sys
 
 import torch
@@ -6,12 +5,13 @@ import torch
 from LLM2VecModel import LLM2VecModel
 
 HF_PASSCODE = "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"
-MODEL_ID = "McGill-NLP/LLM2Vec-Meta-Llama-3-8B-Instruct-mntp"
-MODEL_SECONDARY_ID = "McGill-NLP/LLM2Vec-Meta-Llama-3-8B-Instruct-mntp-unsup-simcse"
+MODEL_ID = "McGill-NLP/LLM2Vec-Meta-Llama-31-8B-Instruct-mntp"
+MODEL_SECONDARY_ID = "McGill-NLP/LLM2Vec-Meta-Llama-31-8B-Instruct-mntp-supervised"
 
 
 def main():
     l2v = LLM2VecModel(model_id=MODEL_ID, second_model_id=MODEL_SECONDARY_ID, token=HF_PASSCODE)
+    l2v.train()
 
 
 def verify_drivers():
@@ -27,8 +27,6 @@ def verify_drivers():
     except:
         pass
     print("CUDA Enable ", CUDA)
-
-
 
 
 if __name__ == '__main__':

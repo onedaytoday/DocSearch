@@ -2,7 +2,7 @@ from llm2vec import LLM2Vec
 
 import torch
 from transformers import AutoTokenizer, AutoModel, AutoConfig
-from peft import PeftModel
+from peft import PeftModel, LoraConfig, TaskType, get_peft_model
 
 
 class LLM2VecModel:
@@ -42,3 +42,11 @@ class LLM2VecModel:
 
     def encode(self, input):
         return self.model.encode(input)
+
+    def train(self):
+        peft_config = LoraConfig(
+            task_type=TaskType.SEQ_2_SEQ_LM, inference_mode=False, r=8, lora_alpha=32, lora_dropout=0.1
+        )
+        trained_model = get_peft_model(self.base_plus_SimCSE, peft_config)
+        trained_model.print_trainable_parameters()
+
