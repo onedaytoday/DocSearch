@@ -1,3 +1,4 @@
 *.tar
 docSearch/
 .vscode/settings.json
+__pycache__/LLM2VecModel.cpython-310.pyc

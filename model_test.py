@@ -10,9 +10,10 @@ from LLM2VecModel import LLM2VecModel
 
 
 class MyTestCase(unittest.TestCase):
+    HF_PASSCODE = "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"
     MODEL_ID = "McGill-NLP/LLM2Vec-Meta-Llama-31-8B-Instruct-mntp"
     MODEL_SECONDARY_ID = "McGill-NLP/LLM2Vec-Meta-Llama-31-8B-Instruct-mntp-supervised"
-    model = LLM2VecModel(MODEL_ID, MODEL_SECONDARY_ID)
+    model = LLM2VecModel(MODEL_ID, MODEL_SECONDARY_ID, token=HF_PASSCODE)
 
     def test_model1(self):
         l2v = self.model
