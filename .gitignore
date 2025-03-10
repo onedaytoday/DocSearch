@@ -1,1 +1,3 @@
 *.tar
+docSearch/
+.vscode/settings.json
