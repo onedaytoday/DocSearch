@@ -1,12 +1,18 @@
 from llm2vec import LLM2Vec
-
+from datasets import Dataset
 import torch
-from transformers import AutoTokenizer, AutoModel, AutoConfig
+from transformers import AutoTokenizer, AutoModel, AutoConfig, Trainer, TrainingArguments, \
+    DataCollatorForLanguageModeling, AutoModelForCausalLM
 from peft import PeftModel, LoraConfig, TaskType, get_peft_model
+
+from dataset import DataCollatorForMmapedDataset, MmappedArrowDataset
+
 
 
 class LLM2VecModel:
     def __init__(self, model_id, second_model_id=None, token=None):
+
+        self.llm2vec = None
         self.tokenizer = AutoTokenizer.from_pretrained(
             model_id,
             token=token
@@ -15,7 +21,7 @@ class LLM2VecModel:
             model_id, trust_remote_code=True,
             token=token
         )
-        pretrained_model = AutoModel.from_pretrained(
+        self.pretrained_model = AutoModelForCausalLM.from_pretrained(
             model_id,
             token=token,
             trust_remote_code=True,
@@ -24,29 +30,104 @@ class LLM2VecModel:
             device_map="cuda" if torch.cuda.is_available() else "cpu",
         )
 
-        self.base_model = PeftModel.from_pretrained(
-            pretrained_model,
+        self.model = self.pretrained_model
+        return
+        base_model = PeftModel.from_pretrained(
+            self.pretrained_model,
             model_id,
         )
+        print(type(base_model))
 
-        self.base_model = self.base_model.merge_and_unload()
+        self.model = base_model
+        if second_model_id:
+            base_model = base_model.merge_and_unload()
 
-        model_id = second_model_id if second_model_id else model_id
+            # Base Model plus secondary model
+            self.model = PeftModel.from_pretrained(
+                base_model, second_model_id
+            )
+            print(type(self.model))
 
-        self.base_plus_SimCSE = PeftModel.from_pretrained(
-            self.base_model, model_id
-        )
+        self.model = self.model.merge_and_unload()
 
-        self.model = LLM2Vec(self.base_plus_SimCSE, self.tokenizer, pooling_mode="mean", max_length=512)
+    def make_llm2vec(self):
+        self.llm2vec = LLM2Vec(self.model, self.tokenizer, pooling_mode="mean", max_length=512)
         print("LV2VEC INIT SUCCESSFUL")
+        return self.llm2vec
 
-    def encode(self, input):
-        return self.model.encode(input)
+    def encode(self, x):
+        if self.llm2vec is None:
+            self.make_llm2vec()
+        return self.llm2vec.encode(x)
 
-    def train(self):
-        peft_config = LoraConfig(
-            task_type=TaskType.SEQ_2_SEQ_LM, inference_mode=False, r=8, lora_alpha=32, lora_dropout=0.1
+    def test(self):
+        self.fine_tune_unsupervised()
+
+    def _default_training_argument(self):
+        return TrainingArguments(
+            output_dir="./results",  # Output directory
+            evaluation_strategy="steps",  # Evaluation strategy
+            logging_dir="./logs",  # Log directory
+            num_train_epochs=100,  # Number of training epochs
+            per_device_train_batch_size=8,  # Batch size
+            save_steps=500,  # Save checkpoint every 500 steps
+            logging_steps=100,  # Log every 100 steps
         )
-        trained_model = get_peft_model(self.base_plus_SimCSE, peft_config)
-        trained_model.print_trainable_parameters()
+
+    def prepare_dateset(self):
+        data = {
+            "text": [
+                "The quick brown fox jumps over the lazy dog.",
+                "Hugging Face provides powerful NLP models.",
+                "Meta Llama 3 is an advanced LLM.",
+                "Fine-tuning helps models adapt to specific tasks.",
+                "Artificial intelligence is transforming industries.",
+            ]
+        }
+
+        # Convert to Hugging Face Dataset
+        dataset = Dataset.from_dict(data)
+
+        # Step 2: Tokenization function
+        def tokenize_function(examples):
+            return self.tokenizer(examples["text"], truncation=True, padding="max_length", max_length=512)
+
+        # Apply tokenization
+        tokenized_dataset = dataset.map(tokenize_function, batched=True)
+
+        return tokenized_dataset
+
+    def fine_tune_unsupervised(self, training_args=None, data_collator=None):
+        if training_args is None:
+            training_args = self._default_training_argument()
+
+        train_dataset = MmappedArrowDataset("./tokenized_files/tokens.arrow", sft=False)
+        eval_dataset = MmappedArrowDataset("./tokenized_files/tokens_eval.arrow", sft=False)
+        data_collator = DataCollatorForMmapedDataset(tokenizer=self.tokenizer, sft=False)
+
+        # Apply LoRA PEFT configuration
+        peft_config = LoraConfig(
+            task_type=TaskType.CAUSAL_LM,
+            inference_mode=False,
+            r=8,
+            lora_alpha=32,
+            lora_dropout=0.1
+        )
+
+        # Wrap model with LoRA
+        self.model = get_peft_model(self.model, peft_config)
+        self.model.print_trainable_parameters()
+
+        trainer = Trainer(
+            model=self.model,
+            tokenizer=self.tokenizer,
+            train_dataset=train_dataset,
+            eval_dataset=eval_dataset,
+            data_collator=data_collator,
+            args=training_args,
+        )
+
+        trainer.train()
+        self.model.merge_and_unload().save_pretrained("./saved_models")
+        self.tokenizer.save_pretrained("./saved_models")
 

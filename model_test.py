@@ -1,10 +1,6 @@
-import time
 import unittest
 
-from llm2vec import LLM2Vec
 import torch
-from transformers import AutoTokenizer, AutoModel, AutoConfig
-from peft import PeftModel
 
 from LLM2VecModel import LLM2VecModel
 
@@ -13,6 +9,9 @@ class MyTestCase(unittest.TestCase):
     HF_PASSCODE = "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"
     MODEL_ID = "McGill-NLP/LLM2Vec-Meta-Llama-31-8B-Instruct-mntp"
     MODEL_SECONDARY_ID = "McGill-NLP/LLM2Vec-Meta-Llama-31-8B-Instruct-mntp-supervised"
+
+
+
     model = LLM2VecModel(MODEL_ID, MODEL_SECONDARY_ID, token=HF_PASSCODE)
 
     def test_model1(self):
@@ -143,41 +142,6 @@ class MyTestCase(unittest.TestCase):
         print(f"\nTotal matches: {correct_count}/{len(queries)}")
         print(torch.argmax(cos_sim, axis=1))
         print(cos_sim)
-
-
-class GivenCodeLLM2VecTest(unittest.TestCase):
-    def test_given_code(self):
-        time.sleep(5)
-        # Loading base Mistral model, along with custom code that enables bidirectional connections in decoder-only
-        # LLMs. MNTP LoRA weights are merged into the base model.
-        tokenizer = AutoTokenizer.from_pretrained(
-            "McGill-NLP/LLM2Vec-Meta-Llama-3-8B-Instruct-mntp"
-        )
-        config = AutoConfig.from_pretrained(
-            "McGill-NLP/LLM2Vec-Meta-Llama-3-8B-Instruct-mntp", trust_remote_code=True
-        )
-        model = AutoModel.from_pretrained(
-            "McGill-NLP/LLM2Vec-Meta-Llama-3-8B-Instruct-mntp",
-            trust_remote_code=True,
-            config=config,
-            torch_dtype=torch.bfloat16,
-            device_map="cuda" if torch.cuda.is_available() else "cpu",
-        )
-        model = PeftModel.from_pretrained(
-            model,
-            "McGill-NLP/LLM2Vec-Meta-Llama-3-8B-Instruct-mntp",
-        )
-        model = model.merge_and_unload()  # This can take several minutes on cpu
-
-        # Loading unsupervised SimCSE model. This loads the trained LoRA weights on top of MNTP model. Hence the
-        # final weights are -- Base model + MNTP (LoRA) + SimCSE (LoRA).
-        model = PeftModel.from_pretrained(
-            model, "McGill-NLP/LLM2Vec-Meta-Llama-3-8B-Instruct-mntp-unsup-simcse"
-        )
-
-        # Wrapper for encoding and pooling operations
-        l2v = LLM2Vec(model, tokenizer, pooling_mode="mean", max_length=512)
-        print(l2v.encode(["Hello World"]))
 
 
 if __name__ == '__main__':
