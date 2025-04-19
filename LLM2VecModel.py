@@ -1,16 +1,17 @@
+import llm2vec
 from llm2vec import LLM2Vec
 from datasets import Dataset
 import torch
+from torch.utils.data import DataLoader
 from transformers import AutoTokenizer, AutoModel, AutoConfig, Trainer, TrainingArguments, \
-    DataCollatorForLanguageModeling, AutoModelForCausalLM
+    DataCollatorForLanguageModeling, AutoModelForCausalLM, TextDataset
 from peft import PeftModel, LoraConfig, TaskType, get_peft_model
 
 from dataset import DataCollatorForMmapedDataset, MmappedArrowDataset
 
 
-
 class LLM2VecModel:
-    def __init__(self, model_id, second_model_id=None, token=None):
+    def __init__(self, model_id, second_model_id=None, token=None, peft=True):
 
         self.llm2vec = None
         self.tokenizer = AutoTokenizer.from_pretrained(
@@ -21,7 +22,19 @@ class LLM2VecModel:
             model_id, trust_remote_code=True,
             token=token
         )
-        self.pretrained_model = AutoModelForCausalLM.from_pretrained(
+        if not peft:
+            self.pretrained_model = AutoModelForCausalLM.from_pretrained(
+                model_id,
+                token=token,
+                trust_remote_code=True,
+                config=self.config,
+                torch_dtype=torch.bfloat16,
+                device_map="cuda" if torch.cuda.is_available() else "cpu",
+            )
+            self.model = self.pretrained_model
+            return
+
+        self.pretrained_model = AutoModel.from_pretrained(
             model_id,
             token=token,
             trust_remote_code=True,
@@ -30,8 +43,6 @@ class LLM2VecModel:
             device_map="cuda" if torch.cuda.is_available() else "cpu",
         )
 
-        self.model = self.pretrained_model
-        return
         base_model = PeftModel.from_pretrained(
             self.pretrained_model,
             model_id,
@@ -66,9 +77,9 @@ class LLM2VecModel:
     def _default_training_argument(self):
         return TrainingArguments(
             output_dir="./results",  # Output directory
-            evaluation_strategy="steps",  # Evaluation strategy
+            evaluation_strategy="no",  # Evaluation strategy
             logging_dir="./logs",  # Log directory
-            num_train_epochs=100,  # Number of training epochs
+            num_train_epochs=25,  # Number of training epochs
             per_device_train_batch_size=8,  # Batch size
             save_steps=500,  # Save checkpoint every 500 steps
             logging_steps=100,  # Log every 100 steps
@@ -102,8 +113,14 @@ class LLM2VecModel:
             training_args = self._default_training_argument()
 
         train_dataset = MmappedArrowDataset("./tokenized_files/tokens.arrow", sft=False)
-        eval_dataset = MmappedArrowDataset("./tokenized_files/tokens_eval.arrow", sft=False)
-        data_collator = DataCollatorForMmapedDataset(tokenizer=self.tokenizer, sft=False)
+
+        print(type(self.tokenizer))
+
+        train_dataset = TextDataset(tokenizer=self.tokenizer, file_path="text_files/text.txt", block_size=128)
+        data_collator = DataCollatorForLanguageModeling(
+            tokenizer=self.tokenizer,
+            mlm=False
+        )
 
         # Apply LoRA PEFT configuration
         peft_config = LoraConfig(
@@ -122,7 +139,6 @@ class LLM2VecModel:
             model=self.model,
             tokenizer=self.tokenizer,
             train_dataset=train_dataset,
-            eval_dataset=eval_dataset,
             data_collator=data_collator,
             args=training_args,
         )
@@ -130,4 +146,3 @@ class LLM2VecModel:
         trainer.train()
         self.model.merge_and_unload().save_pretrained("./saved_models")
         self.tokenizer.save_pretrained("./saved_models")
-

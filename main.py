@@ -7,12 +7,13 @@ from LLM2VecModel import LLM2VecModel
 HF_PASSCODE = "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"
 MODEL_ID = "McGill-NLP/LLM2Vec-Meta-Llama-31-8B-Instruct-mntp"
 MODEL_SECONDARY_ID = "McGill-NLP/LLM2Vec-Meta-Llama-31-8B-Instruct-mntp-supervised"
-Path_to_model = r"C:\Users\Omid\.cache\huggingface\hub\models--meta-llama--Meta-Llama-3.1-8B-Instruct\snapshots\0e9e39f249a16976918f6564b8830bc894c89659"
+Path_to_model = r"C:\Users\Omid\.cache\huggingface\hub\models--meta-llama--Meta-Llama-3.1-8B-Instruct\snapshots" \
+                r"\0e9e39f249a16976918f6564b8830bc894c89659"
 
 
 def main():
 
-    l2v = LLM2VecModel(model_id="meta-llama/Llama-3.2-1B", second_model_id=None, token=HF_PASSCODE)
+    l2v = LLM2VecModel(model_id="meta-llama/Llama-3.2-1B", second_model_id=None, token=HF_PASSCODE, peft=False)
     l2v.fine_tune_unsupervised()
 
 
