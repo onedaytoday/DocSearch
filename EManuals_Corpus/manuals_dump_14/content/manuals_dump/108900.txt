@@ -1,0 +1,155 @@
+FCC Warning This tested and found to comply with the Class to of of the FCC These to reasonable protection interference when the operated This and and, and with the instruction interference to of this to interference which the user to the interference their CE Warning This Class this interference, which the to VCCI Warning LIMITED WARRANTY that HWPS1UG USB Wireless 10/100M free from physical and workmanship years from the of purchase. If the this two-year warranty Customer Service to Authorization Warranty or only. BE SURE TO HAVE YOUR PROOF OF PURCHASE. RETURN REQUESTS CAN NOT BE PROCESSED WITHOUT PROOF OF PURCHASE. the Authorization clearly the of the and include of purchase. IN NO EVEN SHALL HAWKING TECHNOLOGYS LIABILTY EXCEED THE PRICE PAID FOR THE PRODUCT FROM DIRECT, INDIRECT, SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES RESULTING FROM THE USE OF THE PRODUCT, ITS ACCOMPANYING SOFTWARE OR ITS DOCUMENTATION. warranty or representation, expressed, or statutory, with to its products or the or of this and accompanying software, and specifically its performance, merchantability, or the right to or its products, software, or without to or entity. Please to: NetWare of Inc. and and NT/2000/XP of Microsoft other and of their respective Copyright of this publication or or to (such as translation, transformation or without the written of the as the United States Copyright of
+of INTRODUCTION TO THE HWPS1UG HARDWARE INSTALLATION WINDOWS PEER-TO-PEER NETWORK........................ WINDOWS NT/2000 NETWORK..................................... NETWARE NETWORK Product Introduction.........................................................7 Product Network Architecture.........................................9 Network Network Functions Network Network of the Function...................................... Architecture....................................................... and and and Network Remote (Utility).................................................................. Architecture....................................................... NT/2000 and and Architecture....................................................... NetWare PSETUP..........................................................
+UNIX SYSTEM NETWORK CONFIGURATION UTILITY WEB MANAGEMENT Introduction..................................................................... The TCP/IP the IP DHCP........................................................................................... BOOTP the IP Address............................ the Introduction..................................................................... Search Search Servers......... the TCP/IP Wireless SNMP Introduction...................................................................110 of
+IPP PRINTING................................................................ TELNET MANAGEMENT TCP/IP........................................................................................ SMB Wireless Encryption................................................................................ Survey............................................................................... TCP/IP........................................................................................ NetWare Introduction.....................................................................137 Introduction...................................................................142 Command the Command Other Commands
+Introduction to the HWPS1UG
+Product Introduction Congratulations purchasing HWPS1UG USB Wireless The HWPS1UG and that USB to wireless or The HWPS1UG with wireless and allowing to to 10Base-T or 100Base-TX without the PC The HWPS1UG and with the to from anywhere, from and from The HWPS1UG IPX, TCP/IP, and It the operating and including NT/2000/XP, NetWare, MAC OS X, With the HWPS1UG easily and instantly the and the features this the following chapters, the features, and If would to and quickly, please to the Installation that with this
+Product
+Network Architecture This section and the HWPS1UG strongly that this section completely and the that to operating of typical with There computers, with optional Below the three of this (optional) Network NT Workstation Network NT NetWare
+Network Functions Unix NT Workstation the HWPS1UG IPX, TCP/IP, and directly through the from of the NT NetWare
+Network Functions Unix NT Workstation The HWPS1UG PTPP and 95/98/NT/2000/XP users. The PTPP the TCP/IP the the PTPP (Peer-to- the or allowed) search through of the and selected to below) NT NetWare
+PTPP UNIX UNIX (includes HP/UX, SCO Unixware IBM AIX and others) and the LPR to to HWPS12U. MAC OS The MAC OS the to through HWPS1UG. P1 P2 MIS-2 P1 P3 MIS-1
+Network Functions Network Unix NT Workstation Common the following operating NT/2000 The HWPS1UG PTPP with NT and PTPP the directly to the HWPS1UG this function NT/2000 allows authority and other advanced features. NetWare NetWare the HWPS1UG offers including Network NT NetWare
+Network Common the following: Network The PPTP the TCP/IP to to the NT/2000 Network The function become the PTPP NT/2000. this function NT/2000 user authority and other advanced features.
+NetWare Network below) NT IPX NetWare IPX TCP/IP IPX IP PTPP TCP/IP IPX
+of the Chapter the and The following chapters and features each of the following operating Chapter Network NT/2000 Server-Based Network NetWare Network Chapter UNIX Network You the and sectio to Chapter and chapter the and both and browser. Chapter the IPP functions and IPP to the through the of NT/2000/and XP IPP
+Function The The below: PTPP (Peer-to-Peer-Printing) TCP/IP (LPR) IPP NetWare
+Unpack the and the items section the HWPS1UG to the to the to the The the Power-On-Self-Test (POST) The LED to to that the ready. NOTE1 You MUST the shipped with the HWPS1UG NOT other from other NOTE2: To the HWPS1UG and other that the the
+Network
+Architecture The HWPS1UG which and Through and users immediately the of The the following Installation and to section information). the his/her the from the
+and to section information). the PTPP (Peer-to- PTPP the search the and the to Network Architecture section information).
+and and WINDOWS 95/98/ME/NT/2000/XP POWER ON: correctly connected to PC, router, and please the installation, please that (TCP/IP, IPX and/or and PC. If they please operating and/or instructions to The the 95/98/ME/NT/2000/XP CD CD-ROM should the automatically. If manually from CD-ROM directory.)
+The as follows: Click and the to the Click Next to the of the software and
+Click Next, to the where the HWPS1UG Click Next, and the to It recommended to software and
+Click Next, to the where the Click Next to the installation.
+The this please to the Once the activated, the to with Please connected to Ethernet and and connected the to
+Once the please the Next to If there with the inform of and with You choose to this and clicking the the that the to proceed. The that the Network. Please choose the to and Next. You the Refresh to refresh the (Please that appear Once selected from the the username/password appear. Please type and and then OK. The
+Once and the selected the appear. The allow to the following: to to to
+SMB The to with. Please the SMB information. and and the attached to that displayed this (You refresh the the attached Please Next when ready to proceed. The to If DHCP the and to the IP If there DHCP the internal and IP to assign to the If to the IP IP the IP only.
+Typically IP Gateway the IP of computers router or The and this based Please Next once found the IP (WIRELESS MODELS ONLY Wired please to The Network allow to wireless to wireless router, or Please highlight the wireless that to assign the You choose to the following of or wireless information manually: Network This the type of wireless this trying to to or router.
+this wireless to to the directly, bypassing routers or Please Next once selected wireless If chose to to encrypted this If to non-encrypted wireless please to the This allows to to the wireless Please that router or broadcasting its wireless with the that this There three of (WEP WEP and WPA). You assign when using these that the as the to router or
+Please Next once
+Summary of The following summary of that to to the Please to the and The allows to to The displays each detected. If displayed, please turned and connected to the You the refresh to search connected
+Please the to to the and the The and to This selection You to or from the existing of currently
+Please which option to choose and highlight the it the of Press to the process.
+Once properly bound to the RED the indicating installation. Once bound to the the to proceed.
+The allow to the Please highlight the and the to that properly There the first to the If there the please and and and the selection
+WINDOWS Click the button, choose Select Next Select and and then Next
+Choose the Network which created the or process, and Next Complete the of the to the
+WINDOWS XP Click the choose and C The appear Press Next. Select attached to this Press Next.
+the Select the following and the selection to created Press Next. and and then Next. Please through the of Next to Press the to Please attached to the HWPS1UG.
+the completed, there Network section Remote Remote section NetWare NetWare software chapter Uninstall
+and the CD shipped with the HWPS1UG CD-ROM The automatically. If automatically, manually from CD-ROM directory. The the as follows. Click and the displayed. Click Next and specify the where the
+Click Next and the where the Click Next to the installation.
+Once the software the allow to HWPS1UG to The allows to to The displays each detected. If displayed, please turned and connected to the You the refresh to search connected
+Please the to to the and the The and to This selection options. You to or from the existing of currently Please which option to choose and highlight the the of Press to the process.
+Once properly bound to the RED the indicating installation. Once bound to the the to proceed.
+The allow to the Please highlight the and the to that properly There the first to the If there the please and and and the selection checked.
+completed, there three located the Network Remote Uninstall Network The Uninstall Network software. The other as follows: Network The Network offers to or from the the the search the and them the of the below)
+If another this first. This search and allow to the the the and to directly to the through the
+Please that Network and the search and other You the Remote the section to Remote (Utility) The Remote to and of From the to other of and Please that this function the TCP/IP Please follow the below: the Remote Press then the IP and the LPR of each
+to the function, to with the and as the Press OK to the
+NT/2000 Network
+Architecture and Server-Based the NT/2000 NT/2000 to the PTPP to the service the Other to the and the shared below). NT TCP/IP IPX TCP/IP IPX PTPP TCP/IP
+NT/2000 and Please follow the procedures below of (PTPP) NT/2000 and the HWPS1UG. If this first the please the software NT/2000 first. to section instructions. If already and NT/2000 the PTPP please the software. to section and instructions. Please NT/2000 and that from NT/2000 to the through the PTPP
+the with the the process.
+and the completed, the to the shared Network Neighborhood. You then to New Select Network as shown the below, and the to the
+NetWare Network
+Architecture the NetWare functionality the HWPS1UG, to allow or attached to the to connected to The HWPS1UG NetWare The which the functionality of the NetWare the PSERVER the NetWare first workstation; the routed to NetWare The NetWare then the and the the from the to the The of the NetWare network functionality the and easy installation. Enhanced performance.
+of NetWares Each should NetWare servicing the Each account with which the NetWare
+NetWare Once connected to Ethernet with software PSETUP the PSETUP with the NetWare PCONSOLE The as follows: From workstation, to NetWare as SUPERVISOR. the PSETUP included the CD-ROM. Select from the Choose NetWare from the
+the the field. the of the wish. the to the where the located. Press to the that the should and PSETUP. At this the You the NetWare and the NetWare PCONSOLE the necessary, the selection. Choose the Information selection. Press the to such as PQ or Q1.
+You created the that Press the the displayed. Select Information. Press the to NetWare The to the the of the or assigned PSETUP. Press to the created Select
+Select Select (or and then LPT1 (or LPT2, LPT3) the field. If to this field. Press and to the Select Serviced then (or and Press and created to the of serviced the the service, or to the
+Repeatedly to the PCONSOLE the to the NOTE: If the with and should ready to You should to redirect to CAPTURE the shown the section.
+UNIX Network
+Introduction The HWPS1UG TCP/IP through the Unix Daemon) The based the BSD of Unix and of This chapter to the TCP/IP operation, and to to allow to the The this follow the BSD based Unix Please to the related the of To the the following below: the TCP/IP Support. the IP the IP Address. the host. the section, these depth.
+The TCP/IP The of the HWPS1UG TCP/IP You the HWPS1UG to TCP/IP the or PSETUP included the HWPS1UG CD-ROM.
+the IP The IP to the You the IP Unix using of the following DHCP BOOTP The the three to its IP its IP as DHCP There Unix that the DHCP and the procedures to the DHCP This the DHCP It highly that the DHCP should located the as the HWPS1UG. BOOTP If the BOOTP UNIX and to the the BOOTP to the IP of the that the BOOTP should located the as the If Network Information Services (NIS) to the NIS with the BOOTP services the
+following BOOTP To the NIS please to To the IP the BOOTP to as the of the BOOTP with rights. the following to Optionally, assign to the IP You this to the the following to the hosts /etc/bootptab to the following: should with Where the of the HWPS1UG; the that the type The that the Ethernet of the HWPS1UG the ID located the The the The should to the IP to to the below of with the following
+ID: 0000B4010101 (this Ethernet 0000B4010101), IP The this the /etc/bootptab should PS010101:\
+the IP To that to the assigned IP PING to the
+Remote the You this to Unix host(s) to allow to The below Unix that related to BSD or other of that: The should treated as BSD host. The should the (or IP that assigned to the The (or the should or the of the the You to the below, as the To Unix Optionally, assign to the IP You this to the the following directory the the directory where normally the such as or
+to the hosts to the following: should with More than used, with The should to the IP assigned to the You assigned the /etc/hosts The should to the directory created the The should to the of the The should or which attached to. The HWPS1UG should from Unix host.
+Introduction This chapter the This the to section and This and the This only the HWPS1UG include or other or NetWare the The the following and Search Search the Network Network Information about the NetWare NetWare tion Network and TCP/IP IP and DHCP
+Wireless Wireless LAN SNMP through the SNMP You Through the the of the Network each function the following section.
+Search Search HWPS1UG the Search the The seconds to search the the Group the of You the would to from the The the selected the right of the
+Click the the to the of the selected Information about the selected including the MAC ID, type, firmware of each NetWare NetWare NetWare IP type, and abilityetc. You refresh the the Refresh
+You the the
+the Click the the and the items of the selected displayed the right of the You the Please and when or
+Click the and the appear. often computers. The HWPS1UG this to the and to other workstations. You to the and each of the HWPS1UG. the HWPS1UG that The selected active other workstations HWPS1UG. workstations the If
+to with every workstation every should the field. This the type of attached to each You the type information from the of attached
+Click the and the displayed. You basic information this You the and SMB This the of HWPS1UG. You this to the HWPS1UG when searching through the and SMB the of SMB that this to. should the they this through the SMB
+to authenticate the through the
+Netware Click the NetWare and the NetWare displayed. The HWPS1UG the NetWare and the NetWare You to assign the NetWare and the of the NetWare each the that the HWPS1UG the NetWare Attached the of the the NetWare The
+the NetWare You to assign each of the HWPS1UG. NetWare the of the NetWare that
+Click and the displayed. From the to each each and to
+This the of to assigned The this to the Firmware: You the Firmware to to the of the Click the and the firmware selecting the the to the process. Function: You or to manually or the wireless functionality of the HWPS1UG If manually the wireless functionality, the wireless LAN and Ethernet If manually the wireless functionality, the wired LAN and wireless functionality You to the to or the wireless functionality. The only ether Ethernet or wireless LAN It both Ethernet and wireless LAN the the initially the LAN connected to active through the Ethernet If the connected to active through the Ethernet when booting the Ethernet LAN (Wired). If the connected to active through Ethernet when booting the wireless LAN (Wireless). The to
+TCP/IP
+Click the TCP/IP and the TCP/IP appear. You the to its IP from DHCP or manually specify IP. The HWPS1UG built-in DHCP You this DHCP and IP Click the IP to the IP If the to IP from DHCP IP. You Specify IP to manually assign IP Address, and Gateway the HWPS1UG. Click the DHCP to the DHCP You the DHCP and assign of IP The DHCP You to Address, Address, and DNS the HWPS1UG. The IP each
+Wireless If to the wireless LAN please the HWPS1UG through Ethernet the wireless the wireless LAN of LAN Ethernet and the HWPS1UG the from the rear of the If wireless please Ethernet LAN the and the through Ethernet wireless LAN correct. Click the Wireless and the wireless displayed. If or wireless router to should to to the wireless LAN. If
+wireless currently and to wireless please selecting the wireless operation of the Next to with wireless HWPS1UG or wireless router to relay information from to the You the or manually assign the SSID of the or wireless router to If to the HWPS1UG or wireless router, the following displayed.
+This of wireless Select the to to and Next. If the that to Scan to the HWPS1UG wireless
+the HWPS1UG with other wireless stations or manually assign the SSID of wireless You the the that the with or manually assign If to the HWPS1UG active wireless station, the following appear.
+The displays active wireless stations. Select the wireless to to from the and Next. If the wireless that the HWPS1UG to with, Scan to the the Both and to or as the following
+If to WEP to wireless to ON to the Wireless Security function. The wireless security should the with other wireless the You or The the the security however, the of WEP performance. four and as the the wireless security features of this Next to the IP of wireless
+You to allow the to IP with the DHCP or manually assign the IP If manually assign the IP to IP and the IP Next to the wireless
+Click to the wireless
+SNMP Click the SNMP and the SNMP Contact: You the information This information displayed the SNMP Location: You the location of the This information displayed the SNMP
+Click the the and the of the selected shown the right of the information the and the through the process. the of the and the of each Please to section and information.
+Select to the Please to section information.
+the IP of the HWPS1UG and the DHCP Please to section information. NetWare Please to section information.
+Please to section information.
+Select the Wireless and wireless LAN Please to section information. Click to
+Click the Report the and the The information of the The information includes MAC ID, and
+Introduction The HWPS1UG and the Through the or the easily and the through the IP browsers URL field to the HWPS1UG through the built-in
+of You to the or the of the HWPS1UG. the IP of the displayed. You to and the and
+The Information includes and MAC Address.
+This information connected to each of the
+TCP/IP This TCP/IP which include IP Address, and Gateway. It the DHCP including IP, IP, and
+SMB This the SMB
+SNMP This displays the SNMP
+NetWare This the NetWare including of the and of each
+This the includ and
+WIRELESS Wireless to the wireless first this the the please or to the wireless of this wireless or wired LAN to to the HWPS1UG Wireless only LAN wireless LAN NOTE: If the AUTO please Ethernet and once to the Wireless
+You the following wireless to to the HWPS1UG These include ESSID and the the Wireless to the right of You the wireless that to to wireless These include ESSID and You manually the of wireless LAN this or the function to search and the HWPS1UG with Used to the operating wireless You choose
+or If wireless and to should choose to the If wireless or router should choose to the HWPS1UG ESSID the wireless LAN. The ESSID from the wireless Please to the ESSID of stations and the WLAN that to the wireless that wireless LAN Please that the of stations and the as selected WLAN.
+Encryption The HWPS1UG the WEP to the security of wireless LAN. WEP authentication which protects wireless from users. If WEP wireless please the authentication type and WEP of to the as wireless station, router, or The HWPS1UG WEP With WEP the wireless securely. WEP Length: You choose to the WEP function. You choose to WEP or WEP with wireless or WEP Please that the of
+WEP the amount of The the which Format: You ASCII Characters or the "A-F", "a-f" and to as WEP The WEP to through wireless the text following the below. WEP: input the "A-F", "a-f" and or ASCII characters as the WEP: input the "A-F", "a-f" and or ASCII characters as the Select of four to You the of the the as the used.
+You this function to search wireless The following information SSID, BSSID, Encryption and You the this to with or to the to manually the wireless
+You the each of the HWPS1UG, and or the wireless functionality. This the of the You this to the HWPS1UG when searching the through the and the of the Each to assigned The this to the
+This where the and the to authenticate the through the
+Advanced From the Advanced to each or
+TCP/IP You the to IP from DHCP or manually specify IP. The built-in DHCP You this DHCP and IP If the HWPS1UG to IP from the DHCP IP. You Specify IP to manually IP Address, and the You the DHCP and assign of IP The DHCP You to Address,
+Gateway, and DNS. The HWPS1UG IP each
+NetWare The HWPS1UG the NetWare The the NetWare You to assign the NetWare and the of the NetWare each the of the the NetWare Attached the of the the NetWare The the NetWare You to each of this
+NetWare the of the NetWare that
+often computers. The HWPS1UG these to the and with other workstations. You to the and each of this The HWPS1UG to shared with other workstations. workstations the the If to the to workstations should the field. This the type of to each You the type from the of the
+The finished and You the to the
+You this to the factory of cleared.
+You the HWPS1UG from this Click to the firmware from or CD and then OK. The firmware to
+IPP
+Introduction The IPP with the TCP/IP The HWPS1UG USB 10/100M IPP It to of the internal to the IPP features. and XP IPP functions through the operating internal IPP functionality. IPP with PC that the HWPS1UG IP. You with users the who know and IP of HWPS1UG. Please that the IPX IPP or XP.
+It to IPP the know IPP and they correctly to IP with routed IP If would to with users of internal to IP that the You to that router or firewall the IPP those Please or routers DMZ or
+You to New To this, the Network as shown the below and Next. Select to the or or office and the URL of HWPS1UG The URL IP:631/LPT_PORT The IP of the URL the IP LPT_PORT the of that connected to. the three-port the or which connected to. (Please write the and of The to write the and the IPP IPP IP as follows: The URL located the first of the IP and located the and respectively.) the URL of
+Next and the to the shared
+Introduction The HWPS1UG and through
+the and to the IP. Then prompted to the username and the username and the following and to this through command
+Command The to the of this The of the as follows: The then the command. to the IP of the type the command and the IP IP_ADDR=192.168. displayed: IP_ADDR=192.168.1.250 If only, the of command. The following the whose obtained the command: PORT1_PS=PS2548
+username username username LAN function or Wireless LAN or ESSID ESSID of the ESSID wireless LAN USER_PASSWORD= WIRELESS_FUNCTI ON=2 AP_MODE=1
+wireless LAN The of WEP WEP WEP WEP WEP CHANNEL=11 WEP=0 WEP_DEFAULT_KE Y=0 WEP64_KEY1=0123
+WEP WEP WEP WEP WEP WEP64_KEY2=0123 WEP64_KEY3=0123 WEP64_KEY4=0123 WEP128_KEY1=012 WEP128_KEY2=012
+WEP WEP IP of the of the of the WEP128_KEY3=012 WEP128_KEY4=012 AP_ADDR=192.168 DEFAULT_GATEW AY=192.168.2.254 SUBNET_MASK=2
+Polling second) of the the NetWare of the the NetWare The of that this to printertype1 The type of the attached to this SMBDG The of the SMB that this to PORT1_POLLTIME PORT1_QNAME=P Q1 PORT1_APPLEAON E=* printertype1 PORT1_PRINTTYPE SMBDG
+SNMPC The information of this SNMP SNMPL The location of this SNMP The of this DHCPS The DHCP or DHCP IP DHCP or SNMPC SNMP_CONTACT= SNMPL SNMP_LOCATION= PORT1_LPTNAME= DHCPS DHCPD=0 DHCP DYNAMIC_IP=0
+or SMBD SMB or SNMP SNMP or IPX NetWare or APPLE_ENABLE=0 SMBD SMBD_ENABLE=1 SNMP SNMP_ENABLE=1 IPX IPX_ENABLE=1
+LPD LPR or IPP IPP or RAW RAW or LPD LPD_ENABLE=1 IPP IPP_ENABLE=1 RAW RAW_ENABLE=1
+the Command The command to the of this The of the as follows: The written the to the IP of the to type the and the IP of the If only the of the and the The following the whose command: PS001 username username
+or the wireless LAN function. LAN or ESSID ESSID of the ESSID wireless LAN wireless LAN. The of WEP. The should or The should inf or The should The should
+WEP WEP WEP WEP or The should The should The should The should
+WEP WEP WEP WEP WEP The should The should The should The should The should
+IP of the of the of the second) of the the NetWare of the the NetWare The of that this to PQ1
+printertype1 The type of the attached to this SMBDG The of the SMB that this to SNMPC The information of this SNMP SNMPL The location of this SNMP The of this DHCPS or the DHCP The should or printertype1 SMBDG SNMPC SNMPL DHCPS
+DHCP or to IP DHCP. or SMBD or SMB SNMP or SNMP The should disabled or The should or The should or The should or DHCP SMBD SNMP
+IPX or NetWare LPD or LPR IPP or IPP RAW or RAW The should or The should or The should or The should or IPX LPD IPP RAW
+Other Commands The to the IP (IP, of the IP_ADDR=192.168.2.1 SUBNET_MASK=255.255.255.0 DEFAULT_GATEWAY=192.168.2.254 The to the The to the The command to commands of the

@@ -1,0 +1,60 @@
+USB PS12U
+FCC Warning This tested and found to with the Class to of of the FCC These to reasonable protection interference when the operated This and and, and with the instruction interference to of this to interference which the to the interference their CE Warning This Class this interference, which the to VCCI Warning LIMITED WARRANTY
+that every PS12U free from physical and workmanship years from the of purchase. If the this two-year warranty Customer Service to Authorization Warranty or only. BE SURE TO HAVE YOUR PROOF OF PURCHASE. RETURN REQUESTS CAN NOT BE PROCESSED WITHOUT PROOF OF PURCHASE. the Authorization clearly the of the and include of purchase. IN NO EVEN SHALL HAWKING TECHNOLOGYS LIABILTY EXCEED THE PRICE PAID FOR THE PRODUCT FROM DIRECT, INDIRECT, SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES RESULTING FROM THE USE OF THE PRODUCT, ITS ACCOMPANYING SOFTWARE OR ITS DOCUMENTATION. warranty or representation, expressed, or statutory, with to its products or the or of this and accompanying software, and specifically its performance, merchantability, or the right to or its products, software, or without obligation to or entity. Please to:
+Congratulations purchase of the PS12U USB One 10/100M The P-S12U and to USB and to The PS12U allowing to to or without the PC The PS12U and with the to from anywhere, from and from Please the to the of PS12U One CD-ROM One and Drivers)
+What to One Three USB or One Ethernet attached to attached to network Network
+the the LED to as of the POST This that the properly This LED, however, whenever transmitted and printed. This light the PS12U LED The with three LED lights to or
+Hardware the PS12U to the PS12U to printer(s). the AC the the back of the PS12U the as the of the It should to normally. If please or
+POWER ON: correctly connected router to PC and please INSTALL the Software: To please follow the below. the CD CD-ROM. the from The Network appear, then Click Next The where would to Please type directory or and Click Next
+The to as below: Network the PC and IP the NetWare and IP Select and Click Next The to and the Once the to to PS12U
+the double-clicking the from
+Click the (Optional) DHCP IP from DHCP there DHCP This option allows the to IP-related from DHCP This PLEASE NOTE: If to IPP please IP manually. If manually specifying IP to the please to the the IP option, type IP the The IP the IP of the network and TCP/IP
+the option, type the LAN or currently to (Optional) the Gateway field, type the IP of the OK The the the memory. Congratulations! You PS12U!
+NETWARE SETUP NetWare NetWare as or Click follow Select the NetWare to which the attached. and NetWare as
+Each to each of the Click OK From NetWare such as that connected (redirected) to of the NetWare serviced the of NetWare. To the follow the PCONSOLE NetWare or NetWare and the to NetWare
+server/Services NetWare as or From the that to Click appear. Select NetWare and type the that created PCONSOLE. the and the following
+(Optional) Select NetWare that (Optional) NDS Select NetWare NetWare or that NDS Click OK From NetWare such as that connected (redirected) to of the NetWare serviced the
+to To to the through follow the below: the to and Double-click the Select and Next Select the and type and Next LPT1 and Next the and Next reading, that the properly. Select and Right-click the created Select and Click the and the Other, as shown the following
+the Network and OK The then appear, with the ID (The of the ID, located the back of the Select from the which connected to of) printer(s), as shown the following
+PID PID USB PID USB the first search the the using the IPX/SPX If the IPX/SPX the displayed with its ID, as shown (The of the ID, located the back of the Select of the from the If the IPX/SPX shown the Then please TCP/IP or alternatively. It to search the the the specify the finished, the with its ID, as
+shown the following (The of the ID, located the back of the Select of the from the USB USB Once the selected first please the to and third
+To 2000/XP Click to and Click Next The appear, Select and Next From the type of as shown the following the TCP/IP Click Next and Next The TCP/IP then appear as shown the below. the IP
+assigned to the the or IP and Click Next The IP_One, IP_Three) accordingly to the the TCP/IP as shown the following Select Custom and Click the Once finished, Next
+the TCP/IP as shown the type and then Next
+Please DO NOT type other than or this the the LPR QUEUE NAME. (If attached to the type If connecting to the first
+USB the top of the PS12U, type If to the USB type the Click OK Select the and type and Next or with the and the Next appear to selection, To that the properly Select (Recommended) and then
+OS Please follow these to the PS12U OS HD the and "Applications". Click Click Press It shows the of the To Select and The the You the or Don't Select"! Press the the and then "OK." LPR To through LPR: Select "IP Address: the IP of
+or USB USB Select the or and then the Format the and then "OK."
+from the to PS12U, the IP The easily IP with the the IP of the as the URL, Then the appear.
+Click to the information of each connected to the Click TCP/IP to the TCP/IP Click NetWare to the Click SNMP to the SNMP Click to the Click the and the appear.
+of the Contact: of the Location: Location of the This option allows to input of the Re-type You input the user as The You should this
+Click Next to This option allows to the function of the There or Click Next to TCP/IP. TCP/IP DHCP/BOOTP: The IP-related from DHCP IP Address: This option allows to input IP from the
+The IP the IP of the This option allows to input the from the Gateway: This option allows to input from the The IP of the router or to of the Click Next to or Click to
+NetWare NetWare as or NetWare and type the that created PCONSOLE. Select the NetWare that the attached Click to the Click NetWare This option allows to input the which the or PCOMSOLE
+The which the the servicing of Encrypted This option allows to input encrypted NDS To NDS to NDS To Tree of NetWare then input the To to To of NetWare. from the The to NetWare that from selected
+NetWare to its architecture and functionality, the NetWare NDS the NetWare the first the the function SET BINDERY CONTEXT the AUTOEXEC.NCF the (O) If this or (OU) to NDS tree the NetWare please the following section the
+Procedure At type Select NCF options Select AUTOEXEC.NCF or the SET BINDERY CONTEXT to include the NDS (O) and (OU) where users located. SET BINDERY CONTEXT O=ABC; OU=SALES.OU=ABC-USA.O=ABC; OU=TECH.OU=ABC-USA.O=ABC the AUTOEXEC.NCF Please NetWare to immediately. Next, please to section this chapter to NetWare as or NetWares PCONSOLE and to the
+From NetWare such as that connected (redirected) to the NetWare serviced the Please to NetWares Server/Services PCONSOLE commands.
+SNMP TCP/IP Network (SNMP). SNMP the industry as and of SNMP actually includes and of The contained Information (MIB) that the SNMP The SNMP TCP/IP the Network (NMS) software the reading and writing the MIB the The Network from third-party such as MIB the NMS software SNMP to community each SNMP authentication The to community The with right or activity the SNMP the SNMP through SNMP Following
+SNMP that the Activities/SNMP Trap or the interface Cold or the the Authentication the the the interface back to life, or SNMP with community that match the community the with the memory), authentication
+the SNMP the following MIB MIB system.sysContact Indicates the Indicates the system.sysLocation Indicates the location of the snmp.snmpEnableAuthenTraps or the function of SNMP Authentication to the the community within SNMP correct.
+SNMP functions their browsers. Click to appear the Click SNMP SNMP Community: The to community HP This option allows to SNMP Traps: the function of SNMP Authentication to the the community within SNMP The community with right the HP
+The from workstations connected Ethernet The the the Chooser and selecting that connected to the Click then appear the Click this option, type that the to to or (This the to search and to the that the router, found) This that least the If the displays the as
+the of the the this option, type or as recommended The Chooser shown as follows: ATALK_PS where the of the ID. ATALK_PS-40EEED-1. You the ATALK_PS to this option. The the to the specify. the selected type (recommended). Format: this option, includes ASCII TBCP and BCP
+and HP IPP The PS12U the (IPP). You this to the as as IPP correctly or XP the software IPP from PC the to PS12U from location. the network the firewall to IPP from of the IPP and XP To 2000/XP IPP service follow the below:
+Click the button. Select and then the option. Click the The appear, then Click Next Select the Network option, and then Next Select to the or option. the URL type the IP Then Click Next
+to or the IP to to the the PS12U that would to to. USB USB to the the following Then Click OK Select the and type and Next
+If Windows-based to this as the please and Click Next Click the You IPP
+from the IP of the as the URL. Click and then choose From as shown the following Click and the firmware Click
+from Click the Select that the located the directory as The (USB as shown the following
+to the successfully, to to the The PCONSOLE incorrect. The specified and the memory match the PCONSOLE. The network or connected to the or disconnected. The off-line, or of
+the information PCONSOLE. the information of the to that the cabling and properly connected. the the It should Connected. or unknown characters. and or incompatible with that that the the If these to please
+This achieved through the function. with the PS12U. C The and to while the Explanation There might This the to the from the the to the the and the
+The LED light POST. and The completed. The the Please the locted the installation CD The reports or while Explanation The the or the specified the
+to there the the or the without characters or or The reports Already Already or Already specifying the or the Explanation or the NetWare as the specified the Specify or the
+Ethernet to IPP IPP allows to to another the Network known as NIC (Network Interface Card). Used to or with Ethernet or wireless to the Broadband that allows broadband to the Broadband include than speed). The of Broadband DSL and the of while DSL the telephone operating DSL Router to from to users.
+IP ISPs to broadband services to the Router the services of broadband and IPs.
+MEMO
+MEMO
+MEMO
+MEMO
