@@ -18,13 +18,13 @@ def main():
 
     model_best = LLM2VecModel.LLM2VecModel(BEST_MODEL_BASELINE)
 
-    print("manuals_test")
-    result_best, result_a, result_b = run_test(manuals_test, [model_best, model_a, model_b])
-    evaluate_topk_accuracy([result_a, result_b, result_best])
+    # print("manuals_test")
+    # result_best, result_a, result_b = run_test(manuals_test, [model_best, model_a, model_b])
+    # evaluate_topk_accuracy([result_a, result_b, result_best])
 
     print("manuals_seen_test")
     result_best, result_a, result_b = run_test(manuals_seen_test, [model_best, model_a, model_b])
-    evaluate_topk_accuracy(result_a, result_b)
+    evaluate_topk_accuracy([result_a, result_b, result_best])
 
     print("manuals_unseen_test")
     result_best, result_a, result_b = run_test(manuals_unseen_test, [model_best, model_a, model_b])
@@ -44,12 +44,14 @@ def run_test(test, models):
     return output
 
 
-def evaluate_topk_accuracy(similarity_matrices, topk=(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)):
+def evaluate_topk_accuracy(similarity_matrices, topk=(1, 2, 3, 4, 5)):
     results = []
 
     for idx, sim_matrix in enumerate(similarity_matrices):
         num_queries = sim_matrix.size(0)
-        topk_preds = sim_matrix.topk(max(topk), dim=1).indices
+        max_topk = max(topk)
+
+        topk_preds = sim_matrix.topk(max_topk, dim=1).indices
 
         matrix_result = {
             "matrix_index": idx + 1,
@@ -69,7 +71,6 @@ def evaluate_topk_accuracy(similarity_matrices, topk=(1, 2, 3, 4, 5, 6, 7, 8, 9,
 
             print(f"  Top-{k} Accuracy: {acc:.2%} ({correct_topk} / {num_queries})")
 
-        print()
         results.append(matrix_result)
 
     return results
@@ -139,22 +140,25 @@ def manuals_seen_test(a):
 
     documents = [
         "They require a 120V, 60Hz grounded electrical outlet with a dedicated 15- or 20-amp circuit.",
-        "Before cleaning the oven, you should switch it off and allow it to cool down completely to avoid the risk of "
-        "burns or electric shock.",
-        "Before cleaning the fridge-freezer, you should switch it off and unplug it from the power supply to avoid "
-        "the risk of electric shock.",
-        "For cold weather installations, you should follow the instructions for installing a thermal break to prevent "
-        "cold air from entering through the duct.",
-        "You should isolate the appliance from the electricity supply before cleaning or performing any maintenance.",
-        "You should switch the unit OFF and disconnect it from the fully earthed (grounded) power outlet before "
-        "removing the protective cover.",
+        "Before cleaning the oven, you should switch it off and allow it to cool down completely to avoid "
+        "the risk of burns or electric shock.",
+        "Before cleaning the fridge-freezer, you should switch it off and unplug it from the power supply to "
+        "avoid the risk of electric shock.",
+        "For cold weather installations, you should follow the instructions for installing a thermal break "
+        "to prevent cold air from entering through the duct.",
+        "You should isolate the appliance from the electricity supply before cleaning or performing any "
+        "maintenance.",
+        "You should switch the unit OFF and disconnect it from the fully earthed (grounded) power outlet "
+        "before removing the protective cover.",
         "The ILCGR4822 sinks have a heavy sound-deadening coating that helps reduce sound.",
         "Before connecting the power, you should ensure that both the PC and the Touchmonitor are turned off.",
-        "The Model 2382IP can play CDs, USB drives, SD cards, and MP3 files. It also includes an iPod docking station "
-        "for playback.",
+        "The Model 2382IP can play CDs, USB drives, SD cards, and MP3 files. It also includes an iPod "
+        "docking station for playback.",
         "The main maintenance tasks include cleaning the membrane every four to six months and replacing the "
-        "electrolyte solution and membrane if performance degrades. This involves unscrewing the sensor, inspecting "
-        "and polishing the cathode if needed, and carefully refilling the electrolyte while avoiding air bubbles."
+        "electrolyte"
+        "solution and membrane if performance degrades. This involves unscrewing the sensor, inspecting and "
+        "polishing the"
+        "cathode if needed, and carefully refilling the electrolyte while avoiding air bubbles."
     ]
 
     return calculate_cos_similarity(embeder=a, docs=documents, queries=prompts)
