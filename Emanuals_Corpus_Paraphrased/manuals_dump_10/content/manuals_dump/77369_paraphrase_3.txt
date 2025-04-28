@@ -1,0 +1,976 @@
+**EMC Corporation Corporate Headquarters**
+424-EMC2 Service SVC-4EMC  
+South Street, MA  
+EMC Switch DS-32B2 and Director ED-12000B OS Reference Manual  
+Part Number: REV A02  
+Copyright © EMC Corporation. All rights reserved.
+
+The information in this publication is provided "as is." EMC Corporation makes no guarantees or warranties regarding its content and expressly disclaims implied warranties of merchantability or fitness for a specific purpose. The EMC Switch DS-32B2 and Director ED-12000B software has been tested and complies with UL1950, CSA, IEC 60950/EN60950 standards for safety, as well as FCC Class B, CISPR22 Class A, and EMC Directive 89/336/EEC compatibility, including ICES-003 and NMB-003 regulations.
+
+**Warning:** This equipment is classified under FCC regulations as Class A and may cause interference that can affect the operation of other devices. Users are advised to mitigate interference and consult relevant authorities.
+
+The following trademarks are the property of EMC Corporation: MOSAIC:2000, DG, DG/UX, Navisphere, ResourcePak, and "The EMC Effect," among others. Other product names mentioned may be the trademarks of their respective owners.
+
+---
+
+**Chapter: Commands**
+
+- `agtcfgShow`
+- `aliasShow`
+- `backplanetest`
+- `backPort`
+- `bcastshow`
+- `bladePropShow`
+- `centralMemoryTest`
+- `cfgClear`
+- `cfgSave`
+- `cfgShow`
+- `cfgTransAbort`
+- `cfgTransShow`
+- `chassisName`
+- `chassisShow`
+- `chippropshow`
+- `chipregshow`
+- `configDownload`
+- `diagCommandShow`
+- `diagsetcycle`
+- `diagshowtime`
+- `fabricShow`
+- `fabStatsShow`
+- `fanShow`
+- `fastboot`
+- `firmwareCommit`
+- `firmwareDownload`
+- `firmwareRestore`
+- `fspfShow`
+- `fwAlarmsFilterShow`
+- `historyLastShow`
+- `historyShow`
+- `ifModeShow`
+- `interfaceShow`
+- `iodShow`
+- `ipAddrShow`
+- `islShow`
+- `licenseIdShow`
+- `licenseShow`
+- `LSDbShow`
+- `mcastShow`
+- `memshow`
+- `msPlatShow`
+- `msPlClearDB`
+- `msTDReadConfig`
+- `nbrStatsClear`
+- `nbrStateShow`
+- `nsAllShow`
+- `nsShow`
+- `passwd`
+- `perfCfgClear`
+- `perfShowAlpaCrc`
+- `perfShowEEMonitor`
+- `perfShowFilterMonitor`
+- `perfShowPortEEMask`
+- `portCfgLongDistance`
+- `portcfgMcastLoopback`
+- `portCfgShow`
+- `portCfgSpeed`
+- `portErrShow`
+- `portLogClear`
+- `portLoopbackTest`
+- `portPerfShow`
+- `portRouteShow`
+- `portShow`
+- `portStatsShow`
+- `powerOffListSet`
+- `ptdatashow`
+- `ptphantomshow`
+- `ptpropshow`
+- `ptregshow`
+- `ptrouteshow`
+- `ptstatsshow`
+- `routeHelp`
+- `sensorShow`
+- `sfpShow`
+- `slotpoweroff`
+- `slotShow`
+- `snmpMibCapSet`
+- `supportShow`
+- `switchBeacon`
+- `switchCfgSpeed`
+- `switchdiagshort`
+- `switchDisable`
+- `switchEnable`
+- `switchName`
+- `switchReboot`
+- `switchShow`
+- `switchShutdown`
+- `switchStart`
+- `switchStatusPolicySet`
+- `switchStatusPolicyShow`
+- `switchStatusShow`
+- `switchuptime`
+
+### Chapter Overview
+
+**Chapter Commands**  
+This chapter focuses on the various commands used within the EMC DS-32B2 and ED-12000B operating systems (OS) as well as switch functionalities. It includes syslog commands, tracking changes, and route configurations, among others.
+
+**Active and CP Command References**  
+It provides detailed commands for active control processors (CP) and common network troubleshooting processes, along with necessary customer support instructions.
+
+**Contextual Information**  
+This section explains the operational integrity, performance monitoring, and management of both the EMC Switch DS-32B2 and Director ED-12000B. The document encompasses essential information regarding OS features and commands necessary for ensuring proper functionality. 
+
+**References for Additional Support**  
+Related information can be found in multiple EMC publications, covering command specifics, device integration, and terminology clarification. 
+
+**Safety Warnings**  
+Important safety cautions are highlighted throughout, indicating potential hazards related to the software and hardware usage, necessitating user diligence.
+
+**Contact Information**  
+For any technical support regarding EMC products and services, a list of contacts is provided to guide users through obtaining assistance.
+
+**Command Listings**  
+A comprehensive list of commands, along with their specific functions and application contexts, is elaborated, detailing commands related to configuration and diagnostics, such as "cfgSave," "diagShow," and others. 
+
+This synthesized overview maintains the technical integrity of the original text while presenting it in a clearer format for better comprehension.
+
+Here’s a paraphrased version of the provided text, retaining its technical meaning:
+
+---
+
+**Command Overview:**
+
+- **Monitoring Commands:**
+  - `perfShowAlphaCrc`, `perfShowEEMonitor`, `perfShowFilterMonitor`, `perfShowPortEEMask`
+  - `portCfgLongDistance`, `portcfgMcastLoopback`, `portCfgShow`, `portErrShow`
+  - `portLogClear`, `portLoopbackTest`, `portPerfShow`, `portRouteShow`, `portStatsShow`
+  - `powerOffListSet`, `ptphantomshow`, `ptpropshow`, `ptregshow`, `ptrouteshow`, `ptstatsshow`
+  - `qloopCreate`
+
+- **SNMP Configuration Commands:**
+  - Command references for EMC DS-32B2 and ED-12000B OS highlight various operational settings:
+    - `sensorShow`, `sfpShow`, `slotpoweroff`, `slotShow`
+    - `snmpMibCapSet`, `supportShow`, `switchBeacon`, `switchCfgSpeed`
+    - `switchDisable`, `switchEnable`, `switchName`, `switchReboot`, `switchShow`, `switchShutdown`, 
+      `switchStart`, `switchStatusPolicySet`, `switchStatusShow`, `switchUptime`, `syslogdIpShow`, `tempShow`
+      
+- **SNMP Community Settings:**
+  - The commands configure the SNMP settings for the switch, including:
+    - `sysDescr`, describing the switch
+    - `sysLocation`, identifying the physical location 
+    - `sysContact`, for contact information
+    - `swEventTrapLevel`, indicating the severity of generated traps
+    - `authTraps`, managing authentication-related alerts
+
+- **Community Read-Write Access:**
+  - Each SNMP community is defined with read-write or read-only permissions, allowing access to specific operations based on configurations.
+  - Factory default communities are included for context, detailing their respective IP access.
+
+- **Restoration Commands:**
+  - Commands to reset SNMP settings to factory defaults are referenced, such as reconfiguring `sysDescr`, `sysLocation`, and `authTraps`, among others.
+
+- **Alias Operations:**
+  - The `aliasShow` command helps view existing N_Ports with their respective groups, and modifications to these groups can be executed with specified parameters. 
+
+- **Network Monitoring Commands:**
+  - Additional commands, such as `fabricShow` and `nsShow`, are referenced for monitoring and configuring associated ports on the switch.
+
+---
+This paraphrase incorporates technical terminology while maintaining clarity and summarizing the overall functionality of the commands referenced in the original text.
+
+### Enhanced Command Description for EMC DS-32B2 and ED-12000B OS Reference
+
+**Command Overview:**
+The `aliasShow` command displays information about user-defined aliases. If a specific group is defined, it lists the aliases such as EMC DS-32B2 and ED-12000B Operating System references. The displayed data includes an ID (`FFFF`) which identifies the alias created for the group and specifies the type of routing involved.
+
+**Command Execution:**
+At the prompt `switch:admin>`, invoking `aliasShow` indicates the current operation. The command can also be executed from existing configurations or can create new aliases. For effective command execution, it is necessary to ensure the switch memory is updated. 
+
+**Group Specification:**
+When the command is processed, it may require group-related configurations. The following are necessary for using the `switchShow` command alongside:
+
+- Definitions for the type of ID
+- URLs for routing types
+
+**Test Procedures:**
+The `backplanetest` command assesses the backplane functionality of the ED-12000B model specifically. By leveraging transmitter and receiver features, this command evaluates boolean types related to count and data throughput.
+
+- Command configuration includes specifying the count type and additional parameters for thorough analysis.
+- Execution can also involve timing aspects such as XMIT TIMEOUT DATA related to backplane functionality.
+
+**Routing Information:**
+The `bcastshow` command presents routing details crucial for switches, displaying ISL static routing information. Users can toggle beaconing features to facilitate physical functionality checks, which are indicated by LED signals on the switch.
+
+**Memory and CAM Functionality Testing:**
+Commands such as `centralMemoryTest` and `portLoopbackTest` validate memory operations. When executed, these tests provide confirmation of functionality across key system components:
+
+- A successful CAM (Content Addressable Memory) operation is indicated through diagnostic messages that span various initialization and state checks.
+
+### Note:
+Any command usage should adhere to the defined parameters to ensure clarity in operation outputs and to safeguard against configuration errors.
+
+The `centralMemoryTest` command assesses the memory subsystem of the ASIC. It performs both read and write operations on the ASIC's memory and reports the number of passes through `passCount`. Initially, the switch must be disabled using the `switchDisable` command. The Built-In Self-Repair (BISR) functionality is included for each ASIC, which uses Built-In Self-Test (BIST) to identify issues within the SRAM. After any components are replaced, BIST will initiate the BISR/BIST process. If any SRAM exceeds the time-out threshold, an error will be logged as `DIAG-CMBISRTO`. In normal operations, if errors are detected, the system communicates via `DIAG-CMBISRF`. 
+
+Memory operations (read/write) depend on the defined switch parameters. Data is written in a specified format, and validation is performed through repeated operations using both direct and inverted data patterns (D and ~D). The Power-On Self-Test (POST) operates harmoniously among multiple ASICs over a QUAD_RAMP configuration, ensuring they connect properly across the physical board. Commands for `centralMemoryTest`, along with those for the EMC DS-32B2 and ED-12000B OS, include provisions for managing memory access and testing.
+
+Additional commands within this system include `cfgClear` and `cfgShow`, which manage configurations and can display warning messages. Executing `cfgClear` requires acknowledgment as it clears configuration data. The command operates across the switches, and to finalize changes, users must perform a `cfgClear` operation to ensure proper memory clearances.
+
+The command `cfgShow` provides users with visibility into the current configuration status. This command allows filtering based on specific criteria to display matching configurations, with the ability to focus on specific patterns or identifiers.
+
+In scenarios requiring interruption, the `cfgTransAbort` command allows for halting operations without completing the transaction. This command can be critical in managing ongoing configurations and aborting any that may become problematic.
+
+Commands such as `chassisName` and `chassisShow` retrieve information related to the chassis associated with the devices, including details on field-replaceable units (FRUs) and their status. The `chassisShow` command displays an inventory of these components, detailing their types, statuses, and any updates.
+
+This system is carefully structured to ensure that all memory tests, configurations, and chassis details are accessible and manageable for effective monitoring and operation in the EMC DS-32B2 and ED-12000B OS environments.
+
+Sure! Here’s a technical paraphrase of the provided text, maintaining the original meaning:
+
+---
+
+**Command Interface Output:**
+The command interface shows details for `switch12k:admin> chassisShow` and other commands such as `slotShow`, `chippropshow`, and `chipregshow`. These commands provide properties about the ASIC (Application Specific Integrated Circuit) and facilitate monitoring and diagnostics of specific components.
+
+**ASIC Functions:**
+The `chippropshow` command allows for the retrieval of specified ASIC properties, including options for filtering displayed information. Use of this command is optional, and users may specify details, such as the particular path or chip ID, to acquire more targeted data.
+
+**Memory Management:**
+The command `memory passCount` is executed to assess the memory status of the switch and requires prior execution of the `switchDisable` command. This involves defining specific memory operations and diagnostics like `centralMemoryTest` and `portLoopbackTest`.
+
+**CMI Assessment:**
+To verify the proper functioning of the Four-bit Interface (CMI), the command is structured to check ASIC connection integrity. Users may specify a set range of transmit ports for detailed diagnostics.
+
+**Configuration Management:**
+Using the command `configDownload`, users can upload ASCII text configurations to the switch over protocols like FTP or RSHD. This action is interactive and may require user authentication (IP address, username, pathnames). Offers flexibility regarding the switch configuration files, allowing for precise updates.
+
+**Config Display:**
+The `configShow` command presents switch configurations and operates similarly. It provides detailed parameters such as fabric operations and license key statuses. The command allows for filtration based on specific input keywords.
+
+**Operational Diagnostics:**
+The command set for the switch includes functionalities for data management, RSCN notifications, and other networking capabilities. These commands facilitate diagnostics and management of various operations, requiring appropriate control commands for optimal switch performance.
+
+**Performance Metrics:**
+Performance considerations are critical; the switch reserves configurations based on buffer-to-buffer credits, timeouts, switch IDs, and routing priorities, ensuring efficient routing and traffic management across interconnected networks.
+
+**Interoperability Aspects:**
+Commands enhance interoperability features and diagnostics, including RSCN configurations for end-device identification and status updates, ensuring seamless cross-network communication and overall operational integrity.
+
+---
+
+Feel free to request further modifications or clarifications!
+
+### NS Commands
+
+The NS field includes entries as specified in Table EMC DS-32B2 and ED-12000B OS Reference. Commands such as BB Credit, FAN, RSCN, and CLOSE/OPEN are processed based on their IDs. An RSCN is generated when an event occurs, and depending on the state of the system, it may issue a CLOSE/OPEN command. If a CLOSE command is initiated, it immediately triggers an OPEN.
+
+### Services
+
+In Table Command Services, the AL_PA option is not available; it is excluded from the re-initialization process. RAID functionalities can be toggled on/off, and the following service information is accessible through Remote Procedure Calls (RPCs). This includes operational statistics, specifically for the Ethernet interface. UNIX-based systems (HP-UX, Solaris) utilize these RPC commands to gather service-related data.
+
+### Command Functions
+
+The commands delineated in Table Command specify the operational states (on/off) of various functions, detailing actions corresponding to BB credits, received and transmitted statistics, as well as various service options. 
+
+### Switch Configuration
+
+Using the command `switch:admin> configShow`, parameters such as R_A_TOV, E_D_TOV, and Class Traffic can be displayed. This includes network configurations related to SYNC IO, VC Routing Priority, and RSCN services.
+
+### Operational Status
+
+The switch can operate in either ONLINE or OFFLINE status, affecting how counters are incremented for transmitted and received data. The switch features different test signal patterns, and specific commands can be issued to test these patterns while switching between active states.
+
+### Loopback Operations
+
+Regarding loopback functionalities, commands allow for the selection of loopback types and specify testing parameters. The configuration varies based on the products in use and can operate at different bandwidths (Gb/s).
+
+### Error Handling
+
+The switch can detect errors using a variety of statuses, and detailed error counters can be analyzed to assess the functionality of the connections and the overall performance of the switch. This includes commands to show the operational status of the ports and memory tests.
+
+### Diagnostic Commands
+
+The command `diagCommandShow` provides access to various diagnostic commands, allowing users to gather information about the performance and health of the switch, including detailed memory statistics and diagnostics.
+
+### Power-On Self-Test (POST)
+
+The switch performs a Power-On Self-Test (POST) during initialization. Commands facilitate monitoring or bypassing these tests, ensuring that the switch's operational state is properly established.
+
+### ESD Functionality
+
+Commands related to Electrostatic Discharge (ESD) operations can also be issued, impacting the state of idle ports. Detailed command options allow specifying states and parameters relevant to ESD testing.
+
+Here’s a technical paraphrase of the provided text while maintaining the original meaning:
+
+---
+
+This command, referenced in the EMC DS-32B2 and ED-12000B OS, activates the specified memory function upon execution. It allows for the abort of current operations, with the first step requiring the specification of abort criteria. The parameters for this command are optional. If included, they are reflected in the output.
+
+To switch to the admin mode, input:
+```
+switch:admin> 
+```
+Example:
+```
+switch:admin> Succeeded 
+```
+
+For troubleshooting commands, use:
+```
+switch:admin> diagCommandShow and info
+```
+
+To access the diagnostic commands and their descriptions:
+- `burnin`
+- `statsclear`: Clears statistics counters
+- `diagcommandshow`: Displays information about specified RAM or SRAM
+- Internal loopback tests for TX paths and VC memory retention
+
+Additional commands, such as those related to memory operations, are also available. The commands allow specification of IDs for various configurations, with the potential for activation upon execution. All optional parameters can be displayed upon request:
+```
+switch:admin> FL ID Succeeded 
+```
+
+For memory and POST testing, commands to enable or disable these features are provided, reflecting their status in execution:
+```
+switch:admin> Succeeded (Enabled). 
+switch:admin> Succeeded (Disabled). 
+```
+
+To initialize burn-in testing and monitor memory activity:
+```
+switchburnin.sh 
+```
+Options to configure and enable this command are also present.
+
+The command includes options for displaying specific configurations, such as `-show`, `-default`, and specifying the number of runs, all set as optional.
+
+For diagnostic show commands, specify the options to view relevant information corresponding to the switches:
+```
+switch:admin> UPORTS Active LLI loopback
+```
+Confirmation of memory status will also be displayed.
+
+The `diagshowtime` command retrieves operational data for monitoring purposes, and its activation state can be toggled.
+
+DLS (Dynamic Load Sharing) options control the routing behavior based on incoming traffic, and routing paths are recalculated as necessary. This can affect performance under certain configurations. Commands to turn DLS on or off can also be executed.
+
+For comprehensive logging of system history and error severity, commands allow for filtered output based on specified severity levels.
+
+--- 
+
+This paraphrase seeks to succinctly convey the original technical details while ensuring clarity and precision.
+
+### Command Overview
+
+The following operands relate to the command functions:
+
+- **Switch**:  
+  - **HAMKERNEL-IP_UP**: Indicates the heartbeat from the Control Processor (CP).
+  - **HAM-REDUNDANT_INFO**: Provides redundancy heartbeat info.
+  - **EM-CP_ERR**: Signals an error from the Control Processor.
+
+You should specify the command to be executed from the Active CP through the appropriate switch instance. This command is optional and displays memory (RAM) statistics.
+
+The **errshow** command provides recorded error data, covering previous events and their severity. Only relevant options based upon the criticality and historical buffers will be included. Overflow conditions are also recorded.
+
+The count of errors can be viewed through the switch's interface, showing IDs and firmware types. The entries are cataloged in the EMC DS-32B2 and ED-12000B OS Reference, detailing POST information and specific entry types.
+
+#### Command Entries:
+- Lists such as 040F, 0B0F, and others relate to specific functions within the EMC DS-32B2 and ED-12000B OS Reference.
+
+**Switch Identification**:  
+To retrieve the switch membership details:
+
+- Use the **fabricShow** command to display comprehensive information about the switches, including their IDs, WWNs, IP configurations (both Ethernet and FC), and their health status.
+
+#### Statistics Retrieval:
+- The **fabStatsShow** command provides statistics, notably switching IDs and their operational status.
+
+Use the **fanShow** command to monitor fan rotations (RPM) and ensure they are functioning within acceptable parameters.
+
+#### Boot Operations:
+The **fastboot** command allows the switch to bypass the POST process, reducing boot time significantly. Be cautious, as it may trigger warnings related to the Control Processor (CP).
+
+Command adjustments, like **switchReboot**, help in configuring the switch to memory effectively, after issuing relevant commands.
+
+#### Specifying Hosts:
+Commands can be issued to manage host WWNs, utilizing specific formatting constraints. Ensure that commands match the intended specifications and inform of any changes necessary for effective communication with the switch.
+
+### Additional Command Operations:
+- Specify desired actions alongside conditions for interface operations (like SCAM and DCAM) to fine-tune the switch's operational directives.
+
+This paraphrased technical overview retains the essence of the original text while delivering the information with clarity and streamlined structure suitable for a technical audience.
+
+### Commands Overview
+
+#### EMC DS-32B2 and ED-12000B OS Reference
+
+**Configuration Commands:**
+
+- **Commands Overview:** Specify the parameters for matching system conditions and ALPA settings.
+- **SCAM Configuration:** Use `-scamoff` to define the location for SCAM memory writes. Specify memory offsets accordingly.
+
+- **DCAM Configuration:** Use `-dcamoff` for DCAM memory writes. Ensure correct offsets are provided.
+
+#### Diagnostic Commands:
+
+- Test commands such as `DIAG-FLTINIT`, `DIAG-FLTXMIT`, `DIAG-FLTRCV`, `DIAG-ACTTEST`, and `DIAG-NUMTEST` are utilized to verify system status.
+
+**Firmware Management:**
+
+- **Firmware Commit:** The command `firmwareCommit` updates the firmware on the primary and secondary Control Processors (CPs) for models EMC DS-32B2 and ED-12000B.
+- **Firmware Download:** To download firmware from a host to the switch, use `firmwareDownload`. Specify the user, host parameters, and target directory for proper functionality.
+
+- **Auto-Reboot Option:** If enabled, the switch will reboot automatically after the firmware has been downloaded.
+
+- **Firmware Restore:** The `firmwareRestore` command activates the downloaded firmware, transitioning from secondary CP firmware to active.
+
+**FSPF Information:**
+
+- Use the `fspfShow` command to display Shortest Path First (FSPF) details, including switch status and link states. This provides essential information for monitoring network performance.
+
+**Monitoring and Alerting:**
+
+- Commands like `fwAlarmsFilterShow`, `fwClassInit`, and various `Watch` commands are employed for monitoring system metrics and performance thresholds, allowing for proactive identification of issues.
+
+- **Commands Denoting Performance Metrics:** Monitoring commands are available for tracking synchronization counts, CRC errors, and other performance states for specific components like SFPs.
+
+**FRU Management:**
+
+- Specific commands allow you to apply actions to Field Replaceable Units (FRUs), ensuring that system components are correctly monitored and managed.
+
+**Conclusion:**
+
+This comprehensive set of commands and their definitions serves as a framework for effectively managing and diagnosing the EMC DS-32B2 and ED-12000B systems, ensuring robust performance monitoring and firmware management.
+
+
+Here is a paraphrased version of the text:
+
+---
+
+Users can execute commands related to the Watch feature of the EMC DS-32B2 and ED-12000B operating systems. Below is a summary of the Watch commands available:
+
+- `switch:admin> Watch fwAlarmsFilterShow`
+- `Watch fwClassInit`
+- `Watch fwSetToCustom`
+- `Watch switchStatusPolicyShow`
+- `switchStatusShow`
+- `switch tempShow`
+- `sensorShow`
+
+These commands facilitate monitoring and displaying specific information regarding system performance and status, including thresholds, FRU (Field Replaceable Unit) status, and general switch status. 
+
+To configure notifications, users must specify the IP address of the switch and identify users to be alerted. If the switch is operating in fastboot, it may need to be re-enabled before making these settings. 
+
+Additionally, commands such as `fwSetToCustom` enable users to adjust specific parameters and thresholds within the Watch commands. 
+
+The `gbicshow` command offers information about GBIC and SFP interfaces, detailing their types, IDs, and their performance metrics. GBIC information is maintained in a cache, updated as necessary when GBICs are inserted or removed.
+
+For managing switch high availability (HA), commands to enable, disable, and force failover of the active control processor (CP) are provided. The `haEnable` and `haFailover` commands help manage the system's resilience.
+
+The command history can be accessed via `historyShow` and `historyLastShow`, which provide information regarding various system components and their states.
+
+Finally, there are operational commands to manage network interfaces, including the ability to force specific interfaces to active or inactive states, with caution advised for these actions.
+
+--- 
+
+This summarized version keeps the original meaning while presenting the information in a more streamlined and technical manner.
+
+Here is a technical paraphrase of the provided text:
+
+---
+
+The `ifModeShow` command displays the operating interface of the Ethernet interface on the ED-12000B switch. To specify the Ethernet interface, use the command `ifShow`. This command provides details about the physical Ethernet interface, which is the primary interface for the ED-12000B. 
+
+The `interfaceShow` command is used by users to retrieve information associated with the FSPF interfaces of the switch, according to the EMC DS-32B2 and ED-12000B OS Reference. The `interfaceShow portnumber` command provides details about the Interface Database (IDB) which is allocated when the switch becomes operational. It shows neighbor information related to switches connected through the interface.
+
+When executed without specifying a port number, `interfaceShow` will display comprehensive interface information for the switch, including its IDB, neighbor interface data, ISL connection information, and the current state of the interface, including any counts of up/down events and reasons for interface status changes.
+
+The command also provides data regarding the Link State Records (LSR) and State Acknowledgements (LSA) associated with the interface. This includes inactivity timeouts, with specified parameters for `inactTo` and `helloTo`, which handle communication timing for topology information and acknowledgments with connected switches.
+
+The command `iodShow` is used to determine the state of the Out-of-Order Delivery (IOD) option. Users can toggle the IOD setting that affects how topology is managed during rerouting situations. The command allows for interactive queries regarding the IOD status, enabling prompt verification.
+
+Commands related to IP configurations are available, including the ability to display Ethernet and FC IP addresses. The system supports interactive input for specifying different switches or control processors (CP) within the ED-12000B chassis. 
+
+The `islShow` command provides information regarding Inter-Switch Links (ISL), detailing their connections, bandwidth, and overall state. Finally, the `licenseShow` and `licenseIDShow` commands are utilized to verify the licensed features of the switch and any associated optional products. Correct typing of these commands is crucial for accurate functionality, and may require a reboot for changes to take effect.
+
+--- 
+
+This paraphrase maintains the original's technical details while enhancing clarity and coherence.
+
+Here's a paraphrased version of the text you provided:
+
+---
+
+The command `licenseIdShow` is applicable to the ED-12000B and related optional products. In the absence of these products, certain services may not function effectively. The `WWN` feature enables both ED-12000B chassis to communicate with other products. The command outputs the chassis's assigned ID, operational status, and functional details, along with the license ID that is currently in effect.
+
+By executing the command `licenseShow`, users can view the licenses associated with components such as the EMC DS-32B2 and ED-12000B. This command should be executed after rebooting the switch. The output will include comprehensive details about the ISLs (Inter-Switch Links), selected FSPF (Fabric Shortest Path First) configurations, and status regarding E_PORTs (expanded ports). If necessary, users can specify which ISLs to display.
+
+The command `interfaceShow` can provide critical information on each switch's interfaces. Users can employ various commands such as `LSDbShow`, `topologyShow`, and `uRouteShow` to manage and view topology data effectively.
+
+To manage user access, commands may also be restricted based on the username and existing connections to the switch. The command functionality also extends to switching commands that require monitoring and diagnosing the switch’s connections and statuses efficiently. 
+
+The `mcastShow` command reveals routing information related to ISLs, indicating group memberships and connectivity statuses. Similarly, the `memshow` command provides insights into the switch's memory allocation, detailing available memory resources.
+
+Users can interact with specific ASIC miniswitches by using relevant commands that specify the mini-switch and properties needed for configuration management. The operations and information regarding the Platform service, firmware, and topology discovery are essential for maintaining the switch's operational integrity.
+
+For access control, implementing an Access Control List (ACL) for the switches based on their World Wide Names (WWNs) can enhance security. This configuration ensures that access remains confined to specified devices while providing an interactive method for managing and enforcing these settings.
+
+--- 
+
+This revised version aims to retain the original meaning while presenting the information in a clearer and more concise manner.
+
+To the command prompt (`switch:admin>`), the commands associated with WWN management include `msPlMgmtActivate`, `msPlMgmtDeactivate`, and `msPlClearDB`. The `msPlatShow` command provides details about the platform and its corresponding firmware versions.
+
+When executing `msPlClearDB`, it is important to note that this operation is irreversible. Once executed, the command cannot be undone. To carry out the clearing of the platform switches, use the command `switch:admin> msPlClearDB`.
+
+The `msPlMgmtActivate` command activates the Platform Service, and its successful execution can be confirmed with the message "Completed activating Platform Service." Conversely, `msPlMgmtDeactivate` deactivates the service, rendering it unavailable. After deactivation, you can check the status of the platform with `msPlatShow`.
+
+The command `msTdReadConfig` interacts with the Topology Discovery Service and can operate either locally or across the fabric. When combined with the optional operand "ALL," it retrieves comprehensive information regarding the Topology Discovery Service's operation status.
+
+The command `nbrStatsClear` resets the counters for FSPF statistics on specified interfaces. It provides the ability to clear statistics on ports associated with the ED-12000B switch.
+
+To acquire information on neighboring switches directly connected to your switch, the `nbrStateShow` command can be employed. This command returns the status of the attached switches, including the remote state for each connection.
+
+Similarly, `nsAllShow` displays detailed information regarding all switches, specifying types such as FC-PH, FCP, and FC-IP. It is advisable to use `nsAllShow` with a specific type to narrow down results effectively.
+
+Lastly, the `nsShow` command offers insights on connected devices and other switches, showcasing relevant information to optimize network management and troubleshooting. For user-related interactions, providing optional parameters can aid in executing commands more precisely.
+
+The commands for the EMC DS-32B2 and ED-12000B operating systems are outlined in the referenced table. When specifying a username, ensure that it is entered correctly, as an already existing username will lead to an error message prompting an incorrect entry. 
+
+The command tracks the counts of received and transmitted data, as well as CRC errors, correlated with "SourceID" (where SID is treated as SourceID and DID as Destination ID). Both RX_COUNT and CRC_COUNT are updated based on data flow; specifically, RX_COUNT reflects the flow from A to B, while TX_COUNT records data sent back to A. When data circulates from C to A, the same applies for the respective counts.
+
+To execute these commands, commands like `switch:admin> End-to-End` and `switch:admin>` allow performance tracking for IP, SCSI commands, and more. You’ll need to specify the ED-12000B switch, port number, and the respective Source ID (SID) and Destination ID (DID) as required.
+
+For performance monitoring, use the `perfShowFilterMonitor` command to display results, ensuring that you include necessary identifiers and offsets as described. Several data points can be monitored simultaneously, including write and read/write commands for SCSI.
+
+To clear or reset the performance information in memory, utilize the `perfCfgClear` command to ensure that previous data does not interfere with new measurements. Perform this command within the admin mode to overwrite both RAM and flash memory accurately.
+
+For more detailed statistics, the monitoring commands not only enable the examination of distinct traffic counts but also facilitate deep insights into the performance metrics of the ED-12000B and DS-32B2 systems.
+
+The command is used to reset the ALPA CRC counter. If ALPA is provided as an operand, it specifically clears the CRC counters for the specified ALPA. This operation is conducted on the ED-12000B switch, and it is important to specify the relevant port number and switch type, as these details are mandatory. Clearing the ALPA CRC counter is optional and can be executed with the commands for either the ED-12000B or DS-32B2 switches.
+
+To clear the CRC count for ALPA, the command syntax is as follows:
+
+```shell
+switch:admin> clear alpa crc count
+```
+
+This command confirms that the CRC counts have been cleared by providing feedback in the command line.
+
+The following commands related to performance metrics include `perfShowAlpaCrc`, which displays the CRC count for the specified ALPA. If an ALPA is specified, only that ALPA's CRC count will be shown. The ED-12000B switch measures data from various cards and through different paths, and the command takes the form:
+
+```shell
+switch:admin> perfShowAlpaCrc ALPA
+```
+
+Similar commands like `perfShowEEMonitor` and `perfShowFilterMonitor` can provide additional performance data based on the existing configurations.
+
+When using `perfShowEEMonitor`, specify relevant identifiers such as SID, DID, and any applicable application names or IP addresses to target specific metrics including Tx, Rx, and CRC counts.
+
+For filter-based reports, `perfShowFilterMonitor` allows for monitoring specific traffic metrics. The command structure should include the required switch parameters and may include time intervals for data collection.
+
+In summary, the provided commands are essential for effectively managing and analyzing the performance of the ED-12000B and DS-32B2 switches, particularly concerning the ALPA and its associated CRC counts.
+
+### Paraphrased Technical Instructions
+
+**Commands for switch:admin** 
+
+To run commands for the EMC DS-32B2 and ED-12000B switches, specify the port number corresponding to your switch type. This is a mandatory step to ensure proper functionality. When issuing commands such as `switchShow`, the system will indicate the necessary specifications required for the selected switch and its associated ports.
+
+Upon executing a command from `switch:admin>`, the switch will adjust its configuration accordingly. Both the EMC DS-32B2 and the ED-12000B model configurations can be monitored and modified via commands that display the current state of the switch and memory allocation, helping to streamline operations.
+
+### Command Specifications
+
+Use commands such as `portShow`, `switchShow`, and `portCfgShow` to reveal detailed information about switch ports and configurations. For instance, `portCfgLongDistance` allows you to designate memory parameters, impacting the functionality of the switch. Etched specifications ensure commands like `mcastShow` align with your network configurations, reflecting any adjustments made.
+
+### Configuration Options
+
+The `portcfgMcastLoopback` command enables multicast loopback configurations, allowing groups to manage traffic flow without external interference. It is crucial to track changes through the associated LED indicators, which provide real-time status updates.
+
+The command `portCfgShow` presents various settings including, but not limited to, speed configuration (ON/OFF) indicative of the operational state of each port. The output will specify the current operational parameters for both switches and ports.
+
+### Speed and Settings
+
+For speed adjustments, utilize the `portCfgSpeed` command to specify the desired operating speed, with instructions detailed for either switch model. Depending on your configuration, maximum throughput can be set, verified via relevant command outputs.
+
+### Connection Monitoring
+
+If the switch is connected to another unit, the instructions for handling RSCN and SNMP notifications will become vital. Use `switchShow` and `switch:admin>` commands to ensure proper connectivity monitoring and configuration verification. Visual indicators on the front panel will provide insights into network activity, allowing for immediate troubleshooting.
+
+By following these command structures accurately, effective management of the EMC DS-32B2 and ED-12000B switches can be achieved.
+
+The `portErrShow` command presents a summary of error counters for the EMC DS-32B2 and ED-12000B systems, displaying values in thousands (K) or millions (M). It details transmitted and received counts, as well as errors associated with Class (LF1 or LF2) states, synchronization issues, rejections (F_RJT), and busy states (F_BSY). 
+
+For an eight-port switch, the command output should be closely monitored. To initiate this command, use `switch:admin> portErrShow`. The command toggles the ATTN light and initializes the SPEED settings. After disabling the switch with `switchDisable`, the ATTN light indicates completion, at which point the command `switchEnable` can be used to activate the switch again. 
+
+The `portLogClear` command is employed to remove the activity log related to switch operations. To see the remaining activity, use `portLogShow`. It interfaces with various components such as FCIU and FCPH, listing relevant error types and statuses.
+
+The `portLogShow` command retrieves logged information, allowing users to filter results based on criteria. It also provides detailed error analysis and clock data. 
+
+The command `portLoopbackTest` tests the switch's operational integrity by validating the loopback path to ensure data can be transmitted and received correctly. It supports multiple loopback types for comprehensive testing.
+
+`portPerfShow` provides information about switch throughput, including metrics on bytes transmitted and received. It utilizes specific operands to adjust the criteria for performance metrics.
+
+Lastly, the `portRouteShow` command outlines routing information for the switch, detailing how connections reach other switches and the corresponding port numbers. It supports commands related to broadcasting and fabric topology.
+
+For all operations, appropriate user permissions and command-line interfaces are necessary to execute these commands effectively.
+
+Users can access information by toggling the switch and inputting text. The displayed table includes type and number classifications. 
+
+The relevant port types, such as SNMP port state and physical interfaces (GBIC or others), indicate conditions like "No Light," "In Sync," or "Testing." The commands for devices like the EMC DS-32B2 and ED-12000B reflect the D_ID or World Wide port status, which may be counted in different locations. Low-level interfaces, timeout occurrences, and buffer management are also important aspects in this configuration.
+
+Command outputs can include a variety of statuses like parity errors and signal loss, which may require specifying the type of switch involved. Port numbers must be identified, and statistics are counted from specified points within the switch architecture.
+
+The command structure allows for querying hardware statistics, including transmitted and received data, timeout events, and error codes. Each command serves to quantify different operational metrics.
+
+Operational status notifications (success, failure, etc.) for power supplies can also be accessed, indicating whether they are functioning correctly. Reports may show discrepancies in supply function, especially under various states of the switch.
+
+ASIC-specific commands (like ptdatashow, ptphantomshow, etc.) require precise path specifications to retrieve information. Optional parameters can be included for detailed data retrieval.
+
+Routing statuses and statistics from the ASIC are pivotal, with commands available for querying specific aspects of routing paths and integrity checks.
+
+QuickLoop creation commands allow users to configure these loops with required parameters clearly stated, ensuring effective integration and communication within the switch ecosystem. Each command supports whatever configuration is necessary for operational effectiveness.
+
+Here's a paraphrase of the provided text with a natural and technical approach:
+
+---
+
+To execute this command with QuickLoop, it is essential to specify the originating QuickLoop. This command, EMC, involves matching the parameters; hence, when QuickLoop is successful, it will update the command in memory. To make the command effective, it must be utilized accordingly. 
+
+You can specify parameters regarding QuickLoop by including the following options: EMC DS-32B2 and ED-12000B OS Reference commands, beginning from the switch:admin> qloopCreate context. QuickLoop information will be displayed when specified and can also be matched against the configuration output using cfgShow. 
+
+This matching process is essential for the command to update memory regions effectively. To initiate the QuickLoop with specific characters, you need to specify the POSIX characters to match, noting that this is an optional parameter.
+
+When executing commands, it is crucial to choose the appropriate CPU memory locations. These commands dictate how the CPU will read and write to various SDRAM locations, ensuring each location is tested effectively. As part of the testing sequence for location N, the next location (N+1) will be accessed, allowing for comprehensive validation.
+
+The commands related to memory operations include: DIAG-MEMORY, DIAG-MEMSZ, and DIAG-MEMNULL, ensuring the integrity and functional reliability of both switch systems.
+
+Upon activating the command for both switches, the boot sequence initiates immediately. The command is specific to either the DS-32B2 or the ED-12000B, where a warning about the process will appear, emphasizing the connection to the active Control Processor (CP). 
+
+Routing commands ensure that the appropriate contextual information is relayed for managing traffic, allowing commands like bcastShow and mcastShow for real-time interface information to be processed effectively.
+
+For sensor monitoring, the command provides real-time readings from the designated switch location. If appropriate, the readings will reflect the status and conditions of the switch components.
+
+Commands for ESD and GBIC testing involve optional parameters to specify conditions like engagement status. These commands can be issued to test functionalities related to the electrical discharge and physical connections through GBIC interfaces, providing feedback on operational status.
+
+Additionally, commands such as sfpShow relay detailed information about the SFP interfaces, including vendor IDs and specific characteristics related to the switch configuration.
+
+Each switch's identifier and operational status can be monitored using established commands to ensure optimal performance between the interconnected devices.
+
+---
+
+This maintains the original meaning while clarifying terminology and reorganizing content for better readability.
+
+**SFP Connector Overview and Command Usage for EMC DS-32B2 and ED-12000B**
+
+**SFP Specifications:**
+- Connector Type: LC
+- Data Rates: 100/200 MB/s
+- Encoding: 8B10B
+- Manufacturer: Finisar Corp. 
+- OUI: PN: FTRJ-8519-3-2.5
+
+**Command Reference:**
+1. To display SFP details: 
+   ```
+   switchShow sfpshow
+   ```
+
+2. To manage slots:
+   - View slot status:
+   ```
+   switch:admin> slotShow
+   ```
+   - Disable a slot:
+   ```
+   switch:admin> slotPowerOff <slot_id>
+   ```
+   - Re-enable a slot:
+   ```
+   switch:admin> slotShow <slot_id>
+   ```
+
+3. Viewing inventory:
+   ```
+   switch:admin> slotShow
+   ```
+
+**Detailed Inventory Output:**
+- Displays headers, types, IDs, and status (e.g., VACANT, ENABLED, FAULTY).
+
+**For SNMP Configuration:**
+- Set SNMP MIB capabilities:
+   ```
+   switch:admin> snmpMibCapSet
+   ```
+
+- For trap management, options include:
+   - FA-MIB
+   - SW-TRAP
+   - FA-TRAP
+
+**ISL Functional Testing:**
+- Commands for testing Inter-Switch Links (ISLs):
+   ```
+   Commands slotShow
+   ```
+
+- Continuous data traffic assessment and error statistic monitoring to ensure ISL integrity.
+
+**Loopback Testing:**
+- Activate loopback modes to verify switch and GBIC functionality:
+   ```
+   Commands loopbackTest
+   ```
+
+- Types of loopbacks include CSPAT, BYTE_LFSR, and RANDOM.
+
+**GBIC Testing:**
+- Test GBIC operational status and ensure proper connection through:
+   ```
+   Commands gbicTest
+   ```
+
+**Memory Test:**
+- Conduct a central memory test to validate ASIC functionality:
+   ```
+   switch:admin> centralMemoryTest
+   ```
+
+**Notes:**
+- Ensure user options are specified according to testing parameters.
+- Regular checks should be initiated to validate system integrity and operation.
+- Detailed output should be monitored for any discrepancies or error statuses. 
+
+This provides a structured approach to managing and testing the SFP capabilities and operational status of the EMC DS-32B2 and ED-12000B systems.
+
+Here’s a paraphrased version of the provided text:
+
+Commands for the statistics counter direct it to gather data through an internal loopback that utilizes CRC for verification. This applies to the EMC DS-32B2 and ED-12000B OS Reference statistics counter. It encompasses functionalities related to the statistics counter, with CRC matching the specified SID-DID for the LINK. The statistics counters pertain to this identification and can be tailored as necessary.
+
+To gather matching statistics for the LINK, you can specify the SID-DID. Enabling or disabling the switch is achieved using the switchDisable command. The statistics collected correspond to the identified LINK.
+
+The command options include various tests, such as centralMemoryTest, portLoopbackTest, and others. The results will indicate whether the tests have passed, such as "switch:admin> Statistics Cnt passed."
+
+The supportShow command allows users to retrieve switch information useful to EMC Customer Service. This information includes user data and product details from the ED-12000B, which encompasses data from the switches and their cards. Specific outputs can be filtered based on user input.
+
+For switch beaconing, you can activate or deactivate it with the switchBeacon command, affecting associated LED indicators. This command requires an operand to set the beaconing status, either ON or OFF.
+
+Switch configuration for speed is determined using the switchCfgSpeed command, which lets you set or show the current port speed based on user-defined input. If executed without an operand, the user will be prompted.
+
+The switch can be disabled with the switchDisable command, ensuring it shuts down properly for maintenance or testing. Conversely, the switchEnable command allows reactivation, and any connected or disconnected statuses will be displayed.
+
+Renaming the switch is possible through the switchName command, which permits the assignment of a new name in compliance with character requirements. The command must include the new name.
+
+The switchReboot command allows a user to reboot the switch without affecting other switches within the ED-12000B chassis. This process can be done while maintaining stability within the system.
+
+The switchShow command presents detailed information about the switch, including its summary, type, state, roles, and various IDs. The output describes beaconing status and other operational metrics.
+
+For detailed switch information, the output format includes data such as switch name, type, state, and WWN, along with other relevant status lights indicating operational conditions. 
+
+This overview provides a summary for operators to manage and diagnose switch functionality effectively within the EMC DS-32B2 and ED-12000B environments.
+
+```plaintext
+switch3900:admin> switchshow 
+switchName: switch3900 
+switchType: 
+switchState: 
+switchRole: 
+switchDomain: 
+switchId: 
+switchBeacon: OFF 
+
+State N2 N2 N2 
+Loopback->Port N2 N2 N2 N2 N2 N2 
+No_Light N2 
+No_Light N2 
+No_Light N2 
+No_Light N2 
+N2 Loopback->Port 
+N2 No_Light N2 
+No_Light N2 
+No_Light N2 
+No_Light N2 
+No_Light N2 
+No_Light N2 
+N2 N2 N2 
+N2 N2 
+No_Light N2 
+No_Light N2 
+No_Light N2 
+No_Light 
+
+switch3900:admin> 
+The commands displayed relate to DS-32B2: 
+- switchShow 
+- switchDisable 
+- switchEnable 
+- switchName 
+- EMC DS-32B2 and ED-12000B OS Reference 
+- switchShutdown 
+
+This command shuts down the switch without the associated ED-12000B chassis. 
+To start the switch: 
+- switchStart 
+- switchReboot the switch. 
+
+Using switchShutdown in conjunction with switchStart allows one to manage the switch’s operations. It helps clear associated processes from the switch.
+
+switch:admin> switchShutdown 
+Switch Commands 
+
+switchShutdown 
+
+Commands 
+
+switchStart
+This activates the switch without the ED-12000B chassis. 
+
+switch:admin> switchStart 
+Switch EMC DS-32B2 and ED-12000B OS Reference 
+
+Starting the switch also means clearing its relations to the associated switch. 
+
+switch:admin> switchReboot 
+
+switchStatusPolicySet defines the operational parameters of the switch. It allows the status of each component to shift from HEALTHY to MARGINAL or DOWN. The command tracks three conditions: 
+1. DOWN/FAILED 
+2. MARGINAL/WARNING 
+
+This provides users insight into each component's state. The command structure is as follows: 
+- DOWN: Forces the status to MARGINAL or DOWN. 
+If a component enters a DOWN state, it indicates issues with that segment of the switch. The thresholds for each factor are also classified.
+
+For example, if both MARGINAL and DOWN conditions exist, the issue may relate to ISLs associated with a switch group.
+
+The state of the switch can revert depending on the conditions monitored both locally and from connected devices.
+
+Users are notified through status checks from the command switchStatusShow.
+
+Commands 
+switchStatusPolicySet
+
+Commands for monitoring can include both warnings and failures.
+
+switchStatusShow displays the state of the system, identifying issues like:
+1. Healthy/OK 
+2. Down/Failed 
+
+These alerts help identify contributing factors to any health issues reported from the switch.
+
+The commands to consider for system health include:
+1. tempShow: Retrieves temperature readings from each location on the board.
+2. syslogdIpShow: Displays the IP tied to the syslog for monitoring connections.
+
+Commands include:
+switch:admin> tempshow 
+Switch:admin> syslogdIpShow 
+
+For timeout management related to device disconnections:
+The command allows users to set configurable timeouts to maintain system operations.
+
+Commands 
+topologyShow provides a detailed view of the switch's connected topology, highlighting the paths taken to reach each switch.
+
+Commands 
+trackChangesSet enables SNMP-TRAP tracking, allowing users to monitor changes in the operational state of the switch.
+
+The current track settings can be viewed with:
+switch12000:admin> trackchangesshow 
+Track ON 
+Track SNMP-TRAP: YES 
+Commands trackChangesShow
+```
+
+The following commands report on various functionalities related to the specified EMC DS-32B2 and ED-12000B OS Reference Switch ports:
+
+### Port Information Commands:
+The command syntax allows interaction with particular switch ports (<port_id>) and shows relevant configurations for connected switches. The `switchShow` command is mandatory for obtaining necessary data related to users and ports.
+
+### Memory Testing Commands:
+These commands utilize on-chip SRAM embedded within the ASIC through Built-In Self-Test (BIST) routines. Memory tests include write operations, checking each SRAM pass count: for example, writing values from FFFF to AAAA. The test results provide crucial information about SRAM performance.
+
+### Routing Commands:
+Commands such as `configShow`, `uRouteShow`, and `uRouteRemove` manage routing configurations and can update or remove static routes through the switch. It’s essential to follow proper syntax to ensure that routing information is accurately displayed and can reflect changes in the network topology.
+
+### Firmware Information and Management:
+Commands like `firmwareDownload` allow users to access firmware details. This includes identifying the OS version and BootProm for the switch. Firmware updates can be critical for maintaining proper switch functionality.
+
+### World Wide Name (WWN) Management:
+The `switchShow` command provides the WWN associated with a switch, which is essential for connectivity and configuration within Fibre Channel networks.
+
+### QuickLoop Creation:
+Employ the `qloopCreate` command to establish QuickLoops, specifying parameters like AL_PA and the related switches. This setup is pivotal in managing traffic and link aggregation within the fabric.
+
+### Miscellaneous Commands:
+Other commands such as `cfgClear` and `cfgTransAbort` manage configurations and transactions. They facilitate the administration of existing settings by ensuring integrity and consistency of configurations.
+
+Ensure that all commands adhere to the proper syntax and parameters for successful execution on the specified switches.
+
+### Chapter Overview: Commands for the EMC DS-32B2 and ED-12000B OS Reference
+
+This chapter details various commands related to the EMC Switch DS-32B2 and the Director ED-12000B. These commands are categorized into several tables, providing essential information pertinent to configuration, performance, and watch commands.
+
+#### Command Categories
+
+1. **General Commands**  
+   Tables present commands under general categories, starting with basic commands such as `cfgShow` and `cfgClear`, leading into various configurations.
+
+2. **Watch Commands**  
+   These commands primarily deal with monitoring functions of the EMC Switch and Director, including commands like `fwAlarmsFilterShow` and `fwClassInit`, which provide insights into status and performance metrics.
+
+3. **Performance Commands**  
+   This section includes advanced commands for monitoring system performance. Examples include commands for tracking SCSI performance and clearing performance data from memory, such as `perfCfgClear` and `perfShowAlpaCrc`.
+
+4. **Command Differences**  
+   This portion of the chapter highlights the differences between commands in various versions of the OS, listing which commands are supported or new, as well as their functionality.
+
+### OS Command Tables
+
+#### Command Overview
+
+- The OS commands vary by switch models, and tables are categorized by functionality.
+- Each command will have notes that indicate if it's supported, its specific functionality, and other relevant details.
+
+#### Examples of Commands Include:
+
+- **Basic Configuration**: `chassisshow`, `cfgTransAbort`, indicating chassis and configuration states.
+- **Monitoring Commands**: `fanShow`, focusing on hardware monitoring.
+- **Performance Monitoring**: Commands for analyzing network traffic and errors, such as `perfShowEEMonitor`.
+
+#### Access and Usage
+
+1. **CLI Access**  
+   The OS command interface is accessible via command-line interface (CLI) for user interaction with both the DS-32B2 and ED-12000B switches. Users can navigate commands based on their privilege levels.
+
+2. **Operational Characteristics**  
+   Instructions on how to effectively interact with the switch are provided, covering basic operations along with specifics on updating firmware and configurations.
+
+### Conclusion
+
+This chapter serves as a comprehensive reference guide for administering the EMC DS-32B2 and ED-12000B switches through CLI commands, offering systematic information across command categories while emphasizing support for operational efficiency and monitoring capabilities.
+
+The graphical interface facilitates operator interactions with the switch from a workstation, potentially enhancing the operating system experience. This interface includes commands that enable seamless communication with switches and operate more efficiently than solely relying on command-line interface (CLI) inputs. Key features support interaction between the operating system and switches via CLI commands, allowing users to manage tasks without needing to manually input every IP address, thus improving performance and ease of use.
+
+The EMC DS-32B2 and ED-12000B operating systems can be monitored through the Watch software, which tracks performance metrics and network topology. This is particularly helpful for managing storage area network (SAN) switches, allowing users to establish performance thresholds and alert mechanisms based on specific metrics or counters.
+
+Access Control Lists (ACLs) can be applied to manage WWN mappings, restricting access to specific users based on in-band connections. Only those permitted by the ACL will have access to the switch functionalities.
+
+This section details the Active CP commands for the ED-12000B, offering insights on interacting with the system via CLI. It includes commands for firmware management, diagnostics, and the ability to streamline tasks without extensive manual input.
+
+Support for EMC software products is accessible through the customer service framework, specifying protocols for detecting issues and troubleshooting. To expedite service, customers should provide detailed information when reporting problems or inquiring about software performance. 
+
+Technical terms such as “Throughput,” “Flow Control,” and “Class of Service” are also defined, ensuring clarity in network management contexts. This documentation serves as a comprehensive guide for using, maintaining, and troubleshooting EMC DS-32B2 and ED-12000B systems effectively.
+
+The text discusses technical aspects of the RS-232C interface, particularly focusing on the header, field, and CRC information related to data transmission. It references components like the DB-9 connector and outlines the relationship between various entities such as the HBA and switch information, including the WWN and Access ID. The document highlights the roles of different types of switches (e.g., EMC DS-32B2 and ED-12000B) regarding communication between DTE (Data Terminal Equipment) and DCE (Data Communication Equipment) using the RS-232 (or EIA-232) interface.
+
+Key concepts such as time-out values, credit mechanisms like EE_Credit and BB_Credit, and the end-to-end flow of services are discussed. The document touches on standard frame components, acknowledgment protocols, and service types across different topologies, including ISL (Inter-Switch Link), which links switches for communication.
+
+Moreover, it addresses methods for firmware downloads and operational features of switches, detailing how they interconnect with ports (N_Ports) and handle data flow. Specific standards from organizations like ANSI and configurations for routing and service rates are mentioned, as well as device identifiers like WWN and port types (e.g., NL_Port).
+
+Finally, the text notes various physical layer technologies, such as fiber-optic types (SWL, LWL), GBIC and SFP interfaces, and the significance of the latency and selection processes in path routing across switches, emphasizing industry protocols and standards that govern these interactions.
+
+The CP connects to DB-9 wires designated as DTE and interfaces with DCE through three straight-through connections to the DB-9 connector. Throughput is commonly measured in terms of flow per second. The network topology facilitates various types of data transmission and reception. The system can handle data types such as character strings, including a four-character word format. The SNMP (Simple Network Management Protocol) functions to notify the network management system regarding connections and types associated with switched F_Ports. NL_Ports connect to a universal switch, which can operate in different modes when linked to UDP atop IP, consistent with the EMC DS-32B2 and ED-12000B operating systems.
+
+Operation of the switch is referenced through well-known functions and is linked to workstations or hosts, simplifying configuration processes. The WWN (World Wide Name) is a critical element in ensuring proper connections within the EMC DS-32B2 and ED-12000B systems. Typical protocols employed include SCSI, IP, HIPPI, and IPI. The ULP_TOV (Universal LIP Time-Out Value) is significant for managing SCSI operations and recovery procedures following a timeout. Unicast and broadcast communications utilize a one-way pathway, allowing identification and management of WWNs connected to devices within the designated switch/port architecture, as referenced in the EMC DS-32B2 and ED-12000B documentation.
+

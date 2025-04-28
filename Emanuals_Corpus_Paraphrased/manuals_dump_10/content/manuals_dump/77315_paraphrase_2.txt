@@ -1,0 +1,437 @@
+**Printed in Taiwan: D720/D520 Service Manual**
+
+**Service and Revision History**  
+Refer to Chapter II for service details related to the D720/D520.  
+
+**Copyright Notice**  
+All rights reserved. No part of this document may be reproduced, transmitted, transcribed, or translated in any form, mechanical or otherwise, without prior written permission from the copyright holder. Information is provided "as is" without any warranties, express or implied, including but not limited to fitness for a particular purpose or merchantability.
+
+**SCREEN MESSAGES**  
+Refer to the following cautions regarding system messages and the relevant topics. Important warnings are provided for actions necessary for successful completion of tasks.
+
+**Technical Information**  
+This service manual includes technical specifications regarding the BASIC CONFIGURATION. Localized features may not be included; please consult authorized service providers for technical assistance. When ordering FRU parts, ensure you have the correct information. If there are discrepancies, consult with ACER-AUTHORIZED SERVICE PROVIDERS.
+
+**Specifications**  
+- **TouchPad:** Integrates with the system functions for click operations.  
+- **Battery:** Indicates charging status.  
+- **Memory:** Houses up to 4GB DDR2 memory with a high-definition audio subsystem.  
+- **Connectivity:** Integrated WLAN (IEEE) and Ethernet (RJ-45).  
+- **I/O Interfaces:** USB ports, VGA output, and audio jacks for headphones and microphones.  
+
+**Troubleshooting**  
+Common issues include BIOS errors, display problems, and audio functionality assessments. The troubleshooting guide includes recovery steps for BIOS as well as contact information for technical support.
+
+**Specifications Summary**  
+The platform supports up to 4GB of DDR2 memory and features the GL40 chipset for graphics. The configuration also includes compliance with ACPI and ENERGY STAR standards.
+
+**Keyboard Functions**  
+The keyboard incorporates function keys for various operations, including power management and brightness control. Each key has specified functions for ease of use.
+
+**Operating Information**  
+For efficiency, please consult the system’s user guide available from Microsoft for addressing specific software queries.
+
+**Note on Setup**  
+To switch display settings, follow the outlined steps in the manual for connecting to primary and secondary displays. Adjust settings as required and confirm with OK.
+
+For additional specifications on components such as the CPU type and RAM, consult the specific sections of the document.
+
+### Memory Specification
+
+- **Memory Capacity**: 
+  - 0MB on-board memory
+  - DIMM slots support memory configurations up to 4GB
+  - DDR Synchronous DRAM type with 1.8V support
+  - Various memory combinations supported: 
+    - 0MB, 512MB, 1024MB, 2048MB, 2560MB, 3072MB, 4096MB
+
+### LAN Interface
+
+- **Chipset**: Realtek RTL8111C-GR
+- **Type**: Gigabit LAN
+- **Interface**: PCI-E
+- **Connection**: RJ-45
+
+### Storage Specification
+
+- **Interface**: SATA 
+- **Drive Models**:
+  - ST9250827AS, ST9160827AS, ST9120817AS
+  - ST9320320AS, ST9250320AS, ST9160310AS, ST9120310AS
+- **Performance**: 
+  - 8MB cache
+  - Up to specified Mbytes/sec transfer rate
+
+### Optical Drive Specification
+
+- **Models**: HLDS/GSA-T50N, DS-8A2S, Sony/AD-7560S
+- **Performance (CD/DVD)**:
+  - Sustained transfer rates (Mbytes/sec) for both CD and DVD formats
+- **Compatibility**: 
+  - Supports various formats including DVD+R, DVD-RW, CD-ROM, etc.
+  
+### Audio Interface
+
+- **Chipset**: Realtek ALC268 High Definition
+- **Inputs**: MIC IN, LINE IN
+- **Output**: Headphone P-P with built-in 2W speaker
+
+### Display Specification
+
+- **LCD Model**: AUO/B141EW04 V4
+- **Size**: 14 inches
+- **Resolution**: WXGA with R.G.B. white backlighting
+- **Brightness**: Typical uniformity and brightness ratios specified
+
+### BIOS Information
+
+- **Utility Access**: 
+  - Use F2 during POST for BIOS settings
+  - F12 allows boot option selection without entering BIOS setup 
+- **Navigation**: Use arrow keys for selection, F5/F6 for adjustments, and F10 to save changes
+- **BIOS Contents**: Information, Advanced settings, Security options
+
+### System Information
+
+Displays crucial system details including CPU type, HDD information, BIOS version, and product UUID for system identification.
+
+### Advanced Settings
+
+- **Options** for configuring the boot sequence, memory settings, network configurations, and SATA modes (e.g., AHCI or IDE).
+
+### Security Settings
+
+- **Protection**: Options to secure BIOS access and HDD information
+- **Password Management**: Guidelines for setting and confirming new passwords are provided.
+
+### CPU Configuration
+
+- **P-State Management**: Options for various ACPI states, power management features, and thermal settings.
+
+---
+
+This paraphrased text retains the meaning while presenting it in a clearer format with technical accuracy.
+
+The BIOS Utility allows access to advanced security features and CMOS settings. To configure, use F1 to select an item, F5/F6 to adjust settings, ESC to exit, and F10 to save changes. If BIOS becomes corrupted, recovery can be performed using Phlash to restore the BIOS ROM. Ensure the system is powered off and unplugged during this process.
+
+For DOS Utility operations, press F2 to access BIOS, navigating between different connected devices like USB HDD, IDE0, and IDE1. If AC power is connected, specific display messages will appear indicating the current status.
+
+When managing HDD/BIOS security, unlock mechanisms can be accessed through the use of UnlockHD.EXE, which requires inputting the correct commands. If password recovery is necessary, use BIOS_PW.EXE for assistance.
+
+The procedures for disassembling the device are outlined in detail, including tools and screws needed for reassembly. Ensure the power is off before starting. Refer to the screw specifications provided, as different parts require specific screws.
+
+When removing components like the battery or any covers, always follow the correct order and be cautious to prevent any damage, particularly to the motherboard and surrounding parts. 
+
+Disconnecting and reconnecting FFC and other connectors should be done carefully to avoid any potential damage. During reassembly, ensure all connections are secure and that no components are misaligned.
+
+For CPU and thermal management, screws must be carefully removed, and parts should be released gently to prevent damage to the motherboard or surrounding components. Always double-check connections and placements during reassembly to ensure optimal performance. 
+
+This instructional guide aims to facilitate proper servicing and troubleshooting of the unit, providing detailed steps and precautions throughout the process.
+
+### LCD Removal and Reassembly
+
+**Removing the LCD:**
+To detach the LCD, remove the screws (M2.5*5) securing it. Refer to the specified chapter for the exact quantity required.
+
+**LCD and FPC Removal:**
+First, rotate the LCD to its back side. Disengage the FPC and unscrew the four M2*L3 screws securing the LCD as illustrated in the designated chapter. 
+
+**Holding the LCD:**
+Hold the LCD in a manner that allows for its safe removal from the assembly, repeating the aforementioned steps as needed.
+
+**MIC Removal:**
+Detach the microphone (MIC) by freeing it from both the MIC holder and the LCD. Note: Ensure to release the assembly to fully remove the MIC, as detailed in the respective chapter.
+
+**LCD Reassembly:**
+When reassembling, align the LCD and secure it in place as per the guidelines, ensuring correct positioning of both the LCD and MIC. Follow the specific steps outlined in the chapter.
+
+**Screwing the Components:**
+Start with securing the top screws (four M2.5*8 screws), ensuring all connections and placements are properly oriented. Reattach the LCD to the back cover following the outlined instructions.
+
+**CPU Assembly Steps:**
+When installing the CPU, follow the prescribed layout for the thermal module and use the designated screws. Make sure the four screws securing the thermal assembly are fastened correctly, connecting to the mainboard afterward.
+
+**DC IN Setup:**
+Connect the DC IN to the mainboard while ensuring accurate placement of the chassis screw. 
+
+**FFC Connection:**
+Assemble the FFC cables and secure them by turning the locking latch, as per the chapter instructions.
+
+**TouchPad Bracket Installation:**
+Important: Handle the TouchPad carefully. Start by securing the TouchPad with appropriate screws while following directional arrows on the connection to ensure proper assembly.
+
+**Final Assembly:**
+Follow the correct procedure for securing the LCD, utilizing the necessary screws and verifying the overall assembly integrity.
+
+### Troubleshooting Guide
+
+**Common Issues:**
+To resolve issues, follow the specific troubleshooting instructions relevant to each component. This includes symptoms related to the LCD, TouchPad, Microphone, ODD, WLAN, Thermal Unit, and other functions.
+
+1. **LCD Problems:**
+   - If the LCD exhibits abnormal behavior, check connections and the replacement procedure.
+   - Adjust the brightness settings as necessary.
+
+2. **TouchPad Issues:**
+   - For TouchPad anomalies, inspect the internal connections and reestablish them.
+
+3. **Sound Problems:**
+   - If sound issues arise, ensure the correct audio settings are applied and check for any conflicts with other devices.
+
+4. **Microphone Functionality:**
+   - Inspect microphone settings and configurations to ensure proper operation.
+
+5. **HDD Issues:**
+   - If the HDD does not function correctly, use the recovery utility to troubleshoot and rectify any software issues.
+
+6. **ODD Malfunctions:**
+   - For problems related to the Optical Disk Drive (ODD), check if it is recognized in BIOS and troubleshoot accordingly.
+
+For detailed visuals and specifics, refer to the chapter pertaining to each component.
+
+To access the ATA/ATAPI section, double-click on it. If an arrow is displayed, right-click and then double-click on DVD/CD-ROM. If you see yellow items under ATA/ATAPI or DVD/CD-ROM, right-click to view further options. Ensure that the hardware is correctly seated and free of scratches before proceeding with the following actions, especially if you recently updated software or experienced operational issues.
+
+IMPORTANT: If playback is choppy, consider closing unnecessary applications, and ensure that the optical disk drive (ODD) is operating in DMA mode. Access the Advanced settings by right-clicking on ATA devices and selecting DMA, then confirm by clicking OK.
+
+In the event that devices are not detected, follow these steps to access the BIOS Utility by pressing F2. Inspect the system by checking the ODD’s connections and the motherboard. If issues persist, consider replacing the ODD.
+
+If wireless functionality is compromised, check the wireless settings and associated software. Ensure that USB devices are functioning as expected and address any software conflicts.
+
+For troubleshooting components such as CRT switches, LAN interfaces, or PCI cards, verify their operational status.
+
+When encountering recurring issues, isolate suspected Field Replaceable Units (FRUs) and ensure proper functionality. If a FRU is detected as non-defective, refer to the associated troubleshooting procedures for resolution.
+
+The documentation details various system initialization processes related to memory and performance characteristics, including memory clock rates and DRAM attributes. Different events and actions during the BIOS and hardware initialization processes are described, such as the handling of ECC and non-ECC memory configurations.
+
+To reset and recover BIOS settings, you may need to clear the CMOS. This process might involve removing the HDD, AC power, and battery, then following specific instructions to restore BIOS functionality. 
+
+The BIOS Recovery feature enables recovery of the firmware if standard POST fails. For recovery, ensure to connect power and utilize a Crisis USB in accordance with the outlined procedures, including starting the BIOS flashing process.
+
+This technical outline covers the necessary operations for troubleshooting, device management, and BIOS recovery for optimal functionality.
+
+### FRU Unit Overview for D720/D520
+
+This chapter details the FRU (Field Replacement Unit) components of the D720 and D520 models. Refer to this chapter for ordering processes or for RMA (Return Merchandise Authorization) purposes.
+
+**Ordering Information for FRU Parts:**
+When ordering FRU parts, notice that any requests or issues should be directed to ACER AUTHORIZED SERVICE PROVIDERS if your service office differs from the designated FRU office outlined in this document. Compliance with local regulations and guidelines is essential when processing orders.
+
+**Component Listings:**
+- **General Assemblies:**
+  - D720/D520 Assembly: P/N
+  - Battery Case/Cover/Bracket Assembly
+  - Different adapter models with power ratings of 65W
+
+- **Batteries:**
+  - Lithium-ion batteries with various specifications (e.g., 6 cells, 4.4AH, from manufacturers like SANYO and SONY).
+
+- **Key Boards:**
+  - Options include US International, Arabic, Belgian, Brazilian, Canadian French, etc.
+
+- **Memory Modules:**
+  - Various DDRII memory options, from 512MB to 2GB.
+
+- **Storage:**
+  - HDD options ranging from 120GB to 320GB with various RPM ratings.
+
+- **Display Components:**
+  - LCD panels with specifications & compatible models.
+
+- **Cooling and Connectivity:**
+  - Includes fans, thermal modules, and internal wiring components.
+
+This compilation serves as a comprehensive guide for identifying parts, ensuring adherence to fulfillment protocols, and understanding specifications necessary for service requirements.
+
+Here's a paraphrased version of the text:
+
+---
+
+Regions and associated codes:
+
+- **RO Country EMEA**
+  - Eastern: 
+    - LX.N110Y.018 UMA PA ACLA-Spanish
+    - LX.N110Y.004 EM UMA AAP
+  
+- **Australia/New:**
+  - LX.N110C.013 UMA AAP
+  - LX.N110C.012 UMA AAP
+  - LX.N110C.011 UMA AAP
+  - LX.N110C.010 UMA AAP
+  - LX.N110C.009 UMA AAP
+  - LX.N110C.008 UMA AAP
+  - LX.N110C.007 UMA AAP
+  
+- **Thailand:**
+  - LX.N110C.006 UMA AAP
+  - LX.N110C.005 UMA AAP
+
+- **Further Codes:**
+  - LX.N110Y.017 UMA AAP New
+  - LX.N110Y.016 UMA AAP
+  - LX.N110Y.015 UMA AAP
+  - LX.N110Y.014 UMA AAP
+  - LX.N110Y.013 UMA AAP
+  - LX.N110Y.012 EM UMA AAP
+  - LX.N110Y.011 EM UMA AAP
+  - LX.N110Y.010 EM UMA AAP
+  - LX.N110Y.009 EM UMA AAP
+  - LX.N110Y.008 EM UMA AAP (Thailand)
+  - LX.N110Y.007 EM UMA PA
+  - LX.N110Y.006 UMA PA (USA)
+  - LX.N110Y.005 UMA PA ACLA-
+  - LX.N110Y.003 EM UMA 
+  - LX.N110Y.002 EM UMA PA ACLA-
+  - LX.N110Y.001 EM UMA AAP
+
+- **Additional Codes:**
+  - LX.N110C.016 UMA 
+  - 570512Ci WW: 
+    - WW S2.N110Y.001 UMA
+    - WW S2.N250Y.001 UMAC (CHINA)
+  - LX.N250Y.003 UMAC 321G12C 1*1G/120/6L/CB_0.3D_AN_SC11 (CHINA)
+  - LX.N250Y.002 UMAC 1*1G/160/6L/ TWN
+  - GCTWN LX.N250Y.001 UMAC 1*1G/160/6L/
+  - PA LX.N250Y.006 UMAC
+  - PA USA LX.N250Y.005 UMAC
+  - PA ACLA-Spanish LX.N250Y.004 EM UMAC 1*2G/320/6L/
+
+- **Other Codes:**
+  - CHINA LX.N090Y.021 UMAC 1*1G/120/6L/
+  - LX.N090Y.020 UMAC (CHINA)
+  - LX.N090Y.019 UMAC 571G12Ci (CHINA)
+  - LX.N090Y.018 UMAC 571G12Ci (CHINA)
+  - LX.N090C.015 UMAC 571G12Ci (CHINA)
+  - LX.N090C.014 UMAC 571G12Ci (CHINA)
+  
+- **AAP Codes:**
+  - Australia/New: LX.N090C.010 UMAC AAP
+  - LX.N090C.009 UMAC AAP
+  - LX.N090C.011 UMAC AAP
+  - LX.N090C.008 UMAC AAP
+  - LX.N090C.012 UMAC AAP
+  - LX.N090C.007 UMAC AAP
+  - LX.N090C.013 UMAC AAP (THAILAND)
+  - LX.N090C.006 UMAC AAP
+  - LX.N090C.005 UMAC AAP Australia/New
+  
+- **Additional Details:**
+  - LX.N090Y.017 UMAC AAP New
+  - LX.N090Y.013 UMAC AAP
+  - LX.N090Y.012 UMAC AAP
+  - LX.N090Y.014 UMAC AAP
+  - LX.N090Y.011 UMAC AAP
+  - LX.N090Y.015 EM UMAC AAP
+  - LX.N090Y.010 EM UMAC AAP
+  - LX.N090Y.016 EM UMAC AAP
+  - LX.N090Y.009 EM UMAC AAP (THAILAND)
+  - LX.N090Y.008 EM UMAC AAP
+  - LX.N090Y.007 EM UMAC PA
+  - LX.N090C.004 UMAC PA (USA)
+  
+- **Final Set:**
+  - LX.N090C.003 UMAC PA ACLA-
+  - LX.N090C.002 UMAC PA ACLA-Spanish
+  - LX.N090C.001 UMAC PA 
+  - LX.N090Y.005 UMAC PA (USA)
+  - LX.N090Y.004 UMAC PA ACLA-
+  - LX.N090Y.006 EM UMAC PA ACLA
+  - LX.N090Y.003 EM UMAC PA ACLA
+  - LX.N090Y.002 EM UMAC PA ACLA-Spanish
+  - LX.N090Y.001 EM UMAC AAP (Thailand)
+  
+--- 
+
+This organization maintains the original meaning while enhancing clarity and structure.
+
+Sure! Here’s a paraphrased version of the text:
+
+---
+
+**Specifications Overview:**
+- **CPU:** Various models including C2DP8400, C2DP8600, C2DT9400, C2DP9500, C2DT9600, CM575, CM585, PMDT3400, and CMT series, exhibiting clock speeds ranging from 1.66 GHz to 2.8 GHz with different cache sizes and power ratings. 
+
+- **Display:** LCD specifications indicate multiple variants, specifically focused around the N14.1WXGAG display standard. 
+
+- **HDD Options:** Hard drives available include models from HGST, WD, Seagate, and Toshiba, with capacities from 120 GB to 320 GB, featuring various SATA configurations and firmware updates.
+
+- **Optical Drives:** Include various ODD types ensuring compatibility across models.
+
+- **Networking:** WLAN and LAN functionalities supported by chipsets such as ALC268 and RTL8111C.
+
+**Compatibility and Testing:**
+- Ensured compatibility with manufacturers like Microsoft and testing configurations like XP Home were conducted for optimal functioning.
+
+**Battery Specifications:** 
+- Diverse batteries including 6-cell 2.2Ah and 6-cell 2.4Ah, from manufacturers such as SANYO, SONY, PANASONIC, and SAMSUNG, each with unique specifications.
+
+**Additional Notes:**
+- Acknowledgment of varied components utilized across devices including card readers and Bluetooth modules, ensuring cross-functionality.
+
+--- 
+
+This paraphrase maintains the technical details and conveys the information in a more structured format.
+
+### Technical Specification Overview
+
+**LCD Displays:**
+- **AUO WXGA Models:**
+  - B141EW04-V4
+  - N14.1WXGAG
+- **SAMSUNG WXGA Models:**
+  - LTN141W3-L01-J
+  - N14.1WXGAG L6
+- **LPL WXGA Model:**
+  - LP141WX3-TLN1
+- **LG WXGA Model:**
+  - N14.1WXGAG
+- **CMO WXGA Model:**
+  - N141I3-L02
+
+**Memory Types:**
+- **HYNIX DDRII SO-DIMM Models:**
+  - 2GB: HYMP125S64CP8-Y5
+  - 512MB: HYMP164S64CP6-Y5
+  - 1GB: HYMP112S64CP6-Y5
+- **NANYA DDRII SO-DIMM Models:**
+  - 2GB: NT2GT64U8HD0BN-3C
+  - 1GB: NT1GT64UH8D0FN-3C
+  - 512MB: NT512T64UH8B0FN-3C
+- **SAMSUNG DDRII SO-DIMM Models:**
+  - 2GB: M470T5663QZ3-CE6
+  - 1GB: M470T2864QZ3-CE6
+  - 512MB: M470T6464QZ3-CE6
+
+**Chipsets:**
+- **Northbridge:** GL40
+- **Southbridge:** ICH9M
+
+**Optical Drives (ODDs):**
+- **TOSHIBA Models:**
+  - DIGI NCB24XS
+  - COMBO DL 24X TS-L463A
+  - TS-L633A
+- **SONY Models:**
+  - COMBO DL 24X CRX890S
+  - DL 8X AD-7560S
+- **PIONEER Model:**
+  - DL 8X DVR-TD08RS
+- **HLDS Model:**
+  - DL 8X GSA-T50N
+- **PLDS Model:**
+  - DL 8X DS-8A2S
+
+**Wireless Connectivity:**
+- **Atheros Wireless LAN Models:**
+  - BG: FOX_ATH_XB63 
+  - AR5B91 
+
+**Technical Support Information:**
+For assistance with ASP or TPM, please contact the branch office or unit directly. This includes:
+
+- Service and training resources
+- Software downloads for technical support
+- Information on Acer’s International Warranty (ITW)
+  
+For detailed electrical and mechanical components, including BIOS settings, memory layouts, and troubleshooting guides, consult the Technical Information section or refer to EasyTouch flowcharts and definitions.
+

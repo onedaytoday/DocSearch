@@ -1,0 +1,109 @@
+### Installation for Family SZV32, SZV44, SZO44, and SZO56
+
+**Table of Contents**
+1. **Introduction**
+   - Overview and clearances
+   - Instrumentation (P&IDs)
+   - Cooler protection (VFD)
+   - Initial setup and routine maintenance
+   - Troubleshooting
+
+**Safety Notes**
+- **WARNING**: Follow these instructions carefully to avoid severe injury or property damage.
+- **CAUTION**: Risk of burns or electrical shock if proper procedures are not followed.
+
+**Introduction**
+The SZO44 model is classified for field service. This section outlines assembly details, including thermal management and service readiness, depending on whether the unit is shown in left or right views.
+
+**Installation Instructions**
+Ensure proper installation from the outset, with attention to maintaining clearances for service accessibility. Ensure all components are grounded in accordance with the National Electrical Code (NEC).
+
+**Operational Considerations**
+- Monitor high-pressure switches and confirm their operational status.
+- Check thermal protection settings for optimal performance and lifespan.
+
+**Cooling Specifications**
+- Connect the cooler to appropriate mains supply (24VDC, 4.5A recommended).
+- Utilize feedback from thermistors to ensure operational efficiencies, with specific temperature thresholds outlined (170-190°F or 77-88°C).
+
+**Terminations**
+Ensure all wiring connections comply with specified color codes and labeling, keeping thermistor leads clearly distinguished from power inputs.
+
+**Initial Inspections and Start-up Procedures**
+Before activating the main power, confirm all wiring is correctly configured, and that safety features and controls are functioning as intended. Inspect mechanical components for integrity, ensuring that all safety guards are in place. 
+
+**General Notes**
+Keep mechanical systems free from debris and ensure that often overlooked variables such as earth and circuit grounding are addressed to mitigate risks of malfunction and enhance system reliability.
+
+### User Guidelines for VFD Conditions and Maintenance
+
+**Operational Conditions**  
+When utilizing the VFD (Variable Frequency Drive) during normal operations, it is essential to validate the following parameters: The suction temperature should consistently range between 170°F and 220°F (77°C to 104°C). The cooler must operate continuously. If any of these conditions are not met, reference the troubleshooting guide for the 2006SSD-75 R4 model.
+
+**Maintenance Schedule**  
+Routine inspection and maintenance should occur at least annually or more frequently if necessary. Use the provided summary table for reasons concerning cooling inefficiencies. Inspect for restricted flow conditions, which may necessitate immediate troubleshooting and subsequent service.
+
+**Operational Integrity Checks**  
+Inspect the component for clarity and functionality as needed. Annual checks or more frequent inspections may be required for second-stage cooling systems and to ensure all components are free from obstruction. Regular measures should be taken to prevent overheating and ensure mechanical functionality.
+
+**Charging Procedures**  
+For the 2006SSD-75 R4 model, one must exercise caution while charging. Ensure that the backseating component is engaged correctly—turning counterclockwise will retract it, while clockwise will secure it. Utilize a strap wrench as necessary during these operations.
+
+**Chemical and Lubricant Specifications**  
+The equipment must only be filled with the factory-supplied Poly-Alpha-Olefin (PAO) fluid, as using alternative substances may void the warranty. Confirm proper fluid levels using the sight glass provided.
+
+**Operational Anomalies and Troubleshooting**  
+In case of deviations in operating conditions, a systematic troubleshooting guide is available. Key symptoms to investigate include high flow issues, cooling carryover anomalies, and restrictions that may affect VFD performance.
+
+**Technical Specifications**  
+The unit operates effectively within specified mechanical and temperature ranges. It is rated for suction pressures and operates within a temperature scope of -20°F (-29°C) to 122°F (50°C). Care must be taken to ensure proper service intervals for the VFD, especially under extreme conditions.
+
+**Selection Charts**  
+For specific application needs and performance parameters, refer to the selection charts that outline suction pressures and flow rates in correlation with power (HP) requirements.
+
+**Sheet Information**
+
+This sheet provides essential details regarding the CPI as of the publication date. **CAUTION:** This information applies exclusively to the specified applications and does not cover other warranties.
+
+### CPI Services Inc. 
+**Emergency Information**  
+**Product:** CP-6006 Chemical Poly-Alpha-Olefin (PAO)  
+**Chemical Family:** Synthetic  
+**CAS#:** [Insert CAS number] 
+
+### Components
+This product is known to comply with OSHA and FDA regulations. Store the substance in tightly sealed clothing and containers. Consult with a physician regarding exposure.
+
+### Physical Properties
+- **Appearance:** Clear, water-white
+- **Flash Point:** >300°F (149°C)
+- **Storage Temperature:** 20°C (68°F) 
+
+### Solubility
+- **Water Solubility:** Not established  
+
+### Waste Disposal
+**Dispose of waste oil properly.** As a synthetic substance, ensure compliance with local regulations.
+
+### Health and Safety Information
+- **Health Hazard (HMIS):** Not established
+- **Reactivity (NFPA):** Not established
+- **Extinguishing Media:** CO2 recommended
+
+### Stability and Reactivity
+- The product is stable under recommended conditions.  
+- Avoid exposure to heat and incompatible substances. 
+
+### First Aid Procedures
+In the event of ingestion or inhalation, seek medical attention immediately. DO NOT induce vomiting. This product is considered non-toxic under known exposure scenarios, but consult a physician if symptoms arise. 
+
+Firefighters should wear self-contained breathing apparatus to prevent exposure. Use measures to cool fire-exposed containers due to the risk of frothing when burned.
+
+### Company Information
+**Vilter LLC**  
+P.O. Box [Insert Number]  
+[Office Location, WI]  
+Website: www.vilter.com  
+
+**Note:** All rights reserved by Emerson Inc. Printed in the USA, 2006SSD-75 R4.
+

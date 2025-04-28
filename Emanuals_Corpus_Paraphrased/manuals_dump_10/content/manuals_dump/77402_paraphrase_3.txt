@@ -1,0 +1,30 @@
+**FCR Motors and Gearmotors Technical Manual**
+
+**Manufacturer:** Browning, Emerson, and affiliated Emerson Corps.  
+**Application:** www.emerson-ept.com  
+**Rights:** MCIM13005E 9055E  
+
+**Safety Instructions:**  
+Ensure adherence to operational safety protocols and proper lock-out/tag-out procedures to prevent accidents, including potential injury or death from exposed components. Regular inspections must be performed to ensure that the equipment’s installation aligns with the specifications on the nameplate and conforms to safety standards. 
+
+**Installation Guidelines:**  
+Maintain cleanliness and protect the equipment from mechanical shocks and voltage fluctuations. Ensure a clearance of three inches from the cover for ease of maintenance and grounding. When using normally closed thermostats, they must be wired correctly to maintain a proper holding supply, sourcing from 180V DC or directly from a 575V supply. 
+
+**Caution:**  
+Always disconnect the rectifier cell during testing for current insulation or dielectric strength. 
+
+**Electrical Specifications:**  
+The system operates on three-phase configurations with onboard rectifiers, allowing interchanging connections between SO6 and SO8. Supply voltage options include 190/380V and 575V. Ensure switches B1 and B2 are disconnected, per provided schematics.
+
+**Mechanical Release Procedure:**  
+Manually release the system by unscrewing the mechanical release mechanism. It is crucial to follow the disassembly instructions carefully, ensuring that housing assembly and screws are secured correctly upon reassembly. 
+
+**Troubleshooting:**  
+For abnormal heating or mechanical issues, diagnose potential causes promptly. Address phase short-circuits or mechanical lock-ups by checking the cleanliness of components and ensuring proper supply continuity. When switched off, the motor/gearmotor should rotate freely for assessment.
+
+**Reference Information:**  
+Refer to nameplates for specific gearmotor and FCR specifications, and consult troubleshooting sections for any operational issues. 
+
+**Disclaimer:**  
+This document is printed in the USA, and all rights are reserved by Emerson.
+

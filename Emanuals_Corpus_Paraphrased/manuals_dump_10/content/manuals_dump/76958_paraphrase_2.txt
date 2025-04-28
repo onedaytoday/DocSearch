@@ -1,0 +1,130 @@
+# ESD-380 Technical Instructions
+
+## Table of Contents
+1. Preface...............................................................................................................2
+2. Features...............................................................................................................3
+3. Precautions..........................................................................................................5
+4. Quick Start Guide:
+   - Function Definitions
+   - Keyboard Switch Settings
+   - Switch Definitions
+5. RS-485 Installation........................................................................................12
+6. Connection Details.........................................................................................17
+7. Cable Connection and 22-Pin Connector Definitions..........................19
+8. OSD Display Formats...................................................................................20
+9. System Architecture......................................................................................21
+10. Appendix:
+    - OSD Menu Structure
+    - PELCO Symbol Definitions
+    - Special Functions Using PELCO Controllers
+    - Philips Allegiant Symbols and Functions....................................34
+
+## Preface
+The ESD-380 is engineered for heavy-duty applications, providing robust performance and secure installation. It features an advanced DSP with options for zooming—22X, 12X, and 23X (with additional items). The device captures at a resolution of 364X (or 276X for certain parameters), allowing for continuous operation with integrated backlight and infrared capabilities. These features make it suitable for various applications requiring high reliability. RS-485 connectivity enables the automation of monitored areas, while other advanced functions support a range of operational needs. Every unit is manufactured and rigorously tested under ISO conditions to ensure performance and durability.
+
+## Key Features
+- **Camera Performance**: Supports multiple zoom functionalities (DR 23X, 22X, 12X).
+- **IR Backlight Functionality**: Enhances low-light imagery.
+- **Continuous Operation**: The device is capable of lasting performance without interruption.
+
+## Rotary Body Features
+- **Preset Function**: Allows users to easily set and retrieve defined camera positions.
+- **Auto-Turn Around**: Features tracking capabilities for automated monitoring.
+- **Remote Access**: Supports remote functionality for operational convenience.
+
+## Precautions
+Ensure proper handling; avoid physical shocks or disassembly by unauthorized personnel. Operational temperature range is -30°C to 45°C (-22°F to 104°F). Use a soft cloth for cleaning and avoid harsh brightness which can cause glare.
+
+## Quick Starting Guide
+To begin using the ESD-380, access the ESD-CC1 keyboard:
+- Select <DOME> and input the ID for the desired preset.
+- Utilize the <SET PRESET> and <GO PRESET> functions to define and retrieve camera positions.
+- Follow the on-screen prompts for settings adjustments such as speed and dwell time.
+
+## Switch Definition
+Configuration of ID is managed via the designated switches (SW1-SW3) to enable communication through RS-485 protocols.
+
+## Installation Steps
+1. Unpack and position the unit correctly.
+2. Install the top cover, ensuring a secure fit.
+3. Mount the sunshield using the provided screws.
+4. Establish RS-485 and BNC connections.
+
+## Cable Connection
+Refer to the data below for the pin assignment on the 22-pin connector:
+- AC24-1: White 
+- AC24-2: Black 
+- Other pins: Empty
+
+## OSD Display Format
+This section provides details on how to interpret the on-screen display settings related to focus modes, alarms, and camera identification metrics.
+
+## Specifications
+The camera supports various video formats (PAL/NTSC) with a resolution of 758(H) x 504(V) for exceptional image clarity, complemented by advanced features such as white balance, motion detection, and multiple I/F protocols for enhanced connectivity.
+
+## System Architecture
+Detailed information regarding the overall architecture of the ESD-380, encompassing both hardware and software interactions, can be found in this final section.
+
+This user guide details the tree structure of the Setup Menu, as outlined below. 
+
+**SETUP MENU DESCRIPTION OSD TREE STRUCTURE**
+- Default Settings
+  - BLC Level
+  - Backlight: Auto
+  - Focus
+  - Aperture: 
+    - AE Mode
+    - White Balance Mode
+    - ID Display
+- Setup Menu Appendix
+  - OSD Menu: OFF
+  - Manual and Auto Aperture
+  - Offset Shutter
+  - Shutter Speed: Manual and Auto
+  - IRIS & AGC: 
+    - Auto Gain
+    - Manual Gain
+    - Flip
+    - Enter Fast Zoom Speed
+    - Digital Zoom (DR)
+  - Slow Shutter: (NTSC/PAL)
+  - Angle Adjuster: Reset
+  - Exit Image ME
+  - Slow Off adjustments
+  - Min/Max Angle: Reset
+
+**TITLE DISPLAY SETTINGS**
+- Title Display: ON/OFF
+- Title Setting
+- Alarm Settings
+- Home Settings
+- Sequence Configuration: Enter Autopan and Cruise Options
+- Alarm Pin Configuration
+- Alarm Switch: Normally Open (N.O.)
+- Alarm Type and Action
+- Sequence Point and Dwell Time
+- EXIT options
+
+**ALARM AND HOME SETUP**
+- Home Function: ON/OFF
+- Select Modes (Autopan/Sequence/Cruise/Preset) 
+- Return Time in Minutes
+- Record Start and End Commands for sequences
+
+**IR FUNCTION SETTINGS**
+- WDR Settings:
+  - Threshold: Low, Mid, High
+  - Auto IR Color: B/W/Color
+- Privacy Settings
+  - Shade selected through option
+  - Set Mask options
+
+**CABLE DEFINITION AND INSTALLATION**
+- Recommended RS-485 CAT cable for connection.
+- Details on cable definitions for connection to power and ground.
+
+**ADDITIONAL FUNCTIONALITY**
+- Instructions for use with PELCO KB control or ALLEGIANT KB control for dome cameras, including OSD navigation and command execution.
+
+For further guidance, please consult the provided symbols and definitions for clarification, and for assistance with setup in Pageview, NY, visit www.elmousa.com.
+

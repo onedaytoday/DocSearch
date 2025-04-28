@@ -1,0 +1,29 @@
+**APPLICATION**
+
+The ELK-982(K) is equipped with a DC power supply and battery, providing a robust 2.5A output for various applications. Its design facilitates straightforward field installation.
+
+**FEATURES**
+
+- **Continuous Operation:** The unit supports a continuous load of 1A.
+- **Installation Guidance:** Mount the ELK-P624 power supply at the top right using the provided installation instructions and hardware.
+
+**OPERATION**
+
+This section outlines operational functionality. The system is designed to work with either the ELK-981 supply or battery. 
+
+**Specifications:**
+- **Model Details:** ELK-982 has integrated functions with the following power components: ELK-1250 Battery and ELK-TRG1640 Transformer.
+- **Power Outputs:**
+  - 12V DC Output
+  - Output Indicators:
+    - Green LED: AC input is normal.
+    - Red LED: AC input is off; operating on battery power only.
+  
+**Battery and AC Status:**
+- The system operates on battery when the AC input is disconnected. Eventually, the battery will be depleted, resulting in an off state.
+  
+**Mounting Instructions:**
+- Proper installation necessitates the use of mounting plates and standoffs as specified in the instructions provided. 
+
+This structured summary maintains the essential details while presenting them in a more coherent technical format.
+

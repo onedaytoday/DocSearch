@@ -1,0 +1,30 @@
+**DPE Transition from FC 55XX/57XX to FC 45XX**
+
+This process involves the migration of the DPE (Data Processing Engine) and associated core software, identified as Licensed (LIC) software. Authorized EMC service personnel are the only ones permitted to conduct this transition.
+
+**P/N DPE 54XX/56XX to FC 45XX**
+
+The DPE includes the Data Access Enclosure (DAE) and the Storage Processor Subsystem (SPS). If an Access option is enabled, it integrates with the Core Software on CD-ROM. The configuration is compatible with switches and various revisions of Navisphere and ATF (Application Task Framework). The operational essence of Navisphere is critical for managing these connections.
+
+If the DPE interfaces with HP/UX and the models FC 54XX/55XX or FC 56XX/57XX, it is essential that the Core Software version aligns with the HP-UX version S000309A or later.
+
+The latest revisions of Core Software are available on the Access CD-ROM, including versions 5.32.XX and 6.32.XX, along with Navisphere software. Information can be accessed via the URL: www.cs.isus.emc.com/csweb2/index.htm.
+
+**Procedure for Upgrading DPE 54XX/56XX to FC 45XX**
+
+When transitioning with Core Software or Service Packs (SPs), version 2.XX or earlier is known as RAID (Redundant Array of Independent Disks). A RAID group comprises LUNs (Logical Unit Numbers). The relationship between RAID groups and LUNs will determine how they interact in Navisphere. Utilizing Core Software version 5.XX, both RAID and LUNs are impacted, necessitating a backup of configurations and data from relevant CD-ROMs.
+
+In considering RAID operations, the documentation for the Core Software and Navisphere products is provided in detail. If you migrate from earlier versions, expect to manage the cache memory dynamics for both the SPs and LUNs during this transition.
+
+**Lights and Notifications**
+
+Upon completion of the upgrade, indicators on the front of each SP will signal readiness. Access to core features may vary based on whether you are using the comprehensive Core Software or a basic version.
+
+**Property and Licensing**
+
+All software and related materials are proprietary to EMC Corporation, governed by usage terms. Users must ensure compliance with EMC regulations regarding software handling.
+
+**Final Remarks**
+
+To complete the DPE transition, remove existing SPS, update firmware if necessary, and proceed accordingly with securing proper authorizations for service requests (RMA Authorization) where applicable.
+

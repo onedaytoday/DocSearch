@@ -1,0 +1,101 @@
+# Touchmonitor LCD Touchmonitors 1747L/1767L Revision C
+
+**Product Information**  
+Touchmonitor LCD Touchmonitors 1747L/1767L Revision C P/N 008559E  
+TouchSystems, Inc. | 1-800-ELOTOUCH | www.elotouch.com
+
+**Copyright Notice**  
+All rights reserved. This document may not be reproduced, transmitted, transcribed, or translated without the written permission of TouchSystems, Inc. The information provided is subject to change without notice, and there are no warranties regarding merchantability or suitability for a specific purpose. TouchSystems and its associated brands, such as SecureTouch, AccuTouch, and Entuitive, are registered trademarks.
+
+### Chapter Overview  
+- **Introduction**
+- **Precautions for Use**
+- **Product Features and Functions**
+- **Touchmonitor Setup**
+  - Connecting to a PC (RS-232 or USB)
+  - Using the On-Screen Display (OSD)
+  - Touchmonitor Technical Specifications
+  - Troubleshooting
+
+**Product Features**  
+Congratulations on your purchase of a TouchSystems touchmonitor. This device incorporates advanced touch technology and an LCD display. Consult the user manual for detailed information about setup and features, which include:
+- Direct RGB or RGB input
+- High refresh rates
+- Support for multiple operating systems (Windows XP, NT, etc.)
+- VESA DDC 1/2B compliance for display identification
+- DPMS for power management
+- A physical mounting interface compatible with VESA standards
+
+### Unpacking the Touchmonitor  
+This section outlines the components included in the packaging for the LCD touchmonitor. Ensure you have all listed items before proceeding with installation.
+
+**Installation Instructions:**
+- Confirm you have the complete product, including:
+  - Touchmonitor unit
+  - C-bracket mounting hardware
+- Carefully connect the necessary cables to the ports specified on the underside of the monitor as outlined in the instructions.
+
+### Connection Steps:  
+1. **Connecting the Video Cable:**  
+   - Use the appropriate video connector (15-pin or DVI-D) to link the monitor to your PC. Secure connections by turning the screws clockwise.
+
+2. **Connecting the Touchscreen Interface:**  
+   - Choose the communication option (RS-232 or USB) and connect it to the matching port on your PC. Be sure that the monitor is powered off during this process.
+
+3. **Connecting the OSD Remote:**  
+   - Attach the remote OSD connector to the designated port to enable configuration settings.
+
+4. **Power Connection:**  
+   - Connect the power supply plug appropriately and lead the cable through the strain relief to avoid damage. Ensure all connections are securely fastened.
+
+### VESA Mounting Instructions  
+The touchmonitor meets the VESA physical mounting interface standard, allowing compatibility with various mounting solutions. Reference the mounting diagram located on the rear of the product for proper installation.
+
+### Software Installation  
+To facilitate touch functionality, install the provided software from the accompanying CD-ROM. The software is compatible with multiple operating systems. Refer to the screen prompts for installation instructions.
+
+### On-Screen Display (OSD)  
+The touchmonitor features an OSD to adjust performance settings. It is crucial to maintain optimal operating specifications. If adjustments are made, return to factory settings as necessary. For detailed operation procedures, please refer to the relevant sections in the manual. 
+
+For technical support or further inquiries, visit our website at www.elotouch.com or contact our customer service line.
+
+**Remote OSD Touchmonitor**
+
+**Controls:**
+- **AUTO/SEL, DOWN, UP, MENU** 
+
+**Functionality:**
+- **MENU:** Displays or exits the On-Screen Display (OSD) menu.
+- **Brightness:** Adjusts the brightness of the OSD.
+- **Plus:** Rotates the selected item clockwise. 
+- **Minus:** Rotates the selected item counter-clockwise. 
+- **AUTO/SEL:** Selects an item within the OSD.
+
+To switch the touch monitor on or off, press the AUTO and SELECT buttons for a few seconds to access the OSD. 
+
+**OSD Functions:**
+- **Brightness Control:** Adjusts screen brightness.
+- **Left/Right, Up/Down:** Navigate through the factory settings; press "OK" when desired settings are highlighted for confirmation. The "USER" option allows customization of settings.
+
+RGB settings (Red, Green, Blue) can be adjusted using the OSD for improved contrast and sharpness.
+
+**EXIT:** Exits the sharpness and phase options in the OSD menu. The OSD timeout (in seconds) sets how long the menu remains visible before automatically closing.
+
+**Connection Issues:**
+- Ensure that all I/O connections are secure and properly configured. If the display appears distorted, it may be due to faulty power supply connections or incorrect outlet use.
+
+**Troubleshooting:**
+If the touch monitor does not function correctly, check:
+- Connections to the LCD are secure.
+- The graphic refresh rate is compatible with the LCD.
+- Use appropriate input resolutions:
+  - VGA, SVGA, XGA, and SXGA.
+
+**Avoiding LCD Artifacts:**
+The LCD employs algorithms to mitigate artifacts such as ghosting or distortion in displayed characters.
+
+**Safety Precautions:**
+To prevent electrical shock, ensure the monitor is connected with a 3-wire grounding cord to a proper outlet. Unauthorized modifications may void warranty. Avoid damaging the monitor physically—if it causes harm, disconnect immediately.
+
+For detailed information regarding the operation and safety of the touch monitor, refer to this chapter.
+

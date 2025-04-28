@@ -1,0 +1,48 @@
+**FC4700 to IP4700 Conversion Technical Overview**
+
+This document outlines the procedure for converting the FC4700 system to the IP4700 system along with the associated IP4700 software. It is essential to follow factory-approved guidelines during this transition, particularly regarding the equipment needed.
+
+**Conversion Details**
+
+The conversion involves integrating twisted-pair CAT5 Ethernet connections, utilizing the Distributed Processing Engine (DPE) and Disk Array Expansion (DAE) components within the IP4700 environment. The IP4700's LAN supports both 1000FD communications and crucial station services, necessitating compatibility with NT and various interfaces like HyperTerminal and Internet Explorer.
+
+**Conversion Kit Components**
+
+The FC4700-to-IP4700 Conversion Kits (e.g., part numbers FC-IP4700F and FC-IP4700G) include various requisite components, accessories, and support materials. Specific part numbers for IP4700 software and accessories are documented for reference.
+
+**Data Loss Warning**
+
+It is critical to note that once the conversion to the IP4700 is executed, any data stored on the FC4700 cannot be recovered. Follow the detailed instructions in the associated chapters of the IP4700’s service manual to ensure all hardware is correctly positioned and configured.
+
+**Loading IP4700 Software**
+
+The software loading process starts when the system prompts you for autoboot confirmation. Navigate through the setup to initiate the firmware upgrade, ensuring that the required versions of PROM and BIOS are displayed correctly. If discrepancies appear, consult the service manual for troubleshooting.
+
+**FC4700 to IP4700 Configuration**
+
+When configuring the system, monitor the LEDs on the DPE to verify correct operation during the conversion. Switching between SPS A and B may be necessary to complete the loading process successfully. 
+
+**Factory Resetting the System**
+
+Full factory reset procedures are outlined to restore the system should issues arise during conversion. Follow step-by-step instructions to ensure the IP4700 is prepared for operation after the transition.
+
+**Operational Status Verification**
+
+After completing the conversion, verify the status of the system by checking the SPSTATUS information. Ensure that peer status and cache settings are as expected. Report any irregularities back to the service protocols for corrective actions.
+
+**Key Notes**
+
+Each section includes extensive instructions to facilitate a smooth transition. Ensure that hardware configurations align with documentation standards to maintain system integrity post-conversion.
+
+To initiate the CRU (Factory Start), follow the specified sequence, ensuring that all flashing indicators are monitored. Once completed, type "clearlog" and execute the necessary commands for the FC4700 to IP4700 conversion.
+
+For the DPE Chassis, document the characters and the WWN related to F20004701426. Note that this command affects the write cache and I/O processes. When prompted on the IP4700 display, use CTRL-V to proceed.
+
+To access Factory Choice, utilize the FCLI Passthru Command. Confirm your entries carefully; inaccuracies may lead to further steps. To initiate a clearlog, follow the outlined processes.
+
+During the Factory Access procedure, ensure you follow the steps for FC4700 to IP4700 conversion, including the creation command. The FACTORY INITIALIZATION should complete successfully, indicated by the IP4700 display.
+
+Once you start the conversion, information will be gathered from the FC4700 and displayed on the IP4700. For additional guidance, refer to the IP4700 Release Notes to ensure an accurate setup.
+
+Please ensure all instructions are adhered to for optimal operation of the IP4700. The information is proprietary to EMC Corporation, and any unauthorized distribution is prohibited. EMC Corporation disclaims all implied warranties regarding the products and software. For further assistance or if you wish to abort the process, consult authorized service personnel regarding the IP4700 software release.
+

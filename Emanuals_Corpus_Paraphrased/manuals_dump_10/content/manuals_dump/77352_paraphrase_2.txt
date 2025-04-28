@@ -1,0 +1,110 @@
+**EMC Document Overview – P/N REV A01 AUGUST**
+
+**EMC Corporation Corporate Headquarters: MA**
+
+**Copyright Notice:**  
+The content of this publication is provided "AS IS," without any representations or warranties. EMC Corporation disclaims all implied warranties, including but not limited to those of merchantability and fitness for a particular purpose. Unauthorized copying or distribution of EMC software is prohibited.
+
+**Contents Overview:**
+- **Chapter Introduction:** 
+  - Overview of the Host Bus Adapter (HBA) and its integration with EMC arrays.
+  - Instructions for downloading relevant software and firmware for HBAs.
+
+- **Direct-Connect Dual-Host Clustering:**
+  - Preconfigured NVRAM for Fibre Channel connections with HBAs.
+  - Guidelines for firmware and BIOS updates.
+
+- **Operational Insights:**
+  - Flowchart for I/O latency checks and LUN configurations.
+  - Instructions on how the OS interacts with the HBA during boot processes.
+  - Explanation of how physical drives are assigned based on PCI numbers.
+
+**Safety Information:**
+- **Caution and Warning Notices:**
+  - Information regarding potential hazards is explicitly presented. Exercise care when handling hardware and software installations to avoid risk of equipment damage or personal injury.
+
+**Typographical Conventions:**
+- Uses specific fonts for highlighted information.
+- Details on navigation through graphical interfaces, such as buttons and options within the EMC software.
+
+**Firmware and Driver Management:**
+- To obtain the appropriate firmware and drivers, visit the QLogic website, navigate to the downloads section, and follow the prompts to download the necessary components for the HBA.
+
+**Installation Instructions:**
+- Guidelines for connecting HBAs to storage solutions and ensuring proper connectivity and functionality.
+- Directions for managing port identifiers and ensuring correct hardware topology.
+
+**HBA Configuration:**
+- Procedures for configuring HBA settings, including FC-AL ID management and troubleshooting connectivity issues related to the HBA and EMC systems.
+
+By adhering to these instructions and precautions, users can ensure the optimal operational efficiency of EMC systems and associated HBAs.
+
+The HBA (Host Bus Adapter) from EMC utilizes NVRAM (Non-Volatile Random Access Memory). The advanced configuration integrates EMC HBAs with host systems via the BIOS interfacing with NVRAM. The creation of the accompanying CD-ROM encompasses both BIOS and NVRAM functionalities. For proper implementation, ensure downloading and applying necessary updates, including PowerPath/ATF and EMC bandwidth configurations (Gb/s) and Throttle options (topology) as required.
+
+When initializing HBAs that come pre-loaded with EMC software, check them during the HBA POST (Power-On Self-Test). Each HBA is recognized within the Core PCI chassis. The initial HBA firmware/BIOS and NVRAM application require you to adhere to the respective connections within the chassis layout. Be cautious not to disturb other components while accessing the PCI chassis; it may necessitate the removal of screws for optimal access.
+
+For relevant firmware updates and configurations, it's essential to follow the specified documentation carefully, particularly when transitioning to DOS for HBA updates. When operating in DOS, utilize commands like `FLASUTIL.EXE /L /F` for firmware/NVRAM updates, and ensure you're working with the appropriate files for your specific HBA model, such as QL2XUTIL.EXE, while considering any unique parameters for NVRAM configuration.
+
+Manual adjustments to HBA settings require pressing specific keys like CTRL-Q during BIOS prompts to manage topology effectively. Follow the structured processes outlined for navigating options and configurations on the HBA.
+
+Installation procedures involve selecting the appropriate OEM drivers for various host systems. If any connectivity issues arise (for example, showing the HBA as an unknown device), follow troubleshooting steps and install drivers from the provided A:\ drive.
+
+Lastly, when dealing with potential system crashes during boot processes, be aware that EMC suggests certain practices and precautions when interfacing with Microsoft NT. Issues may arise from memory constraints during boot, requiring a careful approach to mitigate risk and ensure optimal operation throughout your EMC-HBA setup.
+
+Here's a paraphrased version of the provided text:
+
+This section outlines how to access the BIOS. The relevant BIOS is already present. It pertains to the connection of EMC devices to Intel-based systems. Begin by connecting the EMC to the lowest-numbered PCI slot. To proceed, press CTRL-Q when prompted by the HBA (Host Bus Adapter), specifically for the QLA2300 model. Copyright information will appear, along with a prompt indicating available HBAs. If multiple HBAs are present, select the one connected to the lowest-numbered PCI slot, then press ENTER. 
+
+To configure the EMC with the HBAs, access the BIOS and ensure proper selection. Press ESC to exit menus as needed. The system will display available devices. Choose the relevant LUN by pressing ENTER, and if adjustments are necessary, the ESC key can be used to backtrack. 
+
+Next, load the Microsoft Windows NT operating system. Ensure that the EMC is connected correctly to the NT CD-ROM. Follow the prompts to install NT while pressing F6 when prompted. This action will enable third-party drivers necessary for installation. Choose QLA2300 (or QLA2200) from the options presented, and proceed with installation. If your system has a SCSI CD-ROM, follow the corresponding instructions to install NT.
+
+For the HP G2 systems, access the RDP (Remote Deployment Platform) and create a boot sequence as follows: right-click to select the RILOE interface. Ensure the created LUN is detected. The system should prompt configurations regarding booting from SAN.
+
+The procedure includes sections on installing the EMC with HBA hosts, checking configurations, gathering firmware updates, and using the Navisphere management software. Make sure to download the necessary drivers and verify HBA connections, whether through switches or direct connections.
+
+In summary, ensure that your configuration aligns with the requirements outlined for the HBA and EMC connections. For any troubleshooting or further details, refer to the specific sections regarding switch configurations and compatibility.
+
+What’s next? Analyze the current switch configurations, ensuring consistency between the HBAs and storage processors (SPs). If any issues arise, detailed troubleshooting with specific attention to the LUNs and their assignments can assist in resolving them.
+
+### Next Steps for EMC HBA BIOS Configuration
+
+#### Accessing the HBA BIOS
+To manage the HBA settings for EMC systems, start by accessing the HBA BIOS. When the system boots, the BIOS will display. Press **CTRL-Q** to load the HBA firmware. If multiple HBAs are present, select the relevant one using the arrow keys, and press **ENTER** to proceed. Choose the first option to view the World Wide Name (WWN) and the associated LUN.
+
+If using EMC Navisphere software in conjunction with PowerPath or Automatic Transfer Feature (ATF), follow the recommended instructions. If prompted, press **ESC** to return to the main menu.
+
+#### Booting from the EMC Installation CD
+To start the EMC installation on HP G2 hosts, make sure the bootable EMC Navisphere CD-ROM is used. If necessary, bind the LUN acting as the bootable source. After booting, press **F6** when prompted to inspect and configure the SCSI BIOS settings. Follow any on-screen prompts to ensure the correct path for installation.
+
+#### Checking the LUN Configuration
+To ensure the LUN is correctly detected, the system may display it as 'Unpartitioned' or 'Unformatted.' If so, follow the instructions to partition or format the LUN as needed. Be cautious of overwriting any existing data; use **ESC** if you wish to abort, or confirm the operations as shown in the instructions. 
+
+Once you navigate through the installation process and configure the drives, select the drive as NTFS and follow further prompts to complete the setup.
+
+#### Navigating the EMC PowerPath and ATF Software
+Ensure that the EMC Navisphere software is correctly installed and can communicate with all HBAs. The software also needs to refresh the paths to the LUNs for high-availability and proper functionality. If any path information needs updating, select the host and apply the necessary changes. 
+
+#### LUN Trespassing Procedures
+If necessary, you can implement the atf_trespass command to override the current LUN settings. This may involve specifying the source and target Storage Processors (SP) when executing the appropriate commands through the EMC software CLI. Each HBA should maintain the necessary connections to both the primary and secondary LUNs.
+
+#### Summary of Installation Steps
+1. Boot and access HBA BIOS via CTRL-Q.
+2. Set the EMC installation CD as the boot source.
+3. Follow prompts for formatting and partitioning the LUN.
+4. Ensure correct HP G2 NTFS settings.
+5. Use PowerPath or ATF to manage LUN paths.
+6. Utilize atf_trespass for LUN reassignment as needed.
+
+By following these steps, you will be able to configure your EMC system and ensure its optimal operation with HBAs.
+
+The BIOS and HBAs facilitate booting from NTOSKNL BSOD by providing a path for the OS to access mounted HBA BIOS during the startup process. While the OS is loading, it completes the boot process by utilizing LUN Path information, which is crucial as the OS approaches initialization or encounters an NTOSKNL BSOD. It's important to ensure the LUN is correctly configured. Internally, altering settings may impact recovery rates for both %SYSTEMROOT% and EMC systems.
+
+This document covers third-party software interactions with EMC HBAs. It includes guidelines on using these tools to manage attached EMC arrays. The section dedicated to this software elaborates on HBA firmware, BIOS, and NVRAM, with instructions for downloading updates.
+
+The software is designed to be multipath-aware, enabling efficient I/O operations. Users must configure registry settings for ShowGateKeeperDevices and ShowEmcHiddenDevices types, ensuring the right services are in place. Any modifications should be undertaken cautiously, ideally with support from EMC Customer Service.
+
+The troubleshooting section details the protocol for addressing connectivity issues related to HBAs, including how to identify problems when LUNs are marked as Unknown or Unallocated. It suggests maintaining current firmware on switches and HBAs for optimal performance. Any discrepancies in reported I/O must be documented, with particular attention to specific IDs and offsets for resolution.
+
+For further assistance, consult the relevant sections regarding third-party software and EMC troubleshooting protocols.
+

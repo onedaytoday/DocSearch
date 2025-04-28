@@ -1,0 +1,52 @@
+**1940L Touchmonitor SW601787 Overview**
+
+This document details the 1940L Touchmonitor (SW601787) by TE Connectivity Corporation. All rights reserved regarding this publication, including reproduction, transmission, transcription, or translation, are held by TE and its affiliates. This information is important for understanding the device’s features and specifications but may be revised without notice. The terms "AccuTouch," "TouchSystems," and "TE Connectivity" refer to the TE Connectivity family of companies, as well as any relevant third parties.
+
+**Introduction**
+
+The 1940L is a widescreen touchmonitor featuring an active thin-film-transistor LCD for enhanced performance. It delivers high-definition graphics and utilizes an LED backlight, reducing energy consumption and eliminating mercury found in traditional CCFL-backlit displays. Users should adhere to the precautions outlined in this manual.
+
+**Product Contents**
+
+Included with the touchmonitor are a protective sheet, TouchTools CD, DVI and VGA connectors, USB, and a Remote OSD. Connect the monitor via either DVI or VGA inputs, ensuring screws are tightened for optimal performance. The monitor operates on a 12VDC input and is designed to power on automatically.
+
+**Software Installation**
+
+For software compatibility, the monitor supports Windows XP, WEPOS, and other operating systems. Reference the TouchTools CD for installation instructions and additional information can be found online at www.elotouch.com. When prompted during installation, follow the on-screen directions for USB Touchscreen functionality.
+
+**Mounting Information**
+
+For installation, the OSD can be configured for vertical or horizontal positioning using VESA-compatible four-hole M4 screws. Ensure the monitor is securely mounted as specified.
+
+**Monitor Operation**
+
+The touchmonitor features an LED indicator to show power status. If the device is in sleep mode, it can be woken by touching the screen or using the Remote OSD. This device is factory-calibrated and ready for use upon connection to compatible computers. 
+
+**Technical Specifications**
+
+The 1940L SW601787 supports various touch technologies, including projected-capacitive touch, and is primarily compatible with HID drivers for enhanced usability. Performance metrics include height and aspect ratio adjustments to maintain display clarity.
+
+**On-Screen Display (OSD) Functions**
+
+The OSD, accessible via the monitor’s buttons, allows users to adjust brightness, select input sources, and check clock settings for VGA input. The interface also includes language options and allows for adjustments to sharpness, rotation, and scaling.
+
+For system maintenance and troubleshooting, users should consult the 'Technical Troubleshooting' section and, if issues persist, reach out to Customer Service. The device is compliant with necessary recycling regulations (WEEE) and should be disposed of responsibly.
+
+For further assistance, contact TE’s technical support via links provided in the manual.
+
+### Chapter Information
+
+**I. General Information:** This document provides guidance on operation and serviceability. It is recommended that a qualified service technician handle any repairs or servicing matters.
+
+**II. Compliance and Interference Notice:** This device has been tested and complies with FCC Class standards, providing reasonable protection against interference when installed according to the provided instructions. The device adheres to the EU EMC Directive 2004/108/EC and the Low Voltage Directive 2006/95/EC. Users should be aware that interference may occur under certain conditions. If issues arise, it is advisable to relocate the device or turn it off as necessary. Users should avoid connecting to poorly grounded AC outlets, as this could increase the risk of interference or electric shock.
+
+**III. Regulatory Compliance:** The device has been certified by various agencies, including FCC, UL, and CE.
+
+**IV. RoHS Compliance:** This product complies with the Chinese RoHS directive, indicating low levels of hazardous substances such as lead and mercury. The presence of toxic materials is documented under relevant regulations.
+
+**V. Specifications:** The device operates at 100-240 VAC, 12 VDC, with a current rating of 4.16 A. Operating temperature ranges from 0°C to 40°C and supports humidity levels of 20-80% (non-condensing). 
+
+**Chapter Warranty Information:** The product is warranted to be free from defects in materials and workmanship for a period of three years. Any warranty claims must be reported within thirty days of discovery, including information for inspection of the affected product. If deemed defective, the manufacturer will take appropriate remedial action, which may include repair or replacement. The warranty does not cover claims outside the original scope indicated herein, nor does it extend to indirect damages or losses incurred. 
+
+For further details on the product, including specifications and software updates, visit [www.elotouch.com](http://www.elotouch.com) or contact TE Connectivity Corporation in North America.
+

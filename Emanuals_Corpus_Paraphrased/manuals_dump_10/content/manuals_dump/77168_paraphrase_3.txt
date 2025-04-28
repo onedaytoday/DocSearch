@@ -1,0 +1,75 @@
+### USER MANUAL: Touch 1930L/1931L Touchmonitor SW602163
+
+**Copyright Notice**  
+No part of this publication may be reproduced, transmitted, transcribed, translated, or otherwise utilized without the written permission of Touch Inc. This document provides information pertaining to Touch Inc. and its affiliates (collectively referred to as "Touch") and includes no guarantees concerning merchantability or suitability for a specific purpose. Touch and its affiliates hold rights concerning this publication, including the ability to make revisions without notice.
+
+**Table of Contents**  
+- Introduction  
+- Mounting Information  
+- Technical Specifications  
+- Warranty Information  
+
+**Introduction**  
+The Touch 1930L/1931L touchmonitor delivers high-quality performance with its integrated touchscreen technology, accompanied by a solid warranty. This device features an aesthetically pleasing design with an LED display that minimizes mercury use. To ensure optimal operation, users should adhere to the guidelines in this manual and refer to the specific chapters for detailed information.
+
+**Included Items**  
+The touchmonitor package includes:  
+- Touchmonitor  
+- Protective cover  
+- CD with regulatory information  
+- VGA and DVI cables  
+- USB cable  
+- Mounting screws  
+
+**Connector Interfaces**  
+The touchmonitor features DVI and VGA inputs. Connection to a USB port is required for touch functionality, and the touchmonitor operates on a 12VDC power supply. Ensure that the monitor is powered on for functionality.
+
+**Software Requirements**  
+For optimal performance, install the provided software compatible with Windows XP and HID-compliant devices. Additional operating system information is available at www.elotouch.com.
+
+**Installing the Touch Software**  
+To begin installation, click through the setup prompts displayed.
+
+**Mounting Information**  
+The touchmonitor can be mounted using a VESA-compatible bracket, adhering to VESA MIS-D specifications. M4 screws are required for installation.
+
+**Power Management**  
+To turn the touchmonitor on or off, utilize the on-screen display (OSD). The LED indicator will signify operational states: ON, OFF, or SLEEP. Following energy-saving practices is recommended to minimize power consumption.
+
+**Touchscreen Accuracy**  
+The touchmonitor is factory-calibrated for immediate use and connects seamlessly to Windows XP systems. For best results, ensure accurate calibration to enhance touch responsiveness and performance.
+
+**On-Screen Display (OSD)**  
+The OSD allows adjustment of settings, including brightness, input source selection, and scaling. Users can navigate through various functions to tailor display preferences.
+
+**Technical Support**  
+For troubleshooting, ensure power connections are intact and that the touchmonitor operates within specified resolution settings. If issues persist, contact Touch Customer Service for assistance.
+
+**Cleaning and Maintenance**  
+Users should follow proper cleaning guidelines, using soft cloths and avoiding harsh chemicals that could damage the touchscreen surface.
+
+**Environmental Compliance**  
+In accordance with the Waste Electrical and Electronic Equipment Directive (WEEE), this product should be disposed of in accordance with local regulations for household products, ensuring proper recycling and recovery.
+
+**I. Information Overview:**
+The device should only be serviced by qualified technicians. Ensure all connections follow the specified procedures to avoid issues such as fire hazards.
+
+**II. Compliance and Immunity Notice:**
+This equipment has been tested and meets the FCC Class requirements for reasonable interference protection. Users should adhere to the provided instructions to maintain compliance with the specified interference regulations. This product complies with the European EMC Directive 2004/108/EC and the Low Voltage Directive 2006/95/EC, as outlined in EN standards. 
+
+Users should be aware that certain factors may affect interference. If interference occurs with other devices, users should try repositioning the device or checking connections. It is advisable to use a grounded AC outlet to minimize RF issues. 
+
+**III. Regulatory Information:**
+This device complies with regulations set by various agencies, including the RCM, CUL, IC, CCC, FCC, and UL.
+
+**IV. Environmental and Safety Information:**
+Certain hazardous materials, such as Mercury (Hg) and Chromium, are present in this device. Compliance with SJ/T11363-2006 for toxic substances is indicated. Items marked with "X" also meet EU RoHS standards regarding hazardous materials.
+
+**V. Operating Conditions and Specifications:**
+- Operating Temperature: 0°C to 40°C with a humidity range of 20%-80% (non-condensing). 
+- Alternate Operating Range: -20°C to 60°C with 10%-90% humidity (non-condensing).
+- Electrical Specifications: 240VAC input, 12VDC output at 4.16A (for LPS to UL compliance), and 12VDC at 3A for model specifications.
+
+**VI. Warranty and Additional Information:**
+For product information, specifications, software updates, and press releases, visit www.elotouch.com or contact the North America office at 800-ELO-TOUCH. All rights reserved by Elo Touch Solutions.
+

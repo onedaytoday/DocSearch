@@ -1,0 +1,104 @@
+**EMC Corporation Corporate Headquarters: MA 424-EMC2 EMC (DAE2) FC and ATA Hardware Reference P/N REV A02**
+
+Copyright EMC Corporation. All rights reserved. This document provides information as of its publication date in February. The data in this document is offered "as is," and EMC Corporation disclaims any representations or warranties regarding its accuracy, including any implied warranties of merchantability or fitness for a particular purpose. Portions of this document, including EMC software products like Navisphere, PowerPath, and SAN Copy, are proprietary to EMC Corporation and their respective owners.
+
+**Notices:** 
+
+This equipment complies with FCC regulations concerning interference. Testing has confirmed that it meets Class A standards for radiated emissions, providing reasonable protection against interference when installed correctly. This document is compliant with the directives 89/336/EEC, 73/23/EEC, and 98/68/EEC and adheres to EN55022 and CISPR22 standards.
+
+**Document Overview:**
+
+This reference guide concerns the DAE2 hardware platform and provides installation instructions, operational details, and technical specifications. Key sections include:
+
+- **Operation**
+- **Servicing Instructions**
+- **Technical Specifications**
+
+**Related Documentation:**
+
+For more information about the DAE2, including hardware components, configuration, and software details, consult additional EMC publications.
+
+**Cautions and Warnings:**
+
+Only trained personnel should perform service on this equipment. To minimize the risk of electric shock, power supply cords must be disconnected during maintenance. Additionally, components should be grounded appropriately.
+
+**Static Precautions:**
+
+EMC uses advanced LSI and VLSI technologies in its products. Special caution is advised when handling lithium batteries, which must be replaced only with the specified type.
+
+**DAE2 Introduction:**
+
+The DAE2 is a high-performance, high-capacity storage solution utilizing a Fibre Channel Arbitrated Loop (FC-AL) interface. Its compact design (3U height) allows for efficient rack mounting. The DAE2 supports enhanced data availability features.
+
+**Design Features:**
+
+The DAE2 is equipped with redundant power supplies and cooling systems, ensuring continued operation. The interconnectivity of FC-AL and ATA features supports seamless data management and operational continuity.
+
+**Product Identification and Service:**
+
+For service inquiries or technical support, please contact EMC Customer Service at the numbers provided for both domestic and international customers. 
+
+This guide includes detailed instructions regarding system components, cabling options, and operational maintenance to ensure optimal performance and reliability of the DAE2 system.
+
+### Supply/System Cooling Overview
+
+The supply/system cooling integrates power and cooling functionalities and is positioned within the system. It features a dual-blower cooling mechanism and is power-factor-corrected. Each cooling unit operates offline and has an on/off switch. The power units (DAE2) interface with one another and include LCC switches for managing their operation and any fault conditions associated with other Field Replaceable Units (FRUs). 
+
+The cooling system provides redundancy through its dual blowers; if one blower fails, the other continues to operate, ensuring the power/cooling units remain functional. Each power/cooling unit is indicated by three status LEDs, with specific meanings associated with each light: the rightmost LED indicates unit status, while the others provide status updates on power and cooling operations.
+
+### DAE2 Supply/System Cooling Reference Materials
+
+This section discusses the DAE2's operation and specifications, including RAID functionalities and cabling standards. In particular, it covers electrical ratings, input cooling requirements, and the type of interfaces utilized (Fiber Channel or ATA). Proper cabling is essential, as it balances the load across the system. The DAE2 incorporates shielded twin-axial cabling to meet performance requirements.
+
+### Installation and Grounding Considerations
+
+When connecting to the DAE2, ensure proper grounding and adhere to the manufacturer’s guidelines. Any connections should maintain consistency within the LCC framework to prevent operational issues. Mounting considerations include using the appropriate hardware for optimal airflow and system cooling.
+
+### Switch Configuration 
+
+The DAE2 features an EA switch configuration for device identification. Properly configuring the switches is critical for operational integrity, especially in systems employing write-caching. Also, ensure that the initial setup of switches is meticulously followed to maintain system standards.
+
+### LED Indicators and Monitoring
+
+The LED indicators on the DAE2 provide crucial operational feedback. Each light serves a specific purpose: Active, Fault, or Idle indicators assist with real-time monitoring of operational status. When servicing, observe these indicators to diagnose issues quickly.
+
+### Servicing Procedures
+
+When servicing the DAE2, follow strict electrical discharge precautions to avoid damaging sensitive components. Use ESD wristbands and other protective gear as outlined. Familiarize yourself with emergency procedures for handling situations without ESD control.
+
+### Safety Precautions for FRU Handling 
+
+Before removing or replacing FRUs, ensure that the unit is de-energized, following all outlined safety protocols. Handle components with care to prevent static damage or physical harm. Each FRU should be returned to its designated location after service to maintain system integrity. 
+
+**In summary, understanding the cooling supply, installation guidelines, switch configurations, LED indicators, and safe servicing practices for the DAE2 system is essential for optimal performance and reliability.**
+
+**Cautionary Notes on ESD Handling and DAE2 Servicing**
+
+Carefully handle all components by following the ESD (Electrostatic Discharge) guidelines. Use a properly fastened ESD wristband whenever servicing the DAE2 system. Avoid direct contact with the hardware and use handling techniques that comply with industry standards. Ensure that components are clean and free of static before proceeding with any operations.
+
+**Unlocking the DAE2**
+
+To unlock the DAE2, follow the procedural steps detailed in the documentation. Press the designated release mechanisms as shown to disengage the locking mechanism. Always ensure that the device is grounded and static-free before handling.
+
+**Handling LUNs and Data Management**
+
+Be cautious when dealing with LUNs (Logical Unit Numbers). Each LUN should be managed carefully, particularly when transferring data. Ensure that all information regarding LUNs is documented to prevent data loss during transitions between different states.
+
+**LED Indicators and State Management**
+
+If the active LED indicator remains lit, it signifies a successful lock state. If it turns off, consult the procedures to ensure correct system status. The LCC (Logical Controller Circuit) must be properly engaged to maintain optimal performance.
+
+**Connecting and Disconnecting the LCC**
+
+During LCC maintenance, ensure the ESD wristband is worn. Carefully release the LCC connections as per the outlined procedures, ensuring all components are in their designated positions.
+
+**Power Supply and Cooling Management**
+
+Handle power supply and cooling systems with care. Ensure that the relevant systems are turned off before servicing to avoid hazards. Follow the outlined cooling protocols to prevent overheating and ensure consistent operation.
+
+**Technical Specifications Overview**
+
+The technical specifications section details the performance metrics, power requirements (392 VA), and cooling features essential for operating the DAE2. This includes interfacing details and compliance with international standards such as UL, CE, and FCC Class A. 
+
+Ensure that all installation and operational procedures meet the specified requirements for optimal functioning and safety.
+

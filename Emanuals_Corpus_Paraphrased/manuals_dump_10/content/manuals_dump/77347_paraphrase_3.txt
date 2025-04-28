@@ -1,0 +1,82 @@
+**EM78612 Product Specification – ELAN Microelectronics Corp. – March Version**
+
+**Acknowledgments**: This document references IBM and PS/2 technologies and acknowledges Microsoft Corporation. ELAN and its copyrights belong to ELAN Corporation. Unauthorized reproduction or transmission of this specification, or any information contained herein, is strictly prohibited without prior written consent from ELAN Microelectronics.
+
+**Headquarters**:
+- ELAN Corporation, Hong Kong, 
+- Switzerland: [www.elan-europe.com](http://www.elan-europe.com),
+- USA: [www.emc.com.tw](http://www.emc.com.tw).
+
+---
+
+### Applications
+
+The EM78612 is designed with a RISC architecture featuring USB and PS/2 functionality. It supports Low-cost, low-speed USB applications and adheres to USB Class Definition Interface (HID) standards.
+
+### Characteristics
+
+- DC Characteristics and Memory Specifications
+- Comprises 2K ROM and SRAM.
+- The product incorporates essential features like a WatchDog Timer and a Clock/Counter (TCC).
+
+### Memory
+
+- **MASK ROM and SRAM**: Up to 2K memory capacity.
+- Memory locations are designated for instructions, control data, and USB applications.
+
+### I/O Functionality
+
+Configured to offer flexibility in input/output operations, the EM78612 includes GPIOs with internal pull-up resistors. It supports a voltage supply of 3.3V, able to interface with both USB and PS/2 connections. 
+
+### Product Overview
+
+The EM78612 includes several key components:
+- **Control Unit** with designated RAM/ROM access.
+- **Instruction Set** facilitating operations like ADD and SUB, along with interrupt handling via WatchDog functions.
+
+### Registers and Functionality
+
+The EM78612 features a comprehensive register setup where R0 is utilized for indirect addressing, R1 acts as a clock counter, and R4 manages RAM selection. Operations can trigger varying responses from the MCU, such as WatchDog timeout commands and interrupts.
+
+**Note**: This specification is subject to updates and revisions without prior notification.
+
+### EM78612 Universal R9 Selection (0B_1111_1111)
+
+The EM78612 firmware manages data flow between the USB Application and the MCU through various endpoints, such as EP0 and EP1, via the UDC. When a setup request is received, the firmware automatically initializes operations and communicates with the MCU, while ensuring that the USB interface operates correctly. Data written to or read from the FIFO buffers must be completed before the UDC can proceed with subsequent read or write operations. The firmware clears necessary flags automatically during this process, ensuring smooth state transitions.
+
+### EM78612 Universal RF (0B_0000_0000)
+
+The EM78612 RF module utilizes a USB interface to handle communication tasks, including managing clock states and processing instructions. The firmware contains commands to facilitate interactions, including read and write operations that adjust state information and signal processing parameters. These interactions help regulate input/output direction on certain pins and may dynamically reconfigure based on set commands, ensuring precise operations as defined in the product specifications.
+
+### EM78612 IOC5 and IOCB Features
+
+This module includes several I/O options, such as pull-up and pull-down resistors for specific functionalities. The firmware can switch I/O lines between active states for optimal connectivity depending on configurations for USB and PS/2 interfacing. The operational modes are selectable via defined parameters, ensuring versatility based on connection type.
+
+### EM78612 WatchDog and Control Functions
+
+The EM78612 features a WatchDog timer that resets the system if unresponsive. The firmware also includes controls for directing operations, adjusting watchdog settings, and ensuring proper timing responses. These functions are pivotal for maintaining system reliability and performance.
+
+### USB Application FIFO Management
+
+The USB Application FIFO is integral for communication between the EM78612 and the UDC. Firmware routines command the FIFO operations, allowing seamless command processing and data transfers while ensuring that all data transactions are executed without loss or corruption. The careful management of FIFO states and configurations allows for efficient USB communication tailored to application needs.
+
+### GPIO Configuration for USB and PS/2
+
+The GPIO capabilities of the EM78612 allow classification and control for peripheral interfacing, supporting both USB and PS/2 protocols. Proper configuration ensures that signal levels meet necessary specifications whether connected via USB or PS/2, with internal resistors managing signal integrity during operations.
+
+### USB Command Interface
+
+The UDC within the EM78612 manages the USB interface, enabling command-related interactions. The interface processes commands through a structured FIFO queue, ensuring organized data management. The firmware is designed to facilitate comprehensive USB communication, allowing for a flexible interaction model while maintaining robust command processing capabilities throughout the device's operation.
+
+The MCU has a watchdog timer that disables operation if the supply voltage drops below 2.2V. This action is independent of the UDC, which remains unaffected. The USB UDC follows specific protocols established for operation. The EM78612 includes conservation features, and the clock can be reset by clearing the RUN (IOCE[4]) flag, allowing the MCU to power down. When resumed from USB or triggered by the watchdog or input changes, the MCU will handle I/O operations appropriately.
+
+If the watchdog timer (TCC) overflows, it affects the USB UDC and its state. The EM78612 monitors various conditions, including individual inputs that reflect operational statuses of the UDC. For example, overflow in the TCC alters specific registers that track USB endpoint status.
+
+The voltage characteristics of the EM78612 specify operating conditions such as a high input threshold of 3.3V. The clock inputs (OSCI) maintain a standard voltage level, impacting continuous operation.
+
+The connection specifics for the EM78612 and USB configuration include various pins, ensuring selected I/O is either in input mode without internal pull resistors or in a digital state. The instruction set for the MCU, including indirect addressing and control commands, manages the flow of data between registers effectively.
+
+The internal architecture includes specific instruction mnemonics and operations, allowing for control over memory and operational states, with particular attention to status registers affected by each command. Features like conditional jumps and arithmetic operations are clearly outlined in the MCU products. 
+
+The MCU's code options further specify addressing methods and the selection of operational modes, with a focus on high-level control over USB functionalities. The documentation is intended for developers and technical personnel working with the EM78612 architecture.
+

@@ -1,0 +1,133 @@
+### Professional Platform Customer Technical Service Overview
+
+**Document Information:**  
+This document provides details regarding user interface and services for the project reference "ONE." 
+
+**Authors and Contributors:**  
+- **Primary Author:** F.  
+- **Contributors:** AOS ONE Service Engineering  
+
+**Copyright Notice:**  
+AOS ONE Service Documentation  
+**Page Count:** 31
+
+### Contents Overview:
+
+1. **Programming Default Parameters**
+2. **Advanced Programming**
+3. **By-Pass Calibration** (Applicable only for Level B; not needed for Level C)
+4. **Lambda Probe Calibration** (Specific to Level Ovens)
+5. **Cavity Offset Calibration** (For Level A and C Ovens)
+6. **Error Codes and Warnings**
+7. **Firmware Release Information**
+8. **Operating Temperatures**
+9. **Service Utilities:**
+   - Utilities activated while the oven is on
+   - Utilities accessible during parameter programming
+   - Language selection for Recipe Menu (Level A)
+   - Cleaning Cycles (Level A)
+
+10. **Gas System Specifications:**  
+    - AS Valve and Offset Pressure Calibration
+    - Using a Manometer for Pressure Measurement
+    - Microprocessor Board Replacement
+
+### Appendices:
+- Appendix on Water Boiling Point
+- Contactors Diagram for Levels A, B, and C
+- Connections on Main Board (Level A)
+- Lambda Probe Information
+- Parameter Descriptions
+- Water Treatment Protocol
+- Connection to HACCP System
+- Relay Descriptions
+
+### Technical Training Notes:
+- Instructions on switching modes and activating services, including hearing feedback during switches.
+- Advanced functionalities and button combinations for specific operations.
+
+### Calibration and Operation:
+- Guidelines to perform by-pass and lambda probe calibrations.
+- Details on reading humidity levels and ensuring readings are accurate.
+- Precautions regarding electrical input specifications and PCB input integrity.
+- Notifications for potential heating and cooling phases during operation.
+
+### Cleaning Phase Alert:
+- Information on warnings related to overheating and cleaning procedures.
+- Adjustments needed based on firmware updates and system responses.
+
+### Service Activation:
+- Steps to activate various service utilities and perform required cleanings during operational phases.
+
+This document encapsulates essential service details and operational protocols for users within the industry.
+
+Sure! Here’s a more concise and technically focused version of the provided text:
+
+---
+
+**Professional Platform Customer Technical Training Service**
+
+### Relay Activation
+
+- **Phase Activation**: Pressing the designated buttons activates specific relays, controlling elements like the EWD. The operation of each phase acts as a switch: pressing the designated button activates the appropriate relay, and the corresponding relays engage, reflecting this in the interface display. 
+
+- **Indicator Display**: Four-character codes appear to indicate the current operation state, such as various meat types or cavity statuses.
+
+### Cleaning Procedure
+
+- **Phases of Cleaning**: The cleaning system executes through distinct phases, indicated as SOFT CYCLE CLEAN, MEDIUM CYCLE CLEAN, STRONG CYCLE CLEAN, and EXTRA STRONG CYCLE CLEAN. During cleaning, the system enters standby mode, and the interface displays the current operational status.
+
+- **Injection Stages**: Each cleaning phase progresses via liquid injection through designated lines (CLt1, CLt2, CLt3, CLt4).
+
+### Preheating and Heating Control
+
+- **Preheating Functionality**: The preheating process, regulated by hour counters, occurs based on relay states associated with IND4 and IND5 inputs. The system maintains heating until conditions are favorable as determined by user interface interactions.
+
+### Cooking Mechanics
+
+- **Cooking Sequence**: The system initiates cooking via a PWM signal to the blower, managing heat distribution within the cavity. Consequently, the attached software controls the heating depending on the settings received from the user interface.
+
+- **Cooling Transition**: Upon completion of cooking, the system activates cooling phases to transition from high temperature to the desired cooling state, with temperature and humidity managed throughout.
+
+### Safety and Calibration
+
+- **Calibration Adjustments**: Necessary operational adjustments, such as offset settings for various sensors and readings, can be accomplished through designated screws indicated on the interface.
+
+- **Wiring Diagram Reference**: Appendix sections include wiring schematics and connector details related to the mainboard, facilitating troubleshooting and maintenance tasks.
+
+---
+
+This technical rewrite maintains the original intent and details while enhancing clarity and readability.
+
+Here's a paraphrased version in a natural, technical style:
+
+---
+
+**Technical Support Platform Overview**
+
+The Professional Platform provides specialized technical assistance for humidity management. The system operates through a closed microporous design that is covered with protective layers. Heating is initiated from a 300°C source, where the 2B grade generates ions that interact with the analyzed elements. This process effectively reduces the amount of impurities in the system, allowing for optimal performance. 
+
+**Oven System Operations**
+
+The service interface monitors cooking parameters, including thermal protection activation via RS485. The system accommodates various phases, such as pre-heating, cooking, and cleaning, to prevent overheating. Parameters include the thermal characteristics of the cooking chamber and various injection phases. The interface also accounts for timing and HVAC settings to ensure proper functioning based on set standards (e.g., HACCP compliance).
+
+**Performance Monitoring**
+
+The system keeps track of numerous operational metrics, including steam generation, cavity heating, and equipment timers like the hourly counter for HACCP. Preheating protocols and cooling board conditions are important for maintaining temperature control throughout the cooking process.
+
+**Water Treatment and Filtration**
+
+The water treatment subsystem includes both nanofiltration and standard filtration methods to ensure clean operation and prevent system contamination.
+
+**Connection to HACCP Systems**
+
+The technical documentation delineates the electrical configuration for both electric and gas ovens, detailing power supplies for various motors, control relays, and safety components.
+
+**Relay Descriptions**
+
+The system includes a comprehensive overview of the relay operations, covering fan motors, ignition systems for both the cavity and boiler, solenoid valves for steam and cleaning processes, and other critical components, ensuring seamless operational integrity within the oven systems.
+
+--- 
+
+This revised version maintains the original meaning while presenting the information in a more coherent and professional manner.
+

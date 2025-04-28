@@ -1,0 +1,124 @@
+### Instruction Manual for PTC-200C Pan-Tilt Zoom Color Camera
+
+#### IMPORTANT SAFETY INSTRUCTIONS
+Follow the instructions in this manual. Clean the camera using a soft cloth only, avoiding areas near heat sources such as amplifiers. For servicing, consult qualified personnel.
+
+**CAUTION:** To minimize the risk of electric shock, do not remove the cover. There are no user-serviceable parts inside. 
+
+**WARNING:** Do not expose this device to rain or moisture to reduce the risk of fire or electric shock.
+
+This equipment has been tested and complies with FCC Class B regulations, providing reasonable protection against interference when operated correctly. 
+
+#### HANDLING PRECAUTIONS
+- Avoid exposing the camera to AC heaters or other heat-generating appliances.
+- Use only specified battery types; do not mix battery types or short-circuit them. 
+- Ensure proper care of rechargeable batteries.
+
+#### CONTENTS
+- Important Safety Instructions
+- Handling Precautions
+- Part Names and Functions
+- Wireless Remote Controller Setup
+- Operation Procedures
+- Troubleshooting Hints
+- Specifications
+- Supplied Accessories
+
+#### PART NAMES AND FUNCTIONS
+- **Infrared Sensor:** Used for capturing video.
+- **Composite-Video Out (RCA):** For video output.
+- **Lens Terminal Block / DIP Switch / DC IN:** For electrical connections.
+- **Remote Control Functions:** Includes power operation, pan-tilt commands, presets, and on-screen display controls.
+
+#### WIRELESS REMOTE CONTROLLER
+Position the remote as indicated to ensure proper functioning. Initial battery installation should follow the correct polarity.
+
+#### SETTING UP
+1. Mount the camera securely to its base using the supplied screws.
+2. Ensure the safety wire is properly looped through the designated holes.
+
+#### OPERATION PROCEDURES
+- Turn on the camera by engaging the power switch.
+- The device will enter a ready state once powered on.
+- Use the remote for pan-tilt operations, focusing, and adjusting the iris.
+
+#### OSD (On-Screen Display)
+Utilize the OSD to adjust settings including camera setup, remote ID configuration, and timer functions.
+
+For further details, please refer to the respective pages indicated throughout the manual.
+
+Here's a more concise and technical paraphrase of the text:
+
+---
+
+**Camera Setup and Configuration Overview**
+
+To access camera functions, navigate through the menus using the options such as BLC, AGC, Gain, and White Balance (WB) adjustments. You can execute an alarm input/output function by selecting the appropriate settings and adjusting light and background parameters. The backlight feature and AGC are easily activated or deactivated through the menu interface, allowing for correction of white balance settings. 
+
+The camera supports multiple color temperature settings (e.g., 3,200K, 4,200K, 6,300K) for optimal performance under varying lighting conditions. Functions like ATW (Auto Tracking White Balance) and AWC (Auto White Balance Control) help maintain color accuracy indoors and outdoors.
+
+**Motor Control Settings**
+
+Adjust motor speed and pan/tilt direction through the menu. Character titles can be set using the designated buttons for alphanumeric input. The device offers both auto and manual operational modes for pan-tilt functionalities, with a toggle between standard and reverse settings.
+
+**Alarm Input/Output Configuration**
+
+Inputs can be short-circuited to ground (GND) for alarm management. The On-Screen Display (OSD) will reflect these inputs, displaying activated states and corresponding outputs.
+
+**Factory Reset and ID Configuration**
+
+To restore factory settings, use the DIP switch on the main unit. Each switch corresponds to specific functions such as power supply control and device initialization. 
+
+**RS-485 Connectivity**
+
+Connect the device via RS-485, ensuring proper ID configuration using DIP switches for reliable data communication. Adhere to communication specifications for synchronization and data transfer with external devices. 
+
+**Terminating Resistance and ID Address Settings**
+
+Set terminating resistance and ID addresses via DIP switches on the unit. Enable resistors as needed for RS-485 connections, ensuring ID assignments are correctly configured for communication protocols.
+
+--- 
+
+This version maintains the original content's meaning while presenting it in a clearer and more organized manner.
+
+### DIP Switch Settings
+
+Set DIP Switch ID as follows:  
+- OFF, ON, OFF, ON, OFF, ON, OFF, ON (repeat as necessary).
+
+### Troubleshooting Tips
+
+**Issue:** Wireless TV operation is not functioning.  
+- **Check Connections:** Ensure proper connection to the authorized ELMO service and verify AC power supply.  
+- **Power Supply:** Confirm that the AC is not disconnected from the unit and that it is receiving power (look for a red LED indicator).  
+- **Connection Check:** Ensure all components are properly connected.  
+- **Signal Type:** Make sure the selected signal type (NTSC) is compatible with the display settings.  
+- **Brightness:** Adjust the light/shade settings if they appear too dim or too bright, as per instructions on page 16.  
+- **Data Entry:** If experiencing issues with ID setup, refer to page 18 to ensure wireless settings are configured correctly.
+
+### Specifications
+
+- **Power Supply:** 12V DC, MAX 1A  
+- **Video Output:** Supports NTSC via RCA  
+- **Communication:** RS-485 Block; EIAJ RC-5320A compliant  
+- **Lens Specification:** F1.6-3.8 (focusable)  
+- **Image Sensor:** CCD, effective resolution of 768(H) x 494(V)  
+- **Minimum Illumination:** TV (Y) with S/N ratio greater than specified thresholds
+
+### Accessories Included
+
+- AC Adapter (Model No: D12-10-1000, rated input AC120V)  
+- Wireless Remote Control (RCW-PTZS)  
+- Batteries (R03, AAA)  
+- BNC/RCA cable  
+- Fixing plate  
+- M5 head screws  
+- Instruction manual  
+
+### Copyright Notice
+
+Unauthorized recording of copyrighted materials, including photographs, violates the rights of copyright holders.  
+- **Headquarters:** ELMO Co., Ltd., Country Road, Plainview, NY, USA  
+- **Global Subsidiaries:** Located in Brampton, L6T 3T6  
+- **Printed Reference:** 6X1PTZC02
+

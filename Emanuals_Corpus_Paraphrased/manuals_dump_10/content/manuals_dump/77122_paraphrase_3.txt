@@ -1,0 +1,102 @@
+**AMM170TK2/AMM17TK2/AMM18TK2/AMM19TK2/AMM19TK2(HB) User Manual Overview**
+
+The AMM170TK2, AMM17TK2, AMM18TK2, AMM19TK2, and AMM19TK2(HB) models are high-performance TFT LCD displays produced by TouchSystems, Inc., and owned by their respective rights holders. This document is for informational purposes only, and references to other products are not endorsements.
+
+**TABLE OF CONTENTS**
+
+- Product Features ................................................................. 6
+- EU Declaration of Conformity ................................. 12
+- Unpacking Instructions ................................................... 12
+- Screen Precautions ........................................................... 14
+- Cleaning Guidelines ........................................................... 16
+- Preset Functions ................................................................... 17
+- DDC (Display Data Channel) ........................................... 17
+- Installation Instructions .................................................... 17
+- Connecting via OSD (On-Screen Display):
+  - VGA Section ................................................................... 20
+  - DVI Section ..................................................................... 22
+- OSD Functions and Troubleshooting ............................. 29
+- Specifications:
+  - AMM19TK2 Model ......................................................... 30
+  - AMM19TK2(HB) Model ................................................ 31
+- Warranty Information ....................................................... 41-42
+
+**Touchscreen Compatibility**  
+(Compatible with IBM/IBM Operating Systems 95/98/ME/2000):  
+To configure the touchscreen for IBM/IBM compatible systems, follow the recommended procedures to access the OSD. This includes refresh rate adjustments and returning settings to factory defaults. For enhanced clarity, select “AUTO” within the OSD.
+
+**Introduction**  
+We congratulate you on your purchase of the AMM170TK2/AMM17TK2/AMM18TK2/AMM19TK2/AMM19TK2(HB) TFT LCD product. This display features a microprocessor-based design and supports RGB input. Key features include advanced video support, adjustable aspect ratio, and brightness controls. The device is designed for mounting flexibility to optimize user experience and operational performance.
+
+**Safety Precautions**  
+Please follow these guidelines to ensure safe operation. The manufacturer disclaims responsibility for any adverse effects resulting from unauthorized modifications or repairs. The product adheres to UL60601-1, EN60601-1, and EN60601-1-2 safety standards, ensuring compliance with relevant regulatory conditions.
+
+**Unpacking Instructions**  
+Before connecting the device, verify its contents against the following: AC power cord, VGA HDDB15, DVI-D cables, and optional touchscreen components. When setting up, ensure you have a grounded outlet away from direct sunlight for optimal performance.
+
+**Screen Position Adjustment**  
+Adjust the screen position as illustrated, ensuring it aligns with the guidelines provided.
+
+For further assistance or technical inquiries, please contact ADVAN International Corp or consult the product documentation.
+
+Sure! Here’s a paraphrase of the text in a more concise and technical manner:
+
+---
+
+**SAFETY PRECAUTIONS:** Prevent the risk of fire or electrical shock by ensuring the power cord is properly secured and protected from heat sources. When cleaning the LCD monitor, use only soft cloths and approved cleaning solutions such as isopropyl alcohol or chlorhexidine. Avoid using abrasive materials.
+
+**PRESET MODES:** The monitor can automatically adjust settings to standard modes to optimize performance. If any issues arise, automatic adjustments will occur as necessary.
+
+**POWER MANAGEMENT FUNCTION:** The monitor features power-saving capabilities, entering standby mode after a period of inactivity. Restoration of the display occurs within a specified time frame, ensuring energy efficiency while maintaining functionality.
+
+**DDC (Display Data Channel):** The monitor is equipped with DDC1 and DDC2B capabilities, providing communication between the monitor and connected devices for optimal configuration.
+
+**INSTALLATION:** Follow the provided guidelines to connect the VGA and power cables appropriately. Check compatibility with your local AC socket types. Ensure all connections are secure before operation.
+
+**USER CONTROLS:** The monitor includes LED indicators and function buttons for ON/OFF control, OSD (On-Screen Display) adjustments, and navigating through menu options for settings such as brightness, color, and phase adjustments.
+
+**TROUBLESHOOTING:** If problems arise, refer to the troubleshooting guide for assistance. 
+
+**SPECIFICATIONS:** The monitor complies with relevant safety standards, including IEC/EN60601-1-2 and UL certifications for use in designated environments. It operates safely within specified electrical parameters.
+
+---
+
+Let me know if there's anything else you need!
+
+### Model Information
+Models: AMM170TK2, AMM17TK2, AMM18TK2, AMM19TK2 (HB)
+
+### Connectors
+**DC Connector Options:**  
+- SCD-014-1-A (SHIUA CHYUAN)  
+- P/N DHSB-15 FRF7 (LEOCO)  
+- DVI-D DDWG   
+- Touchscreen interface  
+
+### Warranty Information
+The models AMM170TK2, AMM17TK2, AMM18TK2, and AMM19TK2 (including HB version) come with a warranty that covers defects in materials and craftsmanship, ensuring conformity to specified standards. This warranty is valid for a period of [duration not specified] months from the date of purchase. Warranty claims require authorization before service can be performed; unauthorized attempts may incur charges.
+
+**Limitations:**  
+- The warranty excludes coverage for cleaning, misuse, or damages caused by non-authorized service.
+- Warranty does not cover any indirect or incidental damages, including loss of profits.
+- This warranty does not replace any statutory rights.
+
+For technical assistance or service inquiries, please contact Customer Service or Technical Support.
+
+### Touchscreen Features
+**Models:**  
+AMM170TK2-TE, AMM17TK2-TE, AMM18TK2-TE, AMM19TK2-TE, AMM19TK2(HB)-TE, and similar variants.
+
+**Components:**  
+The touchscreen features a scratch-resistant, hard-coated surface for enhanced clarity and durability. 
+
+**Setup Instructions:**  
+1. Power on the LCD.
+2. Install the "Touchscreen Software" compatible with various operating systems (e.g., DOS, NT, XP, OS/2).
+3. Follow the prompts in the software to complete the setup.
+
+**Contact Information:**  
+For support, please reach out to ELO Inc., California, USA.  
+
+This warranty document and product specifications are subject to change, and customers are encouraged to verify details prior to purchase.
+

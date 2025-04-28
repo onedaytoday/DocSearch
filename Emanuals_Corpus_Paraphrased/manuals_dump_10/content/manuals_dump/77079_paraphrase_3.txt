@@ -1,0 +1,484 @@
+### Touchmonitor LCD Touchmonitor Manual
+
+**Model:** 1525L Revision P/N  
+**Manufacturer:** TouchSystems, Inc.  
+**Support:** 1-800-ELOTOUCH  
+**Website:** www.elotouch.com  
+**Copyright:** All rights reserved by TouchSystems, Inc. Unauthorized reproduction, transmission, or translation of this document, in whole or in part, is prohibited without written consent from TouchSystems. This material is subject to change without prior notice and includes no warranties regarding merchantability or suitability for a particular purpose, nor any liability for aspects such as SecureTouch, AccuTouch, Entuitive, or MonitorMouse.
+
+### Product Overview
+Thank you for choosing the LCD touchmonitor. This device integrates features that enhance user interaction and information flow. The LCD touchscreen monitor supports XGA TFT resolution and includes direct RGB input compatible with XGA, SVGA, VGA, and VESA refresh rates. The on-screen display (OSD) supports multiple languages: English, Spanish, and others through USB interface (compatible with Windows XP).
+
+### Installation Instructions
+
+1. **Caution Before Connecting:** Ensure both the touchmonitor and PC are powered off prior to connection. 
+
+2. **Connecting the Touchmonitor:**  
+   - **Back Panel:** Remove the back cover of the touchmonitor by lifting it off.  
+   - **Touchscreen Interface:** Connect the touchscreen using either RS-232 or USB (Windows XP only). Follow the guidelines for proper connections and ensure secure routing. 
+
+3. **Connecting the Power Supply:** Attach the power connection to the back panel of the touchmonitor, ensuring that the power source is grounded.
+
+4. **VESA Mount Compatibility:** The touchmonitor complies with the VESA Physical Mounting Interface (FPMPMI). It features mounting holes situated on the back, designed to facilitate proper installation with various mounts.
+
+5. **Accessing the VESA Interface:** To utilize the VESA mounting option, remove the back cover to access the mounting screws. Use a screwdriver to detach the cover securely. 
+
+### Software Installation
+
+1. **Introduction:** The included CD-ROM contains software compatible with various operating systems, including Windows XP, NT, and others.
+
+2. **Touchscreen Setup:** For proper plug-and-play functionality, follow the existing guidelines for your operating system. If installing on Windows XP or NT, insert the CD and follow the onscreen prompts.
+
+3. **MS-DOS Compatibility:** For DOS users, follow the instructions provided on the CD to access the installation directory and complete the necessary setup for touchscreen functionality.
+
+### On-Screen Display (OSD) Operations
+
+1. **Overview:** The OSD menu allows users to modify performance settings and features. For detailed adjustments, refer to the user manual section.
+
+2. **Navigation Commands:**
+   - **Volume Controls:** Use designated buttons to increase or decrease the volume. 
+   - **Menu Selection:** Navigate through menu items and make selections with specific shortcut buttons. 
+   - **Power Options:** Engage or disengage the power to the touchmonitor through the OSD menu.
+
+For further assistance, consult the additional sections within this manual.
+
+### OSD Functionality and Settings
+
+The On-Screen Display (OSD) allows for adjustments such as brightness and phase settings. Users can modify the horizontal position of the OSD, and the factory settings can be changed to C1, C2, or USER modes, which include temperature presets at either 9300K or 6500K. To confirm any selection, press the SELECT button. For specific color adjustments, navigate to the USER mode and select the desired color (e.g., red) using the OSD controls.
+
+If further customization is required, access the OSD settings to adjust contrast, brightness, and phase. The automatic closing feature will pre-select options unless manually adjusted. The OSD language settings include English and Spanish. Make sure that all input/output connections are properly established as per the guidelines provided in the relevant chapter. If the display appears distorted or imbalanced, refer to the troubleshooting section for possible connections or hardware issues.
+
+### Troubleshooting and Maintenance
+
+For optimal performance with the LCD touchmonitor, maintain secure connections to the graphics source via VGA or other compatible outputs. If using a touchmonitor, ensure it is properly wired and review the following maintenance steps: turn off the device before cleaning to avoid electrical shock, and use a grounding cord connected to a suitable outlet. Avoid using abrasive materials or harsh chemicals for cleaning, using only soft cloths instead.
+
+### Technical Specifications
+
+**Touchmonitor Model:** ET15-XXWA-1  
+Features a 15-inch Active TFT display, capable of displaying a range of colors with varying brightness levels.
+
+**Connectivity:** Compatible with various VESA standards including VGA, SVGA, and XGA.
+
+**Performance Metrics:**
+- Mechanical durability rated for multiple touchpoints.
+- Expected operational lifespan exceeds standard touch durations.
+
+**Environmental Standards and Compliance:**
+The touchmonitor adheres to various environmental and safety regulations, including EMC and FCC compliance in the United States and CE directives in Europe. Users should follow operational guidelines to minimize interference with other electronic devices.
+
+### Warranty Information
+
+The product is warranted against defects in materials and workmanship. Claims must be submitted in writing within thirty days of discovery. The warranty covers the touchmonitor as outlined, allowing for inspection and potential repair or replacement of defective components as needed. For clarity on warranty details, refer to the specified warranty section.
+
+**Limitation of Remedies and Warranty Disclaimer**
+
+The remedies outlined herein shall constitute the sole remedies available to the buyer for any warranty breach. Apart from the specific warranty detailed above, the seller disclaims all other warranties, whether express or implied, statutory or otherwise, concerning the products, including but not limited to warranties of fitness for a particular purpose, quality, merchantability, non-infringement, or any others. No representative of the seller, including employees or third parties, is authorized to provide any warranty apart from what is explicitly stated here. The seller’s liability under the warranty is strictly limited to a refund of the purchase price of the product. Under no circumstances will the seller be responsible for the costs associated with obtaining or installing substitute goods, nor for any special, consequential, indirect, or incidental damages arising from the buyer’s use or inability to use the products.
+
+**General Warranty Information**
+
+MAG-TEK, Inc. warrants that the product is free from defects when purchased. Should the product fail to meet the warranty as stated, the warranty will be honored at the seller’s discretion, with repairs or replacements provided at no charge. Any product that is serviced becomes the property of the seller. This warranty is applicable for one year from the date of purchase, after which all express and implied warranties, including those regarding merchantability and fitness for a specific purpose, will cease to apply, except as previously stated. The buyer acknowledges that the MAG-TEK product is sold "as is." If the product does not function properly as warranted, the sole remedy available is repair or replacement. MAG-TEK will not be liable for any form of damages, including lost profits or other incidental or consequential damages, even if the possibility of such damages was communicated to MAG-TEK. This warranty provides specific legal rights, and additional rights may vary by jurisdiction.
+
+**Compliance and Certification**
+
+The product has been tested and complies with Class B FCC requirements, providing reasonable protection against interference when operated according to the provided instructions. Users must ensure that the device does not cause interference to other devices and understand that they may need to rectify any interference caused.
+
+**Product Specifications and Features**
+
+The USB device adheres to ISO standards and is compatible with PCs and other devices with USB interfaces. Key features include reading capabilities for various formats, including ANSI/ISO/CDL/AAMVA standards, and compatibility with other HID devices. This section includes detailed specifications such as voltage, requirements, and environmental tolerances.
+
+**Installation Guidelines**
+
+Instructions for physical installation of the USB connector are provided, detailing the wiring, positioning of LEDs, and mounting requirements. It is critical to ensure appropriate clearance and that the device is securely attached.
+
+**Operational Instructions**
+
+This section describes the functioning of the LED indicator, which changes color to signal the device's status during operation. Specific meanings of LED states (off, red, blinking) are clarified for operational guidance.
+
+**USB Communication Protocols**
+
+The device adheres to USB and HID protocols to facilitate seamless communication and interoperability with software systems. Developers are advised to familiarize themselves with the specifications to ensure compatibility and effective application development. 
+
+This summary encapsulates critical information about warranties, compliance, specifications, installation, and operational procedures relevant to the USB swipe reader device. For comprehensive details, refer to the full technical reference manual.
+
+Here’s a paraphrased version of the provided text, maintaining the original meaning:
+
+---
+
+**USB HID ID Report Descriptor Overview**
+
+The USB HID ID report descriptor includes various elements related to track decoding and card types. The structure involves the following components, such as the item decoding collection, track commands, and data lengths for each track. If data is swiped, it triggers specific inputs structured to reflect the card type and associated track data.
+
+**USB Track Decode Status**
+
+This one-byte status indicates whether a track has been processed. If a track is detected, the status will reflect this, and the relevant data will be supplied accordingly.
+
+**Track Data Length**
+
+This field specifies the length of the track data. It outlines whether track data is present and its corresponding lengths.
+
+**USB Card Encode Type**
+
+This section defines the encoding type of the card in accordance with standards such as ISO/ABA and AAMVA. Each encoding type indicates the necessary data fields, consisting of specific byte lengths, and aligning with HID reporting standards.
+
+**USB Commands**
+
+USB commands facilitate communication, allowing the sending and receiving of commands related to property management and device control. This segment details existing command structures and their respective data lengths, ensuring proper command execution using HID protocols.
+
+**USB Result Code**
+
+This field details outcomes of commands executed. Properly categorized commands provide information on successful execution, parameter issues, or failure states. Each command indicates its respective property.
+
+**Property ID Overview**
+
+This section explains the property ID field, which contains the specifics about the types of properties available in the device. Properties are represented in ASCII format and include a terminating NUL character.
+
+**Software ID and Serial Number Properties**
+
+The Software ID and Serial Number properties store essential identification information about the device. The serial number is particularly significant for EEPROM memory management and will default to factory settings if not otherwise specified.
+
+**Polling Interval Property**
+
+This property determines the USB polling frequency in milliseconds. A balance between responsiveness and resource use must be maintained, as increasing the frequency can impact power consumption and data transmission efficiency.
+
+**Demo Program**
+
+The demo program outlines the necessary steps for installation and operation, providing guidance for new users interfacing with the USB. Users are advised to follow prompts to read cards and execute commands effectively.
+
+**USB Source Code**
+
+Source code is included for reference, providing developers with comprehensive guidance for USB interface applications.
+
+**MAGTEK Device Drivers Programming Reference Manual**
+
+For inquiries and technical support, refer to the provided contact information. Terms regarding the warranty clarify coverage details, stating that it is limited to a specific duration after purchase and offers options for remedy in case of malfunction.
+
+All express and implied warranties, including those for merchantability and fitness for a particular purpose, are limited in duration. The warranty grants specific legal rights, which may vary by state.
+
+--- 
+
+This paraphrased text retains the technical details while presenting the content in a clearer and more organized manner.
+
+### SECTION OVERVIEW
+
+This section details the interface of the MTD (Multi-Technology Device) products, specifically addressing issues related to device control. The MTD configurations include CD 9X/ME NT (MTD110-NT) and 2000/XP (MTD110-2K-XP). 
+
+#### Problems with Device Control
+
+The primary issues involve command execution and functionality, particularly regarding character streams. Responsibility for managing incoming data, which is generally asynchronous, also includes how commands are processed. Specifically, this involves handling characters like STX, ETX, CR, and LF. Additionally, the performance can be affected when components are connected, impacting the clarity of operations. 
+
+#### Benefits of Control Language and Driver
+
+The functionality of commands enhances overall performance. Commands are structured to operate effectively with the MTD and to facilitate direct operations with reduced complexity. The interface operates asynchronously, simplifying command processing, which is crucial for enhancing the operational efficiency of the device.
+
+### LANGUAGE OVERVIEW
+
+This section describes the text-based I/O commands used within the operating system, detailing how commands are written or read. These commands can be interactive or non-interactive, allowing users to control various properties of the MTD. Each command type supports specific functionalities that streamline operations.
+
+#### Commands
+
+Commands may be structured to terminate with a line feed or return. For example, the device can read from or write to configured I/O. Non-interactive commands can execute without user input, while interactive commands require user actions. 
+
+### TYPICAL OPERATION
+
+This section outlines standard operational procedures. Applications must interface effectively with the device (typically through COM5 or higher). If a connection failure occurs, the device will reset after a specified period.
+
+### METHODS OF ACCESSING THE DEVICE
+
+Commands can interact with the Microsoft Communication API. The CommPort property allows access to the necessary features of the device. For proper interactivity, property assignments and methods like OnComm are essential.
+
+### ERRORS AND ERROR PROCESSING
+
+This section reviews typical error handling procedures when interfacing with the device. It includes steps to diagnose issues, ensuring commands execute correctly, and determining the operational state of the device.
+
+### HANDLING SPECIAL COMMANDS
+
+Special commands, including those prefixed with PLUS and commands using <SI> and <SO>, allow for enhanced functionality. The commands are structured to provide specific control features when processed alongside other data signals.
+
+### INSTALLATION
+
+Installation details involve utilizing the New Hardware Wizard in Windows 95/98/ME and specifying INF files for NT/2000/XP. It's critical to configure the MICR settings properly to ensure compatibility with various functionalities and commands associated with the MTD.
+
+### Section Properties
+
+This section outlines the interrogated properties and associated commands. It details the various Section Commands and the functionality of these commands. The reading capabilities include three types: MICR, MSR, and (where specified) only MICR.
+
+- **Access Properties**: 
+  - **account_no** - R/W: Specifies the account number.
+  - **PIN** - R/W: Indicates the Personal Identification Number.
+  - **amount** - R/W: Refers to the transaction amount.
+  - **applied_fmt**: Specifies the template to use, where applicable (e.g., PPINSERT).
+
+The reading command will configure how the MICR data is read based on the specified properties, such as tracking key presses (c_keypress) or smart card operations (c_smart).
+
+- **Commands Overview**:
+  - **c_write** - R/W: Indicates writing capability.
+  - **c_wr_secure**: Defines secure write operations.
+  - Other properties derived from MICR data include chk_account, chk_amount, chk_format, chk_number, chk_routing, and chk_transit.
+
+- **Command Handling**:
+  - **pending**: Indicates the current command status.
+  - The system generates appropriate feedback using ASCII characters <LF> (Line Feed) and <CR> (Carriage Return).
+
+- **Encryption Control**:
+  - Properties such as **entry_echo**, **entry_tout**, and **offline_enc** control the display and timeout settings.
+
+### Section Commands
+
+This section describes commands and their exact functionalities alongside data formats. The commands use ASCII characters, with whitespace characters like <SP> and <TAB> allowed for formatting.
+
+- **Command Parsing**: All commands can be contextualized to allow for optimization in command processing and responses. Each fixed-field command has defined location properties for reference.
+
+### Notation Conventions
+
+Conventional notations for commands will follow specific formats:
+- Enclosed characters denote optional parameters.
+- Use <LF> and <CR> as necessary for formatting.
+  
+### Command Descriptions
+
+The command descriptions detail both required and optional functions, especially those for writing or canceling commands. Inactive commands do not execute and produce a command abort signal.
+
+- **Command Functionality**: When issued, each command will either output the relevant data to the LCD or signal its status based on the polarities of the operations.
+
+- **Character Handling**: When transmitting commands, consider character conversions necessary for correct parsing to prevent errors in execution.
+
+- **Command Function Implementation**: Commands that involve transactions or readings directly manipulate displayed properties based on defined parameters, like the SS field.
+
+- **Command Execution**: Proper character formatting and command tracking are essential for effective communication between the system and the LCD display.
+
+This formal structure aims to ensure clarity and functionality across different interactions with the command system, enhancing user experience and operational integrity.
+
+Here's a paraphrased version of the provided text in a clear and technical style:
+
+---
+
+**Section Overview of Command Options and Display Types**
+
+This section discusses various command options available, including the type of text that can be displayed. For instance, a particular command is designed to track three specific items, allowing users to read the relevant details concerning cancellations and PIN transactions affected. Data is captured directly from swiped input, including the PIN, which is subsequently displayed. If the command successfully collects the PIN, it follows a defined format. The read process adheres to the MICR specifications while reporting any cancellations.
+
+**Command Functionality for PIN Collection**
+
+Commands are set to gather PIN data alongside account numbers, transaction amounts (for MSK only), and transaction types (specifically for DUKPT). The encrypted PIN is generated during this process. An important aspect is the timeout feature, which limits the input duration for characters read from swiped or keyed entries. Should the timeout expire, any data collected is discarded.
+
+**Clear Operations and Command Properties**
+
+This section clarifies commands related to clearing operations and their functionalities. It introduces the <LF> Command property, essential for operation execution. The commands and their corresponding properties need to be well-defined to ensure proper interaction with system functions.
+
+**Write Command Specifications**
+
+In the context of write commands, specific formatting is critical. The write operations must adhere to ASCII character standards, with particular attention to any identified errors during command execution. Overwriting operations must respect predefined structures to maintain data integrity. The command format follows a hierarchical structure, ensuring that data entered conforms to expected patterns.
+
+**Registry Interaction and Template Matching**
+
+When processing magnetic card data, the defined properties include various character formats, which are critical for data extraction and interpretation. Template matching is essential for ensuring compatibility with incoming data. If a template accurately matches the incoming data, operations are executed accordingly, reflecting the appropriate properties from the software registry.
+
+**Card Field Specifications**
+
+Specific requirements must be followed for card data fields, including the necessity for certain characters and formatting constraints. Data entries must comply with ASCII standards and be processed without errors. In situations where fields do not match, fallback mechanisms should be encouraged to ensure data consistency.
+
+**Default Formats and Registry Assignments**
+
+Default formats for the MTD are set in the associated INF file and written to the registry to facilitate ease of reading and data processing. Examples of templates are provided for clarity, including formats tailored for CADL and AAMVA specifications. Each specified template is designed to handle character streams effectively, ensuring proper formatting and data interpretation in alignment with regulatory standards.
+
+--- 
+
+This rendition retains the meaning while improving clarity and coherence.
+
+### Section Card
+
+This section covers applied formatting and coding examples for various programming languages. 
+
+### Section Example Applications
+
+In this section, we provide programming hints related to applications. For instance, in the Visual Basic example, we detail how to manage MICR data reception, display it, and initiate read commands. Initially, users should click the button to start reading, and the relevant code (like the `btnRead_Click` function) re-enables the button after each read operation.
+
+In the event of reading failure, messages are displayed in the `txtInfo` text box to guide the user appropriately. For example, users are prompted if the input is unknown or if specific commands are not understood, while interface interactions should be managed carefully in the `MSComm` component.
+
+### Section Applications C++ Example
+
+The C++ example initializes the device communication, ensuring proper setup for reading and writing operations using specific COM ports. It includes error handling for device accessibility and thread management for reading and writing data concurrently. It exemplifies how to implement proper control flow for communication via serial interfaces.
+
+### Power Builder Example
+
+The Power Builder section describes integration with third-party ActiveX components for seamless functionality. It outlines setup procedures and command sequences needed to interface with the MTD device, explaining how to manage timeouts and data reads effectively.
+
+### Appendix A: Installation and Setup
+
+This appendix covers installation and setup processes for MTD devices, including necessary drivers for different operating systems like Windows 95/98/ME. It provides a detailed list of required files and instructions on connecting the interfaces to the PC. It also discusses troubleshooting for device connections, ensuring users can effectively manage their hardware settings.
+
+**A. Connection and Setup Notes:**
+
+When establishing a connection, it is essential to turn off the device. Connecting requires specific configurations and tests to ensure the installation process integrates with the identified location details. 
+
+1. For systems running Windows 95/98/ME:
+   - Open the New Hardware Wizard and proceed by selecting "Next."
+   - Choose "Search for the best driver" option, then click "Next."
+   - Select "Other" and continue with "Next."
+   - If prompted, navigate to the location of the (oemsetup.inf) file and click "OK."
+   - If an "Incomplete Installation" message appears, follow the provided completion instructions.
+
+2. If a compatible driver was previously installed, right-click on the device in Device Manager to update it. 
+   - Select "Update Driver" and follow the prompts, ensuring to specify the driver location when necessary.
+
+3. When configuring settings, ensure you select the appropriate COM port from the available options (COM5 to COM15).
+
+If you encounter installation issues, revert to earlier steps or consult the outlined procedures:
+
+- Familiarity with device driver installation is crucial; follow all instructions carefully.
+- Ensure closure of any open applications before modifying settings or performing installations.
+  
+Use the proper driver file names and paths, as specified in the documentation. The required driver files should exist in expected directories, particularly for Windows 98/ME versions. 
+
+To access registry entries or clear outdated files, use REGEDIT to navigate to specified paths such as:
+- `HKEY_LOCAL_MACHINE\Software\Mag-Tek\ClassMap`
+- `HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Class\Mag-Tek`
+
+Ensure that the correct file versions are installed and that files are sourced from the specified directories.
+
+**Installation of Device Drivers on Windows NT:**
+Navigate to the NT Driver directory for driver installation, and execute commands as necessary. After selecting the driver configuration, reboot the system to apply changes. Follow on-screen instructions meticulously for successful installation.
+
+**Installing Device Drivers on Windows 2000/XP:**
+For Windows 2000/XP, install drivers from the designated directories and perform necessary reboots. Consult the "Hardware" settings to add or modify drivers, strictly adhering to provided guidelines. 
+
+In case of errors or missing components during installation, the recommended course of action may involve reconfirming file locations or uninstalling and reinstalling the drivers.
+
+### Optional Search Locations
+
+You can select optional search location boxes. Click "Next" next to the input field labeled "Confirm This." The system should recover in a matter of seconds for Windows NT/2000/XP without any issues. To configure, run the MTCFG.EXE utility. Below is a typical workflow for using MTCFG on Windows NT/2000/XP. During installation, ensure that the devices are physically connected. The process involves several phases, including a reboot with MTCFG. 
+
+Choose the appropriate COM port from the list of currently in-use ports, for example, COM5. If the process succeeds, MTCFG will restart the MTD, and you will see an operational display. For instance, select COM2 if it's attached to another device and appears as COM6. 
+
+The utility allows for optimal configuration when selecting the existing COM ports. If properly set up, MTD will restart, confirming successful communication. The background process identifies the MICR+ devices (appearing as COM7 or COM12) based on the set parameters. The MTCFG program will display relevant device statuses in the specified COM configuration.
+
+### Command Summary
+
+For effective usage, it is advised to utilize the command line features of MTCFG. The device should be specified as needed in the OEMSETUP.INF section. Commands like "UsePort" followed by the port designation enable appropriate communication settings. The commands must be carefully checked against existing configurations, particularly when optional parameters involve specific device models.
+
+### Example Programming Directories
+
+This section includes the programming examples located in the specified directory:
+
+- **\EXAMPLES\CPP**: C++ based examples
+- **\EXAMPLES\DELPHI**: Examples using Delphi and MSCOMM 
+- **\EXAMPLES\VB50**: Visual Basic 5.0 examples
+
+### Appendix B: Command List Summary
+
+This appendix provides a summary of all command types available, including read/write operations, LCD commands, and other utility functions necessary for the device operation.
+
+### Appendix C: Status Codes
+
+This part documents the status codes corresponding to command execution. These include identification errors, I/O failures, and item type mismatches.
+
+### Appendix D: Device Driver Summaries
+
+This section outlines various device drivers, including:
+
+- **INTELLIPIN PINPAD MSR** (RS-232, MICR+)
+- **MAGWEDGE SWIPE READER**
+- **MINIWEDGE MSR**
+- **MICR+ CHECK READER**
+- **MINI MICR CHECK READER**
+- **PORT-POWERED RS-232 SWIPE READER**
+
+Each driver summary includes supported commands and properties for various operations such as transaction management and data reading/writing. 
+
+For optimal performance, ensure that the reader is configured properly and that commands are executed in accordance with the specifications outlined in the respective INF sections.
+
+### PORT-POWERED RS-232 INSERTION READER (MTPPINSR.VXD)
+
+**Name(s):** When incorporated, the following properties support functionality: 
+
+- account_no
+- amount
+- chk_number
+- applied_fmt
+- chk_routing
+- offline_enc
+- oper_tout
+- c_keypress
+- s_down_tout
+- track1ss
+- c_mechanics
+- track2ss
+- track3ss
+- c_smart
+- trivpinchk
+- entry_echo
+- c_write
+- c_wr_secure
+- entry_tout
+- chk_account
+- chk_amount
+- wr_secure
+- chk_format
+- xact_type
+
+This implementation is recommended to be conducted promptly when operational.
+
+---
+
+### MT-85 LOCO ENCODER (MT-85)
+
+**Name(s):** The following commands are supported:
+
+- account_no
+- amount
+- chk_number
+- applied_fmt
+- chk_routing
+- offline_enc
+- oper_tout
+- c_keypress
+- s_down_tout
+- track1ss
+- c_mechanics
+- track2ss
+- track3ss
+- c_smart
+- entry_echo
+- c_write
+- c_wr_secure
+- entry_tout
+- chk_account
+- chk_amount
+- wr_secure
+- chk_format
+- xact_type
+
+**File:** MT85.VXD
+
+---
+
+### MT-95 HICO ENCODER (MT95.VXD)
+
+**Name(s):** The following commands are supported:
+
+- account_no
+- amount
+- chk_number
+- applied_fmt
+- chk_routing
+- offline_enc
+- oper_tout
+- c_keypress
+- s_down_tout
+- track1ss
+- c_mechanics
+- track2ss
+- track3ss
+- c_smart
+- trivpinchk
+- entry_echo
+- c_write
+- c_wr_secure
+- entry_tout
+- chk_account
+- chk_amount
+- wr_secure
+- chk_format
+- xact_type
+
+**Commands:** /rawxact /write
+

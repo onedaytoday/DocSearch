@@ -1,0 +1,111 @@
+# Visual Presenter Instruction Manual
+
+## Important Information
+This manual contains vital instructions and operational guidelines for the visual presenter. Please ensure you follow all instructions and retain this manual for future reference.
+
+### Safety Precautions
+- **Operating Instructions**: Always adhere to the provided operating instructions to ensure proper use.  
+- **Cleaning**: Use only recommended cleaning methods and materials. Avoid using abrasive cleaners or any liquid cleaners directly on the device.
+- **Child Safety**: Ensure the device is mounted correctly and out of reach of children to prevent hazards.
+- **Electrical Requirements**: Connect only to the specified power supply as indicated in the manual. Verify grounding arrangements as required.
+  
+### Electrical and Fire Safety
+- **Power Cord Management**: Route power cords appropriately to avoid pinching and ensure they are free from damage to prevent electric shock or fire hazards.
+- **Lightning Protection**: Disconnect the device during extreme weather or storms to mitigate risks of electrical surges.
+
+### Servicing
+- **Qualified Personnel**: Only qualified technicians should perform any servicing or repairs. Unauthorized service may lead to risks of shock or fire.
+ 
+### Electrical Safety Warning
+- **Caution**: To minimize the risk of electric shock, do not remove covers. No user-serviceable parts are found inside. Contact qualified service personnel for assistance.
+- **Moisture Exposure**: Avoid exposing the unit to rain or moisture to reduce fire or electric shock risks.
+
+### Compliance Information
+- This unit has been tested and complies with FCC Class A standards for radio interference. It is essential to operate this device within these guidelines to ensure minimal interference with other electronic devices.
+
+## Setup Instructions
+1. **Unfold and Position**: Set up the device following the illustrated instructions, ensuring it is securely locked in place before use.
+2. **Power Connection**: Ensure to turn off the power supply before connecting or disconnecting any cables.
+3. **Input Setup**: Connect the RGB input and select the appropriate input sources.
+
+### Key Features
+- **Lighting Unit**: Controls for turning the lighting on and off and options for various settings.
+- **Remote Control**: A wireless remote is included for ease of operation. Ensure batteries are inserted correctly.
+- **Operating Procedures**: The manual provides detailed instructions on using various features such as image adjustments, input selections, and compatibility settings.
+
+### Technical Specifications
+- **RS-232C Interface**: The unit includes RS-232C commands for PC connectivity.
+- **Input/Output Specifications**: Various ports and outputs are detailed for integration with other devices, ensuring proper functionality with different formats like NTSC/PAL.
+
+For troubleshooting tips and detailed operational procedures, refer to the respective sections of the manual.
+
+### Connection Guidelines for ELMO (HD-80XG) and LCD (LM-5011N)
+
+Connect the DC OUT to the ELMO (HD-80XG) and the LCD (LM-5011N). The system includes AC and DC power inputs (maximum 3.2A at DC OUT) and operation modes for RS-232C communication. The DC power supply is included for use with HD-80XG and LM-5011N devices. For other devices, connect them to the DC OUT for INPUT RGB1 or INPUT RGB2, and OUTPUT S-VIDEO with a 12V, 0.9A requirement, which is exclusive to the HD-80XG model.
+
+### Operation Procedures
+
+To start the device, turn ON the switch. The LED indicator on the front will show the operational status of each function. If the switch turns ON and then OFF immediately, restart by waiting a few seconds before turning it ON again. The [TELE] and [WIDE] buttons can be used directly or via remote for adjustments, while pressing [AF] assists with focusing.
+
+For overhead presentations, press the [BASE] button either on the device or remotely, which controls the built-in baselight. To turn off the baselight, use the same button. The recommended usage for shooting different references is provided.
+
+### Various Functions and Lighting Control
+
+Lighting options include built-in baselight capabilities for 3-D presentations. Activate different light options through the [UPPER] or [BASE] button. Note that when power is supplied, the respective lights will turn on. To optimize lighting for 3-D presentations, adjustments may be necessary to maintain adequate brightness and contrast.
+
+Connect AV inputs such as PC sources and ELMO ([HD-80XG]) to INPUT RGB1 and INPUT RGB2 correspondingly. Input selection can be made without pressing the native buttons on the device. Use the built-in [MAIN] button for operations.
+
+### NTSC/PAL Switching
+
+The output can be set to NTSC or PAL standards, with initial settings factory-configured to NTSC. To switch to PAL, keep the [MAIN] button pressed while the device is ON. Conversely, to revert to NTSC, follow the instructions in Section P.21. Various video formats are supported; please reference the table for clarity.
+
+### Command Functions and RS-232C Specifications
+
+The RS-232C interface facilitates connection to a PC, allowing command transmission. The command set includes various functions related to lighting, input switching, and device control. Each command is accompanied by a specific function as outlined in the accompanying table. 
+
+#### Troubleshooting
+
+Common symptoms include power issues, improper connections, or device malfunctions. Ensure that power supplies are connected, the switch is ON, and that the appropriate input modes are selected. For persistent issues, refer to authorized ELMO service for technical assistance. 
+
+This revised version maintains the technical details and overall instructions while providing clarity and precision.
+
+### Specifications
+
+**Item Specifications:**
+
+- **AC Outlet:** 120V, 43W (400W Unswitchable)
+- **DC Selection:** 12V, 0.9A
+- **Shooting Features:** 
+  - Focusable Iris
+  - Effective RGB and White balance options
+- **RGB Output:** RGB options include Internal, RGB1, and RGB2
+- **Control Interface:** RS-232C
+- **Image Quality:** CCD with 1077(H) x 788(V) or 768(V) resolution
+- **Supported Formats:** 
+  - XGA, VESA 
+  - NTSC/PAL (with options to turn off)
+- **Connection Types:**
+  - DSUB 15P
+  - RCA (NTSC/PAL)
+  - DIN 4P (NTSC/PAL)
+  - DSUB 9P
+
+**Lighting Specifications:**
+- **High Lighting:** 6W, 3-wave length type
+- **Power Supply:** DC via DIN 4P, wireless (RCW-502), compatible with R03 and AAA batteries
+- **Toplights Interface:** VGA (DSUB 15P)
+
+**Instruction:** 
+- LCD Color Monitor Model: LM-5011N
+- Specifications provided adhere to VESA standards, with acknowledgments to ELMO and VISUAL FOCUSFREE branding.
+
+---
+
+**Warning:** Unauthorized reproduction of copyrighted images infringes upon the rights of copyright holders, as protected by law under the copyright of ELMO CO., LTD. and its overseas subsidiaries. 
+
+**Address Information:** 
+- U.S. Address: Country Road, Plainview, NY
+- Canadian Address: Brampton, ON, L6T 3T6
+
+**Document ID:** Printed 6X1VHDN02
+

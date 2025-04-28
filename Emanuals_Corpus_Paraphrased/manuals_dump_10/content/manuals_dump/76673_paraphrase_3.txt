@@ -1,0 +1,25 @@
+### LITE CREENS INFRARED REMOTE CONTROL CODE
+
+**Models:** VMAX2 Home2(3) and Tension2(3)
+
+**Frequency:** 38KHz
+
+**Commands:**
+- **Stop:** 1111
+- **Down:** 1111
+
+**For VMAX CineTension Only:**
+- **Commands:** UP, STOP, DOWN
+
+**MCU RF Remote Control:**
+- **Head Operation:** Head counts with a clock rate of 32,767 counts per second
+- **Counter Configuration:** 
+  - "0" = 12 Counts
+  - Clock set at 32,767 counts per second for both UP and DOWN operation commands for VMAX and CineTension
+
+**Infrared Configuration:**
+- Frequency: 38KHz
+- Commands: UP, STOP, DOWN
+
+**Inc.**
+

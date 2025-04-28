@@ -1,0 +1,96 @@
+# 2U POD Annual Overview and Installation Guide
+
+## Table of Contents
+- Important Safety Instructions
+- Glossary of Symbols
+- Introduction and System Description
+- Rack Installation
+- Installation for GXT 2U UPS
+- Hardwire Connections
+- Application and Power Start Guide
+- Equipment Indicator
+- UPS Operation
+- Troubleshooting
+- Specifications
+- Product Warranty
+
+---
+
+### Important Safety Instructions
+**Warning:** Do not attempt to service this unit yourself. Always disconnect power when servicing. Follow the instructions closely to ensure safe operation of the 2U POD.
+
+**Caution:** Ensure proper grounding of the UPS and the 2U POD. Before cleaning, turn off the UPS and use a soft, dry cloth. Avoid using heating devices or harsh cleaners near the POD.
+
+### Glossary of Symbols
+- **Ground:** Indicates AC input
+- **Power Supply:** Indicates AC output
+
+---
+
+### Introduction and System Description
+Congratulations on your selection of the 2U POD. This device is compatible with your UPS and is designed for isolation and service. The 2U POD facilitates both utility and UPS operations, allowing for seamless switching between the two.
+
+### Rack Installation
+To install the 2U POD:
+1. Use the mounting hardware provided.
+2. Securely attach the POD to the rack using the supplied screws.
+3. Ensure the mounting is firm to facilitate safe operation.
+
+**Caution:** Ensure the power sources are properly rated and isolated to prevent damage.
+
+### Installation for GXT 2U UPS
+1. Unpack the 2U POD and inspect it for damage.
+2. Ensure the UPS is powered off.
+3. Connect the POD to the UPS per the specifications outlined in the user manual.
+
+**Caution:** Before any connections, turn off the UPS.
+
+### Hardwire Connections
+- **Caution:** The input supply to the POD must be properly rated and protected.
+- Ensure cable connections are secure and free from damage.
+
+### Application and Power Start Guide
+To power on the POD:
+1. Switch the power to the UTILITY mode.
+2. Confirm that the UPS is ready and operational.
+
+### Equipment Indicator
+The indicator lights signify the operational status:
+- **Utility Mode:** Light on indicates power from the grid.
+- **UPS Mode:** Light on indicates backup power is available.
+
+### UPS Operation
+To transition between modes:
+1. If switching from UPS to UTILITY, follow the troubleshooting guidelines.
+2. Ensure the UPS is powered off during transitions.
+
+### Troubleshooting
+If issues arise, consult the troubleshooting section in the user manual for guidance on resolving operational discrepancies.
+
+### Specifications
+For detailed specifications and warranty information, refer to the warranty section of the manual. 
+
+This guide aims to ensure the safe and efficient operation of your 2U POD and its integration with the UPS. Always prioritize safety and adherence to the user manual.
+
+**Troubleshooting Utility UPS 2U POD Connected Loads**
+
+To troubleshoot issues with the UPS protectors, ensure that the Utility connection to the branch is functional. Refer to the instructions for connecting the GXT 2U UPS to the 2U POD, ensuring that the UPS is powered on. Confirm that the input from the UPS and any connected devices align with the specifications of the 2U POD, and ensure that all connections remain within the required protection limits.
+
+**Specifications:**
+Operating temperature ranges from 32°F to 104°F (0°C to +40°C) and storage temperatures from -4°F to 140°F (-20°C to +60°C). The device complies with UL1778 and ISTA Procedure 1A standards. The input ratings for the various POD models are as follows: 
+- MP2-115HW: 12A @ 120V, using AWG 
+- MP2-120HW: 16A @ 120V, using AWG 
+- MP2-130HW: 24A @ 120V, using AWG 
+
+It is essential to connect the UPS line cord to the correct POD input and ensure proper installation and grounding to meet the specifications.
+
+**Product Warranty:**
+For details on warranty protection, refer to the warranty section. For support and inquiries, please contact our customer service.
+
+**Annual Support:**
+Since its inception, the corporation has provided extensive protection and conditioning solutions, supporting systems ranging from small to large capacities. The company takes responsibility for maintaining accurate information and rights to its specifications without prior notice. All trademarks are the property of their respective owners.
+
+**Technical Support/Service:**
+Visit our website at www.liebert.com for support. 
+Locations in the United States: Dearborn, Columbus, OH.
+

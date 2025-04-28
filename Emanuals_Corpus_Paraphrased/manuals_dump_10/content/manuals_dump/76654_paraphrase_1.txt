@@ -1,0 +1,202 @@
+# QT 2.5L Standby Generator Owner’s Manual
+
+## Important Installation Notice
+**Only Qualified Electricians or Contractors Should Attempt Installation.** 
+
+---
+
+### Contents Overview:
+- **Safety Rules**
+- **Introduction**
+- **Identification Record**
+- **Equipment Description**
+  - Engine
+  - Coolant
+  - Protective Devices
+    - High Coolant Switch
+    - Shutdown Features (Coolant and RPM)
+- **Fuel Systems**
+  - LP Specifications
+  - General Information
+  - AC Lead (Four-lead, 3-phase)
+- **Installation Procedures**
+  - Preparation
+  - Initial Coolant Tension
+  - Inspection
+- **Operation and Maintenance**
+  - Authorized Service Schedules
+  - Battery and Cooling System Checks
+- **Service Schedule**
+- **Troubleshooting**
+- **Parts List and Wiring Diagrams**
+- **Warranty Information**
+
+## Safety and Compliance
+**Warning:** Follow all safety instructions to prevent potential hazards and ensure proper operation. Failure to comply can result in serious injury or death. 
+
+**Chemical Warnings:** Some chemicals in this equipment may be known to the state of California to cause cancer or reproductive harm. 
+
+Regularly inspect safety systems and components to prevent issues. Follow OSHA regulations for installation, operation, and servicing.
+
+### Electrical Safety
+- Disconnect the generator before performing maintenance.
+- Be cautious of high voltage and ensure proper grounding to avoid electrical shock.
+- Always use insulated tools and follow safety protocols while working on the unit.
+
+### Fire and Explosion Hazards
+- Maintain proper ventilation to prevent gas build-up.
+- Use appropriate fire extinguishers for electrical fires.
+  
+## Introduction
+Thank you for purchasing this generator. This manual contains vital information and guidelines for safe and effective operation. 
+
+**Note:** Adhere strictly to the instructions provided to avoid damage or injury.
+
+### Operation and Maintenance Responsibilities
+Owners/operators are responsible for regular maintenance and service, including following warranty conditions. For servicing needs, contact an Authorized Service Dealer for factory-trained technicians.
+
+### Identification Record
+Each generator comes with a Data Label containing essential specifications like model number, rated capacity, phase, and production date. Keep this record for reference during service.
+
+---
+
+**Remember:** These instructions are designed for your safety and the longevity of your generator. Thoroughly read and understand all sections before operating.
+
+### Equipment Description
+
+**Field Specifications:** The equipment includes an internally mounted sound-attenuated system, featuring protective components according to the specified AC standards, which encompass leads from the input to the switch. It is designed with NEMA MG1 specifications for insulation class and construction, ensuring compliance with performance standards outlined in NEMA MG1-32.6 and NEMA MG1-1.66. 
+
+**Engine Oil Recommendations:** For optimal operation, it is advised to use high-quality engine oil rated 15W-40, classified under Service CC, SD, SE, SF by the factory. Alternative options include SAE 30W or 15W-40 at temperatures above C, and SAE 20W-20 or 15W-40 below C. Note that at temperatures below 5°F, synthetic oil can be used to ensure proper crank action. 
+
+**Coolant Recommendations:** The coolant should meet specific chemical and performance standards with calcium chromate to prevent overheating. Caution should be taken to avoid burns and exposure when handling coolant. 
+
+**Engine Protective Devices:** The equipment is equipped with essential protective switches that prevent operation under unsafe conditions, such as high temperatures or low oil pressure. 
+
+- **High Coolant Temperature Switch:** This switch initiates a shutdown at a coolant temperature of 200°F. 
+- **Low Coolant Level Sensor:** This sensor prevents overheating by signaling when coolant levels drop below a safe threshold. 
+- **Low Oil Pressure Switch:** This switch monitors oil pressure during operation; if pressure falls below a threshold, it triggers a shutdown and an alert is issued. 
+
+If any fault occurs, the system enters an overcrank shutdown mode, indicated by an LED light, and the AUTO/OFF/MANUAL switch must be reset accordingly. 
+
+**Fuel System Requirements:** 
+
+- For buildings using propane (LP), the fuel supply should have a minimum diameter, and the line length should not exceed specified limits. Natural gas systems require appropriate line sizes to ensure efficient operation.
+  
+**Specifications:**
+
+- **Generator Ratings:** The generator specifications include synchronous and insulation class ratings, harmonic distortion, and specific power ratings adhering to international standards.
+- **Cooling System:** Features include a coolant recovery system and designated heat rejection parameters.
+- **Electrical System:** A static battery charger is specified, alongside recommended battery specifications to ensure optimal performance under defined conditions.
+
+**Generator Connection Box:** 
+
+- A cold weather kit (part 0F6148) is recommended for optimal performance during low temperatures. 
+
+**Reconfiguring the Fuel System:** Transitioning from natural gas (NG) to propane (LP) requires specific steps, including shutting off the gas supply and tightening hose connections appropriately.
+
+**Generator AC Lead Connections:** The generator can support both single-phase and three-phase configurations, with leads connected according to factory specifications.
+
+**Safety Notice:** Proper installation and handling are crucial for safety. Consult authorized service personnel for any assistance needed. 
+
+### End of Document
+
+### Installation and Pre-Start-Up Procedures for QT Product
+
+This section outlines the necessary steps to ensure proper installation and preparation of the QT product before startup. Follow these instructions carefully to ensure optimal performance. For any follow-up service or information, refer to the section on Service Transfer Switches.
+
+If the transfer switch is needed to supply power under normal conditions, it is crucial to understand how to prevent backfeeding. The switch must be correctly positioned, mounted, and connected to the fuel system, ensuring it is fully purged and tested according to specifications.
+
+#### Generator Set Lubrication
+Ensure that the crankcase is filled according to the specifications outlined below. The unit is shipped with oil; however, a check is necessary after a certain number of operating hours. Ensure the oil meets SAE specifications. Before starting the engine for the first time, make sure it is serviced with the recommended coolant.
+
+#### Electrical System Checks
+The electrical system must be correctly grounded and interconnected. Verify that all wires are organized and free from obstructions. Conduct an initial inspection prior to starting the QT genset. Check the following:
+- Battery condition
+- Gear functionality
+- AC and DC grounding
+
+#### Start-Up Checklist
+Ensure the AUTO/OFF/MANUAL switch is in the OFF position, and disconnect the 120VAC supply. Prior to startup, confirm that the battery charger is functioning correctly and that all wiring is secure. Inspect hoses for any damage and ensure they are correctly seated. Once everything is checked, set the switch to MANUAL and attempt to crank the engine. Observe the phase rotation to ensure it is correct.
+
+To initiate startup, turn the AUTO/OFF/MANUAL switch to AUTO and ensure proper connections. 
+
+#### Maintenance Schedule
+Authorized service should be performed at the following intervals:
+- Inspect the AUTO/OFF/MANUAL switch and the 15A circuit.
+- Every three months, visually inspect devices and switches.
+- Every six months, perform in-depth inspections.
+- Annually, clean and inspect the cooling system.
+
+#### Engine Coolant and Fluid Levels
+Regularly check fluid levels, including engine oil and coolant. Use a clean cloth for checking and maintain levels within the specified range. Engine coolant should meet the recommended specifications. Inspect the cooling system for proper functionality.
+
+#### Operator Maintenance Responsibilities
+Operators should perform regular checks on:
+- Engine oil level and battery connections
+- Cooling system hoses
+- Exhaust system security
+- Fan belt tension
+- Engine governor settings
+
+Ensure any maintenance, such as oil changes, is executed by authorized personnel following specified procedures.
+
+For any queries or issues, please refer to the manufacturer's authorized service facilities.
+
+Sure! Here’s a paraphrase of the provided text in a more technical and natural style, retaining the original meaning:
+
+---
+
+**SPARK PLUGS MAINTENANCE**  
+To ensure optimal performance, clean the area around the spark plugs and inspect them according to the Service Section's recommendations. Set the spark plug gap to the specified measurement, and perform a coolant change at an Authorized Service Facility, following the cooling system specifications. 
+
+**GENERATOR CLEANING & MAINTENANCE**  
+Maintain the generator by cleaning internal components to prevent the buildup of contaminants. Utilize a cloth or designated cleaning materials for external cleaning, ensured to be suitable for all-weather use. 
+
+Conduct thorough inspections regularly, especially focusing on insulation integrity. Address any visible damage. If the insulation shows signs of wear, consult specific maintenance instructions for the battery. 
+
+**BATTERY MAINTENANCE**  
+Do not attempt to crank or recharge the battery in enclosed spaces. Ensure adequate ventilation to prevent the risk of fire. If any part of the battery is affected by damage, isolate it from power sources immediately. When handling the battery, wear protective gear to avoid burns or injury.
+
+Inspect all battery terminals regularly, tightening and cleaning as needed. Fill cells with distilled water only—avoid using tap water. 
+
+**SERVICE SCHEDULE**  
+Follow the outlined service schedule for routine checks and maintenance based on usage hours. Inspections should be done monthly, especially in critical areas, ensuring the generator is ready for operation. 
+
+**TROUBLESHOOTING GUIDE**  
+For any issues, identify the problem, possible causes, and corrections. Ensure all mechanical connections are clean and secure. Troubleshoot electrical components, including switches and boards, to confirm functionality.
+
+**PARTS AND COMPONENTS**  
+Refer to the specified part numbers for replacements and refer to your Authorized Service Provider for complex repairs or inspections needed beyond routine maintenance. 
+
+By adhering to these guidelines, you can maximize the lifespan and efficiency of your generator and related components.
+
+--- 
+
+Let me know if you need any more adjustments!
+
+**M6 Lock Nut** - Yellow Chromate finish, **M6 SHAKEPROOF Washer** - External, Steel, **Flat Washer** - Zinc for M6-1/4, **HHC M6 Screw** - Grade 8.8, **Flanged Hex Nut** - M12-1.75, **Vibration Dampener** - Blue Spacer, **M12 Flat Washer**, **HHC M12 Screw** - Grade 8.8, **HHTT Wire Assembly** - M6-1.0, **Shakeproof Washer** - External, Steel, **Mounting Base** - 2.5L Ford C1, **Lock Washer M10**, **HHC M10 Screw** - Grade 8.8, **Flat Washer** - Zinc for M10-3/8.
+
+**Battery Tray** - C1, **Battery Retention Strap**, **Shakeproof Washer**, **HHC M10 Screw** - Grade 12.9, **Flat Washer** - Zinc for M10-3/8, **Battery Post Covers** - Red/Black, **Battery Cables** - Black/Red, **Hex Nut M8** - Yellow Chromate finish, **Lock Washer** - M8-5/16, **Shakeproof Washer**, **Contactor Boot** - 0F3976, **THF Screw** - M6-1, **Flat Washer** - Zinc for M8-5/16, **12VDC Battery**.
+
+**Engine** - 2.5L Ford, **Water Pump Pulley**, **HHC M10 Screw** - Grade 8.8, **Serpentine Belt Length**, **Oil Pressure Switch** - 10 PSI, **Water Level Sensor Assembly**, **NPT Bushing** - Steel, **Intake Manifold** - Machined with Stepper Motor, **Intake Gasket** - 2.5L Ford, followed by various washers and screws for assembly.
+
+**Fuel Regulator Bracket**, **Fuel Regulator** - 2.5L Ford, **HHC M8 Screw**, **Flat Washer** - Zinc, **Lock Washer** - M8-5/16, **Carburetor Body Assembly**, **NPT Nipple**, **PCV Valve** - 2.5L Ford, **Crankcase Breather Hose**, along with detailed assembly instructions for regulating configurations between natural gas and LPG applications.
+
+**C1 Roof & Component Assembly** with various side and door panels, **Insulation Kits** for side, rear, and roof with multiple material options indicated by an (XX) suffix for color and material variants. Ensure all panels are secured with appropriate fasteners.
+
+**Exhaust Components** - including Mufflers, Pipes, and related fasteners, with detailed specifications for screwing, bolting, and gaskets to ensure proper assembly and secure fitting. 
+
+**Note**: Torque specifications are critical for assembly.
+
+**Generac Power Systems Standard Limited Warranty for Home Standby/Light Commercial Products**
+
+This warranty, provided by Generac Power Systems, Inc. or its authorized branches, covers inspections, examinations, and testing for a specified period. The purchaser/owner must ensure that the unit is appropriately examined and maintained according to the recommended schedule outlined by the manufacturer. 
+
+Coverage is applicable for the first two years and includes all components as detailed in the warranty schedule. It's crucial for the purchaser/owner to retain the purchase documentation, as it is required for warranty claims—including any necessary repairs conducted by authorized service centers.
+
+Generac strongly recommends contacting authorized service providers for any warranty-related inquiries. Claims directly related to unauthorized service may not be eligible for coverage. The warranty does not apply to damages resulting from certain conditions including, but not limited to, improper coolant usage, fire, theft, natural disasters, or acts of negligence. 
+
+Any repairs or replacements under this warranty will be limited to those stated above. Generac Power Systems disclaims any further guarantees related to merchantability or fitness for a particular purpose. The company’s liability is strictly limited to repair or replacement, and it cannot be held responsible for any incidental or consequential damages that may arise, even if they are a direct result of its negligence.
+
+The purchaser/owner retains additional rights under state law, and this warranty does not affect those rights. For more information, contact Generac Power Systems, Inc., P.O. Box 160, Waukesha, WI 53187.
+

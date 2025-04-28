@@ -1,0 +1,79 @@
+**Touchmonitor LCD Rear and Mount**  
+**Models**: ET1545L-XXWC-X, ET1547L-XXWC-X, ET1548L-XXWC-X, ET1549L-XXWC-X, ET1567L-XXWC-X  
+**Revision**: P/N Inc.  
+**Customer Service**: 1-800-ELOTOUCH; Website: www.elotouch.com  
+**Copyright**: © TouchSystems Inc. All rights reserved. This document cannot be reproduced, transmitted, transcribed, or translated in any form without written permission from TouchSystems. The information provided is subject to change without notice and does not imply any warranty of merchantability or fitness for a particular purpose. Trademarks such as SecureTouch, AccuTouch, and MonitorMouse belong to TouchSystems, Inc. All other trademarks are the property of their respective owners.
+
+Congratulations on your purchase of the LCD Touchmonitor. This high-resolution device enhances user interaction and information flow through its advanced capabilities. Please adhere to the product guidelines and safety precautions outlined in this manual.
+
+**Product Overview**:  
+The LCD Touchmonitor features an XGA TFT display with the following specifications:  
+- Direct RGB input (262,144-1549L)  
+- Supports XGA/SVGA/VGA/VESA/NEC PC-98 refresh rates  
+- On-Screen Display (OSD) available in English and Spanish  
+- VESA mount interface specified in Chapter C
+
+**Unpacking**:  
+Ensure you have received the following items:  
+- LCD Touchmonitor  
+- Software CD  
+- User manual  
+- Mounting hardware (C-bracket and L-bracket)  
+- Remote OSD controls
+
+**Installation and Setup**:
+1. **Mounting the Touchmonitor**:  
+   Use a screwdriver to securely attach the mounting brackets (C-bracket and L-bracket) as outlined in the manual. Follow the instructions with provided screws to ensure stability.
+
+2. **Touch Interface Connections**:  
+   Set the touchmonitor to factory specifications. Connect the touch interface (RS-232 or USB) as indicated, ensuring all connections are secure. Power up the touchmonitor to verify functionality.
+
+3. **Connecting to the PC**:  
+   For RS-232, connect the touchscreen cable to the designated port on the PC. For USB, connect the USB touchscreen to both the monitor and the PC. Ensure that the screws are tightened clockwise for secure connections.
+
+4. **Remote OSD Connections**:  
+   Use the DIN connector to connect the remote OSD to the touchmonitor.
+
+5. **Powering the Device**:  
+   Connect the touchmonitor to a grounded (three-pronged) AC outlet and power on the device. The display should activate.
+
+**VESA Mounting Information**:  
+This touchmonitor adheres to the VESA Physical Mounting Interface (FPMPMI), allowing compatibility with various mounting solutions. For specific mounting solutions, refer to compatible suppliers like Ergotron and GCX listed in the manual.
+
+**Software Installation**:  
+Install the provided software from the CD-ROM, ensuring the touchmonitor is connected and powered on. Follow the prompts based on your operating system (e.g., Windows XP, NT, etc.) for seamless installation.
+
+**Operating the Touchmonitor**:  
+Utilize the OSD functions to adjust settings via the buttons. Adjust brightness, contrast, and color settings as needed. Follow the operational guidelines for efficient use.
+
+**Troubleshooting**:  
+If issues arise, confirm that all cables are securely connected and verify power supply status. Consult the troubleshooting section for common problems and solutions related to the touchmonitor's operation, ensuring all components are functioning correctly.
+
+For further assistance, please refer to the maintenance section or contact customer service.
+
+**Phase of Refreshing the Graphics on VGA-Connected LCD Touch Monitors**
+
+The phase of refreshing graphics involves interfacing the LCD and clock signals with the VGA connection. Ensure that the LCD touch monitor is securely attached. The monitor accepts signals in various formats, including XGA for a 15-inch display. Increasing the vertical resolution of the LCD can enhance display quality. Common input types include VGA, SVGA, and XGA, corresponding to their native resolutions. 
+
+The LCD typically requires specific input formats to prevent artifacts when rendering graphics, such as text. Follow installation and operational procedures to optimize the touch monitor's performance. For safety, turn off the device while cleaning and use a 3-wire grounded outlet. Avoid using unapproved cleaners, as these can damage the device.
+
+**Touch Monitor Specifications for Models ET1545L/1547L/1548L/1567L:**
+
+These touch monitors feature a 15-inch active thin film transistor (TFT) touchscreen capable of displaying dithering colors. Brightness levels and operational temperature ranges are specified, alongside compliance with various standards like EMC and UL regulations. 
+
+**General Touch Monitor Capabilities:**
+
+Touch monitors are designed to accommodate multiple touchpoints, ensuring high responsiveness with minimal activation force. They meet operational testing standards for durability and chemical resistance.
+
+**Regulatory Information:**
+
+These devices comply with FCC regulations for Class B devices and European CE directives to prevent electromagnetic interference. Users are advised to follow connections as documented in the manual to reduce risk factors and ensure the device operates within specified parameters. 
+
+**Warranty Information:**
+
+The warranty for the touch monitors covers workmanship and materials over specified periods. Users should report any issues within 30 days of discovery to facilitate repairs or replacements as warranted. 
+
+For detailed specifications and installation guides, refer to the manufacturer's documentation.
+
+THE REMEDIES OUTLINED HEREIN ARE THE SOLE REMEDIES AVAILABLE TO THE BUYER FOR ANY WARRANTY BREACH. OTHER THAN THE EXPRESS WARRANTY STATED ABOVE, THE SELLER PROVIDES NO ADDITIONAL WARRANTIES, WHETHER EXPRESS OR IMPLIED BY STATUTE OR OTHERWISE, CONCERNING THE PRODUCTS, INCLUDING BUT NOT LIMITED TO THEIR FITNESS FOR ANY PARTICULAR PURPOSE, QUALITY, MERCHANTABILITY, OR NON-INFRINGEMENT. NO EMPLOYEE OR REPRESENTATIVE OF THE SELLER HAS THE AUTHORITY TO OFFER ANY WARRANTY OTHER THAN WHAT IS STATED HERE. THE SELLER'S LIABILITY UNDER THIS WARRANTY IS STRICTLY LIMITED TO A REFUND OF THE PRODUCT'S PURCHASE PRICE. UNDER NO CIRCUMSTANCES WILL THE SELLER BE RESPONSIBLE FOR THE COST OF PROCUREMENT OR INSTALLATION OF REPLACEMENT GOODS, OR FOR ANY SPECIAL, CONSEQUENTIAL, INDIRECT, OR INCIDENTAL DAMAGES.
+

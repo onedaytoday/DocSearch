@@ -1,0 +1,179 @@
+**CRP-22 CRP-26 User Guide**
+
+This manual is intended for the owner’s reference regarding network support and functionality. It covers the operation of the PJ network, highlighting the device's advanced portability and built-in features, including a compact LCD display. The unit is designed for easy setup and acceptance of WUXGA inputs.
+
+**Functions Overview:**
+
+- **Brightness Adjustment:** The user can control the brightness of the projection based on selected settings.
+- **AC Termination Feature:** The appliance automatically powers down without requiring cooling fan operation.
+- **Language Options:** The on-screen display is available in multiple languages, including English, Spanish, Swedish, Finnish, Polish, and Chinese.
+- **Security Functionality:** This feature safeguards against unauthorized access through user-set PIN codes. 
+
+**Network Integration:** 
+
+- The device supports both wired and LAN connections, allowing for seamless integration with existing network systems. 
+- An easy search and correction feature is available for AUTO SETUP, which simplifies initial configurations.
+
+**Interface Options:**
+
+- The unit comes with a switchable interface for versatile input connections, and users can toggle between caption displays for added convenience.
+
+**Safety and Maintenance:**
+
+Users are advised to familiarize themselves with the safety precautions detailed in this manual to avoid malfunctions, electrical hazards, or fire. Key warnings include:
+
+- **Electrical Shock Risk:** Do not remove covers or engage in repairs; only qualified personnel should provide servicing.
+- **Moisture Exposure:** Prevent the equipment from exposure to rain or high humidity, as this may result in electric shock or fire hazards.
+- **Heat Management:** Ensure proper ventilation to prevent overheating. Avoid placing the unit in enclosed spaces that could obstruct airflow.
+
+**User Responsibility:**
+
+Users are responsible for the correct disposal of the unit’s components, especially the lamps containing mercury, according to local regulations. 
+
+**Compliance Information:**
+
+This device adheres to Class B standards set by the FCC, ensuring reasonable protection against interference. Users experiencing issues should follow troubleshooting steps outlined in this manual, or contact ELMO USA Corp. for support inquiries.
+
+**Connection Instructions:**
+
+The AC cord is essential for operation and must be suitable per local safety standards. Any modifications or repairs should be handled by qualified technicians to ensure compliance and safety.
+
+Please retain this manual for future reference.
+
+**Connecting Ports and Inputs:**
+
+Connect the rear CONTROL PORT to the COMPUTER IN, S-VIDEO IN, or COMPONENT IN, so that the incoming RGB signal is directed to the COMPUTER IN, and the MONITOR OUT sends RGB to other devices. Audio is routed from the AUDIO IN to AUDIO OUT (VARIABLE). 
+
+**Power Supply Details:**
+
+Ensure a 12V DC (1.1A) power supply is connected. This voltage can be sourced from ELMO or other networks using a VGA/DC cord. The system can also function with external DC supplies when needed.
+
+**Control Functions:**
+
+To navigate options, use the buttons on the top panel or the remote. Auto setup includes searching for PC inputs. The STATUS lights indicate when the device is on standby or when lamp replacement is necessary. Other functions include controlling volume, muting audio, and utilizing the freeze and timer features.
+
+**Remote Control Operation:**
+
+To operate the remote, use AAA or LR03 batteries. Ensure correct polarity during installation. If facing any interference, press and hold the MENU and IMAGE buttons for five seconds to reset functions.
+
+**Positioning Instructions:**
+
+Position the projector to achieve the desired brightness and ensure an appropriate viewing angle. The projector’s foot can be adjusted to suit different projection heights.
+
+**Connecting Inputs:**
+
+For audio input, use the AUDIO IN from the COMPUTER IN, S-VIDEO IN, or COMPONENT IN terminals. The AUDIO OUT can be linked to an external audio system as needed. Ensure all connections are secure and follow voltage specifications to avoid damage.
+
+**Selecting AC Power:**
+
+Connect to a single-phase grounded outlet to minimize shock risk. Confirm AC specifications align with the provided chart for proper operation. 
+
+**Turning the Projector On:**
+
+Turn on the projector using the ON/STAND-BY button. The POWER indicator will turn from red when off to green when on, indicating operational readiness.
+
+**Input Selection:**
+
+If an input PIN appears, follow the prompts to enter it as required. Ensure that the projector remains off for at least five minutes after use to maintain lamp longevity. Regularly allow the projector to cool down.
+
+**Navigating On-Screen Menus:**
+
+Utilize the remote to access hierarchical menus, highlighting options with the arrow buttons, and selecting them using the SELECT button. Adjust brightness, sharpness, and sound settings accordingly.
+
+**Final Notes:**
+
+Always handle the PIN code with care. If incorrect entries are made three times, the system will shut down automatically. We're committed to supporting our network owners, ensuring secure operation throughout.
+
+Sure, here's a paraphrased version of the text in a technical manner while maintaining its meaning:
+
+---
+
+This text outlines the functionality of the remote control, specifically the options for functions like AUTO SETUP, adjustment of the KEYSTONE correction for PC inputs, and sound settings.
+
+1. **Functionality Overview**:
+   - The remote allows access to various functions including search options, AUTO SETUP, and manual adjustments for KEYSTONE correction. The AUTO SETUP and correction features only activate when properly initiated. 
+
+2. **Adjusting KEYSTONE Correction**:
+   - To correct the image effectiveness, either the AUTO SETUP or manual KEYSTONE adjustment can be used. Utilizing the KEYSTONE button on the remote displays correction arrows. You can navigate these corrections by using the corresponding buttons; pressing the KEYSTONE button once will cancel any ongoing adjustments.
+
+3. **Sound Controls**:
+   - To adjust the volume, use the VOLUME+/– buttons, with the MUTE feature available for temporary sound silencing, which can be restored with the same button or the VOLUME buttons. Accessing settings through the MENU allows for modifications to sound output and selection of audio settings.
+
+4. **Input Selection**:
+   - The remote allows selection between input types such as COMPUTER VIDEO, S-VIDEO, and COMPONENT. The FREEZE function can temporarily hold the current image display. Additionally, D.ZOOM can be used for zoom adjustments. 
+
+5. **Timer and Image Settings**:
+   - The P-TIMER button starts a countdown timer, while the IMAGE button cycles through screen settings. Selection operations rely on button prompts from the on-screen display to navigate through options efficiently.
+
+6. **PC Input Configuration**:
+   - To switch between RGB inputs, users are guided through the menu system to select the desired input. If the PC doesn’t automatically identify, manual adjustments can be made through the menu for accurate resolution matching.
+
+7. **Aspect Ratio Adjustments**:
+   - The remote also supports aspect ratio settings, allowing users to switch between normal and custom ratios as needed. The function for manual adjustments via the H/V selection allows for precision in output display.
+
+8. **Various Display Modes**:
+   - Direct selection options facilitate setup for different display scenarios, like backgrounds and framing options, enhancing overall presentation dynamics.
+
+Each function may vary in accessibility depending on the device settings and user configuration, guiding users through intuitive on-screen menu interactions to elevate their presentation experience.
+
+--- 
+
+This revision captures the essence of the original instructions while presenting it in a clearer, more organized format.
+
+### Input Selection
+To select the RGB Direct input or the COMPONENT via the remote, press the MENU button to access the On-Screen Menu. Then use the navigation buttons to choose the desired input (RGB or SCART) and press SELECT. Similarly, for COMPUTER input, utilize the Search function to find inputs On1 or On2, such as COMPUTER 1 (RGB) or COMPONENT inputs connected via COMPUTER IN 1/S-VIDEO IN/COMPONENT IN.
+
+### AV Selection
+Press MENU to access the On-Screen Menu, navigate to the desired input, and press SELECT to choose between the different formats available: PAL, SECAM, NTSC, NTSC4.43, PAL-M, or PAL-N. You can manually select the appropriate format to optimize input performance.
+
+### Image Settings
+For image adjustments, access the On-Screen Menu using MENU, then select IMAGE settings. You can switch to Blackboard mode for better visibility, adjusting parameters such as brightness, contrast, and sharpness using the respective buttons. Each setting can be modified to enhance display performance, selecting options such as High/Low for brightness and sharpness to reduce image interference.
+
+### Aspect Ratio Adjustment
+To alter the screen aspect ratio, go to the On-Screen Menu and select ASPECT, choosing between Normal, Custom, and various possible H/V settings. You can lock the aspect ratios based on input or create a custom configuration.
+
+### Additional Functions
+The device includes several auxiliary functions accessible via the MENU button, allowing navigation through language settings (English, Spanish, Dutch, Swedish, Polish, Chinese) and other operational parameters.
+
+### Auto-Setup
+To enable the AUTO SETUP feature for automatic input searching, access this function through the MENU. The system will identify available inputs, adjusting outputs as needed. If input changes occur, the search function will retry until the appropriate input is detected.
+
+### Keystone Adjustment
+For keystone correction, this function assists in correcting image distortion caused by projector angles. The setup modifies the display parameters for optimal image alignment.
+
+### Background Selection
+Select background options based on input detection using the remote. You can switch between a Black background or other settings. The countdown feature is useful when switching inputs, ensuring visibility prior to automatic adjustment.
+
+### PIN Functionality
+To secure access, use the PIN feature to configure and manage settings. If the PIN is lost, those settings cannot be altered without the original PIN. A prompt for a new PIN will appear if the incorrect one is entered.
+
+### Mounting Configuration
+The device supports reversed settings for ceiling-mounted or rear-projected displays, adjustable via the input menu to ensure correct orientation.
+
+### Power Management
+For efficient operation, the device includes a cooling function that activates when powered down. Countdown timers and status indicators inform users about the cooling process and input readiness prior to use. Proper power management is crucial for system longevity.
+
+This feature manages network operations, allowing users to toggle between ON and STAND-BY modes. When deactivated, you can adjust settings that influence the network and operational aspects, including cooling. To access closed captioning (CC), press the CC1, CC2, CC3, or CC4 buttons; the text will appear in white while other inputs are disabled. You can switch between NTSC or other inputs for closed captions. A 12V DC supply is needed for network functionality, and CC settings can be adjusted accordingly.
+
+This function permits higher brightness levels than the standard setting but may reduce longevity if exceeded. Recommendations for usage hours should be followed, and any violations will result in automatic shutdown. Use the remote to toggle functions and resolve any issues by pressing the MENU and IMAGE buttons together for optimal performance. 
+
+Security features include a PIN lock mechanism to prevent unauthorized use. To enable or disable the PIN, select the corresponding option and confirm with SELECT. If forgotten, access will be restricted. The PIN can be changed, and it’s crucial to keep a written record of the new code to avoid issues later.
+
+Cooling options include various settings, with each option designed to maintain an optimal operating temperature. Specify your cooling preference using the appropriate controls. If the device signals that cleaning is necessary, heed these warnings to avoid harm. Should a cleaning reminder activate, follow the proper procedures to reset the cleaning counter.
+
+For additional information on operational status, press the INFO button, which displays various metrics including input type, status, and settings for remote usage. Any required maintenance or cleaning actions will activate specific warnings, highlighted by red indicators suggesting further attention is needed.
+
+Cleaning should be performed regularly to ensure proper functionality. When faced with a cleaning alert, shut off the device and disconnect it from AC power, then proceed with a gentle cleaning of external components. Avoiding harsh chemicals during this process is essential to maintain surface integrity. Always refer to manufacturer guidelines and use recommended cleaning methods for optimal results.
+
+When the display's lifespan is nearing its end, the "LAMP REPLACE" indicator will illuminate. Replace the lamp immediately when this light appears and the device is switched off. Allow the lamp to cool for at least a specified duration before proceeding with the replacement. If the unit is too hot to touch, do not attempt to replace the lamp until it has sufficiently cooled.
+
+Take care when removing the cover—handle it gently and do not force it, as this may damage the device. Follow all safety precautions, particularly if there’s any damage visible. If the lamp explodes, shut off the AC power immediately and contact authorized service personnel. Do not attempt repairs yourself unless properly trained.
+
+For troubleshooting, ensure that all peripherals are correctly connected to the AC outlet. If the "POWER" indicator is lit red, check the system for any errors or misconfigurations. Verify that the selected function is properly set up, and refer to the manual for specific instructions on functionality, including any necessary resets.
+
+Specifications for various operating modes and input types, such as RGB and SVGA, are provided for reference. For ongoing operation, remember that temperatures may affect performance and that periodic servicing may be required.
+
+In case of technical issues, refer to the connection conventions and specifications outlined in the product manual. Additional information regarding compatibility and power requirements across different models is also available.
+
+For further assistance, refer to the corresponding technical documents or contact authorized service representatives.
+

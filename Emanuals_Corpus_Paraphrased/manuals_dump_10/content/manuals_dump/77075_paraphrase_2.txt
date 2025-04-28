@@ -1,0 +1,101 @@
+### Touchmonitor LCD 1522L-XXWB Revision
+
+**Touchmonitor Model:** 1522L-XXWB  
+**P/N:** E212991  
+**Support:** 1-800-ELOTOUCH | www.elotouch.com
+
+**Copyright Statement:** All reproduction, transmission, transcription, translation, or alteration of this information without written permission is prohibited. This information is provided as is, without any warranties, including implied warranty of merchantability or fitness for a particular purpose. Acknowledgments include TouchSystems, SecureTouch, AccuTouch, and MonitorMouse, among others.
+
+### Chapter Overview
+
+- **Introduction**
+- **Product Specification**
+  - LCD Performance
+  - Credit Card VDC
+  - Unpacking the Touchmonitor
+  - USB Peripheral Testing
+  - MSR Functionality and Testing
+  - Software Configuration for USB Touch
+
+### Touchmonitor Overview
+
+The 1522L is a USB-enabled LCD touch monitor equipped with a touchscreen interface. It supports optional features like a Magnetic Stripe Reader (MSR). The display is XGA and supports Capacitive, AccuTouch, CarrollTouch, and Acoustic (APR) technologies. The MSR can read three types of credit cards, either forwards or backwards. The MSR is internally connected via USB, alongside the touchscreen functionality of the monitor. The device operates on either AC or VDC power sources.
+
+### LCD Performance 
+
+- **Specifications**
+  - Format: TFT LCD
+  - Pitch Ratio: Depending on configuration
+  - Brightness: As per AccuTouch, with typical CR >= 10
+- **Standards Compliance:** Meets guidelines from international organizations and relevant associations regarding card reading formats.
+
+### Unpacking the Touchmonitor
+
+This section provides details about the contents of the packaging, including the monitor itself, USB cables, QuickStart guide, and installation software. 
+
+### Installation Guidance 
+
+Ensure both the touch monitor and PC are powered down before connecting. Follow specific instructions for USB connections, including securing cables properly. 
+
+### MSR Testing 
+
+Instructions for testing the USB MSR functionality can be found on the included CD. Steps include selecting the appropriate settings in software to modify functionality from HID to MSR.
+
+### Touch Software Configuration
+
+The touch software is included on the CD and is compatible with various operating systems like Windows XP, NT, CE, MS DOS, and OS/2. Follow the installation instructions for configuring the touch monitor for the desired operating system.
+
+### Touchmonitor Operations 
+
+For adjusting the on-screen display (OSD) settings, refer to the instructions on how to navigate through the options, including brightness, sharpness, and input sources. 
+
+### Troubleshooting 
+
+Common issues can be addressed here. If functions or characters do not display correctly, check the connections and ensure that the settings correspond to the monitor’s capabilities. 
+
+### Specifications Summary
+
+Refer to the technical specifications for detailed insights into LCD touchmonitor capacities, touchscreen functionalities, and warranty information. 
+
+For further support, consult the respective sections of the user manual or contact customer service.
+
+### Touchmonitor Overview
+
+The A-30 Touchmonitor features a vertically oriented SVGA LCD. It supports XGA input in a vertical format. When the input signal matches the display specifications, the LCD performs optimally. Should the input signal exceed the LCD’s resolution, algorithms are employed to minimize artifacts, ensuring clear character display.
+
+For safety and maintenance, refer to the operational guidance in this chapter. To prevent electric shock, ensure the touchmonitor is turned off before cleaning, and utilize a grounded three-wire cord when connecting to an electrical outlet. Unauthorized servicing will void the warranty. 
+
+### Touchmonitor Specifications
+
+Specifications for the 1522L LCD TFT include:
+
+- **Active Display Area**: 304.1 mm (H) x 228 mm (V)
+- **Pixel Pitch**: 0.297 mm (H) x 0.297 mm (V)
+- **Native Resolution**: XGA with a typical brightness rating
+- **Touch Technology**: Options available include AccuTouch, Capacitive, and CarrollTouch.
+- **Input Power**: AC 85-265V or DC 12V/4A
+- **Environmental Conditions**: Operational from 0°C to 50°C, relative humidity from 10% to 90%
+- **Compliance**: CE, C-Tick, FCC standards
+
+### Mechanical Characteristics
+
+The touchmonitor is designed for durability, featuring:
+
+- A hard-surface top coating resistant to scratches.
+- Activation force within specified parameters for tactile feedback.
+- An operational lifespan validated through extensive testing against standards such as ASTM D1003 and ASTM D2457.
+
+### Regulatory Information
+
+This product complies with U.S. FCC Class B regulations and EU directives, providing reasonable protection against interference. Users are advised to ensure proper grounding and to follow installation instructions carefully to prevent potential electrical hazards. In cases of interference with devices, repositioning or disconnecting power supply may help mitigate issues. 
+
+### Warranty
+
+The product is covered under a limited warranty that protects against manufacturing defects. Customers are encouraged to report any issues within thirty days of discovery for evaluation. If the product is determined to be faulty, options will include repair, replacement, or credit toward future purchases, as defined by warranty terms.
+
+**Touchmonitor Warranty and Liability Limitations**
+
+The remedies outlined herein represent the sole recourse for the buyer in the event of a warranty breach. Except for the explicit warranty provided above, the seller offers no additional warranties, either express or implied, related to the products, including but not limited to their suitability for any purpose, quality, merchantability, or non-infringement. No employee or representative of the seller is authorized to extend any warranties beyond those stated in this document. The seller's liability under this warranty is limited strictly to a refund of the product's purchase price. The seller is not responsible for replacement costs or installation expenses of substitute products, nor for any special, consequential, indirect, or incidental damages related to the products.
+
+Regarding the LCD Touchmonitor (1522L-XXWB-1-XX-G), the technical specifications encompass various aspects, including acoustic performance, brightness, cleaning methods, clock features, credit card capabilities, and overall expected performance metrics. Additionally, detailed information is provided on voltage requirements, mechanical and acoustic specifications, touchscreen functionalities, and compliance with safety standards. For further details and support, please visit www.elotouch.com, or contact the USA Headquarters at Touch Inc. (800-356-8682).
+

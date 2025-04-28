@@ -1,0 +1,86 @@
+**Copyright Notice**
+This document is protected by copyright and may not be reproduced, transmitted, transcribed, or translated without the written permission of TouchSystems. Information contained herein is provided without any implied warranty of merchantability or fitness for a particular purpose. TouchSystems, Inc. disclaims all rights to revisions or acknowledgments made to this document. SecureTouch, AccuTouch, and MonitorMouse are trademarks of TouchSystems, Inc., and other trademarks belong to their respective owners.
+
+---
+
+**Safety Notices and Precautions**
+
+**Warning: Fire or Electric Shock**
+Exercise caution with the device to avoid fire or electric shock. Ensure the device is turned off before cleaning. Use a soft cloth to clean the LCD without moisture contacting the housing. 
+
+**Do Not:**
+- Use abrasive cleaners or solvents on the LCD.
+- Place the device near direct sunlight.
+
+---
+
+**Product Overview**
+The SVGA TFT LCD touchmonitor features:
+- Direct RGB input
+- Active TFT LCD with high SVGA refresh rate
+- VESA DPMS interface (RS232)
+  
+Included in the package:
+- The LCD Touchmonitor
+- VGA and RS-232 cables
+- Software CD
+
+**Connecting the Touchmonitor**
+To connect the touchmonitor:
+1. Turn off all devices.
+2. Connect the VGA cable from the PC to the monitor, securing with screws.
+3. Attach the touchscreen interface cable to the rear of the PC.
+4. Connect the power adapter from the DC input to the AC outlet. 
+5. If using audio, connect earphones to the audio-out jack.
+
+**Important:**
+Follow software installation instructions carefully.
+
+---
+
+**On-Screen Display (OSD) Controls**
+- **MENU/SELECT**: Navigate and select items from the OSD.
+- **Decrease/Increase**: Adjust values of highlighted items.
+
+Press the MENU button to display the OSD and use it to adjust settings such as brightness and tracking to suit the graphic display.
+
+---
+
+**Troubleshooting Procedures**
+If issues arise, ensure the following:
+- Devices are properly connected.
+- Check for incorrect settings or out-of-range refresh rates.
+- Ensure the touchscreen is securely attached.
+
+---
+
+**Specifications**
+Refer to the provided specification sheets for detailed Touchmonitor specifications (Model ET12-XXWC-1) and relevant controls.
+
+---
+
+**Software Installation**
+To install the software from the provided CD-ROM:
+1. Access the .exe file and follow on-screen instructions.
+2. For DOS users, ensure the necessary commands are in the AUTOEXEC.BAT file.
+
+---
+
+**Compliance and Safety Information**
+A) Complies with FCC Class A regulations for equipment emissions and interference.
+B) Maintains CE compliance concerning electromagnetic compatibility.
+C) Users are advised to observe standards for safe installation and operation.
+
+**Important:**
+Only qualified technicians should perform service. Grounding wiring is critical to prevent electric shock. 
+
+If interference issues arise, adjust the positioning of the device or consult technical support for further assistance.
+
+### Warranty Disclaimer and Limitation of Liability
+
+The warranty associated with the Product pertains to both the product itself and its workmanship, unless stated otherwise. The warranty period for the touch monitors spans several years, specifically defined for the AccuTouch products. To invoke the warranty, the buyer must promptly notify the seller, in writing, of any defects or issues related to the Product within thirty days of discovery. The warranty allows for a reasonable opportunity for the seller to inspect the Products in question.
+
+If a Product is found to be defective, the seller may choose to repair or replace it, or alternatively, provide a credit towards the account from which the Product was purchased. These remedies are the sole remedies available to the buyer for any warranty breach. Apart from the expressed warranty mentioned, the seller provides no additional warranties, whether expressed or implied, covering fitness for a particular purpose, quality, merchantability, non-infringement, or any other aspect. No employee or representative of the seller is authorized to extend any warranty beyond what is specified herein.
+
+The seller’s liability under the warranty is limited to refunding the purchase price of the Product. Under no circumstances will the seller be liable for any costs associated with procuring or installing replacement goods, nor for any special, consequential, indirect, or incidental damages. This also extends to any claims related to the Products or associated warranty issues, including any products that incorporate the warranted goods. This limitation includes coverage for reasonable attorney fees arising from disputes concerning the Products.
+

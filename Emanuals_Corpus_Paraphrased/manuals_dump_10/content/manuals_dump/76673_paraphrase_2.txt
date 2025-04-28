@@ -1,0 +1,9 @@
+LITE SCREENS INFRARED REMOTE CONTROL CODE VMAX2 Home2(3) and Tension2(3):
+
+The system operates at a frequency of 38 kHz. 
+- Stop: 1111 
+- Down: 1111 
+- VMAX Only: UP, STOP, DOWN 
+
+For the VMAX CineTension and VMAX models, head operation is managed via a remote control. The head count is tracked with a counter that can reach up to 32,767 counts per second. Each cycle has a base count of 12, with operations moving from the initial state up to the stop and down commands. The system utilizes infrared (IR) with a frequency of 38 kHz for communication.
+

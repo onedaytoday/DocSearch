@@ -1,0 +1,41 @@
+### Part Names
+
+**DC Input**: RS-232C Input (RCA) for RSU-200 Remote Unit  
+**Models**: PTC-200C, PTC-100S, PTC-110R  
+**Instruction Manual** 
+
+**LED and DIP Switch Settings**:  
+To activate the DIP Switch (4), set it to the ON position, which powers the unit. 
+
+**AC Connection**: The wireless operation relies on the infrared functionality of the RSU-200. The IR LED will illuminate when the wireless power is active. It is advisable to identify the wireless when the RS-485 protocol is engaged. 
+
+**DIP Switch (4)**: This is located on the RSU-200. The BNC RCA connector (provided) allows for BNC/RCA conversion. 
+
+**Switch Configuration**: For optimal performance, set the internal switch of the RSU-200 to the "LONG" position. It is recommended to adjust using the PTC when the 5C-2V is in operation.
+
+### Specifications
+
+**Power Requirement**: 12V DC, 2.5W  
+
+**RS-232C Specifications**:  
+- **Pin Assignment**: DTR, DSR, TXD, GND, RXD, GND, NC, NC  
+- **Flow Control**: Dedicated RS-232C interface via DIN 8P  
+
+| RSU-200 PC Pin | RSU-200 PC Pin |
+|----------------|----------------|
+| 1. DTR        | 1. CD         |
+| 2. DSR        | 2. RXD       |
+| 3. TXD        | 3. TXD       |
+| 4. GND        | 4. DTR       |
+| 5. RXD        | 5. GND       |
+| 6. GND        | 6. DSR       |
+| 7. NC         | 7. RTS       |
+| 8. NC         | 8. CTS       |
+| 9. RI         | 9. OPEN      |
+
+### Supplied Accessories  
+- Instruction Manual  
+- AC Adapter  
+- RS-232C Connector (DIN 9P)  
+- Ground Connections  
+

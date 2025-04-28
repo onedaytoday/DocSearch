@@ -1,0 +1,52 @@
+**1940L Touchmonitor SW601787**
+
+This document pertains to the 1940L Touchmonitor, copyrighted by TE Connectivity Corporation. All rights regarding reproduction, transmission, transcription, or translation of this publication are reserved and may not be utilized without prior written consent from TE Connectivity and its affiliates. The information provided herein may evolve, and TE reserves the right to modify this document as necessary. Touchmonitor and product names such as AccuTouch, TouchSystems, and TE Connectivity are trademarks of the respective companies.
+
+**Introduction**
+
+The 1940L touchmonitor offers robust performance characterized by a wide-screen active thin-film transistor LCD design, ensuring high-definition graphics. The LED backlighting minimizes mercury usage compared to traditional CCFL technology, enhancing both visual performance and energy efficiency. Proper precautions and guidelines for installation and use are included in this document. The package includes the touchmonitor, protective sheet, TouchTools CD, DVI/VGA cables, USB connections, and a remote OSD (On-Screen Display) interface.
+
+**Installation and Accessibility**
+
+The touchmonitor can be mounted using the VESA four-hole mounting standard with M4 screws, ensuring secure installation. When setting up the device, ensure connections for USB and power supply are properly made. The LED indicators on the monitor will signal the operational status. To minimize power waste, the device transitions to 'sleep' mode based on user interaction.
+
+**Software and Compatibility**
+
+The touchmonitor is compatible with various operating systems, including XP and WEPOS. Users are encouraged to refer to the TouchTools CD for additional software and installation guidance specific to their operating system. The 1940L supports a multi-touch interface through USB, optimized for touch functionality.
+
+**On-Screen Display (OSD)**
+
+The OSD allows users to adjust various settings, including brightness, input source selection, and clock adjustments for optimal display quality. Users can also manage scaling and aspect ratio through the OSD. The configuration supports multiple languages and provides easy navigation for selecting options. Additionally, the device can revert to factory settings if required.
+
+**Troubleshooting and Maintenance**
+
+In case of operational issues, verify physical connections and utilize the OSD to adjust settings. For additional technical support, users can contact customer service via the provided online resources. It is vital to keep the touchscreen clean and avoid using harsh chemicals.
+
+**Recycling and Environmental Compliance**
+
+The 1940L touchmonitor complies with WEEE directives and should be disposed of at designated recycling facilities, in accordance with local regulations for electronic waste.
+
+For further information, please refer to TE Connectivity’s dedicated support page at www.elotouch.com or the technical assistance portal at www.te.com.
+
+### Chapter Overview
+
+**I. General Information:** The information provided relates to specific operations involving the indicated device. It's essential to consult a certified technician for service. 
+
+**II. Compliance and Immunity Information:** This device has undergone testing and complies with FCC Class regulations, offering reasonable protection against interference when installed according to the provided instructions. This device also adheres to relevant CE directives, including EMC Directive 2004/108/EC and Low Voltage Directive 2006/95/EC. Users should be aware that interference may arise from various factors; in such cases, repositioning the device or consulting a technician may be necessary. If interference is detected, try turning the device off and on again or moving the affected receiver away from the source.
+
+**III. Certifications:** The device has been issued certifications from several authorities, including C-Tick, CUL, IC, CCC, CE, VCCI, NOM CoC, and BSMI, as well as the United States FCC and UL.
+
+**IV. RoHS Compliance:** According to Chinese RoHS regulations, this product does not exceed permissible levels of hazardous substances such as Mercury (Hg), Chromium, Polybrominated Biphenyls (PBB), and Polybrominated Ethers (PBDE). Specifically, it is in compliance with SJ/T11363-2006. Information regarding toxic substances is provided according to SJ/T11364-2006, ensuring safe operation within specified humidity and temperature ranges.
+
+**Environmental Conditions:** The operating humidity range is 20%-80% (non-condensing) and storage conditions can be within -20°C to 60°C with non-condensing humidity. The device should not be disposed of casually.
+
+**V. Specifications:** The power requirements are 100-240VAC and 12VDC at 4.16A.
+
+### Warranty Information
+
+The product is warranted to be free of defects in materials and workmanship for a period of three years. In cases of defects, customers are required to inform the manufacturer within thirty days of discovery. The warranty covers reasonable repair or replacement costs. Claims under the warranty should be made in writing and include the original packaging. 
+
+Limitations apply concerning the breach of warranty and liability for incidental or consequential damages, extending only to the extent permitted by law. For more information on warranty details, specifications, and support, please visit [www.elotouch.com](http://www.elotouch.com) or contact TE Connectivity Corporation.
+
+**Contact Information:** For further assistance in North America, please reach out to TE Touch at 800-ELO-TOUCH, located in Florida, USA.
+

@@ -1,0 +1,94 @@
+**LCD Touchmonitor Models 25L/1 and 27L - Revision Information**
+
+This document covers the TouchSystems LCD Touchmonitors 1825L and 1827L. For inquiries, please reach TouchSystems, Inc. at 1-800-ELOTOUCH or visit www.elotouch.com. 
+
+© TouchSystems, Inc. All rights reserved. Any reproduction or distribution of this material without written consent from TouchSystems is prohibited. The information provided is for guidance only and may be subject to change without notice. TouchSystems disclaims any warranties including but not limited to merchantability or fitness for a particular purpose.
+
+---
+
+**Table of Contents**
+
+1. **Introduction**
+2. **Product Overview**
+3. **Unpacking and Setup**
+   - Connecting the Touchmonitor (USB/RS-232)
+   - Mounting the Touchmonitor
+4. **Software Installation**
+5. **Operation**
+6. **Troubleshooting**
+7. **Technical Specifications**
+   - Compatible Touchmonitor Details
+   - Warranty Information
+
+---
+
+**Introduction to the Product**
+
+Congratulations on acquiring the Touchmonitor. This unit integrates advanced features such as direct RGB or RGB input with refresh rates suitable for high-definition displays. 
+
+---
+
+### Installation Steps
+
+1. **Unpacking the Touchmonitor**: Check for included items.
+2. **Connecting the Touch Interface**:
+   - Ensure the Touchmonitor and PC are turned off during connection.
+   - Follow the connection guide for USB or RS-232 setup.
+3. **Power and Speaker Connections**: Connect adequate power supply and audio output.
+4. **VESA Mounting**: Use the standard VESA physical mounting interface to secure the monitor.
+
+### Software Installation
+
+To set up the Touchmonitor with Windows XP, NT, or MS-DOS, insert the provided CD-ROM. Follow on-screen instructions to install necessary drivers that enhance touchscreen functionality.
+
+---
+
+### Operating the Touchmonitor
+
+- Utilize the On-Screen Display (OSD) to adjust settings. Use navigation buttons to change display settings, such as brightness and contrast.
+- Access various functions and settings through the OSD menu.
+
+### Troubleshooting
+
+Refer to the troubleshooting section for common issues and solutions related to the Touchmonitor.
+
+### Technical Specifications
+
+Refer to the specifications section for details concerning compatibility, dimensions, and warranty information.
+
+For more details on mounting options and technical support, visit our website or applicable product metadata.
+
+**OSD Functionality and Adjustment Overview**
+
+The On-Screen Display (OSD) feature automatically configures the brightness and contrast settings of the display. Users can navigate through the OSD menu to select default factory settings or customize settings via the "USER" option, adjusting the Red, Green, and Blue (R/G/B) parameters as needed. The OSD also supports YUV input configurations.
+
+The connection options for graphics interfaces include DSUB and DVI inputs. Users can swap between these options and adjust related settings such as clock phase, saturation, and hue. The OSD display will close automatically after a designated period.
+
+For users with touch monitors, if issues arise, ensure that the monitor is correctly connected to the I/O interface. Check for alignment problems if the display appears distorted. Refresh rates should match the specifications of the connected graphic source (VGA or otherwise). 
+
+The touch monitor supports various native resolutions from VGA to SXGA. It is important to match the input format with the display capabilities to minimize artifacts such as blurred characters.
+
+**Touch Monitor Maintenance**
+
+To ensure the longevity and safety of the touch monitor, follow outlined cleaning protocols. Use a grounded cleaning cloth and avoid abrasive materials or ammonia-based cleaners. If servicing is required, consult a qualified technician.
+
+**Technical Specifications**
+
+The LCD Touch Monitor (Model ET182XL-XXWB-1) features an 18.1-inch active thin film transistor (TFT) screen with AccuTouch technology. The monitor operates within a temperature range of 10°C to 40°C.
+
+Specifications include a mechanical construction designed for resilience with a hard-surface coating, contributing to its durability against wear. The estimated operational lifespan is over a specified number of activations.
+
+**Regulatory Compliance**
+
+The touch monitor complies with FCC Class B standards and the EU EMC Directive, ensuring minimal electromagnetic interference under normal operating conditions. Users are advised to follow safety protocols to mitigate risks of electrical shock or fire hazards.
+
+**Warranty Information**
+
+The product carries a warranty that guarantees against defects in materials and workmanship for a specified duration. Customers are encouraged to report any issues within a certain timeframe to facilitate inspection and potential replacements or repairs.
+
+THE REMEDIES STATED HEREIN SHALL BE THE EXCLUSIVE REMEDIES AVAILABLE TO THE BUYER IN CASE OF A WARRANTY BREACH. BESIDES THE SPECIFIC WARRANTY MENTIONED ABOVE, THE SELLER PROVIDES NO ADDITIONAL WARRANTIES, WHETHER EXPRESS OR IMPLIED BY LAW, RELATING TO THE PRODUCTS, THEIR SUITABILITY FOR ANY PURPOSE, QUALITY, MERCHANTABILITY, OR NON-INFRINGEMENT. NO EMPLOYEE OR REPRESENTATIVE OF THE SELLER IS AUTHORIZED TO OFFER ANY WARRANTIES FOR THE PRODUCTS APART FROM WHAT IS SPECIFIED HERE. THE SELLER'S LIABILITY UNDER THIS WARRANTY SHALL BE RESTRICTED TO REFUNDING THE PRODUCT’S PURCHASE PRICE. UNDER NO CIRCUMSTANCES SHALL THE SELLER BE RESPONSIBLE FOR THE COST OF OBTAINING OR INSTALLING REPLACEMENT GOODS BY THE BUYER, OR FOR ANY SPECIAL, CONSEQUENTIAL, INDIRECT, OR INCIDENTAL DAMAGES.
+
+Information pertaining to the LCD Touchmonitor (ET1 2XL-XXWB-X) includes specifications, product details, VESA mounting interface access, AccuTouch touchmonitor specifications, backlight life, brightness levels, chemical cleaning procedures, clock functionalities, color compatibility, connection methods for remote OSD, USB touchscreen, and overall construction. Other technical specifications cover performance, expected operation, touch activation force, touch interface details, safety information, and troubleshooting guidance.
+
+For detailed product information, specifications, news, press releases, and software updates, please visit www.elotouch.com or contact the relevant offices, including USA TouchSystems, Inc. CA and ELO-TOUCH KG, located in Germany.
+

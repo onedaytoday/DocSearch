@@ -1,0 +1,103 @@
+**Document Reference: TM DOC.IG.QC01.1**
+
+**Equipment Overview:**
+
+- **Models:** QC01 24VDC, QC03 Intrinsically Safe (IS), QC04 IS-NAMUR with NAMUR feedback.
+- **Supply Compatibility:** Ensure proper installation and use the right power supply type, referenced in DOC.IOM.Q.E.
+
+**Mounting Requirements:**
+
+- The equipment must be installed correctly to maintain IP65/NEMA4X protection. Use supplies rated at least IP65 or higher.
+- Follow specified mounting procedures and ensure all entries are sealed adequately.
+
+**Electrical Specifications:**
+
+- **Power Input:** 24VDC, with operational limits from -20°C to +80°C (-4°F to +176°F) for certain components.
+- Polarity considerations and feedback mechanisms are outlined, focusing on avoiding conditions that could affect performance.
+- IEC specifications detail capacitance and inductivity levels for safe operation.
+
+**Warnings and Precautions:**
+
+- Improper wiring or connections may lead to device malfunction and compromised safety features.
+- Earth connections must be secured as per the guidelines to prevent risks associated with improper grounding.
+
+**LED Functionality and Status Indicators:**
+
+- Various LED indicators signal operational statuses, including normal operation, reassignment modes, and error states.
+- Procedures for checking and resetting the feedback mechanism are detailed for troubleshooting.
+
+**Factory Settings and Reassignment:**
+
+- Instructions for returning devices to factory settings are provided, including steps to confirm LED responses and reset procedures.
+
+**Related Information:**
+
+- Review associated chapters and installation guides for comprehensive operational details. 
+- Always refer to the latest documentation available at www.FieldQ.com for updates related to certifications and compliance.
+
+**ATEX Compliance:**
+
+- Certified for operation in ATEX and Class I, II, III environments; models are distinctly rated for specific gas groups and temperature classes.
+- Adhere to all installation and maintenance instructions, particularly for environments that may pose explosive risks.
+
+This technical overview provides essential information for the installation and operation of the QC series products, ensuring adherence to safety guidelines and performance standards.
+
+The QC04 device is certified for use in ATEX or classified environments, specifically designed for Category II GD IIC T4, rated for temperatures from -20°C to +50°C (-4°F to 122°F) with an IP65 enclosure. It carries the KEMA 02ATEX1242X certification. The system complies with both IEC and ATEX standards and is approved for use in Class I, II, and III hazardous locations.
+
+Its operational parameters include a 30VDC input and feedback capacity of up to 1.2W. The device is compatible with stranded wire, complying with EN60947-5-6 (NAMUR) and various certification standards, including CSA, FM, ANSI/NFPA, and ANSI/ISA. Installations must adhere to specific mounting protocols to ensure safety in explosive atmospheres.
+
+The EC Declaration of Conformity confirms alignment with directives 98/37/EC, 89/336/EC, and 94/9/EC related to health and safety requirements. Various models, such as QC01, QC02, QC30, and QC34, fall under this certification, having received approval from KEMA Quality B.V. for their design and operational specifications. 
+
+For installation or operation, refer to the provided instructions and documentation to ensure compliance and safety in classified environments, including the necessary protective measures and electrical ratings.
+
+### Technical Specification Summary
+
+**Model:** QC03  
+**Certification:** ATEX II GD IIC T4 T80C, IP65  
+**Approval Number:** KEMA 02ATEX1242X  
+**Temperature Range:** -20°C to +50°C  
+**Standards Compliance:** EN 60079, EN IEC 60079, IEC 60068, and others  
+
+**Features:**  
+- Group Approval: I, II, III, ABCDEFG  
+- Classification: T4, 4X/IP65  
+- Recommended Usage: Applications requiring explosive atmosphere protection  
+
+**Electrical Specifications:**  
+- Power Supply: 24VDC  
+- Wire Specifications: CC, AWG, CSA, FM  
+- Compliance with directives: ANSI/NFPA, ANSI/ISA  
+
+**Instructions and Feedback:**  
+Refer to DOC.IG.QC01.1 for installation and operational guidelines. The model follows stringent ATEX conditions ensuring safety and reliability in hazardous locations.
+
+---
+
+**Model:** QC04  
+**Certification:** ATEX II GD IIC T4 T80C, IP65  
+**Approval Number:** KEMA 02ATEX1242X  
+**Temperature Range:** -20°C to +50°C  
+**Standards Compliance:** EN 60947-5-6, IEC 61010-1  
+
+**Features:**  
+- Group Approval: I, II, III, ABCDEFG  
+- Classification: T4, 4X/IP65  
+- Recommended Usage: Suitable for installation in explosive atmospheres  
+
+**Electrical Specifications:**  
+- Power Supply: 30VDC, 1.2W  
+- Wire Specifications: AWG compliant with relevant standards  
+- Compliance with directives: ANSI/NFPA, ANSI/ISA  
+
+**Instructions and Feedback:**  
+Refer to DOC.IG.QC01.1 for installation and operational recommendations. The model is engineered to meet ATEX standards tailored for explosive environments.
+
+---
+
+### Compliance with Directives
+Both QC01 and QC02 models comply with CE Directives, EMC standards, and ATEX regulations ensuring safety across all applications.
+
+### Contact and Support
+For further information or assistance, visit [FieldQ.com](http://www.fieldq.com).  
+All specifications are subject to change without notice. Please refer to the official documentation for detailed instructions and compliance declarations.
+

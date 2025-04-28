@@ -1,0 +1,967 @@
+### VMC and Service
+
+**IMPORTANT: PLEASE READ CAREFULLY BEFORE INSTALLING AND OPERATING YOUR COMPRESSOR.** Proper servicing and maintenance are essential for optimal performance. Ensure that the compressor has been thoroughly inspected by the factory to guarantee mechanical integrity. Any issues should be promptly reported to the Transportation Company, allowing for immediate rectification of any serious or costly problems.
+
+**TABLE OF CONTENTS**
+1. Extended Storage Procedures
+2. Installation Instructions
+3. Compressor Operation Section
+4. Compressor Service Section
+5. Compressor Replacement Parts Section
+
+**Stop/Check-Valve Information**
+The operational indicators should align with the flow arrows. For manual closure, ensure the valve is seated slightly open to allow flow, contrasting with the fully closed position allowing no flow. 
+
+**Installation Notes**
+Installation should follow applicable retrofitting guidelines. Ensure proper assembly from the casting's top, accommodating specifications for P28 and P128 models, which must remain factory-sealed during operations. 
+
+**WARNING:** The P28 and P128 have built-in relays for system protection, aiding in monitoring crankcase conditions. If abnormal readings occur, the relay will enable shutdown procedures as part of safety features. Adhere to specified instructions to ensure safe operation.
+
+**Caution:** Be mindful of the mounting requirements and the need for an effective oil level within the crankcase. Avoid potential hazards by ensuring that all wiring is compliant with National Electrical Code standards.
+
+**Electrical Specifications**
+When wiring the P28 or P128, verify compatibility with specified voltages (208V, 240V, etc.) to ensure correct relay functioning. The crankcase heater specifications should also align with the designated operating environment.
+
+**Relay Testing Procedures**
+It is critical to regularly test the relay, especially after any installation or maintenance work. Ensure that all systems are functioning correctly to prevent operational failures.
+
+For any questions regarding installation or specifications, consult the Johnson Inc. Application Information Table for further guidance. This ensures compliance with all performance standards and regulatory requirements.
+
+### Application Overview
+
+The A70 and A72 series are designed to accommodate adjustable operating needs. The A70 model can optionally feature a reverse-acting mechanism with a SPDT Pennswitch. Both models’ functions are subject to the operational environment and property specifications, which are the responsibility of the relevant supervisory authority as stated in Johnson Inc. specifications LIT-125155. These products are engineered for various applications requiring optimal force and trip-free operation.
+
+### Product Specifications
+
+The A70 and A72 series are aesthetically designed and come with a DPST configuration, suitable for polyphase applications. Safety provisions are included to protect against overload, particularly for single-phase connections handling substantial loads. Additionally, both models are easily accessible for maintenance without the need for cover removal.
+
+Optional construction types are available, meeting specified factory requirements. They can be equipped with coatings adhering to MIL-R-3065 and SB-515-ABFF standards, when indicated.
+
+### Product Functionality and Compliance
+
+The operation of the P74 series facilitates controlling and indicating functions through illumination. It effectively manages heated or cooled flow, activating lights in response to system changes. The P74 model serves to reduce load or provide operational support alongside P28 and/or P45 models. Responsibility for proper installation and usage lies with authorized personnel.
+
+The P74 is designed to handle high capacities with trip-free functionality. Its mounting configuration is designed for ease of use, maintaining compliance with P74 specifications. Options for connections include various mounting styles.
+
+### HCK4 Series Overview
+
+The HCK4 series is suited for flow applications, effectively withstanding expected pressures during operation. These valves are designed to ensure tight closure, making them ideal for both heated and chilled fluid systems. Their compatibility with various fittings (FPT, SW, WN, ODS) is highlighted.
+
+### Material and Installation Specifications
+
+The HCK4 components are constructed from materials that comply with ASTM standards, ensuring reliability across operating conditions. Installation orientations are crucial to prevent flow obstruction and potential damage, and specific dimensions should align with installation guidelines.
+
+### Operational Maintenance
+
+The HCK4 model primarily operates in a closed position, and increasing pressure necessitates a corresponding increase in the closing force. Regular service checks are essential to maintain functionality, focusing on the smooth operation of seating areas. Maintenance instructions should only be performed by trained professionals, with care taken to avoid injury or equipment damage.
+
+### Ordering Information
+
+For ordering, specify the desired model and configuration, including associated close-coupling details. This ensures that customers receive the appropriate product for their specific needs.
+
+### SURE-GRIP Bushings
+
+The SURE-GRIP bushing series offers easy installation and removal, augmented by setscrew technology for enhanced grip. Mounting configurations vary between standard and reverse, with user-friendly access points for secure assembly.
+
+### Technical Specifications and Dimensions
+
+Detailed dimensional and torque rating information is provided to assist in selecting appropriate mounts and ensuring optimal performance across various applications. 
+
+Each section is tailored encouraging the use of these components in appropriate contexts while enabling efficient operations and maintenance.
+
+Sure-grip bushings feature dimensions for bores and keyseats that vary based on the bore size, which increases from shallow to thick. This change facilitates the charging process. Below is a detailed list of products, categorized by type, along with their respective bore and keyseat dimensions.
+
+### Product Categories and Specifications:
+
+#### QT Bushings
+- QT12, QT9/16, QT58, QT11/16, QT34, QT13/16, QT78
+- QT15/16, QT1, QT1116, QT118, QT1316, QT114, QT1516
+- QT138, QT1716, QT112
+
+#### JA Bushings
+- JA12, JA9/16, JA58, JA11/16, JA34, JA13/16, JA78
+- JA15/16, JA1, JA1116, JA118, JA1316, JA114
+
+#### SH Bushings
+- SH12, SH9/16, SH58, SH11/16, SH34, SH13/16, SH78
+- SH15/16, SH1, SH1116, SH118, SH1316, SH114, SH1516
+- SH138, SH1716, SH112, SH1916, SH158, SH11116
+
+#### SDS Bushings
+- SDS12, SDS9/16, SDS58, SDS11/16, SDS34, SDS13/16
+- SDS78, SDS15/16, SDS1, SDS1116, SDS118, SDS1316
+- SDS114, SDS1516, SDS138, SDS13838KS, SDS1716, SDS112
+- SDS1916, SDS158, SDS11116, SDS134, SDS11316, SDS178
+- SDS11516, SDS2
+
+#### SD Bushings
+- SD12, SD9/16, SD58, SD11/16, SD34, SD13/16
+- SD78, SD15/16, SD1, SD1116, SD118, SD1316
+- SD114, SD1516, SD138, SD13838KS, SD1716, SD112
+- SD1916, SD158, SD11116, SD134, SD11316, SD178
+- SD11516, SD2
+
+#### SK Bushings
+- SK12, SK9/16, SK58, SK11/16, SK34, SK13/16
+- SK78, SK15/16, SK1, SK1116, SK118, SK1316
+- SK114, SK1516, SK151638KS, SK138, SK13838KS
+- SK1716, SK112, SK1916, SK158, SK11116
+- SK134, SK13412KS
+
+#### SF Bushings
+- SF12, SF58, SF34, SF78, SF15/16, SF1
+- SF1116, SF118, SF1316, SF114, SF1516
+- SF138, SF13838KS, SF1716, SF112, SF1916
+- SF158, SF11116, SF134, SF11316, SF178
+- SF11516, SF2
+
+#### Additional Bushing Types
+- E78, E15/16, E1, E118, E1316, E114, E1516
+- E138, E13838KS, E1716, E112, E1916
+- E158, E11116, E134, E11316, E178, E11516
+- E2, E2116, E218, E2316, E214, E21458KS
+- E2516, E238, E2716, E212, E2916, E258
+- E1116, E234, E21316, E278, E21516
+
+### Vilter Manufacturing Corporation
+#### Service Section Overview
+- **Safety Valve (Internal Relief)**: Adjustments and reassembly
+- **Tri-Micro Oil Filter**: Maintenance procedures
+- **Oil Pressure Adjustment**: Step-by-step guide
+- **Preparation for Internal Servicing**: Safety and operational measures
+- **Connecting Rods and Pistons**: VMC 450XL assembly instructions
+
+### General Service Instructions
+It is imperative to follow safety protocols during servicing, including proper shutdown procedures to prevent unintentional operation. Adequate preparations are necessary before initiating service, including the disconnection of switches and suction lines. Ensure the cooling system is operational to avoid overheating during maintenance.
+
+### Reassembly and Assembly Instruction Highlights
+- Ensure gaskets and seals are free from burrs to guarantee a secure fit.
+- Follow torque specifications as outlined in the reference table.
+- Use appropriate tools to tighten components carefully without over-tightening, which could damage parts. 
+
+For proper maintenance and efficiency, adhere to these comprehensive guidelines while servicing Viltor products.
+
+**5A**  
+**5A KEY ITEM NO. ITEM NAME ITEM NO. ITEM NAME**  
+**VMC SERVICE**  
+**Previous VILTER MANUFACTURING CORPORATION**  
+
+The VILTER products, including the Screw Suction Plate and Suction Washer, can be interchanged with specific heads. The design incorporates built-in features that enhance operational efficiency. The cover on the head facilitates improved functionality, allowing flexibility in assembly between different models, such as the B) and 450XL. 
+
+The assembly process for the head and suction components involves accurately aligning the parts to ensure proper function. When inverted, the head must be manipulated carefully to prevent wear on the components. 
+
+**NOTE:** The suction cavity must be oriented correctly, with the top facing up, enabling free movement during assembly.  
+
+**I. COMPRESSOR DRIVE TYPES**  
+A. Prior to proceeding with service instructions, ensure that components can be removed without resistance. If any parts are reused, proper reinstallation is crucial. The Flywheel is secured using screws and washers. 
+
+Inspect the bushing and bore for wear or imperfections which may lead to improper tightness, causing failure in the crankshaft function. 
+
+**Inspection**  
+Check for oxidation and wear on the crankshaft. Light wear can typically be remedied without significant remachining while ensuring adequate clearance is maintained. Any imperfections should be addressed to avoid further damage.
+
+**Belt Inspection**  
+Confirm that the belt and pulleys function correctly and do not display signs of wear or misalignment. Regular maintenance should include cleaning and checking for correct fit and function.
+
+**Installation Guidance**  
+When installing new components, ensure that they are properly matched and aligned to prevent undue stress on the system. Make sure to follow installation best practices for securing parts and minimizing vibration.
+
+**B. Direct Coupling**  
+When dealing with coupling adjustments, verify that the bore and crankshaft connections are smooth, free from burrs, and adequately lubricated. 
+
+**V. CAPACITY CONTROL**  
+The capacity control mechanism requires meticulous assembly, ensuring notches and specified orientations are followed accurately during installation.
+
+Overall, careful inspection and maintenance practices, along with proper assembly techniques, are vital for the longevity and efficiency of the VILTER components.
+
+### Compressor Application Note
+
+**Overview of High Internal Compression Ratios**
+This document discusses the capacity control mechanism arrangement for the new-style Bullet Type 450XL Compressors, manufactured by Vilter Manufacturing Corporation.
+
+**Inspection and Maintenance**
+- Clean and inspect PTFE components for wear, ensuring all parts function correctly when assembled. Check the assembly for any signs of capacity issues, and begin with the minimum capacity settings.
+- Follow assembly instructions carefully, paying attention to all components such as the arms and their connections.
+
+**Safety Valve (Internal Relief)**
+- In case of a malfunction, ensure to access the safety valve cover by loosening the screws. Valve functionality should be maintained for pressures of PSIG 300F (150C). Proper thread lubrication during reassembly is crucial.
+
+**Oil Pressure Adjustment Assembly**
+- Located at the front housing, the oil pressure adjustment assembly comprises a machined seat and an adjustment screw. Use a screwdriver to adjust the bypass amount as needed.
+- After cleaning and reassembly, ensure the washers are fitted correctly, and tighten the screws uniformly.
+
+**Tri-Micro Oil Filter Maintenance**
+- Begin by removing the screws of the front cover. Make sure to clean all components thoroughly before reassembling.
+- Ensure the filter is free from contaminants and securely seated before tightening down the screws.
+
+**Oil Pump Assembly**
+- When servicing the oil pump assembly, disconnect all necessary components, and carefully remove screws from the housing. Clean all mating surfaces and ensure correct assembly to prevent leaks.
+- Follow specifications for fitting and sealing to ensure the assembly is operational.
+
+**Preparation for Internal Servicing**
+- Internally access the machine by removing the cover and disconnecting electrical connections. Inspect the crankcase and cover for any abnormalities before reassembly.
+- Apply grease during reinstallation to facilitate smooth functioning.
+
+**Crankshaft Seal Maintenance**
+- Check the crankshaft for wear, and ensure seals are in good condition to prevent leaks. Clean the bearings and components thoroughly prior to reassembly.
+- Ensure the assembly fits snugly, with no excessive force needed to insert components.
+
+**Connecting Rods and Pistons**
+- Prior to assembly, ensure all parts, including connecting rods and bearings, have been cleaned properly. Maintain proper orientation of connecting parts during assembly.
+- Use a piston ring compressing tool to aid reassembly. Ensure all components align appropriately to prevent mechanical failure.
+
+**Caution**
+- Observe all safety measures during inspection and servicing. If any bearing shows wear, it must be replaced immediately to prevent further damage to the system.
+- Maintain a clean work environment throughout the service process and ensure all components are reassembled in their specified order.
+
+This condensed guide provides technical steps for servicing Vilter's 450XL Compressors, emphasizing safety and proper maintenance to optimize performance and longevity.
+
+### B. Reassembly
+
+To connect the components, refer to the Piston Ring Dimensions Table for appropriate measurements and tolerances for compression and oil rings. Ensure that the rings are oriented correctly during the reassembly process. Align all components properly, securing them with locking mechanisms as necessary.
+
+**Note:** Although the crankshaft may be reused, inspect each component carefully before reassembly. It’s essential to follow service instructions closely to ensure smooth operation.
+
+When extracting the assembly from the crankcase, caution is advised to prevent damage to the suction chamber and crankshaft.
+
+Ensure that any notches on the components align correctly, particularly when oriented at the assembly’s top. Use a specific tool for cylinder liner assembly and removal as indicated in the provided figures.
+
+### XIV. Crankshaft
+
+For crankshaft service, isolate the component from the front housing, ensuring to catch any debris during disassembly. Remove screws carefully and free the crankshaft from the housing. The process may differ for various models, so consult the specific guidelines for the 458XL or 4516XL models.
+
+Upon disassembly, verify the proper orientation of the crankshaft and its bearings. If necessary, apply cleaning agents to remove any deposits from the housing. 
+
+### Torque Specifications
+
+Refer to the torque specification tables for each model. Ensure that all connections are tightened according to the prescribed specifications to prevent future operational issues. 
+
+### Connecting Rod Nuts Tightening Instructions
+
+For VMC compressors with plain nuts, follow the established tightening instructions, ensuring the open end of each nut is positioned correctly. Use the factory-specified torque limits for optimal assembly.
+
+### Caution
+
+Make sure to adhere to dimensional tolerances and allowable wear limits as specified for the 450XL VMC compressors. Regularly consult service documentation for the most current specifications and instructions.
+
+### Table of Factory Specifications, Tolerances, Clearances, and Wear Limits for 450XL VMC Compressors
+
+#### Component Specifications
+- **Compressor Size**: All 450XL
+- **Dimensions**: 
+  - Connecting I.D.: 
+    - All 450XL: ±0.015 in
+    - All 450XL: ±0.030 in
+  - Shell Bearing Thickness: All U.S. 
+
+- **Clearances**:
+  - Clearance from O.D. to Shell I.D.: Theoretical bore dimensions apply to all VMC service connections and assemblies.
+
+#### Service History
+- Reference: VILTER Manufacturing Corporation.
+- Maximum allowable tolerances and wear limits are clearly defined for each component in service.
+
+#### Assembly Specifications
+- **Bore Dimensions**: 
+  - All 450XL (dry tightened).
+  - Measured Insides for connected bore dimensions.
+  
+- **Suction Seat Measurements**: 
+  - To be taken at various heights and angles, ensuring installation precision for assembled 450XL compressors.
+  
+#### Additional Instructions
+- For replacement parts and ordering:
+  - Refer to the detailed list of parts, including basic frame components, discharge/suction gauges, and assembly details.
+  - Ensure part specifications match the operating conditions for enhanced performance.
+
+#### General Notes:
+- The provided dimensions represent tolerances necessary for the 450XL compressor's operation.
+- Follow outlined procedures for installation or if acquiring parts from alternative sources. Ensure compliance with the specifications noted herein.
+
+This document is prepared by VILTER Manufacturing Corporation. Please note that all dimensions and tolerances are subject to the specifications provided.
+
+**VILTER MANUFACTURING CORPORATION**  
+**SECTION 100-R**  
+**PAGE 450XL**  
+**VMC COMPRESSORS**  
+
+### Rear Bearing Cover Replacement Parts  
+**Quantity Required per Compressor**
+
+| Item Description                                 | Number of Cylinders | Part Number      |
+|--------------------------------------------------|---------------------|------------------|
+| Rear Bearing Cover Assembly                       |                     | KT092            |
+| Rear Bearing Head                                 |                     | 13163E           |
+| Assembly (ex. 2868H shown)                       |                     | 33361A           |
+| Cover and Rear Bearing Head (R12, R502)         |                     | 34565A           |
+| Cover and Rear Bearing Head (R717, R22)         |                     | 34760AB          |
+| Complete Assembly (without 2046A)                |                     | A35241A          |
+| Complete Assembly (with 2046A)                   |                     | A35240A          |
+| Shell (without 311A Assembly)                    |                     | 1448U            |
+| Complete Assembly (with 311A Assembly)           |                     | 1448T            |
+| Seal                                             |                     | 1448H            |
+| Various plates and screws                        |                     | 1448C - 1448Q    |
+| Instruction/Nameplate                             |                     | 40680AJ          |
+| Elbow (O.D.)                                   |                     | S1589AA          |
+| Connector, MPT O.D.                             |                     | 13239C, 13229D   |
+| Bearing                                          |                     | 31890A           |
+| Head Screws                                       |                     | 13152E, 2796EL   |
+
+**Notes:** Items indicated are utilized as needed or optional. Recharge may include various components.
+
+---
+
+### Cylinder Liner and Capacity Control Replacement Parts  
+**Quantity Required per Compressor**
+
+| Item Description                                 | Number of Cylinders | Part Number      |
+|--------------------------------------------------|---------------------|------------------|
+| Cylinder Assembly without                          |                     | KT475            |
+| Cylinder Assembly with                             |                     | KT476            |
+| Suction Seal (O) (Two-Stage only)                |                     | 2176BH           |
+| Assy. (PTFE only)                                |                     | A35315BX         |
+| Complete Capacity Assembly                        |                     | A41788BX         |
+| Various Seals and Assemblies                     |                     | 2176BL, 405A, etc.|
+
+**Notes:** All components are referenced for high- and two-stage applications. The appropriate subset must be selected based on requirements.
+
+---
+
+### Piston and Connecting Rod Assembly and Safety Head Replacement Parts  
+**Quantity Required per Compressor**
+
+| Item Description                                 | Number of Cylinders | Part Number      |
+|--------------------------------------------------|---------------------|------------------|
+| Connecting Rod Assembly                           |                     | KT573            |
+| Connecting Rod Bearing                            |                     | KT575            |
+| Head Assembly                                    |                     | 35252A           |
+| High Compression Assembly                         |                     | A35082A          |
+
+**Notes:** Specific components for each assembly must be confirmed based on the system being serviced.
+
+---
+
+### Recommended Spare Parts List  
+**Quantity Required per Compressor**
+
+| Item Description                                 | Number of Cylinders | Part Number      |
+|--------------------------------------------------|---------------------|------------------|
+| Rotary Assembly                                   |                     | KT Assembly A33480A |
+| Suction Plate Assembly                           |                     | A41787AX         |
+| Complete Head Assemblies                         |                     | Various (KT041, KT043, KT045, KT049, KT051, KT055) |
+
+**Notes:** This is a recommended parts list, including various assemblies that apply to all configurations.
+
+---
+
+### VMC Compressors Replacement Parts  
+(NOTE: Applicable only to specified components)
+
+- Follow the provided instructions regarding orders and shipping.
+- Contact VILTER if the compressor was purchased from an alternate supplier.
+
+**VILTER MANUFACTURING CORPORATION**  
+**PRINTED IN U.S.A.**
+
+### Vilter Manufacturing Corporation Documentation
+
+**SECTION 102-R**
+**VMC Compressors (High-Stage, Two-Stage, and Duty)**
+
+**Basic Frame Replacement Parts**
+- **Quantity Required Per Compressor**
+| Item Description              | Number of Cylinders | Part Number  |
+|-------------------------------|---------------------|--------------|
+| Assembly, Crankcase           |                     | A31936A      |
+| Head Screw                    |                     | 13152E       |
+| and Sight Assy                |                     | A33034L      |
+| Sight                         |                     | 1484A        |
+| Screw, Head                   |                     | 2796E        |
+| Tube, Connector               |                     | 33494A       |
+
+---
+
+**Discharge and Suction Gauge Replacement Parts**
+- **Quantity Required Per Compressor**
+| Item Description              | Number of Cylinders | Part Number  |
+|-------------------------------|---------------------|--------------|
+| Heater, Crankcase (115V)      |                     | 2069J        |
+| Heater, Crankcase (230V)      |                     | 2069K        |
+| Suction PSI                   |                     | 1204C        |
+| Stedy-Mount Connector (MPT O.D)|                     | A17311SS     |
+| Thermometer, Crankcase        |                     | 1467F        |
+
+---
+
+**Crankshaft and Front Bearing Cover Replacement Parts**
+- **Quantity Required Per Compressor**
+| Item Description               | Number of Cylinders | Part Number  |
+|--------------------------------|---------------------|--------------|
+| Bearing Assy                   |                     | A31121A      |
+| Complete Sub-Assembly          |                     | KT445        |
+| Bearing Cover Assembly          |                     | A36240A      |
+| Seal, Rotary Assembly          |                     | A33483A      |
+| Crankshaft and Bearings Assembly|                     | A34555A      |
+
+**Notes on Replacement:**
+- The front bearing cover may be interchanged with A30294A or A32162A.
+- Ensure compatibility with selected crankshaft assemblies during replacement.
+
+---
+
+**Rear Bearing Cover Replacement Parts**
+- **Quantity Required Per Compressor**
+| Item Description               | Number of Cylinders | Part Number  |
+|--------------------------------|---------------------|--------------|
+| Rear Bearing Cover Assembly     |                     | KT092        |
+| Complete Assembly (without seal)|                     | A35241A      |
+| Head Screw                     |                     | 13152E       |
+
+---
+
+**Cylinder Liner and Capacity Control Replacement Parts**
+- **Quantity Required Per Compressor**
+| Item Description               | Number of Cylinders | Part Number  |
+|--------------------------------|---------------------|--------------|
+| Assembly (High-Stage)          |                     | KT475        |
+| Seal, O-ring (High-Stage only) |                     | 2176BH       |
+| Capacity Assembly               |                     | A33577A      |
+
+**Notes:**
+- The components are specific to either High-Stage or Two-Stage configurations; ensure accurate selection when ordering.
+
+---
+
+**Piston and Connecting Rod Assembly and Safety Head Replacement Parts**
+- **Detailed specifications to be provided in subsequent sections.** 
+
+**End of Document**
+
+Certainly! Here’s a paraphrased version of the text:
+
+---
+
+**February VILTER MANUFACTURING CORPORATION SECTION 102-R PAGE March VMC COMPRESSORS (High-Stage, Two-Stage, and Duty) REPLACEMENT PARTS FOR PISTON, CONNECTING ROD ASSEMBLY, AND SAFETY HEAD**
+
+**PARTS REQUIRED PER COMPRESSOR**
+
+| ITEM DESCRIPTION | NUMBER OF CYLINDERS | PART NUMBER |
+|------------------|---------------------|-------------|
+| High-Stage Piston and Connecting Assembly |  | KT213 |
+| High-Stage Piston and Connecting Assembly |  | KT478 |
+| High-Stage Piston and Connecting Assembly |  | KT478A |
+| Matched Connecting Assembly |  | 31989M |
+| Matched Connecting Assembly |  | 31989N |
+| High-Stage Connecting Assembly |  | 33244A |
+| High-Stage Connecting Assembly |  | KT463 |
+| High-Stage Connecting Assembly |  | KT463A |
+| Connecting |  | 31896B |
+| Connecting |  | 2028A -UNF |
+| Connecting |  | 2027A |
+| Connecting |  | 31955A |
+| High-Stage Connecting Bearing Half |  | KT512 |
+| High-Stage Connecting Bearing Half |  | KT513A |
+| High-Stage Connecting Bearing |  | 35273ST |
+| Safety Head and Assembly |  | A35082A |
+| Suction Head and Assembly |  | A35272A |
+| Safety Head (includes item KT543) |  | 1712F |
+| Additional Head |  | 33803A |
+| Complete Head |  | 35080SS |
+
+**NOTES:**
+A. Early models feature wrist bushings reamed for proper assembly. Only comprehensive assembly details and associated instructions are exhibited. Some components are interchangeable within designated assemblies.
+
+---
+
+**February VILTER MANUFACTURING CORPORATION SECTION 102-R PAGE March VMC COMPRESSORS CAPACITY CONTROL MECHANISM REPLACEMENT PARTS**
+
+**PARTS REQUIRED PER COMPRESSOR**
+
+| ITEM DESCRIPTION | NUMBER OF CYLINDERS | PART NUMBER |
+|------------------|---------------------|-------------|
+| Complete Capacity Assembly (PTFE) |  | A35315CX |
+| Complete Capacity Assembly |  | A41787AX |
+| Arms Assembly (Two-Stage only) |  | A41788BX |
+| Capacity Assembly |  | A33575A |
+| Capacity Assembly |  | A33335A |
+| Short Assembly (Two-Stage only) |  | 1193X |
+| Connecting |  | 33250B |
+| Additional Connecting |  | 33686A |
+| Capacity Assembly |  | A33576A |
+| Connecting |  | A33347A |
+| Screw |  | 1352D |
+| Spacer |  | 33618A |
+
+**NOTES:**
+The items are applicable across various configurations.
+
+---
+
+**February VILTER MANUFACTURING CORPORATION SECTION 102-R PAGE March VMC COMPRESSORS RECOMMENDED SPARE PARTS LIST**
+
+**PARTS REQUIRED PER COMPRESSOR**
+
+| ITEM DESCRIPTION | NUMBER OF CYLINDERS | PART NUMBER |
+|------------------|---------------------|-------------|
+| Complete Assembly |  | KT041 |
+| Complete Assembly |  | KT043 |
+| Complete Assembly |  | KT045 |
+| Complete Assembly |  | KT049 |
+| Complete Assembly |  | KT051 |
+| Complete Assembly |  | KT055 |
+| Rotary Assembly |  | A33483A |
+| Rotary Seal Assembly |  | A33489A |
+| Capacity Assembly |  | A33480A |
+| Connection (with items) |  | A35241A |
+| Connection (with items) |  | A35240A |
+| Non-High Stage Assembly |  | KT475 |
+| Two-Stage Assembly (with High-Stage) |  | A35108D |
+| Two-Stage Assembly (with High-Stage) |  | A35108C |
+| Suction Capacity Assembly |  | A33577A |
+| High-Stage Connecting Assembly |  | KT478 |
+| High-Stage Connecting Assembly |  | KT478A |
+| Connecting |  | 31989M |
+| Connecting |  | 31989N |
+| High-Stage Connecting Bearing |  | 35086ST |
+| High-Stage Connecting Bearing |  | 35273ST |
+| Safety Head and Assembly |  | A35082A |
+| Suction Head and Assembly |  | A35272A |
+
+**NOTES:**
+The selection encompasses recommended items for the respective configurations and should be tailored according to specific needs.
+
+---
+
+**February VILTER MANUFACTURING CORPORATION SECTION 105-R PAGE March VMC COMPRESSORS REPLACEMENT PARTS ORDERING INSTRUCTIONS**
+
+To properly place orders, ensure to document the model, as well as any applicable specifications (e.g., A, AH, R22S, R12H). This determines if the unit is built for RPM or standard deployment. The stock card, found directly below the crankcase or suction cover, is crucial for part selection. In the event of discrepancies regarding parts or costs, adhere to specified guidelines for routing as parts are shipped FOB from the factory. For purchases made outside the corporation, include details on the supplier and purchase date.
+
+---
+
+**February VILTER MANUFACTURING CORPORATION SECTION 105-R PAGE March VMC COMPRESSORS BASIC FRAME REPLACEMENT PARTS FOR CYLINDER VMC COMPRESSORS**
+
+**PARTS REQUIRED PER COMPRESSOR**
+
+| ITEM DESCRIPTION | NUMBER OF CYLINDERS | PART NUMBER |
+|------------------|---------------------|-------------|
+| Screw, Head (Water) |  | 13152L |
+| Screw, Head (without Water) |  | 13152G |
+| Water Assembly |  | 30299A |
+| Water Assembly |  | 33329A |
+| Capacity Reduction Assembly |  | A30332A |
+| Capacity Reduction Assembly |  | A30332B |
+| Capacity Reduction Assembly |  | A30332G |
+| Miscellaneous Cover |  | 30364A to 30364G |
+| Suction Elbow |  | 32418A |
+| Suction Screen |  | 33493A |
+| Additional components |  | Various part numbers |
+
+**NOTES:**
+Items specified may include optional features as necessary, and selection should reflect configurations and needs.
+
+---
+
+This paraphrase retains the original meaning while providing a more cohesive and structured presentation.
+
+### SECTION 105-R
+**VILTER MANUFACTURING CORPORATION**  
+**February**  
+**PAGE: VMC COMPRESSORS CRANKSHAFT AND FRONT BEARING COVER REPLACEMENT PARTS**  
+
+#### ITEM DESCRIPTION
+  
+| NO. | REQ. PER COMPRESSOR SERIAL NO. | ITEM DESCRIPTION | TWO-STAGE | SINGLE STAGE | PART NO. OF CYL |
+|-----|------------------------------|------------------|------------|--------------|------------------|
+|     |                              | Crankshaft        |            |              |                  |
+|     |                              | Complete Sub-Assembly | KT077 |            |                  |
+|     |                              | Complete Sub-Assembly | KT078 |            |                  |
+|     |                              | Complete Sub-Assembly | KT079 |            |                  |
+|     |                              | Complete Sub-Assembly | KT080 |            |                  |
+|     |                              | Complete Sub-Assembly | KT081 |            |                  |
+|     |                              | Complete Sub-Assembly | KT082 |            |                  |
+|     |                              | Assy. A31121A    |            |              |                  |
+|     |                              | Assy. A32566A    |            |              |                  |
+|     |                              | Washers           |            |              |                  |
+|     |                              | Bearing Assembly   | A36240A    |              |                  |
+|     |                              | Bearing Assembly   | A36241A    |              |                  |
+
+#### NOTES:
+- This document contains replacement parts required for various VMC models based on their speed ratings.
+- The listed assemblies fit crankshafts with different RPM specifications.
+- The compatibility of bearings and seals is specified for replacements.
+- Assembly items such as Hex. Head Screws and Washers are included to ensure proper fitting.
+
+### SECTION 105-R
+**VILTER MANUFACTURING CORPORATION**  
+**February**  
+**PAGE: VMC COMPRESSORS REPLACEMENT PARTS**  
+
+#### ITEM DESCRIPTION
+
+| NO. | REQ. PER COMPRESSOR SERIAL NO. | ITEM DESCRIPTION | TWO-STAGE | SINGLE STAGE | PART NO. OF CYL |
+|-----|------------------------------|------------------|------------|--------------|------------------|
+|     |                              | Rear Bearing Cover Assembly | KT092 |            |                  |
+|     |                              | Rear Bearing      | 31904A     |              |                  |
+|     |                              | Hex. Head Screw   | 13160D     |              |                  |
+|     |                              | Bearing Half, Right | 33508A   |              |                  |
+
+#### NOTES:
+- Do not disassemble the center tube; it is factory preset.
+- Ensure the correct assembly components match existing parts (refer to assembly item numbers).
+- Items are interchangeable based on specific configurations of the compressor models.
+
+### SECTION 105-R
+**VILTER MANUFACTURING CORPORATION**  
+**February**  
+**PAGE: VMC COMPRESSORS CYLINDER LINER AND CAPACITY CONTROL REPLACEMENT PARTS**  
+
+#### ITEM DESCRIPTION
+
+| NO. | REQ. PER COMPRESSOR SERIAL NO. | ITEM DESCRIPTION | TWO-STAGE | SINGLE STAGE | PART NO. OF CYL |
+|-----|------------------------------|------------------|------------|--------------|------------------|
+|     |                              | Cylinder Liner    | KT072      |              |                  |
+|     |                              | O Seal (Lower)    | 2176BL     |              |                  |
+|     |                              | Assembly (Hi-Suction) | A33351A |            |                  |
+
+#### NOTES:
+- Components are specified for high stage and two-stage compressors.
+- Ensure compatibility when replacing parts, as certain assemblies may interchange.
+- Actuation type will affect part selection; follow listed sequences for assembly.
+
+--- 
+
+This paraphrase maintains the technical integrity and specific details of the replacement parts while enhancing clarity and organization.
+
+**February VILTER MANUFACTURING CORPORATION  
+SECTION 105-R PAGE**  
+**March VMC COMPRESSORS - Cylinder Liner and Capacity Control Replacement Parts for RPM High Stage, Two-Stage, and RPM Booster Compressors**
+
+**COMPRESSOR SERIAL NO.**  
+- **ITEM DESCRIPTION**  
+- **NUMBER REQUIRED PER COMPRESSOR**  
+- **PART NUMBER**  
+- **CROSS REFERENCE FOR CYLINDERS**  
+- **ASSEMBLIES**  
+- **SEALS**  
+- **SUCTION COMPONENTS**  
+- **ACTUATED PARTS**  
+- **CAPACITY CONTROL MECHANISMS**  
+- **SPACERS**  
+- **NOTES:** Refer to specifications documented within this section.
+
+---
+
+**SECTION 105-R - Capacity Control Mechanism Assembly Replacement Parts**  
+- **PART ITEM DESCRIPTION**  
+- **QUANTITY REQUIRED PER COMPRESSOR**  
+- **ASSY COMPONENTS**  
+- **SCREWS AND SPACERS**  
+  
+---
+
+**February VILTER MANUFACTURING CORPORATION  
+SECTION 105-R PAGE**  
+**VMC COMPRESSORS - Piston and Connecting Rod Assembly and Safety Head Replacement Parts for RPM High Stage, Two-Stage, and RPM Booster Compressors**
+
+**COMPRESSOR SERIAL NO.**  
+- **ITEM DESCRIPTION**  
+- **NUMBER REQUIRED PER COMPRESSOR**  
+- **PART NUMBER**  
+- **CONNECTING ASSEMBLIES**  
+- **BEARINGS**  
+- **HEAD ASSEMBLY OPTIONS**  
+- **WASHERS AND SPACERS**  
+- **NOTES:** Ensure compatibility of specified parts to maintain optimal performance.
+
+---
+
+**COMPRESSORS MODERNIZATION OPTIONS**  
+- **Recommendations for Existing High RPM VMC Compressors**  
+   - Optional upgrades implemented are suggested for performance enhancement.  
+   - Reference office for detailed assembly and component lists as they pertain to specific models.
+
+**KITS AVAILABLE INCLUDE:**  
+- High RPM without Unloading  
+- High RPM with Unloading  
+- Specific models and refrigerant types are to be confirmed with the relevant part numbers.
+
+---
+
+**OLD STYLE COMPONENTS FOR RPM HIGH STAGE COMPRESSORS**  
+- Detailed itemization of requirements per compressor type as indicated through part numbers.
+
+---
+
+This paraphrased text retains the original's structure while clarifying specifics for technical comprehension. Please ensure all referenced models and components align with operational standards.
+
+### SECTION 105-R VILTER MANUFACTURING CORPORATION
+
+#### February PAGE
+
+#### VMC COMPRESSORS
+#### PISTON AND CONNECTING ROD REPLACEMENT PARTS FOR RPM HIGH STAGE
+
+| ITEM NO. | DESCRIPTION | REQUIRED PER COMPRESSOR | SERIAL NO. | PART NO. | FROM | THRU |
+|----------|-------------|-------------------------|------------|----------|------|------|
+| CI)      | and Assy    | KT116                   | 31989M     | 31989N   |      |      |
+|          | and Assy    | KT117                   |            |          |      |      |
+|          | Connecting Assembly with | KT212      | 31896B     | -24UNF  | 2027A| -24NF | 2028A |
+|          | Bearing Half, Connecting | KT512      |            |          |      |      |
+|          | Bearing Half, Connecting | KT513      |            |          |      |      |
+|          | Connecting and Seat Assembly Helical Amm&R22| A33588A |            |          |      |      |
+|          | Helical R12 | A33588B                 | Complete Assy (Amm) | KT035 |         |      |
+|          | Complete Assy (R12) | KT036         | Complete Assy (R22) | KT037 |      |      |
+|          | 31915A (Helical)| 33803A (Helical)    | 13556A and Assembly Helical | A33585A |      |      |
+|          | Head        | 31882A                  | 1330B      |          | A R22 | 33423A | R12  |
+
+**Notes:**
+- Designation: C.I. Iron RPM VMC configurations.
+- Crankshaft specifications: RPM VMC design variations and modifications indicated. Components should be cross-referenced against specific assembly requirements.
+
+---
+
+#### SECTION 105-R VILTER MANUFACTURING CORPORATION
+
+### February PAGE
+
+#### VMC COMPRESSORS
+#### PISTON AND CONNECTING ROD ASSEMBLY AND SAFETY HEAD REPLACEMENT PARTS FOR RPM HIGH STAGE AND RPM BOOSTER COMPRESSORS
+
+| ITEM NO. | DESCRIPTION | REQUIRED PER COMPRESSOR | SERIAL NO. | PART NO. |
+|----------|-------------|-------------------------|------------|----------|
+| CI)      | Assy | KT214 | 211A |          |
+|          | Assy | KT114 |             |          |
+|          | Assy | KT117 |             | A32567A |
+|          | Seat Assy Amm R22 | A33588A  |       |          |
+|          | Seat Assy R12 | A33588B   |             |          |
+|          | Assembly, | A33585A | 1330B | Amm R22 |
+|          | R12 | 33423A– | R12  | 33423A |
+
+---
+
+#### SECTION 105-R VILTER MANUFACTURING CORPORATION
+
+### February PAGE
+
+#### VMC COMPRESSORS
+#### CRANKSHAFT AND FRONT BEARING COVER REPLACEMENT PARTS
+
+| ITEM NO. | DESCRIPTION | REQUIRED PER COMPRESSOR | SERIAL NO. | PART NO. | FROM | THRU | NO. CYLS |
+|----------|-------------|-------------------------|------------|----------|------|------|-----------|
+|          | Rear Bearing Complete Assy RPM | A31905A | Iron A32612C | | | | |
+|          | Iron A32612D | Complete Assy RPM | A32612C |          |      |      |
+|          | Lockwasher, Bearing | 33365A | Lockwasher, Bearing | 35502A | | |
+|          | Bearing RPM | Iron | A30291A | Iron | A30304A | | |
+|          | RPM | Iron | A30291A | Iron | A30304A | | |
+
+**Notes:**
+- Ensure compatibility of Item with finite interchanges for acceptable performance.
+- Reference Item number for correct crankshaft and bearing specifications.
+
+---
+
+#### SECTION 105-R VILTER MANUFACTURING CORPORATION
+
+**February PAGE**
+
+### VMC COMPRESSORS
+#### HEAVY-DUTY V-BELT DRIVEN REPLACEMENT PARTS
+
+Heavy-Duty VMC specifications tailored for higher BHP requirements with improved construction and components. 
+
+**Repair Parts for 8-Cylinder and RPM Heavy-Duty VMC Compressors:**
+Repair components can be selected per the preceding repair parts pages, except:
+
+| ITEM NUMBER | PART NUMBER | DESCRIPTION | REQUIRED NUMBER |
+|-------------|-------------|-------------|------------------|
+| 211A        | A32566A     | Bearing and Assembly | through 211A |
+|             | A36241A     | Bearing Assembly | |
+|             | 33500A      | Rotary Seal Assembly | |
+|             | A33489A     | Seal |  |
+|             | 33496A      | Complete Assembly | with |
+
+**Notes:**
+- Heavy-Duty configurations offer varied options on components.
+- Check each part against specific assembly instructions.
+
+---
+
+#### SECTION 105-R VILTER MANUFACTURING CORPORATION
+
+**February PAGE**
+
+### VMC COMPRESSORS
+#### RECOMMENDED SPARE PARTS LIST
+
+**Quantity per compressor: Recommended for stock:**
+
+| ITEM         | PART NAME     | NUMBER |
+|--------------|---------------|--------|
+| Complete     | KT041         | -      |
+| Complete     | KT043         | -      |
+| Complete     | KT045         | -      |
+| Complete     | KT049         | -      |
+| Complete     | KT051         | -      |
+| Complete     | KT055         | -      |
+| Complete     | KT056         | -      |
+| Complete     | KT089         | -      |
+
+**Notes:**
+- Selection includes checks for optional features, per compressor type specified.
+- Selection specifically includes models using R12 or R22 refrigerants unless indicated otherwise.
+
+---
+
+#### SECTION 105-X VILTER MANUFACTURING CORPORATION
+
+**February PAGE**
+
+### VMC COMPRESSORS REPLACEMENT PARTS LIST
+
+**Table of Contents:**
+1. Replacement Parts Ordering Instructions
+2. Basic Frame Replacement Parts
+3. Crankshaft and Front Bearing Cover Replacement Parts
+4. Rear Bearing Cover Replacement Parts
+5. Cylinder Liner and Capacity Control Replacement Parts
+6. Piston and Connecting Rod Assembly and Safety Head Replacement Parts 
+
+Ordering information is detailed for ease of access and identification. Ensure compliance with provided instructions for smooth processing. 
+
+---
+
+**VILTER MANUFACTURING CORPORATION PRINTED IN U.S.A.**
+
+**SECTION 105-X VILTER MANUFACTURING CORPORATION**  
+**February**  
+**PAGE**  
+
+### VMC Compressors: Crankshaft and Front Bearing Cover Replacement Parts
+
+#### Quantity Required per Compressor
+
+| **Item Description**                      | **Number of Cylinders** | **Part Number**          |
+|-------------------------------------------|-------------------------|--------------------------|
+| Bearing Cover and Assembly                 |                         | A32566A                  |
+| Bearing (through)                         |                         | 17355A                   |
+| KT486 (through)                           |                         | 30651C                   |
+| Washer                                     |                         | 31048A                   |
+| Outside Diameter (O.D.)                   |                         | 31048D                   |
+| Inside Diameter (I.D.)                    |                         | 31048E                   |
+|                                           |                         | 31048C                   |
+|                                           |                         | 31048F                   |
+| Bearing Assembly (through)                 |                         | A36240A                  |
+| Bearing Assembly (item)                   |                         | A36241A                  |
+| Head (Type B)                             |                         | 13264B                   |
+| Head (Type C)                             |                         | 13264C                   |
+| Bearing Assembly (splash)                  |                         | 211B                     |
+| Screw                                      |                         | 2583A                    |
+| Bearing Head Screw                         |                         | 31890A                   |
+| Head Screw                                 |                         | 13159E                   |
+| Bearing (with)                            |                         | 31885A                   |
+| Head Screw                                 |                         | 13152E                   |
+| Head Screw                                 |                         | 13153Q                   |
+| Seal and Rotary Assembly                   |                         | A33483A                  |
+| Seal                                       |                         | 31897A                   |
+| Head Screw                                 |                         | 13153F                   |
+| Assembly (220A)                           |                         | A32564A                  |
+| Assembly                                   |                         | 35078A                   |
+| Crankshaft and Bearings Assembly           |                         | A34555HX                 |
+| Crankshaft Assembly                         |                         | A34555KX                 |
+| Crankshaft Assembly                         |                         | A34555LX                 |
+| Crankshaft Assembly                         |                         | A34555BX                 |
+| Compound Bearing (KT366)                  |                         | A34555BX                 |
+| Compound Bearing (KT368)                   |                         | 33144A                   |
+| Crankshaft and Compound                    |                         | KT370                    |
+|                                           |                         | KT371                    |
+|                                           |                         | KT372                    |
+|                                           |                         | KT373                    |
+| Rear Bearing                               |                         | 31904A                   |
+| Rear Bearing                               |                         | 231A                     |
+| Rear Bearing                               |                         | 231B                     |
+| Rear Bearing and Hex Head Screw           |                         | KT353                    |
+| Crankshaft                                 |                         | 1736G                    |
+| Crankshaft                                 |                         | 33403A                   |
+| Screw, Flywheel                            |                         | 31994B                   |
+| Screw, Washer                              |                         | 31956A                   |
+| Screw                                      |                         | 33495A                   |
+
+---
+
+**SECTION 105-X VILTER MANUFACTURING CORPORATION**  
+**February**  
+**PAGE**  
+
+### VMC Compressors: Rear Bearing Cover Replacement Parts
+
+#### Note: 
+Do not disassemble the center tube; the relief valve is factory preset.
+
+| **Item Description**                      | **Number of Cylinders** | **Part Number**          |
+|-------------------------------------------|-------------------------|--------------------------|
+| Rear Bearing Assembly                     |                         | KT092                    |
+| Rear Bearing Head                         |                         | 13163E                   |
+| Assembly (shown)                         |                         | 2868H                    |
+| Assembly                                   |                         | 33361A                   |
+| Assembly                                   |                         | 31899A                   |
+| Rear Bearing Seal                          |                         | 33320A                   |
+| Assembly when used in Cooler              |                         | 36190A                   |
+| Assembly when used in Cooler              |                         | 34760AB                  |
+| Complete Assembly (with)                  |                         | A35240A                  |
+| Assembly (with)                          |                         | 1448J 311A, 312         |
+| Assembly (without Shell)                  |                         | 1448T 315A               |
+| Seal                                       |                         | 1448H                   |
+| Seal                                       |                         | 1448K                   |
+| Seal                                       |                         | 1448L (with Bypass)     |
+| Plate Assembly                             |                         | 1448C                   |
+| Plate Assembly                             |                         | 1448M                   |
+| Plate                                      |                         | 1448N                   |
+| Seal (shown)                              |                         | 1448P                   |
+| Plate                                      |                         | 1448Q                   |
+| Head                                       |                         | 13264A                   |
+| Head                                       |                         | 1448B                   |
+| Shell (with)                              |                         | A34623A                  |
+| Head                                       |                         | 322A                     |
+| Head                                       |                         | 35125A                   |
+| Head                                       |                         | 322B                     |
+| Screw, Head                                |                         | 1689G                    |
+| Instruction/Nameplate with                |                         | A35241A                  |
+| Instruction/Nameplate with                |                         | A35240A                  |
+| PSI,                                       |                         | 31890A                   |
+| Connectors (various types)                |                         | AR                       |
+
+---
+
+**SECTION 105-X VILTER MANUFACTURING CORPORATION**  
+**February**  
+**PAGE**  
+
+### VMC Compressors: Cylinder Liner and Capacity Control Replacement Parts
+
+| **Item Description**                      | **Number of Cylinders** | **Part Number**          |
+|-------------------------------------------|-------------------------|--------------------------|
+| Assembly without                          |                         | KT475                    |
+| Assembly with                             |                         | KT476                    |
+| O Seal                                    |                         | 34510A                   |
+| Seal (various types)                     |                         | 2176BH                   |
+|                                            |                         | 1193Q                   |
+|                                            |                         | A33351A                  |
+|                                            |                         | 405A                     |
+|                                            |                         | 35380A                  |
+|                                            |                         | 405B                     |
+|                                            |                         | 1193SS                   |
+|                                            |                         | 33352A                   |
+|                                            |                         | 33350A                   |
+|                                            |                         | 1971A                    |
+| Suction Assembly                          |                         | 31909A                   |
+| Suction Assembly (PTFE seal only)        |                         | A35315BX                 |
+| Suction Assembly (PTFE seal only)        |                         | A35315CX                 |
+| Capacity Assembly                         |                         | A41788BX                 |
+| Arm Assembly                               |                         | 41725A                   |
+| Short Assembly                            |                         | 33250B                   |
+| Assembly                                   |                         | A33347A                  |
+
+---
+
+**Notes**: The information above reflects the recommended replacement parts for specific components of VMC Compressors and is to be taken as guidance for assembly and maintenance requirements.
+

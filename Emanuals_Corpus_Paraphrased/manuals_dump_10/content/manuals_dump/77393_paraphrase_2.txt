@@ -1,0 +1,157 @@
+### iCOM Tons: Precision Cooling for Critical Business Continuity
+
+**IMPORTANT SAFETY INSTRUCTIONS**  
+**SAVE THESE INSTRUCTIONS**
+
+#### INTRODUCTION to Self-Contained Chilled Water Systems
+
+This guide covers essential installation procedures applicable to all models, focusing on preparation, inspection, and location considerations for self-contained chilled water units. It includes specific guidelines for air-cooled and water-cooled models.
+
+### CONTENTS
+
+1. Preparation and Inspection
+2. Location Considerations
+3. Air-Cooled Unit Configuration
+4. Water/Glycol-Cooled Unit Configurations
+5. Testing Chilled Water Models
+6. Safety Warnings and Compliance
+
+### Air-Cooled Units
+
+This category includes various capacities, such as 3-ton and 5-ton models, detailing installation specifics, duct arrangements, and the refrigerants used (like R407C).
+
+### Safety Warnings
+
+Follow all safety precautions. These include warnings regarding potential electrical shock hazards, high-pressure risks, and the need for protective gear during installation. Ensure grounding complies with NEC and CEC standards.
+
+### Installation Guidelines
+
+- Ensure the unit is properly located and the area is clear for airflow. 
+- Inspect components and immediately report any issues to the manufacturer.
+- The location should allow for sufficient service clearance as indicated in the guidelines.
+
+### Unit Configuration
+
+- Each air-cooled unit includes essential components, such as a high-pressure switch and blower assembly.
+- Water-cooled units come with similar configurations and additional cooling components.
+
+### Considerations for Installation
+
+- Ensure the installation site permits optimal airflow.
+- Follow specified mounting heights and clearances.
+- Connect all water/glycol supply lines properly to avoid service disruptions.
+
+### Conclusion
+
+For effective and safe operation, it is essential to adhere to the outlined installation, location, and safety instructions accurately. Regular inspections and adherence to manufacturer guidelines will enhance the system’s performance and longevity.
+
+### Chilled Water Unit Specifications and Installation Procedures
+
+**Chilled Water Units**: Models BF/BU CWS CWR 068C (072C) and 102C (101C) are air-cooled with a downflow configuration. Compliance with water outlet locations and iCOM piping configurations is essential.
+
+**Field Pitch Requirements**: 
+- Units (BF042A/BF040A, BF067A/BF065A) are designed for optional water outlet configurations.
+- Units lacking factory-installed components must utilize field-supplied installations downstream. Ensure proper connection as specified below.
+
+**Suction and Piping Outlet Locations**:
+- For models (BF036E/BF035E, BF060E/BF059E), the same compliance applies as previously stated. Optional water outlet configurations can be used.
+
+**Upflow Models**: Similar conditions apply for upflow configurations (BU036E/BU035E, BU060E/BU059E), including optional field supply arrangements.
+
+**GLYCOOL Units**: Installed units are expected to comply with water supply configurations, with similar guidelines for outlet connections.
+
+**IOM Compliance**: Adhere to iCOM piping outlet locations for each specified model and ensure all connections are correctly installed to avoid performance issues.
+
+**Water Supply Considerations**: The facility must maintain proper chemistry and treatments for the water supply, incorporating necessary inspections and protection measures.
+
+**Electrical Requirements**: Ensure proper three-phase service and grounding. Miswiring may result in equipment failure or safety hazards. The iCOM system must be correctly connected to isolate power effectively.
+
+**Installation and Service Recommendations**: Maintain adequate clearance for servicing. Ensure all components are securely fastened and wired per installation manuals. Any field modifications should be thoroughly documented.
+
+**Operational Notices**: Follow guidelines for the positioning of air-cooled models. Ensure they are placed securely to minimize obstruction and facilitate access.
+
+**Additional Information**: Reference the installation instructions for specific configurations, ensuring the units operate correctly within designated performance parameters.
+
+Keep all safety measures in mind and ensure compliance with relevant electrical codes during installation and operation.
+
+The air-cooled LIEBERT LEE-TEMP condenser fan speed and variable frequency drive (VFD) condenser are depicted using typical footprint statistics for other air-cooled models, including single-fan air-cooled condensers. Details on mounting and service clearances are provided in the accompanying table.
+
+It is crucial that units undergo thorough testing and charging and are shipped from the factory with a holding charge. Be aware of the potential risks associated with high pressure, which could lead to injury or death. These guidelines ensure proper setup and operation of the equipment, including maintaining cleanliness during installation and ensuring all factory-supplied connections remain intact.
+
+When charging the unit with R407C refrigerant, follow specific procedures to maintain safe levels and prevent excessive pressure in the system. Use proper interconnecting hoses for charging and always check the readings after installation, allowing the system to stabilize for several hours.
+
+For charging operations involving the unit’s internal pressures, employ the charging function detailed in the iCOM documentation. The function regulates the system’s blower and compressor based on preset conditions. 
+
+In all charging procedures, ensure that sight glasses reflect clear visibility indicating proper levels. The process should be carefully monitored, particularly in systems operating under low-pressure conditions. Any adjustments or maintenance must adhere to safety standards, particularly concerning insulation and exposure to atmospheric elements.
+
+For water-cooled models, attention must be paid to the cleanliness of water supply and the isolation of the system to maintain optimal performance. The assembly retrofitting and adjustments also require precise torque specifications and operational checks after maintenance is performed. 
+
+It is important to note that careful attention to the guidelines provided will enhance the reliability and efficiency of both air-cooled and water-cooled self-contained models.
+
+**Paraphrased Text:**
+
+To reduce the pressure and temperature thresholds, if the operational parameters fall below specified levels, adjustments will be necessary. Both thresholds can be modified, which affects the iCOM service from PSI to the respective limits. Factory-set offsets are established for these thresholds, which allow units to operate effectively once the parameters reach a defined operating range. Ideally, the location for installation should prioritize security and accessibility, situated on the ground or a stable support structure. Ensure that it is unobstructed from heavy supply routes while maintaining compliance with sound regulations to mitigate noise and vibration issues.
+
+For Water-Cooled Self-Contained Models, the installation of the dry cooler should facilitate maintenance access. The site should allow for proper insulation to maintain efficient operation within specified temperature ranges. If applicable, provide protection against potential environmental hazards. Access for servicing—such as the disconnect switch—must be safe and adhere to NEC Class guidelines.
+
+Proper water chemistry is crucial, including using additives that inhibit scaling and corrosion. This affects the overall performance, ensuring the treated water/coolant maintains efficacy and continuously protects against deposits. Recommended inhibitors should be tested and comply with industry standards. After cleaning or servicing, it is essential to charge the systems correctly to guarantee operational integrity.
+
+Always read and follow product usage guidelines and safety Notices. Inhibit damage by managing chemical compositions appropriately, as poorly managed additives can decrease system efficiency. The dry cooler and related components, including pumps and hoses, must be maintained at their optimal conditions, addressing installation location and flow requirements. Utilize the provided tables for guidance on installation angles and connections for both field piping and factory piping, ensuring a successful operational setup. 
+
+Product integrity is paramount; any mishandling can lead to operational hazards. In all aspects, maintain conformity with detailed manufacturer instructions and maintain communication with service experts to ensure proper functionality and safety standards are upheld.
+
+### Chilled Water Models
+
+**Shutoff Considerations:** 
+Each chilled water model requires careful consideration for shutoff services and isolation from the supply. Insulation must comply with specific operational requirements. Features such as the Chilled Water Upflow (BU) Shutoff, Chilled Water Shutoff Hose, Flow Switch (optional), and Factory/Field Piping configurations should be incorporated appropriately.
+
+### Split System Models
+
+**Air-Cooled and Water/Glycol-Cooled Units:**
+For air-cooled units, they should be situated away from potential obstructions to ensure unobstructed airflow, while also considering security and accessibility. Ground-level installation is recommended, and the unit should be positioned at least a few inches above the surrounding ground to avoid water ingress. When mounting, ensure sound levels are acceptable in nearby areas, particularly if noise may become an issue.
+
+For water/glycol-cooled units, similar considerations about sound and mounting apply. 
+
+**Safety Warnings:** High voltage and high-pressure risks are present, and proper safety protocols must be followed to prevent electrical shock or fire hazards. Ensure that service switches are installed correctly to guarantee isolation of the unit from power during maintenance.
+
+### Installation Considerations
+
+**Electrical Connections:**
+Verify that all electrical connections meet NEC Class specifications. All connections should be spotless and utilizing the appropriate refrigerant types (R22, R407C). Proper installation and maintenance procedures must be followed to ensure efficient operation and prevent environmental contamination.
+
+**Ducting:**
+The ducting system must maintain a cleanliness standard and protect against debris, pests, or moisture. It should adequately direct airflow and minimize noise disturbances in operational areas. 
+
+### Dimensional Data 
+Key dimensions and clearance requirements must be adhered to for installation, especially when routing ductwork or securing the unit against high winds. Ensure to follow the specified clearance heights as shown in the dimensional tables for successful installation and operation.
+
+### Customer-Supplied Components
+Refer to provided guidelines for customer-supplied threaded components, ensuring they meet the necessary specifications for secure and functional connections. 
+
+### Summary
+Overall, follow the outlined specifications, safe practices, and installation integrity to ensure the effective operation and longevity of chilled water systems and their components.
+
+### Injection Suction Coupling Overview
+
+This document outlines the specifications and configurations for various cooling systems, including air-cooled, water-cooled, and glycol-cooled models. It highlights the components such as the SL-11900 Injection and Suction Couplings, and service access as well as the recommended high-pressure switch with head pressure and heater shutoff.
+
+### Piping and Service Considerations
+
+It's recommended to isolate the supply lines when servicing the units to ensure quality and maintainability. The units should include cleanable supply lines for both water-cooled and glycol-cooled configurations. Descriptions of the 3-ton and 5-ton water-cooled models (e.g., MC_44W, MC_43W, MC_69W, MC_68W) indicate that piping should conform to factory specifications. Optional factory piping and customer-supplied threaded connections (NPT) for water/glycol conveyance should follow the outlined dimensional data.
+
+### Electrical and Grounding Requirements
+
+Field-supplied connections include a 24V NEC Class supply for operation of high-pressure options and ground connection requirements. Notes on the installation and switch functionalities are specified along with references to model SL-11085 and SL-11087. Ensure all electrical fittings are compliant with NEC standards.
+
+### Refrigeration Specifications
+
+For refrigerant handling (R407C), provide details on suction line temperatures and subcooling ranges. The document notes relevant temperature thresholds and emphasizes the importance of maintaining optimal operating conditions.
+
+### Company Overview
+
+Emerson Network Power, a division of Emerson (NYSE: EMR), focuses on delivering business-critical continuity for health and information technology sectors, offering products and services for both AC and DC cooling systems. The company is dedicated to enhancing efficiency and reducing operational costs. All information must comply with their specifications, and any modifications should observe company policies.
+
+---
+
+For further assistance, refer to Emerson Network Power’s technical service at www.liebert.com or review their product offerings in multifaceted energy solutions.
+

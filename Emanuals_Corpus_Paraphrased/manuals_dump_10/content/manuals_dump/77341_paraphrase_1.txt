@@ -1,0 +1,85 @@
+### DUV1000 IP Overview
+
+**Table of Contents**  
+- Overview  
+- Acronyms  
+- Definitions  
+- Unpacking and Installation  
+- System Requirements  
+- Installation Process  
+- Getting Started  
+- Internet Phone Calls  
+  - Receiving Internet Calls  
+  - Making Internet Calls  
+  - Transferring Internet Calls  
+- PSTN Phone Calls  
+  - Making PSTN Calls  
+  - Receiving PSTN Calls  
+  - Transferring PSTN Calls  
+- DUV1000 Configuration  
+  - ISP Parameters  
+  - Calling Card Parameters  
+  - Review Configuration  
+  - Save and Exit  
+- Extended Menu  
+- Additional Features  
+  - Software Upgrading  
+  - Loading Factory Defaults  
+- Appendix A: Entering Alphanumeric and Special Characters  
+- Appendix B: Troubleshooting  
+- Appendix C: DUV1000 Product Specifications  
+
+---
+
+The DUV1000 is a dual-function device combining an Internet Protocol (IP) telephone with a Public Switched Telephone Network (PSTN) phone. It supports both Session Initiation Protocol (SIP) and H.323 standards, enabling cost-effective local and long-distance calls. The device can seamlessly switch between Internet and PSTN connectivity, and is compatible with a variety of Internet Service Providers (ISPs). The DUV1000 is designed for both fixed-line and dial-up PSTN phone services and comes equipped with software that manages outbound and inbound calls effectively.
+
+### Device Installation
+
+To get started, unpack the DUV1000 and ensure all components are present, including the IP phone, an RJ-11 phone cord, and the warranty information. If any items are missing or appear damaged, contact support for assistance. Connect the device to a power source and link it to the telephone line. Ensure proper audio tones indicate that the device is functioning.
+
+### Initial Setup
+
+Before installation, gather the necessary ISP and calling card information. Make sure to configure each parameter as specified for smooth operation. Follow the outlined steps to enter characters and information appropriately. If successfully connected, the device allows you to initiate and receive Internet and PSTN calls.
+
+### Calling Features
+
+The DUV1000 supports various calling modes, including dial-up and PSTN functionalities. To ensure effective communication, pay attention to the LED indicators, which provide real-time status updates. The device also features warning systems for connectivity issues, guiding the user through any troubleshooting processes.
+
+### Application and Utility
+
+The DUV1000 is designed for seamless integration into existing communication systems, allowing users to manage both Internet and PSTN calls from a single device. Comprehensive software tools offer flexibility in configuration and allow for easy troubleshooting. Additional resources, including the user manual, can assist in navigating advanced features and resolving issues.
+
+### Conclusion
+
+For optimal use of the DUV1000, adhere to the provided guidelines for installation and configuration. Maintain updated ISP information to facilitate ongoing service and compatibility. Should you require any further assistance, consult the troubleshooting appendix or contact technical support.
+
+### Calling Card Information for DUV1000
+
+This document outlines essential information regarding the DUV1000 telephone service, including the Calling Card ID, which is a unique user ID associated with the device. The ID consists of a specific number of characters that identify the user within the Telephone Service system.
+
+The DUV1000 also provides options for Internet Service Provider (ISP) configurations. Users can navigate using this information without needing to switch off the device. Furthermore, for added security, all relevant details are characterized to protect user identity.
+
+When installing software on the DUV1000, it can be sourced from its designated IP address or from DUV1000.cityonlines.com. An alphabetical list of supported countries alongside their respective codes is provided. If the selected country is incorrect, users are prompted to make an appropriate selection. The software adjusts accordingly based on the chosen country, ensuring compatibility with local tones.
+
+If the service is unsatisfactory, consult the Software section for assistance. The DUV1000 allows flexibility in terms of selecting software options, including integration with PSTN service providers.
+
+### Additional Software Features
+
+The DUV1000 supports remote software management, allowing updates via specific commands during operation. Users will observe changes through tone signals and LED indications during the update process. If a reversion to factory settings is required, this can also be executed easily.
+
+### Character Input Procedures
+
+To enter characters, follow the specific pressing sequence outlined in the guide. Each key corresponds to a group of characters, and the method requires users to hit keys a certain number of times to navigate to the desired character. Important keys, such as SHIFT and Backspace, allow for alterations as needed.
+
+### Troubleshooting Guidelines
+
+If issues arise with PSTN connectivity or dialing, troubleshooting steps are provided. Ensure the DUV1000 is properly connected to the phone line, and listen for applicable tones during operations. If problems persist, re-evaluate the connection to the ISP or consider switching to an alternate device. Specific scenarios are indicated to help users recognize the nature of the issue.
+
+### DUV1000 Product Specifications
+
+The DUV1000 operates on H.323 or SIP protocols (RFC2543) with V.34 compatibility, and features a power requirement of 9V AC within a 180-260V range, consuming 5W. It includes a reliable DAA interface and visual LED indicators to communicate device status.
+
+### Software Specifications
+
+The software supports various audio codecs, TCP/UDP protocols, and relevant communication standards. All configurations are subject to standard compliance to maintain performance and security. The device is designed to operate under specific environmental conditions, ensuring reliability in diverse settings.
+

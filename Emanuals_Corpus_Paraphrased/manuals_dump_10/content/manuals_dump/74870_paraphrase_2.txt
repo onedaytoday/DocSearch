@@ -1,0 +1,40 @@
+### Performance Data Overview
+
+**Operating Conditions:**
+- **No Load**  
+- **No Door Openings**  
+- **Mid-Point Control Settings**: 
+  - 65°F (18°C)
+  - 90°F (32°C)  
+
+**Specifications**:
+- **Defrost Cycle**: Performed every X hours, with specific configurations for the thermostat and heater.
+- **Electrical Ratings**: Amperage and cut-in/cut-out values specified in degrees Celsius (°C) and Fahrenheit (°F).
+- **Safety Note**: The information is intended for trained professionals only, as untrained individuals may risk electric shock when servicing units. Grounding wires must be properly secured and insulated.
+
+**Defrosting Conditions**:
+- Active during specified periods based on ambient temperature. The heater engages in the Fresh Food and Food compartments under specific conditions regulated by the thermostat.
+
+**Service Instructions**:
+- To turn on/off, press the designated switch for a few seconds. Access the ice and water components by removing the housing cover and turning screws as instructed. Ensure mounting screws are tightened and checked regularly.
+
+**Wiring and Connection Details**:
+- **Components Locations**:
+  - Light switches, auger motors, dispensation valves
+  - Color-coded wiring connections for components such as the compressor, thermostats, fan motors, and various heating elements.
+
+**Diagram Annotations**:
+- Each wire connection is labeled for clarity. Ensure diode orientation matches specified configurations for proper circuit function. 
+
+**Compressor and Control Module Connections**:
+- Detailed labeling for connection ports is provided, including power supply, control signals, and feedback lines, ensuring proper integration of components within the overall system architecture.
+
+**Important Note on Models**: 
+- Capacitor usage is specific to certain P.T.C. models. Ensure compatibility when servicing the units.
+
+### Additional Wiring Information
+- Each wire connection is marked by a symbol, indicating its purpose and corresponding component. Ensure that the wiring is maintained according to the schematic for optimal operation.
+
+**Final Safety Reminder**: 
+- Always follow manufacturer specifications when servicing equipment to avoid hazards and ensure reliable performance.
+

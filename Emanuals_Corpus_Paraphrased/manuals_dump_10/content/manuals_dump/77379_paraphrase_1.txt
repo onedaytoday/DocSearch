@@ -1,0 +1,162 @@
+### Operating Manual for SST Air Cleaners
+
+**Models: SST1000, SST1400, SST1600, SST2000**
+
+**Manufacturer: White-Rodgers of Emerson**  
+**Website: www.white-rodgers.com**  
+
+---
+
+#### Important Safety Guidelines for Installation and Operation
+
+1. **Disconnect Power:** Ensure that power is turned off before servicing the air cleaner to prevent electrocution hazards.
+  
+2. **Use Proper Tools:** Select the correct tools for installation and maintenance to avoid equipment damage and injury.
+
+3. **Installation Precautions:** Comply with all instructions to ensure safe operation and optimal performance. 
+
+4. **Environmental Considerations:** Ensure the installation environment is safe and adheres to safety standards to prevent serious injuries or fatalities.
+
+5. **Stay Informed:** Follow all recommendations for service and operation to maintain efficiency and reliability.
+
+---
+
+#### Contents Overview
+
+- **How the Air Cleaner Works:** The air cleaner utilizes electrostatic charge to capture airborne particles effectively, ensuring improved air quality.
+  
+- **Construction Details:** Describes the components and assembly of the air cleaner, including the collecting plates which trap and secure contaminants.
+
+- **Installation Guidelines:** Instructions on locating and installing the air filter, including necessary clearances for different models.
+
+- **Mounting Position Variants:** Recommended positions for optimal performance based on the type of furnace setup—such as lowboy and highboy configurations.
+
+---
+
+#### Specifications by Model
+
+- **SST1000:** Ensure heating/cooling systems are compatible.
+- **SST1400:** Verify dimensions and airflow settings.
+- **SST1600:** Check for clearance and installation requirements.
+- **SST2000:** Follow applicable guidelines for installation.
+
+---
+
+#### Installation Instructions
+
+1. **Filter Location:** Choose a location that provides adequate airflow and accessibility for maintenance.
+  
+2. **Airflow Direction:** The factory setting typically directs airflow from left to right; adjust accordingly based on your installation needs.
+
+3. **Clearance Requirements:** Maintain the specified clearances (inches) between the air cleaner and adjacent structures to ensure safe operation.
+
+4. **Model-Specific Guidelines:** Each model has unique instructions; consult the specific guidelines to ensure correct setup.
+
+---
+
+**Conclusion**: Follow these instructions diligently to ensure a safe and effective installation of your SST Air Cleaner. Regular maintenance and adherence to safety protocols will promote longevity and high performance of the device.
+
+### Installation Instructions
+
+**Removal of Old Filter**  
+Carefully remove the old filter and dispose of it.  
+
+**Cleaning the Blower Compartment**  
+Before proceeding, ensure that the blower and blower housing are cleaned. The Highboy typically requires that the unit is positioned upright with the inlet facing the appropriate direction. For optimal service access, make sure to release the latch and detach components as needed.
+
+**Duct Configuration**  
+If modifications are necessary, ensure that they align with the existing system. A duct must not exceed a four-inch height increase for effective airflow.
+
+---
+
+### Wiring Instructions
+
+**Safety Precautions**  
+Ensure that the wiring connections comply with local regulations and the specific requirements of this model to mitigate the risk of serious injury or death.
+
+**Wiring Connection**  
+Connect the required wires to the designated terminals. Ensure that the system ground is properly established. If using a grounding type cord for your outlets, confirm compatibility to avoid electrical hazards.
+
+---
+
+### Operation Guidelines
+
+**System Startup**  
+Once the unit is connected to the power supply, switch the ON-OFF control to "ON." Monitor the blower for any unusual arcing sounds, which could indicate operational issues. The operational light should activate accordingly. If it does not, investigate the cause.
+
+---
+
+### Maintenance and Cleaning
+
+**Safety Measures During Maintenance**  
+When servicing the cabinet and internal components, be aware of sharp edges to prevent injury. Regular inspection and cleaning should be conducted at least once a month, or every three months as needed.
+
+**Cleaning Procedure**  
+Turn off the power supply and unload both the collecting and pre-filters. Follow safety guidelines to remove contaminants effectively, allowing adequate time for drying.
+
+---
+
+### Replacing the Ionizing Wire
+
+**Replacement Instructions**  
+If required, replace the ionizing wire by following the suggested method for secure anchorage to prevent performance issues.
+
+---
+
+### Specifications
+
+- **Model Capacities**: SST1000, SST1400, SST1600, SST2000
+- **Voltage Ratings**: Each model operates on specific VAC and VDC ratings.
+
+---
+
+### Technical Repair Guide
+
+**Repair Services**  
+All servicing should be performed by authorized personnel familiar with high-voltage systems. This ensures safety and the integrity of the unit.  
+
+**Troubleshooting Advice**  
+Address any malfunctions promptly to ensure optimal airflow and efficiency. The guide includes troubleshooting steps for common issues related to the high-voltage components and airflow functions. 
+
+For any complex repairs or system adjustments, refer to factory specifications or professional service.
+
+**POWER SUPPLY CHECKOUT PROCEDURE**
+
+1. Ensure the switch is set to OFF and disconnect the flow switch cover. 
+2. Connect the flow switch to the three-pin connector (white to white-brown wire) as illustrated.
+3. Secure the lead wires from the switch, ensuring insulation is maintained and connected to the chassis.
+4. Switch the power ON, observe if the light indicator activates. 
+5. Measure the DC voltage; it should be present. If the light does not turn on and the voltage is low, check for any damaged insulators that may need replacement.
+6. For the Air Flow Monitor Test, apply AC voltage. Activate the switch and use a thermistor to verify flow. After blowing into the thermistor, check whether the AC voltage appears. If there is no voltage, revisit previous connections as outlined.
+
+**OZONE REDUCTION IN AIR CLEANERS**
+
+Ozone reduction cleaners typically maintain ozone levels within established limits, ensuring customer safety. This supply must align with the operational standards set for the [MODEL NAME].
+
+**ELECTRONIC AIR CLEANER RETROFIT KITS INSTALLATION**
+
+Install the components to effectively filter incoming air using the specified collecting arrangement. Ensure a proper grounding of the supply and follow assembly guidelines with washer placement as instructed.
+
+**WIRING INSTRUCTIONS**
+
+Refer to the provided wiring diagram and operational instructions for the connections, including their assignments.
+
+**PARTS LIST FOR ELECTRONIC AIR CLEANERS**
+
+Categorize the components based on:
+- Part Number
+- Item Description
+- Model Number
+- Name of Item
+
+**WASH REMINDER SCHEDULE**
+
+To maintain optimal performance, a monthly cleaning schedule is recommended. 
+
+**NOTICE TO CONSUMERS**
+
+Thank you for choosing White-Rodgers products. For warranty details or further information, please visit www.white-rodgers.com.
+
+Sincerely,
+White-Rodgers, a division of Emerson
+

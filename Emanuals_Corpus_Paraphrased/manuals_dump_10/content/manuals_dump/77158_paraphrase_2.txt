@@ -1,0 +1,101 @@
+**Touchcomputer LCD Series Overview**
+
+**Company Information:**  
+This document belongs to TE Connectivity Corporation, and the reproduction, transmission, or translation of any part of it without prior written permission from the Corporation is prohibited. The information herein is provided by TE Connectivity and its Affiliates (“TE”) but is not guaranteed for merchantability or fitness for a particular purpose. TE reserves the right to amend the publication without prior notice.
+
+**Acknowledgments**  
+This guide contains important instructions for setting up and operating the Touchcomputer. Key topics include unpacking, attaching the touchscreen, and installing various brackets.
+
+**Setup Instructions:**
+
+1. **Unpacking and Setup:**  
+   Refer to the sections on unpacking the Touchcomputer, along with relevant information about the touchscreen and base setup.
+
+2. **Operating System and Configuration:**  
+   For devices running XP or POSReady, follow specific on-screen prompts to configure the device. Caution is advised when handling the operating system settings.
+
+**Interfacing with the Device:**
+
+- Click on the appropriate options as they appear to navigate through settings.
+- Selecting language preferences and configuring system settings is essential for optimal performance.
+
+**Touchscreen Calibration:**  
+If the touchscreen requires recalibration, navigate to the appropriate settings menu. Follow the provided instructions to ensure proper functionality.
+
+**Mounting Options:**  
+Various mounting options for the Touchcomputer are available. Ensure to use the included ISO screws for secure attachment, and carefully choose the desired mounts to accommodate user requirements.
+
+**Display and Control Functions:**
+
+- **On-Screen Display (OSD):**  
+   Use the right and left buttons to navigate through settings like brightness and clock adjustments. Specific settings can enhance user experience based on customizable preferences.
+
+- **LED Indicators:**  
+   Understand the functionality of LED indicators, which provide information about power, input states, and device activity.
+
+**Input/Output Interfaces:**  
+Port configurations include USB, Ethernet, VGA, and additional connections for peripheral devices. Ensure correct connections to maximize device functionality.
+
+**Optional Peripherals:**  
+A range of optional peripherals is available for enhanced functionality, including magnetic stripe readers (MSRs) and fingerprint readers (FPRs). These can be integrated into the system for improved user interaction.
+
+By following these guidelines, users will effectively operate and optimize their Touchcomputer’s capabilities.
+
+### Testing Guidelines for the MSR 15D1 TOUCHCOMPUTER
+
+To ensure the functionality of the MSR (Magnetic Stripe Reader) USB interface (HID) on the 15D1 TOUCHCOMPUTER, perform the following steps:
+
+1. **USB MSR Testing**:
+   - Double-click the HID device in your system.
+   - If the device ID is displayed, it indicates proper operation. You can also connect to the touchcomputer to test its interaction with the software, accessible via [www.elotouch.com](http://www.elotouch.com). 
+
+2. **Character Display Testing**:
+   - Ensure that all supported international characters are displayed correctly on the VFD (Vacuum Fluorescent Display) with the specified brightness settings. The character dimensions are approximately 5.5mm (W) x 10.5mm (H).
+   - The system requires a typical power supply of 5.0VDC at 0.25A.
+
+3. **FPR Specifications**:
+   - To confirm the FPR (Fingerprint Reader) functionality, double-click to check its settings.
+   - Support for both 1-D and 2-D scanning is available through optional interfaces. Ensure both interfaces are compatible with the USB setup.
+
+4. **Operating System and Recovery**:
+   - For XP and POSReady users, follow the on-screen prompts to recover the device to factory settings using the recovery DVD.
+   - Recovery steps include accessing the recovery options during startup (pressing F11 for built-in recovery or F8 for advanced options).
+
+5. **Wiring and Maintenance**:
+   - Ensure the touchcomputer is grounded correctly to minimize shock. Use a 3-wire grounding cord connected to a grounded outlet.
+   - General precautions include avoiding exposure to unauthorized repairs, cleaning with appropriate materials, and being aware of potential hazards related to the backlight.
+
+6. **Reassigning COM Ports**:
+   - After recovery, it may be necessary to reassign USB ports. This can be done via the Computer Management settings to ensure devices are correctly recognized (e.g., setting USB (COM3) and USB (COM4)).
+
+### Technical Support Information
+
+For technical assistance, visit [www.elotouch.com/go/websupport](http://www.elotouch.com/go/websupport) for troubleshooting resources or contact support via [www.elotouch.com/go/contactsupport](http://www.elotouch.com/go/contactsupport). You can also find additional updates and information about the touchcomputer at [www.elotouch.com/go/news](http://www.elotouch.com/go/news).
+
+### Regulatory Information
+
+**I. Compliance Information**
+
+A) This device has been tested and complies with FCC Class requirements, offering reasonable protection against interference when installed and used according to the specified guidelines.  
+B) Note: This device should only be serviced by qualified personnel.  
+C) Ensure that this device is properly grounded and connected to the appropriate outlet to prevent severe injury or death from electric shock.
+
+**II. Notices**
+
+A) **U.S. Compliance Notice**: This equipment meets FCC Class requirements, which are designed to provide reasonable protection against radio frequency interference.  
+B) **Canadian Compliance Notice**: This device complies with Industry Canada’s Interference Regulations for Class B equipment.  
+C) **European Compliance Notice**: The device has been tested for compliance with relevant CE directives, including EMC Directive 89/336/EEC and Low Voltage Directive 73/23/EEC.  
+D) **User Information**: If this device causes interference, try to reduce it by relocating or adjusting the orientation of the affected receiver. 
+
+**III. Agency Information**
+
+Ensure the AC power source and I/O connections are properly terminated to prevent high RF interference and grounding issues. The following agencies have certified this product: FCC, TUV, CE, CB, GOST-R, C-Tick, VCCI, CCC, BSMI, KC, and COC.
+
+### Warranty Information
+
+ELO Touch warrants that this product is free from defects in material and workmanship for a specified period, which is outlined in the warranty terms. Any claims should be made within thirty days of discovering a defect and will be resolved through inspection of the product. The warranty covers the cost of repair or replacement as appropriate.
+
+These remedies represent the exclusive solutions available to the buyer for warranty breaches. Aside from the express warranty mentioned, no additional warranties, either stated or implied, are provided by the seller. Liability under the warranty is limited to refunding the product's purchase price, and the seller is not responsible for installation costs, procurement of substitute goods, or any indirect, consequential, or incidental damages.
+
+For further information regarding product specifications, updates, and support, please visit [www.elotouch.com](http://www.elotouch.com) or contact ELO Touch Solutions.
+

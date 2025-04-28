@@ -1,0 +1,87 @@
+### 2U POD Annual Operation and Availability Overview
+
+#### Table of Contents
+- Important Safety Instructions
+- Glossary of Symbols
+- Introduction and System Description
+- Rack Installation
+- Installation on GXT 2U UPS
+- Hardwire Connections
+- Considerations
+- Proper Grounding Instructions
+- Applying Required Power
+- Equipment Indicator
+- UPS Operation
+- Troubleshooting
+- Specifications
+- Product Warranty
+
+---
+
+### Important Safety Instructions
+
+**WARNING:** Avoid servicing this device unless you are qualified. Do not open the cover while the AC power is connected. Only service the 2U POD as indicated in this manual and refer to the UPS operation and safety guidelines. 
+
+Ensure connections and equipment ratings align with the operating specifications for both the 2U POD and the connected UPS. Focus on ensuring proper grounding and turn off the UPS before cleaning. Use only a dry cloth; do not use cleaners or heat sources near the POD.
+
+### Caution
+- Ensure that the POD matches the input of the UPS.
+- Both the UPS and the 2U POD must be properly grounded during operation.
+- Follow instructions meticulously to prevent safety hazards.
+
+### Installation Instructions for the GXT 2U UPS
+1. **Preparation:** Unpack the 2U POD and inspect for any shipping damage. Confirm compatibility with your UPS model.
+2. **Power Off:** Disconnect the UPS power before installation.
+3. **Mounting:** Use supplied screws to securely mount the 2U POD to the UPS. Properly tighten all screws to ensure stability.
+
+### Hardwire Connections
+- Ensure the UPS and 2U POD are wired according to specified ratings.
+- Route all cables to avoid pinching and maintain clearance around the POD.
+
+### Grounding Considerations
+Proper grounding is essential for the operation of the UPS and POD. Maintain the connection to protective earth to reduce potential risks.
+
+### Applying Required Power
+Turn on the main power to the POD followed by the UPS. Verify that the UPS lamp is illuminated before switching to the UPS position.
+
+### Equipment Indicator
+- The lamp indicates operational status; consult this when switching from utility to UPS mode.
+- A malfunction will prompt a change in operation status or alert indicators.
+
+### Operation 
+To activate UPS operation:
+1. Switch from Utility to UPS following the guidelines outlined.
+2. Ensure all connections are verified and secure.
+3. Continuously monitor the indicator lights for operational status.
+
+### Troubleshooting
+Refer to the troubleshooting section for potential issues when switching between UPS and Utility modes. Always ensure the UPS is powered down prior to making any connections or adjustments.
+
+---
+
+### Important Notes
+- This device operates with several power sources; disconnecting AC power is necessary for safety.
+- For use within controlled environments as specified in the user manual.
+
+### Conclusion
+The deployment of the 2U POD enhances the operational efficiency of your UPS by allowing seamless switching between utility and UPS backup power while ensuring safety and reliability of power distribution.
+
+**TROUBLESHOOTING THE 2U POD CONNECTED TO UTILITY UPS LOADS**
+
+For troubleshooting the 2U POD connected to the UPS, ensure it is properly linked to the utility branch, which may be shut down. Refer to the GXT 2U UPS and 2U POD installation instructions to verify connections. Note that the UPS must be operational and any connected equipment should remain within the POD's protective rating.
+
+**SPECIFICATIONS**  
+Operating temperature range: 32°F to 104°F (0°C to +40°C); storage temperature range: -4°F to 140°F (-20°C to +60°C). Adheres to standards set by UL1778 and ISTA Procedure 1A.
+
+**POD Specifications for Various Models**  
+- For MP2-115HW: 12A, 15A (12- and 14-AWG wire)  
+- For MP2-120HW: 16A, 20A (14- and 12-AWG wire)  
+- For MP2-130HW: 24A, 30A (12- and 10-AWG wire)  
+
+Ensure the UPS line cord is correctly connected to the POD input. To maintain warranty protection, refer to the "Product Warranty" section. For any queries, please contact our support team.
+
+**PRODUCT INFORMATION**  
+The 2U POD is designed for installations that provide protection from conditioning loads, ranging in capacity from VA as required. The product is committed to delivering comprehensive service and support while adhering to all necessary specifications. 
+
+For technical support and service details, visit www.liebert.com or contact our U.S. locations in Dearborn, MI, and Columbus, OH.
+

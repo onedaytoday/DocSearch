@@ -1,0 +1,14 @@
+The CPCs CO (Part Number CO) is designed to meet ASHRAE standards and enhance efficiency in various applications. It uses a microprocessor and facilitates long-term monitoring. For installation, select a mounting location that provides access to fresh air, ensuring it is at least 32112F (050C). When mounting, use the provided template and follow the instructions to secure it with screws and anchors. Note that it should be mounted vertically for optimal performance.
+
+The device operates using a three-terminal setup, connecting to the I/O board, and the onboard relay receives a 24VAC power supply from a 3VA or 10VA, 110VAC source. Proper wiring is essential, as it typically interfaces with I/O boards, such as 16AI or 8DO. Ensure the CO connects to both the common and signal terminals on the I/O board.
+
+The onboard relay can be configured for various inputs, adjusting to OPEN or CLOSED states based on CO readings. After installation, double-check the alignment of the relay and ensure all connections are secure.
+
+The front of the board contains a switch to select operational voltage (either V or VDC), which is necessary to interface correctly with CPC I/O boards. Adjust this switch as required for optimal performance, typically set in the DOWN position to facilitate operation. The LCD display indicates the current status, providing access to multiple functions via three buttons labeled ENTER, allowing users to navigate settings efficiently.
+
+For accurate CO readings, follow the provided instructions closely, ensuring the device is calibrated correctly. If necessary, press ENTER to finalize changes or to review the settings. 
+
+CAUTION: Do not operate the CO without following these guidelines, as improper usage may lead to inaccurate readings. The CO product comes with a warranty and is shipped with pre-programmed settings that should be checked regularly.
+
+For compatibility and service, consult Emerson TM documentation, as all names and trademarks mentioned are owned by their respective holders. The CO device operates on a 5VDC system, which should be connected to the I/O inputs for proper functionality. Ensure the settings are tailored to your specific application for optimal performance.
+

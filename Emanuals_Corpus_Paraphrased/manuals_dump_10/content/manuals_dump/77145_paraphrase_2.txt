@@ -1,0 +1,161 @@
+**Product Information and Copyright Notice:**
+
+JH 10T08 MMC inch, JH 15T05 MMC inch, JH 19T02 MMC inch, and JH 23T02 MMC inch AS, N-5578 Norway. Reference ID: INB100014-1 (includes updates -A1, -A2, -C1, -C2 MMC (ETX)). This information is protected by copyright and owned by the respective entities. It cannot be duplicated, reproduced, translated, or converted into machine-readable form without written consent. All referenced products are also covered by copyright.
+
+**Company Overview:**
+
+Founded by AS (JHD), this organization specializes in various types of IEC-tested computers. Their systems feature interfaces that comply with IEC60945 standards, seamlessly integrating with advanced displays and technologies. These state-of-the-art products are engineered for IP-rated applications, reducing reflection and enhancing performance—ideal for long-term use. Features include heat management solutions that utilize LCD-TFT and ETX-PC technologies, ensuring durability and effective serviceability.
+
+**Product Features:**
+
+As part of their offerings, the HATTELAND Computers range includes MMC2 and MMD2 displays, providing easy transitions between LCD and other display types. The High-specification MMD products are designed to meet rigorous testing standards from ABS, BV, ClassNK, DNV, GL, and LR, making them suitable for various applications, including ECDIS and ARPA systems.
+
+**TFT-LCD Technology:**
+
+The MMC Computers integrate TFT-LCD technology with advanced boards to deliver versatile solutions for both stand-alone and rack-mounted configurations, tailored to customer specifications regarding RAM, graphics cards, and factory-installed software. Compliance with IEC and IACS E10 standards ensures reliability in challenging environments.
+
+**Touchscreen Technology:**
+
+The touchscreen offerings include both resistive and capacitive options, utilizing technologies that respond to touch inputs for intuitive user interaction. These touchscreens are enhanced with protective coatings to improve durability and touch precision. Each type offers unique characteristics to suit various applications, including resistance to chemical cleaners and the ability to handle multiple touch points.
+
+**Mounting Instructions:**
+
+For optimal performance, products must be installed in locations minimizing obstructions and reflections. Specific guidance on cooling methods and installation height considerations are provided to enhance usability. Proper mounting techniques should be followed to avoid impairments in operation, particularly in areas exposed to external elements.
+
+**Installation Guidelines:**
+
+During installation, ensure that grounding is properly executed, and double-check connections for secure fittings. The use of appropriate connectors (RGB/DVI, RS232, Parallel, LAN, USB) is essential for seamless functionality. Following the specified spacing and alignment instructions is critical for successful setup and operation. 
+
+For further details and visual references, consult the chapter on mounting protocols and installation best practices, including interactive resources where applicable.
+
+The RGB/DVI setup should be optimized to ensure high-quality output, specifically with a UXGA resolution. This requires adequate testing of the components used in the Bracket mount for the MMC products; alternative options or serious modifications could void the warranty. For further details, please refer to the Technical section which includes specifics about the RenCol MicroPlastic washer and other mounting accessories associated with the MMC product line.
+
+The MMC ETX series includes several features, such as LED indicators for HDD activity, and USB connectivity. The HDD LED illuminates during write operations and turns off after a brief moment, while the brightness can be adjusted for optimal visibility, especially under strong lighting conditions. The suggested installation tools should be used carefully to avoid operational issues, and precautions should be taken during the software installation.
+
+The PCI slot configuration allows for various COM port integrations (COM1, COM2, COM3, etc.) and supports both RS232 and Ethernet connections. Users should ensure proper mounting of PCI cards to prevent warranty issues. The specifications also cover multiple input/output options, including IDE ports, USB connections, and CompactFlash support, with specific attention to operating conditions and hardware compatibility.
+
+The technical specifications of the MMC devices highlight key components such as the TFT display, chipset, graphics capabilities, and memory configurations. Multiple models are available, each with distinct features like power requirements, humidity tolerances, and various connection options (like RJ-45 for Ethernet). It's important to comply with the outlined specifications to ensure reliable performance and functionality.
+
+Finally, please note that all assembly and operational considerations, including component handling and thermal limits, are crucial for maintaining device integrity and performance. Refer to the respective product documentation for detailed guidelines on each model in the series.
+
+### Specifications Overview for JH 23T02 MMC
+
+**Display Technology:**
+- **Type:** 23-inch TFT (Thin Film Transistor)
+- **Feature Specification:**
+  - **Pitch (RGB)**: Typical horizontal and vertical measurements
+  - **Brightness Ratio:** Typical light-to-white ratio for viewing angles (up/down/left/right)
+  - **Color Performance:** Active color range specifications
+
+**System Specifications:**
+- **Operating System:** Specify during PCI clock setup
+- **Memory:** 1MB BUS, Chipset 82855GME, BIOS flash supports ACPI standards
+- **Connectivity:** 
+  - PCI short length, STD PCI, PC/104, ISA
+  - SODIMM memory with ECC, ranging from 256MB to 1GB
+  - Integrated graphics chipset (82855GME) operating at 250MHz
+- **Storage Interfaces:**
+  - IDE ports supporting DMA modes 33/66/100
+  - Maximum storage: 30GB IDE, RPM Compact CF II
+- **Peripheral Connections:** 
+  - Multiple RS232/RS422/RS485 isolated ports
+  - USB, USB keyboard/mouse, and PS/2 compatibility
+
+**Electrical Specifications:**
+- **Power Supply:** 
+  - Operating voltage: 230VAC for model JH 23T02 MMC A1, 75W and 100W power options
+- **Technical Specifications:** 
+  - AC97 in/out, mic compatibility, memory capacity up to 1GB
+
+**Environmental Considerations:**
+- Operating temperature limits: from -55°C to +55°C (25°C recommended)
+- Humidity resistance: IP66 rated for dust and water protection
+
+**Mechanical Considerations:**
+- Dimensions for mounting and connectors, including front power switch, brightness LED, and USB accessibility features.
+
+**Connectors Overview:**
+- **Ethernet:** RJ-45, PCI connectors, Compact CF, and multiple COM ports (DB9M)
+- **PS/2 Ports:** For keyboard and mouse connections
+- **Video Outputs:** Display connectors including RGB and composite video options
+
+**Common Connector Assignments:**
+- Detailed pin assignments for various connections, ensuring the correct integration with PC systems and peripherals.
+- Notable protocols included: USB assignments, FireWire configurations, and COM port details for seamless communication and control signaling.
+
+**Troubleshooting Common Issues:**
+- **Display Issues:** Identify LED behavior and VGA connectivity problems, ensuring all connections are secure.
+- **Picture Quality:** Address issues regarding centered display areas and size, confirming graphics system capabilities.
+- **Condensation Awareness:** Guidelines for preventing condensation in non-bonded products.
+- **CD-ROM Functionality:** Troubleshooting for CD/DVD read and detection failures.
+- **Warranty Claims & Service:** Instructions for product returns including handling and packaging preferences.
+
+**Declaration of Conformity:** 
+- JH MMD, JH MMC, and related products comply with EMC Directive standards across various classes for immunity and technical specifications.
+
+For warranty or service inquiries, contact JHD directly. Ensure that all products are shipped appropriately, minimizing damage during the process and maintaining product integrity.
+
+### Terms of Application
+
+The terms of application include Assembly, Logistics, and related services. 
+
+### Pricing
+
+All prices are stated excluding VAT. The rates and international rights are applicable as mentioned. Repacking and smaller packing rights may be subject to CECC inspection.
+
+### Validity
+
+If not explicitly stated, the offer is valid for the duration specified in the package quotation. Payment terms and conditions are only applicable if agreed upon in writing, including any purchase interests and charges.
+
+### Delivery Timing
+
+Delivery information is governed by the established terms. Any delays in delivery are the responsibility of the service provider and may affect the agreed delivery time.
+
+### Freight, Packing, and Forwarding Fees
+
+Freight charges apply and are set at NOK, with ordinary hours also charged. The forwarding fee for freight below NOK is applicable as specified.
+
+### Warranty and Complaint Procedures
+
+The warranty covers issues related to wear and tear, and claims must be made within a specified timeframe. Coverage applies unless there is direct encroachment, external treatment, or misuse of the devices involved.
+
+### Responsibility
+
+Responsibility aligns with current technical specifications, covering direct or indirect damages. 
+
+### Cancellations and Returns
+
+Returns can be processed within a specified timeframe post-confirmation of purchase. If not accepted, items may be shipped back at the customer’s expense.
+
+### Loan, Rent, and Demo
+
+If specified, the terms for returning borrowed items or those under demo agreements must be adhered to.
+
+### Limitations
+
+Limitations on use may exist, particularly concerning borrowed software, which cannot be exported without written approval.
+
+### Dispute Resolution
+
+Disputes related to product terms will reference specific documents for resolution.
+
+### Control Measures
+
+Documentation, including invoices and shipping lists, must be secured immediately to ensure proper handling of any complaints or issues.
+
+### Notes on Products
+
+Certain products are designed to meet EN60945 weather protection standards. Testing and specifications are outlined in detail for reference.
+
+### BIOS Information
+
+When replacing the BIOS or internal components, specific procedures must be followed to ensure correct functionality with connected displays. 
+
+### Revision History
+
+The document underwent various updates to reflect changes in product specifications, testing information, and office location details. 
+
+### Office Locations
+
+Head office is located in Norway, with additional offices in Germany and the USA.
+

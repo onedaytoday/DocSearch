@@ -1,0 +1,93 @@
+## USER MANUAL Touch 2401LM Touchmonitor SW200127
+
+### Copyright Notice
+No part of this publication may be reproduced, transmitted, transcribed, or translated in any form or by any means without the prior written permission of Touch Inc. The content herein is proprietary to Touch Inc. and its subsidiaries, collectively referred to as Touch Inc. Any warranty related to merchantability or fitness for a specific purpose regarding the information in this manual is expressly disclaimed.
+
+### Safety Warnings
+To prevent electrical shock, do not open the casing of the device. Avoid exposure to anesthetics and other flammable substances. Ensure that the device is connected to a power supply with protective earth to minimize shock risks. This Touchmonitor has been designed for specified performance levels and immunity standards. Subjecting it to conditions outside these specifications may result in impaired functionality.
+
+### Healthcare Application Notes
+The Touch 2401LM Touchmonitor is intended for medical applications and must be used in compliance with relevant standards such as IEC60601-1. Accessories used with this device should also conform to appropriate IEC harmonization standards.
+
+### Performance Specifications
+- **Operating Environment**: Continuous use in a temperature range of C to C (non-condensing).
+- **Ingress Protection**: IPX1 rating for water resistance.
+- **Electrical Safety**: Classified as a Class 1 (GROUNDED) device with no applied parts for direct patient use.
+- **EMC Compliance**: Meets requirements outlined in CISPR11, IEC61000 series, and other applicable standards for immunity.
+
+### Recommendations for Use
+When operating in environments with potential radio frequency interference (RFI), the positioning of the Touchmonitor should be considered to maintain optimal performance. Guidelines for separation from RFI sources and maximum distances from transmitting equipment are provided in this manual.
+
+### Unpacking Instructions
+Upon unpacking the Touchmonitor, verify that the following components are included:
+- Touchmonitor
+- Protective cover
+- TouchTools CD
+- DVI, VGA, and USB cables
+- AC-DC power supply
+
+### Connections
+Connect the DVI or VGA input to the respective ports on the Touchmonitor. Secure all cable connections and ensure they are routed properly to avoid strain on the ports.
+
+### Software Installation
+To install the Touchmonitor software, please insert the TouchTools CD. Follow the prompts for the operating systems supported, including Windows XP and WEPOS. For additional software or support, visit www.elotouch.com.
+
+### Final Notes
+Ensure that all setup guidelines and safety precautions are followed meticulously to maintain performance and safety standards. For further assistance, refer to the appropriate sections within this manual.
+
+### Mounting Information
+
+To mount the Touchmonitor, locate the top section of the monitor or use the Rear VESA Mount, which accommodates four M4 screws. A screwdriver is required for this installation. The VESA mounting standard is categorized as VESA MIS-D, C, according to Touch Inc.
+
+### Mounting Holes
+
+The VESA mounting interface contains threaded through-holes allowing for secure installation. For further mounting options, visit GCX at www.gcx.com, Ergotron at www.ergotron.com, or Innov Office Products at www.innov-office-prod.com, as well as MRI at www.mediarecovery.com.
+
+### Power and Functionality
+
+To turn the Touchmonitor on or off, simply press the power button. The LED indicator will reflect the device's status—green for on, orange for sleep, and off for no power. To conserve energy, it’s advisable to put the monitor into sleep mode when not in use.
+
+### Visual Display Adjustments
+
+The Touchmonitor offers various image adjustments via the On-Screen Display (OSD). Users can manage settings such as brightness, input source, and color temperature (options include 9300K, 6500K, 5500K, and 7500K). Control of sharpness and clock phase settings is accessible through the OSD as well.
+
+### User Interface Navigation
+
+To navigate through the OSD, use the designated buttons for increasing or decreasing values and selecting items. After a period of inactivity, the OSD will close automatically. The display also supports multiple languages, including English, Spanish, Swedish, and Simplified Chinese.
+
+### Troubleshooting and Technical Support
+
+For technical assistance, ensure that the monitor is properly connected to a power source. If issues arise, such as the disappearing display, press the touchscreen to reactivate it. Technical support can be found at www.elotouch.com/products or by contacting customer service.
+
+### Safety and Maintenance Instructions
+
+To avoid electrical shock, adhere to safety instructions while handling the Touchmonitor. Ensure that it is connected to a properly grounded outlet. Regular cleaning should be done with a soft cloth; avoid using abrasive materials or harsh chemicals.
+
+### Compliance Information
+
+This Touchmonitor complies with various safety and electromagnetic compatibility regulations in the United States and the European Union, such as FCC Class and CE directives. Users are advised to operate within specified guidelines to minimize interference.
+
+### Environmental Considerations
+
+According to the WEEE Directive, the Touchmonitor should be disposed of at appropriate recycling facilities. It is designed to meet environmental regulations regarding hazardous substances, ensuring compliance with RoHS and other relevant directives.
+
+### Specifications
+
+- **Power Requirements**: 100-240VAC, 12VDC, 3A 
+- **Operating Conditions**: 0°C to 35°C, Humidity: 20%-80% (non-condensing)
+- **Storage Conditions**: -20°C to 50°C, Humidity: 10%-90% (non-condensing)
+
+For further details or configurations, refer to the respective sections within the manual.
+
+### Chapter: Warranty Information
+
+This chapter outlines the warranty terms for the Touchmonitors, which cover a period of three years. The warranty ensures that the product is free from defects in material and workmanship. 
+
+If any issues arise, the warranty must be invoked in writing within thirty days of discovering the defect. The warranty allows for inspection of the product, and any functional issues must be reported promptly. Should the product be found defective, options for resolution may include repair, replacement, or credit toward the purchase.
+
+This warranty does not extend to any other warranties or implied guarantees regarding merchantability or fitness for a particular purpose. 
+
+In the event of a claim, all related costs—including reasonable attorney fees—associated with disputes regarding warranties are the responsibility of the claimant. The warranty terms are not transferable, and any claims outside the warranty's scope will not be honored. 
+
+For assistance or further details regarding warranty claims, contact Touch Inc. at the provided address.
+

@@ -1,0 +1,113 @@
+**Touchcomputer LCD Guide**
+
+**Copyright Notice:**
+This document is reproduced for reference purposes only. Unauthorized duplication, transmission, transcription, or translation of any part is strictly prohibited without prior written consent from Touch Inc. The information provided is offered "as is" without warranties, including but not limited to implied warranties of merchantability or fitness for a specific purpose. Touch Inc. reserves the right to make revisions to this publication, and references to companies or products are for informational purposes only.
+
+**Table of Contents:**
+- Chapter 1: Unpacking the Touchcomputer
+- Chapter 2: Operation
+- Chapter 3: On-Screen Display (OSD) and L.E.D. Functionality
+- Chapter 4: Optional Peripherals
+- Chapter 5: POS Software and Recovery
+- Chapter 6: Technical Support
+- Chapter 7: Warranty Information
+
+### Chapter 1: Unpacking the Touchcomputer
+
+This chapter details the components included with your Touchcomputer. Ensure you have all items, including the touch screen and base plate.
+
+**Installation Note:**
+When setting up the Touchcomputer, follow the manufacturer’s guidelines closely. To integrate with Microsoft operating systems (XP and POSReady), specific steps must be followed, including selecting options based on your location.
+
+### Chapter 2: Operation
+
+**On-Screen Display (OSD) Overview:**
+To access the OSD, use the directional buttons to navigate and select options. Adjust settings such as brightness and clock phase from this menu.
+
+### Chapter 3: L.E.D. Functionality
+
+The L.E.D. indicators provide status updates for your Touchcomputer. Familiarize yourself with their meanings, such as power state and input mode.
+
+### Chapter 4: Optional Peripherals
+
+This chapter discusses available peripheral options, including:
+- MSR (Magnetic Stripe Reader)
+- Customer Display units
+- VGA Cards
+- RAID Cards
+
+Installation instructions for these optional components can be found in the accompanying directory or on the manufacturer's website.
+
+### Chapter 5: POS Software and Recovery
+
+Instructions for software recovery and reassignment of COM ports are provided. Follow all steps to ensure proper configuration of your Touchcomputer.
+
+### Chapter 6: Technical Support
+
+For assistance, refer to the technical support section, which includes contact information and troubleshooting tips.
+
+### Chapter 7: Warranty Information
+
+This section outlines warranty coverage and the process for service and support.
+
+Ensure you adhere to all installation and operation guidelines to maximize the performance and longevity of your Touchcomputer.
+
+**FPR Testing of the B-Series Touchcomputer**
+
+To initiate testing on the B-Series Touchcomputer, you will need to access the four mounting points located at the top and right sides. The necessary software can be found in the following directory: C:\EloTouchSystems\Peripherals or at www.elotouch.com. The system operates via USB and boasts high reliability through its optical touch technology.
+
+### Specifications
+- Power Supply: 5.0VDC, 0.25A (typical)
+- Operating Temperature: 0°C to 40°C
+- ESD Protection: 4000V
+
+The VGA Card setup (E318237) supports connections to other VGA devices and can be found in the same software directory mentioned above. If testing wireless capabilities, use the E017487 wireless option under the touchcomputer's I/O cover. The wireless functionality adheres to IEEE standards, and configurations can be accessed by double-clicking on the Wireless Network settings.
+
+### Card Expansion and RAID Functionality
+The B-Series includes mounting options for various cards, including RAID functionality (E109611). This card option can enhance performance and mechanics (E561164) if purchased separately. The software for the RAID Card can be accessed at C:\EloTouchSystems\Peripherals E383216, along with POS software located at C:\EloTouchSystems\Demos. 
+
+### Maintenance and Safety
+To minimize shock and ensure safe operation, always turn off the touchcomputer before cleaning. Use a grounded cord for the cleaning process, ensuring it's connected to an appropriate outlet. Avoid any unauthorized modifications that could void the warranty.
+
+### Recovery Process
+To restore the touchcomputer to factory settings, follow these steps:
+
+1. Use the recovery DVD or retrieve the system through the built-in recovery HDD for devices equipped with POSReady or XP. 
+2. Access the recovery interface by pressing F8 repeatedly. Select OS Recovery.
+3. Follow on-screen prompts to proceed with recovery.
+
+If recovery is unsuccessful, you may need to manually reassign USB ports post-recovery, ensuring proper functionality.
+
+### Technical Support
+For further technical assistance, please refer to the following options:
+
+- Access the Information button in the software.
+- Visit www.elotouch.com/go/websupport or www.elotouch.com/go/contactsupport for support options.
+
+Ensure you follow the appropriate instructions for troubleshooting and maintenance to keep your touchcomputer in optimal condition.
+
+### Regulatory Information
+
+**I. General Information on Immunity**
+
+**A)** This device has been tested and is compliant with Class B standards set by the FCC. It offers reasonable protection against interference in residential installations, provided guidelines and instructions are followed.  
+**B)** This equipment complies with the applicable Class B standards established under the Industry Canada Interference Regulations.  
+**C)** Notice for the European Union: This equipment, including the associated cords and cabling, adheres to the required standards and directives such as the EMC Directive 89/336/EEC and Low Voltage Directive 73/23/EEC.  
+**D)** Information for Users: While this device meets necessary immunity standards, external factors may still contribute to interference. If interference occurs, users may need to adjust the position of their equipment or turn off other devices that could be causing the issue.
+
+---
+
+### Agency Information
+
+**B-S Series Touchcomputer**: The device should be connected to an AC outlet with proper grounding to minimize any risk of RF interference or electrical shock. Certifications include FCC, TUV, CE, CB, GOST-R, C-Tick, VCCI, and CCC.
+
+---
+
+### Warranty
+
+The **B-S Series Touchcomputer** is warranted against defects in materials and workmanship for a specified period. In the event of a warranty claim, the customer must report the defect within thirty days of discovery. The warranty covers inspection and repairs and allows for refunds or replacements at the seller's discretion. 
+
+**Limitations**: These remedies represent the buyer's sole recourse for warranty breaches. Except for the explicit warranty provided, no other implied warranties are offered. Seller liability is limited to a refund of the product purchase price, excluding costs related to procurement, installation, or any consequential damages.
+
+For more information on products, specifications, and updates, visit **www.elotouch.com**. Contact ELO Touch in North America at **ELO-TOUCH, CA, USA**.
+

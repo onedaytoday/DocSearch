@@ -1,0 +1,62 @@
+### MCE Overview
+
+#### Copyright and Warranty Information
+
+The author of MCE (NM20600A-A) provides a warranty covering the software. This information is protected by copyright and relates exclusively to the Brain Research Unit at the University Laboratory. The software includes proprietary materials from DBI MPEG and the University of California.
+
+#### Getting Started with MCE
+
+Begin by selecting the MEG data and loading the head model necessary for generating predictions of MEG waveforms. You will also have the option to create HTML and MPEG outputs. The platform allows for adjustments regarding typography and computational efficiency, including BEM (Boundary Element Method) and ROI (Region of Interest) selections.
+
+#### MCE User Instructions
+
+This document serves to guide users through the MCE application, primarily focused on L1 MNE (Minimum Norm Estimate) MEG processing. Important warnings are provided about the infinite nature of MEG data and the necessity for adherence to version specifications outlined in the Release Notes. Be mindful that various settings affect head coordinate displays and user experience.
+
+#### Selecting MEG Parameters
+
+To initiate the analysis, choose the desired MEG file. Adjust low-pass and high-pass filters to refine the data quality. The application includes buttons to facilitate these selections, and users should make use of the typical settings available.
+
+#### Computing Parameters
+
+When adjusting computing parameters, consider the effects of low-pass filtering, which can smooth data. The down-sampling ratio can also impact data quality, so select reasonable levels to preserve significant features without compromising the integrity of the waveforms.
+
+#### BEM and Head Coordinate Selection
+
+Make selections for the head model and BEM, which define the physical boundaries of the brain for computational purposes. Ensure that the BEM selection reflects the necessary accuracy required for MEG analysis.
+
+#### Exporting and Managing ROIs
+
+Users can define ROIs based on active data. Adjust the settings to ensure accurate representation of these areas and facilitate the export process to maintain necessary identifiers for future use. SQL commands may be employed for more specific searches within the imported data.
+
+#### Conclusion
+
+This guide serves to assist users in navigating the MCE software for effective MEG data analysis. Be diligent with selections and adjustments to maximize the potential of the application in processing brain activity data, paying close attention to the effects of various parameters on your final outcomes.
+
+## Prediction of MEG Waveforms with MCE NM20600A-A
+
+### Prediction Overview
+The MEG waveforms predicted by the MCE NM20600A-A are displayed in yellow, with the expected activity from the selected Region of Interest (ROI) depicted alongside the measured data. The predicted waveforms are updated based on the activity from the chosen ROI.
+
+### Display Options
+You can utilize UNIX commands to display the predicted waveforms or print them. Use the [Print] command to select the type of output desired. Options include saving in JPEG format or exporting to other formats like EPS and GIF. You can create an HTML document that incorporates these waveforms, which can be viewed in standard web browsers.
+
+### HTML and MPEG Creation
+The MCE NM20600A-A allows for the creation of HTML and MPEG files. You can generate HTML that includes graphical elements, and this content will be compatible with typical browsers like Internet Explorer and Microsoft Edge. The MPEG files should be configured for optimal animation smoothness, and the duration can be adjusted accordingly.
+
+### Workflow Management
+The interface provides a clear view of currently loaded batches and their statuses. You can manage the background tasks, setting priorities for the selected processes while ensuring others remain free. There is support for tracking selected activities and managing batch processing through intuitive commands.
+
+### ROI Interaction
+The software allows for detailed interaction with the selected ROI. You can view the activity of the chosen area, adjust visibility settings, and see updates while holding the respective buttons. Specifically, you can toggle between different visualization options, including colors and orientations.
+
+### Search and Management of ROIs
+A dedicated interface facilitates the search for ROIs, allowing for user-defined queries and retrieval of matching properties. Once identified, you can manipulate or view these ROIs according to specific criteria.
+
+### Table Configuration and Settings
+The ROI configuration table allows you to manage various properties, such as coordinates and visibility. The interface supports smooth adjustments, and you have the option to apply selective settings and functions like SQL queries for better management of ROI data.
+
+### Final HTML Creation and Customization
+When generating HTML outputs, you can select formatting options including color schemes and layout sizes. The resulting HTML files can either be saved in standard formats specified by the user or customized according to predefined settings.
+
+By effectively utilizing the features outlined, users can streamline their analysis and representation of MEG data, enhancing both understanding and presentation quality.
+

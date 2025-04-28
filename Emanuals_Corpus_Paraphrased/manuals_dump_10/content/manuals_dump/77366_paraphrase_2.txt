@@ -1,0 +1,134 @@
+**EMC Corporation South MA Corporate Headquarters: 424-EMC2 Service: SVC-4EMC EMC FC4700 Configuration Planning Guide P/N 014003016-A03**
+
+Copyright © EMC Corporation. All rights reserved. Information within this publication is current as of the date printed. EMC Corporation provides this information "as is" without any representations or warranties, including implied warranties of merchantability or fitness for a particular purpose. Duplication of this publication or EMC software, including Navisphere, MOSAIC:2000, The EMC Effect, EDM, SDMS, SRDF, PowerPath, and EMC Universal Access, is subject to EMC Corporation’s copyright and other ownership rights.
+
+This document provides essential background information and guidance for the EMC FC4700, detailing its features and operating procedures. Users are advised to familiarize themselves with the installation process and operational requirements outlined within this guide.
+
+**Chapter Overview**
+
+This guide includes an introduction to the FC4700 and details on installation procedures, explaining various connection methods and configurations, including switched and shared architectures. The FC4700 features high capacity and performance, accommodating both SCSI and IP types with robust I/O capabilities.
+
+**Network Configurations**
+
+The documentation provides insights into the FC4700's network setup, detailing the use of switches and the associated technologies for both switched and shared SAN (Storage Area Network) environments, and emphasizes best practices for installation and maintenance.
+
+**Switching Technology**
+
+The text outlines the types of switches that can be integrated within the FC4700 framework, with a focus on optimizing performance through proper configurations. It describes hardware compatibility, installation topology, and the significance of using appropriate host bus adapters (HBAs) to enhance overall system efficiency.
+
+**RAID Information**
+
+Additionally, the guide elaborates on RAID configurations and their performance implications, explaining trade-offs associated with different RAID levels. Users will find detailed discussions on how to optimize I/O performance and system reliability through effective RAID usage.
+
+For further assistance regarding the FC4700 configurations or to engage with technical support, contact the EMC technical office.
+
+### RAID and Tradeoffs Overview
+
+This section discusses various RAID configurations and their associated trade-offs with the EMC FC4700. Users can select from different RAID types, such as RAID 0, RAID 1, RAID 5, RAID 6, and RAID 10, among others, to optimize performance and reliability for user applications.
+
+In a RAID setup, data is distributed across multiple drives, requiring an understanding of both read and write processes. The operating system interacts with the Storage Processor (SP), which handles data management and performance. The following illustrates the data flow within RAID, demonstrating the sequential operation from the first through subsequent drives and back.
+
+### Performance Characteristics
+
+Parity RAID configurations offer a balance between performance and redundancy. The read and write speeds can significantly vary based on the specific RAID type used. Notably, RAID 5 provides benefits in I/O operations by spreading data and parity across drives, which can improve throughput. Each RAID configuration consists of distinct components and mechanisms to maximize performance under heavy workloads.
+
+### Mirrored RAID Functionality
+
+Mirrored RAID, designed for redundancy, captures data redundantly across multiple drives, ensuring continuous availability. This setup is fundamentally managed through software, facilitating commands that drive the physical operations of data storage. Data writes occur in tandem, enhancing both reliability and performance.
+
+### High Availability and Flexibility
+
+High availability is a critical feature of RAID configurations, particularly with systems requiring constant access. The EMC FC4700 supports various configurations, which allows for adaptability depending on performance requirements. However, constraints may arise with high I/O operations, especially in environments demanding consistency and fast transaction processing.
+
+### I/O and Write Performance
+
+The efficiency of I/O operations and write performance is influenced by the RAID type. In high-demand scenarios, such as transaction processing or database management, certain RAID configurations may outperform others, particularly those designed for high throughput.
+
+### Applications of RAID
+
+This section highlights practical applications of RAID across various sectors. The performance characteristics of different RAID types can significantly impact operations in situations like flight reservations or point-of-sale systems, where rapid data access is crucial. Each application typically requires strategic configuration to balance redundancy with performance, maintaining efficiency during peak transaction periods. 
+
+### Summary
+
+In conclusion, selecting the appropriate RAID configuration involves balancing performance characteristics and redundancy needs. Understanding the intricacies of each configuration is essential for optimizing storage solutions in diverse applications, ensuring both speed and reliability over time.
+
+### RAID and Tradeoffs: What Comes Next?
+
+This chapter discusses RAID configurations and their associated tradeoffs, particularly in relation to the EMC FC4700 system. It focuses on high-performance RAID setups versus traditional RAID levels, assessing the efficiency of different RAID group arrangements for tasks that require rapid data access. The chapter evaluates the performance aspects of various RAID configurations, highlighting scenarios where minimal intervention is necessary to maintain high throughput.
+
+### Understanding EMC Software and Remote Mirroring
+
+This section covers the EMC software tailored for the FC4700, detailing functionalities such as Remote Mirroring. This software allows replication of Logical Unit Numbers (LUNs) for disaster recovery purposes. It supports multiple recovery scenarios, both in stand-alone and networked setups.
+
+### Remote Mirroring Functionality
+
+The Remote Mirroring feature enables the EMC FC4700 to perform efficient data recovery with minimal overhead. It provides organizations with the ability to mirror LUNs and optimize write performance during backup operations. This is beneficial for server-based recovery, streamlining input/output operations without overwhelming the CPU. 
+
+### EMC LUN Copy Software
+
+The EMC LUN Copy Software facilitates active LUN management, allowing users to execute I/O operations while ensuring that secondary replicas are geographically distributed. This setup enhances recovery capabilities by permitting timely reversion to previous states in case of failures, while maintaining minimal operational disruption.
+
+### Handling Catastrophic and Non-Catastrophic Failures
+
+This part examines how EMC software manages both catastrophic and non-catastrophic failures, detailing the protocols for switching from secondary to primary systems. It emphasizes the need for effective write propagation to prevent data loss during recovery transitions.
+
+### Data Path Management
+
+The EMC FC4700 employs multiple data paths to enhance redundancy and reliability. Each Storage Processor (SP) manages data writes to ensure that they are acknowledged correctly, thereby maintaining data integrity. This system also provides guidance for managing active and standby LUNs efficiently.
+
+### Snapshot Copy Software Overview
+
+The Snapshot Copy Software within the EMC FC4700 allows users to create point-in-time copies of their LUNs. This feature is particularly useful for testing and backup purposes, enabling the capture of data states without significant downtime. 
+
+### Snapshot Operations
+
+The snapshot mechanism allows users to perform ongoing operations while preserving data coherence. It minimizes overhead by managing I/O in a manner that ensures optimal performance during both active usage and testing phases.
+
+### EMC Snapshot Worksheet Information
+
+A comprehensive worksheet outlines the necessary details for managing snapshots, including LUN IDs, cache information, and RAID configurations associated with each snapshot. This documentation aids in organizing and streamlining snapshot operations.
+
+### Shared and Unshared Paths in EMC FC4700
+
+This chapter concludes by examining the installation paths for shared and unshared configurations of the EMC FC4700, detailing connections and applications for effective data management. The discussion emphasizes the versatility of the system in supporting diverse operational environments with different access requirements.
+
+The EMC FC4700 system includes a variety of configurations such as Shared Switched and Unbound setups, with notable specifications and RAID configurations. The system outlines various IDs for clustered disk storage, specifically detailing RAID types like RAID1, RAID5, and how logical unit numbers (LUNs) are bound to users. Four units are assigned as RAID configurations, including DS R5 and DS R1 setups.
+
+The document also emphasizes the significance of proper documentation for LUNs, applications, and the associated RAID types. It provides guidance on creating an Application and LUN Worksheet that specifies each LUN, its ID, and RAID type. This enables efficient management and identification of storage resources.
+
+Overall, an organized approach is needed for documenting LUN IDs, RAID types, and system configurations, ensuring optimal performance and application compatibility. Each subsystem, whether shared or dedicated, must be clearly outlined in accordance with operational requirements.
+
+### RAID Overview
+
+This document details the organization of RAID configurations within the SP memory, specifically discussing RAID Groups and LUNs (Logical Unit Numbers). Each LUN is assigned a unique ID upon its creation, which is linked to the first LUN in its RAID Group. The connection between the LUNs and the host bus is pivotal, often allowing the user to specify which Storage Processor (SP), either SP A or SP B, will manage the LUN. When designing this setup, consider the balance of workloads across SPs to enhance efficiency. 
+
+Each LUN will inherit the RAID Level and storage capacity from its RAID Group. For instance, RAID 5 and RAID 3 configurations, as well as RAID 1, can be directly assigned different capacities, exemplified by configurations of 72 GB, among others. Caching strategies can be implemented to optimize read and write operations, where write operations typically achieve better performance.
+
+### Caching Strategies
+
+The document emphasizes the role of caching in improving performance during read and write operations. By using write cache, information is stored temporarily before being written to disk, allowing the system to complete write operations more efficiently. However, attention must be paid to the size of the write cache to avoid performance degradation.
+
+### System Configuration
+
+Various system configurations are discussed, detailing shared and unshared paths, their operational characteristics, and the applicability for different types of workloads. It also highlights the necessary hardware components within the FC4700 architecture, such as SPs, switches, and the DPE (Disk Processor Enclosure), with considerations for rackmount housing.
+
+### Operational Considerations
+
+The guidelines include specifications regarding physical setup, environmental requirements, and dimensions for the FC4700 DPE, ensuring compliance with cooling and power supply standards. 
+
+### Cabling and Connection Templates
+
+A variety of templates are provided for cabling configurations to connect the DPE to external switches and other components, detailing lengths and types of connections. The documentation concludes with worksheets to assist in planning and documenting the configuration of the system. 
+
+This overview serves as a guide for system administrators and engineers to configure and optimize their EMC FC4700 RAID systems effectively using the provided frameworks and best practices.
+
+Introducing Navisphere Software for the EMC FC4700, which includes both the software and caching capabilities. It facilitates the transfer of data between Storage Processors (SPs) and features a graphical user interface (GUI) for managing Navisphere products. The software allows for performance monitoring and integrates with HP CA Unicenter to enhance service management.
+
+Optional Application (ATF) software supports high-availability setups, enabling LUN (Logical Unit Number) access via various connectors, including switches or SPs. Additionally, CDE (Common Data Environment) software is bundled with each Navisphere product and must be used alongside the Command Line Interface (CLI) for executing commands directly across different platforms, including UNIX and others. 
+
+The Navisphere software supports TCP/IP connectivity on various stations, allowing interfacing with operational systems like NT or UNIX variants, such as Solaris. 
+
+The document outlines shared and switched LAN configurations for Navisphere software, detailing connection requirements for username access and operational status, as well as providing steps to document each system's configurations, including hostname, operating system, and associated LUN information. 
+
+To summarize, the technical specifications for maintaining and accessing the EMC FC4700 and associated Navisphere software are provided in forms to facilitate proper system management and connectivity documentation.
+

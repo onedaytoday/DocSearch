@@ -1,0 +1,109 @@
+### Touchmonitor LCD Touchmonitors 1747L/1767L Revision C 
+
+**Model Information**  
+TouchSystems, Inc.  
+P/N 008559E  
+1-800-ELOTOUCH  
+www.elotouch.com
+
+**Copyright Notice**  
+© TouchSystems, Inc. All rights reserved. No part of this document may be reproduced, transmitted, or translated without prior written permission from TouchSystems. The information presented is subject to change without notice and does not guarantee merchantability or specific uses. Other trademarks mentioned are property of their respective owners.
+
+---
+
+### Chapter Overview
+
+- **Introduction**  
+- **Precautions related to the Product**  
+- **Product Specifications**  
+- **Touchmonitor Connection Guide**  
+- **Troubleshooting Information**  
+
+---
+
+### Product Overview
+
+Congratulations on your purchase of the TouchSystems touchmonitor. This LCD model enhances input interactions and streamlines data flow. Please refer to this guide for critical information on your touchmonitor, which features an SXGA TFT panel with direct RGB input and a 16.2M color depth.
+
+### Setup Instructions  
+
+1. **Unpacking the Touchmonitor**  
+   Ensure you have the following items unpacked:  
+   - Touchmonitor Unit: 1747L Front-Mount / 1767L Rear-Mount 
+   - Power and video cables
+   - Mounting hardware 
+
+2. **Connection Process**  
+
+   **Step 1: Monitor Connection**  
+   Connect the appropriate video cable (15-Pin or DVI-D) from the touchmonitor to your PC. Secure connections using screws.  
+
+   **Step 2: Touchscreen Interface**  
+   Connect the touchscreen cable (RS-232 or USB) from the touchmonitor to your PC. Ensure it is properly seated.  
+
+   **Step 3: Remote On-Screen Display (OSD)**  
+   Attach the Remote OSD connection via the DIN connector underneath the monitor.  
+
+   **Step 4: Power Connection**  
+   Plug the power supply brick into the touchmonitor and connect it to a grounded AC outlet. 
+
+---
+
+### Mounting Information  
+
+The touchmonitor is equipped with a VESA-compliant mounting interface, facilitating attachment to compatible mounting brackets. Ensure your mount adheres to VESA specifications. 
+
+---
+
+### Software Installation  
+
+The touchmonitor comes with software that enables compatibility with various operating systems, including Windows XP and NT. Installation files are located on the supplied CD-ROM. Follow on-screen prompts for software setup.
+
+1. If the CD is active, access installation files directly through the directory. 
+2. Follow prompts to install the software suitable for your operating system. 
+
+---
+
+### On-Screen Display (OSD) Settings  
+
+Use the Remote OSD to optimize touchmonitor settings. For specific performance adjustments, consult the operation chapter. Adjustments can help restore factory settings if needed. 
+
+Make use of the comprehensive troubleshooting guide to resolve any issues encountered during setup or usage.
+
+### Remote OSD Touchmonitor
+
+**Controls:**
+- **AUTO/SEL:** Activates functions, navigates through OSD items.
+- **UP/DOWN:** Adjusts selections vertically.
+- **LEFT/RIGHT:** Adjusts selections horizontally.
+
+**Functional Overview:**
+- **Menu:** Opens or exits the OSD interface.
+- **Brightness:** Adjusts the brightness of the OSD display. Use the UP/DOWN keys to modify brightness settings.
+- **Clockwise/Counter-clockwise:** Adjusts selected items in respective directions.
+  
+**OSD Functions:**
+- **Select:** Enables item selection within the OSD.
+- **Auto/Select:** Toggles the touchmonitor power on/off. Hold specific buttons for a few seconds to access the OSD.
+
+**User Settings:**
+- **Brightness:** Configures the overall brightness.
+- **Color Settings (R/G/B):** Adjusts red, green, and blue foreground colors individually via the OSD.
+- **Contrast & Sharpness:** Modifies visual sharpness and contrast settings.
+
+**Additional Features:**
+- **Phase and Clock Adjustments:** Fine-tune display settings to optimize some visual aspects of the OSD.
+- **OSD Timeout:** Automatically closes the OSD after a set duration.
+- **Language Selection:** Options for English and Spanish, and allows selection of input sources (DSUB, DVI).
+
+**Troubleshooting:**
+- Ensure all I/O connections are correctly established, addressing potential issues like distortions from faulty power outlets or cables.
+- Confirm that both the touchmonitor and the connected device (like a PC) are securely linked to avoid refresh rate conflicts.
+- Monitor compatibility: Ensure the input resolution on the source device matches that of the touchmonitor's native resolution to prevent artifacts.
+
+**Safety Precautions:**
+- To minimize static shock, power off the touchmonitor when cleaning and ensure it's connected via a 3-wire grounding cord.
+- Avoid unauthorized modifications to maintain warranty coverage. Look for the warranty information on the unit itself. 
+
+This guide serves as a comprehensive overview of the touchmonitor's operational features and troubleshooting steps to ensure optimal performance and safety.
+

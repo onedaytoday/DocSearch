@@ -1,0 +1,181 @@
+**QLogic_Windows.book Update - Technical Summary**
+
+**Document Overview**
+This document, titled QLogic_Windows.book, is associated with EMC Corporation and outlines the technical specifications and procedures for utilizing Host Bus Adapters (HBAs) with EMC systems. As of the current publication date, all information is presented “as is,” without warranties of any kind, including any implied warranties regarding merchantability or suitability for a specific purpose.
+
+**Contents Outline**
+1. **Introduction to HBA**  
+   - Overview of HBAs, including firmware updates, connection instructions, and cluster configurations.
+   - Information on managing direct connections to EMC arrays.
+
+2. **EMC HBA Procedures**  
+   - Guidance on configuring and troubleshooting the HBA, including boot-from-SAN restrictions and I/O latency issues.
+   - Detailed procedures for integrating HBA settings into BIOS and operating systems.
+
+3. **QLA4010 HBA Specifics**  
+   - Installation and troubleshooting processes for the QLA4010 HBA.
+   - Steps for managing LUN paths and application integration.
+
+4. **Safety Warnings and Guidelines**  
+   - Important cautionary notes regarding potential hazards when handling or configuring hardware or software.
+
+5. **Connectivity Instructions**   
+   - Information on connecting to EMC systems through various interfaces, including command line options and software applications.
+
+6. **Detailed Procedure Instructions**  
+   - Steps for downloading and installing HBA firmware.
+   - Connection techniques for ensuring proper communication between HBAs and EMC systems.
+
+7. **System Behavior with HBAs**  
+   - Explanation of how HBAs interact with the operating system and storage systems.
+   - Description of the assignment and discovery process for physical drives.
+
+**Conclusion**
+The document outlines essential technical procedures for EMC systems utilizing HBAs, ensuring users can effectively install, configure, and troubleshoot their systems. For further information and downloads, readers are directed to official support resources from QLogic.
+
+**Note**
+For optimal functionality, it's critical that all firmware updates and procedures are observed as indicated. Users should ensure proper connections and configurations to prevent system inconsistencies during operation.
+
+Certainly! Here's a paraphrased version of the text in a natural, technical manner:
+
+---
+
+In the QLogic_HBA guide, it is important to connect the Host Bus Adapter (HBA) using only the recommended firmware and drivers to ensure proper connectivity. For the QLA2340 and QLA2342 models, the connection points are designated J3 and J4, with corresponding LEDs (LED1 at J3, LED2 at J4) indicating the status.
+
+For configuring the HBA under Fibre Channel Arbitrated Loop (FC-AL), ensure the HBA's ID is manually set as needed. Refer to the following steps to manage the IDs: When using EMC systems with multiple HBAs, access the factory settings if necessary. Follow the prompts and press <CTRL-Q> when needed to check the connected HBAs.
+
+During HBA POST, each HBA's status will be displayed, and adjustments should be made in accordance with the system's BIOS and Topology to ensure everything is configured correctly. Take care when modifying the NVRAM settings, as improper changes may overwrite important configurations.
+
+For the NVRAM manipulations, utilize the appropriate commands within the DOS environment to update the firmware/BIOS and NVRAM. The commands to execute are structured as FLASUTIL.EXE /L /F for comprehensive updates, or FLASUTIL.EXE /L for NVRAM-only configurations.
+
+In cases where you are working with the QLA2310 model, ensure that the settings align with EMC specifications. During setup, navigate through the BIOS menus to select the desired options and press ESC as necessary to return to previous menus.
+
+Overall, follow the respective instructions for managing the topology and configurations within the EMC HBA setup, including any necessary hotfixes or updates to existing systems to maintain optimal performance.
+
+--- 
+
+This maintains the core meaning while refining technical clarity and readability.
+
+Sure! Here’s a technical paraphrase of the provided text:
+
+---
+
+**QLogic Windows Documentation - March Version**
+
+This section outlines the procedures for configuring an HBA with NT (specifically NT4) and EMC systems. Initially, ensure you download the necessary drivers and software applications like EMC PowerPath. Begin by establishing communication between the Host Bus Adapter (HBA) and the storage.
+
+When connecting the HBA, it must be linked to the PCI bus. Ensure the HBA's WWN (World Wide Name) is correctly mapped to the appropriate storage group within Navisphere using the command: 
+
+`IP storagegroup connecthost <host-name> <Storage-group-name>`. 
+
+This will facilitate I/O operations and connectivity through the Fibre Channel (FC) switch. Furthermore, commands involving NAVICLI and SYMCLI can be utilized for managing the storage associations and historical data relevant to the HBA’s operations.
+
+For optimized performance during booting from the EMC storage, adhere to the constraints outlined in the EMC Boot-from-SAN guidelines. These guidelines emphasize the importance of memory integrity, especially if the system experiences a crash. Ensure the HBA is correctly configured to prevent issues during the boot phase.
+
+When configuring the BIOS settings for the EMC setup, utilize the lowest PCI address for the HBA and be prepared to execute CTRL-Q to access the option for the QLA2300 PCI ROM BIOS. Perform the installation steps as prompted, especially when using the NT installation CD-ROM, pressing F6 as required to load third-party drivers to ensure compatibility.
+
+Lastly, for systems utilizing EFI (Extensible Firmware Interface), ensure that the HBA is interfaced correctly and follow the prompts for any necessary updates or validations post-installation. If you face issues initializing from USB or other devices, carefully inspect the connections and settings for the EFI environment.
+
+--- 
+
+This revision preserves the original meaning while enhancing clarity and coherence for a technical audience.
+
+### Revised Technical Instructions
+
+**Configuring the HBA with EMC**
+
+To access the Extended Firmware Interface (EFI) for the Host Bus Adapter (HBA), input the appropriate commands and confirm your selections. Start by typing `EFIUTIL` followed by `ENTER`. Once in the EFI, verify configurations and link the firmware to the HBA. Repeat this process as necessary to ensure the firmware matches.
+
+To manage the Non-Volatile Random Access Memory (NVRAM) settings, enter the command `NVRAM23.DAT` after selecting the relevant options. Again, utilize the `EFIUTIL` command to transfer the NVRAM settings to the HBA. The output will display the current NVRAM configurations.
+
+Ensure the HBA is set up to bootstrap from the designated Logical Unit Number (LUN). Follow the on-screen instructions to access the HBA's detailed information, including its World Wide Name (WWN). Make note of the WWN for future reference.
+
+If multiple LUNs are present, you may select alternatives as needed. Should modifications be required, navigate to advanced settings to adjust parameters like Retry Count and Timeout settings as necessary.
+
+For effective communication between the HBA and the operating system, ensure you press `F6` during the boot process to load the appropriate drivers, allowing Windows to recognize third-party SCSI or RAID components.
+
+### Additional Configuration Process
+
+Next, from the hardware perspective, initiate the connection of your EMC device with Intel-based systems to confirm SCSI boot parameters. Verify the LUN and WWN settings through the appropriate user interfaces like Navisphere or CLI. 
+
+To download the HBA firmware, refer to the latest PCI specifications, ensuring compatibility with your system architecture. Ensure that firmware updates are consistent with the current HBA version, and familiarize yourself with existing storage setup.
+
+When the HBA is operational, interact with the BIOS interface by pressing `CTRL-Q`. This gives you access to manage the HBA configurations. After confirming compatibility, return to standard operation by utilizing the ESC key.
+
+### Summary and Action Steps
+
+Upon successful configuration, proceed to monitor LUN functionality and performance metrics. Documentation of the process, including the LUN-to-SP bindings, will facilitate troubleshooting. As you finalize configurations, ensure thorough testing of all connections and data integrity within the EMC environment.
+
+For further refinement or clarification, consult the switch settings or interface documentation, ensuring each component adheres to protocol guidelines for optimal performance.
+
+Here’s a technical paraphrase of the provided text:
+
+---
+
+## QLogic Windows Guide
+
+### Next Steps
+
+To configure the HBA BIOS, follow the instructions provided for accessing the LUN. Connect the SCSI and IDE CD-ROM or HDD to the HBA BIOS, as outlined in the HP G2 and HP BL documentation, available at: ftp://ftp.compaq.com/pub/supportinformation/techpubs/other/5982-3248en_rev1_us.pdf. Ensure that the HBA and SCSI BIOS settings are properly configured for booting.
+
+### Configuring EMC with HBAs
+
+To access the HBA settings, press <CTRL-Q>. The QLA2300 PCI ROM BIOS will load, displaying the available HBAs. Use the arrow keys to select the desired HBA, then press ENTER. Choose the appropriate WWN and confirm the LUN assignment using EMC Navisphere software or ATF. 
+
+### Booting Instructions
+
+If you are booting from a CD-ROM, make sure to follow the prompts to initiate the installation. Press F6 when prompted to load third-party drivers, and proceed with the installation steps. If a LUN was created or modified, follow the prompts to complete the licensing process.
+
+### Error Handling and LUN Configuration
+
+If the LUN is displayed as unformatted, follow the on-screen instructions for formatting or reassigning. For NT hosts, refer to relevant Microsoft Knowledge Base articles, such as Q240672 and Q224526, for guidance on handling LUN assignments and formatting.
+
+### Using EMC Navisphere
+
+For connectivity with EMC systems, utilize the Navisphere software to manage HBA registrations and storage groups. Use the Navisphere CLI for commands, ensuring proper configuration by connecting the host to the designated storage groups.
+
+### Trespassing and Redundancy
+
+When configuring redundancy, especially with high availability setups, ensure HBA connections to both storage processors (SP) are correct. Follow guidelines to properly manage LUN access and ID assignments.
+
+---
+
+This version keeps the original meaning while clarifying technical terms and organization for better understanding.
+
+Here’s a technical paraphrase of your provided text:
+
+---
+
+**QLogic_Windows.book - Thursday, March**  
+This document outlines the procedures for initializing EMC LUNs using host bus adapters (HBAs). When using the ATF (Advanced Technology Framework), ensure the software is properly installed in the designated directory. For LUN operations involving storage processor A, use the command `atf_trespass atf_sp0 <LUN ID>`. To switch the LUN from storage processor B to A, execute the same command with the appropriate parameters. These commands facilitate transferring LUN ownership between storage processors via the HBA BIOS. To install the latest EMC Navisphere software, refer to the previous installation instructions regarding LUN management.
+
+If the system is ready, it may interact with the LUN or the operating environment. Ensure the EMC environment is configured correctly for HBA performance.
+
+When configuring HBAs, identify the physical location and the World Wide Port Name (WWPN) specific to each HBA.
+
+The document describes LUN path management, specifically concerning the status of the HBA and switch connections which can affect the I/O operations. Different scenarios may cause the system to halt or redirect traffic. Table references will provide responses to various system states. Generally, a manual intervention may be necessary to regain service.
+
+The QLA4010/4010C HBA utilizes PCI technology to connect to SCSI devices through an IP-based interface, offloading TCP/IP processing to enhance performance. Configurations for the QLA4010 HBA can be adjusted according to specific software requirements and compatibility with existing systems.
+
+For the installation and updates of the QLA4010 HBA, if you encounter 'Unknown' or 'Network' devices, please ensure that the hardware is shown correctly in the device manager and follow the necessary troubleshooting steps outlined to resolve conflicts. If prompted, select the appropriate installation options guided through the GUI, ensuring that all other HBAs are recognized without conflict.
+
+In managing HBA firmware updates, utilize the provided GUI for firmware download and ensure the update procedure aligns with the expected configuration for the QLA4010 HBA. For specific CHAP (Challenge-Handshake Authentication Protocol) security settings, include necessary authentication credentials to prevent unauthorized access. Verify the details and functionalities of these features as specified by QLogic documentation.
+
+Finally, to update the QLA4010 HBA BIOS from DOS, follow the specified commands and ensure that you execute the required operations in the correct sequence to successfully implement the changes.
+
+--- 
+
+This version conveys the original information in a clearer and more technical manner while maintaining the core meaning.
+
+### Paraphrased Text:
+
+In the QLogic_Windows documentation from March, instructions regarding the QLA4010 Host Bus Adapter (HBA) primarily focus on integrating it with EMC storage. If only a single HBA is available, it will be shown. If multiple HBAs are present, users can select one using the arrow keys and then press ENTER. This action will display the appropriate options. For configurations requiring an IP address, select the IP setting option, provided DHCP is active. Enter the Qualified iQN for the HBA and make adjustments to LUN settings as needed, particularly for environments using CHAP security. Users should press ESC to navigate back to the previous menu if prompted.
+
+When the QLA4010 HBA is preparing to interface with the operating system, if additional HBAs are detected, users should follow the prompts to select and configure these settings accordingly. At the installation stage, pressing F6 will allow users to include third-party drivers essential for proceeding with the installation process.
+
+Within the documentation, references to third-party software such as VERITAS are made, providing detailed procedures and registry settings necessary for optimal operation with EMC HBAs. It’s crucial that users are aware of the required Microsoft hotfixes for stability, particularly in multi-pathing scenarios.
+
+For troubleshooting, the documentation includes error identification and resolution strategies, especially in instances where LUNs appear as 'Unknown' or 'Unallocated'. The text also references the importance of ensuring the correct configuration of the HBA BIOS to prevent operational issues.
+
+Overall, users must adhere to the specific instructions regarding firmware updates and registry modifications to ensure optimal performance and compatibility with both the EMC systems and associated third-party software.
+

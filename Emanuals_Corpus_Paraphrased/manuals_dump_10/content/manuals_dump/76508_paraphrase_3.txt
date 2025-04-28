@@ -1,0 +1,79 @@
+### MCE Overview and Legal Information
+
+**MCE Copyright and Warranty NM20600A-A**  
+The author guarantees specific rights concerning this software, which is protected by copyright. This information pertains exclusively to the Brain Research Unit at the University of NM20600A-A and the accompanying software, including Wall DBI and MPEG developed at the University of California. 
+
+### Introduction to MCE
+
+**Getting Started with MCE**  
+This section provides an overview of selecting necessary parameters, loading data, and predicting MEG waveforms using the MCE software. It includes guidance on creating HTML and MPEG outputs and managing typography, computing resource allocation, and Boundary Element Model (BEM) selections. 
+
+Key operations include:
+- **ROI Selection**: Define regions of interest (ROIs) for analysis.
+- **Exporting ROIs**: Set parameters for exporting identified ROIs.
+
+### Detailed Functionality
+
+**Warning on Usage**  
+Users should be aware that MCE is designed to handle specific applications of MEG, and certain warnings about its use should be heeded. It is essential to ensure compatibility with the specifications outlined in the Release Notes for the software version being used. The correct application of head coordinate systems significantly impacts data representation.
+
+### MEG and Computing Adjustments
+
+**Adjusting MEG Settings**  
+When configuring MEG settings, you can modify various parameters to enhance data quality, including selecting high-pass and low-pass filters to optimize the data for analysis. Adjusting the down-sampling ratio is crucial to maintaining an effective pass-band for the data processed.
+
+### Managing BEM Selections
+
+**BEM Configuration**  
+The BEM definitions must accurately represent anatomical boundaries, significantly influencing both visualization and analysis outcomes. When adjusting BEM parameters, selecting the appropriate model type is essential, and users must be cautious about the effects of applying incorrect configurations.
+
+### Loading and Exporting Data
+
+**Data Management**  
+You may load results from previous sessions or datasets by selecting the appropriate batch files. Ensure that the ID is accurate to avoid loading errors. 
+
+**ROI Functionality**  
+The system allows users to define and manipulate ROIs for analyzing brain activity over time. You can select, export, or import ROIs as needed. Be sure to follow proper procedures when managing these regions to ensure accurate reporting of activity.
+
+### Conclusion
+
+Proper handling of the MCE software and understanding its functionalities are critical for accurate MEG data analysis. Adhering to the specified guidelines ensures effective and efficient use of the tool, allowing for meaningful scientific exploration.
+
+### Predicting MEG Waveforms
+
+**MCE**: The NM20600A-A system predicts MEG waveforms, displaying the predicted results in yellow. The predicted waveforms correspond to the activity of the selected Region of Interest (ROI). The predictions are adjusted based on the measured activity within this selected ROI.
+
+To visualize or output these waveforms, you can utilize commands within the UNIX system. The [Print] command allows you to specify the type of output, including options for JPEG. You can save waveforms as EPS, PNG, or GIF formats using the appropriate UNIX commands.
+
+### Creating HTML and MPEG
+
+**Creating HTML**: The NM20600A-A module facilitates HTML generation, incorporating selected data and PNG graphics. The content is compatible with standard web browsers, including Internet Explorer and Microsoft Edge.
+
+**MPEG Creation**: The system also supports MPEG animation creation, allowing smoother transitions based on selected activities. It is crucial to consider the length of each animation segment to ensure fluidity. For optimal output, utilize MPEG-1 standards as defined by the University of California.
+
+### MCE Options
+
+The system provides options for Batch processing and loading necessary files. If any batch processes are active, the monitoring interface will highlight their status, allowing adjustments to be made freely. You can prioritize specific processes while managing background activities.
+
+### Activity Selection
+
+The NM20600A-A interface displays the waveforms associated with selected activity locations. User interactions via left-click and right-click reveal commands for waveform selection and grouping. You can adjust parameters through the color selection options.
+
+### Batch Processing Overview
+
+The batch interface provides a comprehensive view of processing states. You can manage and prioritize batches through the system, ensuring efficient workflow execution. Selecting batch activities allows you to view and manipulate corresponding processes effectively.
+
+### ROI Interaction
+
+The system enables detailed interaction with the selected Region of Interest (ROI). You can adjust colors and visibility options for specific activities. Holding down designated buttons allows for precise control over activity visualization. Tooltips will guide you through selecting and modifying ROIs. 
+
+### ROI Management
+
+The ROI interface allows users to search and manage Regions of Interest efficiently. You can find matching ROIs based on specified criteria, and SQL queries can be employed for advanced filtering. Your selected ROIs will be highlighted, and you can see their coordinates.
+
+### Output Generation
+
+The HTML and image outputs are customizable based on your selections. You can choose the output format and resolution, and apply color schemes as needed. The system supports various file formats, ensuring compatibility with your needs for documentation and reporting. 
+
+Use the existing tools and commands to streamline your data management and visualization processes, enhancing your overall analysis workflow.
+

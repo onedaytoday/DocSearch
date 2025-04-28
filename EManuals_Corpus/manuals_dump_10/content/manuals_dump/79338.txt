@@ -1,0 +1,28 @@
+EP-3VWM EP-3VWM EP-3VWM EP-3VWM EP-3VWM Soc Soc Soc Soc based based based based based Supports PC100 SDRAM PC100 SDRAM PC100 SDRAM PC100 SDRAM PC100 SDRAM
+Table of
+Section INTRODUCTION
+EP-3VWM Form-Factor
+I/O Connector Power-On/Off
+EP-3VWM Features: Section FEATURES
+Section INSTALLATION
+Procedure Section CPU Insertion
+Section
+Section Memory Memory
+DIMM
+Section Connectors
+Connectors
+AWARD BIOS SETUP Section
+CMOS
+Advanced BIOS
+Advanced Chipset
+Integrated Peripherals
+PNP/PCI
+PC Health o C/87 o o C/32 o RPM RPM 1.62V 3.20V 3.22V 5.01V 12.12V
+Supervisor/User
+Selecting
+A-1 MEMORY MAP A-2 I/O MAP
+A-3 TIMER DMA CHANNELS MAP A-4 INTERRUPT MAP
+A-5 RTC CMOS RAM MAP
+B-1 POST CODES
+C
+D-1 GHOST

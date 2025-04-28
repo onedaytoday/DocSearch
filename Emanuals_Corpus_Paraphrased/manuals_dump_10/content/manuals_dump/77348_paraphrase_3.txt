@@ -1,0 +1,56 @@
+**Application Connectivity User Guide P/N REV A01**
+
+**EMC Corporation**  
+**Corporate Headquarters**: MA  
+**Website**: www.EMC.com  
+**Copyright**: EMC Corporation. All rights reserved.
+
+This document provides information regarding EMC Application Connectivity, including associated software and its rights. The content is provided without warranty, including any implied warranties related to merchantability or fitness for a particular purpose. EMC is not liable for any direct or indirect damages arising from the use of this publication.
+
+The Application Connectivity products are identified by names such as "InCharge," "InCharge SMARTS," and "SMARTS Graphical Authentic Correlation." The user must carefully follow a structure outlined in this document which includes an overview of Application Connectivity, analysis, and topology details.
+
+**Chapter/Appendix Structure**:
+- Description and Explanation of Application Connectivity
+- Analysis and Review of Results
+- Application Topology Overview
+
+**Table and Command Conventions**:
+- Indications of commands and user-supplied parameters
+- Representation of directories
+- Syntax for UNIX and other operating systems
+
+The EMC Application Connectivity encompasses various products, with a specific Command Base Location defined as follows:
+- **For UNIX**: /opt/InCharge<n>/<product>  
+- **For Windows**: C:\InCharge<n>\<product>
+
+Users may choose to specify an alternative base directory apart from these standard locations. Assistance for software directory configuration is available through EMC Administration. Additional support and technical resources are accessible via the EMC customer portal.
+
+For technical inquiries regarding EMC Application Connectivity, users can contact support services in the U.S. at (SVC.4EMC) and access a variety of resources, including Release Notes and reference materials.
+
+**Application Connectivity Overview**:
+The Application Connectivity Manager (ACM) provides insights into TCP-based applications and their services, enabling users to identify the underlying cause of connectivity issues. Whether hosted on servers, switches, or routers, the ACM analyzes the relationships between applications and displays relevant topologies.
+
+For example, connectivity checks such as TCPConnectivityCheck are utilized to diagnose and report any issues related to applications like HTTPService and DatabaseServer. This section gives a comprehensive explanation of how root causes are determined, including symptoms such as TCP TimeOut and Slow Symptoms.
+
+Users can expect clarity on the functioning of services like SMTP and HTTP through detailed analyses of the reported connectivity. Monitoring tools ensure that application performance aligns with expectations, helping to troubleshoot any interruptions effectively.
+
+Overall, this guide serves as a foundational resource for understanding and leveraging EMC Application Connectivity for application management and troubleshooting.
+
+### Overview of EMC Application Connectivity
+
+The EMC Application Connectivity framework ensures expected performance for various applications when connecting to services such as TCP, SMTP, and HTTPService. There are issues affecting connectivity, such as TCP response delays and timeout scenarios, specifically with slow symptoms pointing to potential problems in the connection to these services. Alerts denote affected applications, indicating performance degradation through a color-coded system where red signifies issues and yellow indicates potential risk.
+
+### Service Offering and DNS Service
+
+The architecture includes the DNSService within the ServiceOffering, which may impact overall Application Connectivity. It lists services associated with DNS and the ACMECorp, reflecting the operational status and severity of related business processes within the system.
+
+### Notification and Application Topology
+
+Notifications regarding Application Connectivity are generated to inform users of service status, highlighting connectivity issues through the EMC Application Connectivity interface and Application Topology diagrams. This chapter provides an overview of relevant applications, detailing various states and graphical representations of connectivity.
+
+Users can access notifications by right-clicking elements within the topology, where they can view critical information such as severity levels, affected attributes, and recommended actions (e.g., acknowledging issues, assigning ownership). The topology also illustrates relationships among applications and their respective services, with options to expand details via right-click selections.
+
+### Exploring Application Instances
+
+In the graphical representation of the topology, users can analyze multiple application instances within the EMC Application Connectivity framework. By right-clicking on specific instances, users can view detailed information regarding application types, related services, and their operational status. This functionality helps in efficiently diagnosing and managing connectivity issues across various applications hosted on the system.
+

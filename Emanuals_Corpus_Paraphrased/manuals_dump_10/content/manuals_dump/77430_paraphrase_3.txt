@@ -1,0 +1,40 @@
+**Instruction Sheet for PN SENSOR/PROCESS APPLICATION COMPATIBILITY**
+
+This document outlines the specifications and responsibilities related to the PN SENSOR's operational applications. Specifications include:
+
+- Operating Temperature: 50°F to 122°F (10°C to 50°C)
+- Connection Type: 1-inch MNPT
+- Materials: Polysulfone, Teflon TFE
+- Cathode: E.I. Teflon
+
+**Flow Cell Specifications**:
+- Materials: CPVC, PVC
+- Operating Temperature: CPVC at 120°F (49°C), PVC at 122°F (50°C)
+- Flow Rate Capability: Polyester/Polycarbonate up to 158°F (70°C) 
+- 316 SS compatible with specified flow requirements.
+
+**CAUTION**: Refer to specifications for details regarding compatibility.
+
+**MODEL 499A OZ INSTALLATION**:
+For installation, ensure the flow through the system is maintained at defined levels. The 499A OZ is not designed for submersion use. Diagrams are provided for guidance.
+
+**MODEL 499A OZ WIRING**:
+Wiring instructions are included with diagrams to assist in proper connections. Consideration should be given to EMI/RFI protection to ensure signal integrity.
+
+**CALIBRATION of MODEL 499A OZ**:
+Calibration should be conducted upon initial setup and every few hours thereafter. After reaching operational levels, follow the outlined procedures for optimal performance.
+
+**MODEL 499A OZ MAINTENANCE**:
+Regular maintenance should be performed every four months to maintain performance. Cleaning instructions include using a spray bottle to clean the membrane.
+
+- **Replacing Electrolyte Solution and Membrane**:
+Unscrew the assembly and inspect the cathode. If tarnished, clean using appropriate finishing techniques. Ensure part integrity before reassembling.
+
+**NOTE**: Care must be taken to prevent overflow during handling. Verify that threads are clean and undamaged during assembly.
+
+**SPARE PARTS FOR MODEL 499A OZ**: 
+Available assemblies include various components as specified.
+
+**ORDERING INFORMATION**:
+Orders can be placed through Emerson, CA, USA, at Rosemount Analytical Inc. Online ordering is available via our website, with credit card payments accepted for U.S. purchases.
+

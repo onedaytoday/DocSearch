@@ -1,0 +1,162 @@
+**www.elmomc.com**
+
+**Notice**: The information provided herein serves solely as a reference related to Motion data, including text and graphics. This material is subject to change and is provided without any warranty. Updates include corrections from October and September regarding the Interpolated Tachometer (DC MAN-TUBIG.PDF). 
+
+**Chapter Information**: This chapter encompasses guidelines for operating the system and emphasizes the importance of proper grounding through low-resistance earth connections. It is imperative to have adequate knowledge and authorization for tasks involving assembly and operation of motors, especially in electrostatic-sensitive environments.
+
+**Warning**: Failure to adhere to safety guidelines may result in incidents like arcing or electric shock. Disconnections are necessary during servicing. The electrical supplies must comply with established standards, with detailed requirements for AC and DC connections outlined in the documentation.
+
+**Directives**: The product complies with critical industry standards such as UL840 for insulation coordination and UL60950-1. It has been thoroughly developed, tested, and certified to meet CE conformity and other relevant directives.
+
+**Warranty Information**: The products are warranted against defects in materials and workmanship in alignment with specifications for a defined period following installation.
+
+**Chapter Introduction**: The chapter describes the basic functionality and requirements for operation, addressing both AC and DC configurations, either stand-alone or in distributed setups. Software components are detailed, including Command Reference for specific motion operations.
+
+**Connectors and Feedback**: Specific information concerning the connectors, including DC, RS232, and I/O types, is provided, focusing on their roles in system feedback and communication.
+
+**Installation and Mounting**: Guidelines are given for mounting options, ensuring secure assembly in various environments, including direct wall mounts and DIN rail installations.
+
+**Connecting Components**: Instructions highlight the necessity of utilizing shielded cables to ensure optimal system performance and safety, and emphasize the procedure for grounding appropriately.
+
+**Connector Location Function**: A table illustrates the connections for each component, with specific designations and details on wiring motors and other equipment. 
+
+For precise and safe operation, adherence to the outlined guidelines and proper installation practices is crucial. Please refer to the detailed sections for comprehensive instructions.
+
+### Installation MAN-TUBIG
+
+**Connecting to M1, M2, M3, and PE:**  
+Establish connections for the phases M1, M2, M3, and the Protective Earth (PE). It is recommended to utilize shielded twisted-pair cables to enhance immunity against interference. Ensure that the shielding is grounded correctly; connect the fourth wire to the shield and to the PE, ensuring that the chassis is well-grounded.
+
+**Connecting AC Supply:**  
+The AC supply should be connected to terminals AC1, AC2, and AC3 along with the Protective Earth (PE). Again, using shielded twisted pair cables is mandatory for the AC supply to enhance immunity. The four wires from the AC supply must connect properly, with the fourth wire designated for the protective earth.
+
+**Connecting DC Supply:**  
+Each DC supply needs to be wired carefully to avoid overheating. If the system is powered down, ensure that connections to the DC supply are secured to prevent unanticipated operations. Properly distribute DC supplies as needed.
+
+**24VDC Auxiliary Supply:**  
+For the 24VDC supply, use shielded cables (AWG recommended) to ensure proper safety and noise reduction. The shield should be grounded, and reinforced or insulated cables are recommended to minimize interference. Ensure correct polarity during connection to avoid damage.
+
+### Feedback Systems
+**Feedback Configuration:**  
+The feedback systems utilize user-friendly configurations. Use shielded twisted-pair wires to connect devices, ensuring the shield is grounded to the chassis. The installation should strictly follow the provided instructions.
+
+**Feedback Types (Feedback A):**  
+Feedback mechanisms can be established using interpolated signals and tachometers. Place instructions for assembling feedback devices in line with the guidelines provided in previous sections.
+
+### Feedback Assignments
+Feedback assignments include precise connections to functions, ensuring clarity between various inputs and outputs. This requires adherence to table formats and proper functional mapping between the components. Various output formats (such as Emulated and Interpolated) can be selected based on operational requirements.
+
+### Application Notes
+**Applications:**  
+Feedback mechanisms can be utilized in various configurations, particularly in follower or ECAM systems. It is important to note how to leverage these feedback outputs effectively and to ensure that all instructions are taken from the designated sections for accurate assembly and application.
+
+### Pulse-and-Direction Option
+**Pulse-and-Direction Configuration:**  
+For systems using pulse-and-direction commands, assign connections clearly between Direction and Auxiliary inputs. Ensure proper labeling and programming of signals to maintain organized operations.
+
+### I/O Configurations
+**Setting I/O Types:**  
+I/O configurations include Analog Inputs, Digital Inputs, and Digital Outputs. Each type should be programmed according to specific functionality needs, with clear instructions for assembly and operations. Ensure familiarity with the function assignments for successful integration.
+
+### Final Steps
+Carefully adhere to these guidelines throughout the installation process to ensure integration accuracy and operational efficiency.
+
+### MAN-TUBIG General I/O
+
+**Inputs Overview**  
+Follow the assembly instructions in Section (Feedback) to connect the I/O inputs listed below:  
+- N.C. (Not Connected)  
+- IN10  
+- IN9  
+- IN8  
+- IN7  
+- N.C.  
+- IN6  
+- N.C.  
+- IN5  
+- IN4  
+- IN3  
+- IN2  
+- IN1  
+- INRET10  
+- INRET9  
+- INRET8  
+- INRET7  
+- N.C.  
+- INRET6  
+- N.C.  
+- INRET5  
+- INRET4  
+- INRET3  
+- INRET2 (return2)  
+- INRET1  
+
+**Committed I/O Assignments**  
+
+### MAN-TUBIG I/O
+
+**High-Density Outputs**  
+For assembling high-density I/O outputs, adhere to the guidelines in Section (Feedback):  
+- OUT1  
+- OUT2  
+- OUT3  
+- OUT4  
+- OUT5  
+- OUTRET1  
+- OUTRET2  
+- OUTRET3  
+- OUTRET4  
+- OUTRET5  
+- OUT6  
+- OUTRET6  
+
+**Committed I/O Assignments**  
+
+### MAN-TUBIG Communication  
+
+Utilize the RJ-45 connector for RS-232 interface located at the front. This interface provides the following options: RS-232, allowing direct connection to a PC. The selected interface and corresponding software ensure electrical isolation through optocouplers for enhanced safety and connectivity.
+
+For RS-232 communication (refer to COMM.1 Notes), use twisted shielded AWG wire for connections. The shield must be grounded to the PC. Typically, the PC has this grounding internally. Ensure the shield cover connects properly to the RJ connector shield.
+
+For RS-232 (L) and (R), please reference the corresponding RS-232 assignments.
+
+### MAN-TUBIG CAN Interface  
+
+For CAN communications, ensure proper wiring for CAN_H, CAN_L, and CAN_GND. It's essential that each ID is correctly mounted and remains intact prior to initialization.
+
+### Installation and Initialization  
+
+Ensure MAN-TUBIG components are mounted and all connections are established. Initialization is achieved using a Windows-based software application that confirms the AC supply is within specified parameters.
+
+**Technical Specifications**  
+
+1. **Motion Control** (A.1-A.5)  
+   Motion parameters include advanced positioning techniques with various modes such as PTP, PT, PVT, and ECAM. Velocity options include third with motion commands and interpolation for precision in operational adjustments.
+
+2. **Feedback Mechanisms** (A.6)  
+   Implement optically isolated inputs and feedback mechanisms to ensure accurate performance monitoring with options for both tachometer and standard input.
+
+3. **Built-In Protection** (A.7)  
+   The system features built-in protective measures, including software aborts and fault reporting for conditions like overheating and short circuits.
+
+4. **Mounting and Mechanical Specifications** (A.4)  
+   Available mounting options include wall mounts and DIN rail configurations.
+
+5. **Electrical Specifications** (A.5)  
+   The system supports a range of AC and DC supply options, with specific power ratings required for efficient operation.
+
+6. **Environmental Conditions** (A.6)  
+   The unit operates within specified temperature ranges and is rated with an IP20 protection level.
+
+7. **Connector Specifications** (A.7)  
+   Comprehensive details on connector locations and configurations for various I/O and feedback applications.
+
+8. **Communication Specifications** (A.11)  
+   Details on connection types such as RS-232 and CANbus, including performance rates and profiles.
+
+9. **Quality Assurance** (A.14)  
+   Compliance with ISO quality standards and other relevant industry testing protocols ensures robustness and reliability.
+
+10. **Environmental Compliance** (A.18)  
+    Adherence to electrical and electronic equipment regulations, ensuring responsible disposal and material compliance.
+

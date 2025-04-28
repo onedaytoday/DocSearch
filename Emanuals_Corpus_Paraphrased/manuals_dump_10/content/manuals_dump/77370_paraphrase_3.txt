@@ -1,0 +1,38 @@
+### Third-Party Switches: Part Number A02 - November
+
+This document pertains to EMC switches compatible with both EMC and third-party racks. It includes the following sections: 
+
+1. Information
+2. Switch Mounting for Model DS16B2RKLS
+3. Information on Switch Configuration 
+
+The EMC DS-16B2 and DS-32B2 switches support data rates of up to 10 Gb/s. Each switch is designed with optimal connectivity and configuration options, allowing for standalone or rack-mounted installation. The DS-16B2 features a height of 1.75 inches and comes in an air-cooled chassis, while the DS-32B2 has a similar design but is 1.5U high.
+
+### Switch Mounting Information
+
+The switches are typically positioned at the top of the rack or cabinet, and installation details, including switch mounting specifications, can be found in Table EMC2056S. 
+
+The mounting assembly includes various hardware components, such as screws and washers. Specific quantities and types are listed as follows:
+- M5 pan-head screws
+- M3 pan-head screws
+- Washers (flat and round-hole types)
+
+### Assembly Instructions
+
+1. **Assembly Preparation**: Before starting, gather the required tools and components, including a screwdriver.
+2. **Positioning the Switch**: 
+   - The switches should be oriented so that the connectors align with the rack openings. 
+   - Install the screws and tighten them securely to ensure a stable setup.
+
+### Rack/Cabinet Installation Guidelines
+
+When installing the switch, ensure it aligns with the rack's mounting positions. The front of the switch should be flush with the cabinet, and all screws should be applied with washers as specified in the mounting tables.
+
+### Customer Support and Additional Resources
+
+For information regarding service locations or further guidance, please contact EMC Customer Service. The document also includes a disclaimer regarding the information provided, which is “as is,” and without any warranty regarding its accuracy or fitness for a particular purpose.
+
+---
+
+This document is a proprietary publication of EMC Corporation, and any unauthorized reproduction of its content is prohibited.
+

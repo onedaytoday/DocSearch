@@ -1,0 +1,16 @@
+**Application ES601079 A**  
+**Release Information**  
+Initial release: ECO-13-0889. This publication cannot be reproduced, transmitted, transcribed, translated, or otherwise distributed in any form without the written consent of Touch Inc. The information contained herein is provided without warranties of any kind regarding accuracy or reliability, including but not limited to, implied warranties of merchantability or suitability for a specific purpose. Touch Inc. and its affiliates, including AccuTouch, CarrollTouch, TouchSystems, and SecureTouch, reserve the right to amend this publication and all related materials without prior notice.
+
+**Application Overview**  
+This document serves to guide users in verifying compatibility and functionality related to Application ES601079 A and associated hardware. The information includes details on board specifications and firmware updates. It is essential to connect the board to a power supply and follow the outlined steps while ensuring the correct firmware version is being utilized.
+
+To check the firmware version:  
+1. Access the **InfoAbout** section in the relevant software interface.  
+2. Ensure that the appropriate AC/DC power source is connected.  
+3. Right-click on the designated area within the application to access firmware details.  
+
+The selected firmware version will be displayed in a designated textbox, with a visual counter indicating its status. Please refer to the procedures specified in this application note for further instructions on updating the firmware.
+
+For additional product information, specifications, or support, please visit [www.elotouch.com](http://www.elotouch.com) or contact the North America office at 800-ELO-TOUCH. All rights reserved © Touch Inc., October Edition.
+

@@ -1,0 +1,90 @@
+### Revision of Touchmonitor 1739L LCD Rear-Mount Touchmonitor
+
+#### Touchmonitor 1739L Rear-Mount LCD Revision, P/N E247574
+© [Corporation Name]. No part of this publication may be reproduced, transmitted, transcribed, or translated without the written permission of TouchSystems. The information provided here is given without guarantees or warranties, including any implied warranties of merchantability or fit for a particular purpose. Revisions to this document may occur without notice from the Corporation.
+
+#### Overview of Contents
+- **Introduction**
+- **Warranty Information**
+- **Product Index**
+- **Safety Precautions**
+- **About the Touchmonitor**
+
+### Product Synopsis
+The 1739L LCD rear-mount touchmonitor is designed with SXGA resolution and features an internal microprocessor that enhances its operation. It supports a range of graphic resolutions (VGA, SVGA, XGA, SXGA non-interlaced) and conforms to VESA DPMS standards with DDC1/2B compatibility. Advanced On-Screen Display (OSD) functionalities are included for user customization.
+
+### Unpacking the Touchmonitor
+This section describes the contents included with the LCD touchmonitor and its associated software. Ensure you have the following items during setup: the touchmonitor, USB cable, and power supply.
+
+### Touch Interface Setup
+Before connecting the touchmonitor to your PC, ensure both devices are powered off. Connect the RS232 or USB touchscreen cable to the rear of the monitor and the other end to the PC. Secure the connections by tightening the grounding screws.
+
+### Software Installation
+The accompanying software is available on the CD-ROM and is compatible with operating systems such as Windows XP, NT, and others. Follow the on-screen prompts to complete installation. If necessary, consult the provided instructions for Plug-and-Play setup, ensuring to select the correct USB port.
+
+### Operational Guidance
+The OSD functions for adjusting settings like brightness, contrast, and position are accessible via the touchmonitor's buttons. Press the MENU button to access or exit the OSD, and utilize directional buttons to navigate through options.
+
+#### Common Troubleshooting
+If issues arise, check the LCD display connection and verify compatibility with input resolutions. The monitor must be configured to match the native resolution (SXGA) to avoid artifacts and ensure optimal performance.
+
+### Safety Information
+To minimize the risk of electric shock, ensure that the touchmonitor is properly grounded using the provided 3-wire cord. Avoid using abrasive cleaners; instead, clean the touchscreen with a soft, non-abrasive cloth.
+
+### Technical Specifications
+For detailed specifications related to performance and compatibility, refer to Section C.
+
+Use this revised document as a comprehensive guide to understanding the features and operational guidelines for the Touchmonitor 1739L.
+
+### Touchmonitor Specifications: Model 1739L LCD TFT
+
+- **Display Dimensions:** 
+  - Active Area: 338 mm (H) x 270 mm (V)
+  - Pixel Pitch: 0.264 mm (H) x 0.264 mm (V)
+
+- **Supported Resolutions:**
+  - VGA, SVGA, XGA, SXGA
+
+- **Brightness:** 
+  - Typical Brightness: Without specified Tf; 16.7M colors 
+
+- **Connectors:**
+  - VGA
+  - TTL or Negative Connector: Rear-mounted
+  - On-Screen Display (OSD) Controls: Brightness, Phase, Clock
+  - Language Support: English, Spanish
+  - DDC1/2B
+
+- **Touch Technology:** 
+  - Optional Capacitive Touch
+
+- **Electrical Requirements:**
+  - Input Voltage: AC 100-240V
+  - Temperature Operating Range: 0 to 50°C (32 to 122°F)
+
+- **Regulatory Compliance:** 
+  - UL, C-UL, FCC-B, CE, VCCI, C-Tick, MPRII, TÜV C-30
+
+### Important Information:
+1. **Usage Advisories:**
+   - A service technician should handle servicing due to potential safety hazards.
+   - Ensure proper grounding to avoid electrical shock hazards.
+
+2. **Immunity and Compliance Warnings:**
+   - Tested in accordance with FCC Class B standards to minimize interference.
+   - Users should follow provided instructions carefully to maintain compliance.
+
+### Warranty Information:
+- ELO Touchscreens offer a warranty against defects in materials and workmanship.
+- Warranty claims should be submitted promptly (within thirty days of discovery).
+- Coverage includes inspection and repair or replacement of defective products.
+- Remedies are exclusively limited to the purchase price refund of the product.
+- No additional warranties, express or implied, are granted.
+
+### Additional Details:
+For more information regarding specifications, product support, or inquiries, visit [www.elotouch.com](http://www.elotouch.com) or contact ELO Touch Headquarters in the USA.
+
+--- 
+
+This paraphrase retains the technical essence and details while improving readability and clarity.
+

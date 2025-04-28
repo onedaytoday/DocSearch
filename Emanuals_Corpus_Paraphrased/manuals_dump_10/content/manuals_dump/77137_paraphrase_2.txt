@@ -1,0 +1,100 @@
+**1800L TouchSystems, Inc.**  
+**1-800-ELOTOUCH**  
+**www.elotouch.com**  
+**Touchmonitor LCD Touchmonitor P/N 80-8025-01-A**  
+**ET1825L-8SWA-1**  
+**ET1825L-7SWA-1**  
+**ET1866L-8SNA-1**  
+**ET1866L-7SNA-1**  
+**ET1886L-8SNA-1**  
+**ET1886L-7SNA-1**
+
+No part of this document may be reproduced, transmitted, copied, translated, or modified without written permission from TouchSystems. The information contained herein is provided without warranty of merchantability or suitability for a particular purpose, and may be revised at any time without obligation to notify of such changes. SecureTouch, AccuTouch, and MonitorMouse are trademarks of TouchSystems, Inc. All other trademarks are the property of their respective owners.  
+
+**LCD Touchmonitor Copyright © TouchSystems, Inc. | All Rights Reserved**  
+
+**Table of Contents**  
+- **Introduction** ................................................... 4  
+- **About the Product** ....................................... 4  
+- **Touchmonitor Overview** ......................... 5  
+- **Touch Interface and LCD** ........................ 6  
+- **Software Setup** ........................................... 7  
+- **Drivers for Windows 9X, NT, MS-DOS** ... 8  
+- **On-Screen Display (OSD)** .......................... 9  
+- **Troubleshooting and Cleaning** ............... 14  
+- **Safety Precautions** ................................. 14  
+- **Technical Specifications** ........................... 16  
+- **Mechanical Specifications** ........................ 17  
+- **Warranty and Contact Information** ............ 18  
+
+---
+
+**Introduction**  
+Congratulations on acquiring the LCD touchmonitor, a high-resolution display that enhances the user experience. This guide explains setup and utilization of the touchmonitor. Ensure all steps are followed as outlined in this manual.  
+
+**Touchmonitor Features**  
+This LCD Touchmonitor features TFT/Active Matrix technology with XGA/SVGA/VGA compatibility, and high refresh rates. It supports VESA DPMS and includes a physical mounting interface complying with VESA standards.  
+
+**Unpacking the Touchmonitor**  
+Upon receiving the touchmonitor, verify that all components are included, such as:  
+- AC Power Cord  
+- Touchscreen (models ET1866L and ET1886L only)  
+- TouchTools CD  
+
+**Touch Interface Connection**  
+To connect the touchmonitor to a PC:  
+1. Ensure both devices are powered off.  
+2. Connect the appropriate cables from the touchmonitor to the PC’s ports.  
+3. Power on the PC, and confirm touchmonitor activation. Software may need to be installed using the provided CD.  
+
+**Software Installation**  
+The software for the LCD Touchmonitor can be found on the CD-ROM and supports various operating systems including NT and MS-DOS. Follow the instructions on the CD for installation.  
+
+**On-Screen Display (OSD)**  
+The LCD touchmonitor features an OSD accessed via front-mounted buttons, allowing adjustments for brightness, contrast, and other settings. Refer to the manual for specific adjustment methods and navigation through menus.  
+
+**Operation and Settings**  
+The OSD includes options for adjusting screen parameters, enhancing clarity, and resetting to factory settings. Detailed instructions for utilizing these features are included in the corresponding chapters.  
+
+For further assistance or technical support, please contact TouchSystems as detailed in the warranty section.
+
+### Chapter: Troubleshooting the Touch Monitor
+
+In the event of issues with the NEC touch monitor, please ensure that it is properly connected. The monitor must be securely seated and the power switch turned ON. For troubleshooting, refer to resources at www.elotouch.com.
+
+**Troubleshooting Steps:**
+1. Verify that the monitor is entirely connected to the power source.
+2. Confirm that all cables, including BNC/D-SUB, are securely inserted.
+3. If problems persist, disconnect from the AC outlet, turn off the monitor, and then utilize the RESET button.
+4. To address ghosting issues on CRT or LCD monitors, ensure the monitor is turned on continuously for an hour.
+  
+**Cleaning Instructions:**
+- Power down the touch monitor and disconnect it from the AC source before cleaning.
+- Clean the monitor using a soft cloth; avoid using harsh cleaners or scouring pads.
+- Utilize ammonia-free cleaning solutions if necessary.
+- For effective cleaning, lightly dampen the cloth and wring it out before wiping the monitor. 
+
+**Safety Notes:**
+- To reduce the risk of electric shock, ensure a proper connection using a 3-wire cord with a grounded outlet.
+- Unauthorized repair or modification may void the warranty.
+
+### Native LCD Touch Monitor Specifications
+
+The LCD monitor's capabilities are tailored for various resolutions, ensuring proper vertical alignment of SVGA and XGA inputs. When mismatched, artifacts may appear, affecting display quality. 
+
+**Technical Specs:**
+- The monitor supports various resolutions with characterized performance metrics:
+  - Active TFT LCD with useful brightness specifications and color settings.
+  - Supported connections include DB9 for touchscreen interfaces.
+
+### Warranty Information
+
+The manufacturer warrants that the product will be free from defects in materials and workmanship. Warranty duration and coverage details will be specified in writing.
+
+**Warranty Claims:**
+- Claims should be communicated within thirty days of defect discovery. The manufacturer will inspect and address valid claims.
+- Warranty coverage may include repair, replacement, or credit for the purchase amount.
+- Additional limitations and conditions may apply, excluding liability for special, indirect, or consequential damages.
+
+For any inquiries or warranty claims regarding the LCD touch monitor, please contact the support team.
+

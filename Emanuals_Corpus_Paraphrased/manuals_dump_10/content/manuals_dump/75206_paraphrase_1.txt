@@ -1,0 +1,170 @@
+**Professional Platform Customer Technical Service**
+
+**CONTENTS:** This document contains relevant information regarding user interface and service details.
+
+**PROJECT REFERENCE:** ONE  
+**AUTHORS:** F.  
+**CONTRIBUTION BY:**  
+**DOCUMENT HISTORY:** Author: AOS ONE Service ENG  
+**Copyright Professional P.1/31**  
+
+**ELECTROLUX ZANUSSI ALPENINOX PROJECT ONE OVENS Service**  
+**PROJECT ONE OVENS Service ENG**
+
+---
+
+**Professional Platform Customer Technical Service**
+
+**INDEX:**
+- Programming Default Parameters
+- Advanced Programming ................................................5
+- By-pass Calibration (Only for Level B, Not Applicable for Level C) ............................6
+- Lambda Probe Calibration (Only for Level Ovens)
+- Cavity Offset Calibration (Applicable for Level A and C Ovens) ........................8
+- Error Codes ............................................................8
+- Firmware Release .................................................9
+- Working Temperatures ...........................................9
+- Service Utilities .....................................................10
+  - Utilities Available with Oven On
+  - Utilities Available in Parameter Programming
+  - Recipe Menu Language Selection (Level A)
+  - Cleaning Cycles (Level A) ....................................12
+- Gas System ............................................................13
+- AS Valve Offset Pressure Calibration
+- Using Manometer for Offset Pressure Measurement
+- Microprocessor Board Replacement
+- Appendix: Water Boiling Point ..................................19
+- Appendix: Contactors Diagram Level C, A, and B .......20
+- Appendix C: Connections on Main Board (Level A) ....20
+- Appendix: Lambda Probe .........................................24
+- Parameter Descriptions
+
+**Copyright Professional P.2/31 AOS_Q OVENS Service ENG**
+
+---
+
+**Professional Platform Customer Technical Service**
+
+**APPENDIX:**
+- Water Treatment
+- Connection to HACCP System
+- Relay Descriptions ................................................30
+
+**Copyright Professional P.3/31 AOS_Q OVENS Service ENG**
+
+---
+
+**Professional Platform Customer Technical Training Service**
+
+During this phase, engage the service. To do this, press the relevant service buttons. Release the buttons and let the system cycle off automatically.
+
+**Copyright Professional P.4/31 AOS_Q OVENS Service ENG**
+
+---
+
+**Professional Platform Customer Technical Training Service** 
+
+To access advanced settings, engage the appropriate buttons. After pressing the buttons, release them while the service status is displayed.
+
+**Copyright Professional P.5/31 AOS_Q OVENS Service ENG**
+
+---
+
+**Professional Platform Customer Technical Service**
+
+(Only for Level B, to access by-pass, follow these steps: engage the relevant service buttons and press START. Release the three buttons and monitor the preheating to ensure successful by-pass calibration.)
+
+**Copyright Professional P.6/31 AOS_Q OVENS Service ENG**
+
+---
+
+**Professional Platform Customer Technical Service**
+
+When operating with humidity adjustments, ensure the correct parameters are met. Initiate the by-pass calibration and observe the readings, especially for the cavity's moisture levels.
+
+**Copyright Professional P.7/31 AOS_Q OVENS Service ENG**
+
+---
+
+**Professional Platform Customer Technical Service**
+
+Ensure compliance with 230V AC input and verify the PCB integrity. Monitor cavity offset parameters as necessary and check other critical calibrations.
+
+**Copyright Professional P.8/31 AOS_Q OVENS Service ENG**
+
+---
+
+**Professional Platform Customer Technical Service**
+
+Various system alerts may appear during operation (e.g., cleaning phase warnings). Ensure the correct operational setup to facilitate effective cleaning processes.
+
+**Copyright Professional P.9/31 AOS_Q OVENS Service ENG**
+
+---
+
+**Professional Platform Customer Technical Service**
+
+During the operational phase, certain functionalities can be engaged by activating specific buttons. Ensure correct activation for cleaning and rinsing cycles.
+
+**Copyright Professional P.10/31 AOS_Q OVENS Service ENG**
+
+**Professional Platform Customer Technical Training Service Overview**
+
+The system operates with specific relay activations when buttons are pressed, triggering the designated phases (and/or C). Each activated relay corresponds to the energized equipment. For instance, pressing the relevant button activates the associated relay.
+
+**Appendix H**
+
+The system utilizes a switch mechanism for activating or releasing phases. Each button press results in a display of the corresponding 4-character code on the PCB, identifying various operational states categorized as "meat A" through "meat B" and various cavities.
+
+**Cleaning Protocols**
+
+The cleaning process is categorized into several phases, including:
+- **Soft Cycle Clean 1/SOFT A+C**
+- **Medium Cycle Clean 2/MEDIUM 2A+C**
+- **Strong Cycle Clean 3/STRONG 4A+C**
+- **Extra Strong Cycle Clean 4/X-STRONG 6A+C**
+
+During cleaning, the system's interface will indicate standby status along with ON-OFF controls, while audio feedback confirms actions taken.
+
+The system also includes a preheating function with specific hour counters for monitoring elapsed time, including counters for air heating. This process uses relays to manage the power supply based on input signals from the interface.
+
+**Power Control and Heating Mechanisms**
+
+The system employs a SIT type SIGMA AC blower, effectively circulating heat within the cavity. The control board utilizes pulse-width modulation (PWM) for operating heating elements and managing airflow. The detection of various operational states allows the machine to adjust accordingly to maintain optimal performance.
+
+**Calibration and Component Connection**
+
+Calibration procedures require careful adjustments via an offset screw, ensuring precise operation within the system's parameters. The main board features multiple connections supporting various functions, such as motor supplies, cavity heating, and thermal protection. 
+
+In summary, the Professional Platform Customer Technical Training Service encompasses a range of functionalities designed for robust performance, cleaning efficiency, and precise operational control, with clear guidance for setup and maintenance procedures.
+
+### Professional Platform Customer Technical Service Overview
+
+This document outlines the technical specifications and functionalities related to humidity management and heating processes. It details the microwave technology utilized within enclosed systems, including the analysis of microporous materials and protective coverings, heated by a heater starting at 300°C. 
+
+When subjected to this temperature, the 2B ions are released, necessitating an analysis of their interaction with other elements in the system. This setup exemplifies a specific ratio adjustment aimed at optimizing efficiency while incorporating a third component—highlighting a trend in the reduction of certain critical factors within the third-party apparatus. 
+
+### Thermal Protection and Control in Cooking Systems
+
+The technical service for meat cooking (model A, B) pertains to the regulation of cooking closure via an RS485 bypass under the AL1E activation for optimal thermal protection within the cooking cavity. Overheating safeguards are integral to the operation, ensuring characters corresponding to phases A and C of the injection process are monitored closely (e.g., CLt1, CLt2, CLt3).
+
+Moreover, pre-heating sequences are fine-tuned in relation to the RTC clock, ensuring optimal performance while alternating between gas and electric heating modes.
+
+### Control Parameters and Monitoring
+
+Critical parameters, including pulse width modulation (PWM) for steam and air circulation, are established alongside HACCP compliance. The system encompasses hour counters for steam generation phases and humidity compensations, ensuring precise control over preheating processes and efficiency in cooking operations.
+
+### Water Treatment Systems
+
+The document addresses water treatment configurations alongside a summary of nanofiltration technologies, underlining their relevance to maintaining optimal operating conditions within the ovens.
+
+### HACCP System Integration
+
+The specifications for electric ovens include detailed relay configurations related to fan motors, cooling systems, and safety contactors. Each component is methodically described to elucidate its function within the overarching control framework.
+
+### Relay Functionality
+
+A comprehensive list of relays outlines power supplies for fan motors, cavity humidity controls, steam management systems, and cleaning mechanisms. Each relay's role is defined to facilitate technical adeptness in managing both electric and gas oven functionalities. 
+
+This professional service documentation serves as a crucial resource for understanding and optimizing the operation of the AOS ONE ovens across various cooking and cleaning scenarios.
+

@@ -1,0 +1,79 @@
+### AM/FM Clock with Atomic Clock User Manual CKA1100
+
+**Website:** www.emersonradio.com
+
+**Safety Precautions:**
+To minimize the risk of fire or electric shock, ensure that the plug is fully inserted into the outlet without any blade exposure when not using an extension cord, receptacle, or other outlets. Avoid exposing the device to rain or moisture. Follow the safety instructions provided in this manual. Clean the device only with a dry cloth, and keep it away from heat sources such as amplifiers. Ensure all cords are arranged to prevent pinching and that the appliance is serviced only by qualified personnel. 
+
+**Warnings:**
+- **Risk of Electric Shock:** Do not open the enclosure.
+- **Caution:** To reduce the risk of electric shock, do not remove the cover, as there are no user-serviceable parts inside.
+
+**Product Overview:**
+Thank you for choosing the CKA1100 clock from Emerson Research. This clock synchronizes with the National Institute of Standards and Technology (NIST) atomic clock in the U.S., ensuring accurate timekeeping. The device automatically adjusts for Daylight Saving Time and can display the month and date. For any inquiries or issues, contact Emerson Research Customer Service.
+
+**Installation Guidelines:**
+Keep the unit away from direct sunlight and heat sources such as heaters. This device has been tested for compliance with FCC regulations concerning radio frequency emissions. If interference occurs, you may need to reposition the unit or consult a technician.
+
+**Setting Up the Clock:**
+- Unbox and set up the device according to the manufacturer's instructions.
+- Connect the AC cord to a 120V outlet. The device requires an uninterrupted power source.
+- The backup battery system ensures the clock retains time during power outages with 2 AA batteries (not included).
+
+**Control Overview:**
+Familiarize yourself with the controls and indicators:
+- **Control Panel:** Includes options for setting the time, alarm, snooze/sleep, volume, and radio band.
+- **Indicators:** Displays for battery status, alarm settings, and clock synchronization.
+
+**Atomic Clock Functionality:**
+This atomic clock receives signals from the WWVB transmitter in Colorado, allowing it to maintain accurate time throughout the U.S. Reception varies by location, especially in areas with high interference or surrounding obstructions. 
+
+**Placement Tips:**
+For optimal reception, position the clock away from interference sources and ensure the WWVB antenna has a clear line of sight to the signal. Adjust placement as necessary for reliable time function.
+
+If you have difficulty receiving the WWVB signal, consult the manual for troubleshooting steps. Following these instructions will help ensure your clock operates accurately and efficiently.
+
+### WWVB Signal Synchronization and Time Settings
+
+When the WWVB signal is activated, the clock receives data that includes the seconds and month. If the clock is set to Eastern Time, it does not interact with U.S. time zones. Ensure the correct time zone is selected, as follows: Central Time Zone, Mountain Time Zone, or Pacific Time Zone. The clock automatically adjusts to the selected time zone after power restoration. For accurate operation, the internal WWVB feature must remain active to synchronize time consistently, including switching between AM and PM formats.
+
+To synchronize the clock manually, press the DATE/MONTH and TIME buttons simultaneously. Adjust the month and date accordingly using the DATE/MONTH button, followed by the TIME/SECONDS button to set the time. If the AM/PM setting is incorrect, adjust as needed.
+
+### Synchronization and Reception
+
+The WWVB signal activates every hour to reduce interference, thereby improving reception quality. The clock will display the seconds when using the TIME/SECONDS setting. 
+
+### Alarm Settings
+
+The alarm feature allows you to select from various wake-up modes: wake to buzzer, radio, or both. Use the ALM or ALM buttons to adjust settings and ensure the correct time is set for activation. 
+
+### Listening to the Radio
+
+To use the radio, turn it on with the RADIO ON/OFF button. Adjust tuning and volume as necessary, then turn off using the same button.
+
+### Alarm Operation
+
+You can set alarms for either ALM1 or ALM2 by switching from OFF to BUZZER or RADIO. Set the alarm time using the hour and minute settings, and you can activate the snooze feature for a brief pause before the alarm sounds again.
+
+### Sleep Timer for Music
+
+The sleep timer can automatically turn off the radio after a set duration. Adjust the sleep time using the SLEEP button, selecting your desired duration.
+
+### Display Dimmer Control
+
+The brightness of the display can be adjusted using the DIMMER switch.
+
+### Care and Maintenance
+
+Keep the device clean by wiping it with a soft cloth. Avoid abrasive cleaners. 
+
+### Service Information
+
+For additional setup or operating assistance, contact customer service. Details for warranty claims and service facilities are provided in the warranty section.
+
+### Emerson Limited Warranty
+
+The warranty covers defects in materials and workmanship for the duration of ownership in the U.S. If repairs are needed, return the product with proof of purchase. This warranty is non-transferable and applies only to the original purchaser. 
+
+This limited warranty covers repair or replacement but does not include liability for incidental or consequential damages. You may have additional rights depending on your state, as some states do not allow limitations on implied warranties.
+

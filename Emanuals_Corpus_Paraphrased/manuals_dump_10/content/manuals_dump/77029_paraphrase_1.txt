@@ -1,0 +1,159 @@
+### VISUAL PRESENTER INSTRUCTION MANUAL
+
+#### IMPORTANT SAFEGUARDS
+
+Please adhere to the provided operating instructions to ensure safe operation. Retain these instructions for future reference. Ensure that cleaning is done safely, avoiding any cleaners that might cause damage. Water and moisture exposure should be strictly avoided, as they can lead to serious hazards.
+
+Follow the mounting instructions carefully, using only the recommended accessories to prevent overheating and other risks. 
+
+#### Power Supply and Grounding
+
+The device should only be powered using the specified supply type. Ensure that power cords are not pinched and are appropriately routed to prevent fire or electric shock. If there are any issues, do not open the casing; service should be performed by qualified personnel only.
+
+#### Heat and Electrical Safety
+
+Keep the device away from heat sources, including other products that generate heat. Avoid exposing it to moisture. 
+
+Warning: To prevent electric shock, do not remove the cover. There are no user-serviceable parts inside. Service should be handled by qualified professionals.
+
+#### Compliance Information
+
+This product complies with FCC Class B standards, providing reasonable protection against interference in residential settings. Users may be required to take appropriate measures in case of interference.
+
+Before usage, ensure it is positioned away from direct sunlight or heat sources. Maintain the environment within the 5°C to 40°C (41°F to 104°F) range.
+
+#### Storage and Operations
+
+Refer to the manual for part names, functionalities, and operational procedures, including RS-232C connections and troubleshooting tips.
+
+#### CONTENTS
+
+1. **Part Names and Functions**
+   - Overview of each component and its respective functions.
+  
+2. **Setting Up**
+   - Instructions on connecting and configuring the device.
+  
+3. **Operating Procedures**
+   - Guidelines for using various functions, including lighting adjustments and other settings.
+  
+4. **Troubleshooting**
+   - Common issues and solutions.
+
+5. **Specifications**
+   - Detailed technical specifications, including command formats and communication protocols.
+
+Ensure to follow each section carefully to optimize device performance and safety.
+
+**On-Screen Display (OSD) Functions Overview**
+
+**OSD Navigation and Options**
+
+The On-Screen Display (OSD) allows users to select and adjust a variety of functions using the [MENU] button on the front panel or a wireless remote. When engaged, the OSD presents a hierarchical menu structure. Users can navigate through this menu using the directional buttons and confirm selections with the [ENTER] button. 
+
+**Function Overview**
+
+1. **Top Functions:** 
+   - **White Balance (Auto/One-Push):** Automatically adjusts the white balance.
+   - **Iris Control:** Adjusts brightness settings. Users can switch between automatic and manual control.
+   - **Brightness Control:** Modulates overall brightness.
+   - **Edge Enhancement:** Improves edge definition for clarity.
+
+2. **Color Settings:**
+   - **Color/B&W Switching:** Allows toggling between color and black-and-white output for clearer text readability.
+   - **Text Mode:** Optimizes display for viewing text in black and white.
+
+3. **Memory Presets:**
+   - **Memory Options:** Users can save and recall settings automatically upon powering on.
+   - **Factory Settings:** Return to default settings if required.
+
+4. **USB Connectivity:**
+   - Connects via USB, allowing for data transfer from the PC or other USB-connected devices.
+
+**Operational Procedures**
+
+- **Setting Up:**
+  - Adjust the device layout as indicated, ensuring proper alignment and connections.
+  - Use the DVI and RGB connectors appropriately, following the assigned pin specifications for successful integration.
+
+- **Connecting Peripherals:**
+  - Ensure devices are powered off during connections to prevent malfunctions.
+  - Align the SD card properly to avoid electrical hazards.
+
+- **SD Card Operations:**
+  - When using SD cards, avoid sudden power loss to prevent data corruption. Recommended sizes are 128MB or 256MB.
+  - Manage the read/write functions through the OSD, making sure the SD is not write-protected before recording.
+
+This technical summary encapsulates the essential functions and operational steps associated with the OSD and peripheral connections, while preserving the original intent and details of the provided content.
+
+The front control panel or wireless interface can be used to format the SD card. To do this, press the [MENU] button to access the on-screen display (OSD). Select the formatting option and confirm by pressing [YES] on the front panel or remote. If you wish to cancel, press [NO]. When formatting the SD card, ensure it is inserted into the device. For further operations, connect the device to a PC via USB, making sure to use compatible software like ELMO TWAIN DS and ensuring the PC runs Windows 2000 (SP4 or later). Additionally, the USB interface should ideally be USB 2.0.
+
+For image shooting, you can adjust the settings using the OSD to rotate images as needed. While operating in different lighting conditions, use the front buttons to toggle various lighting effects, ensuring optimal visibility whether in bright or shaded areas. 
+
+The device allows for easy switching between different inputs, such as RGB, and provides multiple output options including DVI, composite video, and S-Video. Be cautious when switching inputs to ensure proper operation.
+
+Automatic focus functionality can be activated using the designated buttons, allowing for quick adjustments to the focus based on scene requirements or lighting conditions. 
+
+The iris settings can be modified to adjust brightness levels. Users can choose between open or closed settings and can save preferences to a memory option for easy recall.
+
+Optional LCD mounting is available for enhanced viewing. Ensure to connect the LCD to the appropriate video output using RCA cables for proper setup.
+
+For RS-232C communication, commands and responses are formatted in ASCII. The system requires that connections and commands are set up correctly to facilitate communication between devices. Only when commands are acknowledged correctly will the system execute the intended tasks.
+
+Overall, follow the specifications and commands outlined to ensure seamless operation and interaction with the device.
+
+### Function Commands
+
+- **DE II**: Function command for the SD
+- **SL II**: Function command for the SD
+- **SU II**: Function command for the SD
+- **SF II**: SD format command
+- **CA II**: Command for SD
+- **UM II**: USB switch command (Application)
+- **GM II**: Command for the RO
+- **AP (OFF) II**: Edge function (OFF)
+- **AW II**: High White switch
+- **CT (OFF) II**: Command for turning text (OFF)
+- **NP II**: Command to turn text on (ON)
+- **CB II**: Color/B&W selection (Color)
+- **LL (OFF) II**: Color/B&W selection (B&W)
+- **DF II**: Wireless and front operations (ON)
+- **QS II**: ROM information command
+- **QR II**: ROM acknowledgment (ACK) (OFF)
+- **SA (OFF) II**: Acknowledgment switch (ON)
+- **CR SC (OFF) II**: CR switch (ON)
+- **RS-232C ABOUT II**: RS-232C details
+
+### RS-232C Connection
+
+If the RS-232C is correctly connected, it will acknowledge transmission with the PC. Ensure secure connections with screws for proper operation.
+
+### Troubleshooting
+
+**Symptoms & Confirmation**: Check the following issues. If any abnormalities are found, please contact your point of purchase or branch office.
+
+- Ensure the device is correctly connected to the TV.
+- Verify the AC connection is active.
+- If the device doesn’t switch on, try toggling the power.
+- The device may only display black/white images upon startup.
+- If the device turns off immediately after powering on, turn it off, wait a few seconds, and turn it back on.
+- Dimming or unusual lighting effects may need adjusting.
+- Rapid light flashing suggests protection mode activation.
+- Ensure proper connection settings for PAL or NTSC formats.
+- Adjust the lighting intensity using the front or wireless controls.
+- Address issues with striped interference from external devices.
+
+### Specifications
+
+- **Power**: 12VDC (AC 240VAC)
+- **Power consumption**: 30W (AC included)
+- **Input types**: DVI, DVI-D 24P, RGB input, DSUB 15P, RS-232C 9P, USB memory interface, SD
+- **Video Output**: RGB DSUB 15P, RCA (NTSC/PAL), DIN 4P
+- **Shooting Specs**: Iris F2.8, Effective RGB 600TV or 450TV, with NTSC/PAL compatibility
+- **Text features**: Color/B&W selection, Edge recording options (SD, 9-splits, 16-splits)
+- **Lighting Specs**: High lighting (e.g., FPL9EX-N)
+
+### Additional Information
+
+Includes wireless remote batteries (R03, AAA), instruction manual, warranty card, USB, CIF LCD model (LM-5011N), and software CD-ROM, per EIAJ standards. Acknowledgments include compliance with VESA and SVGA specifications. All trademarks are property of their respective owners.
+

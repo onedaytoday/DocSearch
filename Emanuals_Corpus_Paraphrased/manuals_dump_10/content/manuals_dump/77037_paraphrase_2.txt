@@ -1,0 +1,73 @@
+# USER MANUAL: Touch 2401LM Touchmonitor SW200127
+
+This document may not be reproduced, transmitted, transcribed, or translated in any form without written permission from Touch Inc. The information provided here is subject to modifications without notice. Touch Inc. and its affiliates disclaim all warranties, including implied warranties of merchantability or fitness for a particular purpose.
+
+## Safety and Warnings
+To avoid a risk of electrical shock, do not open the back of the device. To minimize the risk, do not attempt to service the unit; service is to be performed by qualified personnel only. Uninsulated parts may pose a shock hazard. Ensure the device complies with applicable standards and that it is connected appropriately to reduce interference and ensure proper performance.
+
+### Electrical Connections
+Utilize a supply cord equipped with a protective earth connection to avoid electrical shock. The device is designed for continuous operation and should operate within specified temperature and humidity ranges.
+
+## EMC Compliance
+The Touch 2401LM Touchmonitor meets EMC standards as specified, including immunity to various forms of interference consistent with IEC and EN standards. The device is classified as "Ordinary Equipment" and complies with relevant safety and performance regulations.
+
+### Recommended Use
+The 2401LM Touchmonitor is intended for use in healthcare applications. It is the user’s responsibility to ensure compliance with local regulations and standards, including those set by the FDA.
+
+## Unpacking and Setup
+Upon unpacking the device, ensure that all included items, such as the TouchTools CD, DVI/VGA cables, USB cable, and power connector, are present. Connect the DVI or VGA cables firmly to their respective ports, and secure the USB connection.
+
+### Software Installation
+Install the necessary software using the TouchTools CD, which is compatible with various operating systems including Windows XP and WEPOS. Additional information and software can be downloaded from the official website.
+
+For any further queries or issues, please consult the user manual or contact Touch Inc. for technical support.
+
+### Mounting Information
+
+To mount the Touchmonitor, locate the top of the cover or the rear VESA mount with four M4 mounting screws. Use a screwdriver to attach these screws to the mounting interface, following VESA specifications: VESA MIS-D, C. For further details, refer to providers such as GCX and Ergotron.
+
+### Touchmonitor Operation
+
+To power the Touchmonitor on or off, simply press the power button once. The LED indicator will signal the status: orange for sleep mode and green when fully operational. It is essential to avoid unnecessary power waste; the device is factory-calibrated for optimal performance. Ensure the input settings match accordingly, and adjust settings as needed for recalibration and performance enhancement.
+
+### On-Screen Display (OSD) Functions
+
+The Touchmonitor includes a VGA graphics interface through the OSD. Use the OSD buttons to modify various parameters, such as brightness and sharpness. The OSD allows customization including selecting different color temperatures (9300K, 6500K, etc.) and adjusting the clock phase for optimal display. 
+
+### OSD Timeout and Language Selection
+
+The OSD will automatically close after a period of inactivity. Users can navigate between languages such as English, Spanish, and Polish, and select input types (VGA or DVI). Additionally, settings can be restored to factory specifications if needed.
+
+### Troubleshooting
+
+For troubleshooting, ensure the power supply is functioning correctly, and check the AC connection. If the LED does not light up, press the touchscreen to restore functionality. 
+
+### Safety Precautions
+
+To prevent electrical shock, use a grounded outlet for the Touchmonitor and avoid tampering with user-serviceable parts. Clean the screen using a soft cloth; do not use abrasive materials or solvents that might damage the display.
+
+### Compliance Information
+
+The Touchmonitor complies with several regulatory standards including FCC Class B for emissions and immunity. It has also been tested to meet CE requirements for electronic equipment. If interference occurs, reposition the device or adjust the connected cables accordingly.
+
+### Toxic Substances and Environmental Considerations
+
+The device conforms to regulations regarding hazardous materials, such as lead and mercury, as indicated by compliance with relevant directives. Proper disposal of the Touchmonitor in accordance with WEEE guidelines is recommended. 
+
+### Specifications
+
+- **Input Voltage**: 100-240 VAC
+- **Output Voltage**: 12 VDC, 3A
+- **Operating Conditions**: 0°C to 35°C, Humidity: 20%-80% (non-condensing)
+- **Storage Conditions**: -20°C to 50°C, Humidity: 10%-90% (non-condensing)
+
+For detailed specifications, visit the manufacturer's website.
+
+### Chapter: Warranty Information
+
+This chapter outlines the warranty terms for the Touchmonitors, which guarantees that the products are free from defects in materials and workmanship for a period of three years. If any issues arise, you must notify us in writing within thirty days of discovering the defect. We will then assess the product's condition and determine appropriate action, which may include repair, replacement, or credit toward the purchase of a new product. 
+
+Please note that this warranty covers only the specific conditions mentioned herein and does not extend to any other warranties, whether express or implied, including but not limited to merchantability or fitness for a particular purpose. 
+
+Any claims related to the warranty must be documented, and responsibility for related costs will rest with the customer until the product is inspected. Touch Inc. disclaims any liability for indirect damages arising out of or related to the use of the products. All warranty claims should reference the product's purchase order number and be directed to the appropriate department for processing.
+

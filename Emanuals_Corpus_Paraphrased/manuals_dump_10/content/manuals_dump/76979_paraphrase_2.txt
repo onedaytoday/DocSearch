@@ -1,0 +1,40 @@
+### Motion DSP
+
+**Notice:** The following information pertains to Motion DSP. The text and graphics are for reference purposes only and are based on proprietary specifications. All rights are reserved by Motion Inc., located in Massachusetts, USA. The content includes the document MAN-CAN305IG and its typical revision history, starting with the initial release in April.
+
+### DSP MAN-CAN305IG Overview
+
+This document introduces the DSP-based motion control as defined by the CAN in Automation (CiA) standards. It details the families of services and specifications relevant to the DSP motion control series, including objectives and key identifiers used for communication.
+
+**Objectives of LSS:** The LSS (Layered Service Specification) services are developed to enhance communication efficiency within the DSP system. Each service is identified by a unique COB-ID (Communication Object Identifier) which is integral to function.
+
+**LSS Abbreviations and Terms:** The document outlines essential abbreviations and terminology used in relation to the LSS and its identifiers to ensure clear communication between systems.
+
+### LSS Service Functions
+
+The LSS service encompasses essential functions and manages communication layers, utilizing DIP switches for service selection. The document specifies the hierarchical structure of the network and various service requirements, including physical address identifiers.
+
+### Command and Switching Services
+
+The services include a range of switch operations and synchronization capabilities. The document defines how specific services such as Switch Operation_Mode and Switching Services can be initiated. The NMT (Network Management) plays a crucial role in managing these services, ensuring that they switch effectively and maintain system integrity.
+
+### COB Communication
+
+The LSS services include commands based on COB identification. It is essential for user interfaces to align with these commands to streamline operations. The specifications include ranges for COB commands and essential parameters for ensuring coherent communication across devices.
+
+### Service Confirmation and State Management
+
+The document discusses mechanisms for confirming the successful execution of services, emphasizing the importance of status updates and error management. Various commands assist with transitioning between states, and there are provisions for remote service policies as needed.
+
+**Conclusion:** This document presents a comprehensive overview of the LSS services built around the CAN network standards, emphasizing the significant role of proper command structure and identifiers in maintaining effective function and communication across DSP systems.
+
+**DSP MAN-CAN305IG COB-ID Overview**
+
+The COB-ID Serial Number Low and High define the range of valid COB-IDs for the Control Service (CS) as specified by the CiA standards. The range includes the LSS (Layer Setting Service) parameters that must match the Product Code and Revision Number. This is crucial for the correct operation of the LSS service.
+
+The Revision Number Low indicates the lower limit of the Minor Revision Number applicable to the CS, while the Revision Number High denotes the upper limit.
+
+In scenarios involving the LSS, it's important to verify the type of LSS service in use. These services will interact with the corresponding COB-ID and require confirmation from the CS to ensure successful communication.
+
+To achieve full interoperability, it is recommended to differentiate between LMT (Layer Management Tool) and LSS services. The COB-IDs used for LSS should adhere to specified standards to avoid issues during local operations. Additionally, a time-out period is established for the LSS service to complete its function, and it is essential to adhere to this time-out to maintain proper service execution.
+

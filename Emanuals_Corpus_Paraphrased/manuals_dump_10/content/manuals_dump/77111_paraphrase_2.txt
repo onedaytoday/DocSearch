@@ -1,0 +1,146 @@
+### 2125C Touchmonitor Revision P/N ET2125C
+
+**TouchSystems, Inc.**  
+1-800-ELO-TOUCH  
+[www.elotouch.com](http://www.elotouch.com)
+
+**Copyright Notice**  
+All rights reserved. Reproduction, transmission, transcription, translation, or any form of dissemination without written permission from TouchSystems is prohibited. The information within this document is provided without warranty or guaranty of merchantability or suitability for a particular purpose. TouchSystems disclaims liability for any such information. TouchSystems, SecureTouch, AccuTouch, and MonitorMouse are trademarks of TouchSystems, Inc. Other trademarks are the properties of their respective owners.
+
+---
+
+### Table of Contents
+
+1. **Introduction**
+   - Safety Precautions
+   - Product Overview
+2. **Installation and Setup**
+   - Unpacking the Touchmonitor
+   - Selecting the Location
+   - Connecting the Touchmonitor
+   - Software Installation
+3. **Operation**
+   - Using the On-Screen Display (OSD)
+4. **Troubleshooting**
+5. **Technical Specifications**
+   - Touchmonitor Specifications
+   - CRT Touchmonitor PINOUT
+   - Refresh Rate Information
+   - Warranty Details
+
+---
+
+### Introduction and Safety Precautions
+
+Congratulations on acquiring your high-resolution CRT touchmonitor, designed for optimal user experience. This document contains essential information to help you make the most of your touchmonitor. Follow the guidelines provided for proper use and installation.
+
+#### Key Features:
+- 20-inch pitch CDT
+- Multiple refresh rates for superior quality
+- VESA DPMS and DDC1/2B compatibility
+- RS-232 and USB connectivity
+
+---
+
+### Installation and Setup
+
+1. **Unpacking the Touchmonitor:**
+   - Ensure the touchmonitor is turned upside down before removal.
+   
+2. **Selecting the Location:**
+   - Position the touchmonitor at least several inches away from other devices or heat sources.
+   - Ensure minimal light reflection on the screen.
+   - Maintain a height that reduces strain for viewers.
+
+3. **Connecting the Touchmonitor:**
+   - Ensure the touchmonitor and PC are turned off before making connections.
+   - Connect the touchscreen (RS-232) to the PC and secure with screws.
+   - Attach the power source to a grounded outlet.
+
+4. **Software Installation:**
+   - Turn on the system and install the touchscreen software from the included TouchTools CD-ROM.
+   - Follow the prompts for installation and ensure compatibility with various operating systems, including Windows NT.
+
+---
+
+### Operation
+
+Utilize the buttons below the touchmonitor screen to navigate the On-Screen Display (OSD). You can adjust display settings such as brightness and OSD functions by selecting options directly from the menu.
+
+#### Common Functions:
+- Reset OSD settings to factory defaults.
+- Adjust pincushion and linearity settings for optimal display alignment.
+- Manage color temperature settings for better image quality.
+
+---
+
+### Troubleshooting
+
+If you encounter issues such as out-of-range signals or improper connectivity:
+- Verify the touchmonitor is securely connected to the PC.
+- Ensure the graphics settings on the PC are compatible with the touchmonitor specifications.
+- If errors persist, consult the troubleshooting section or contact support.
+
+---
+
+### Technical Specifications
+
+For detailed technical specifications, including dimensions, refresh rates, and warranty information, refer to the appropriate sections within this document.
+
+---
+
+This paraphrase maintains the technical accuracy and meaning of the original text while providing a clearer structure and readability.
+
+### Touchscreens Overview
+
+Touchscreen technology can lead to user frustration during human-computer interactions, particularly for those lacking computer literacy. Users often struggle with learning to operate traditional keyboard/mouse setups, while touchscreen interfaces can foster more seamless information exchange. Touchscreens facilitate interactions, enhancing user engagement with the process. 
+
+#### Advantages of Touchscreens
+
+Touchscreens promote clarity, ease of use, and durability against scratches. They support quick hand movements, promoting fluid user interaction and improving selection efficiency. Touchscreens are versatile for various applications, including:
+
+- In-store information access
+- Lottery interactions
+- Interactive educational environments
+
+#### AccuTouch Touchscreens
+
+AccuTouch touchscreens utilize a five-wire resistive technology, providing exceptional touch sensitivity and fast response times. These screens are designed to withstand heavy usage and resist damage from wear and tear, making them ideal for point-of-sale terminals and employee-operated devices.
+
+### Touchmonitor Safety and Operation
+
+For optimal safety with touchmonitors, use a three-wire grounding cord to prevent electric shock. Ensure maintenance complies with the manufacturer's guidelines, and avoid tampering, which may void the warranty. 
+
+### Cleaning and Maintenance
+
+To clean the touchmonitor, use a soft, lint-free cloth without abrasive materials or harsh cleaners that could scratch the surface. 
+
+#### Regulatory Compliance
+
+The touchmonitor is compliant with various standards, including FCC Class B, CE directives, and TCO95 regulations. These standards ensure minimal interference and compatibility with other electronic devices.
+
+### Touchmonitor Specifications
+
+Touchmonitor specifications include various parameters such as mechanical properties, touch activation force, performance during operation, and chemical resistance. The products have been rigorously tested for durability and functionality.
+
+### Warranty Information
+
+The warranty guarantees that the product is free from manufacturing defects. Claims must be made within a predefined period following purchase. The remedy for any warranty breach is restricted to the refund of the purchase price, excluding any costs related to the replacement or installation of substitute goods. No additional warranties or liabilities apply beyond this agreement. 
+
+For more information, visit our website at www.elotouch.com.
+
+### Product Overview
+
+This document covers various aspects of the AccuTouch touchmonitor, including its touchscreens, brightness levels, construction, and chemical compatibility. It provides detailed specifications related to contrast and colors, emissions, and immunity from electromagnetic interference (EMI). 
+
+Key topics include:
+
+- **Expected Performance**: Insights into operational reliability and metrics.
+- **Technical Specifications**: Information on touch activation force and linearity.
+- **Safety Standards**: Compliance with industry regulations for touchmonitor safety.
+- **User Guidance**: Instructions for on-screen display (OSD) functions, including locking/unlocking features and troubleshooting tips.
+- **Component Information**: Details on refresh rates, rotation, and the longevity of CRT components.
+- **Installation Considerations**: Guidelines for selecting optimal locations for touchmonitor placement.
+
+Overall, this documentation provides comprehensive technical insights and guidelines to ensure effective use and performance of the AccuTouch touchmonitor.
+

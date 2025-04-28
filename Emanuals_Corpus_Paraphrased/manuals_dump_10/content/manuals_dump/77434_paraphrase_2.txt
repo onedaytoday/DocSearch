@@ -1,0 +1,121 @@
+**MILLENNIUM II or MAN-0076 April MAN-0076**
+
+**IMPORTANT INFORMATION**  
+This document is for informational purposes only. While every effort has been made to ensure the accuracy of the technical details, [Company Name] Inc. assumes no liability in connection with this information. Products or components may not be used or reproduced without the express written consent of [Company Name] Inc. The products are designed for high performance, with an expected service life of several years. Each unit is rigorously tested and inspected prior to shipment. To maintain optimal operation, please follow all provided instructions. If operating conditions necessitate redundancy, it is advised to implement those measures.
+
+[Company Name] Inc. offers a warranty on its products and workmanship for a period of months from the date of purchase. No implied warranties are recognized beyond those explicitly stated by [Company Name] Inc. For inquiries, please refer to the contact information and survey provided: www.net-safety.com/
+
+**TABLE OF CONTENTS**
+
+1. **Introduction to the Product: Transmitter/Controller**
+2. **Installation**
+   - Unpacking
+   - Mounting Options
+   - Wiring and Field Installation
+3. **Transmitter and Faceplate Description**
+   - Power Display Status LED
+   - Current Loop Measurement
+   - Access Options
+   - Menu Navigation
+4. **Monitoring and Outputs**
+   - Fault Monitoring
+   - Analog Output and Communication Protocols
+5. **Maintenance**
+   - Periodic Response Check
+   - Troubleshooting
+   - Spare Parts/Accessories
+   - Equipment Return Process
+6. **Appendices**
+   - A: ESD Sensitivity Information
+   - B: Resistance Tables
+   - C: Specifications for the Millennium II Transmitter
+
+**INTRODUCTION**  
+The Millennium II is engineered for continuous safety monitoring and transcends traditional performance standards. Its state-of-the-art technology enables rapid response for users in demanding conditions.
+
+**THE PRODUCT: TRANSMITTER/CONTROLLER**  
+The II model is designed for field mounting and can be integrated into enclosures or mounted in various configurations including direct and remote setups. The device can interface with relays and RTUs, maintaining the highest standards of reliability and performance.
+
+**MANUAL**  
+Each provided manual contains essential operational instructions and troubleshooting guidelines for optimal product performance. Ensure that connections comply with EN and IEC standards. The device is rated IP54 for environmental protection.
+
+**INSTALLATION SECTION**  
+Carefully unpack the device and inspect it for any damage. Mount it either directly or remotely based on your requirements. When mounting, ensure that you follow specified guidelines to maintain functionality.
+
+**WARNING**  
+Ensure all equipment is switched off during installation to prevent ESD-related issues. 
+
+**CONNECTION SECTION**  
+Refer to the product guidelines for proper wiring and connection configurations. Use shielded cables to minimize RFI and EMI interference.
+
+**FINAL NOTES**  
+Regular maintenance is recommended to ensure continued safe operation. Carefully select instrumentation and wiring to mitigate potential interference effects. Follow all installation and operational guidelines to maintain compliance with safety standards.
+
+**Remote Mounting and Connection Instructions for JP1 and JP2**
+
+To mount components remotely from JP1 and JP2, ensure they are appropriately placed on the board as indicated in the documentation. These connections are essential for Separation Warnings, requiring the respective terminals to be powered off before connecting wires. The following wiring instructions must be adhered to: connect the white wire to +Vdc (from the black earth) and terminals for RST Remote COM and 4-20mA outputs (CH1 and CH2), ensuring isolation.
+
+**Relay Operation and Buttons Functionality**
+
+The relays should be latched at the designated location via a typical push-button switch associated with RST and COM. Installation guidelines related to separation and mounting can be found in MAN-0081. The effective operation of wiring should be done using the appropriate AWG specifications. 
+
+For non-isolated and isolated configurations (per MAN-0076 II Inc), adherence to operational guidelines, including flameproof protections, is crucial. If used, refer to IPF-001 or the IP Instruction (MAN-0109) to ensure proper setups and protection from environmental factors.
+
+**LED Functionality and User Interface**
+
+The LEDs indicate operational status by displaying %LEL or PPM readings. If Disabled, ensure proper functioning by observing LED indicators. Various switch locations are available for operational adjustments, with LEDs reflecting options activated. The front panel displays options, including access buttons for non-intrusive operations, while three buttons facilitate navigation. 
+
+In terms of functional settings, follow the flow chart to select options, where each selection can be indicated by the respective switch position. Additional documentation provides clear guidelines on performance calibration, ensuring proper response on activation.
+
+**Relay Assignments and Fault Handling**
+
+Utilize the designated flow charts to manage relay assignments efficiently. The setup allows for flexible configurations—permanently managing CH1 and CH2 channels with relay options either in a latching or fault-relay state. Each relay's status can be viewed and modified using specified switches.
+
+When selecting relay assignments, the system will display the current configurations for RL1, RL2, and RL3 across CH1 and CH2. Ensure that assigned relays correspond to the specific readings required (LEL or H2S) as per operational parameters outlined in the documentation.
+
+**Conclusion**
+
+Adhere to the outlined instructions from MAN-0076 II Inc to ensure efficient and safe operations regarding remote mounting, relay configurations, and performance calibrations in your installations.
+
+Here's a technical paraphrase of your text:
+
+---
+
+The II Assignment includes multiple ALARM RELAYS (RL1, RL2, RL3) for monitoring specific points (CH1, CH2). The user can configure these relays to activate based on defined thresholds: Below-Below, Below-Above, and similar options. Depending on the application’s requirements, the user can choose how these relays function.
+
+To configure MODBUS addressing, options for parity include EVEN, ODD, and NO parity. Once activated, users can select conditions for testing relays, including defining parameters for notifications based on environmental conditions (refer to MAN-0093 for further details).
+
+Users can adjust the settings from raising/lowering thresholds, utilizing switch inputs for each corresponding relay. This includes selection for time configurations (year/month/day) and confirmation processes through dedicated operation switches.
+
+Self-testing mechanisms are built into the system to ensure continuous functionality of relays, providing alerts via LED indicators for different operational states or errors. A series of internal diagnostics checks relay performance metrics, allowing for immediate indication of faults such as voltage discrepancies.
+
+Communication protocols are facilitated through an RS-485 interface utilizing MODBUS RTU. Proper wiring configurations and terminations are necessary to maintain reliable communication between devices.
+
+It is advisable to verify the operational features periodically and document any anomalies for troubleshooting. Environmental factors at installation points must remain within specified limits to ensure optimal performance and adherence to safety protocols. 
+
+For any further assistance or repair needs, please contact your service provider and reference the necessary authorization details.
+
+--- 
+
+If you need any changes or additional clarifications, let me know!
+
+### A: Definition of Electrostatic Sensitive Device (ESD)
+
+An Electrostatic Sensitive Device (ESD) refers to equipment that can be affected by electrostatic discharge, which occurs when a charged object comes into contact with another. This can lead to immediate failure or erratic behavior of the device. To mitigate ESD risks, it is recommended to use grounded wrist or foot straps, put ESD protective measures in place, and ensure adherence to established procedures. Comprehensive training and education regarding ESD protocols should be provided to all personnel. For further details, refer to document MAN-0076 from Inc.
+
+### B: Relevant Guidelines
+
+Refer to MAN-0076 for detailed compliance when using AWG specifications.
+
+### C: Specifications for Millennium II
+
+The Millennium II device operates within the following specifications:
+- Voltage: VDC levels, including compliance with RFI and EMC standards (IEC requirements).
+- Power: Rated at 5W.
+- Environmental: Certified for temperatures from -55°C to +85°C and equipped with an IP/NEMA rating of IP67 or NEMA 4X.
+- Mechanical: Supports a maximum load of 5A at 60VDC/VAC, with isolation options available for HART and RTU protocols.
+
+The device complies with various standards, including FM CSA-C22.2, ANSI/ISA protocols, and EN61779 guidelines, ensuring IP54 protection rating in specific conditions. For devices designed for hazardous areas, specifications may include ratings for Class I, IIC, T5, ensuring a robust operational range. DNV certification also applies for environments with an operating temperature range of -40°C to +85°C, as noted in compliance documents.
+
+For further inquiries or product support, please contact MAN-0076 Inc. at the listed telephone number.
+

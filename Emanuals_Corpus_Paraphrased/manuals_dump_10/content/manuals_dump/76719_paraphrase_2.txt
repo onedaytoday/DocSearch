@@ -1,0 +1,27 @@
+**APPLICATION**  
+The ELK-982(K) features a DC power supply/battery system that supports a high amperage output. This design facilitates straightforward field installation.
+
+**INSTALLATION**  
+Mount the unit at the top right using the included hardware. Install the ELK-P624 power supply according to the provided instructions.
+
+**OPERATION**  
+The operational overview is displayed. The phone will remain functional while closed. The ELK-981 can be connected with this power supply. Specifications are available upon request.
+
+**TECHNICAL SPECIFICATIONS**  
+- **Location:** P.O. NC, USA  
+- **FAX:** [Contact Number]  
+- **Included Components:** ELK-982K, ELK-982, ELK-624 power supply, and ELK-1250 battery (ELK-TRG1640).
+
+**POWER SUPPLY DETAILS**:  
+- **AC Input:** 12V  
+- **DC Output:** 2.5A (Continuous 1A)  
+- **LED Indicators:**  
+  - Green: AC power ON / DC power ON  
+  - Red: AC power OFF / DC power from battery only.  
+  - If AC input is lost, the battery will provide power automatically, indicated by the green LED turning OFF and the red LED turning ON.
+
+The ELK-982 includes the battery wiring connections (JP1 ON, JP2 OFF).  
+  
+**MOUNTING INSTRUCTIONS:**  
+Utilize the mounting plate with washers and standoffs for secure installation.
+

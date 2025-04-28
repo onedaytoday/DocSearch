@@ -1,0 +1,32 @@
+The following provides an overview of the software and service procedures for the EMC CX300, CX500, and CX700 storage systems, specifically concerning Initial Service and the optional Navisphere 6.X Software.
+
+To begin, authorized EMC service personnel should ensure that the battery service procedure is completed for the EMC CX300, CX500, and CX700 systems, as outlined in the relevant document dated November REV A01. This includes configuring the Storage Processor (SP) LAN and switch connections accordingly.
+
+For successful service initiation, the EMC Navisphere 6.X software must be properly installed and functional with compatible systems such as AIX, HP-UX, IRIX UNIX, or NetWare. Ensure that the Java Runtime Environment (JRE) is obtained and installed, as per the EMC Navisphere 6.X Release Notes, to enable operation of the user interface (UI).
+
+Upon readying the EMC CX300, CX500, or CX700 systems for service, the following steps should be performed to validate the connection:
+
+1. Navigate to the network settings and select "New Network Connection." 
+2. Confirm the COM port specifications and settings for PPP (Point-to-Point Protocol) connections.
+3. Configure the TCP/IP settings, ensuring that IP address assignment and DNS settings are correct.
+
+During this setup, the system must receive proper parameters for the security settings, specifically authenticating communication to enable connectivity. As part of the process, any existing service configurations should be thoroughly checked, and any required adjustments should be made to ensure seamless operation.
+
+Once configurations are complete, initiate the communication protocols and validate connections through the EMC Navisphere UI, confirming that all parameters align with the documentation for both SP A and SP B systems.
+
+The final checks involve confirming the application of IP settings and ensuring that the security features of Navisphere are correctly initialized, which will provide a reliable operational environment for the EMC CX300, CX500, and CX700 storage solutions. If any discrepancies arise, adjustments should be made as needed until the systems operate fully according to specifications.
+
+The EMC CX300, CX500, and CX700 systems require you to select the assigned phonebook from the previous section. Click "OK" to access the complete NT setup. If you encounter the specified URL displayed on the screen, reconnect after a few seconds. If the system has restarted, refresh the browser using F5.
+
+Regarding the battery for the EMC CX300, CX500, and CX700: each system includes either a Storage Processor (SP) supply or a Battery Backup Unit (BBU). The write caching enhances I/O performance, and once the operation is complete, write operations are executed automatically. Refer to the factory settings for the battery specifications.
+
+For connecting the Optional Navisphere 6.X software: Follow the instructions for connecting to the SP LAN, as illustrated for the CX700. You will need the software shipped with the device and the RJ45 connector to establish the connection to either SP A or SP B.
+
+Regarding IP configuration: Specify the IP address for the SP rather than using PPP. For the installation of Navisphere SAN Copy or related software, use the provided CD-ROMs. The software should be installed according to the instructions, ensuring it is on each host connected to the SAN. Right-click on the software icon and select the necessary features from the install menu.
+
+As a security precaution, EMC highly recommends setting up Navisphere 6.X security, including network management settings. When connected to the SP, enter the IP address to which the SP is assigned, with the appropriate URL. This action allows you to access security features.
+
+For hardware connections, remove protective covers and connect the SPs to the shared LAN as shown, ensuring proper connections from the SPs to the host via the Host Bus Adapter (HBA). Refer to the provided diagrams for guidance on connecting the system components.
+
+Disclaimer: The information in this publication is provided "AS IS." EMC Corporation does not make any warranties regarding the content and disclaims any implied warranties of merchantability or fitness for a particular purpose. All software and technology referenced are the property of their respective owners.
+

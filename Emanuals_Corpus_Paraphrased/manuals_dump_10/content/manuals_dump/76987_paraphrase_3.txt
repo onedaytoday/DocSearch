@@ -1,0 +1,19 @@
+### ELMO ESD-CC1X Specifications
+
+The ELMO ESD-CC1X features RS-232 communication capabilities, enabling software-controlled backlighting for the LCD display along with various interface and protection functions. 
+
+**Connectivity Details:**
+- **Joy Connector:** RJ11
+- **Communication Protocols:** RS-232, RS-485
+- **Interface Rate:** Parity
+
+**Additional Features:**
+- **LCD:** Integrated LCD with RTC IC
+- **Power Supply:** DC 12V, 1A
+
+**Compatibility:** Designed exclusively for use with ELMO domes and multiplexers, compatible across multiple platforms.
+
+**Manufacturer:** ELMO
+**Location:** Brampton, Plainview, New York, L6T 3T6
+**Website:** [www.elmousa.com](http://www.elmousa.com)
+

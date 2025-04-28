@@ -1,0 +1,83 @@
+**ELSA ECOMO TM 22H99**
+
+Copyright © ELSA AG (Germany). Unauthorized reproduction, transmission, transcription, translation, or dissemination of this information is prohibited without the written consent of ELSA. The rights pertaining to the software, either in part or in full, are reserved solely for the purchaser in relation to its operation. ELSA AG has been certified for compliance with DIN EN ISO standards by the authorized TV CERT institute. The trademarks mentioned are the properties of their respective owners. ELSA AG, Germany, reserves the right to make technical modifications at any time.
+
+The ECOMO 22H99 is part of a premium range of ELSA products, designed to maintain exceptional quality standards, which is foundational to its reliability and appeal to professional users. This document covers various important topics regarding the product and is available for customer service around the clock. Details regarding products and services are found in the provided sections. 
+
+**User Guide Overview for ECOMO 22H99:**
+- **Features Overview**
+- **CE and FCC Compliance**
+- **Front and Rear Panel Functions**
+- **USB Functionality: Types and Setup**
+- **Troubleshooting Information**
+- **Warranty Details**
+
+**Introduction:**
+The ELSA ECOMO 22H99 features a microprocessor-based design capable of handling RGB signals (red, green, blue) from various sources including PS/2 and Apple II. It supports resolutions such as VGA, SVGA, and XGA (non-interlaced). The unit allows seamless interface with graphics boards, enabling users to enjoy reliable text and graphics rendering without requiring additional internal components.
+
+The microprocessor enables configuration adjustments and supports VESA DPMS functionality. The On-Screen Display (OSD) facilitates easy navigation of all operation functions, conforming to standards set by UL, CSA, and FCC, among others.
+
+**Compliance Information:**
+This unit complies with CE regulations as per the 89/336/EEC directive and is certified under FCC Class B standards. Installation should follow user instructions closely to avoid interference with other devices. If interference occurs, users are advised to adjust their setup according to the troubleshooting guidelines provided.
+
+**Front and Rear Panel Overview:**
+The front panel features various switches and buttons for precise control. Users can select their desired inputs (BNC or D-SUB) to connect the device to graphics sources. The rear panel includes necessary connectivity options for AC and USB inputs.
+
+**Understanding USB Functionality:**
+USB serves as a universal interface capable of connecting various peripherals. With USB integration, devices are automatically detected, simplifying the setup process and reducing the likelihood of connection errors. 
+
+**On-Screen Display (OSD) Navigation:**
+The OSD allows users to adjust settings like brightness, contrast, and various geometric parameters. Users can select settings using the buttons on the panel, and changes can be applied through the OSD interface.
+
+The ECOMO 22H99 is designed with reliability and ease of use in mind, ensuring users achieve the best performance from their hardware setup.
+
+### Function Overview of ELSA ECOMO 22H99
+
+The ELSA ECOMO 22H99 features various convergence adjustments, including **V-CONVERGENCE** for red beams, with specific controls for the top and bottom, as well as **H-CONVERGENCE** adjustments for left and right red beams. **MOIRE CANCEL** functionality is present, along with adjustable MOIRE CANCEL LEVEL for corner purity in four locations: top-left (TL), top-right (TR), bottom-left (BL), and bottom-right (BR). 
+
+**CLAMP PULSE POSITION** selects the video level, allowing options for 1.0V or 0.7V inputs. The **DEGAUSS** function removes impurities, while the **POWER SAVE** mode activates to conserve energy. The **OSD CONTROL LOCK** secures on-screen display functions and positions, and an **ALL RESET** option restores factory settings. The **GTF AUTO ADJUST** feature automatically optimizes settings, while **DIAGNOSIS** indicates status, along with options to select the display language.
+
+The adjustment settings include **CONTRAST**, **BRIGHTNESS**, and detailed color temperature controls with reset options. The horizontal and vertical size adjustments (H-SIZE, V-SIZE) can be modified, as well as phase and positioning adjustments (H-PHASE, H-POSITION, V-POSITION).
+
+Additional settings cover the precise tuning of display fidelity, including **PCC** (Phase Control Circuit) adjustments. Functions like **TOP-PCC** and **BOTTOM-PCC** allow fine-tuning at the corners, while **PIN-BALANCE** and **KEY-BALANCE** manage image balance adjustments. 
+
+The geometry settings encompass adjustments for both **H-CONVERGENCE** and **V-CONVERGENCE**, with respective functions to reset geometry to factory defaults. **TEXT MODE** toggles between sharp and smooth text reproductions.
+
+### Technical Specifications
+
+The ELSA ECOMO 22H99 operates under standard power parameters of 220-240V AC and requires a typical power consumption of 170W during USB operations. It features anti-reflective coating on CRT phosphors and supports a color temperature range from 5000K to 9300K. 
+
+The USB function serves as a hub compatible with universal USB commands for connectivity to downstream devices. Supported synchronization includes various formats, with distinct ports for D-SUB and BNC connections.
+
+A focus on ergonomics and optimal setup includes recommendations for fixture height and distance, as well as guidelines for cleaning to maintain performance. The use of the correct cleaning materials is advised to prevent damage to the screen.
+
+### Compliance and Connectivity
+
+The ELSA ECOMO 22H99 adheres to multiple compliance standards including CE, FCC, and TCO, and offers robust connectivity options. It facilitates seamless integration into existing setups and optimizes display performance through thoughtful engineering, including VGA and DDC configurations.
+
+The product supports devices through standard VGA pin assignments for bidirectional communication, ensuring compatibility across a broad range of systems, including Apple Macintosh setups.
+
+### Troubleshooting Guide for ELSA ECOMO 22H99
+
+**Identifying LED Issues**  
+Check if the LED is switched on. If you encounter the message "ATTENTION: NO SIGNAL," it may indicate signal loss. If "ATTENTION: SIGNAL FREQUENCY IS OUT OF RANGE" appears, verify that the video level isn't too bright or dim. Ensure the USB hub is properly connected and functioning. Confirm that the AC power is not disconnected and the BNC connections are secure. Additionally, verify if the switch function is activated.
+
+**Resetting Display Settings**  
+If adjustments are necessary, utilize the "GEOMETRY RESET" or "ALL RESET" options to recalibrate parameters such as H-SIZE, V-SIZE, H-PHASE, and V-POSITION to fit the full screen. If refreshing doesn’t resolve, check the USB connections and ensure they are intact.
+
+**Restraint Wires in CRT**  
+The thin wires inside the CRT serve as restraints, reducing vibrations. If there’s a phenomenon linked to these wires, further analysis may be required.
+
+### TCO Certification Information  
+Congratulations on your TCO'99 certified product! By choosing this, you are contributing to the reduction of environmental impact associated with computing products. TCO certification indicates compliance with rigorous standards set forth by organizations like the Swedish Confederation of Professional Employees and the Swedish Nature Conservation Society, which focus on minimizing hazardous materials and promoting recycling efforts.
+
+The TCO'99 aims to limit exposure to heavy metals such as bromine, lead, and mercury commonly found in electronic components. This ensures a healthier environment during product lifespan and upon disposal.
+
+### Warranty Information  
+The ELSA ECOMO 22H99 comes with a three-year warranty covering necessary repairs within warranty terms. If a malfunction occurs, initiate service through the ELSA warranty program. Repairs should be free unless outside warranty scope. ServiceDirect is available for streamlined repair processes, reducing downtime.
+
+### Reporting Malfunctions  
+For warranty issues, contact ELSA support with relevant details about your product and the malfunction. Warranty coverage entails adhering to operational guidelines, and specific exclusions apply. Purchasers should retain original receipts and proof of purchase for reference.
+
+Refer to the ELSA website or customer service for further information or clarifications regarding warranty services and technical support.
+

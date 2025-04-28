@@ -1,0 +1,90 @@
+**EMC Corporation Corporate Headquarters: MA 424-EMC2 EMC (DAE2) FC and ATA Hardware Reference P/N Rev A02**
+
+**Copyright Notice**  
+Published by EMC Corporation in February. The information in this document is presented "as is." EMC Corporation makes no representations or warranties regarding its accuracy, including implied warranties of merchantability or fitness for a specific purpose. Permissions for copying and distributing EMC software, including Navisphere, Access, PowerPath, and SAN Copy, remain the property of their respective owners.
+
+**Regulatory Notices**  
+This equipment complies with FCC requirements concerning interference, including any interference encountered during its operation. Testing with shielded components confirms compliance with Class A regulations of the FCC and ICES-003 NMB-003 Declaration of Conformity CE, in line with Community Council Directives 89/336/EEC, 73/23/EEC, and 98/68/EEC. It adheres to standards EN55022, CISPR22, and AS/NZS Class A.
+
+**DAE2 Overview**  
+This document provides information about the DAE2 system, which includes both DAE2 and DAE2-ATA, focusing on topics such as operation, servicing, and technical specifications.
+
+**Related Documentation**  
+The EMC Library contains associated resources including FC Hardware, FC Core Software, and equipment preparation guides such as P/N for the 40U and 19-Inch NEMA racks. Care should be taken when dealing with hazard-related warnings.
+
+**Warnings and Cautions**  
+Service should be performed only by trained personnel to minimize risks of electric shock. Disconnect power supply cords before servicing. Take precautions when handling components, especially those containing LSI and VLSI technology.
+
+**DAE2 Product Information**  
+The DAE2 is a high-performance, high-capacity system utilizing FC-AL as its primary interface and is compatible with various EMC models. The system is designed to be rack-mounted and includes components that ensure cooling and power management, all of which are field-replaceable.
+
+**Lighting Indicators**  
+The front panel displays LED indicators for system activity, operational status, and system identification that assists in maintenance and troubleshooting.
+
+**Field Replaceable Units (FRUs)**  
+Components such as power/cooling cards are designed for easy replacement, ensuring minimal downtime. The document details the necessary connections for integrating DAE2 with other devices and systems to ensure proper functionality.
+
+For further assistance or information regarding EMC services, customers are encouraged to contact EMC's dedicated service centers.
+
+### Supply/System Cooling Overview
+
+The Supply/System Cooling, which manages power and cooling for the integrated Activity/Fault systems, is designed with dual-blower functionality located within the DAE2 units. Each cooling supply is equipped with power-factor correction and an on/off switch. The supplies work in conjunction with each other and the associated LCC (Low-Current Control) switches, ensuring proper operation of the FRUs (Field Replaceable Units) during power-related tasks.
+
+The cooling system features dual blowers working in tandem. Should one blower fail, the operational integrity of the system is maintained by the others. There are three indicator LEDs for each power/cooling supply; they signify system status, where the rightmost LED corresponds to the supply's operational state. The cooling mechanism also integrates LEDs to indicate functionality and operational readiness.
+
+### DAE2 Specifications and Connectivity
+
+This section discusses the technical specifications and operational guidelines for the DAE2. The specifications include power input ratings, which define the internal capacity of the DAE2 in terms of voltage and type of interface (Fibre Channel or ATA). Proper cabling is essential to maintain balanced connections across all supplies.
+
+The cooling requirements for the DAE2 are dictated by its performance specifications, including cooling output measured in BTUs. High-performance connectors (HSSDC) are preferred to ensure reliable signal integrity.
+
+### LCC and Cable Management
+
+Interconnections among LCC and power supplies must adhere to specified guidelines to maintain operational consistency. It is crucial to note that each L-shaped mounting panel connects to a properly rated branch circuit to avoid overheating or damage.
+
+Installation notes highlight the importance of handling heavy components correctly to prevent mechanical damage. Users must follow safety protocols while managing the DAE2 in configurations that might include multiple units.
+
+### Operational Commands and Indicators
+
+An installation section elaborates on the setup of EA (Expansion Address) switches, allowing users to increment and configure units correctly. A series of commands are in place to guide users through the power-on process for each DAE2 unit while observing the status lights.
+
+### RAID Considerations
+
+In reference to the DAE2 and its RAID functionality, this document connects procedures to manage RAID configurations through EMC Navisphere software. Service information is included to help users troubleshoot and maintain system integrity.
+
+### Servicing and Safety Procedures
+
+Servicing of the DAE2 requires attention to the status lights located at the front and back of the unit, which provide critical information about unit health and performance. Proper observance of ESD (Electrostatic Discharge) precautions is recommended when handling FRUs to mitigate risks of damage.
+
+Emergency procedures are delineated for addressing ESD concerns, including the proper use of wristbands and work surfaces to discharge static safely. Clear guidelines for the removal of components ensure that no damage occurs during maintenance.
+
+### Conclusion
+
+All procedures concerning servicing the DAE2 prioritize protection against ESD and ensure compliance with operational guidelines. This structured approach promotes effective management and troubleshooting of the system while preserving the integrity of the hardware components.
+
+**Cautionary Measures for ESD Protection and DAE2 Servicing**
+
+When working with the DAE2 system, it is essential to wear a properly attached ESD wristband at all times. Follow industry-standard guidelines for electrostatic discharge (ESD) protection, ensuring that all components remain clean and static-free, and avoid direct contact with sensitive parts. When unlocking the DAE2, refer to the provided documentation and carefully follow the instructions to safely release the lock and detach components.
+
+**LUN Management Considerations**
+
+Take care not to transfer a bound Logical Unit Number (LUN) to another LUN, as all pertinent information concerning the binding should be maintained. Each LUN contains critical data that must not be altered.
+
+**Active Light Indicators during Servicing**
+
+If the active light on the DAE2 flashes, it indicates that the latch is engaged. If the light is steady, the latch can be safely disengaged. Follow the specified steps to ensure that components are static-free and correctly handled.
+
+**Removal and Reinstallation of LCC**
+
+When removing the LCC (Logical Control Card), perform gentle counterclockwise turns to release it securely. Ensure that the LCC is fully seated during reinstallation. It’s crucial to maintain the security of connections and handle all components properly to prevent damage.
+
+**Connecting and Switching the Power Supply**
+
+When managing the power/system cooling, ensure that the power supply is turned off properly to avoid overheating or accidents. Use designated procedures for turning off and on as described in the documentation, including operation within the specified time-out limits.
+
+**Technical Specifications Overview**
+
+The technical specifications of the DAE2 encompass input VA ratings, cooling factors, and interface connections. Each specification is designed to meet international standards for safety and performance, including compliance with directives such as EN, UL, and FCC. The environmental conditions, such as operational temperature ranges and airflow requirements, should also be observed for optimal performance.
+
+For a complete understanding of the DAE2 system and its components, refer to the detailed guidelines and technical specifications provided in the accompanying documents.
+

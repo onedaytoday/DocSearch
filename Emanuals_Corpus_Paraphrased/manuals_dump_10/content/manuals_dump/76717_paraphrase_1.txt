@@ -1,0 +1,34 @@
+### ELK-M1KPAS Arming Station Application Overview
+
+The ELK-M1KPAS is a user-friendly arming station designed for the M1 Family Platform, featuring indicators for "Ready" and "Armed" statuses. Its compact design makes it suitable for various environments, including offices, while minimizing expenses related to LCD screens.
+
+**Features:**
+- Blue/white backlit display 
+- Function access via M1/EZ8 using the 'RS-485' connection
+- Mounting hardware included
+
+**Specifications:**
+- "Flying Lead" Connector (included)
+- Color: White
+- Compatible with VDC systems
+
+The M1KPAS adheres to regulations set by the AHJ (Authority Having Jurisdiction) and must be installed correctly to ensure compliance. Specifically, it’s crucial to maintain proper installation and servicing to meet high standards. M1KPAS can be mounted alongside other units, suggested to use CAT5 or CAT6 cabling for optimal performance.
+
+**Installation Guidelines:**
+1. Ensure the control power is turned off before connecting any wires. Do not splice or connect wires with power on.
+2. Connect the red, white, and black wires to the corresponding terminals at the back of the M1KPAS. Securely attach the unit using mounting screws.
+3. The system must be properly terminated to function correctly. Make sure to engage the necessary jumpers (JP1, JP2) and avoid incorrect wiring.
+
+**Operation:**
+- To initiate arming, press and hold designated buttons for the specified duration.
+- Status lights indicate the device states: "Ready," "Trouble (Yellow)," and "Armed (Red)." 
+- Arming can be performed under various modes, including "Night" and "Vacation."
+
+**Troubleshooting:**
+- Should issues arise, check wiring connections, termination, and the status of the system indicators.
+- Follow the troubleshooting steps outlined in the operational guide.
+
+This arming station also offers the optional capability of allowing temporary force arming under certain conditions, which may be included in security protocols. 
+
+**Note:** For comprehensive instructions on operation, installation, and troubleshooting, refer to the provided manual or consult technical support.
+

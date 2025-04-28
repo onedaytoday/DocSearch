@@ -1,0 +1,61 @@
+**Touchmonitor LCD Touchmonitors L/17 Revision/N**
+
+**Copyright Information**  
+All reproduction, transmission, transcription, or translation rights of this document are reserved by TouchSystems. The contents herein are provided without any warranties of merchantability or fitness for a particular purpose. TouchSystems retains the right to update this publication and the information it contains without prior notice. References, such as SecureTouch, AccuTouch, and MonitorMouse, are registered trademarks of their respective owners.
+
+**Product Precautions**  
+Congratulations on your purchase of a touchmonitor. This device uses LCD technology to enhance the interaction and performance of information flow. Please adhere to the guidelines provided in this manual regarding the setup of the LCD Touchmonitor SXGA TFT, which features: 
+
+- Direct RGB or RGB (1749L only)
+- 16.2M (1746L) or 16.7M (1749L) colors
+- Refresh rate specifications
+
+**Chapter: Introduction**  
+This section details the product specifications and setup instructions.
+
+**Unpacking the Touchmonitor**  
+This chapter covers the unboxing of the LCD touchmonitor and associated software. Ensure the following components are included:
+
+- Touchmonitor Unit
+- Front-Mount and Rear-Mount hardware for the 46L 1749L model (1749L shown)
+
+**Attaching the Monitor**  
+Utilize a screwdriver to secure the touchmonitor to the mounting system using the integrated M4 threaded VESA mounting holes located on the back. Use four screws to complete the installation.
+
+**Touch Interface Precautions**  
+Before connecting the touchmonitor to the PC, ensure both devices are powered off. The touchmonitor supports RS-232 and USB connections (for Windows XP only). Follow the embedded instructions for proper connection methods.
+
+- **Step 1**: Connect the video output (DVI-I or appropriate connector) from the PC to the touchmonitor.
+- **Step 2**: Connect the touchscreen interface using either RS-232 or USB ports, ensuring proper insertion.
+- **Step 3**: Attach the OSD remote interface to allow operation of the touchmonitor functions.
+- **Step 4**: Finally, connect the power cable to the touchmonitor, followed by plugging into an AC source.
+
+**VESA Mount Requirements**  
+For optimal mounting, ensure compatibility with the graphics card output (recommended). The touchmonitor complies with the VESA Physical Mounting Interface (FPMPMI) for secure installation. Motion can be utilized with various mounting systems found on the back of the device.
+
+**Software Installation**  
+The accompanying software is located on the provided CD-ROM and supports various operating systems, including additional details for Windows XP and NT.
+
+**Installation Instructions**  
+If the touchmonitor is required for operation on an older platform like MS-DOS, precise steps must be followed from the software's CD-ROM.
+
+**Ensure Proper Operations**  
+After installation, the On-Screen Display (OSD) allows for adjustments and fine-tuning for optimal performance. Users can restore factory settings or customize performance settings using the remote OSD controls to manage functions like contrast and brightness.
+
+**OSD Functions Overview**  
+The remote OSD interface enables easy navigation and adjustments to display settings. With options to select input sources, adjust brightness, contrast, and color calibration, users can optimize their touchmonitor experience efficiently.
+
+Please consult the related sections for detailed operational guidance and features specific to your touchmonitor model.
+
+The following text addresses common issues with the touchmonitor's connections and functionalities, as outlined in the relevant chapters. If you experience problems with the I/O or OSD buttons on the touchmonitor, ensure that all connections, such as the VGA cable, are secure. Verify that the touchmonitor is properly connected to a power outlet.
+
+Adjust the refresh rates to align with the specifications of the LCD for optimized performance, with various input resolutions like VGA, SVGA, XGA, and SXGA available depending on the model. When using the touchmonitor, ensure that the input settings correspond to the LCD’s native resolution to prevent graphics artifacts.
+
+For safety and proper maintenance, turn off the touchmonitor before cleaning and use only a lightly dampened cloth. Avoid using solvents or abrasive materials directly on the touchscreen to prevent damage. The touchmonitor is designed to withstand certain environmental factors but should be operated under specific guidelines to maintain warranty coverage.
+
+The specifications for the touchmonitor include details such as its format, mechanical properties, and chemical resistance. The product adheres to various regulatory standards for electromagnetic compatibility and safety. Warranty claims must be reported within a specified time frame, and available remedies are limited to repair or replacement at the seller's discretion. 
+
+This text also describes the various functionalities and options available for connecting the touchmonitor, including compatibility with various operating systems and the technical specifications for optimal use.
+
+Operation includes the LCD On-Screen Display (OSD) functions, such as phase adjustments, format switching, product rear information, remote OSD saturation, and USB sharpness settings. It supports common resolutions such as SVGA, SXGA, and UXGA. Technical specifications encompass touch activation force, touch interference, and general troubleshooting for the touch monitor. The touch monitor adheres to VESA mounting standards and supports resolutions including VGA and XGA. For product specifications, news, press releases, and software information, visit www.elotouch.com or contact the USA headquarters at TouchSystems, Inc., CA, or ELO-TOUCH KG, D-85521 B-3010 Touch K.K, 2F TouchSystems, Inc., USA.
+

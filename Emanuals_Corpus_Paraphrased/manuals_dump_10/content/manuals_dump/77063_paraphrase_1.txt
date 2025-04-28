@@ -1,0 +1,79 @@
+**Touchmonitor and CRT Touchmonitors ET1X8XC-4SWA-1 Revision C P/N Inc. 1-800-ELOTOUCH www.elotouch.com www.elogaming.com**
+
+**Copyright Notice:** All rights reserved. No part of this document may be reproduced, transmitted, transcribed, or translated without written permission from TouchSystems. The information provided herein is subject to change without notice and does not imply any warranty, including implied warranties of merchantability. This document may contain references to SecureTouch and MonitorMouse, proprietary to TouchSystems, Inc., as well as other trademarks owned by their respective companies.
+
+### Chapter Overview
+
+**Introduction: Precautions:** This section details the product and the touchmonitor, including connection procedures, software installation, and specifications.
+
+**Touchmonitor Specifications:** Offers information on technical specifications, including pinout and preset tables.
+
+**Installation and Setup:** 
+- **Connecting the Touchmonitor:** Ensure both the monitor and PC are powered off during connection. Follow safety guidelines when connecting cables and ensure a proper earth ground.
+
+**Software Installation:**
+- Use the included CD for software installation. If the software requires prior installation, refer to troubleshooting instructions.
+
+### Operational Guidelines
+- **OSD Settings:** Access the On-Screen Display (OSD) to adjust settings such as brightness and geometry. 
+- The OSD includes options for calibration and troubleshooting display issues.
+
+### Troubleshooting:
+- Common errors include signal loss or display distortion, often resolved by checking cable connections and settings.
+
+### Touch Technology Overview:
+- Touchscreens used in this technology feature "touch-on-tube" capabilities, enhancing clarity and responsiveness while mitigating external interference.
+
+### Safety Regulations:
+- Proper grounding is crucial to prevent electrical shock. Use a three-wire grounding setup for safety and ensure compliance with electrical standards.
+
+This document supplies essential operation and maintenance information for optimal use of your touchmonitor. Always ensure adherence to safety and installation protocols.
+
+### Touchmonitor Specifications
+
+**Display Characteristics:**
+- Refresh Rate: 85Hz
+- Horizontal and Vertical Deflection: H: 300, V: specific values (not stated)
+- RGB Input: R.G.B. standard as per specifications
+- Non-interlaced Display: 85Hz with VESA DPMS and DDC compliance
+
+**Specification Details:**
+- Brightness and Contrast controls, along with Horizontal and Vertical rotation adjustments.
+- Supports On-Screen Display (OSD) and corner settings.
+- Compliant with DHHS, TV Standards, EMC, ICES-003, C-Tick, and VCCI regulations.
+
+**Touchmonitor Mechanics:**
+- More than X touch points available.
+- Activation force typically less than Y ounces; expected lifespan based on testing with specific layers and coatings.
+- The unit is sealed against splashes and tested against standards like ASTM D1003 for light transmission and chemical resistance.
+
+**Electrical Specifications:**
+- Grounding and pins configuration specified (e.g., VGA & NC).
+- The monitor is energy-efficient, conforming to VESA DPMS standards.
+- Power consumption noted for normal operation.
+
+### Regulatory Information
+
+**Compliance and Warnings:**
+- Product meets Class B requirements of FCC for minimal interference.
+- Only certified service personnel should perform repairs.
+- The monitor must be properly grounded to prevent electrical shock.
+
+**Interference Notices:**
+- Tested for compliance in the U.S., Canada (Class B), and EU (CE) regulations.
+- Recommendations provided for resolving interference issues, including repositioning the monitor or using manufacturer-approved cords.
+
+### Warranty Conditions
+
+**Warranty Scope:**
+- Products are warranted against defects in materials and workmanship for a specified duration.
+- The buyer must report issues within thirty days of discovery for warranty claims.
+- Remedies for warranty claims include replacement or refund of the product price.
+
+**Limitations:**
+- The warranty is exclusive and does not cover negligence, improper use, or any consequential damages.
+- No warranties beyond the stated ones are provided by the seller; liability is limited to refunding the purchase price.
+
+**Concluding Notice:**
+- The seller disclaims responsibility for any incidental costs related to warranty claims, and employees are not authorized to provide additional warranties beyond those stated.
+

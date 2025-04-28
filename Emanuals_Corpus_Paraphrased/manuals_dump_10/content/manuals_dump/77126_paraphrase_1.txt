@@ -1,0 +1,81 @@
+## ET 1725C/1726C and ET 1525C/1526C ELO Touchmonitor and CRT/AccuTouch Touchmonitors Revision
+
+**Revision Information:**
+Model Numbers: ETXX25C/26C-4XWE-3, ETXX25C/26C-7XWE-1  
+Manufacturer: TouchSystems, Inc.  
+Contact: 1-800-ELOTOUCH, www.elotouch.com  
+
+**Copyright Notice:**
+No part of this publication may be reproduced, transmitted, transcribed, or translated without written permission from TouchSystems, Inc. This document does not guarantee merchantability or specific rights to the publication. TouchSystems, Inc. and its subsidiaries reserve all rights, including those related to SecureTouch, AccuTouch, and MonitorMouse trademarks.
+
+### Contents
+- Introduction
+- Precautions
+- Product Overview
+- Touchmonitor Installation
+- Software Installation 
+- Troubleshooting
+- Technical Specifications
+
+### Introduction
+Congratulations on your purchase of a high-resolution touchmonitor, designed for optimal performance in data flow and interaction. It includes features such as a 14-inch CDT and 15.9-inch CDT display, multiple refresh rate support, VESA DPMS compatibility, and an RS-232 or USB interface.
+
+### Installation and Setup
+**Unpacking the Touchmonitor:**  
+Ensure you have all included items and follow provided instructions for software installation.
+
+**Selecting a Location:**  
+Position the touchmonitor at least 5 inches away from other electronic devices to minimize interference. Ensure that it is not subjected to direct light reflections to reduce glare.
+
+**Connecting the Touchmonitor:**  
+Always connect the touchmonitor while it is turned off. Securely attach the appropriate interface (RS-232 or USB) to the back of the PC. After connections are made, power on the touchmonitor.
+
+### Software Installation
+Follow the prompts on the provided CD-ROM for touchmonitor software installation and troubleshooting for various operating systems, including Windows XP and NT. For MS-DOS, follow specific DOS commands as outlined.
+
+### Operation
+Use the On-Screen Display (OSD) to navigate settings. Adjustments can be made at any time for brightness, contrast, and other parameters. The touchmonitor supports various adjustments including Pincushion Correction and H/V Synchronization.
+
+### Troubleshooting
+Common issues include 'NO SIGNAL' or 'SIGNAL OUT OF RANGE' messages, which may indicate connectivity problems. Ensure all connections are secure and that the graphic settings comply with the touchmonitor's specifications. 
+
+### Touch Technology
+Touchscreens enhance user interaction by allowing direct input, reducing the reliance on keyboard/mouse interfaces and enabling more intuitive data processing.
+
+For detailed configurations and definitions of technical terms, refer to the sections provided.
+
+### Touchscreen Overview
+
+The A-22 touchscreen utilizes a "touch-on-tube" technology that enhances the clarity and brightness of CRT displays while maintaining anti-reflective properties. It offers prompt performance and allows for multitouch capabilities, including two-handed interactions. This chapter outlines the touch monitor's operation and related safety information. 
+
+To minimize electrical shock, ensure the touchscreen monitor is connected via a three-wire grounding cord. This three-pronged cord must be plugged into a grounded outlet to avoid voiding the warranty. The grounding instruction is clearly marked on the unit. Users should not attempt repairs themselves. 
+
+### Safety and Maintenance
+
+Regular maintenance should be performed using a soft, lint-free cloth moistened with water. Avoid using harsh solvents or cleaning agents, as they may damage the monitor's surface. 
+
+#### Specifications
+
+- **Refresh Rate:** 85Hz
+- **Deflection:** Horizontal (H) and Vertical (V)
+- **Input Voltage:** R.G.B. VAC
+- **Color Capability:** VESA DPMS compatible with support for DDC 1/2B and 2B
+
+### Touchscreen Capabilities
+
+The active touchscreen is designed to withstand a significant number of touches and is resistant to various chemicals. The specification includes details on activation force and durability against wear from frequent use. 
+
+#### Connectivity and Power Information
+
+The touch monitor incorporates power-saving features compliant with VESA DPMS standards. 
+
+### Warranty and Liability Disclaimer
+
+The manufacturer's warranty covers defects in materials and workmanship for specific periods. Exclusions apply for unauthorized modifications or repairs. 
+
+#### Regulatory Compliance
+
+The product complies with FCC Class and CE directives, ensuring it meets established standards for electromagnetic interference and safety. 
+
+For more information on specifications or troubleshooting, visit our website at www.elotouch.com or direct inquiries to our support offices.
+

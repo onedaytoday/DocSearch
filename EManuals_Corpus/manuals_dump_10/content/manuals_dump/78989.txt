@@ -1,0 +1,135 @@
+Wireless VPN Router Wireless VPN Router V1.0 EVR100
+Introduction............................................................................................................................................................................................................6 Introduction..............................................................................................................................................................................................7 LED Considerations Wireless Installation.........................................................................................................................................9 Router.................................................................................................................................................................................15 VPN LAN............................................................................................................................................................................................................ DHCP........................................................................................................................................................................................................
+IP Static IP Address................................................................................................................................................................................... PPP Ethernet................................................................................................................................................................................ (PPTP).................................................................................................................................. (L2TP) Wireless.................................................................................................................................................................................................................56 Advanced................................................................................................................................................................................................ Security.................................................................................................................................................................................................... Protected (WPS)........................................................................................................................................................... Advanced................................................................................................................................................................................................ Firewall...................................................................................................................................................................................................................75 DMZ.......................................................................................................................................................................................................... of Service
+MAC IP URL Network Translation (NAT)......................................................................................................................................... Advanced..............................................................................................................................................................................................................83 Application Gateway (ALG) Universal and Quality of Service Routing................................................................................................................................................................................................ VPN.........................................................................................................................................................................................................................94 Profile L2TP
+DNS (DDNS)..................................................................................................................................................................126 Firmware...........................................................................................................................................................................................129 Back-up.............................................................................................................................................................................................130 FCC Interference IC Interference
+Notes Revision History First Release
+Introduction CD-ROM with and WIRELESS GIGABIT VPN ROUTER RJ-45 Ethernet LAN AC or Firefox or Software RJ-45 Ethernet Based (ADSL or OS or based operating with Network function
+EVR100 2T2R Wireless 11N VPN Router that to and than EVR100 with throughput and performance and wireless Introduction There's built-in Switch to wired-Ethernet together. The Router function together and whole high-speed or DSL With easy to the WPS function, users to to wireless with
+LED LED Lights when WPS initialized. Lights when Wireless activated. when LAN Lights when wired network to RJ-45 when RJ-45 Lights when ON. LAN
+This section through the process. of the EVR100 to The operating of wireless to of the that the wireless through. to that the that the These the thickness and location of walls, or other reception and performance. the such as closet, or Considerations Wireless wireless wireless the through or such Building or as and wireless the of and the and other to Each or reduce the strength, the the Interferences from other or that RF The microwaves, or
+Click and XP
+XP, [Network Network and then Network Network and then
+Right and Microsoft and Microsoft Networks, and (TCP/IP) If please them.
+Select (TCP/IP) and [Properties] Select IP and DNS automatically then [OK].
+the location conducting survey. the of the the DC-IN and the other the the of another Ethernet to WAN of the and the other of the Ethernet the LAN of the and another This the
+This section to the the web-based interface. Router IP Wireless Please wireless to the WIRELESS ROUTER. SSID Wireless Security the wireless SSID the characters of MAC Address. This found the and each
+and the IP If the LAN IP of the WIRELESS ROUTER, the IP The username and Once the username and the OK to the
+You the following successfully.
+Click to the Then Next to the
+Please the connected as the section. Select the
+The search the automatically. AP Router and selected automatically. If incorrect, please Others to The WAN type the WAN manually.
+There WAN service Please the from Service (ISP). If ISP assigned IP the Static IP assigned IP Gateway IP and DNS and Secondary DNS of ISP
+The IP automatically. the MAC and IP the MAC match. If ISP recorded the MAC of Ethernet LAN please only the with the This the AP Router MAC to the MAC The MAC to initiate the authorized MAC and the MAC to the ISP. IP The MAC that to to the ISP. MAC This optional. specified ISP
+ISP account username and PPP Ethernet You assign this service. (Optional) Service the ISP. The of MTU assigned to the ISP this username. PPP Ethernet
+(PPTP) PPTP ISPs.
+Select whether the ISP to Static IP or IP WAN Interface This optional. specified ISP PPTP WAN Interface The MAC that to to the ISP. MAC This optional. specified ISP ID assigned to the ISP The IP of the PPTP Service IP this username. PPTP the ISP. The of MTU
+(L2TP) L2TP ISPs.
+Select whether the ISP to Static IP or IP WAN Interface This optional. specified ISP L2TP WAN Interface The MAC that to to the ISP. MAC the ISP. The of MTU assigned to the ISP The IP of the PPTP Service IP this username. L2TP
+the Highest of security to used. the of wireless security to used. wireless achievable the security the Lowest or the security wireless the of wireless SSID
+the correct, and then to apply the
+VPN establish VPN easily. Please to VPN
+This of the of this The about the operating without or If this incorrect, please the the The The currently which information this and information this Application
+WAN and Secondary DNS assigned to the WAN and Secondary DNS The MAC of the WAN Interface. MAC to to the IP The WAN of the The WAN IP of the IP
+Whether the DHCP or Disabled. DHCP The LAN of the The LAN IP of the IP LAN The MAC of the LAN Interface. MAC
+The SSID (Network of the wireless to supported) ESSID The wireless WLAN The of wireless connected to this SSID. Associated this SSID. Security The MAC of this SSID. BSSID
+This allows to the LAN LAN
+The LAN of this IP The LAN IP of this IP LAN IP Enabled, the Tree LAN Tree
+DHCP The of the DHCP each IP to LAN Lease The DHCP IP to LAN DHCP The of IP of the DHCP to LAN IP The this LAN
+DNS assigned LAN There four LAN assigned the IP as the DNS DNS relayed to the DNS DNS The DNS IP assigned from ISP. From ISP The DNS IP assigned manually. DNS
+This shows the of the DHCP and allows to the IP allocated. DHCP
+The DHCP shows the LAN that allocated IP from the DHCP The that the allocated IP The MAC of the LAN interface. MAC The LAN IP of the IP DHCP Click this to the DHCP Table. Refresh
+the IP would to manually assign to MAC and to the to the You manually the IP that allocated to LAN associating the IP with its Static DHCP MAC
+This allows to the that the and activated deactivated. Click to entry.
+the of to or the Please 24-hour clock of the to or the The service the Service Assign to the
+This displays the of the or rebooted, the cleared. the to the Refresh Clear the Clear
+This allows to the of the Interface.
+The section allows to manually the WAN type and its related This shows the of the WAN
+The IP automatically. the MAC and the MAC match. IP If ISP recorded the MAC of Ethernet LAN please only the with This the AP Router MAC to the MAC The MAC to initiate the the authorized MAC and the MAC to the ISP.
+IP LAN assigned the DNS IP of ISP. From ISP The MAC that to to the ISP. MAC This optional. specified ISP the DNS IP manually. DNS assigned LAN There DNS
+If ISP assigned IP the assigned IP Gateway IP and Static IP DNS and Secondary DNS of ISP Static IP the DNS IP DNS Specify the DNS IP Secondary DNS Specify the gateway of Gateway Specify IP IP Assign IP Manually. IP
+ISP account username and PPP Ethernet
+assigned to the ISP this username. PPP Ethernet The user to manually to the ISP clicking the The only initiate to the ISP when there The with the ISP. You choose the that the router with the ISP. from LAN Select whether the ISP PAP or CHAP authentication. Select Authentication type You assign this service. (Optional) Service the ISP. The of MTU the type when then the from the ISP. Please specify the
+(PPTP) PPTP ISPs.
+Select whether the ISP to Static IP or IP WAN Interface This optional. specified ISP (PPTP) The MAC that to to the ISP. MAC This optional. specified ISP ID the ISP. The of MTU assigned to the ISP The IP of the PPTP Service IP this username. The user to manually to the ISP clicking the The initiate to the ISP when there The with the ISP. You choose the that the router with the ISP. from LAN the type when then the from the ISP. Please specify the Timeout:
+(L2TP) L2TP ISPs.
+whether the ISP to Static IP or IP WAN Interface This optional. specified ISP (L2TP) The MAC that to to the ISP. MAC the ISP. The of MTU assigned to the ISP The IP of the L2TP Service IP this username. The to manually to the ISP clicking the The only initiate to the ISP when there The with the ISP. You choose the that the router with the ISP. from LAN the type when then the from the ISP. Please specify the Timeout:
+The section allows to the Wireless Wireless This shows the of the Wireless
+Select Access or Wireless Distribution (WDS) or the wireless Select the of (Wireless Network would You to wireless SSID# Select the of wireless that the and allowed. (B+G+N) the the wireless around and the with the least interference. Enabled, specify the of the the wireless around the of wireless You to characters. SSID# Manually which the wireless
+Wireless Distribution (WDS) that and guaranteed. It recommended that the WDS created WDS to Access wirelessly, and wired to locations where cabling using the compatibility. or to that Access the WDS to Access that included the WDS. There To WDS please the MAC of the the and Security of four
+This allows to wireless It recommended the the with these Advanced
+the of the This function reduce the chance of when this too there increased performance. Threshold Advanced the than the RTS Threshold, then the without RTS/CTS which incorrect RTS Threshold The that the broadcasts beacon. This beacon to wireless the Traffic Indication informs wireless that the DTIM You the rates the and wireless (MCS) to Rate Short Preamble increases performance. that with the Preamble based increases compatibility. Preamble To used. whether each or Enabled, the performance slightly however the of greatly reduced. CTS Protection the of the wireless
+This allows to the wireless security Security Quality of Service which the that WMM to to to and background. WMM If Disabled, then the broadcasting the SSID. Therefore invisible to wireless Broadcast SSID Select the SSID that the security apply to. SSID Selection Security
+authentication to the encrypted wireless and the when WPA-PSK encrypted the WPA-PSK This than WEP, and security than WEP. If Wireless stations WPA-PSK, WPA-RADIUS This of WPA LAN to the WPA2-PSK This further of WPA-PSK, and offers security, encrypted using the WPA the AES (Advanced Encryption of This Access the You choose from WEP, WPA or WPA RADIUS. Each the WEP encrypted the WEP should WPA-PSK rather than WEP. input required. used. The to applied. If this option selected: the WPA Encryption wireless LAN. The authentication RADIUS This authenticates IEEE IEEE authentication Every user account to to this Access the the
+The IP of the RADIUS RADIUS IP Authentication The of the RADIUS RADIUS The RADIUS RADIUS
+WEP Encryption: Select the option, and the wireless the Please that wireless the authentication type. Authentication ASCII text (recommended) HEX advanced type WEP Encryption least the Encryption, the chars HEX and A~F). encrypted, the transmitted. You least the Encryption, the chars HEX and A~F). encrypted, using the transmitted. You Select the to the Transmitted ALWAYS encrypted the the other only. You the the or to the selected as required. The Encryption others optional.
+WPA Pre-Shared Encryption: Please that wireless the authentication type. Authentication Please that wireless the Select the WPA would WPA type WPA Pre-Shared Encryption If the from to characters length. Select whether would to the HEX or Passphrase Pre-shared Wireless the to the
+WPA RADIUS Encryption: the to the RADIUS RADIUS the to to the RADIUS Please that wireless the Select the WPA would WPA type the IP of the RADIUS WPA RADIUS Encryption RADIUS IP RADIUS
+This allows to to which wireless to this allowing the MAC the
+Wireless the MAC of the wireless that to allow MAC Enabled, wireless the Table allowed. the to or this Click this to the Wireless Access Click this and to the MAC and this allowed to the wireless the selected Selected MAC Table Un-tick selected
+WPS following the WPS and eases the of security-enabled the Protected (WPS) and office It reduces the user to and that to to and security.
+to the WPS WPS to the WPS WPS Protected (WPS) that WPS to authorize the and The SSID (wireless when using WPS. SSID Shows whether the WPS function or WPS wireless Protected Information the PIN of the wireless and this to WPS using the WPS PIN This the that the WPS process. It Passphrase wireless that WPS to to the wireless Click this to WPS using the WPS the the WPS process. Authentication PIN
+There to the WPS and WPS the WPS the WIRELESS ROUTER The LED light to to that the WPS WPS ready. While the LED flashing the WIRELESS ROUTER, the WPS wireless This physical or software the
+the of WIRELESS ROUTER This each or Please the of the wireless Please this to the WPS from the wireless information.
+This shows the wireless that to the WIRELESS ROUTER
+This allows to the each SSID (wireless Whether each wireless with each other this SSID. Allow wireless this SSID to the WAN which typically WAN Communication Wireless Whether wireless this SSID with to Disabled, the isolated from each other. the wired LAN Wireless and Wired
+The section allows to the and If service, the of Service and SPI Inspection) features This allows to the features.
+You choose whether to allow VPN to through the Firewall. Advanced
+If this allows the DMZ LAN to to users the DMZ The DMZ PC effectively the Firewall, to this reason, should only the DMZ If the DMZ please the IP of the PC to as the DMZ PC The DMZ PC Unknown and This allows to the when required.
+of Service of Service) type of that high amount of to with the to of Service the firewall to and these
+You choose whether to or Allow those the MAC to the MAC selected, the the MAC selected, the the MAC this to the MAC MAC to the Allow with MAC with MAC below to the MAC Allowed to the below to the
+You choose whether to or Allow, with those IP from Ports. IP You to knowledge of what the This to which the access.
+selected, the with IP specified to this to the IP IP with IP IP selected, the with IP specified Allowed only to the indicated the indicated below to the below to the Allow with IP
+You to the URL URL to the URL that includes
+The Advanced section allows to the Advanced of the router. Advanced This allows to the Network Translation (NAT) and Network features. The NAT to account with LAN users. Network NAT Network Translation (NAT) It Firewall to properly. throughput.
+of to allows to redirect there from the the below, there those it redirected to the LAN This the NAT and Firewall. that IP Select to apply the to TCP, UDP or Both of The IP of the the hosted IP or to this entry. The of that this to. this to the
+allows to redirect to LAN the below, there WEB to this to This the NAT and the LAN. security reasons, the Firewall. to the with the IP and Therefore then there from the to from the this then to the indicated Select to apply the to TCP, UDP or Both of The IP of the the hosted IP or to this entry. The that the the this to the IP
+or numbers, that they If which Wireless Router's firewall. function correctly they the these to This of with this to the Select whether the TCP, UDP or Both of outbound type Select whether the TCP, UDP or Both of inbound type Select the and to the This the outgoing (outbound) this These the inbound (incoming) this
+the of ALG to function correctly. If of the Application Gateway (ALG) please and to this
+The function allows and of It forwarding to the Firewall. Universal and this to the to allow to the the Universal and this to allow to their forwarding to the firewall without Allow users to forwarding through
+Quality of Service allows to the that the the or to If then the performance and of such as and amount of This to that enough this to function properly, the should first the and Service the Service the Service the to Allocation. the to Priority Priority the
+the High first. to High or The Priority The with this IP bound the IP High Priority Unlimited Priority Please specify the this the to High or priority. High Priority The type of
+You the amount of amount of that to whether the apply to that Download, or Both Choose whether this to the amount of allocated to this the IP of the that would the to apply to. IP or to the amount of this Select from this of to the related numbers. Please specify the this Each
+with then this If WIRELESS ROUTER connected Routing allow the to with each other. this to the Static Router Static Routing Static Routing the IP of the this IP and Gateway Specify the of the routing Select whether the routing to LAN or WAN interfaces. Interface the of the LAN IP the IP of the LAN. Destination LAN IP
+to IP to would the to that to (Router Interface Gateway Destination LAN LAN to (Router
+Network (VPN) or or protected VPN the It authentication to that the information to and from the EVR100 IPSec to Remote to and L2TP IPSec to VPN and the It security to the information from or VPN to If type to or L2TP cant this This displays the of VPN You of them to or the VPN manually.
+This allows to and VPN Profile Select and this to the entry. the to the VPN Click this to the entry. the selected Selected Profile
+IPSec Security) (IP) authenticating and encrypting each IP of IPSec includes establishing IPSec protecting flows of (host-to-host), of security (network-to-network), or authentication the of the and of cryptographic to IPSec security operating the of the It security and (network-to-host). the The allows to the VPN
+Supports IPSec and L2TP IPSec to establish VPN VPN Supports IP ID ID ID to and authenticate the VPN ID Supports authentication. Authentication Shared Confirm the Shared Shared Supports IP ID ID ID to and authenticate the VPN ID
+security to Security Association (SA) the of shared SA (Security Association) cryptographic and and SA such of SA RFC the Security Association and the to the This allows to SA. Select this option to IKE Phase of the VPN to this option to the IKE shorter amount of (Not Recommended Select or IKE Phase Phase of the VPN (Recommended SA (Security Association) IKE (Phase Select DH from the Group2 Group5 and Group14 the DH DH increases, the higher the of IKE Phase
+EVR100 DES 3DES AES128 AES192 AES256 through Encryption EVR100 SHA1 MD5 authentication. Authentication the VPN. the of seconds the IKE The of to establishing Select ESP Security or AH (Authentication through the ESP Security to confidentiality, authentication, integrity, anti-replay service of integrity), and AH (Authentication to and authentication IP and to protection replay confidentiality. IKE security (SA) with the The VPN. IPSec (Phase EVR100 DES 3DES AES128 AES192 AES256 through Encryption EVR100 SHA1 MD5 authentication. Authentication the VPN. the of seconds the IPSec The of to establishing Select PFS DH from the Group2 Group5 Group14 the DH Select or to or PFS (Perfect Secrecy). PFS IPSec security (SA) with the The DH increases, the higher the of PFS. security Perfect Secrecy
+This allows to the VPN and Network Security Gateway IP and Select of them. Security Gateway Network the (LAN) and Network the and The IP or of the VPN Security Gateway
+This allows to advanced VPN Advanced Advanced DPD Detection) to the VPN there detected. The Detection translation NAT. The VPN this and NAT allow IPSec from this to through the NAT VPN re-establish once through the to function properly the VPN.
+L2TP IPSec business to the while high of security to You this type of or office that to the L2TP IPSec You L2TP IPSec routers the ISP and creating The allows to the VPN headquarters. EVR100 IPSec and L2TP IPSec to establish VPN EVR100 authentication. Authentication Shared Confirm VPN the Shared Shared
+L2TP L2TP Select the authentication (PAP, CHAP, Select Authentication the username authentication. the authentication.
+Network the VPN IP IP Network Assign of IP The assigned IP should the IP network IP the the as DHCP IP
+You to VPN easily. Click Next to the the VPN then Next to
+You or [L2TP this then to If [L2TP then Next to If then to If to You to or to this then Next to IPSec
+the Security Gateway and Then Next to
+the username, and VPN IP Then Next to L2TP IPSec
+the the VPN successfully, this immediately. If this the Then Apply to apply the
+to establish L2TP IPSec VPN XP Click and Click [Network [New then Next button.
+Select to the workplace] then Next Select Network then Next
+the then Next button. Select the then Next
+the VPN IP then Next Select then Next
+Click to the Click Properities
+Security, [Advanced then [Unencrypted (PAP)] and Authentication (CHAP)] then OK
+Click [IPSec then authentication], the then OK [L2TP IPSec VPN] then OK button.
+Click to VPN You the VPN established.
+to establish L2TP IPSec VPN Click and Click Network and then or
+Click to then (VPN)] the VPN IP Destination and [Dont then the Next
+the and then the button. Click the to the VPN
+Click then VPN and of this and [Unencrypted (PAP)] Security. of VPN to with IPSec
+authentication] and the Then OK Click the Advanced and preshared
+the VPN then the You the VPN established.
+This section allows to This allows to the and to the New You from the specified IP to allow the to to the New to Remote
+This allows to the the of the Network (NTP) to with NTP whether to Daylight Select the location. Select the to the the
+with the It allows This service when DNS (DDNS) This the of to to IP With IP IP whenever which to to URL, rather than IP Address. The Wireless Router then that IP recorded the DDNS service the Service to DDNS the DDNS and the DDNS You the service of the DDNS Service DDNS Services as follows: From the users to to (or DMZ PC) using as shown this Select the of DNS to from this Address: this to the DDNS DNS DNS the and of DDNS account.
+This allows to or the wireless LAN features.
+This allows the WIRELESS ROUTER active the IP to to The of the
+The (software) the WIRELESS ROUTER To the The Wireless Router the process, and when the completed. to or through the Wireless Router Click the and to the location of the Select the Its appear the field. Click the Apply to the firmware
+the to the to factory to factory Click to the Then to the
+to force the to
+FCC Interference reasonable protection interference This and and, This tested and found to with the Class to of the FCC These to and with the instructions, interference to there that Communication Interference interference installation. If this interference to or reception, which turning the off and the to try to the interference of the following the outlet from that to which the connected. Increase the the and receiver. or the This with of the FCC to the following This interference, and this interference received, including interference that operation. the or technician FCC or the the authority to this
+IMPORTANT NOTE: This with FCC forth This should and operated with This or operating with other or that the CH1~CH11 specified the USA. the FCC Radiation
+IC Interference This interference, and this interference received, including interference that This with RSS-210 of the Industry to the following Industry operation. This to with of higher strictly prohibited regulations of This with IC forth This should and operated with Industry The ohms. the Radiation IMPORTANT NOTE:

@@ -1,0 +1,64 @@
+**Touchmonitor 1215L LCD Touchmonitor Revision Document**
+
+**Model Information:**  
+LCD Model: ET1215L, Revision P/N E378269  
+Copyright Notice: This document may not be reproduced, transmitted, transcribed, or translated without written permission from the copyright holder. The information provided herein comes with no guarantees, including implied warranties of merchantability or suitability for any purpose. Revisions or acknowledgments related to this document are managed by TouchSystems, Inc., known for trademarks such as AccuTouch, AT4, CarrollTouch, MonitorMouse, and SecureTouch.
+
+### **Introduction to Product and Warranty**
+
+The Touchmonitor features a 12.1-inch SVGA LCD with advanced thin-film-transistor (TFT) technology, ensuring optimal performance and compatibility with VGA and non-interlaced SVGA cards. It conforms to VESA DPMS standards and supports DDC1/2B. The unit includes an optional wall-mounting feature and advanced On-Screen Display (OSD) capabilities.
+
+### **Unpacking Instructions**
+
+Upon unpacking the touchmonitor, ensure you have all included components: the LCD unit, VGA and USB cables, a Quick Start CD, and installation CDs for software setup.
+
+### **Installation and Setup**
+
+To connect the touchmonitor to your PC, ensure both devices are powered off. Connect either the touchscreen or USB cables (or both) to the rear of the monitor, securing connections as instructed. Tightening screws should be performed using a clockwise motion for grounding purposes.
+
+To install the software, the touchmonitor must be set up accordingly to facilitate plug-and-play functionality with compatible operating systems, including Windows XP and NT. Follow the burning instructions provided within the accompanying software CD.
+
+**Note:** Verify the CD-ROM is active and properly connected to follow installation prompts, including selecting the necessary directories during setup.
+
+### **Operation Instructions**
+
+The OSD functions can be accessed via designated buttons on the monitor, allowing users to adjust settings like brightness, H-position, and clock phase. Selection of OSD items can be made using specified buttons for efficient navigation.
+
+### **Troubleshooting**
+
+In cases of display issues or operational discrepancies, reference the appropriate chapters for guidance on resolution techniques and recommended configurations.
+
+For further information on product specifications, operational guidelines, or troubleshooting methods, please consult the detailed sections provided in the manual. Always handle the unit following safety precautions and ensure proper grounding to avoid electrical hazards. 
+
+This document serves as a comprehensive guide for effective usage and maintenance of the Touchmonitor 1215L LCD Touchmonitor.
+
+### Touchmonitor B-28 Maintenance and Specifications
+
+#### Maintenance Instructions:
+To maintain the touchmonitor B-28, ensure it is disconnected from the power source before cleaning. Use a soft cloth and avoid any harsh chemicals or abrasive materials, as they may scratch the touchscreen. If service is required, contact a qualified technician instead of attempting repairs yourself.
+
+#### Technical Specifications:
+- **Model**: ET1215L LCD TFT
+- **Resolution**: 246 (H) x 184.5 (V)
+- **Pixel Pitch**: 0.3075 (H) x 0.3075 (V)
+- **Input Compatibility**: VGA, SVGA
+- **Brightness**: Typical values at Tf: 262K
+- **Color Depth**: R.G.B. TTL or Negative
+- **User Controls**: OSD controls for contrast, brightness, phase, clock; available in English and Spanish.
+
+#### Touch Technology:
+- **Touch Technology**: Optional AccuTouch, IntelliTouch, Capacitive
+- **Power Supply**: AC 100-240V
+- **Operational Temperature Range**: 0°C to 50°C (32°F to 122°F)
+
+#### Compliance and Certifications:
+Meets safety and quality standards from TUV, UL, C-UL, FCC-B, CE, VCCI, and MPR-II.
+
+#### Warranty Information:
+This product comes with a three-year warranty against defects in material and workmanship. In the event of a warranty claim, notify the seller in writing within thirty days of discovering the defect. The warranty is void if the product is misused or tampered with. The seller's liability is limited to the purchase price refund.
+
+#### Regulatory Information:
+The touchmonitor complies with applicable regulations for electromagnetic compatibility (EMC) and safety established by the FCC and CE. Should the device cause interference, users can mitigate this by repositioning devices or adjusting connections.
+
+For further information, visit [www.elotouch.com](http://www.elotouch.com) or contact TouchSystems, Inc. at their U.S. headquarters.
+

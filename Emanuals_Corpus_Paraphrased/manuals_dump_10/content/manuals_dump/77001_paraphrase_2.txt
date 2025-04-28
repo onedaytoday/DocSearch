@@ -1,0 +1,128 @@
+# Visual Presenter Instruction Manual
+
+## Overview
+This manual contains important instructions for the operation and maintenance of the visual presenter. Please read and retain it for future reference.
+
+## Safety Precautions
+- Follow all operating instructions to ensure proper use.
+- When cleaning, disconnect the device from the power outlet and use only a soft, dry cloth. Avoid using water, cleaners, or abrasive materials, as these can cause severe damage or injury.
+- Ensure that the device is mounted and operated according to the provided guidelines to prevent overheating or other hazards.
+
+## Power Supply Guidelines
+- Use the specified power supply type as indicated. Avoid using unapproved adapters to prevent electrical shocks or fires.
+- Ensure that cords are routed properly to prevent pinching or tripping hazards.
+
+## Servicing
+- Disconnect the device from the power source prior to servicing. Always refer servicing to qualified personnel.
+- Do not attempt repairs yourself, as this can lead to further damage or safety risks.
+
+## Important Warnings
+- To minimize the risk of electric shock, do not remove any covers. There are no user-serviceable parts inside.
+- Avoid exposing the product to rain or moisture as this can lead to fire or electrical shock.
+
+## Compliance Information
+- This product has been tested and meets FCC Class B requirements for minimizing radio interference.
+- Users may be required to take additional measures if interference occurs.
+
+## Environment and Operational Conditions
+- Before using the device, ensure it operates in a suitable environment, away from direct sunlight or heat sources, and within the specified temperature range (5°C to 40°C or 41°F to 104°F).
+
+## Product Components
+- **Appearance and Functionality**: The manual includes diagrams and descriptions of all component parts, including the lighting unit, arms, remote control, and connections (such as RGB and USB ports).
+
+## Remote Control Setup
+- The remote control functions should be familiarized upon initial setup.
+- Insert batteries (type R03, AAA) as indicated, ensuring correct polarity.
+
+## Input and Output Management
+- Understand configurations for video inputs and outputs, including RGB and S-Video options, through the respective in/out selector switches.
+- The manual includes detailed procedures for connecting to various devices such as monitors or TVs.
+
+## Troubleshooting and Specifications
+- Detailed troubleshooting steps will be provided, alongside specific technical specifications of the visual presenter.
+
+By adhering to these instructions, users will facilitate the safe and efficient operation of their visual presenter.
+
+### OPERATION PROCEDURES
+
+1. **Powering On**: To initiate operation, activate the switch. If the power is cut shortly after activation, wait a few seconds before retrying. Use the [TELE/WIDE] buttons for additional control, or the [AUTO FOCUS] or [AF] buttons on the front or remote for focusing adjustments.
+
+2. **Visual Presenter Storage**: Ensure the device is powered off. Adjust the lighting to the specified direction. If necessary, rotate the head slightly backward. Always handle the device with care to prevent damage.
+
+3. **Lighting Functions**: Press the [LAMP] button on the remote to activate the lights. Adjust brightness with the [OPEN] and [CLOSE] commands. Use the OSD for guidance on lighting adjustments.
+
+4. **Remote Operations**: Utilize the remote for functions such as activating the pointer, focusing, and adjusting telephoto/wide settings. The [AUTO FOCUS] button enables quick focus, while the one-shot focusing feature allows for stable adjustments.
+
+5. **3-D Functionality**: Adjust the [NEAR] or [FAR] settings to optimize visual output under different lighting conditions.
+
+6. **Iris Control**: Use the remote to manage the iris settings, adapting to changing light conditions.
+
+7. **White Balance and Color Settings**: The white balance can be adjusted using specific color buttons. Ensure settings are switched to factory defaults as necessary.
+
+### COMMUNICATION THROUGH RS-232C
+
+For connecting to a PC through RS-232C:
+- Ensure the D-sub 9-pin connectors are properly set up for data transmission. 
+- Commands are sent using ASCII format, with acknowledgments provided via specific response codes (ACK, NAK).
+
+### TROUBLESHOOTING TIPS
+
+- Confirm that all connections are secure and appropriate switches are activated.
+- If the device fails to power on or presents distorted visuals, check the light settings and reconnect any loose cables.
+- Ensure commands are correctly transmitted and acknowledged.
+  
+For persistent issues, please consult authorized ELMO service for further assistance.
+
+### Specifications
+
+**Item Specifications:**
+
+- **Connectors:**
+  - RCA DSUB 15P
+  - RS-232C DSUB 9P
+
+- **Performance:**
+  - F2.8 aperture with shooting capabilities
+  - Effectively supports vertical (H) and horizontal (V) CCD resolutions
+  - Digital Signal Processing (DSP)
+  - More than TV resolution for RGB outputs
+  - Supports selectable White balance and Color/B&W modes
+  
+- **Power Requirements:**
+  - AC 120V, 0.5A
+
+- **Output Connections:**
+  - RGB DSUB 15P
+  - DIN 4P
+  - RGB USB
+
+- **Video Standards:**
+  - Conformable to NTSC/PAL outputs
+  - Supports XGA and VESA standards
+
+**Lighting:**
+- High-intensity lighting capability
+- Supported Video Input: RCA RGB (BNC), VGA, DSUB 15P
+
+**Software:**
+- CD-ROM for HV-400XG/3000XG/3500XG models (PC software)
+- Wireless option available (model: RCW-432)
+  
+**Batteries:**
+- Compatible with R03 and AAA sizes
+
+**Documentation:**
+- Instruction manual included
+- Warranty information provided
+
+**Additional Notes:**
+- Unauthorized recording of copyrighted materials is prohibited, respecting copyright owners' rights. 
+
+**Manufacturer:**
+- ELMO CO., LTD. 
+- Overseas subsidiary locations include:
+  - U.S.A.: ELMO Country Road, Plainview, NY
+  - Canada: ELMO Brampton, L6T 3T6  
+
+**Printed Reference:** 6X1VHEN02
+

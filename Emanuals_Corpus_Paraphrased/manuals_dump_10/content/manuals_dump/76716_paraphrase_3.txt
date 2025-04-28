@@ -1,0 +1,32 @@
+### Sound Card Interface ELK-129
+
+The ELK-129 Sound Card Interface facilitates compatibility with ELK models such as ELK-120, ELK-124, and ELK-MV480. It comes with software designed for use with the ELK-129, enabling downloads to the ELK-120 or ELK-124. This interface includes a compact switching mechanism and operates within specified warranty parameters.
+
+### Specifications:
+- Requires ELK-120 or newer, with a minimum of 4MB RAM and a 2MB sound card.
+- Operates on 12V, with an included 20VA AC power supply.
+
+### Application:
+The ELK-129 is utilized for playback of sound effects. It allows direct recording from an on-board microphone or from external sources. Formats such as .WAV files can be played and recorded. Sounds can be gathered, edited, and saved digitally.
+
+### Operation:
+Originally developed for the ELK-120 and ELK-124, the ELK-129 operates slightly differently based on connected models. For use with ELK-MM447 or ELK-MV480, it requires the ELK-129 plus either the ELK-MK485 or ELK-MK400 for compatibility. Software specific to these models is provided and should be followed for installation and operation.
+
+### Installation:
+For ELK-120 or ELK-124, connect the ELK-129, ensure the power supply is connected, and follow the included setup software instructions. Utilize recording software to capture and manage audio files.
+
+### Recording Details:
+The system includes features for direct audio input and output, and it’s crucial to confirm connections and settings before recording. An LED indicator shows the status of the recordings.
+
+### Troubleshooting:
+In case of playback issues, verify connections and settings of the dip switches. Adjust volume settings to maintain audio quality. Properly manage the microphone connection to avoid interference.
+
+### Additional Notes:
+For software installation, follow steps to ensure correct directory assignments. Once completed, users can leverage tools to modify and manage audio for both the ELK-120 and ELK-124 systems.
+
+The ELK-129 Sound Card Interface simplifies the process of sound recording and playback within the ELK products ecosystem, enabling efficient audio management for various applications.
+
+To follow the previous instructions and correctly operate the CoolEdit software with the ELK-129, ensure you're only hearing sounds from the left channel through your headphones. If sound is heard only from the left, confirm connection through the AUDIO OUT. Adjust the output if necessary. When using the PLAY LOOP feature, pressing LOOP will allow you to listen to the sound continuously, and once completed, press STOP. If you are manually using the RECORD function, click PLAY to begin recording.
+
+When recording, if you notice any distortion in the sound, check the microphone placement and ensure it's appropriate for the desired recording level. Avoid trying to stretch the audio unless absolutely necessary, as stretching may lead to file corruption. If you’ve already applied effects to the recording, and they have altered the integrity of the audio, consider re-recording to maintain quality. For troubleshooting with CoolEdit, explore the functionality and conversion options before attempting any further edits.
+

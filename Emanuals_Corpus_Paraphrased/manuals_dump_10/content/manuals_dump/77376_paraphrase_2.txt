@@ -1,0 +1,135 @@
+**UST Universal Twin 16C26S-010 UL CSA Certified Air Cleaner Operating Manual**
+
+**Operating and Safety Instructions**
+
+Please read the Owner's Manual carefully. This includes important operational guidelines for the UST Service Technical Air Cleaner. 
+
+**WARNING: ELECTROCUTION HAZARD**
+Disconnect power before servicing to avoid severe injury or death. Always ensure that maintenance is performed by qualified personnel to mitigate hazards.
+
+---
+
+**Table of Contents:**
+- Construction and Operation of the Cleaner
+- Installation Instructions
+- Specifications and Maintenance
+
+---
+
+**Basic Operation of the Air Cleaner:**
+
+Air enters the cleaner through section A, where pollutants are captured. It flows through the ionizing section B, where particles are charged. Subsequently, in section C, these charged particles are collected on plates. This process results in clean, filtered air returning to the supply.
+
+---
+
+**Air Cleaner Construction:**
+
+The air cleaner is designed for ease of installation. Its modular components include a mounting setup compatible with existing frameworks that accommodates the collecting and ionizing sections. Each section connects to wires facilitating the high-voltage supply necessary for operation.
+
+---
+
+**Preinstallation Guidance:**
+
+**Determining Filter Location:**
+Choose a location that allows for proper airflow and clearance. If using a specific transition section, ensure it's positioned correct to maintain airflow direction as supplied from the factory.
+
+**Airflow Direction:**
+The unit is preconfigured for left-to-right airflow. Adjustments can be made for right-to-left if required. Always verify that connections align with airflow indicators.
+
+---
+
+**Typical Mounting Positions:**
+- Basement Furnace (Lowboy)
+- Counterflow Furnace Installation
+- Highboy Furnace
+
+---
+
+**Installation Steps:**
+
+**1. Remove and Discard Old Filter:**
+   - Ensure the blower compartment is clean before installation.
+   - Ensure the new air cleaner is positioned properly for airflow.
+
+**2. Wiring Instructions:**
+   - Follow local electrical codes. The unit must be wired to avoid electrical hazards.
+   - Ensure all connections are secured and compliant.
+
+**3. Grounding:**
+   - Proper grounding is essential to prevent electric shock.
+
+---
+
+**Operation Guidelines:**
+- Ensure the unit is powered on and the ON-OFF switch is in the "ON" position. The operational light should illuminate.
+- If the light does not turn on, check for any issues such as wiring faults or blockages.
+
+---
+
+**Maintenance:**
+Inspect and clean the collecting cells and filter every month, or as needed. Utilize appropriate cleaning methods to maintain efficiency.
+
+**Cleaning Process:**
+- Turn off the unit, disconnect power, and allow it to cool before cleaning.
+- Remove the collecting cells according to the instructions for thorough cleaning.
+
+**Specifications of UST Model 16C26S-010:**
+- Rated Capacity: W.G.
+- Input Voltage: VAC, VDC 
+
+---
+
+**Technical Repair Guide:**
+Only qualified technicians should carry out repairs. This includes diagnostic checks for malfunction indications. Follow prescribed procedures to ensure the safe operation and longevity of the air cleaner.
+
+Always consult the provided service manual for troubleshooting and detailed technical specifications.
+
+### Power Supply Checkout Procedure
+
+1. **Initial Setup:**
+   - Set the switch to the OFF position.
+   - Connect the insulated lead to the chassis and the high voltage lead to the high voltage back cover.
+
+2. **Activation:**
+   - Switch the device ON and ensure the high voltage connection is secure.
+   - Check if the indicator light is ON. If it is, measure the output in VDC.
+   - If the output is below the specified voltage, inspect for issues such as bowed, bent, or loose wires, or cracked insulators.
+
+3. **Troubleshooting:**
+   - Should the light be OFF, conduct a CELL TEST to ensure proper function. 
+   - Establish whether the supply flow is within the established parameters.
+
+### Repair Parts
+
+#### Parts List for Electronic Air Cleaners
+
+The following details are required for ordering parts:
+- **Part Number**
+- **Part Description**
+- **Model Number**
+- **Item Name**
+
+| Part Number      | Item Description                          |
+|------------------|------------------------------------------|
+| F825-0337        | Collecting Cell                          |
+| F811-0321        | Junction Connector                       |
+| F838-0072        | Screw                                    |
+| F818-0053        | Assembly                                 |
+| F858-0921        | Light                                    |
+| F843-0500        | Switch                                   |
+| F876-0202        | Connector                                |
+| F827-0026        | N/A                                      |
+| F820-0220        | Charcoal Filter (with mounting bracket) |
+| F825-0468        | Item Not Shown                           |
+
+### Consumer Notice
+
+Thank you for purchasing a White-Rodgers Cleaner. We appreciate your business. For warranty information or additional details regarding White-Rodgers products, please contact us directly.
+
+**Sincerely,**  
+White-Rodgers  
+White-Rodgers Americas Comfort  
+[Address]  
+[Fax Number]  
+[Website]
+

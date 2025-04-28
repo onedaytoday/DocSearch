@@ -1,0 +1,77 @@
+Touchmonitor LCD Touchmonitor 1525/27L-XXWC-X Revision P/N by TouchSystems, Inc. For customer support, call 1-800-ELOTOUCH or visit www.elotouch.com. 
+
+Copyright © TouchSystems, Inc. All rights reserved. No part of this publication may be reproduced, transmitted, or translated without the express written permission of TouchSystems. This document is provided without guarantees, including but not limited to implied warranties of merchantability. TouchSystems reserves the right to modify this publication and the products described herein without prior notice. The names SecureTouch, AccuTouch, and MonitorMouse are trademarks or registered trademarks of TouchSystems, Inc., while other names may be trademarks of their respective owners.
+
+### Chapter Overview
+- **Introduction**
+- **Precautions**
+- **About the Product and Touchmonitor**
+- **Product Unit Rear Touch Interface**
+- **Installation Steps:**
+  - Step 1: Remove the Cover
+  - Step 2: Connect the Touchscreen
+  - Step 3: Connect the Power Supply
+  - Step 4: Connect the USB
+  - Step 5: Mounting Instructions
+- **Accessing the VESA Mounting Interface**
+- **Technical Specifications**
+- **Compatible Touchmonitor Specifications**
+- **Warranty Information**
+
+### About the Product
+Congratulations on your purchase of the touchmonitor. This LCD touchmonitor is equipped for optimal performance with the following features:
+- Direct RGB input for XGA/SVGA/VESA refresh rates
+- OSD available in English, Spanish, and more
+- Compliant with VESA DDC 1/2B and DPMS standards
+
+### Unpacking the Touchmonitor
+This chapter covers the unboxing of the LCD touchmonitor and software setup. Ensure that you have the following items: the LCD monitor and the software CD.
+
+### Installation and Setup
+**Warning:** Ensure both the touchmonitor and the PC are powered off before proceeding with connections. 
+
+**Step-by-Step Connection Instructions:**
+1. **Removing the Cover:** The cover can be detached by following the instructions provided in the manual.
+2. **Connecting the Touchscreen Interface:** Connect the touch interface to your PC. Follow the routing instructions and secure with screws.
+3. **Connecting the Power Supply:** Ensure that all connections are secure and routed properly to the designated ports.
+4. **Mounting the Monitor:** The touchmonitor is compatible with the VESA Physical Mounting Interface, which allows for adaptable mounting solutions.
+
+#### Software Installation
+The included software ensures seamless integration with compatible operating systems such as Windows XP, NT, and DOS. Follow the necessary instructions for proper installation, including using plug-and-play capabilities.
+
+This document provides comprehensive guidance for setting up your touchmonitor, ensuring it operates smoothly with your system. For troubleshooting, refer to the technical specifications and additional resources provided.
+
+### Touchmonitor Overview
+
+This section discusses the On-Screen Display (OSD) features and variations of touchmonitors, as well as performance specifications for effective operation. For detailed choices and configurations, refer to section A. Users can customize various settings or reset the touchmonitor to factory specifications. The OSD allows for adjustments of contrast, brightness, and other functions via menu selections.
+
+### OSD Navigation
+
+The OSD includes options to adjust settings like volume and contrast. Users can navigate through the OSD by using shortcut keys to increase or decrease selected values. To mute, simply press the designated buttons, holding them for a few seconds to activate the function. Options within the OSD allow for adjustments such as phase, clock settings, and color calibration (e.g., 9300K or 6500K) for optimal display quality.
+
+### Troubleshooting
+
+If the touchmonitor exhibits issues such as display distortion, ensure that all connections are secure and that the refresh rate settings are compatible with your LCD. Incorrect input settings can lead to reduced resolution and artifacts; verify that the input matches the native resolution of the LCD to avoid these problems.
+
+### Safety Precautions
+
+To minimize the risk of electrical shock, always utilize the three-wire grounding cord provided. Avoid using harsh cleaning agents on the touchmonitor's screen. In case of malfunction, contact a qualified service technician for assistance.
+
+### Technical Specifications
+
+The LCD touchmonitor (model ET15XXL-XXWC-1) specifications include a 15-inch active thin-film transistor (TFT) display and AccuTouch touchscreen technology. It operates within a temperature range of 0°C to 50°C and boasts compliance with various safety standards including UL, FCC-B, and CE.
+
+### Warranty Information
+
+The warranty covers defects in material and workmanship for a specified period. Users must report defects within thirty days of discovery. Should a product be found faulty, adjustments or replacements will be made at the discretion of the manufacturer, who may also inspect the product to ascertain any warranty claims.
+
+For further technical support or troubleshooting information, please consult the respective chapters on operation and warranty.
+
+**These remedies will be the sole recourse available to the buyer in the event of a warranty breach. Except for the explicit warranty described above, the seller does not provide any additional warranties, whether express or implied, concerning the products, including their suitability for specific purposes, quality, marketability, or lack of infringement. No employee or representative of the seller is authorized to offer any warranties regarding the goods beyond what is specified herein. The seller's liability under this warranty is limited exclusively to a refund of the product's purchase price. The seller shall not be responsible for any costs incurred by the buyer for procuring or installing substitute goods, nor for any special, consequential, indirect, or incidental damages.**
+
+**Specifications Related to the LCD Touchmonitor (ET15XXL-XXWC-1)**: Product details, Touchmonitor information, VESA Mounting Interface access, AccuTouch specifications, backlight lifespan, brightness, color settings (C C1/C2/USER), chemical cleaning instructions, clock settings, color compatibility, USB connection details, mechanical information, and expected performance metrics. 
+
+**Technical Performance**: Includes AccuTouch specifications, H-position data, scrolling capabilities, software compatibility with MS-DOS, XP, and NT systems, mechanical characteristics, touch activation force details, safety information, troubleshooting tips, unpacking procedures, and on-screen display (OSD) functionality.
+
+**Warranty**: Covers aspects related to the touchmonitor specifications and includes technical details on SVGA, SXGA, UXGA, VESA mounts, VGA, and XGA compatibility.
+

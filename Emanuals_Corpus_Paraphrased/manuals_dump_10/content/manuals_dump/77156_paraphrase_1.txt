@@ -1,0 +1,22 @@
+**Application ES601079**
+
+**Release Information**  
+This document is a revision of the initial release, ECO-13-0889. Application ES601079 A may not be reproduced, transmitted, transcribed, or translated in any form without written permission from Touch Inc. The information provided is without warranties and does not guarantee merchantability or any rights associated with this publication. Updates and revisions may occur without prior notice. 
+
+**Acknowledgments**  
+AccuTouch, CarrollTouch, TouchTouchSystems, SecureTouch, TouchTools, and their affiliates are acknowledged, along with Microsoft Corporation.
+
+**Introduction**  
+This document provides crucial information related to Application ES601079 A and the associated board. It outlines how to update the firmware to ensure optimal performance. The firmware can be accessed via the EC InfoAbout section. Ensure that the system is connected to the appropriate AC/DC power supply during the update process.
+
+For troubleshooting, please refer to the technical support and service sections. To manage the firmware updates:
+
+1. Right-click on the firmware you wish to update.
+2. The firmware path will be indicated in the textbox. 
+3. Click on the designated location to initiate the update. A counter will display the progress, which will indicate when the update is complete. 
+
+For further information and specifications, visit www.elotouch.com or contact Touch North America at 800-ELO-TOUCH. 
+
+**Copyright Notice**  
+Copyright © Touch Inc. All rights reserved.
+

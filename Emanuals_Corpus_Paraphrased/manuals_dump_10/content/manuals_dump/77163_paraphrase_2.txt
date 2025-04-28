@@ -1,0 +1,79 @@
+### Touchcomputer LCD
+
+**Touchcomputer TE Connectivity**  
+**Contact:** 1-800-ELOTOUCH  
+**Website:** www.elotouch.com  
+**Revision:** SW601671  
+**Copyright:** TE Connectivity Corporation. All rights reserved. Unauthorized reproduction, transmission, transcription, or translation of this document is prohibited without written consent from Tyco Corporation. The information contained within this document may change without notice. TE Connectivity and its affiliates (collectively “TE”) make no warranties regarding merchantability or fitness for a particular purpose.
+
+---
+
+### Table of Contents
+
+1. **Unpacking the Touchcomputer**
+    - Included Items: Touchcomputer, Wall Mounting Kit (M4, M3 screws).
+  
+2. **Operation**
+    - **LED Functionality**
+    - **Accessing Control Settings**
+  
+3. **Safety and Maintenance**
+    - **General Precautions**
+  
+4. **Technical Support**
+    - How to Contact Support
+    - Warranty Information
+
+---
+
+### Unpacking the Touchcomputer
+
+This section details the contents of your Touchcomputer package, including essential assembly parts and setup guidelines. 
+
+**CAUTION:** Handle the Touchcomputer with care during setup to avoid damage. 
+
+### Touchscreen Calibration
+
+If recalibration of the touchscreen is necessary, right-click on the screen, select "Properties," and follow the provided instructions to calibrate properly.
+
+---
+
+### Additional Mounting Options
+
+This section discusses various mounting options, including VESA compatibility.
+
+---
+
+### Operation
+
+#### LED Functionality
+
+This part covers the features of the LEDs, including their color indicators and functionality during CPU operations.
+
+#### Accessing Input/Output Ports
+
+To access the I/O ports, remove the cover secured by the included screw. Instructions can also be found on the product documentation.
+
+---
+
+### Safety and Maintenance
+
+When maintaining the Touchcomputer, ensure the device is powered off before cleaning. Use a grounded 3-wire cord and handle the device with care to prevent damage or voiding the warranty. 
+
+### Regulatory Information
+
+#### I. Compliance Notices
+
+- **United States:** This product meets FCC Class A standards for interference.
+- **European Union:** This product meets CE directives regarding Electromagnetic Compatibility (EMC) and Low Voltage.
+
+#### III. Warranty Information
+
+TE Connectivity provides a warranty covering defects in materials and workmanship. Claims regarding warranty issues must be reported within thirty days of discovery. Detailed warranty terms are available upon request.
+
+--- 
+
+For further support and technical assistance, please visit www.elotouch.com/go/contactsupport.
+
+THE REMEDIES STIPULATED HEREIN SHALL BE THE EXCLUSIVE REMEDIES AVAILABLE TO THE BUYER FOR ANY BREACH OF WARRANTY. EXCEPT FOR THE SPECIFIC WARRANTY PROVIDED ABOVE, THE SELLER OFFERS NO ADDITIONAL WARRANTIES, EITHER EXPRESS OR IMPLIED BY STATUTE OR OTHERWISE, REGARDING THE PRODUCTS, INCLUDING BUT NOT LIMITED TO THEIR FITNESS FOR ANY PURPOSE, QUALITY, MERCHANTABILITY, OR NON-INFRINGEMENT. NO EMPLOYEE OR REPRESENTATIVE OF THE SELLER IS AUTHORIZED TO CREATE ANY WARRANTY FOR THE PRODUCTS OTHER THAN THE ONE STATED HEREIN. THE SELLER'S LIABILITY UNDER THIS WARRANTY SHALL BE LIMITED TO A REFUND OF THE PRODUCT'S PURCHASE PRICE. IN NO INSTANCE SHALL THE SELLER BE RESPONSIBLE FOR THE BUYER'S COSTS RELATED TO ACQUIRING OR INSTALLING SUBSTITUTE PRODUCTS, NOR FOR ANY SPECIAL, CONSEQUENTIAL, INDIRECT, OR INCIDENTAL DAMAGES.
+

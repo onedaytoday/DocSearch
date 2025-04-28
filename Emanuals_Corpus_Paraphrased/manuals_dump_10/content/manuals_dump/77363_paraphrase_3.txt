@@ -1,0 +1,50 @@
+The following text discusses the functionalities of the Navisphere software, including the Navisphere Utility and Command Line Interface (CLI). This software manages various EMC products such as CX3 series (CX200, CX400, CX600, CX700) and utilizes FLARE OE. Users can access operational details and revisions of the software, whether accessed via CD or authorized networks. 
+
+Navisphere allows monitoring and management of hardware components like the Host Bus Adapter (HBA) and storage records, including Logical Unit Numbers (LUN) and World Wide Names (WWN). It supports high availability configurations and integrates with other software like DMP and MPIO for enhanced performance.
+
+For installation, EMC recommends using the software from the provided CD, especially if previous versions were in use. The text outlines specific commands for installing or removing the software, including mounting the CD and managing installation processes. 
+
+Further details include setup for IP addresses associated with storage processors (SPs) and gateway configurations for network connections. The CLI allows scriptable interactions with the system, and user privileges are managed via specified usernames. 
+
+In summary, this document serves as a reference guide for utilizing Navisphere software across various EMC storage products, focusing on command usage, installation, and configuration for operational efficiency.
+
+The function of LUN and OS information is accessible from the high-availability (HA) server, which can be operated from the CD without relying on specific server configurations. The LUN mapping information can be displayed within the Manager UI or accessed via the command line interface (CLI). When necessary, you can manually obtain the required information or run utilities on demand, providing you with greater control over execution times and frequencies.
+
+The Navisphere displays the relevant LUN information in the UI or through CLI commands, indicating manual registration and showing identifiers such as hostname and IP address. The software supports various features and each Storage Processor (SP) must be properly connected to the storage system.
+
+For connectivity, ensure that the server is equipped with the required EMC Products and that network connectivity is established. Both the host and the server must meet specific version requirements to utilize registration service features effectively. Any updates to the software must be done offline or while the system is operational to maintain network integrity.
+
+The CLI also requires appropriate software versions and network configurations to properly function. Essential commands can be executed to retrieve details about installed revisions and I/O operations, ensuring that all systems remain in sync.
+
+When dealing with agentID and host configurations, the necessary files must be correctly formatted and located in the intended directories for successful execution. Each entry within the agentID.txt file should include information specific to the hardware and IP addresses in a structured manner.
+
+All environmental variables such as PATH, MANPATH, and LD_LIBRARY_PATH need to be set accordingly to ensure the smooth operation of the Navisphere software. For further commands and configuration settings, refer to the Navisphere Command Interface Reference.
+
+In conclusion, accurate documentation and management of LUN and system connectivity are crucial for optimal performance and troubleshooting. Make sure to record any pertinent information for effective diagnostics and operational integrity when employing EMC Products.
+
+### Navisphere EMC Products Overview 
+
+This section discusses the Navisphere software related to EMC products. You can obtain the software from a CD that ships with the product or through the Software Downloads and Licensing webpage. If you opt for the CD, navigate to the appropriate directory for installation.
+
+To install the software, ensure you select the correct version, such as AX150 or AX100, based on your product. After mounting the CD, execute the installation commands as prompted. 
+
+#### Starting Navisphere
+
+The installation process can be initiated from the Navisphere directory located at `/opt/Navisphere/bin`, using the relevant commands from the CD or downloaded files. The Navisphere interface provides high-availability features specifically designed for EMC products.
+
+#### Performing High-Availability Checks
+
+Utilize the high-availability feature in the software to gather information about connected devices. Follow the provided instructions to access pertinent data, ensuring to execute commands for each Storage Processor (SP). If additional software is needed, such as Distributed Multi-Pathing (DMP) or Path Verification (PV), consult the documentation for guidance. 
+
+#### Security Features
+
+For enhanced security, you may employ the `-secfilepath` switch when operating with specific IP addresses to retrieve security configuration data. This functionality reinforces the importance of securing your installations to the guidelines provided in the EMC Navisphere Command Line Interface (CLI) Reference.
+
+#### Removing the Software
+
+To uninstall the software, use the necessary command sequence. First, unmount the CD if it has been previously mounted, then follow the prompts. If successful, the removal process will confirm that the software has been fully uninstalled.
+
+### Copyright Notice
+
+© EMC Corporation. All rights reserved. The information herein is provided "AS IS" without warranties of any kind, either expressed or implied. EMC Corporation disclaims any implied warranties of merchantability or fitness for a particular purpose. All trademarks are the property of their respective owners.
+

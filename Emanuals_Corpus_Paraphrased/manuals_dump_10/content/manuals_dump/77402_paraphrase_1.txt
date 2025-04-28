@@ -1,0 +1,23 @@
+**FCR Motors and Browning Gearmotors Usage and Safety Guidelines:**
+
+This document details the operational guidelines for FCR Motors and Browning Gearmotors distributed by Emerson, including safety measures under Rights MCIM13005E 9055E, printed in the USA. For additional information, visit www.emerson-ept.com.
+
+**Safety Procedures:**
+- Adhere strictly to operational instructions to mitigate risk of injury or death. Ensure proper lock-out/tag-out protocols are in place before maintenance or inspection and verify compliance with safety standards indicated on the nameplate (e.g., horsepower, voltage).
+
+**Installation Guidelines:**
+- Maintain a clean working environment, ensuring protection against shock and voltage fluctuations. Allow sufficient clearance around the motor—typically 12 inches—for proper servicing and grounding, particularly when using normally closed thermostats that should connect to a built-in power supply.
+  
+**Electrical Connections:**
+- The gearmotors operate using both three-phase 190/380V and 575V supplies. Ensure connections are made correctly using the specified wiring diagrams. Disconnect rectifier cells during current insulation and dielectric testing to prevent damage.
+
+**Mechanical Adjustments:**
+- For manual release, unscrew designated cover screws and ensure housing integrity before reassembly. Keep components clean to avoid friction and ensure fluid movement. Follow proper disassembly procedures, and ensure screws are tightened to appropriate torque settings upon reassembly.
+
+**Troubleshooting:**
+- In the event of mechanical issues (overheating, abnormal release activates, etc.), ensure that the supply is switched off. Inspect components for mechanical friction and electrical short circuits. Check phase continuity and adjust or clean parts to restore functionality.
+
+This advisory includes references to standard practices and technical details crucial for safe and efficient operation of FCR Motors and Gearmotors. Always consult the nameplates and included documentation for specific information related to your model.
+
+Browning and Emerson are trademarks of Emerson or its affiliates.
+

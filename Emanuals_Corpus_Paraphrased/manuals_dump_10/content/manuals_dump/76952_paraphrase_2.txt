@@ -1,0 +1,75 @@
+### Feedback 
+- **CBL-DFDBK**
+- **CBL-DFDBK-5**
+- **I/O Connections:**
+  - **CBL-CELIO1 (J1)**
+  - **CBL-CELIO1-5**
+  - **CBL-MTRPWR1CEL** (SAR, SA, SB, SC)
+  - **CBL-MTRPWR1CEL-5**
+  - **RS-232:**
+    - **CBL-RJ452321**
+    - **CBL-RJ452321-5**
+  - **CBL-MTRENC4** (SE)
+  - **CBL-MTRENC4-5**
+  - **CBL-CEL24**
+  - **CBL-CEL24-5**
+  - **CAN:**
+    - **CBL-RJ45CAN2**
+    - **CBL-RJ45CAN2-5**
+  - **CBL-MTRENC2** (SAR, SA, SB, SC)
+  - **CBL-MTRENC2-5**
+
+### Notice 
+This information pertains to the assembly of the Motion system and serves as a reference guide for installation. The graphics included are for informational purposes only. The material is based on revisions by Motion Inc., MA, USA (D-78056, MAN-CBLKIT-CEL).
+
+### Table of Contents
+- **Introduction**
+- **Connectors**
+- **Cross-Reference**
+- **Feedback**
+  - **CBL-DFDBK-5**
+  - **CBL-MTRENC2-5 (SAR, SA, SB, SC)**
+  - **CBL-MTRENC4-5 (SE)**
+  - **CBL-CELAUX-5**
+- **I/O Connections**
+  - **I/O J1 (CBL-CELIO1-5)**
+  - **I/O J2 (CBL-CELIO2-5)**
+  - **CBL-CEL24-5**
+  - **CBL-MTRCEL-5**
+  - **CBL-MTRPWR1CEL-5**
+  - **CBL-MTRPWR2CEL-5**
+  - **RS-232 Option (CBL-RJ452321-5)**
+  - **CAN Option (CBL-RJ45CAN1-5)**
+  - **CAN Option (CBL-RJ45CAN2)**
+
+### Introduction
+This introduction provides information regarding the connectors and their configurations. The specified lengths for each cable type are indicated alongside their respective specifications. The connectors are detailed in accordance with their functions, locations, and required grounding.
+
+### Function Connectors
+- **RJ-45 CAN**
+- **Feedback (high-density)**
+- **RS-232**
+
+### Cross-Reference of Applications
+- Feedback with various connectors including CBL-DFDBK, CBL-MTRENC2, CBL-MTRENC4, and others, outlining their functions within the system.
+
+### Customer Notice
+Customers may purchase all components listed below separately:
+- **CBL-CELKIT01**
+- **CBL-CELKIT02**
+  
+### Feedback Details
+The feedback cabling utilizes 24-AWG shielded wire and facilitates connections for various motor types, such as APM-SAR, SA, SB, SC, and APM-SE, outlining the color coding and functionality for each connection.
+
+### I/O Specifications
+- **J1 (CBL-CELIO1):**
+The I/O uses 24-AWG shielded wire to provide multiple input and output connections, each specified clearly to indicate functionality.
+
+- **J2 (CBL-CELIO2):**
+The specified connections utilize 26-AWG shielded wiring for different input and output functionalities.
+
+### CAN Communication
+- **CBL-RJ45CAN1** and **CBL-RJ45CAN2** facilitate CAN communication, linking through RJ-45 connections with defined signals and grounding.
+
+This condensed version maintains the technical detail and structure while clarifying the content for understanding.
+

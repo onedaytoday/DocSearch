@@ -1,0 +1,112 @@
+**MonitorMouse for Windows NT**
+
+**MonitorMouse TouchSystems, Inc. NT**  
+1-800-ELOTOUCH  
+www.elotouch.com  
+P/N 008013-A  
+DOC SW000081
+
+AccuTouch, MonitorMouse, and ELODEV are registered trademarks of TouchSystems, Inc. All copyright rights are owned by TouchSystems, Inc. Reproduction or translation is prohibited without written consent, except as permitted under copyright law. Printed in the USA. H55268.
+
+By opening the accompanying disk envelope, you agree to be bound by the terms of this agreement, including the software license and limited warranty. This software is protected under U.S. copyright law and international treaties. As indicated below, users must seek authorization from TouchSystems, Inc. for any software modifications or reproductions to protect the company’s investment.
+
+**LICENSE TERMS:** This software is licensed exclusively for use with ELO touchscreens. It cannot be freely distributed, resold, or incorporated into third-party software without prior written permission. Furthermore, any references to products or services must respect these terms. 
+
+**DISCLAIMER:** This software and its accompanying materials are provided "as is" without any warranty. ELO does not guarantee the accuracy, reliability, or currentness of the software or any related materials. If the software or documentation is defective, you assume the costs of service, repair, or correction. The entire risk regarding the performance of the software lies with you. ELO specifically disclaims all warranties, both express and implied, including implied warranties of merchantability and fitness for a particular purpose, concerning the software and associated materials. ELO will not be liable for any incidental or consequential damages.
+
+**Software Registration and Support:**  
+For more information regarding MonitorMouse products, please refer to the provided contact details, including VOICE or FAX options and available online resources.
+
+**INSTALLATION AND CONFIGURATION:**
+MonitorMouse NT is designed to function seamlessly with compatible touchscreen devices. The installation process typically involves clicking through prompts to select the appropriate options and confirming the configuration to ensure correct touchscreen recognition.
+
+For typical installations, designated files will be placed in specific directories outlined in the README.TXT. Configuration in the Windows NT registry may be required for optimal functionality, including adjustments to parameters such as button configuration and sample rates.
+
+**TROUBLESHOOTING:**
+MonitorMouse NT includes tools for diagnosing touchscreen functionality under NT and DOS environments, thereby streamlining the troubleshooting process.
+
+For further details, please refer to the additional manuals and contact resources provided.
+
+**MonitorMouse NT Touchscreen Instructions**
+
+To initiate the calibration process, use the MonitorMouse NT software and select the touchscreen. Follow the on-screen prompts. You will have the chance to define the touchscreen's operational area by selecting physical coordinates, which may vary based on the touchscreen setup and its mounting. Calibration adjustments may include settings for linearity, potential corner distortion known as “pincushioning”, and other factors that can affect the display.
+
+After calibration, restart MonitorMouse NT to ensure proper functionality. The touchscreen supports actions such as clicking or dragging, and you should choose the appropriate interaction method depending on your requirements. Only the supported click types (left or right) should be used when interacting with the touchscreen.
+
+For double-clicking actions, ensure the double-click speed is set correctly within the software settings, adjusted via the DoubleClickHeight and DoubleClickWidth parameters. These adjustments are critical for maintaining effective feedback from the touchscreen, which may include auditory signals to confirm interactions.
+
+**Using Touchscreen with Windows NT**
+
+To remove the on-screen cursor when using the touchscreen, define the cursor as an invisible NULL.CUR, allowing users to interact with the touchscreen directly without distracting elements. Adjust system settings accordingly to optimize visibility and response.
+
+**Scrolling and Interaction Options**
+
+You can easily scroll through options by simply touching the screen as you would with any standard interface. The interaction method should reflect your preferences, with options available to navigate titles and selections efficiently.
+
+**Running DOS Applications from NT**
+
+When interfacing with DOS applications, ensure the touchscreen is configured for optimal visibility and responsiveness, minimizing background distractions. Utilize a bright background that simplifies interactions, while avoiding reflections that might interfere with usability.
+
+**General Troubleshooting**
+
+For issues related to touchscreen installation, it’s essential to determine the source of the problem—whether it’s hardware or software. Follow structured troubleshooting procedures to identify and resolve issues.
+
+If synchronization or function problems arise, consult the troubleshooting guidelines to properly assess and rectify any discrepancies.
+
+**Diagnostic Tools**
+
+Use diagnostic utilities such as BUSSTAT and COMDUMP to analyze touchscreen performance. These tools will help verify proper installation and detect issues based on I/O reports. If problems persist, ensure that the drivers and firmware correspond to the right hardware specifications.
+
+For further technical assistance or to run diagnostics, utilize SAWDUMP.EXE to get detailed feedback on touchscreen interactions.
+
+### Z-Axis Capabilities
+
+To utilize the Z-Axis capabilities of the touchscreen, load the ZAXIS.EXE from the \ELO directory. Use the Custom option for reporting functionalities via the I/O control code IOCTL_MM_ZAXIS_SUPPORT. This function enables the reporting feature necessary for communication with the system.
+
+For implementation, include the "mmioctl.h" header file and define the necessary variables:
+
+```c
+HANDLE hDevice;
+LONG lValue;
+ULONG dwReturnedLength;
+```
+
+Open a handle to the touchscreen device using the following code:
+
+```c
+hDevice = CreateFile("DevicePath", GENERIC_READ, FILE_SHARE_READ, NULL, OPEN_EXISTING, NULL);
+if (hDevice == INVALID_HANDLE_VALUE) {
+    MessageBox(NULL, "Unable to open device!", "Error", MB_OK);
+    return 0;
+}
+```
+
+Perform the I/O operation with the device control:
+
+```c
+if (!DeviceIoControl(hDevice, IOCTL_MM_ZAXIS_SUPPORT, NULL, 0, &lValue, sizeof(LONG), &dwReturnedLength, NULL)) {
+    MessageBox(NULL, "Reporting failed: NO Z", MB_OK | MB_ICONEXCLAMATION);
+}
+```
+
+### Launching the Touchscreen Control Panel
+
+To calibrate the touchscreen from within our program, use the following code to open the MONMOUSE.CPL library and call the calibration function:
+
+```c
+HWND hWnd;
+WORD timeout;
+HANDLE hLibrary = LoadLibrary("MONMOUSE.CPL");
+if (hLibrary == NULL) {
+    MessageBox(NULL, "Library could not be loaded.", "Error", MB_OK);
+}
+
+FARPROC lpfnCalibrateScreen = GetProcAddress(hLibrary, MAKEINTRESOURCE(4));
+if (lpfnCalibrateScreen != NULL) {
+    (*lpfnCalibrateScreen)(hWnd, timeout);
+}
+FreeLibrary(hLibrary);
+```
+
+This code enables you to directly calibrate the touchscreen through the defined function, providing more control over the calibration process and ensuring seamless interaction with the device.
+

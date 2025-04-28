@@ -1,0 +1,114 @@
+**ELSA ECOMO TM 22H99**
+Copyright ELSA AG (Germany). Reproduction, transmission, transcription, or translation of this information is prohibited without written consent from ELSA. This document pertains to the software or products and is intended solely for the purchaser. ELSA AG complies with DIN EN ISO standards, confirmed by the authorized institute TV CERT. All trademarks are owned by their respective entities. The specifications describe the ECOMO 22H99 model, reflecting the high-quality standards inherent in ELSA products, serving professional users with enhanced reliability. Support and services are available around the clock, with details included in the respective chapters.
+
+For an overview of the ECOMO 22H99, refer to the following sections after reviewing the introductory content:
+- Features
+- CE and FCC conformity
+- Front and rear functionalities
+- USB capabilities
+- USB maintenance check
+- USB installation guidelines
+- On-screen display (OSD) functionalities
+- Lighting adjustments
+- System cleaning and technical specifications
+- Troubleshooting and software assistance
+- Warranty information
+
+**Introduction**
+This document contains technical instructions and troubleshooting guidance for the ECOMO 22H99, a microprocessor-driven monitor supporting RGB connections, including PS/2 and various Apple products. It interfaces seamlessly with VGA, SVGA, and XGA graphics without requiring additional purchases for internal updates. The microprocessor allows user customization, and it incorporates advanced memory functions.
+
+The monitor complies with VESA DPMS standards, which aid in power management when connected with compatible graphics boards. The on-screen controls simplify the functionality, meeting UL CSA C22.2 and EN60950, as well as FCC Class-B and EN55022 Class-B EMI standards.
+
+The ECOMO 22H99 adheres to ISO9241-7 and ISO9241-8 guidelines, featuring TCO99 credentials for environmental performance. With DIAMONDTRON technology, the monitor delivers superior sharpness and image quality, automatically recognizing connected devices via VESA DDC standard.
+
+**USB Functionality**
+The USB interface serves as a universal protocol facilitating connection with various peripherals. It supports plug-and-play functionality, allowing devices to connect effortlessly. Peripheral recognition occurs automatically, reducing the need for configuration.
+
+**Checking USB Connections**
+Ensure proper USB setup by confirming whether the connections are displayed correctly in the system's settings. The available options within USB configurations will be presented clearly.
+
+**OSD Features**
+The on-screen display integrates controls for brightness, pin-cushion adjustments, and user configuration options. To select an option, use the ENTER button. The OSD will disappear after a period of inactivity, or can be dismissed manually.
+
+**Function Adjustments**
+Adjustments for contrast, brightness, color balance, pincushioning, and geometry settings are configurable. Users can reset the monitor to factory settings when necessary to ensure optimal performance.
+
+### Functionality Overview of ELSA ECOMO 22H99
+
+The ELSA ECOMO 22H99 incorporates several functions for image adjustment:
+
+- **V-CONVERGENCE Adjustments:** Manage the V-CONVERGENCE at the top and bottom of the display.
+- **H-CONVERGENCE Adjustments:** Control H-CONVERGENCE on the left and right sides of the screen.
+- **Moire Cancellation:** Enable or disable moire cancellation and adjust its level.
+- **Corner Purity Adjustments:** Fine-tune the purity at the corners (top-left, top-right, bottom-left, and bottom-right).
+- **Clamp Pulse Position and Video Level Selection:** Adjust the clamp pulse position and toggle between video level settings of 1.0V and 0.7V.
+- **Degauss Function:** Use for impurity reduction.
+- **Power-Save Mode:** Activates energy-saving features, including OSD lock and reset options.
+- **Geometry Reset:** Restore factory settings for various geometric adjustments.
+
+### Picture Adjustments
+
+- **Contrast, Color Number, and Temperature:** Increase or reset values for contrast and color settings.
+- **H-SIZE and H-PHASE:** Adjust the width and phase adjustments of the horizontal display.
+- **PCC Adjustments:** Control various PCC parameters, including center position and phase to improve image clarity.
+
+### Navigation and Control
+
+- **OSD Language Selection:** Choose between English, French, and Spanish for on-screen display.
+- **USB Connectivity:** Assign USB ports for upstream and downstream connectivity.
+- **Auto Adjust and Diagnostic Functions:** Automatically optimize settings based on connected input sources.
+
+### Physical Setup Considerations
+
+- **Optimal Viewing Height:** Ensure the display is positioned at an appropriate height for user comfort.
+- **Anti-glare Surface:** If necessary, utilize anti-reflective coatings to minimize screen glare.
+- **Seating Arrangement:** Maintain proper seating posture with straight back support.
+
+### Technical Specifications
+
+- **CRT Configuration:** Utilize red phosphors with anti-reflective coatings.
+- **Input and Synchronization Options:** Provide connections through DB9-15P and BNC inputs, ensuring compatibility with various devices.
+- **Power and Environmental Standards:** Operate on a voltage range of 220-240V with specific power consumption characteristics.
+
+### Additional Information
+
+- **Connectivity:** Offers a robust interface for various input types and maintains high-performance standards.
+- **User Controls:** Accessible buttons for real-time adjustments of brightness and contrast, designed for user-friendly operation.
+- **Overall Dimensions:** Ensure that the physical dimensions align with ergonomic recommendations for workspace setup.
+
+Overall, the ELSA ECOMO 22H99 is engineered for flexible performance across diverse visual needs, ensuring optimal user experience through extensive configurable options.
+
+### Troubleshooting Guide for ELSA ECOMO 22H99
+
+**LED Indicators:**  
+- Check if the LED is powered on.  
+- If "ATTENTION: NO SIGNAL" is displayed, ensure that the signal frequency is supported.  
+- If the display is too dim or too bright, adjust the "VIDEO LEVEL."  
+- Ensure that the USB hub is properly connected. If not, reconnect it.  
+- For BNC connections, verify that they are connected correctly, and check if the switch function is active.
+
+**Reset Settings:**  
+- To access options such as "GEOMETRY-RESET" or "ALL RESET," adjust H-SIZE, V-SIZE, H-PHASE, and V-POSITION for full-screen display. If issues persist, check the OSD settings or the refresh rate.
+
+**Restraints and Environmental Considerations:**  
+- Be aware that the CRT's restraining wires minimize potential hazards. 
+
+### TCO Certification    
+Congratulations on acquiring the TCO'99 certified product, which helps in reducing environmental impacts and promoting sustainable practices in computing industries. TCO certification ensures that products adhere to stringent health and safety guidelines, including reduced emissions of harmful substances like brominated flame retardants, lead, and mercury.
+
+**Health and Safety Compliance:**  
+- This product meets TCO'99 standards, ensuring minimal exposure to compounds that could affect health, particularly those that bioaccumulate in ecosystems.  
+
+### Warranty Information    
+**Warranty Coverage:**  
+The ELSA AG warranty offers coverage for defects arising from craftsmanship issues during a three-year period, beginning from the date of purchase. The warranty excludes malfunctions due to misuse, external damage, or failure to adhere to the operating instructions.
+
+**Claim Procedures:**  
+If issues arise, contact ELSA customer service with your product details. Services within warranty will include repairs and adjustments at no cost, provided they meet the warranty conditions.
+
+**Important Notes:**  
+- For warranty claims, retain documentation and the original proof of purchase. Any modifications to the hardware may void the warranty.  
+- In case of mechanical failures or mishandling, the purchaser may incur costs for inspection and repair.
+
+For more specific queries or software updates, please reach out to ELSA's support team through their official website.
+

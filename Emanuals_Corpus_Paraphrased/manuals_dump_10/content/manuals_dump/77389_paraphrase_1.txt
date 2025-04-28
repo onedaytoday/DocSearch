@@ -1,0 +1,289 @@
+### VSG/VSSG Installation Warranty
+
+The VSG/VSSG warranty covers workmanship and materials for a period of up to three months from the date of installation or the time of product delivery, whichever comes first. If defects are identified within this period, the issue will be addressed either through repair or product replacement at the discretion of the manufacturer. Claims must be submitted in writing upon discovery of the defect and may incur costs for shipping and handling. This warranty excludes damages resulting from misuse, overloading beyond rated capacity, or operation involving H2S PPM. It does not cover standard wear and tear.
+
+This warranty is exclusive and supersedes all other express or implied warranties, including any implied warranties of merchantability or fitness for a specific purpose. The details should be verified in writing, and any deviations from proper operation or maintenance detailed in the installation guide will void the warranty. 
+
+### Notice and Pre-Installation Instructions
+
+Before installing your compressor, please read the following instructions carefully. Proper installation following these guidelines is essential for satisfactory operation. Equipment should be checked for damage before installation, and any issues should be reported immediately to the transportation company. 
+
+For service inquiries, contact:
+
+VSG/VSSG Installation and Customer Service  
+P.O. Box [redacted], South WI USA  
+Telephone: [redacted]
+
+### Unit Designations and Components
+
+The VSG/VSSG series includes various unit configurations such as VRSG Twin Screw and VVR models, with applications ranging from methane service to high-pressure applications. 
+
+Units are typically coupled with a base and interconnecting components as specified in the installation manuals. Additional equipment specifications and details are found in corresponding documentation and sections. 
+
+### Safety Notices
+
+Warnings are included throughout the manuals to highlight potential hazards, including risks of serious injury or death if guidelines are not followed. It is strongly recommended to observe all notes and instructions regarding installation and operational safety. 
+
+### Technical Specifications and Operation
+
+The installation guide includes detailed P&ID diagrams and operational flow descriptions. The oil and cooling systems are designed for optimal performance, ensuring efficient heat exchange and operational reliability. Aspects such as oil separation, cooling mechanisms, and system monitoring through RTDs and transducers are clearly defined.
+
+For any additional queries regarding system management and troubleshooting steps, refer to the specified sections in the installation manual. Proper installation and adherence to guidelines are crucial for optimal machine performance and warranty validation.
+
+### Section Inspection
+
+Conduct a comprehensive inspection of the factory prior to off-loading. It’s crucial that any issues observed are documented and photographed immediately for rectification. Authorization is required for serious or costly matters. The guidelines and safety measures outlined must be adhered to in order to prevent risks of death or serious injuries, particularly in compliance with VSG/VSSG and 35391SSG standards. It’s essential that the assembly (GA) provides clarity on weight distribution, ensuring that chains are properly positioned and clear of obstructions.
+
+### Section Warranty
+
+The operational month stipulates that responsibility falls on the user to adhere to this section's guidelines regarding warranty. If the equipment overheats, appropriate protective measures should be implemented during installation. Ensure that the equipment is adequately isolated from surrounding atmospheric influences. Any holding charges must be appropriately managed.
+
+### Section Maintenance Checks
+
+For the equipment: 
+- Confirm if the cooler has been rotated: ____YES ____NO (Frequency: ________).
+- Check lubrication status: ____YES ____ NO (Frequency: ________).
+- Ensure recharging is necessary: ____YES ____NO.
+
+Please ensure that all equipment is adequately sheltered from environmental exposure, utilizing coatings and appropriate lubricants to preserve integrity.
+
+### Section Foundation Requirements
+
+A robust foundation is essential for operational stability over the years. Structural integrity should be verified by professionals, including building inspectors. Consideration should be given to the location relative to surrounding structures and environmental conditions. Relevant codes and standards must be adhered to, ensuring the foundation is adequately anchored and built to resist frost penetration.
+
+### Section Construction Guidelines
+
+When constructing the foundation, ensure soil is compacted to at least four inches thick. Follow VSG/VSSG and 35391SSG installation procedures closely during the process. Once the foundations are set, check all anchor placements according to the provided guidelines to facilitate secure mounting of the units.
+
+### Section Additional Information
+
+References to standards (ACI, ASTM, ASCE, IBC) should guide the foundation's performance under specified operational conditions. Establish the foundation's specifications to ensure it supports all related systems securely and permanently.
+
+### Section Structural Stability
+
+References to dynamic forces (thermal, mechanical) should be clearly understood, particularly concerning installation practices that may influence structural integrity. Compliance with ASME standards is essential for successful ventilation and cooling systems, minimizing risks associated with improper configurations. Proper orientation and connectivity must be ensured to enhance operational efficiency.
+
+## Section VSG/VSSG Installation and 35391SSG Allowable Loads
+
+### CUSTOMER SUPPORTS FOR CHECK VALVE INSTALLATION
+
+**Pipe Diameters for Allowable Hangers:**
+- Check valve mounting requires specific support structures for both discharge and suction lines. Ensure the appropriate pipe diameters are used for proper functionality. 
+
+---
+
+### General Information for Coolers
+- This section addresses the cooling process for various heat exchangers. It is essential to maintain an unobstructed flow path to ensure efficiency. The recommended velocity for fluid movement through the coolers should not exceed 500 feet per minute (FPM) to avoid pressure losses.
+
+---
+
+### Installation Recommendations for Intake Velocity
+- For the cooler with an air intake of 55,000 CFM, maintain a velocity of 785 FPM. 
+- For a cooler with 72,000 CFM, the recommended velocity is 750 FPM. 
+- A cooler with a capacity of 120,000 CFM should also maintain a velocity of 750 FPM. 
+
+The height of the cooler should be sufficient to minimize obstructions and should conform to specifications that support an intake velocity of 500 FPM. 
+
+---
+
+### Hot Air Recirculation Considerations
+- When there is recirculated hot air that exceeds cooling charge velocities, adjustments to the placement and design of the coolers may be necessary to improve efficiency. Higher cooler heights can affect flow patterns, and thus it is advised to optimize placements based on airflow characteristics.
+
+---
+
+### Testing and Compliance
+- Ensure compliance with ASME B31.3 regarding initial charging and safety precautions. Use appropriate personal protective equipment during operations to prevent injury. 
+
+---
+
+### Charging Procedures for Compressors and Coolers
+- Charging of the system must be done according to prescribed methods, ensuring proper fill levels in both the unit and the piping systems involved. Always monitor the temperature and pressure throughout the procedure to ensure safe operation. 
+
+---
+
+### Additional Maintenance Notes
+- Conduct regular checks on oil filters and verify that shut-off valves are functioning correctly. 
+- Allow the system to equilibrate to operating conditions before fully engaging the machinery to maintain operational integrity and prevent damage.
+
+By following these protocols, optimal cooling performance and safety can be assured in system operation.
+
+### Section Pre
+
+The following information provides directions for the trained technician regarding the referenced operating instructions. Each purchase order (P.O.) includes specifics that the technician must follow. Below, the technician can find instructions related to the purchase, which include guidelines for ensuring proper supply and grounding. All components should be correctly wired to supply power to each type of switch, enabling them to function properly when switched on and off. Proper suction setup and downstream configurations are critical, as is compliance with ASME standards. 
+
+On cooled systems, connections should align with the front head of the cooler. It is advised to ensure that the system is in the correct position downstream of the installation site. During the VSG/VSSG installation process, it's crucial for the technician to check that the items listed below are marked off. This will be necessary for warranty purposes.
+
+### Section Operation
+
+Operation protocols are governed by the Compact PLC. All inspections must be performed according to the standards for systems using LFG or NG, as failure to comply can result in severe injury or death. Technicians must utilize appropriate protective equipment during servicing. These procedures should be closely followed to ensure operational safety.
+
+### Section Assembly
+
+During assembly, the technician must verify wiring against specifications and ensure that all attachments are secure. Any vibrations that may occur during operation should be monitored, and the assembly must not be continued until components have cooled down. Caution should be exercised when reattaching covers and making connections.
+
+### Section Command Rotation
+
+For proper operation, rotation commands may be issued to the Compact PLC. The operational ratio and current state should be noted during these commands. As adjustments are made, the INC (increase) and DEC (decrease) buttons will adjust rotation accordingly. 
+
+Caution must be taken to avoid energizing the actuator motor once mechanical stops are reached to prevent damage. All operations should ensure the actuator does not exceed its mechanical limits.
+
+### Section Mixing Operation
+
+In the initial operation phase, the system should be closed with the PLC indicating the proper state. When the PLC reads that the device is open, the relevant fluids are injected or redirected as needed to maintain optimal temperatures and flows.
+
+### Section Manual Override
+
+In cases requiring manual intervention, operators can use the handwheel to adjust conditions, turning it clockwise to open or counterclockwise to close the system as needed.
+
+**Note:** All activities should be documented thoroughly to maintain accurate records and compliance with operational standards.
+
+### Section Overview: Preparation and Safety Warnings
+
+In this section, we highlight recommended protocols for inactive hours and provide critical safety warnings related to the presence of LFG, NG, or other gases. It's imperative to comply with all safety instructions to prevent severe injury or fatalities. 
+
+**Important Safety Measures:**
+- Always wear appropriate protective gear, including shields.
+- For serious injury prevention, engage the shut-off on the VSG/VSSG and 35391SSG units before proceeding with any operations.
+
+**Operational Procedures:**
+- Use the "Stop" button to halt operations safely.
+- Isolate suction systems from the residential supply using lockout/tagout procedures.
+- Ensure the suction system is properly vented to the atmosphere when necessary.
+
+### Installation and Charging Procedures
+
+Adhere to the following procedures during the installation and operation of VSG/VSSG and 35391SSG units:
+
+**Suction Charging Guidelines:**
+- Monitor pressure levels regularly. It is essential to manage oxidation while maintaining proper service during charging operations.
+- Once the appropriate pressure is reached, closely check the integrity of hoses and connections to prevent leaks.
+
+### Maintenance and Inspection
+
+Regular maintenance and inspections are crucial for safe and effective operation:
+
+**Maintenance Procedures:**
+- Follow outlined schedules for service checks, focusing on suction couplings, integrity inspections, and any additional required evaluations.
+- Document all inspection results and maintain thorough records for accountability.
+
+**Summary of Required Maintenance:**
+- Inspect components such as RTDs and PLC relays routinely to safeguard system functionality.
+- Tighten connections on the VSG/VSSG and 35391SSG units as necessary to ensure efficiency.
+
+### Additional Notes
+
+When servicing the units:
+
+- Be diligent in following lockout/tagout procedures during any maintenance activities to avoid accidental startup and exposure.
+- Ensure the units are adequately vented to the atmosphere before beginning any work.
+
+Remember to consult service tables and specific guidelines to ensure all processes are aligned with safety and operational standards.
+
+### Section Maintenance/Service
+
+**Hold-Down Strap Washer O.D. Warning:**
+Failure to adhere to this warning may result in serious injury or death. Always wear appropriate protective gear when dealing with the unit.
+
+**Removal and Installation:**
+To detach the unit (models VSG/VSSG and 35391SSG), ensure that the cover and washers are appropriately positioned. Install the cover plate with care, tightening securely. 
+
+**Operational Safety Notice:**
+Before shutting down the system, comply with lockout/tagout procedures to prevent serious injury or death. Turn all switches to the OFF position and allow the unit to cool before performing any inspections or maintenance. Clean with a lint-free cloth and check for any required adjustments.
+
+**Coupling Assembly Guidelines:**
+The coupling assembly should be aligned with the correct phase and rotation, as it is pre-configured from the factory. If further assembly is required, follow the specific warnings regarding safety procedures.
+
+- **Cleaning and Inspection:** Inspect bores and shafts for any burrs or foreign material. Ensure that all washers used are suitable for the mounting type (straight or tapered bore) and that they are securely tightened as per specifications listed.
+
+- **Operational Checks:** Examine the coupling upon startup to confirm it operates smoothly, with proper spacing and minimal waviness. Use a straight edge when applicable to ensure precise alignment.
+
+- **Tightening Specifications:** Follow outlined tightening tables to secure all connections adequately, especially where locking mechanisms are involved.
+
+**Bearing Inspections:**
+Conduct comprehensive inspections of bearings for axial and radial float to ensure they meet the allowable force metrics. Document force measurements accurately, and if any exceed the allowable limits, contact customer service for replacements.
+
+**General Maintenance Recommendations:**
+Re-check all mountings and clearances regularly. Use a straight edge as necessary to validate proper spacing, ensuring that all couplings function correctly within their operational parameters.
+
+Sure! Here’s a paraphrased version of the provided text, maintaining the original meaning:
+
+---
+
+**Section: Maintenance/Service Assembly for VSG/VSSG**
+
+**VSG/VSSG Removal Instructions:**
+To disassemble, begin by removing the coupling from the cover and ensure the cover is removed correctly. The cover must be turned to detach from the thrust housing. Follow the marked instructions on the VSSG and VSG for the proper sequence. The thrust bearing cover should be removed, and ensure that the coupling is correctly positioned with respect to the thrust housing.
+
+**Installation Instructions:**
+Utilize a wrench to securely fasten the thrust bearing housing. Rotate the screw clockwise to tighten. When reassembling, ensure the thrust housing aligns properly with the suction input. Verify that the thrust housing is not obstructed during installation, and clean any residue from the surface to facilitate proper fitting.
+
+**Clearance Procedure:**
+Check the clearance measurement between the thrust housing and its cover. Ensure the measured clearance is consistent with factory specifications. The assembly must maintain the factory-set clearance levels to ensure optimal operation.
+
+**Section: Maintenance/Service for VSG Only Assembly**
+When disassembling the VSG, carefully remove the assembly while ensuring that the coupling engages correctly with the suction strainer. Proper alignment during assembly is crucial. Also, verify that the thrust head screw and thrust bearings are properly installed to maintain original clearance specifications.
+
+**Thrust Bearing Instructions:**
+To remove the thrust bearing, detach it from the thrust housing. For installation, align the bearings with the housing, ensuring smooth operation and clearance. Use thread-locking compound on the screws during installation to secure them properly.
+
+**Gate Rotor Components:**
+When removing the gate rotor blade, detach it from the assembly carefully. Ensure it is reassembled with accurate positioning of washers and components, and confirm alignment during installation.
+
+**Safety Precautions:**
+During any assembly or disassembly, adhere to safety precautions, including proper lockout/tagout procedures to prevent accidents. Allow the system to cool before servicing and follow all installation guidelines to ensure the assembly functions as intended.
+
+**Troubleshooting Section:**
+Identify and resolve issues that may arise within the VSG/VSSG system. Regularly clean optical components and verify that there are no electronic interferences. Each count of the checks ensures the functionality of the system, and efforts should be made to shield components from electromagnetic interference.
+
+---
+
+Feel free to reach out if you need any additional modifications!
+
+### Troubleshooting Section
+
+**Reason for Clicking Sounds**  
+Clicking noises may occur when the system operates intermittently, potentially due to overheating or activation of the thermal switch. Manual operation of the VSG/VSSG Installation and 35391SSG should ensure all components are functioning freely. Address any issues with the EEPROM memory or photochopper associated with the optocouplers, as any malfunction could cause improper operation.
+
+**LED Status Indicators**  
+The internal LED may display symptoms other than expected. If certain conditions do not register, replace the non-responsive optocouplers. Testing involves manually actuating the photochopper while measuring DC voltages at TP1 and TP2. Calibration issues may arise if light interferes with the optocouplers, especially in non-ideal conditions. 
+
+**Thermal Switch Check**  
+Identify the thermal switch leads on the board. Overheating can indicate that the thermal switch is malfunctioning. Testing this switch using a DC supply will confirm its operational status. ensure that proper voltage is reaching the EEPROM, as failures often result from incomplete circuit conditions.
+
+**Suction and Coolant Ratio**  
+Correcting suction settings requires ensuring alignment with recommended operating ratios. Ensure the cooler is functioning properly and that ratio adjustments occur accurately. If the cooler's operational capacity is exceeded, it could lead to performance issues.
+
+**High Injection Capacity/Volume Symptoms**  
+If the system experiences excessive suction or incorrect cooler settings, performance may be compromised. Ensuring correct installation and operation of the cooler, as well as checking any associated VFD settings, is vital for resolving issues.
+
+**High Amps and PLC Issues**  
+Monitoring backspin and suction operations is essential to maintain proper functionality. Ensure that all components are adequately supported and mounted.
+
+### Warranty and Warranty Processing Section
+
+This section outlines warranty processing and customer service information as related to the VSG/VSSG system. For warranty-related inquiries, follow the procedures outlined, including obtaining a Return Merchandise Authorization (RMA) for any product returns. Ensure that all records and freight information accompanying warranty claims are complete.
+
+**Re-manufacturing Information**  
+When considering warranty service for remanufactured components, adhere to all inspection guidelines to ensure accurate processing. Costs for inspection may apply, and any rebuild efforts will involve specific parts and service levels. 
+
+**Rebuild Levels**  
+The rebuild process may involve replacing bearings, bushings, and other components to restore the unit to its original specifications. Details on the specific components used during rebuilding will be documented accurately.
+
+**Specifications Section**  
+All components, including screws and structural elements, should comply with specified SAE standards. Ensure correct application of these standards in corresponding locations.
+
+**Recommendations for Operation**  
+For optimized operations, motors should be weather-protected, and appropriate insulation should be used to enhance durability. Follow systematic inspection procedures to maintain performance continuity.
+
+### Customer Analysis Section
+
+For the customer report, it’s critical to perform routine inspections and maintain records of fluid properties to monitor wear and performance. Should there be questions regarding analysis, reach out for further technical assistance.
+
+### Cooling Location Recommendations
+
+When positioning cooling systems, consider the inlet and outlet orientations for optimal thermal management. The recommended locations for these systems must prioritize efficiency and protection from environmental conditions.
+
+---
+
+**Note:** This paraphrase aims to maintain technical accuracy while restructuring the text for improved clarity and coherence.
+

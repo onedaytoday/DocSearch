@@ -1,0 +1,84 @@
+**DUV1000 IP Overview**
+
+**Table of Contents**
+- Overview
+- Acronyms
+- Definitions
+- Unpacking and Installation
+- System Requirements
+- Installation
+- Getting Started
+- Internet Phone Calls
+  - Receiving Internet Calls
+  - Making Internet Calls
+  - Internet Call Transfer
+- PSTN Phone Calls
+  - Making PSTN Calls
+  - Receiving PSTN Calls
+  - Transferring PSTN Calls
+- DUV1000 Configuration
+  - ISP Parameters
+  - Calling Card Parameters
+  - Review Configuration
+  - Save and Exit
+- Extended Menu
+- Additional Features
+- Upgrading Software
+- Restoring Factory Defaults
+- Appendix A: Entering Alphanumeric and Special Characters
+- Appendix B: Troubleshooting
+- Appendix C: DUV1000 Product Specifications
+
+**DUV1000 Overview**
+The DUV1000 is a dual-function device that operates as both an IP telephone and a PSTN phone. It uses standard protocols such as SIP and H.323 to facilitate low-cost calls, including STD and ISD. In addition to these functionalities, the DUV1000 supports the integration of PSTN and dial-up services, allowing users to access information seamlessly. The device is designed to be easily configurable with various Internet Service Providers (ISPs) and telephone services of the user's choice. It supports multiple audio codecs (G.723 or G.729A) for optimal performance with low latency and hands-free operation, ensuring data transmission security.
+
+**Unpacking and Installation**
+Upon unpacking, you should find the following items: one DUV1000 telephone, an RJ-11 cable, and a warranty card. Ensure that all components are intact. Connect the DUV1000 to the AC power outlet and the telephone line to facilitate proper operation.
+
+**Getting Started**
+Before installation, ensure you have your Internet Service Provider (ISP) and calling card details ready. The DUV1000 requires specific ISP access information to initiate the setup. Follow the character input sequences as specified to configure these settings.
+
+Should you experience any issues, consult the troubleshooting section for guidance on connectivity and configuration adjustments.
+
+**PSTN and Dial-Up Capabilities**
+The DUV1000 can differentiate between PSTN and dial-up calls. Ensure the device is powered on and follow the prompts to establish a connection. For incoming and outgoing PSTN calls, you may need to select the appropriate configuration options to optimize functionality.
+
+In case of improper operation, review the factory reset procedures and configuration settings to restore the device to its default state. The information regarding character entry and dialing should also be referenced in the appendices for efficient use of the system.
+
+**Final Notes**
+For any further assistance or to access detailed specifications, refer to the product documentation included in the appendices.
+
+**Calling Card Information for DUV1000**
+
+The provided details pertain to the DUV1000 Telephone Service. The Calling Card ID is associated with the user's phone or user identity, comprising a specified number of characters. This ID is crucial for verifying user identity within the Telephone Service.
+
+Options related to the Calling Card allow users to access services without needing to input information or disable features. The DUV1000 also includes security measures, ensuring that access is restricted to authorized users.
+
+To obtain the software for the DUV1000, users can retrieve it from an IP address or via the website DUV1000.cityonlines.com. Various countries are associated with specific codes for the DUV1000, including South Africa, USA, Austria, Ireland, Norway, Spain, and the UK. If the user selects a country that is not listed, appropriate adjustments should be made.
+
+The DUV1000 service options facilitate connections either through PSTN or other service providers, like SatyamOnLine or VSNL. Users can load additional software combinations and manage them remotely. During software updates, the DUV1000 signals status with specific tones and LED indicators.
+
+**Character Input Procedure**
+
+Users can follow the outlined steps to input characters using the DUV1000. Each character is accessed by pressing a designated number of times. For instance, pressing once accesses the first character, pressing thrice accesses the second character, and so on. Care should be taken to press buttons firmly.
+
+By pressing the SHIFT key, users can toggle between letters and numbers. Specific sequences allow users to input characters from A to Z, guided by the designated number of presses.
+
+**Troubleshooting the DUV1000**
+
+For troubleshooting, users should first check the DIAL-UP functionality. If issues persist, users should verify the phone's connection to the ISP and the quality of the PSTN connection. If problems are detected, steps should be taken to ensure compatibility with the service provider.
+
+Users can also troubleshoot by ensuring the phone is operational and checking for any incorrect configurations. If problems continue, switching to a different phone or contacting the ISP may resolve the issue.
+
+**DUV1000 Product Specifications**
+
+The DUV1000 supports H.323 or SIP protocols and operates on a voltage range of 9V AC (180-260V AC) with a power consumption of 5W. It features an LED interface to indicate operational status and readiness. 
+
+**Software Specifications**
+
+The DUV1000 supports audio codecs including G.723.1 and G.729A/AB and offers functionality compliant with several network protocols such as TCP, UDP, and RTP/RTCP. The device can connect to ISPs via TFTP and includes authentication protection for Calling Card access.
+
+**EMI Specifications**
+
+The DUV1000 complies with FCC Class specifications for electronic emissions and is designed for use in non-condensing environments. The device is equipped to operate reliably under designated standards.
+

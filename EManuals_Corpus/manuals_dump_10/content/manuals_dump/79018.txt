@@ -1,0 +1,43 @@
+Introduction.2 Specification....6 the board. to the board12 Reattaching the cover..12 optional and 2U the About the Connecting the About the LED and front About About SAF-TE..33 10.SCSI MANAGER.34 898X EN-898X USER MANUAL CD-ROM/FDD.. PCI
+from Corporation. It the who 2U rackmount chassis. DNS, Firewall, With inch and CD-ROM and the 2U inastandard19''rackcabinet.Witha300W(8982/8983:460 W) and supply and to ATX motherboard, EN-898X offers the freedom to this to Whether firewall, DNS, or this EN-898X efficiently and reliably. This 2U the and to capacity. The EN-898X 2U Rackmount Chassis The 2U Introduction
+this reference.
+EN-898X Rackmount Chassis Specifications factor follow SSI ATX follow SSI 480W Supply) LED =5V, LED =12V, LED Cooling internal cooling internal cooling cooling SCSI to RPM SCSI SCA-2 HDD with ID IDE: Trays IDE SCSI SCSI FDD FDD CD-ROM CD-ROM and PCI 898X C01 PCI Switch switch switch ACPI switch NMI switch USB1 USB2 FAN TEMP (W D) (chassis only) (chassis only) Specifications FAN (Below LED and to LED HDD activity NIC activity Pre HDD Active HDD LED) 898X D01 Low-profile PCI 898X E01 PCI
+WARNING The the front DOES NOT off the AC To from the AC cord(s) from the outlet or the chassis. the the consists of the following the cover. Removing the Mounting the board the chassis. Cabling the board to the other chassis and memory to the board. the the cover. Removing the To the top cover of the Press the and the cover back and from the chassis.(PIC chassis cover and from
+Mounting the With the cover off, mount the the chassis. the board and other associated memory, and mounting To mount the board: the motherboards screws. the screws. the I/O shields. To the shield correctly, the outline of the the I/O shield should from the chassis of the board the chassis first the properly seated the I/O shield. the standoffs that located the chassis PIC
+the board the standoffs with shoulders their matching the board. Mount the to the chassis the mounting screws with the chassis through the the board. CPU To the CPU the of the and the and then the from the of right. To mount the CPU the of the the type the to The to the CPU.
+Notice The white screw to the motherboard. M/B Insulation PAD: The M/B Insulation PAD the without the CPU
+as follows: the Affix the to the
+the mounting the board, to to the following chassis the the assembly The front The supply to the the board, the of memory cards. Reattaching the Cover Once the and its assembling the optional to If to these to the section. To the cover: the cover the chassis and forwards as as
+Optional Peripherals and include You purchase them and them. The four swappable the HDD from the chassis as shown HDD the HDD with the head screws as shown
+HDD the chassis HDD the chassis, and that the to the chassis, otherwise to the
+If the HDD the then the shield consists of the following the shield with the HDD and then to right. Tighten the screws
+CD-ROM/Floppy(8981/8982) CD-ROM/FDD: the screws that to the CD-ROM shield. the CD-ROM shield from the chassis. (the the OPEN) the CD-ROM to the the mounting screws. the CD-ROM to the CD-ROM and the to the CD-ROM/FDD and
+(W*D*H) To supply: the supply the chassis and seated the chassis the to the and the back its The
+Cooling Cooling the assembly the chassis. the back the the cooling the assembly the chassis. the back the the back
+Rear cooling the Cooling consists of the following the I/O shields. the to the the right to the the three the back of the chassis turn.(from right to
+as follows: L1/R1: the L2/R2: the L3/R3: the right
+Notes: If the I/O shield, that the three to the chassis, then the three
+PCI 898X C01 You three PCI to this PCI SCSI the to the PCI the to the PCI the PCI of board MUST with the PCI of
+898X D01 You Low-profile PCI to this
+898X E01 You PCI to this
+898X the Screw the to both of the chassis. the the and screw the outer to the 2U the About the 8982/8983(6HDD) Connector (S1) Stop Connector HDD SCSI back-plane HDD back-plane HDD) 6HDD The back allows to and the of the SCSI Connector: SCSI Connector: Connector LED board with SCSI Connector
+ID Select ID S1 off S1 The LED SAF-TE the LED HDD the LED Both and LED The GEM318 lights to Table the that displayed. Light or The LED flashed with or without the Consequently, the LED which housing the and shows the user which should Table State Steady
+SCSI or SCSI the of the lights. 3HDD SCSI Connector: SCSI Connector: Connector LED board with Switch: there the back ID Select ID to choose the I2C to choose the ID of HDD This function of
+ID OPEN OPEN SHORT OPEN OPEN SHORT SHORT OPEN The SAF-TE the LED HDD the LED Both and LED The GEM318 lights to Table the that displayed. Light or Table State Steady
+The LED flashed with or without the Consequently, the LED which housing the and shows the which should SCSI or SCSI the of the lights. Connecting the
+7.About the LED and front LED the LED access.(green) LED: LED: the or active, the LED and HDD Activity LED: the access, the LED LED: the or the LED and
+TEMP LED: the chassiss the LED and NIC Activity LED the NIC the LED access.(green) LED the abnormity the LED Switch: the and Switch: and the
+The recessed and allows to the memory to the of the 8.About Screws of them to the of them to the C of them to the MB Three of them to the CD-ROM of them to the CD-ROM NMI Switch: ACPI Switch: Advanced of them to the shield of them to the
+About SAF-TE(8982/8983) SAF-TE and and It properly SCSI and RAID without other SAF-TE included SCSI and SCSI ID, SCSI and of SCSI the EN8982 of SAT-TE commands. The of the SAF-TE Interface to third and RAID to integrated with peripheral that LCD, of and of software that SCSI SEF-TE chipset and HDD HDD). They displayed or the off.
+10.SCSI MANAGER(8982/8983) of SCSI the first the SCSI used, to then the to his Thereafter the to the The
+the the of the options the the information of the related topic displayed the right the with the that they products of Enlightcorp. Click the displayed: user professional the Common user the information displayed or the right the information of the related topics
+every that written the that the the Common information would displayed. Common the Address: the of operations the Common information the the there information about the The the the of of the interface (IDE, SCSI), of type OS directory directory
+IDE AIC78U21, their right the interface processing. displayed clicked the every the right Claimed the the If of Enlightcorp and the SAF-TE (EN8982) then it the following 4-function Physical Supported Scans Used PIO ID Product ID Revision SCSI Path ID SCSI ID SCSI LUN ID with installed?
+the the right information the EN8721: the the right information the the right information of of SCSI ID
+the the right information the users the information from the the of the cards, the right the SCSI and SAF-TE command. SCSI COMMAND Unit Ready Indication Warning Indication Warning
+SAF-TE COMMAND 4.Read of them, the This who with the SAF-TE when the write the the edited. from the as the of the
+Command the command, when writing the command, please assign the the and included the from While the there the updated If the updated automatically. The and manually The operating as follow: Selection Operation Address(show as then
+and as the following If the item selected, the the updated and If the the manually: as the following clicks the the the updated updated You the SCSI from the following
+First this (SCSI then the or and those If the the of or and then this the the and the
+the software to
+898X HDD PCI 8981C01 PCI /option PCI 8981D01 Low-profile 8981E01 8982C01 8982D01 Low-profile 8982E01 8983C01 as 8982C01) 8983D01 Low-profile 8983E01 4IDE HDD FDD, SCSI HDD SCSI NONE HDD 2PCI as 8981C01) PCI card/option PCI as 8982C01) as 8982C01)

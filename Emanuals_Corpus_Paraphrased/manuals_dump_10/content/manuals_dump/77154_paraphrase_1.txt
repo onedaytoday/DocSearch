@@ -1,0 +1,44 @@
+**API Touch ES601068 Overview**
+
+**Release Information**  
+This document is associated with the initial release of the ECO-13-0697. All content in this publication, including the NFC Application ES601068 A, is protected and cannot be reproduced, transmitted, transcribed, or translated without written consent from Touch Inc. The information contained herein is provided "as-is," and Touch Inc. disclaims any warranties, including implied warranties of merchantability or fitness for a particular purpose. Revisions to this document may occur without prior notice. The trademarks AccuTouch, CarrollTouch, SecureTouch, and TouchTools are owned by Touch Inc. and its affiliates, while Microsoft Corporation retains rights to its trademarks.
+
+**Application Interface Categories**  
+The following Application Interfaces are provided in the form of a Dynamic Link Library (DLL). The API facilitates communication between the DLL and various functions categorized under Battery, MCU, POS, and EEPROM. For additional assistance, please contact Touch technical support.
+
+**Battery Interface Functions**  
+- **EloGetBatteryStatus**: Retrieves charging status and battery information.
+- **EloGetBatteryCapacityPercentage**: Retrieves the battery capacity as a percentage.
+- **EloGetBatteryChargingStrength**: Retrieves the current strength of charging.
+- **EloGetBatteryChargingThreshold**: Retrieves charging threshold settings.
+- **EloGetBatteryLifeTime**: Provides information on the total battery lifespan.
+- **EloGetBatteryRemainingLifeTime**: Returns the remaining life expectancy of the battery.
+- **EloSetBatteryChargingStrength**: Sets the charging strength parameters.
+- **EloSetBatteryChargingThreshold**: Configures the charging threshold.
+- **EloSetBatteryLifeTime**: Sets lifetime parameters for the battery.
+
+**MCU Interface Functions**  
+- Various functions to manage the MCU's operation, including commands to retrieve status and settings.
+
+**POS Interface Functions**  
+- Functions to manage the Magnetic Stripe Reader (MSR) and control NFC power states.
+
+**Light Sensor & Accelerometer Functions**  
+- **EloEnableLightSensor**: Activates the light sensor.
+- **EloGetLightSensorData**: Obtains data from the light sensor.
+- **Accelerometer functions** to set sampling periods, G-Settings, and handle freefall conditions.
+
+**Power and LED Control Functions**  
+- **EloOnBacklight**: Controls the backlight settings for LED indicators.
+
+**Charging and Connectivity Functions**  
+- APIs to manage charging states over various interfaces including Bluetooth and LAN.
+
+**Camera and EEPROM Functions**  
+- **EloGetCameraFlashStrength**: Retrieves the current strength of the camera flash.
+- **EloSetCameraFlashStrength**: Configures the flash strength settings.
+- EEPROM related functions to manage memory storage and retrieve hardware serial numbers.
+
+**Contact Information**  
+For more details, visit www.elotouch.com or contact Touch Inc. at 800-ELO-TOUCH. All rights reserved to Touch Inc.
+

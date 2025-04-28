@@ -1,0 +1,126 @@
+# Professional Platform Customer Technical Service
+
+**CONTENTS:** Detailed information on the user interface and service.
+
+**PROJECT REFERENCE:** ONE  
+**AUTHORS:** F.  
+**CONTRIBUTIONS BY:**  
+**DOCUMENT HISTORY:** Author: AOS ONE Service ENG  
+**COPYRIGHT:** Professional P.1/31  
+**PROJECT:** ELECTROLUX ZANUSSI ALPENINOX PROJECT ONE OVENS Service  
+
+---
+
+## TABLE OF CONTENTS 
+- **PROGRAMMING THE DEFAULT PARAMETERS**  
+- **ADVANCED PROGRAMMING**………………………………………………………5  
+- **BY-PASS CALIBRATION** (APPLICABLE ONLY FOR LEVEL B, NOT REQUIRED FOR LEVEL C) ……………………………………….. 6  
+- **LAMBDA PROBE CALIBRATION** (FOR LEVEL OVENS ONLY)  
+- **CAVITY OFFSET CALIBRATION** (FOR LEVEL AND C OVENS) ………………………… 8  
+- **ERROR CODES** ………………………………………………………………………………. 8  
+- **FIRMWARE RELEASE** ……………………………………………………………………… 9  
+- **WORKING TEMPERATURES** ……………………………………………………………. 9  
+- **SERVICE UTILITIES** ………………………………………………………………………… 10  
+  - Utilities activatable with the oven powered on  
+  - Utilities available during parameter programming  
+- **LANGUAGE SELECTION FOR RECIPE MENU** (LEVEL A)  
+- **CLEANING CYCLES** (LEVEL A) ………………………………………………………… 12  
+- **CYCLES, UTILITIES, IMPORTANT PARAMETERS**  
+- **GAS SYSTEM** ………………………………………………………………………………. 13  
+  - **VALVE OFFSET PRESSURE CALIBRATION**  
+  - Use of manometer for offset pressure measurement  
+- **MICROPROCESSOR BOARD REPLACEMENT**  
+- **APPENDICES**  
+- **WATER BOILING POINT** ………………………………………………………………… 19  
+- **CONTACTORS DIAGRAM** (LEVEL C, LEVEL B AND A) …………………………….. 20  
+- **MAIN BOARD CONNECTIONS** (LEVEL A) ………………………………………….. 20-21  
+- **LAMBDA PROBE** ………………………………………………………………………… 24  
+- **PARAMETER DESCRIPTIONS**  
+
+---
+
+### APPENDICES
+- **WATER TREATMENT**  
+- **CONNECTION TO HACCP SYSTEM**  
+- **RELAY DESCRIPTIONS** ……………………………………………… 30  
+
+---
+
+Professional Platform Customer Technical Training Service
+
+During the service phase, follow the specified procedures to switch on and interact with the device accordingly. Properly initiate any required functions and allow the system to automatically complete necessary processes.
+
+---
+
+For further technical support and training, consult the detailed programming and calibration guides outlined in this document. Ensure adherence to safety standards and operational protocols while utilizing the oven’s features.
+
+Sure! Here’s the paraphrased version of the provided technical text:
+
+---
+
+**Professional Platform: Customer Technical Training Service**
+
+This service involves activating various phases (i.e., pressing buttons for either Phase A or C) which controls relay activation. When the designated button is pressed, the corresponding relay activates the EWD (Electronic Welding Device).
+
+**Appendix H**
+
+The Phase serves as a switch: when released, the relay is reset, and when pressed, it activates the relays. Dynamic feedback is displayed using a 4-character indicator while showing the following positions on the PCB for various meats: 
+
+- Meat A: First, Third, and Fourth
+- Meat B: Sixth
+
+The interface indicates the state of the respective cavities (CEL1, CEL2, etc.). The operation of the cavities can be affected by pressing associated microswitches, and environmental conditions are monitored accordingly. 
+
+**Cleaning Service Overview**
+
+Cleaning procedures include the following phases, facilitated through systems CLt1 to CLt4:
+
+- SOFT CYCLE CLEAN 1/SOFT A+C
+- MEDIUM CYCLE CLEAN 2/MEDIUM 2A+C
+- STRONG CYCLE CLEAN 3/STRONG 4A+C
+- EXTRASTRONG CYCLE CLEAN 4/X-STRONG 6A+C
+
+During cleaning, an acoustic signal is emitted, and the interface switches to standby mode. The heating systems can operate based solely on specified cavities and can utilize steam control.
+
+**Preheating Service Protocol**
+
+Preheating procedures operate at a target temperature of C, utilizing comprehensive hour counters for monitoring (e.g., Air hour counters). The relays (e.g., RL5, RL24) function according to the inputs from IND4 and IND5 while managing heating operations. If the conditions dictate, the user interface can enact a timeout.
+
+**Power Management**
+
+The device employs a SIT type SIGMA AC blower for air circulation, utilizing Pulse Width Modulation (PWM) to manage heating assignments. The incorporation of firmware controls various aspects of the operation. In scenarios of excessive detection or misalignment, the system adapts to ensure overall efficacy.
+
+**Technical Offset Calibration**
+
+Calibration includes adjusting the offset via a threaded screw mechanism to ensure precision within the cavity. 
+
+**Appendix and Connectivity**
+
+The accompanying appendices detail water boiling points, circuitry diagrams, and the connections located on the main board (X1 to X28). These include connections for motor supply, heater controls, and input/output management for various operational components.
+
+---
+
+This paraphrase maintains the original technical meaning while making the text more concise and accessible.
+
+### Summary of Technical Service for AOS ONE Ovens
+
+**Customer Technical Support Overview**
+This document outlines the operational and technical support provided for the AOS ONE ovens, focusing on humidity control via the microporous system covered by a protective layer. The heating element operates at increased temperatures, starting from 300°C, facilitating ion generation for various processes.
+
+**Operation Details**
+The system’s configuration involves multiple parameters that monitor and control the cooking environment, including thermal protection mechanisms that engage in cases of overheating. Specific activation states, such as AL1E, are tracked through RS485 communication, ensuring efficient operation during pre-heating and cleaning cycles.
+
+**Control Parameters**
+The document specifies various operational parameters, including PWM controls for steam and cavity fans, hour counters for HACCP compliance, and reset protocols for ignition devices. Additionally, a detailed overview of the fan motor power supply and operational relays for electric and gas ovens is provided.
+
+**Water Treatment Overview**
+A section addresses water treatment options, distinguishing between filters and noting the significance of nanofilter systems for effective operation.
+
+**Integration with HACCP Systems**
+The technical support includes guidelines for integrating the AOS ONE ovens with HACCP systems, ensuring compliance with health and safety standards.
+
+**Electrical Connections and Relay Details**
+A comprehensive list of electrical connections and relay descriptions is included, detailing components such as fan motors, solenoid valves, and pumps designed to facilitate optimal performance of both electric and gas ovens.
+
+This summary captures the critical aspects of the professional technical service for AOS ONE ovens, emphasizing operational efficiency, compliance, and safety protocols.
+

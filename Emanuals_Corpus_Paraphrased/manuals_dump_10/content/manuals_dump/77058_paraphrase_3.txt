@@ -1,0 +1,156 @@
+### Touchcomputer LCD User Guide
+
+**Contact Information:**  
+TouchSystems  
+1-800-ELOTOUCH  
+www.elotouch.com  
+Revision P/N E674343  
+
+#### Copyright Notice:
+All rights reserved. No part of this document may be reproduced, transmitted, transcribed, or translated in any form or by any means without written permission from TouchSystems. The information provided is subject to change without notice and does not guarantee merchantability or suitability for any specific purpose. Mention of certain products or services does not imply endorsement in all countries where TouchSystems operates. This documentation retains all rights to modification and distribution.
+
+---
+
+### Table of Contents:
+1. Testing Peripherals  
+2. Touchscreen Installation  
+3. Operation  
+4. On-Screen Display (OSD) Settings  
+5. Optional Peripherals  
+6. Technical Specifications  
+7. Technical Support  
+8. Warranty Information  
+
+---
+
+#### Unpacking the Touchcomputer
+This chapter outlines the components and connections for the Touchcomputer, including essential items such as the Recovery DVD and security screws. 
+
+#### Setting Up the Touchcomputer
+Care should be taken when handling the LCD. Ensure that connections are secure. Following setup instructions in English will help you establish proper connectivity.
+
+- **Setup Process:**
+  1. Power on the touchcomputer, and select your preferred display settings.
+  2. The system may require input for language preferences (English, Spanish, etc.).
+
+#### Peripheral Testing
+To verify the touchcomputer's compatibility with optional peripherals, follow these instructions.
+
+- **For Touchscreen Calibration:**
+  - If recalibration is necessary, right-click to access properties for adjustments.
+  
+#### Mounting Options
+This section will detail various mounting configurations for the Touchcomputer.
+
+- **Installation Variants:**
+  - Options available for mounting both from above and below with the provided screws.
+  
+#### On-Screen Display (OSD) Features
+The OSD provides control over display functionality and settings.
+
+- **Navigation:**
+  - Use the right/left buttons to modify settings and confirm with the SELECT button.
+  - Options include brightness adjustments, clock settings, and display phase.
+
+#### LED Indicators
+LEDs provide status information for different functions:
+
+- **Head LED** – Signals input activity.
+- **HDD Activity LED** – Indicates data access.
+
+#### Input/Output Interfaces
+This section provides an overview of input and output ports available on the touchcomputer.
+
+- **Available Interfaces:**
+  - Ethernet, USB, VGA, and microphone inputs.
+
+#### Optional Peripherals
+Details on additional peripherals that can be installed, such as Magnetic Stripe Readers (MSR) and Fingerprint Readers (FPR), including installation instructions.
+
+#### Testing Optional Peripherals
+Instructions on how to test MSR functionality and ensure it operates as expected.
+
+- **Functionality Check:**
+  - Use specific commands to verify the proper reading and processing of card information through the MSR. 
+
+---
+
+For more detailed guidance, refer to the specific sections in the user manual accompanying your Touchcomputer.
+
+### Customer Testing of the 15D1 OUCHCOMPUTER SERIES GUIDE
+
+#### Brightness and Character Specifications
+- **Characters:** International characters (X, Y)
+- **Font Size:** 5.5 (W) x 10.5 (H)
+- **Interface:** USB (Model: E326629)
+
+To test, double-click the VFD in the 15D1 Applications, select the appropriate COM port, and enter text in the designated field.
+
+#### FPR Testing
+The USB interface is optimized for performance and reliability, activated by a touch. Below are the key specifications:
+- **Power Supply:** 5.0VDC (0.25A typical)
+- **Operating Range:** 40°C (ESD)
+- **Scan Length:** Specifications for USB-SSI included.
+
+For 1-D and optional 2-D scanning, refer to the corresponding part numbers (E946856 for low-cost USB and E449881 for 2-D).
+
+#### Scanning Capabilities
+To perform the scan, access the relevant section for 1-D or 2-D scanning, selecting the proper COM port (COM1, COM2, COM3). Make sure the new field matches the connected device.
+
+#### Wireless Card Integration
+To test the wireless card, double-click the Wireless Network section. Ensure that the wireless connection initializes correctly. Note: The touchcomputer supports PCI wireless LAN and comes with standard specifications (P/N E238795).
+
+#### Additional POS Software
+For the 15D1 Applications, ensure the FD2XX software is correctly displayed. Upon powering off, ensure to close out of the software appropriately. The system supports a 160GB (or 80GB in Revision A) SATA drive (P/N E597623). 
+
+#### Safety and Maintenance Guidelines
+To minimize shock, always turn off the touchcomputer before cleaning. Use a 3-wire grounded cord, which is vital for safety and should not void the warranty. Avoid using harsh chemicals for cleaning, and prevent liquids from directly contacting the touchscreen.
+
+#### WEEE Directive
+In compliance with the WEEE Directive, the touchcomputer should be disposed of responsibly, in accordance with local regulations. The recovery process involves using the included recovery DVD-ROM to restore the system, following on-screen instructions.
+
+#### Touchcomputer Specifications
+Note: Ensure compatibility with specified revisions.
+- **Processors:** Core E8400 to E1500, with RAM configurations ranging from 512MB to 4GB DDR2.
+- **Input/Output Interfaces:** Standard USB interfaces, along with various power supply options (12/24V).
+- **Display Specifications:** 15-inch or 17-inch TFT active LCD, supporting different resolutions and brightness levels.
+
+#### Technical Support
+For additional technical assistance, visit www.elotouch.com for support information. You may also contact our toll-free support line: 1-800-ELO-TOUCH.
+
+### REGULATORY INFORMATION
+
+**I. General Information & Immunity Codes**  
+**15D1 OUCHCOMPUTER USER GUIDE**
+
+A) This device is intended for operations as specified and must be used according to the outlined procedures to maintain warranty validity. Failure to do so may result in fire hazards or damage.  
+B) This equipment contains no user-serviceable parts. Service should be performed by qualified technicians only.  
+C) Proper grounding is essential. Ensure the device is connected to a properly grounded outlet to prevent the risk of electrical shock or serious injury. Follow all grounding instructions provided.  
+
+**A)** United States Compliance: This device has been tested and meets the FCC Class B standards for interference. It offers reasonable protection against radio frequency interference during installation and operation. To minimize interference, adhere to the included instructions.  
+**B)** Canadian Compliance: This device aligns with Industry Canada’s standards for Class B devices, confirming it complies with applicable interference regulations.  
+
+**C)** European Union Compliance: This system complies with the relevant directives concerning electromagnetic compatibility (EMC) and low voltage, specifically EMC Directive 89/336/EEC (EN Class B) and Low Voltage Directive 73/23/EEC (EN Standard).  
+
+**D)** User Information: If this device causes interference, adjustments may be necessary. Users are encouraged to try repositioning the device or the affected receiver, turning off devices, or consulting professional assistance.  
+
+**III. Agency Compliance**  
+**15D1 OUCHCOMPUTER USER GUIDE**  
+AC connections must be made appropriately. Signals from high RF devices can interfere with operation if not grounded correctly. Compliance has been issued by multiple agencies including FCC, C-Tick, IMERC, BSMI, CE, VCCI, UL, CCC, and KCC.
+
+---
+
+### WARRANTY
+
+**15D1 OUCHCOMPUTER USER GUIDE**  
+Except as specified, the seller warrants that the product will be free from defects in materials and workmanship for a period of years since purchase. Warranty claims must be submitted in writing within thirty days of discovering the defect. The seller will inspect the product and address the warranty claims accordingly. 
+
+These remedies represent the sole recourse for warranty breaches. No other warranties, either express or implied—such as fitness for a particular purpose—are offered outside of what is documented here. The liability under this warranty is limited to the original purchase price of the product; it does not include costs associated with acquiring substitute goods or any indirect damages arising from product use.
+
+For any inquiries or further details about regulatory compliance or warranties, please visit **www.elotouch.com** or contact our North American office.  
+
+--- 
+
+**INDEX**
+Includes topics related to TouchSystems including 2-D scanning, specifications, testing, mounting options, software recovery, interfaces (PS/2 USB, VGA), and general troubleshooting guidance.
+

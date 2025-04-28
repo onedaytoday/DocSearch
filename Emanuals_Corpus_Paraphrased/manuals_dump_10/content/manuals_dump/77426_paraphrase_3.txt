@@ -1,0 +1,32 @@
+**ATEX Guidelines for Installation and Amplifiers**
+
+For proper installation and functionality, adhere to the ATEX directives for devices rated for temperatures from -40°C to +85°C (T4). Responsibilities include ensuring that no protective measures are compromised during inspections or use, particularly in environments potentially impacted by hazardous materials.
+
+Devices must comply with the categories IIA, IIB, and IIC, with temperature class ratings T1, T2, T3, T4, or T5. Pay particular attention to areas classified as II, 1G, where ignition risks exist due to static electricity.
+
+Any internal connections to the device housing should ensure compliance with standards such as EN 50020, effectively isolating from earth connections. The device should maintain a rating consistent with the specifications outlined for coupling/flange assemblies.
+
+For intrinsically safe setups, ensure that all connected components, such as amplifiers, align with their respective EC type examinations, such as TRL03ATEX21024X, TRL03ATEX21033X, or TRL03ATEX21035X, while adhering to the defined environmental classes, notably IEC 60721-3M8/4M8.
+
+Regular inspections of the devices and their installations are crucial, as is compliance with the recommendations outlined across various international standards. Be aware that if operational parameters or connections deviate from the prescribed instructions, revision or specialized maintenance may be required to maintain certification and safety compliance. 
+
+Please ensure that all operational procedures and guidelines are reviewed and followed meticulously to uphold both safety and functionality across all applications utilizing these ATEX-compliant devices.
+
+**MEP3*I, TRL03ATEX21035X Specifications**: 
+
+- **Category**: II G, IIC
+- **Temperature Class**: T4
+- **Voltage/Power**: +16.27V, 1.42W; +16.27V, 0.4W
+- **ATEX Certification**: TRL03ATEX21024X, TRL03ATEX21035X
+- **Ingress Protection**: IP221/SI
+- **Environmental Conditions**: -40°C to +85°C (T4)
+- **IEC Standard**: 3M8/4M8 IEC60721, EN50020
+
+**Compliance and Ratings**:  
+- **Explosive Atmospheres**: II, 1G
+- **Safety Classification**: IIA, IIB, IIC for temperature classes T1, T2, T3, T4, T5
+- **Reparation Standards**: Similar ATEX ratings and electrical specifications across models.
+
+**Notes**:  
+These models are intrinsically safe and suitable for use in hazardous areas as specified. All trademarks mentioned are the property of their respective owners. For further details, visit [Mobrey's website](http://www.mobrey.com).
+

@@ -1,0 +1,119 @@
+**Touchmonitor LCD Touchcomputer ESY1525L / ESY1527L Revision P/N TouchSystems, Inc. 1-800-ELOTOUCH www.elotouch.com**
+
+**Copyright Notice:**
+This publication's content may not be reproduced, transmitted, transcribed, or translated without prior written consent from TouchSystems, Inc. The information provided is subject to change without notice, and does not imply any warranty regarding merchantability or specific rights related to this document. TouchSystems, Inc. claims rights to product names such as SecureTouch, AccuTouch, and MonitorMouse among others. 
+
+**Product Overview:**
+Congratulations on acquiring the Touchcomputer! Please read the following information to familiarize yourself with your LCD Touchmonitor XGA TFT's features. This Touchcomputer comprises a [specific size] LCD screen along with a [specific type] motherboard. It meets CE and XP compliance standards, and its configuration options are selectable. Also included are a VDC power supply and chassis.
+
+**Operating System & Specifications:**
+The Touchcomputer's operating system options include CE and XP, with the capacity to support either 1GB or 2GB of SDRAM. The onboard configuration also includes 64MB of flash memory. Additional customer-selected configurations may also be incorporated.
+
+**Accessories & Options:**
+The Touchcomputer can function with or without specific accessories such as a Magnetic Stripe Reader (MSR) or various touchscreen options, including AccuTouch, all interfacing via USB. Please ensure that the appropriate software is installed for proper operation.
+
+**Connectivity Options:**
+Users can connect to a variety of networks, utilizing both wireless and wired Ethernet configurations, and potential data transfers through PCMCIA interfaces. The expansion options of the Touchcomputer include USB inputs and internal connections for additional devices.
+
+**Setup Instructions:**
+For initial power-up and software installation, follow the prompts clearly detailed in the user manual. The system should be connected to a power source, and utilize the back panel switch for operation. During setup, follow the on-screen instructions for network configuration.
+
+**Testing Procedures:**
+For system validation, testing can be performed via the pre-installed options. Execute tests on credit-card functionality and ensure all icon indicators respond accurately. Brightness adjustments and other display settings can also be managed using the control panel.
+
+**OSD Functionality:**
+The On-Screen Display (OSD) can be activated using designated switches for adjustments and settings modifications. Consult the provided section for detailed switch interactions.
+
+**Technical Support:**
+For technical assistance, contact TouchSystems via the provided support channels, or access the website for comprehensive resources.
+
+**Motherboard and Connector Information:**
+Below are the connection specifications for the motherboard, detailing locations for COM ports, USB connections, IDE interfaces, and power supply connectors:
+
+- **COM Ports**: CN1, CN2 (COM4, COM3)
+- **USB Connections**: CN6, CN9
+- **Power Supply**: CN3 (+5V), CN4 (+5V and +12V)
+- **IDE**: J7
+- **OSD Control**: CN11
+- **Additional Connectors**: Refer to motherboard schematic for complete details.
+
+For further technical specifications, consult the full user manual.
+
+### Rephrased Text
+
+**USB Connectors Overview:**
+- **USB1, USB2:** Connectors available at header J9 (optional).
+- **J11:** LVDS Connector (DF13-20), providing +12V output.
+- **J13:** VGA CRT Connector (optional).
+- **J14:** Additional optional header for the +12V rotation.
+
+**Pin Definition for Connectors:**
+- USB Pins: USB-, USB+, Ground, +12V
+- TX and Ground Pins: TX0- TX0+, Ground, TX1- TX1+, Ground, TX2- TX2+, Ground, TX3- TX3+, Ground, TXC- TXC+
+- Power Pins: +5V/+3.3V, ENABKL, Ground
+- N.C.: Not connected.
+
+**Connector Details:**
+- **J16 & J17:** PS/2 Connectors with GND, 5V, and clock pins.
+
+**Specifications:**
+- Utilize VIA CPU with RAM ranging from MB to MB.
+- Includes APM functionality and supports WinCE.Net.
+- Multiple RS-232 ports (internal CN13 and CN14) and external DB9 USB ports rated for +5V DC.
+- Features one 100/10Base-T Ethernet port and one PCMCIA slot.
+- Includes a CompactFlash (CN) connector.
+
+**Power Supply:**
+- The system operates on VDC with varying characteristics and requirements up to 5 Amps.
+
+**LCD Specifications:**
+- The LCD features OSD switches and supports native colors with an a-Si TFT active matrix.
+- Typical brightness levels and contrast ratios are also specified, ensuring adequate visual performance.
+
+**Touchscreen Assembly:**
+- Options include AccuTouch or other touchscreen types connected via USB.
+
+**Customer-Mounted USB MSR:**
+- Includes a VFD and complies with USB HID standards.
+- Character specifications detail height, ASCII conformity, and an MTBF of hours.
+
+**Regulatory Compliance:**
+- Adheres to international standards including FCC Class regulations and CE directives for EMC and safety.
+- Users are advised on pivotal information regarding installation, grounding, and troubleshooting interference issues.
+
+**Warranty and Liability:**
+- Warranty covers defects in materials and workmanship. Buyers must notify the seller of any issues within a specified timeframe.
+- Seller’s liability is limited to a refund of the purchase price, excluding installation or procurement costs of substitute goods. Additional liabilities such as consequential or incidental damages are disclaimed.
+
+**Product Information and Support:**
+- For detailed product specifications, news, and software updates, visit www.elotouch.com or contact USA Headquarters at TouchSystems, Inc., California.
+
+---
+
+This revision maintains the original intent while ensuring clarity and technical accuracy.
+
+**Touchcomputer 15" LCD Desktop Touchcomputer Series ESY1525L / ESY1527L Revision from TouchSystems, Inc.**
+
+Contact: 1-800-ELOTOUCH | Website: www.elotouch.com  
+Copyright © TouchSystems, Inc. All rights reserved. The information provided includes references to SecureTouch, AccuTouch, and MonitorMouse technologies. This document contains specifications relevant to the Touchcomputer product line, specifically regarding touchscreens, motherboards, and audio features.
+
+**Model Specifications:**
+- **Touchcomputers**: Models include both CE and XP versions.  
+- **Memory**: Options include SDRAM and Compact Flash, with configurations ranging from 256 MB to 1 GB.  
+- **Touch Technology**: Touchscreens utilize either AccuTouch or MSR capabilities.
+  
+**Hardware Options**:  
+The physical design supports various interfaces, including USB-HID, USB keyboard emulation, and optional features for specific configurations.  
+
+**Technical Description of Components**:  
+The motherboard configuration is detailed, listing connections for COM ports, power supply lines, USB, and additional interfaces. 
+
+**Performance Features**:  
+The display technology is based on TFT LCD and AccuTouch specifications, accommodating different voltage requirements (VDC/VAC), while system performance is governed by the available RAM and processor type.
+
+**Environmental Compliance**:  
+This product adheres to the relevant EU regulations regarding electromagnetic compatibility and safety standards.
+
+**Warranty and Limitations**:  
+The buyer's remedies are limited to those explicitly stated in this document. The seller does not extend any additional warranties, and its liability is confined solely to the refund of the product's purchase price. No costs related to the procurement or installation of replacement parts, or any consequential damages, are covered under this warranty.
+

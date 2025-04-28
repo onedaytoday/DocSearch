@@ -1,0 +1,97 @@
+**EMC Corporation South MA Corporate Headquarters**  
+**424-EMC2 Service SVC-4EMC**  
+**EMC Switch DS-16B and DS-8B User Guide P/N**  
+**Copyright EMC Corporation.** All rights reserved. Printed March [Year]. This information may not be copied or distributed in any form without the written consent of EMC Corporation. The details provided herein are subject to change without notice, and EMC Corporation accepts no responsibility for issues that may arise from inaccuracies.
+
+Software mentioned in this document is proprietary to EMC and is licensed only in conjunction with EMC products. EMC Corporation retains all rights, titles, and interests in the software, with no warranties regarding the products or software provided, explicit or implied. EMC Corporation disclaims all implied warranties, including those of merchantability and fitness for a particular purpose. EMC Corporation is not liable for any indirect damages or losses, including lost profits, arising from the use of or reliance on the DS-16B and DS-8B.
+
+The DS-16B and DS-8B switches have been extensively tested according to UL1950, CSA IEC 950/EN, FCC Class B, CISPR22 Class A, EN55022, and EN50082-1. Compliance is also verified with ICES-003 and NMB-003. **Warning:** This Class A device may cause interference in residential environments. **Attention:** The device meets the FCC Class A requirements, which provide reasonable protection against interference from radio frequency signals.
+
+**Company Information:** EMC Corporation, along with its brands such as MOSAIC:2000, The EMC Effect, EDM, SDMS, and PowerPath, maintains ownership of all trademarks. Microsoft's and other companies' names mentioned are the properties of their respective owners.
+
+**Switch DS-16B and DS-8B Overview**  
+This guide introduces the Switch Workstation and additional software features, including access to workstations, topology management, and administration functions for the DS-16B and DS-8B. Sections cover the user interface, performance monitoring, administration tools, and troubleshooting procedures.
+
+**Related Publications:** Resources with further information on the Switch DS-16B and DS-8B are available. Included are safety guidelines and caution notices pertaining to software use. Information classified as WARNINGS indicates potential risks of injury or property damage.
+
+For technical assistance or inquiries, users can reach out to service offices in the United States or global customer support.
+
+**Chapter Overview: Installation**  
+Details for the installation process start on page 2-3. This chapter will provide step-by-step instructions for setting up the DS-16B and DS-8B switches.
+
+Switch to the compatible Workstations for the operation of Switches DS-16B and DS-8B. Ensure that the workstation and the switch meet the following requirements: they must run on one of the specified operating systems, including NT or Solaris, with RAM specifications of at least the required MB. Additionally, the workstation must utilize one of the supported browsers: Netscape Communicator, Internet Explorer, or Firefox.
+
+If the necessary software is already installed on the workstation, verify that the installed browsers are compliant with the operating system. Clear the browser's cache and OS cache to optimize performance. To do this, access the browser settings, select Preferences, navigate to the Advanced section, and clear the memory/cache as needed.
+
+After clearing the cache, refresh the interface by selecting the appropriate option in the preferences. Follow the guidelines for updating Solaris configurations if applicable, ensuring the correct NPX_PLUG_IN_PATH is set. 
+
+For both NT and Solaris platforms, ensure the patch updates are applied correctly. Verify the switch's IP address and check if the workstation is ready for installation. If the browser is outdated, follow instructions to update it accordingly to avoid complications.
+
+Additionally, this section discusses interfaces and management options including the Topology Table, Administration Switch, and performance monitoring through SNMP. Utilize these tools to access comprehensive information about each switch, ensuring that the correct configuration is applied and monitored.
+
+When viewing the Summary for each Switch DS-16B and DS-8B, monitor crucial metrics like switch ID, Ethernet IP assignments, and overall health status. The Summary also provides critical details about active paths and port statuses.
+
+For ongoing maintenance and administration, refer to the displayed tables for connectivity and performance details, ensuring that all administrative aspects of the switches, including WWN management, are regularly monitored. Maintain compliance with EMC protocols for optimal switch operation.
+
+**Paraphrased Text:**
+
+The selected field shows the items, including switches, WWNs (World Wide Names), QuickLoop, and Assists. Depending on what you select, the corresponding switch or WWN will be displayed. If you choose a switch, information related to the WWN or QuickLoop AL_PA will also be provided along with the selected field’s details. Upon applying any changes, the administration settings will update accordingly.
+
+The QuickLoop allows for management of related settings. The DS-16B and DS-8B switch reference table facilitates QuickLoop configurations and displays associated information. If a QuickLoop is selected, the respective details will be displayed, and any changes must be formally applied for the administration to take effect.
+
+For the FA (Fabric Attachment), the existing setups will be listed, including associated FA details. Selection allows for modification to the current host settings. The interface will show which FA is currently active after applying any modifications.
+
+The DS-16B and DS-8B switches will display the selected configuration details. The administration interface allows for the selection of multiple switches, and applying changes will update the visibility of the relevant fields.
+
+Information regarding switch performance and operational status can be displayed, including metrics on the GBIC (Gigabit Interface Converter) interface types and LED indicators. Any anomalies or operational statuses will be reported.
+
+An optional software feature, Switch Watch, can monitor performance metrics actively, illuminating any detected issues on the switch. This feature includes information on the switch ID as well, showing its operational state (e.g., healthy or offline).
+
+The admin interface enables real-time monitoring of switch statistics, updating dynamically as modifications are applied from the Location/Address fields. All GBIC types and their operational conditions will be detailed alongside port statistics, ensuring continuous oversight and response to system performance changes.
+
+In summary, the information tables and display settings allow for comprehensive management and visibility of switch functions, GBIC statuses, and QuickLoop configurations, ensuring decisions made through the administration interface can be accurately applied and monitored.
+
+The GBIC configuration specifies the type of GBIC, whether it is on-board or otherwise. The connector type is identified, and the GBIC type is designated with IDs for various types: GBIC, SC, BNC/TNC, and short-wave variants. Additionally, encoding methods can include 8B10B, 4B5B, or NRZ, with transmission rates indicated for each GBIC.
+
+Specifications for the GBICs are detailed below, including OUI and part numbers (P/N), with the system indicating only GBIC-transmitted wave data. The information encompasses diagnostics and statistics related to the QuickLoop, such as AL-PA statistics and initialization causes, displaying relevant details about any initialization processes that were bypassed or caused issues in the QuickLoop.
+
+The Switch DS-16B and DS-8B support various administration functions, including switch tracking and performance monitoring. Users can access notifications and customize thresholds for various parameters, such as RX and TX performance, loss metrics, and state changes. Each threshold can be configured to activate based on specified conditions.
+
+The administration interface allows for the management of SNMP settings, including community strings and trap severities. Users can commit changes and manage accounts directly through the administration functions provided. Overall, the SNMP options interface supports both local and remote configurations for effective network management.
+
+**Administration Overview**
+
+The administration interface allows for the management and configuration of functions related to the specific switches: DS-16B and DS-8B. It provides access to key features, including remote switch functions. Certain switches may be rendered inoperable if configuration changes are attempted without proper guidance; in such cases, it is advised to contact EMC Technical Support.
+
+The references to the remote switch indicate that both the WAN and ATM interfaces can be controlled via the remote switch, ensuring active connectivity. Users can manage remote switch functionalities directly from the administration interface, facilitating operations such as enabling or disabling the switch.
+
+**QuickLoop Administration**
+
+The QuickLoop feature allows for the management of specific switches within the DS-16B and DS-8B series. Users can toggle the QuickLoop switches on or off and check their current status. The interface provides detailed information about the selected switch, including its WWN and ID. When utilizing QuickLoop operations, the interface ensures that only the designated switch is targeted, with the ability to view and commit changes when the administration tools are launched.
+
+**Switch Information and Software Options**
+
+The administration interface allows for archiving or downloading switch-related information to a specified host using FTP or RSHD. Users can select the appropriate communication protocol and initiate downloads directly from the switch. This functionality is initiated from the administration dashboard, offering a streamlined approach to access switch data.
+
+**Technical Support Procedures**
+
+For issues related to EMC software products, customers are encouraged to contact EMC Technical Support for assistance. Specific procedures are outlined for providing support, including gathering necessary information related to software issues. It is important to document all relevant details, such as software type, release, and conditions under which issues occur.
+
+**Protocol and Performance Standards**
+
+The switches support high-speed connectivity and inter-switch communication by utilizing established protocols. Key terminology such as AL_PA (Arbitrary LUN Physical Address) and BER (Bit Error Rate) are essential for understanding performance metrics. The switches are designed to maintain connectivity standards, facilitating optimal data transmission across various network configurations.
+
+**Resource Accessibility**
+
+Lastly, the documentation may include references to various operational standards and metrics, ensuring that users have access to necessary information regarding their switches’ functionality. By adhering to these guidelines, users can effectively manage and troubleshoot their networking devices.
+
+The DS-16B and DS-8B switches facilitate connectivity to NL_Ports, enabling switching capabilities. FLOGI is utilized for service initiation alongside PLOGI, which comprises a start-of-frame header, optional redundancy (CRC), and encompasses types relevant to FRU units and FS Services, including well-known services like FSP and FSPF for routing. These switches can function in scenarios involving gateway IP assignment and ATM GBIC interfaces for physical-layer compatibility.
+
+They support both active and inactive states and rely on synchronization settings such as E_D_TOV for timeout management. The AL_PA interacts with any initiating workstation, transmitting data at specified intervals. The HBA Interface interacts with the physical network topology.
+
+ISL (Interswitch Link) allows connectivity between switches, utilizing an Information Unit (IU) to transfer data across various connected configurations, such as JBOD or RAID. Communication is facilitated through MIB and SNMP protocols to manage network status and resource discovery with AL_PA assigned to each physically connected topology.
+
+The DS-16B and DS-8B switches support QuickLoop technology for efficient internal routing, maintaining timeout parameters (R_A_TOV and E_D_TOV) across N_Ports and ensuring compatibility with RAID configurations. The routing assignment adheres to established network protocols, enabling seamless integration with various IP-based services, including TCP/IP and UDP.
+
+Moreover, the switches can be manually assigned, translating specific character types and managing SNMP notifications and traps for effective communication between connected devices. The configuration options, performance metrics, and administrative functions are accessible through various management interfaces.
+

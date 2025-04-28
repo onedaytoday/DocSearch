@@ -1,0 +1,105 @@
+### Touchmonitor LCD Touchmonitors L/17 Revision
+
+**Copyright Information**  
+© TouchSystems, Inc. All rights reserved. This content may not be reproduced, transmitted, transcribed, or translated in any form without written permission from TouchSystems. The information provided is subject to change without notice and does not imply any warranties, including but not limited to merchantability or rights related to this publication. The trademarks SecureTouch, AccuTouch, and MonitorMouse belong to TouchSystems, Inc., along with any other trademarks not owned by third parties.
+
+---
+
+**Product Precautions**  
+Congratulations on your purchase of a touchmonitor. This touchmonitor features an LCD panel designed to enhance the flow of information. Please adhere to the provided guidance to ensure optimal performance. The LCD Touchmonitor SXGA TFT includes the following features: Direct RGB input (or RGB for model 1749L), supporting 16.2M colors (model 1746L) and 16.7M colors (model 1749L) with a refresh rate compliant with standard specifications.
+
+---
+
+### **Chapter 1: Introduction**
+
+**Overview**  
+This chapter details the LCD touchmonitor and its software. The package includes the following components: 
+
+- Touchmonitor unit
+- Front-Mount and Rear-Mount brackets (model 1746L and 1749L shown)
+
+**Attaching the Touchmonitor**  
+Use a screwdriver to connect the mounting hardware to the integrated M4 threaded VESA mounting points located on the back of the touchmonitor. Secure it using the included screws.
+
+---
+
+**Connection Guidelines**  
+**CAUTION:** Ensure the touchmonitor and PC are powered off before making any connections. 
+
+This touchmonitor supports touchscreen functionality via RS-232 and USB (compatible with Windows XP only). For connecting, observe the following specifications: 
+
+- **Touchmonitor Connection Ports:**
+  - DVI-I
+  - USB
+  - Serial Ports (9-pin and 15-pin)
+
+**Connecting Steps:**
+
+1. **Power Connection**  
+   Connect the power cable from the touchmonitor to the AC power outlet.
+   
+2. **Video Connection**  
+   For models like ET1749L, link the DVI-I cable from the PC's video output to the touchmonitor's video input. Secure both ends tightly.
+
+3. **Touch Interface Connection**  
+   Connect either the RS-232 cable or the USB cable to the PC. Ensure the touchmonitor is powered off when making this connection.
+
+4. **OSD Remote Connection**  
+   Connect the Remote OSD cable to the appropriate port on the touchmonitor to allow for on-screen adjustments.
+
+---
+
+### **Chapter 2: Installation and Setup**
+
+**VESA Mounting Interface**  
+The touchmonitor is compliant with the VESA Physical Mounting Interface (FPMPMI). Ensure that the mounting hardware used conforms to these standards to facilitate installation.
+
+Recommended vendors for compatible VESA mounts include:
+- Ergotron: www.ergotron.com
+- GCX: www.gcx.com
+- Innovative Office Products: www.innov-office-prod.com
+
+---
+
+### **Software Information**  
+Included with the hardware is a software CD that facilitates touchmonitor operation with various operating systems, including Windows XP and NT. For additional information and troubleshooting, visit www.elotouch.com.
+
+**Installation Instructions for DOS Users:**  
+To set up the touchmonitor using DOS, navigate to the CD-ROM directory containing the installation files. Execute the relevant installation commands to configure the touchscreen functionality properly.
+
+---
+
+**On-Screen Display (OSD) Controls**  
+The touchmonitor features an OSD for performance adjustments. Maintain factory settings by using the OSD controls for brightness, contrast, and other performance settings. Use the remote control to navigate the OSD menu, which allows for adjustments in language selection, input choice (DSUB or DVI), and more.
+
+---
+
+### **Chapter 3: Operation**
+
+**Remote OSD Button Functions**  
+- **MENU:** Access or exit the OSD menu.
+- **AUTO/SEL:** Adjust monitor settings like brightness and contrast.
+- **Navigation Buttons (UP/DOWN):** Scroll through menu options.
+
+The touchmonitor’s settings can be customized through the OSD, allowing users to select preferences for color temperature (e.g., K/6500, K/5500). 
+
+--- 
+
+This document summarizes essential aspects of operating and maintaining the touchmonitor system. For specific troubleshooting or advanced configuration, refer to detailed sections or manufacturer resources.
+
+To troubleshoot issues with the LCD touch monitor, ensure that the I/O connections are secure and properly connected, as noted in Chapter 1. If the monitor displays distorted images or issues with the On-Screen Display (OSD) buttons, verify the connections and consider testing with a different power outlet. 
+
+When using a VGA connection, check that the refresh rate settings match between the LCD and the source device. The native resolution for various inputs is as follows: VGA, SVGA, XGA, SXGA, and UXGA. If the input resolution does not correspond to the monitor's native settings, this may result in visual artifacts or characters being improperly displayed.
+
+For safe operation, avoid using unapproved cleaning products on the touchscreen, as these can damage the surface. Use a ground-enabled power cord to minimize the risk of electric shock. If issues persist or the device becomes damaged, consult a qualified service technician.
+
+Ensure that the touch monitor meets relevant technical specifications, including dimensions, brightness, and chemical resistance. Follow the guidelines in the regulatory information section to maintain compliance with safety standards.
+
+The warranty for the touch monitor covers defects in materials and workmanship, but it does not extend to damages incurred from improper use or handling. For any warranty claims, notify the seller within thirty days of discovering the issue. The remedies provided under this warranty are exclusive, and no additional warranties, implied or explicit, are granted. 
+
+For further technical support, please refer to the specifications and installation guidelines detailed for the ET1749L model, including connection types and performance expectations.
+
+Operation involves the LCD On-Screen Display (OSD) functions such as the OSD response, adjustment of phase, format switching, product rear information, remote OSD saturation, and USB sharpness settings, compatible with common resolutions like SVGA and SXGA. It includes technical specifications regarding activation force and touch interference for touch monitors. Troubleshooting information and warranty details are also included for the touch monitor devices.
+
+For further details on product specifications, news, software, and other inquiries, visit www.elotouch.com. The office for TouchSystems, Inc. is located in the USA, with headquarters in California. ELO-TOUCH KG, located in D-85521, B-3010 Touch K.K 2F.
+

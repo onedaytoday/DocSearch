@@ -1,0 +1,66 @@
+**E15TC75H Technical Documentation**
+
+**Files:**  
+- E15TC75HP_Cover.eps  
+- E15TC75H_S_Parts-Rotated.eps  
+- E15TC75H_Wiring.eps  
+
+**Manufacturer:** Appliances North America  
+**Address:** P.O. Box, Augusta, GA  
+
+**Product Model:** E15TC75HPS  
+**Series:** E15TC75HSS Icon-Pro, Icon-Designer
+
+**Device Type:** Trash Compactor  
+**Publication Type:** Service Manual (English)  
+**Copyright:** Products, Inc.
+
+---
+
+**Recommended Spare Parts for E15TC75H**
+
+**Publication Reference:** E15TC75H  
+**Position Number** | **Part Number** | **Description**  
+--- | --- | ---  
+1 | - | Assembly, Top Interlock Plastic  
+2 | - | Assembly, Screws for PC AC/DC Touch Switch  
+3 | S99526870 | Broan Assembly, Left/Right Back  
+4 | - | Compaction Cord Assembly for Gear Motor  
+5 | - | Motor Switch Assembly  
+6 | - | Switch Housing Assembly  
+7 | - | Functional Non-Illustrated Switch Plate  
+
+---
+
+**Recommended Spare Parts Index for Models:**  
+- E15TC75H (E15TC75HSS)  
+- E15TC75H (E15TC75HPS)  
+
+**Wiring Diagram Components:**  
+- RAM Lock Switch  
+- RAM Up Sensor Switch (Black)  
+- Odor Disk Sensor Switch (Red)  
+- Centrifugal Motor Switch (Black)  
+- Upper Limit Switch (White)  
+- Door Interlock Switch (Blue)  
+- Key Switch (White)  
+- Start Relay  
+- Compact Mode Relay  
+- Power PCB Wiring Diagram  
+- Door Sensor Switch (White)  
+- User Interface  
+- Main Motor Run (Blue)  
+- Start Down (Red)  
+- 200MFD 125VAC Capacitor  
+- Lower Limit Switch (Red & White/Brown)  
+
+**Schematic Overview:** The diagram illustrates the unit with the ram in the upward position, key switch in the off state, door open, and compact mode engaged.  
+
+**Power Supply Inputs:**  
+- DC 9V Battery Backup  
+- Motor Protector  
+- Upper Limit Switch (White)  
+- Voltage Specifications: 0V, 120V, 24V DC  
+
+**Motor Switch Part Number:** 99526904B
+

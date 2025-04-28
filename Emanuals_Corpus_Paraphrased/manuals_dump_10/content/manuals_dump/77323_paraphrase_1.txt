@@ -1,0 +1,392 @@
+**Printed in Taiwan: G630/G430 Service Manual**
+
+**Revision History**
+Refer to the updates below for the G630/G430 service chapter.
+
+**Copyright Notice**
+This publication, including its content, may not be reproduced, transmitted, copied, or translated, in whole or in part, in any form or by any means, without the written permission of the copyright holder. The information is provided "as is" without warranties of any kind, either express or implied, including but not limited to implied warranties of merchantability or fitness for a particular purpose. Buyers of the product and its related software should seek support from authorized service providers for servicing and maintenance.
+
+**Service Information**
+The following sections include important technical details pertaining to basic configuration offerings and functionalities. Note that some localized features may not be covered by the service. Should you require further technical support, please contact authorized service providers. When ordering Field Replaceable Units (FRUs), ensure to specify the correct service information. If discrepancies arise, please consult authorized service providers regarding FRUs.
+
+**Specifications Overview**
+This summary presents the key features:
+Platform: AMD Athlon II, AMD M880G Chipset
+Memory: Up to 8GB of DDR2
+Graphics: ATI HD integrated graphics
+Connectivity: Integrated WLAN, LAN, USB, and audio interfaces
+Operating Temperature Range: C to C
+
+**Component Functions**
+- **TouchPad**: The touch-sensitive pad allows cursor navigation; the left and right buttons enable selection and clicking.
+- **Battery**: Houses the battery and provides an easy release mechanism.
+- **Cooling System**: Prolonged use ensures proper cooling for components.
+- **Ports**: Includes USB, HDMI, audio inputs/outputs, and an Ethernet port for connectivity.
+
+**BIOS Functions**
+The BIOS manages essential configurations and system settings. Users can restore system settings through BIOS recovery features.
+
+**Item Specifications**
+- **CPU Options**: Various AMD processors are available, ranging in specifications including thermal design power and cache size.
+- **Memory Specifications**: Supports various memory configurations with a maximum of 4GB per DIMM.
+
+For more detailed specifications and technical guidance, please refer to the official documentation or authorized service resources.
+
+### Memory Configurations  
+Memory Combinations:  
+- 0MB, 512MB, 512MB, 0MB  
+- 1024MB, 1024MB, 0MB  
+- 2048MB, 2048MB, 512MB  
+- 512MB, 1024MB, 512MB  
+- 1024MB, 1536MB, 512MB  
+- 2048MB, 2560MB, 1024MB  
+- 0MB, 1024MB, 1024MB  
+- 512MB, 1536MB, 1024MB  
+- 1024MB, 2048MB, 1024MB  
+- 2048MB, 3072MB, 2048MB  
+- 0MB, 2048MB, 2048MB  
+- 512MB, 2560MB, 2048MB  
+- 1024MB, 3072MB, 2048MB  
+- 2048MB, 4096MB  
+
+**Note:** Various memory configurations can be created including combinations and reversals.
+
+### LAN Interface  
+**Chipset:** AR8132L QFN  
+**Type:** RJ-45  
+**Support:** 10/100  
+
+**Wireless LAN:**  
+**Chipset:** RTL8191SE (WN6605LH)  
+**Manufacturer:** Atheros  
+
+### Storage Capacity  
+- **Manufacturer Models:** SEAGATE, TOSHIBA, WD, HGST  
+- **Capacities:** Not applicable  
+- **Format:** RPM not provided  
+
+### Performance Specifications  
+**Drive Interfaces:**  
+- **Type:** SATA  
+- **I/O Rate:** 5V  
+- **Performance:** Typical Mbytes/sec with CD/DVD  
+
+**Loading Options:**  
+- Associated with DVD formats (e.g., DVD-ROM, DVD-R, DVD-RW, etc.)  
+- Supports formats such as CD-ROM, CD-R, CD-RW.  
+
+### Audio and Microphone Specifications  
+- **Chipset:** ALC272X LQFP  
+- **Sound Output:** High Definition, 2W  
+- **Specifications:** Not applicable  
+
+### Battery Information  
+**Type:** SANYO/SONY/PANASONIC/SIMPLO  
+**Capacity:** Normal configuration 3S2P  
+
+### BIOS Overview  
+The BIOS is pre-configured and optimized. For troubleshooting:
+- Press **F2** during POST to access the BIOS Utility. 
+- Press **F12** for boot device selection.  
+- Follow on-screen prompts to navigate the options. 
+
+### BIOS Information for G630/G430  
+Displays a summary of system information including:
+- CPU type and specifications  
+- HDD details (IDE, ATAPI)  
+- VGA information and Product UUID for identification.
+
+### Security Features  
+Includes options to protect BIOS settings:
+- Clear passwords or user data.  
+- Features for memory configuration and boot device preferences.
+
+### Boot Options Configuration  
+Allows selection of bootable devices such as USB or DVD. Options for network boot or recovery are also supported.
+
+### BIOS Recovery  
+In case of corruption, there are recovery options via USB. Follow specific instructions to restore or update BIOS settings.
+
+### Additional Boot Utility Access  
+Access boot utility through designated keys and follow prompts to manage settings.
+
+### Final Note  
+Careful attention is needed during configuration to ensure all parameters are set according to system specifications and requirements.
+
+### HDD/BIOS Overview
+
+#### Removing HDD
+To remove the HDD, utilize the UnlockHD.EXE tool in DOS. Follow the steps to unlock the HDD as indicated. Power off the device and disconnect the HDD according to the guidelines outlined in the relevant chapter.
+
+#### BIOS Management
+To reset the BIOS settings, use WLAN or follow the instructions in DOS. Further details are provided in the corresponding section.
+
+#### Selector Function
+The Selector feature allows access without modifying the BIOS. To use it, refer to the DOS instructions for selecting the appropriate option as noted in the documentation.
+
+#### DMI Information
+The DMI provides BIOS information stored in the EEPROM, which is displayed for operational clarity. The commands specified will facilitate the retrieval of various DMI data from the memory, ensuring effective BIOS configurations.
+
+#### MAC Address Configuration
+To update the MAC address, run the MAC.BAT file to write the configuration from MAC.CFG to the EEPROM. The details of how to structure the MAC.CFG file are provided.
+
+#### Assembly Notes
+This chapter includes crucial procedures and troubleshooting steps. Ensure proper grounding when using tools such as a screwdriver. Pay attention to the specific screw types and quantities required for reassembly, which are detailed in the chapter.
+
+#### Battery Removal
+Ensure the device is powered down before proceeding. Remove the battery as outlined, paying careful attention to releasing the necessary components.
+
+#### DIMM and WLAN Card Removal
+Follow the stated steps to detach both the DIMM modules and WLAN board, ensuring that the FFC connectors are released correctly.
+
+#### HDD Detachment
+To safely remove the HDD, release the four screws and follow the marked indications. Be mindful of heavy components above it.
+
+#### LCD Assembly/Disassembly
+Remove the LCD by loosening the screws detailed. Follow the order and instructions to ensure the LCD is detached properly and is free from the chassis.
+
+#### TouchPad and Cover Removal
+Remove the TouchPad bracket carefully, taking care to unplug the associated FFC and ensure all screws are extracted in the correct sequence.
+
+#### CPU and Thermal Module Extraction
+When removing the CPU, follow the detailed instructions to extract both the thermal module and CPU securely, maintaining awareness of any locking mechanisms.
+
+#### Reassembly Procedures
+During reassembly, ensure all components are correctly seated and follow the outlined steps for the accurate reinstallation of the LCD, TouchPad, and other vital parts. 
+
+This summary provides guidance for hardware management, focusing on the removal and installation of key components while ensuring adherence to safety and technical standards.
+
+Here is a paraphrase of the provided text in a natural, technical style while retaining its original meaning:
+
+---
+
+Ensure that the LCD is properly aligned as shown. To correctly seat the LCD, refer to the chapters and press as indicated. It is crucial to follow the callouts and instructions on the back of the LCD. 
+
+Ensure that three screws secure the LCD, with the top part seated first. Be attentive to not trap any components during installation. 
+
+When reassembling, begin with the CPU. Carefully place the CPU into its socket, using the locking screw to secure it clockwise. Apply thermal grease as specified—preferably GP50 or XR-PE—after cleaning the CPU surface with a lint-free cloth. Distribute the thermal grease evenly across the CPU.
+
+Assemble the TouchPad Bracket, first securing the TouchPad itself, followed by connecting the FFC as indicated. Check the seating of the components to avoid issues.
+
+Proceed with installing the Right Cover, ensuring that it is properly aligned and secured. Once positioned correctly, press around the edges to secure it with screws, repeating for the front Cover.
+
+Install the HDD by aligning it as shown, making sure to connect it according to the arrow guides. Ensure that the WLAN card is also seated properly.
+
+For the ODD, follow similar steps to ensure it fits correctly and is secured with screws. 
+
+Apply pressure around the peripheries to check alignment, and secure the covers with the necessary screws.
+
+If troubleshooting is required, refer to the symptoms provided. For issues such as shutdowns, ensure components are connected correctly and check for any protectors interfering. If the LCD malfunctions or displays abnormally, it might need replacement. 
+
+Perform a POST check for further diagnostics if relevant lights are not showing. Ensure memory modules are reseated as necessary and confirm BIOS settings if hardware conflicts arise. 
+
+If sound issues occur, verify that audio settings are configured correctly and that no devices are muted. Similarly, check microphone settings to ensure functionality.
+
+For HDD issues, confirm the drive is connected properly and utilize recovery software if needed. Follow BIOS instructions to ensure all components are recognized effectively.
+
+---
+
+This version maintains a technical focus while streamlining the original text for clarity and coherence.
+
+### Optical Disk Drive (ODD) Troubleshooting
+
+If the Optical Disk Drive (ODD) does not function correctly, follow these troubleshooting steps:
+
+1. **Access Devices**: Check the ODD's connection and operation status via BIOS. Look for any LED indicators.
+
+2. **Device Manager**:
+   - Double-click on the **ATA/ATAPI Controllers** to expand the section.
+   - For DVD/CD-ROM drives, right-click and check if the items listed are functioning correctly.
+   - Ensure that the ODD is properly seated and free from scratches.
+
+3. **Playback Issues**: 
+   - If playback is choppy, try closing unnecessary applications. This can help free up resources for smoother playback.
+   - Confirm the software being used for burning is compatible and not from a factory reset state.
+
+4. **Settings**: 
+   - Right-click on **IDE ATA/ATAPI** and select **Advanced Settings** to ensure that DMA is enabled for optimal performance.
+
+5. **BIOS Check**: 
+   - If the ODD is not detected, restart the system and enter BIOS (usually pressing F2 during startup) to see if it recognizes the drive.
+   - Inspect the physical connections to the motherboard and reseat the drive if necessary.
+
+6. **Wireless Functionality**: 
+   - If wireless components are malfunctioning, check the Thermal Unit and ensure the connections are secure.
+
+7. **Diagnostic Tools**: Identify potential hardware issues by isolating components. Check for conflicts with other devices, such as the CRT switch, LAN interfaces, or additional cards.
+
+8. **Memory Initialization**: 
+   - During system boot, the BIOS conducts POST (Power-On Self-Test), which includes memory checks such as DRAM initialization and cache configurations.
+   - Pay attention to any errors related to memory timing (e.g., CAS latency).
+
+9. **Peripheral Connection**: Review all connectors including USB, SATA, and audio to ensure they are properly established.
+
+10. **Clearing BIOS/Recovery**: 
+   - If issues persist, you may need to clear the BIOS settings for recovery. This involves temporarily removing the RTC battery and activating the Clear CMOS jumper (R379).
+
+By following these steps thoroughly, you can diagnose and potentially resolve issues with your ODD and system performance effectively.
+
+### BIOS Recovery Process
+
+The Crisis BIOS Recovery feature allows users to restore BIOS firmware to a previous version if issues arise during the BIOS flashing process. To utilize this function effectively, it's advisable to connect your device to both AC power and a charged battery. Activate the BIOS Recovery by pressing the designated hotkey during the BIOS POST phase. 
+
+To execute a BIOS recovery from a USB drive, you will need to create a Crisis USB. This involves copying the appropriate BIOS files onto the USB drive, specifically the BIOS.wph file and the wincris.exe tool. Select the USB drive format option and follow the on-screen instructions. Once the Crisis USB is prepared, turn off the device, connect the USB, then power it on while pressing ESC. The BIOS recovery process should initiate.
+
+### FRU Unit Information
+
+This section details the Field Replaceable Unit (FRU) for the G630/G430 models. Always reference this information when submitting RMA requests or ordering FRU parts. It's crucial to ensure that the parts are ordered through Acer Authorized Service Providers and to verify that the information aligns with the specific needs indicated by the Service Provider. 
+
+### G630/G430 Assembly Guide
+
+Below are part numbers for various assemblies related to the G630/G430 models:
+
+- **Assy P/Ns**:
+  - 60.N3702.003
+  - 42.N3702.001
+  - 60.N3702.001
+  - MB.N6702.001
+  - 60.N3702.002
+
+- **Memory**:
+  - RAM: 42.N3702.002
+  - HDD: 42.N3702.003
+  - All related assembly part numbers are also indicated.
+
+### Storage Information
+
+Lists of hard disk drives (HDD) are provided below, including their specifications and firmware versions:
+
+- **HDD Models**:
+  - Seagate 160GB (ST9160310AS), 250GB (ST9250315AS), 320GB (ST9320320AS), 500GB (ST9500325AS)
+  - Toshiba 160GB (MK1655GSX), 250GB (MK2555GSX), 320GB (MK3255GSX)
+  - HGST 160GB (HTS543216L9A300), 250GB models, and 500GB (HTS545050B9A300)
+  - WD 160GB, 250GB and 500GB models
+
+### Additional Components
+
+A variety of other components and accessories are cataloged, including:
+
+- Power cords for various regions (e.g., US, EU, AUS)
+- CPUs: AMD Athlon models
+- Optical drives with specific model numbers and types
+- Thermal modules and cooling fans
+
+### Memory Modules
+
+Different memory modules for the G630/G430 are specified, including:
+
+- SO-DIMM DDRII 1GB and 2GB options from brands like NANYA, MICRON, SAMSUNG, and HYNIX.
+
+### Assembly Components and Accessories
+
+Additional components are cataloged for specific assembly needs, including screws and speaker models.
+
+This information is essential for maintenance, upgrades, and service operations for the G630/G430 models. Always refer to the relevant chapters for detailed instructions and part specifications.
+
+Here's a paraphrased version of the given text, maintaining the technical essence:
+
+---
+
+G630G RO Country WW WW S2.N960C.003 2*2G/500_L/6L2.2/5R/ WW GCTWN S2.N960C.002 2*2G/500_L/6L2.2/5R/ EMEA LX.N9601.001 2G+1G/250/6L2.2/5R/ EMEA LX.N9602.038 EM East 1*2G/ EMEA LX.N9602.037 EM East 1*2G/ EMEA LX.N9602.036 EM East 1*2G/ EMEA LX.N9602.035 EM East 1*2G/ EMEA LX.N9602.034 EM East 1*2G/ EMEA LX.N9602.033 EM East 1*2G/ EMEA LX.N9602.032 EM 1*2G/ EMEA South LX.N9602.031 EM Africa 1*2G/ EMEA LX.N9602.030 EM East 1*2G/ EMEA LX.N9602.029 EM 1*2G/ EMEA South LX.N9602.028 EM Africa 1*2G/ EMEA LX.N9602.027 1*2G/250/6L2.2/5R/ EMEA LX.N9602.026 W7HP64RUeTUK1 1*2G/250/6L2.2/5R/ EMEA LX.N9602.025 1*2G/250/6L2.2/5R/ RO Country EMEA LX.N9602.024 1*2G/250/6L2.2/5R/ EMEA LX.N9602.023 1*2G/250/6L2.2/5R/ EMEA LX.N9602.022 1*2G/250/6L2.2/5R/ EMEA Greece LX.N9602.021 1*2G/250/6L2.2/5R/ EMEA LX.N9602.020 EM 1*2G/ EMEA LX.N9602.019 1*2G/250/6L2.2/5R/ EMEA Spain LX.N9602.018 1*2G/250/6L2.2/5R/ EMEA Eastern LX.N9602.017 1*2G/250/6L2.2/5R/ EMEA LX.N9602.016 1*2G/250/6L2.2/5R/ EMEA LX.N9602.015 1*2G/250/6L2.2/5R/ EMEA Eastern LX.N9602.014 1*2G/250/6L2.2/5R/ EMEA LX.N9602.013 1*2G/250/6L2.2/5R/ EMEA Austria LX.N9602.012 1*2G/250/6L2.2/5R/ EMEA LX.N9602.011 1*2G/250/6L2.2/5R/ EMEA Eastern LX.N9602.010 1*2G/250/6L2.2/5R/ EMEA LX.N9602.009 W7HP64eTDK2 1*2G/250/6L2.2/5R/ EMEA Eastern LX.N9602.008 1*2G/250/6L2.2/5R/ RO Country EMEA LX.N9602.007 1*2G/250/6L2.2/5R/ EMEA LX.N9602.006 1*2G/250/6L2.2/5R/ EMEA UK LX.N9602.004 1*2G/250/6L2.2/5R/ EMEA LX.N9602.005 W7HP64eTBE1 1*2G/250/6L2.2/5R/ EMEA LX.N9602.003 1*2G/250/6L2.2/5R/ EMEA LX.N9602.002 1*2G/250/6L2.2/5R/ EMEA Eastern LX.N9602.001 1*2G/250/6L2.2/5R/ WW WW S2.N960C.001 1*2G/250/6L2.2/5R/ EMEA LX.N9501.001 1*2G/250/6L2.2/5R/ WW WW S2.N950C.001 1*2G/250/6L2.2/5R/ VGA Memory CPU LCD VRAM Chip ATM520 NLED17.3 M92SXT 512M- WXGA+G DDR2(6 ATM520 NLED17.3 M92SXT 512M- WXGA+G DDR2(6 AAM300 NLED17.3 M92SXT 512M- WXGA+G DDR2(6 AAM300 NLED17.3 M92SXT 512M- WXGA+G DDR2(6 AAM300 NLED17.3 M92SXT 512M- WXGA+G DDR2(6 AAM300 NLED17.3 M92SXT 512M- WXGA+G DDR2(6 AAM300 NLED17.3 M92SXT 512M- WXGA+G DDR2(6 Memory SO2GBII6 SO2GBII6 SO2GBII6 SO2GBII6 SO2GBII6 SO1GBII6 SO2GBII6 SO2GBII6 SO2GBII6 SO2GBII6 SO2GBII6 SO2GBII6 SO2GBII6 SO2GBII6 SO2GBII6 SO2GBII6 SO2GBII6 Memory VGA Memory CPU LCD VRAM Chip AAM300 NLED17.3 M92SXT 512M- WXGA+G DDR2(6 AAM300 NLED17.3 M92SXT 512M- WXGA+G DDR2(6 AAM300 NLED17.3 M92SXT 512M- WXGA+G DDR2(6 AAM300 NLED17.3 M92SXT 512M- WXGA+G DDR2(6 AAM300 NLED17.3 M92SXT 512M- WXGA+G DDR2(6 AAM300 NLED17.3 M92SXT 512M- WXGA+G DDR2(6 AAM300 NLED17.3 M92SXT 512M- WXGA+G DDR2(6 AAM300 NLED17.3 M92SXT 512M- WXGA+G DDR2(6 AAM300 NLED17.3 M92SXT 512M- WXGA+G DDR2(6 AAM300 NLED17.3 M92SXT 512M- WXGA+G DDR2(6 AAM300 NLED17.3 M92SXT 512M- WXGA+G DDR2(6 AAM300 NLED17.3 M92SXT 512M- WXGA+G DDR2(6 AAM300 NLED17.3 M92SXT 512M- WXGA+G DDR2(6 AAM300 NLED17.3 M92SXT 512M- WXGA+G DDR2(6 AAM300 NLED17.3 M92SXT 512M- WXGA+G DDR2(6 AAM300 NLED17.3 M92SXT 512M- WXGA+G DDR2(6 Memory SO2GBII6 SO2GBII6 SO2GBII6 SO2GBII6 SO2GBII6 SO2GBII6 SO2GBII6 SO2GBII6 SO2GBII6 SO2GBII6 SO2GBII6 SO2GBII6 SO2GBII6 SO2GBII6 SO2GBII6 SO2GBII6 SO2GBII6 Memory VGA Memory CPU LCD VRAM Chip AAM300 NLED17.3 M92SXT 512M- WXGA+G DDR2(6 AAM300 NLED17.3 M92SXT 512M- WXGA+G DDR2(6 AAM300 NLED17.3 M92SXT 512M- WXGA+G DDR2(6 AAM300 NLED17.3 M92SXT 512M- WXGA+G DDR2(6 Memory HDD 1(GB) HDD 2(GB) ODD SW1 N500GB5.4KS NSM8XS N500GB5.4KS NSM8XS N250GB5.4KS NSM8XS NIS N250GB5.4KS NSM8XS NIS N250GB5.4KS NSM8XS NIS N250GB5.4KS NSM8XS NIS N250GB5.4KS NSM8XS NIS N250GB5.4KS NSM8XS NIS N250GB5.4KS NSM8XS NIS N250GB5.4KS NSM8XS NIS N250GB5.4KS NSM8XS NIS N250GB5.4KS NSM8XS NIS N250GB5.4KS NSM8XS NIS Memory SO2GBII6 SO2GBII6 SO2GBII6 SO2GBII6 Memory HDD 1(GB) HDD 2(GB) ODD SW1 N250GB5.4KS NSM8XS NIS N250GB5.4KS NSM8XS NIS N250GB5.4KS NSM8XS NIS N250GB5.4KS NSM8XS NIS N250GB5.4KS NSM8XS NIS N250GB5.4KS NSM8XS NIS N250GB5.4KS NSM8XS NIS N250GB5.4KS NSM8XS NIS N250GB5.4KS NSM8XS NIS N250GB5.4KS NSM8XS NIS N250GB5.4KS NSM8XS NIS N250GB5.4KS NSM8XS NIS N250GB5.4KS NSM8XS NIS N250GB5.4KS NSM8XS NIS N250GB5.4KS NSM8XS Memory HDD 1(GB) HDD 2(GB) ODD SW1 N250GB5.4KS NSM8XS N250GB5.4KS NSM8XS NIS N250GB5.4KS NSM8XS NIS N250GB5.4KS NSM8XS NIS N250GB5.4KS NSM8XS NIS N250GB5.4KS NSM8XS NIS N250GB5.4KS NSM8XS NIS N250GB5.4KS NSM8XS NIS N250GB5.4KS NSM8XS NIS N250GB5.4KS NSM8XS NIS N250GB5.4KS NSM8XS NIS N250GB5.4KS NSM8XS NIS
+Memory HDD 1(GB) HDD 2(GB) ODD SW1 N250GB5.4KS NSM8XS N250GB5.4KS NSM8XS NIS N250GB5.4KS NSM8XS 1. (GB) Wireless Card 1 Bluetooth VOIP BGN BGN BG BG BG BG BG BG BG BG BG BG BG BG BG BG BG BG BG BG 
+Card LAN1 Bluetooth VOIP BG BG BG BG BG BG BG BG BG BG BG BG BG BG BG BG BG BG BG BG BG BG BG BG 
+G630 RO Country EMEA LX.N9308.001 1*2G/160/6L2.2/5R/ EMEA LX.N9301.001 2G+1G/250/6L2.2/5R/ EMEA LX.N9302.048 2G+1G/250/6L2.2/5R/ EMEA Norway LX.N9302.047 2G+1G/250/6L2.2/5R/ EMEA LX.N9302.046 2G+1G/250/6L2.2/5R/ EMEA LX.N9302.045 2G+1G/250/6L2.2/5R/ EMEA LX.N9302.044 2G+1G/320/6L2.2/5R/ EMEA Norway LX.N9302.043 2G+1G/320/6L2.2/5R/ EMEA LX.N9302.042 2G+1G/320/6L2.2/5R/ EMEA LX.N9302.041 2G+1G/320/6L2.2/5R/ EMEA LX.N9302.040 2G+1G/320/6L2.2/5R/ EMEA East LX.N9302.038 EM 2G+1G/ EMEA East LX.N9302.039 EM 2G+1G/ EMEA East LX.N9302.037 EM 2G+1G/ EMEA East LX.N9302.036 EM 2G+1G/ EMEA East LX.N9302.035 EM 2G+1G/ EMEA LX.N9302.033 EM 2G+1G/ RO Country EMEA East LX.N9302.034 EM 2G+1G/ EMEA South Africa LX.N9302.032 EM 2G+1G/ EMEA LX.N9302.030 EM 2G+1G/ EMEA East LX.N9302.031 EM 2G+1G/ EMEA LX.N9302.029 2G+1G/320/6L2.2/5R/ EMEA LX.N9302.028 2G+1G/320/6L2.2/5R/ EMEA LX.N9302.026 2G+1G/320/6L2.2/5R/ EMEA Greece LX.N9302.027 2G+1G/320/6L2.2/5R/ EMEA LX.N9302.025 EM 2G+1G/320/ EMEA Eastern LX.N9302.024 2G+1G/320/6L2.2/5R/ EMEA LX.N9302.023 2G+1G/320/6L2.2/5R/ EMEA LX.N9302.022 2G+1G/320/6L2.2/5R/ EMEA LX.N9302.021 2G+1G/320/6L2.2/5R/ EMEA Eastern LX.N9302.020 2G+1G/320/6L2.2/5R/ EMEA LX.N9302.019 2G+1G/320/6L2.2/5R/ EMEA LX.N9302.018 2G+1G/320/6L2.2/5R/ EMEA LX.N9302.017 2G+1G/320/6L2.2/5R/ RO Country EMEA South Africa LX.N9302.016 EM 2G+1G/ EMEA Eastern LX.N9302.015 2G+1G/320/6L2.2/5R/ EMEA Austria LX.N9302.014 2G+1G/320/6L2.2/5R/ EMEA LX.N9302.013 2G+1G/320/6L2.2/5R/ EMEA LX.N9302.012 2G+1G/320/6L2.2/5R/ EMEA Eastern LX.N9302.011 2G+1G/320/6L2.2/5R/ EMEA LX.N9302.010 2G+1G/320/6L2.2/5R/ EMEA LX.N9302.009 2G+1G/320/6L2.2/5R/ EMEA LX.N9302.008 2G+1G/320/6L2.2/5R/ EMEA LX.N9302.007 2G+1G/320/6L2.2/5R/ EMEA Eastern LX.N9302.006 2G+1G/320/6L2.2/5R/ EMEA UK LX.N9302.005 2G+1G/320/6L2.2/5R/ EMEA LX.N9302.004 2G+1G/320/6L2.2/5R/ EMEA LX.N9302.003 2G+1G/320/6L2.2/5R/ EMEA LX.N9302.002 2G+1G/250/6L2.2/5R/ EMEA UK LX.N9302.001 2G+1G/250/6L2.2/5R/ WW WW S2.N930C.001 1*2G/250/6L2.2/5R/
+
+--- 
+
+If you need further modifications or enhancements, feel free to ask!
+
+**RO Country Specification:**
+
+Hardware Overview:
+- Model: WW S2.N940C.001
+- Configuration: 1*2G/250/6L2.2/5R/
+- Graphics: VGA
+- CPU: AMD AAM300 / AMD AAM320 / AMD ATM500 / AMD ATM520 / AMD SMPM100
+- Display: 17.3-inch NLED, UMA graphics, WXGA+ (Wide Extended Graphics Array Plus)
+
+**Memory:**
+- VRAM: 2GB SO-DIMM
+- HDD Options: 
+  - N160GB5.4KS (HGST 160GB, SATA)
+  - N250GB5.4KS (HGST 250GB, SATA)
+  - N320GB5.4KS (HGST 320GB, SATA), includes multiple configurations with the same specifications
+- Additional recognized HDDs from Seagate, Toshiba, and WD.
+
+**Power Supply:**
+- Compatible adapters include:
+  - DELTA 90W, 19V
+  - HIPRO 65W / 90W, 19V
+  - LITE-ON 65W / 90W, 19V
+   
+**Battery Options:**
+- 6-cell batteries from brands including Panasonic, Samsung, Sanyo, Simplon, and Sony, all featuring distinct part numbers for reference.
+
+**Peripheral Connectivity:**
+- Wireless LAN and Bluetooth capabilities integrated.
+- Compatible components after rigorous testing include specified cards supporting the G630/G430 models.
+
+**Processor Features:**
+- AMD CPUs: 
+  - AAM300 (2.0GHz, 1MB, 35W)
+  - AAM320 (2.1GHz, 1MB, 35W)
+  - ATM500 (2.2GHz, 1MB, 35W)
+  - ATM520 (2.3GHz, 1MB, 35W)
+  - SMPM100 (2.0GHz, 512KB, 25W)
+
+**Network Card:**
+- Atheros AR8132L for LAN connectivity.
+
+**Note:** All specifications have been thoroughly tested to ensure compatibility and operational efficiency.
+
+### Technical Specifications and Information
+
+**LCD Modules:**
+- **AUO 17.3" WXGA LED**: AUO Model B173RW01-V0 LF +G, WXGA+
+- **CMO 17.3" WXGA LED**: CMO Model N173O6-L02 LF +G, WXGA+
+- **LPL 17.3" WXGA LED**: LPL Model LP173WD1-TLA3 LF +G, WXGA+
+- **SAMSUNG 17.3" WXGA LED**: SAMSUNG Model LTN173KT01-A01 LF +G, WXGA+
+
+**Memory Modules:**
+- **HYNIX**:
+  - 1GB SO-DIMM DDRII: HMP112S6EFR6C-Y5 LF
+  - 2GB SO-DIMM DDRII: HMP125S6EFR8C-Y5 LF
+- **MICRON**:
+  - 1GB SO-DIMM DDRII: MT8HTF12864HDY-667G1 LF
+  - 2GB SO-DIMM DDRII: MT16HTF25664HY-667G1 LF
+- **NANYA**:
+  - 1GB SO-DIMM DDRII: NT1GT64UH8D0FN-3C LF
+  - 2GB SO-DIMM DDRII: NT2GT64U8HD0BN-3C LF
+- **SAMSUNG**:
+  - 1GB SO-DIMM DDRII: M470T2864EH3-CE6 LF
+  - 2GB SO-DIMM DDRII: M470T5663EH3-CE6 LF
+
+**Chipsets:**
+- **NB Chipset**: AMD RS880M with HDCP EEPROM
+- **ODD Drives**:
+  - HLDS NSM8XS DL 8X GT30N LF (No SATA)
+  - PLDS NSM8XS DL 8X DS-8A4SH LF (No SATA)
+  - SONY DL 8X AD-7585H LF (No SATA)
+  - TOSHIBA DL 8X TS-L633C LF (No SATA)
+- **SB Chipset**: AMD SB710 with USB
+
+**Graphics and Network:**
+- **VGA Chip**: AMD M92SXT UMA
+- **Wireless LAN**: Broadcom 4312H BG
+
+**Technical Services Information:**
+For technical assistance, please contact your designated branch office or ASP. The following resources are available:
+- Technical training and software downloads.
+- International Warranty (ITW) authorization procedures for services.
+- Help desk support is available for further inquiries.
+
+**Maintenance and Repair Procedures:**
+- **Battery Removal**: Instructions for safe battery extraction.
+- **BIOS ROM**: Onboard specifications and security procedures.
+- **Component Removal**: Guides for removing and reassembling critical components such as CPU, memory, LCD, and touchpad.
+
+**Troubleshooting:**
+- Issues related to the keyboard, EasyTouch, HDTV switch, and thermal units. For WLAN and BIOS function-related problems, consult troubleshooting guidelines.
+
+For any further inquiries, please reach out to technical support.
+

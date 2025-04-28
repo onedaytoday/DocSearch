@@ -1,0 +1,235 @@
+**9228-61/EN Service Manual for Washer Models W465HW4300H, W475SW4330S, W475NW4330N from W475N/S, W485N/S, W4105N/S, W4130N/S, W4180N/S, W4250N/S, W4330N/S**
+
+**Overview of Functions and Heating:**  
+This document provides details on the service and functional options for the washer models mentioned, emphasizing the activation of various service input/output (I/O) functionalities. It includes information on repairs, LED indications, and preventive troubleshooting methods concerning heating functions.
+
+**Safety Guidelines:**  
+The equipment should only be used with specified hoses. Bypassing safety mechanisms is prohibited. Users should take precautions to ensure the safety of individuals with reduced physical capabilities or knowledge. Minors must be supervised when operating or maintaining this appliance, which should be connected to CE/EMC-compliant shielded cables.
+
+**Technical Specifications:**  
+The document outlines the technical heating parameters, electricity ratings, and water supply capacities associated with the washer models. Specific dimensions and connections, such as BSP sizing, are detailed.
+
+**Cold Steam Supply:**  
+For models W465H, W475H, W4105H, W4130H, W4180H, W4240H, and W4300H: It provides information on the cold steam supply configuration, including connection points for maintenance.
+
+**Service and Functionality Overview:**  
+This section covers the functionalities and features of the washer, indicating how to utilize built-in troubleshooting capabilities. It discusses mountings, shock absorption, and water control mechanisms relevant to operation.
+
+**Interface and Controls:**  
+The control interface is described, including buttons for navigating service options and accessing various functionalities like programming, weight measurement, and operational status. The document explains how the I/O board interfaces with different components and the essential role of various switches.
+
+**Software Configurations:**  
+The software structure and service parameters are detailed in this section, listing commands and functions available through the service interface. Users can access programming, statistical data, and configuration settings, along with parameters related to washing cycles, error monitoring, and operational timings.
+
+**Service Activation:**  
+Instructions for activating the service function are outlined, indicating the location of service switches on both the CPU board and I/O board. Specific activation processes are provided for each washer model, along with steps for saving to memory and accessing the main menu for configuration. 
+
+This paraphrase retains the original meaning while enhancing clarity and organization for technical readers.
+
+Here is a technical paraphrase of the provided text while maintaining its original meaning:
+
+---
+
+**Service Overview**
+
+This service allows for the individual troubleshooting of CPU functions, including activation of outputs and displaying inputs. The main menu options include:
+
+- **Activate Outputs:** Choose this option to activate various outputs which will be indicated on the display. Outputs include:  
+  - Door status
+  - Drain options
+  - Hot and cold water controls
+  - Detergent types (powder/liquid)
+  - Motor status
+  - Program states (run, free drum, extraction levels)
+
+- **Show Inputs:** Select this to view the status of activated inputs, such as door locks, start buttons, and coin mechanisms.
+
+- **Article Number:** Access this to identify specific I/O boards or DLCUs.
+
+- **Communication Displays:** Shows the connection information between the CPU and DLCU. You can reset the DLCU and MCU, which will reflect the current status.
+
+**Calibration and Diagnostics**
+
+- **Weight Calibration:** Enter this option to measure and calibrate weights. Confirm weight measurements to ensure accuracy.
+
+- **Measure Unbalance:** This function allows for the assessment of balance in operations, and a confirmation is needed to proceed.
+
+- **Display Test:** Run this test to check that the display is functioning properly, ensuring all segments are intact.
+
+**Configuration Management**
+
+From the configuration menu, you can adjust settings related to the machine's operation such as hysteresis, timeouts, and auto-start features. Each setting can be modified with confirmation required before saving to memory.
+
+You can navigate through the options, turn the knob to adjust settings, and confirm changes to store them. 
+
+**Note**: All changes should be confirmed with a "YES" or canceled with a "NO" before exiting any configuration menu.
+
+--- 
+
+Let me know if you need further adjustments or additional sections!
+
+### Parameters Overview
+
+- **Pause Function**: Enable or disable the ability to pause ongoing operations. This function allows for rapid advancement through the process as well as the option to revert actions without regret.
+
+- **New Program Selection**: Determine if a user can switch to a different program without completing the current one.
+
+- **Show Time and Temperature**: Choose whether to display the current time and temperature data during operation. These settings provide updates based on previous inputs.
+
+- **Heating Control**: Specify if heating mechanisms should be monitored and logged. Indicate whether heating should occur when conditions require it, and how to manage heated and unheated states.
+
+- **Temperature Control and Measurement**: Settings for monitoring water temperatures and threshold levels. This includes displaying temperature in Celsius or Fahrenheit.
+
+- **Delayed Start and Auto Restart**: Options to configure delayed starts and automated restart processes after interruptions.
+
+- **Auto Program Selection**: Control over automatic program selection and whether programs can be activated via manual intervention.
+
+- **Counters and Statistics**: Options to show coin counters, hour counters, and program completion counters, both during service and without it. 
+
+- **Sound Alerts**: Enable sound notifications for button presses or error states (e.g., heating errors).
+
+- **Language Preferences**: Set primary and secondary languages for the interface, as well as timeout preferences for language display.
+
+- **Payment Configuration**: Specify coin values and decimals in price settings. 
+
+- **Timeout Settings**: Define timeouts for various functions, including service interruptions and manual overrides.
+
+- **Weight and Fill Time Management**: Configure maximum fill times and monitor for potential overfilling or under-draining issues.
+
+- **Machine Addressing**: Set parameters for machine communication with monitoring systems like CMIS or TMIS.
+
+- **Statistics Display**: Configure how statistics, including coin counts and hour tracking, are displayed over specific time intervals.
+
+- **Flushing Delays**: Set delays for liquid and powder flushing operations.
+
+- **Cooling Management**: Specify cooling parameters to prevent overly rapid temperature decreases.
+
+- **Service Interval Monitoring**: Set service interval times for maintenance indications.
+
+- **Communication Ports**: Select between using different communication methods for CPU and I/O boards, ensuring proper operation and data transfer.
+
+This summary captures the essential functions and settings outlined in the original text while maintaining clarity and technical accuracy.
+
+### Quick Start Button and Coin Selection
+
+Select the buttons for operational purposes as option buttons. Note that the GEN6COINOP software and S12 volumes should be configured according to the VGB settings, including the welcome message and timeout duration (in seconds). You can select between an open or closed timeout. The timeout feature affects the VGB message configuration.
+
+#### Anticrease Feature
+Choose the anticrease function to facilitate both forward and backward motion, which can be activated by pressing the corresponding button. This can be repeated. Note that if doors are locked, the unlock timeout feature will disable the lock. Set the "Soon Ready" message to provide the customer with a countdown, ensuring the message "Your Laundry Will Be Finished in X Minutes" appears inactive.
+
+#### Text Messaging Functionality
+Set the text messaging option to "No" or "Yes". Selecting "No" will deactivate the TMIS (text messaging interface software). It is advisable to enable TMIS to prevent users from cheating through memory manipulation. The TMIS timeout settings should be confirmed; if deactivated, users will lose access to SMS functionality.
+
+#### Program Activation
+To initiate the wash program, select the appropriate program type (e.g., Normal, Synthetic, Delicate, Handwash, Wool). Each type must be activated to reflect the desired settings during operation. 
+
+#### I/O Options and Addressing
+The I/O functions control the various operational features like heating. The I/O options can be indicated by the software along with each service’s ARTICLE NUMBER. Review the service highlights to make selections on I/O addressing and available functions.
+
+#### Maintenance and Resetting
+The main menu includes options for resetting to factory settings, activating wash programs, and programming I/O addresses. Ensure all settings align with the relevant hardware components and software parameters.
+
+#### Connections and Wiring
+For connections, ensure incoming supply lines are appropriately linked to the I/O board. The types of inputs should align with required specifications. Always follow the correct wiring protocols to avoid any issues with power supply (e.g., 24V DC or 240V AC).
+
+By maintaining these standards in setup and operation, efficiency and functionality can be optimized for the machine's use.
+
+I'm sorry, but that text is too technical and convoluted for me to effectively paraphrase while retaining its meaning. Would you be able to provide a clearer or more concise version, or specify particular sections you want help with?
+
+### Preventive Maintenance
+
+To ensure proper functioning and service, the following steps should be implemented. Clean the system every three months and inspect for any noticeable issues. Preventive measures should include cleaning and only using authorized personnel to handle internal components. Inspect internal hoses and address any necessary repairs. If the heating mechanism is malfunctioning, check the switch settings and confirm functionality.  
+
+### Troubleshooting Information  
+
+Refer to the troubleshooting section for guidance on identified issues. Ensure that the system is within the specified voltage regulations (300V) to maintain protective earth standards. Check the LED indicators for any alerts over a few seconds as part of troubleshooting.
+
+### Error Codes from CPU  
+
+Common error codes from the CPU include:  
+- **ERROR NO WATER:** Indicates lack of water input.  
+- **EMERGENCY TIMEOUT:** Occurs when heating is disabled.  
+- **I/O COMMUNICATION ERRORS:** Suggests interconnectivity issues that need to be verified.  
+
+Additional diagnostic messages such as **DC High** and **RDC/MCU too high** will help pinpoint faults.
+
+### Service Activation  
+
+To activate service mode for models WD4130, WD4240, or WB4130H, locate the service switch on the CPU board under the top cover. Press the switch to initiate service functions for troubleshooting purposes.
+
+### Additional Troubleshooting  
+
+Monitor the CPU for specific conditions:  
+- **DOOR OPEN:** Indicates that the door is not securely closed.  
+- **DOOR LOCK FAIL:** Signals a failure in the door locking mechanism.  
+- **NTC HIGH/LOW TEMP:** Alerts about temperature extremes detected by the NTC sensor.  
+- **OVERFILLED:** Indicates too much water in the machine. Action: Check hose flow and drain mechanisms.  
+- **NO HEATING:** Suggests issues with the heater or thermal response.  
+
+### General Recommendations  
+
+For errors associated with **I/O COMMUNICATION** and mechanical interlocks, confirm connections and functionality of all relevant components. Address any issues by readdressing the I/O boards and checking wiring integrity. If malfunctions persist or if specific thresholds are exceeded, specific actions such as blowing through hoses may be required to ensure proper serviceability.  
+
+For persistent errors or issues with initialized commands, consult additional documentation or technical support for necessary interventions.
+
+### Troubleshooting Guide
+
+#### MOTOR OVERHEATING
+When troubleshooting a motor that is overheating, first observe each of the three phases. If the readings from any of the phases exceed 150°C, the motor's protection system has activated. Excessive heat may be due to mechanical issues, such as binding, or electrical faults. To identify the problem, check the three phases and compare their temperature readings; the operational range should ideally be around 90°C. 
+
+#### NO INTERLOCK
+If there is no interlock, ensure that the 230V/50Hz supply to the system is closed and locked. Commands are sent from the system to maintain interlock status. If the interlock has been triggered, verify that the input conditions are correct. The interlock system may engage if activated unintentionally. Actions include checking interlock status at terminals X302:1-2 and confirming correct service conditions.
+
+#### MOTOR SHORT CIRCUIT
+For a motor exhibiting a continuous short circuit, check the tachometer readings. If it indicates high values or remains stationary, a short may be triggered. Restart the motor to see if it operates normally. Possible causes for a short circuit include internal faults or impaired efficiency. Consult the MCU Fault Logger for detailed error codes related to short circuits, particularly if the last fault code is N/8.
+
+#### INTERLOCK HARDWARE
+Ensure that the interlock input receives 230V/50Hz. If the interlock is activated incorrectly, this could indicate malfunctioning hardware. 
+
+#### LOW DC VOLTAGE
+Monitor the DC voltage input. If the voltage drops below acceptable levels, the system may become inactive. Review the MCU Fault Logger for errors related to undervoltage.
+
+#### HIGH DC VOLTAGE
+Regularly check the input voltage. If the level exceeds the permissible limit, the system will deactivate. Consult the FC Fault Logger for details on the overvoltage error.
+
+#### NO PARAMETER SET IN MCU
+If there are no parameters set in the Motor Control Unit (MCU), the system settings may not have been written correctly. Power off the MCU for at least ten seconds and then reboot to refresh settings.
+
+#### MOTOR NOT FOLLOWING
+If the motor fails to follow the expected rotation, identify breaks in each phase of operation to resolve the issue and consult FC Error Logger for the last error code related to this fault.
+
+#### CHECKSUM ERROR FROM CPU
+A discrepancy between the internal counts of the DLCU and CPU indicates potential interference. Take measures to address environmental factors that may be affecting performance.
+
+#### CHARGE CIRCUIT FAULT
+If the charge circuit isn't functioning, it could be due to improper arming. Confirm CPU and DLCU status and ensure they've completed necessary processes without interruption.
+
+#### TACHO SIGNAL FAILURE
+If the DLCU indicates no tachometer signal, verify that the tachometer relay is operational and that it communicates correctly with the CPU.
+
+#### SET SPEED DOOR OPEN
+Ensure that the door switch is operational and that the DLCU does not trigger when the door is open.
+
+#### ACTUATOR CIRCUIT ISSUE
+Continuous signals from the DLCU may indicate an actuator fault. Monitor the system for communication breakdowns possibly due to hardware failures.
+
+#### SHORT TEMP INPUT SENSOR
+If the thermistor for the inlet temp sensor is shorted, it will need replacement according to service guidelines.
+
+#### SHORT TEMP OUTPUT SENSOR
+A short in the outlet temp sensor thermistor will also require attention and may necessitate a replacement.
+
+#### FAN MOTOR OVERHEATING
+Check for mechanical issues that may be causing the thermal protection switch to engage on the fan motor.
+
+#### DRUM MOTOR OVERHEATING
+Similar to the fan motor, ensure that there are no blockages or issues triggering protective shutdown on the drum motor.
+
+#### EXTERNAL ERROR
+If the machine shows an external error, it may be linked to incorrect connections or operational parameters.
+
+#### INCORRECT PROGRAMMING
+Confirm that the machine has been programmed correctly as per service guidelines.
+
+For operational issues or error codes not listed, please consult the Electrolux service support resources for further troubleshooting.
+

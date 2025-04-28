@@ -1,0 +1,32 @@
+This document pertains to the authorized EMC service for the CX300, CX500, and CX700 systems, including initial service procedures and optional Navisphere 6.X software. Instructions for completing battery service and connecting to the Switch or SP LAN are also provided.
+
+To commence, ensure you have the FLARE software along with the EMC Navisphere interface for your CX300, CX500, or CX700. The documentation references network connectivity requirements, including TCP/IP setup and the use of appropriate adapters (RJ45/DB9) with various operating systems like AIX, HP-UX, IRIX, UNIX, or NetWare.
+
+The EMC Navisphere 6.X Release Notes should be consulted for specific software requirements. If you have already initiated the service, ensure that the EMC systems are directly interconnected and functioning as intended, referencing the relevant release notes.
+
+For communication settings, proceed by navigating through the options to select the correct COM type and settings such as NULL, parity, and stop bits. Confirm selections and continue through the interface until all configurations are appropriately set.
+
+To establish network connectivity, utilize the procedures outlined for creating new network settings. Follow through the setup prompts related to TCP/IP, ensuring that the IP address and DNS settings are automatically configured and validated.
+
+Once the setup is complete, verify that the system is connected and functioning correctly, and review any security configurations necessary for the EMC Navisphere software.
+
+For further instructions on Remote Access Service (RAS) features or additional service confirmations, refer to the detailed pathways and validation steps listed.
+
+Finally, ensure all necessary IP information and security settings are correctly applied and updated as per the guidelines. Follow confirmation processes to finalize and confirm the successful setup of SP configurations across the EMC CX300, CX500, and CX700 systems.
+
+The EMC CX300, CX500, and CX700 units involve several configuration steps. Begin by clicking "Complete" on the NT screen, after selecting the previously assigned phonebook from the last section. Confirm your choice by clicking "OK," which will direct you to a specific URL displayed on the screen. 
+
+After clicking "Select," any updates will load automatically; if a disconnection occurs, please reconnect within a few seconds. In case you need to refresh, press F5; once the browser has restarted, you can begin accessing features through the system's SPs.
+
+Regarding battery management for the EMC CX300, CX500, and CX700, it's essential to ensure each SP has a power supply setup (either SPS or BBU). While leveraging write caching enhances I/O performance, the system will manage write processes automatically when finished. The factory settings for the battery are outlined in detail in the accompanying documentation.
+
+To configure the optional Navisphere 6.X Software for connecting to the SP LAN, ensure you have the necessary software, such as Navisphere Access, installed on the SAN Copy or relevant options. Follow the instructions pertaining to the LAN setup, ensuring proper connections between the service and the SP using an RJ45 cable if required.
+
+If using IP configurations, specify the IP for the respective SP (A or B), and ensure you avoid conflicts by not utilizing PPP for this setup. The Navisphere and Access software can be sourced from the provided CD-ROMs, which include installation instructions.
+
+For initial security configurations, EMC advises strongly against exposing Navisphere 6.X security features to external networks without appropriate measures. While connected to the SP, maintain security protocols through the specified URL.
+
+Lastly, when connecting each SP to the LAN, remove protective covers as necessary and ensure proper connections through FE ports. Each host bus adapter (HBA) should also be properly linked to guarantee functionality.
+
+Note that the information in this publication is provided "as is" by EMC Corporation, with no guarantees or warranties concerning its accuracy or applicability. All related trademarks and software rights belong to their respective owners.
+

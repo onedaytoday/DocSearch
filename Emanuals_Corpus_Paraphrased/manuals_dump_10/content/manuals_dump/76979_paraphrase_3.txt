@@ -1,0 +1,52 @@
+### Motion DSP
+
+**Notice**  
+This document contains information and graphics intended solely for reference in relation to Motion DSP. Specifications are subject to change without notice, and any corporate or fictitious information is indicated as such. 
+
+**Revision History**  
+- April: Initial Release of MAN-CAN305IG  
+- Motion, Inc., D-78056, MA, USA, Copyright Motion rights.  
+- Website: www.elmomc.com
+
+### DSP MAN-CAN305IG
+
+**Introduction**  
+This document describes the CiA DSP's DSP-based motion capabilities. It provides details on objectives, abbreviations, terms, LSS restrictions, services, synchronization, and product code revisions, based on the DSP family identified in this context. The LSS (Layered Service Specification) enhances the control and reduces restrictions for the services outlined.
+
+### Objectives of LSS  
+The LSS is designed to optimize functionality through various services that are accessible via specific identifiers (ID). Each service supports a distinct function related to the DSP environment.
+
+### LSS Abbreviations and Terms  
+This section defines relevant terms and abbreviations. The COB-ID (CAN Object Identifier) is essential for both communication and software interactions within the CAN network.
+
+### LSS Functions  
+The LSS layer includes multiple functions and services that operate without reliance on hardware switches. It primarily interacts through the CAN network to deliver various services and controls, emphasizing network management (NMT) and service functions.
+
+### LSS Services  
+LSS encompasses four primary services, including Switch Operation Mode and LSS Synchronization. Each service facilitates specific operations and communicates appropriate data through identified channels.
+
+### Switch Services  
+Commands exchanged during LSS operations are categorized, and execution of switch commands is contingent on specific conditions being met. Each switch service enables selective functions across the network.
+
+### Switch Selective  
+This service allows targeted switching based on specific commands and identifiers, with defined parameters for revision numbers and product codes.
+
+### Confirmation Services  
+Certain services are tasked with confirming the successful execution of commands, including those related to switching and product specifications. Errors in execution are specifically accounted for with clear notification.
+
+### LSS Configuration  
+Configuration settings and activation of services depend on predefined parameters such as switch delays and command identifiers. Careful integration ensures that services operate as expected without conflicts.
+
+### Final Notes  
+The document offers essential guidelines for deploying LSS services effectively within the defined framework. Service execution must be monitored closely to ensure adherence to specifications, with specific attention given to identifiers and operational mandates.
+
+**DSP MAN-CAN305IG COB-ID Overview:**
+
+- **COB-ID Serial Number Range:** The COB-ID includes boundary definitions for Serial-Number-Low and Serial-Number-High in accordance with CiA standards. These boundaries encompass the LSS (Layer Setting Service) specifications related to matching and Product-Code, including their respective Revision Numbers.
+
+- **LSS Command Context:** The command related to LSS involves both the questioning and confirmation sections within the LSS service framework. Any references to Revision-Number-Low and Revision-Number-High indicate the respective lower and upper boundaries defined by CiA for minor versions.
+
+- **Interoperability Considerations:** The DSP MAN-CAN305IG emphasizes the importance of interoperability, particularly regarding the distinction between LMT (Layer Management Tool) and LSS services. The system's COB-ID addresses LSS configurations and highlights the need for confirmations regarding LSS services.
+
+- **Time-Out Management:** For effective service execution, it is crucial to adhere to recommended time-out settings during LSS services to prevent delays and ensure timely completion of operations.
+

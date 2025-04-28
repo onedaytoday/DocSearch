@@ -1,0 +1,46 @@
+### Thermal Corporation  
+**INTRODUCTION**  
+This document and the related information are owned by LP Corporation, California.  
+
+**COPYRIGHT NOTICE**  
+The content herein is protected by copyright, and reproduction or distribution is prohibited without written permission from the Corporation. Although the information is accurate as of the publication date, the Corporation maintains the right to update or amend it.  
+
+**TRADEMARKS**  
+LP Corporation and its services, including MS-DOS and other products from Microsoft, are trademarked.  
+
+### FCC DECLARATION OF CONFORMITY  
+This product complies with FCC regulations, designed to minimize interference in operation.  
+
+### INDUSTRY CANADA NOTICE  
+This product conforms to the requirements of the Industry Canada ICES-003 standard and adheres to the European EMC Directive (89/336/EEC, 92/31/EEC) with respect to Class B specifications: FCC Part B, Section 15, and EN 55022-B.  
+
+### SAFETY WARNINGS  
+- **Shock Hazard:** Ensure the power supply is operated in a safe location.  
+- **Media Warning:** Avoid contact with high-voltage areas or components. Disconnect the device to prevent hazards.  
+- **Reloading Instruction:** Do not switch off the device during operation or media loading.  
+- **Static Discharge Warning:** Avoid touching the print head or any conductive parts during operation.  
+
+### THERMAL PRINTING  
+The print head may reach elevated temperatures during operation; exercise caution to prevent burns.  
+
+### CONTENTS  
+- Thermal Operation Information  
+- AC Cord Specifications and Safety  
+- Interface Options (including RJ-11)  
+- Troubleshooting Guide  
+- Head Cleaning Procedures  
+
+### TROUBLESHOOTING  
+In case issues arise during operation, refer to the troubleshooting section where various error codes and indicators (e.g., LED signals) are described. Ensure the device is powered correctly and closed properly for optimal functionality. For persistent issues, clean the print head and verify connectivity with host interfaces (RS-232, DB-9, DB-25).  
+
+### CONNECTION ASSIGNMENTS  
+The following tables outline the assignments for various interfaces.  
+- **RS-232 Interface (DB-9 & DB-25)**  
+- **RJ-11 Printer Assignments**  
+- **DB-25 Printer Host Connection**  
+
+### HEAD CLEANING  
+For optimal performance, regularly clean the print head following provided procedures. If errors persist, ensure that the device is correctly loaded and that the connections are secure.  
+
+Refer to the user manual or accompanying CD for further instructions and troubleshooting assistance.
+

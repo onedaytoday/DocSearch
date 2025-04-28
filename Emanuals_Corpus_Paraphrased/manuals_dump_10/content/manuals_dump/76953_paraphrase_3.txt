@@ -1,0 +1,115 @@
+### PTC-200C Instruction Manual Overview
+
+#### Important Safety Instructions
+Adhere strictly to these guidelines while operating the PTC-200C Color Camera. Use a dry cloth for cleaning and avoid placing the device near heat sources, such as heaters or amplifiers. 
+
+**Caution**: To minimize the risk of electric shock, do not remove the outer cover; there are no user-serviceable components inside. Only qualified personnel should perform servicing. 
+
+**Warning**: To prevent fire or electric shock, keep the appliance away from rain and moisture. The warning label indicates risk of electric shock; do not open the device.
+
+This equipment has been tested and complies with FCC Class A standards, providing reasonable protection against interference. It is important to operate the camera according to the guide instructions. 
+
+#### Handling Precautions
+Avoid exposing the device to extreme heat or humidity. Clean the camera with a soft cloth, avoiding abrasive materials. Properly handle the rechargeable batteries to prevent short-circuiting or potential damage.
+
+### Table of Contents
+- Important Safety Instructions
+- Handling Precautions 
+- Part Names and Functions
+- Wireless Remote Controller
+- Setup and Operation Procedures
+- Troubleshooting
+- Specifications
+- Supplied Accessories
+
+### Part Names and Functions
+The PTC-200C features various components including an infrared sensor, composite video output, lens, DIP switches, and power terminals. 
+
+**Remote Controller Functions**: The remote provides options for directing the camera, including PAN and TILT controls, focusing (NEAR/FAR), and setting presets.
+
+### Wireless Remote Controller Setup
+Follow the included instructions to install batteries (type R03, AAA) in the designated manner. Make sure the batteries are positioned according to the indicated polarity. Test functionality to ensure proper operation.
+
+### Installation Instructions
+Mount the base securely using the supplied screws. Use the safety wire to provide additional stability. Ensure the unit is mounted properly and check all connections.
+
+### Operation Procedures
+To power the device, turn on the POWER switch after connecting to an AC supply. For various operational modes (including ID and TIMER functions), refer to the settings outlined in the manual.
+
+Utilize manual controls for PAN/TILT adjustments, and confirm that focus settings operating in AUTO or MANUAL modes align with your needs. 
+
+Additional features such as BLC (Back Light Compensation) and PRESET settings can be configured using the remote. 
+
+### On-Screen Display (OSD) Functions
+Navigate the OSD using remote commands for camera control, such as PAN/TILT adjustments and setting the operational ID. Return to the main screen as needed.
+
+For any issues, refer to the troubleshooting section to resolve operational discrepancies, ensuring efficient camera performance.
+
+### Camera Setup Overview
+
+#### Alarm Inputs/Outputs
+1. **Alarm Configuration**: Select between parameters such as BLC, AGC, AP Gain, and FL through the menu. Adjust settings for white balance (WB) using the "Shift" functions to navigate.
+2. **Backlight Compensation (BLC)**: Enables adjustment for light and background to improve visibility.
+3. **Automatic Gain Control (AGC)**: Simple ON/OFF capability for light correction.
+4. **White Balance Configuration**: Set to factory defaults or adjust manually to presets of 3,200K, 4,200K, or 6,300K. Use the "AWC" option to auto-calibrate based on lighting.
+
+#### Motor Control Settings
+1. **Pan and Tilt Adjustment**: Select motor speed and direction. Title and character assignments can be adjusted via the menu to customize naming.
+2. **Character Input**: Supports alphabetic characters from "A" to "Z". Utilize the "Home" button during PAN-TILT operations.
+3. **Control Modes**: AUTO mode for automatic tracking; MANUAL mode allows for manual adjustments.
+
+#### Alarm Terminal Functions
+1. **Short-Circuiting**: Connect Alarm In terminals to Ground (GND) to activate alarms, which can be configured from the OSD.
+2. **Outputs**: Alarm outputs are activated in response to specific conditions defined via OSD settings.
+
+#### Power Management
+1. **Factory Reset**: Use the DIP switch to restore factory settings for the lens and OSD. Turn ON/OFF for power management.
+2. **Clear Function**: Reset options managed through the ALL CLEAR switch.
+
+#### RS-485 Connection and Configuration
+1. **Communication Setup**: Connect RS-485 to a PC, ensuring the DIP switch IDs are configured correctly for reliable data transfer.
+2. **Communication Specs**: Supports synchronous communication with defined speed, parity, and termination.
+3. **Data Transmission**: Monitor transmitted and received data through specified connections.
+
+#### Terminating Resistance and ID Address Settings
+1. **DIP Switch Configuration**: Set ID addresses and enabling/disabling terminating resistance using respective DIP switches.
+2. **Switch Control**: Proper configuration needs to be followed for both terminating resistance and RS-485 ID settings.
+
+This structured setup provides comprehensive functionality for alarm management, camera control, and communication integrity, ensuring optimal operational performance.
+
+### DIP Switch Configuration
+Set the DIP switches as follows: OFF ON OFF ON OFF ON OFF ON (repeat this pattern) until the last switch. Ensure the DIP Switch ID is configured to match the required settings.
+
+### Troubleshooting Tips
+**Symptoms for Wireless TV Operation:**
+1. If the wireless TV isn't functioning, check all connections to the authorized ELMO service equipment.
+2. Verify that the AC power supply is correctly connected.
+3. If the LED indicator appears red and shows "OFF," ensure all connections are secure and refer to page 19 for guidance.
+4. Confirm the selected signal type is NTSC, and that settings are configured as suggested on page 16 for automatic detection.
+5. If display quality is compromised, refer to page 16 for adjustments regarding light/shade issues.
+
+For issues related to the wireless ID, consult page 18 to verify if the ID is correctly set.
+
+### Specifications
+- **Power Supply:** 12V DC, MAX 1A (NTSC compatible)
+- **Connectors:** RCA, RS-485 Block, EIAJ RC-5320A Type 4
+- **Lens:** F1.6-3.8 (variable focus)
+- **Sensor:** CCD, with an effective resolution of 768(H) x 494(V) for color and 811(H) x 508(V) for black and white.
+- **Iris Control:** ON/OFF
+- **AGC:** Automatic Gain Control
+- **Performance:** Minimum S/N ratio for TV operation.
+
+### Provided Accessories
+- AC Adapter (Model: D12-10-1000, input: AC120V)
+- Wireless Remote Control (Model: RCW-PTZS)
+- Batteries (R03, AAA)
+- BNC/RCA Cable
+- Mounting Plate
+- M5 Screws
+- User Manual
+
+**Copyright Notice:** Unauthorized recording of copyrighted material may infringe the rights of copyright owners.
+
+**Manufacturer Information:**
+ELMO Co., Ltd., Overseas Subsidiary Companies. Printed in the USA, Plainview, NY.
+

@@ -1,0 +1,101 @@
+### DUV1000 IP Overview
+
+**Table of Contents:**  
+- Overview  
+- Acronyms and Definitions  
+- Unpacking and Installation  
+- System Requirements  
+- Installation  
+- Getting Started  
+- Internet Phone Calls  
+- Receiving Internet Calls  
+- Making Internet Calls  
+- Internet Call Transfer  
+- PSTN Phone Calls  
+- Making PSTN Calls  
+- Receiving PSTN Calls  
+- Transferring PSTN Calls  
+- DUV1000 Configuration  
+- ISP Parameters  
+- Calling Card Parameters  
+- Configuration Review  
+- Save and Exit  
+- Extended Menu  
+- Additional Features  
+- Software Upgrading  
+- Loading Factory Defaults  
+- Appendix A: Entering Characters  
+- Appendix B: Troubleshooting  
+- Appendix C: DUV1000 Product Specifications  
+
+### DUV1000 Overview
+
+The DUV1000 is a dual-function device that operates as both an IP telephone and a PSTN phone. It uses SIP and H.323 protocols, allowing for cost-effective STD and ISD calls. Additionally, it provides an option to connect via PSTN for dial-up services. The DUV1000 is designed for compatibility with various internet service providers (ISPs) and telephone services, allowing for flexible setup and configuration.
+
+The device is equipped for VoIP (Voice over Internet Protocol) calls with codecs such as G.723 and G.729A, ensuring low latency and hands-free operation. It features protective measures for information security and can be managed remotely.
+
+### Unpacking and Installation
+
+Upon unpacking the DUV1000, ensure that all items are included:
+- DUV1000 IP telephone
+- RJ-11 telephone cable
+- Warranty information
+
+If any item is damaged or missing, please contact customer support. Connect the DUV1000 to a power outlet and to your telephone line via the RJ-11 cable. Check for a tone indicating proper connection.
+
+### Getting Started
+
+Before installation, gather your ISP and calling card details. The DUV1000 needs to be configured with the specific account information of your ISP. Follow the instructions carefully to enter characters and complete setup. Each entry must be confirmed before proceeding to avoid errors.
+
+### Internet Phone Calls
+
+The DUV1000 allows for seamless integration between PSTN and VoIP calls. Ensure that the device is powered on to receive calls via both networks. During operation, the system will indicate the status with LED lights.
+
+### Making and Receiving Calls
+
+For dialing out via PSTN or VoIP, adhere to the specific instructions regarding tone dialing or blind dialing. Ensure that the telephone line is available and that the device is correctly configured. 
+
+### Configuration
+
+Configure ISP and calling card parameters as needed for optimal performance. Review the settings regularly to ensure accuracy. 
+
+### Additional Features
+
+The DUV1000 supports software upgrades and the option to restore factory defaults. Refer to the supplementary appendices for troubleshooting advice and specific details on entering characters.
+
+The device is designed for ease of use, integrating various communication methods while ensuring data security. For any additional inquiries, consult the troubleshooting appendix or specifications.
+
+### Calling Card Information for DUV1000
+
+The following details pertain to the DUV1000 Calling Card service. This includes the Calling Card ID, which identifies the user and comprises a specific number of characters. The aim of this information is to establish user identity within the telephone service.
+
+This option allows the association of the Calling Card ID with different ISPs. Users can manage this information without altering the system settings or deactivating the service. The DUV1000 is designed to protect user identity, comprising several characters.
+
+If further details are needed, users should refer to the factory settings and the IP from which the DUV1000 software was downloaded, typically found at DUV1000.cityonlines.com. The country list includes South Africa, the USA, Austria, Ireland, Norway, Spain, the UK, and others. If the desired country is not listed, users should select an appropriate option.
+
+Based on the chosen country, users will experience different tones and software functionalities. For incorrect selections, prompt adjustments can be made by pressing the designated buttons. Software updates can be accessed in the respective section.
+
+### Software and Service Configuration
+
+The DUV1000 allows remote access to software updates when receiving signals. During this process, the tone and SHIFT LED indicators assist in guiding the user. The software can be rolled back to earlier versions if necessary. Users should ensure they have the correct IP from which the software is originally downloaded to facilitate updates.
+
+When entering characters on the DUV1000, a specific procedure is followed. For example, pressing keys once, thrice, or four times enables the selection of desired characters. SHIFT functionality modifies input options and is integral for character selection.
+
+### Troubleshooting Guidelines
+
+For troubleshooting outgoing PSTN calls via DUV1000, users should first connect to DIAL-UP. If issues persist, checking the phone connection and ensuring the DUV1000 is functioning correctly is advised. If the service is unresponsive, users may need to verify ISP connections or try alternative configurations.
+
+In instances where incorrect tones are played, users should verify all account details and network settings. The system may require re-establishing a connection, possibly necessitating the use of a different phone.
+
+### DUV1000 Product Specifications
+
+The DUV1000 supports H.323 or SIP (RFC2543) protocols, and operates within a voltage range of 9V AC (180-260V AC), consuming 5W. It features a reliable DAA interface, LED indicators for status, and allows seamless telephone operations.
+
+The device also allows for accessing nuanced functionalities, such as inputting characters via the RJ11 interface. 
+
+### Software Specifications
+
+The DUV1000 supports audio codecs including G.723.1 or G.729A/AB, and follows various protocols such as RFC standards for IP, TCP, UDP, RTP/RTCP, SDP, and PPP. Proper access control and authentication measures are in place.
+
+Compliant with FCC Class standards for electromagnetic interference (EMI), the device also ensures reliable performance in non-condensing environmental conditions.
+

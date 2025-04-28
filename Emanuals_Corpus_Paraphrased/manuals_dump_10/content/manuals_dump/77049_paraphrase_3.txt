@@ -1,0 +1,68 @@
+**1940L Touchmonitor (Model SW601787)**
+
+© TE Connectivity Corporation. This publication is protected copyright and may not be reproduced, transmitted, or translated in any form without written permission from TE Connectivity and its affiliates, collectively referred to as "TE." This document includes specific disclaimers regarding merchantability and is subject to modifications without notice.
+
+### Introduction
+
+This document provides an overview of the performance and features of the 1940L widescreen touchmonitor, which utilizes an active thin-film-transistor LCD and offers high-definition graphics. The LED backlight is mercury-free, enhancing efficiency compared to traditional CCFL-backlit screens. Follow the safety precautions outlined in this document to ensure correct usage.
+
+### Package Contents
+
+The 1940L SW601787 package includes:
+- Touchmonitor
+- Protective sheet
+- TouchTools CD
+- DVI/VGA cables
+- USB interface
+- Remote OSD connector
+
+### Setup Instructions
+
+Connect the touchmonitor using DVI or VGA ports, ensuring screws are tightened for optimal performance. Connect the USB for functionality and plug in the 12V DC power supply. The monitor will power on, displaying the initial screen.
+
+### Software Installation
+
+The touchmonitor is compatible with XP and WEPOS operating systems. For installation, refer to the TouchTools CD, or visit www.elotouch.com for additional support and software options.
+
+### Mounting Information
+
+The touchmonitor features a rear VESA mount, compatible with VESA MIS-D, C specifications. Use M4 screws to secure the monitor during installation.
+
+### Operating Instructions
+
+To power on or off the touchmonitor, use the LED indicators and the Remote OSD. The monitor includes factory calibration, and energy-saving features can help reduce power consumption. The touchscreen responds to interactions and operates in alignment with HID standards for enhanced usability.
+
+### On-Screen Display (OSD)
+
+The OSD allows users to adjust settings such as brightness, clock phase, and aspect ratio. The interface provides multiple languages and can be navigated to select different input sources. Adjustments can be made to improve image quality based on user preferences.
+
+### Troubleshooting
+
+For issues with functionality, ensure all connections are secure. Users can refer to technical assistance resources at www.elotouch.com or contact support for additional help. Avoid using harsh chemicals when cleaning the touchscreen—opt for mildly damp cloths only.
+
+### Environmental Compliance
+
+This product must be disposed of following local regulations regarding electronic waste. End-of-life handling should comply with WEEE Directive standards.
+
+For comprehensive technical specifications, refer to the appropriate chapter within this document.
+
+### Chapter Overview
+
+**I. Information:** This chapter outlines operational guidelines and technical details related to the product. Any service-related issues should be addressed by a qualified technician.
+
+**II. Compliance and Immunity Notice:** This device has been tested and found compliant with the FCC Class B regulations, providing reasonable protection against interference under specified installation conditions. Compliance with European Directives such as EMC Directive 2004/108/EC and Low Voltage Directive 2006/95/EC has also been achieved. The device may have no effect on interference factors when used according to the specified instructions. Users are advised to reposition the device or the affected receiver if interference occurs. If issues persist, users must consult qualified personnel.
+
+**III. Regulatory Certifications:** The product complies with various international certifications including C-Tick, CUL, IC, CCC, CE, VCCI, NOM CoC, BSMI, and FCC.
+
+**IV. RoHS Compliance:** The product meets the requirements of the RoHS Directive, indicating that it contains less than specified amounts of certain hazardous substances like mercury and certain brominated compounds, according to standards SJ/T11363-2006 and SJ/T11364-2006.
+
+**V. Specifications:**  
+- Power Requirements: 100-240VAC, 12VDC, 4.16A (LPS).  
+- Operating Conditions:  
+  - Temperature: 0°C to 40°C with 20%-80% non-condensing humidity.  
+  - Storage Conditions: -20°C to 60°C with 10%-90% non-condensing humidity.
+
+**Chapter Warranty Information:** The warranty covers defects in materials and workmanship for a period of three years. Customers must report potential issues within thirty days of discovery for inspection and resolution. If the product is found defective, options include repair, replacement, or credit.
+
+Additional terms outline limitations on warranty coverage and liability, excluding indirect damages. For further details about the product, technical specifications, and support, please visit www.elotouch.com or contact TE Touch North America at 800-ELO-TOUCH.
+

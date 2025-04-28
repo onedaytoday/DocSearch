@@ -1,0 +1,74 @@
+**1739L LCD Rear-Mount Touchmonitor Revision Document**
+
+**Product Overview**  
+This document outlines the specifications and features of the 1739L family of rear-mount LCD touchmonitors (P/N E247574). Copyrighted material may not be reproduced or distributed without written permission from TouchSystems. The information is provided "as is" without any warranties, including but not limited to implied warranties of merchantability. TouchSystems is not obligated to implement any updates or revisions to this document.
+
+**Chapter Contents**  
+- **Introduction**
+- **Warranty Information**
+- **Product Index**
+- **Precautions**
+- **Touchmonitor Features Overview**
+- **Touch Interface Software Installation**
+- **On-Screen Display (OSD) Functions**
+- **Troubleshooting Common Issues**
+- **Product Specifications**  
+The 1739L LCD touchmonitor is designed for optimal performance with an active TFT display capable of SXGA resolution, ensuring compatibility with VGA, SVGA, XGA, SXGA (non-interlaced), and graphics cards per VESA DPMS standards. It also supports DDC1/2B functionality.
+
+**Unboxing the Touchmonitor**  
+This section provides information for unpacking the LCD touchmonitor and includes details about the components, such as the LCD unit and USB Touch supply.
+
+**Touch Interface Setup**  
+Ensure the touchmonitor and PC are powered off before connecting. The touchscreen can be connected via RS232 or USB ports located at the rear. Securely tighten the screws to establish grounding. Follow the software installation instructions provided on the CD.
+
+For operating systems such as Windows XP and NT, additional driver installation steps are available at www.elotouch.com. Follow Plug-and-Play instructions for seamless integration.
+
+**About the Touchmonitor**  
+The LCD touchmonitor is engineered with a high-performance microprocessor to achieve precise touch functionality. Refer to section A for more detailed performance criteria.
+
+**Operating Instructions**  
+Utilize the OSD for controlling display settings, including brightness and sharpness. Specific functionality is available for adjusting the clock, phase, and position parameters.
+
+**Common Features and Power Management**  
+Reduce energy consumption through power-saving features, including automatic switch-off and standby modes, which comply with energy efficiency standards (<40W operational).
+
+**Troubleshooting Guide**  
+For issues related to the touchmonitor, check the connection type (VGA, SVGA, XGA, SXGA, UXGA) and ensure compatibility, especially for video resolution settings. For any maintenance needs, use grounded cords and follow standard cleaning procedures.
+
+**Maintenance and Safety**  
+Avoid potential electric shocks by ensuring proper handling and maintenance. Use a soft cloth for cleaning the touchscreen and avoid using cleaners that may scratch the surface.
+
+**Final Notes**  
+Ensure proper electrical safety by utilizing the grounded plug. Keep the touchmonitor free from shocks and follow operational best practices to extend its lifespan. For further assistance, consult the technical support section (Chapter C).
+
+### Touchmonitor Specifications
+
+**Model:** 1739L LCD TFT Active  
+**Resolution:** 338(H) x 270(V)  
+**Pixel Pitch:** 0.264(H) x 0.264(V)  
+**Compatible Resolutions:** VGA, SVGA, XGA, SXGA  
+**Aspect Ratio:** Typical  
+**Brightness:** With typical Tf settings: 16.7M colors  
+**Interface:** R.G.B. TTL or Negative  
+**Connectivity:** Rear Select; includes On-Screen Display (OSD) for adjusting brightness, phase, clock, and language options (English, Spanish)  
+**Touch Technology:** Optional capacitive touch  
+**Power Supply:** AC 100-240V  
+**Operating Conditions:** 0 °C to 50 °C (32 °F to 122 °F)  
+**Certifications:** UL, C-UL, FCC-B, CE, VCCI, C-Tick, MPRII  
+
+### Safety and Immunity Information
+
+**A. U.S. Compliance:** This device has been tested and complies with FCC Class B standards for reasonable interference protection during installation. Following the provided guidelines will help minimize interference.
+
+**B. EU Compliance:** The product meets the EMC Directive 89/336/EEC and the Low Voltage Directive 73/23/EEC as indicated in EN standards.
+
+**User Caution:** If this equipment causes interference with radio or television reception, users should try various methods to resolve the issue, such as relocating the receiver or adjusting connections.
+
+### Warranty Information
+
+The manufacturer warrants that the product is free from defects in materials and workmanship. Any claims should be made promptly within thirty days of discovery of the defect. The company may choose to repair, replace, or credit the user’s account at their discretion based on warranty terms.
+
+**Limitation of Liability:** Seller’s liability is limited to the purchase price refund of the product. The seller is not responsible for any installation or procurement costs for substitute goods, nor for any special, consequential, or incidental damages.
+
+For more product information, specifications, and support resources, visit [www.elotouch.com](http://www.elotouch.com) or contact ELO-TOUCH at 800-356-8682.
+

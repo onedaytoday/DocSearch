@@ -1,0 +1,36 @@
+### EMC Considerations
+
+**Conducted Noise**
+
+Conducted noise refers to the AC power traveling through the supply, including both the current and the effects of current switching. This is particularly relevant for board-mounted PWM systems, which must comply with EMC standards such as FCC or VDE. To achieve this, existing designs should emphasize performance improvements, following the guidance outlined in the Do's and Don'ts section (Section X). For this purpose, information regarding conducted noise should be reviewed in the context of standards like UL544 or EN60601.
+
+For typical applications (e.g., VI-230-CV), refer to C1 Conducted input procedures. In configurations involving components C2 and C3, both the +IN and IN connections can impact the performance of the DC to-ground relationship. This can lead to a reduction in effective inductance, which is generally advisable according to FCC/VDE specifications. 
+
+In the VI-200 and VI-J00 family, multiple inputs may exhibit common-mode noise characteristics when interconnected. It is essential to minimize inductance to meet EMC standards further. Twisting input leads can help reduce radiated noise effectively.
+
+**Radiated Noise**
+
+Radiated noise is caused by high-frequency switching and can be measured according to standards set by FCC, VDE, or MIL-STD-461. Zero-current-switching topology minimizes radiated emissions compared to non-zero-current-switching due to the characteristics of switching waveforms. 
+
+Noise can be mitigated through careful PCB design, such as twisting and routing traces to minimize the effects of capacitive coupling. 
+
+**Shielding and Grounding**
+
+Effective shielding can be achieved by ensuring the switch (FET) is adequately mounted and that a proper grounding scheme is in place. This includes insulating high-frequency paths and considering both input and output leads' grounding strategies to optimize noise rejection. 
+
+**Input and Output Noise**
+
+When measuring output noise, it is crucial to factor in inductance, resistance, and the grounding layout to enhance EMC compliance. Each component should be analyzed based on its contributions to overall performance and noise levels. 
+
+### Conclusions
+
+In summary, successful EMC compliance for the VI-200 and VI-J00 family of DC-DC converters relies on careful management of conducted and radiated noise through design strategies, component selection, and adherence to relevant standards.
+
+### EMC Considerations for RAM and MI-RAM Operation
+
+The RAM/MI-RAM LC configuration is closely tied to switching performance and response. The active component of the RAM/MI-RAM interacts with the inputs to manage harmonics effectively. Essentially, this active component inverts signals to optimize functionality, ensuring that the RAM handles inputs seamlessly. 
+
+When considering the design, it’s important to note the typical RAM (like the VI-230-CV) works with configurations such as VI-RAM-C2 to maintain proper input and output connections. The RAM and MI-RAM modules, particularly the VI-200 and VI-J00 families, provide straightforward DC-DC solutions. However, if the LC leads are shorted, it can compromise overall performance. 
+
+The RAM systems are designed to work efficiently with VI-200/VI-J00, while MI-RAM is compatible with the MI-200/MI-J00 families. They can be mounted within a chassis, but should not be used in inductive setups. Additionally, using electrolytic capacitors (C4) helps manage ripple and optimize performance under light load conditions.
+

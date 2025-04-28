@@ -1,0 +1,107 @@
+**MILLENNIUM II or MAN-0076 April MAN-0076**
+
+**IMPORTANT INFORMATION**  
+This document is for informational purposes only. While every effort has been made to ensure the accuracy of the information presented, MAN, Inc. assumes no responsibility for any issues arising from its use. If the products are used differently than specified, or without explicit guidance from MAN, Inc., no responsibility will be accepted. The contents may not be replicated or distributed without written permission from MAN, Inc. Products are manufactured to high standards and are expected to provide years of reliable service. Each unit undergoes thorough testing and inspection prior to shipment. For operational and installation instructions, redundancy measures should be incorporated as needed.
+
+**WARRANTY**  
+MAN, Inc. warrants its products against defects in materials and workmanship for a period of months from the date of purchase. Other warranties, expressed or implied, are not honored by MAN, Inc. For any concerns, please refer to the contact information below or complete the survey available at www.net-safety.com/. 
+
+**CONTACT INFORMATION**  
+MAN, Inc.  
+Corporate Headquarters  
+NE, AB T1Y 7J7  
+www.net-safety.com/  
+MAN-0076 II Inc
+
+---
+
+**TABLE OF CONTENTS**  
+- IMPORTANT INFORMATION  
+- WARRANTY  
+- CONTACT INFORMATION  
+- INTRODUCTION  
+- PRODUCT DESCRIPTION  
+  - TRANSMITTER/CONTROLLER  
+  - INSTALLATION  
+  - WIRING AND INSTALLATION  
+  - TRANSMITTER AND FACEPLATE DESCRIPTION  
+  - OPERATION  
+- SECTION ON MONITORING AND OUTPUTS  
+- SECTION ON MAINTAINING  
+- TROUBLESHOOTING  
+- STORAGE AND SPARE PARTS  
+- APPENDIX A: ESD DEVICES  
+- APPENDIX B: RESISTANCE TABLE  
+- APPENDIX C: SPECIFICATIONS OF MILLENNIUM II  
+
+---
+
+**INTRODUCTION**  
+The MILLENNIUM II is designed for continuous safety monitoring, pushing the boundaries of technology while providing users with fast and reliable performance. The TRANSMITTER/CONTROLLER can be installed in the field or integrated with onboard functionalities. Various mounting options and configurations are available, accommodating different switching systems. Should users select push-button switches, they must follow the guidelines for relays or RTUs, ensuring compliance with strict quality standards.
+
+**THE MANUAL**  
+This manual provides detailed operating instructions and includes information on troubleshooting. When performing maintenance or connecting to other equipment, compliance with applicable standards EN and EN TX-M2a-b is essential. The device is rated IP54, which ensures reliability in various environments.
+
+**INSTALLATION**  
+Upon unpacking, users must inspect the units for any damage. Proper mounting is crucial, whether directly or remotely. Take care to maintain the integrity of the housing and ensure that the selected mounting options are compatible with standard thread types (M20, NPT, BSP). Follow the assembly instructions closely, keeping in mind the necessity of grounding to avoid ESD risks.
+
+**WIRING AND INSTALLATION**  
+It is essential to consider voltage ratings when setting up the device. Ground and shielding practices should align with IEC and EMI standards to prevent interference. Adhering to the recommended wire sizes and types is critical for consistent performance. Proper sealing techniques will protect against moisture ingress and contamination.
+
+**PERFORMANCE AND INTERFERENCE**  
+System performance can be adversely affected by external interferences (RFI/EMI). Correct selection of instrumentation and adherence to specifications will help mitigate these issues. The grounded shielded cables should be used, following the detailed procedures outlined in this document.
+
+**APPENDIX**  
+The appendices contain valuable guidelines regarding ESD-sensitive devices, resistance tables, and detailed transmitter specifications for further reference.  
+
+--- 
+
+Please contact MAN, Inc. for any questions or for additional support regarding the installation or use of your product.
+
+The components should be mounted remotely from JP1 and JP2 as specified in MAN-0076 II Inc. It is crucial to ensure that power to these components is switched off before connecting the wires to the terminals. The guidance for separation and remote mounting is provided in MAN-0081 and includes the appropriate wire gauge.
+
+Both isolated and non-isolated versions of the MAN-0076 II Inc must be installed correctly to ensure proper flameproof protection. If using an Instruction Manual (IPF-001 or MAN-0109), ensure that splash guards are considered for environmental protections. 
+
+The LED indicators display operational status, including LEL (Lower Explosive Limit) and PPM (Parts Per Million) readings. If disabled, the LED will indicate this state. Access to the operational settings can be performed via selective push-button switches located on the unit. These buttons provide a non-intrusive access option and allow navigation through settings, applicable per the configurations outlined in the accompanying tables.
+
+Each functional option can be activated or selected using specific push-buttons, allowing for easy configuration adjustments. If the system remains idle, it will eventually exit to the main settings. The unit supports monitoring through two channels: CH1 and CH2, each capable of configuring relays for varied operational conditions.
+
+The relay settings—Latching, Non-Latching, or Fault—can be defined according to the explained options. Assignments for relays RL1 to RL3 can be adjusted to manage alarm conditions effectively per the provided tables. Assigning channels to relays ensures that alerts correspond accurately to the monitored conditions. Following this setup will optimize the system's performance while maintaining adherence to safety standards as stipulated in MAN-0076 II Inc.
+
+**Typical II Assignment and Selected ALARM RELAYS**
+
+The system includes three alarm relays (RL1, RL2, RL3) that engage based on user-defined settings. The user can specify conditions for the relays to activate, such as "Below-Below" and "Below-Above," adjusting them according to the application’s operational requirements, as detailed in document MAN-0093. 
+
+This feature supports various languages, including English, Spanish, and French. Users can select their preferred language, and upon activation, the settings will display in the chosen language. The options for MODBUS addressing can include a range of formats such as EVEN parity, ODD parity, or NO parity. 
+
+The user navigates through the menu using arrow switches, allowing for the adjustments of settings including relay responsibilities and communication formats. Accurate setup of time-related parameters (year/month/day) and confirmation through the OK command is integral to smooth function. 
+
+Continuous self-testing operations ensure the proper functioning of the system’s internal components. The system distinguishes between relay states, having physical relays rated for specific voltages. The functionality includes features for troubleshooting and identifying faults through LED indicators. 
+
+Communications rely on the MODBUS standard via an RS-485 interface, connecting with External Communication (COM) ports and proper termination. The HART communication system allows interfacing with other devices, promoting seamless operational status checks.
+
+For maintenance, it’s essential to keep the installation within designated environmental tolerances, minimizing interference and ensuring reliability. If issues arise, users are encouraged to reach out to authorized services, providing any necessary details for assistance. 
+
+**Note:** Authorization is necessary for repair services, and all shipments should be documented accurately to facilitate processing.
+
+### A: Definition of Electrostatic Sensitive Device (ESD)
+An Electrostatic Sensitive Device (ESD) is impacted by charge generation or induction through electric fields. Physical contact with these charges can cause instantaneous malfunctions. To mitigate ESD risks, it is essential to take preventive measures such as using grounded wrist or ankle straps and taking precautions while handling circuit boards. All personnel must be knowledgeable and trained in ESD protocols, and warnings should be adhered to according to MAN-0076 II Inc.
+
+### B: 
+This should be referenced when closed, as per MAN-0076 II Inc specifications.
+
+### C: Millennium II Specifications 
+(Attached details): 
+- Voltage Ratings: VDC (various) 
+- Power: Up to 5W 
+- RFI/EMC Compliance: IEC standards, with certified immunity from electromagnetic interference. 
+- Temperature Range: -55°C to +85°C 
+- Materials: AL6061 or SS316 
+- Protection: IP/NEMA ratings of IP67 and NEMA 4X 
+- Mechanical Specs: Operates at 5A, 2.5A at 60VDC/VAC 
+- Isolation: Available in both isolated and non-isolated options with HART RS RTU interface. 
+
+Certification includes FM CSA-C22.2 and compliance with ANSI/ISA standards. Additional ratings specify Class I, Groups A, B, C, D; Class I, IIB+H2, T5 standards. Further certifications (FM07ATEX0014X and FMG12.0006X) confirm the product meets stringent safety and performance criteria across various operating conditions. 
+
+Manufacturing details and contact information are maintained by MAN-0076 II Inc, located in NE, AB T1Y 7J7, with product service inquiries available at 1-866-FIREGAS.
+

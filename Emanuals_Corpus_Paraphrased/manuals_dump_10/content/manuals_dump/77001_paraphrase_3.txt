@@ -1,0 +1,137 @@
+# Visual Presenter Instruction Manual
+
+This manual is provided for your reference and use.
+
+## Important Safeguards
+- Carefully read and follow the operating instructions to ensure safe operation.
+- Keep this manual for future reference.
+- When cleaning, always unplug the device. Use only recommended cleaners or a soft cloth.
+- Avoid moisture to prevent electric shock; do not expose the device to rain.
+- Ensure proper mounting according to provided instructions to prevent overheating.
+- Do not attempt repairs; refer servicing to qualified personnel.
+
+## Electrical Safety
+- Use only the specified power supply type as indicated.
+- Power cords should be obtained from authorized sources and routed to avoid pinching or damage.
+
+## Operating Conditions
+- This device is intended for use in controlled environments. Operating temperature should be between 5°C and 40°C (41°F to 104°F).
+- Humidity levels should also be maintained within recommended ranges.
+
+## Contents
+- Overview of components and their functions
+- Setup instructions for wireless remote and connections
+- Operating procedures for various features including lighting and input handling
+- Troubleshooting hints and specifications
+
+## Parts Overview
+- Includes descriptions of component names such as the lighting unit, remote compartment, and connections for RGB, USB, and more.
+
+## Wireless Remote Control
+- Details on the function of the remote control and preparation for use, including battery installation.
+
+## Setup Instructions
+- Step-by-step procedures for connecting to external devices and configuring settings.
+
+## Input Assignments
+- Detailed information regarding the RGB and S-Video input specifications for correct usage.
+
+By adhering to the guidelines laid out in this manual, you will maximize the effectiveness and safety of the visual presenter.
+
+### OPERATION PROCEDURES
+
+To power on the device, turn the switch to the "ON" position. If the switch is turned on and then quickly turned off, wait a few seconds before attempting to turn it back on. Use the [TELE/WIDE] buttons for operation, or the wireless remote for this purpose. For focusing, press the [AUTO FOCUS] button on the front or the [AF] button on the remote. This function adjusts to the height based on the [TELE] setting when the device is in use as depicted in the images provided. 
+
+**Reference Connections:**
+- RS-232
+- POWER ON/OFF
+- AC IN
+- RGB IN/OUT
+- RS-232C
+- VIDEO OUT
+- USB C
+
+### STORING THE VISUAL PRESENTER
+
+Ensure the device is powered off, and properly adjust the lighting as shown. If alternate settings are required, adjust the lighting (R) and rotate the head as appropriate, maintaining a slight rearward tilt. The lighting (L) must be adjusted to its specified position. If necessary, apply force carefully when transporting the unit.
+
+### VARIOUS FUNCTIONS
+
+**Lighting Control:** 
+Use the [LAMP] button on the wireless remote to control the lighting, which can switch between on and off states. Refer to the OSD for brightness settings. 
+
+For optimal 3-D presentations, ensure the lights are adequately set. Adjust the [TELE] or [WIDE] buttons on the front or via the wireless remote to manipulate zoom levels.
+
+The [POINTER] function can be activated via the remote, making it visible on the screen. This function impacts only the RGB output. To initiate the one-shot focusing, press the [AUTO FOCUS] button from the front or the [AF] button from the remote. Once focusing is achieved, the function will automatically deactivate, retaining the focus.
+
+If the focusing needs adjustment due to lighting conditions or background movement, use the [NEAR] or [FAR] buttons on the remote. 
+
+### IRIS CONTROL
+
+Utilize the wireless remote buttons to [OPEN], [CLOSE], or set to [AUTO IRIS] as needed. 
+
+**PAUSE FUNCTION:**
+Pressing the [PAUSE] button on the wireless remote will suspend the current operation. 
+
+For coordinating functions and troubleshooting, reference the OSD items as necessary.
+
+### COMMUNICATION THROUGH RS-232C
+
+Connect the PC to the device via RS-232C as indicated. Ensure that the In/Out switch is appropriately set to facilitate communication. The device will transmit commands and receive acknowledgments based on successful connections.
+
+**RS-232C Specifications (DSUB-9P):**
+- This standard communicates with 1-command/1-response format.
+- Commands are transmitted with character identifiers for proper execution.
+
+### TROUBLESHOOTING HINTS
+
+If the device does not power on, check connections to the AC power source and ensure the switch is in the ON position. For issues with focus, verify the TELE and WIDE settings and perform necessary adjustments. If persistent problems arise, consult ELMO's authorized service.
+
+### Specifications
+
+**Item Specifications:**
+- **Rated Connectors:**
+  - RCA DSUB 15P
+  - RS-232C DSUB 9P
+
+**Camera Features:**
+- F2.8 aperture with shooting capabilities at various settings, including focusing iris and CCD specifications.
+- Effective resolution: (H) and (V)
+- DSP exceeding standard TV specifications.
+- RGB sync and signal-to-noise ratio performance: exceeds standard expectations.
+- Color and black & white selection options available.
+  
+**Power Requirements:**
+- Input: AC 120V, 0.5A
+
+**Output Connectors:**
+- RGB DSUB 15P
+- DIN 4P
+- RGB USB
+- NTSC/PAL compatible output available.
+- Resolution: XGA compliant with VESA standards.
+
+**Lighting Specifications:**
+- High-lighting capability.
+- Supported interfaces: RCA, RGB (BNC), VGA, DSUB 15P.
+
+**Documentation:**
+- Includes software: CD-ROM compatible with HV-400XG/3000XG/3500XG.
+- Wireless functionality available (RCW-432)
+- Requires R03 or AAA batteries.
+- Instruction manual provided, along with warranty details.
+
+**Acknowledgments:**
+- Compliance with XGA standards set by the International VESA Association, endorsed by ELMO.
+  
+**Warning:**
+- Unauthorized reproduction of copyrighted material infringes on copyright laws.
+
+**Manufacturer Information:**
+- **ELMO CO., LTD.**
+- **Overseas Subsidiary Locations:**
+  - U.S.A.: ELMO, Country Road, Plainview, NY
+  - Canada: ELMO, Brampton, L6T 3T6 
+
+**Product Code:** 6X1VHEN02
+

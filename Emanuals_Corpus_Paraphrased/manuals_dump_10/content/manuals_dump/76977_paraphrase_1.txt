@@ -1,0 +1,35 @@
+**ELMO EDR-X1 Specifications**
+
+- **Input Recording:** 120GB internal storage, with an optional upgrade to 240GB.
+- **Connectivity:** 
+  - RS485 mirroring available when connected via Ethernet.
+  - LAN/WAN TCP/IP capabilities.
+  
+- **Input Quality:** 
+  - 1VPP, standard impedance at 75 Ohms.
+  - BNC and RCA connectors provided.
+  
+- **Supported Video Compression:** 
+  - M-JPEG format (bit rates ranging from 64 to 16KB).
+  
+- **Input Types:** 
+  - RCA with 10K Ohm, TTL active inputs.
+  - WARNING inputs, active TTL pulse-width signals.
+  
+- **Communication Protocols:** 
+  - RS-485 for half-duplex asynchronous communication at 19.2K and 38.4K baud rates.
+  
+- **Power Requirements:** 
+  - Supports DC 24V and operates under 50Hz with a power consumption of 50W.
+  
+- **Environment:** 
+  - Must be operated within specified temperature and humidity conditions.
+  
+- **Warranty:** 
+  - Includes a standard warranty period (details unspecified).
+  
+- **Manufacturer Information:** 
+  - ELMO, located at Brampton, Plainview, New York, L6T 3T6. Visit www.elmousa.com for more details. 
+
+This compact device offers high-quality input options and versatile recording functionalities.
+

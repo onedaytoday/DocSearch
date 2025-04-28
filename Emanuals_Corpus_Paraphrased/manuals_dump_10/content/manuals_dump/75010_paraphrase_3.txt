@@ -1,0 +1,74 @@
+### E30SO75FPSA Technical Documentation
+
+**Document References:**  
+- E30SO75FPS cover.eps  
+- E30S075FPS  
+- E30SO75FPSA_Wiring-1.eps  
+- E30SO75FPSA_Wiring-3.eps  
+
+**Company Information:**  
+Appliances North America  
+P.O. Box, Augusta, GA  
+**Product:** E30SO75FPSA  
+**North America TIN:** SEB470MRR0  
+**Instructions:** TINSEB424MRR0  
+**Built-in Microwave Publication:** EN/SERVICE/KC  
+**Copyright:** Products, Inc.  
+
+**Product Information:**  
+- **Model:** E30SO75FP  
+- **Publication:** E30SO75FPSA  
+
+**Parts List for OVEN, CABINET:**  
+- **Part No.** | **Description**  
+- Switch, interlock  
+- Motor, heating (top)  
+- Thermistor  
+- High switch/fuse assembly, F10A cavity light  
+- Thermal top heater  
+- Outer casing  
+- PWB (board mount)  
+- Catalyst cushion  
+- Heater mounting duct  
+- Turntable/motor coupler  
+
+**Additional Cushion and Insulation Parts:**  
+- Blower cushion (right)  
+- Rear heater insulation  
+- Various thermal insulations  
+- Chassis cushions (right, front, back)  
+- Cavity cushions  
+
+**Screws and Fasteners:**  
+- Various screws for assembly  
+- Torsion switch fasteners  
+
+**Control Components:**
+- **Part No.** | **Description**  
+- CPU board  
+- Touch screw assembly  
+- Latch components  
+- High and splash racks  
+- Thermistor portions  
+
+**Wiring Notes and Diagrams:**  
+- Wire color specifications for the E30SO75FPSA model.  
+- LV transformer and wiring diagrams outlining connections and components such as relays, switches, and thermal cut-outs.  
+
+**Thermal Management:**  
+Includes a 150°C thermostat integrated in the primary winding for safety, linked to the magnetron and rectifier capacitors operating at 2300V AC.
+
+### Wiring Diagrams Overview:
+Detailed wiring instructions highlighting color-coded wiring configurations including:
+- Power distribution within the control unit
+- Thermal cut-outs and fuses  
+- Secondary interlock switch configurations
+
+### Important Electrical Components:
+- Solid-state relays  
+- Monitor switch mechanisms  
+- System grounding connections  
+
+**Functionality and Safety Features:**  
+Emphasis on interlocks and safety cut-offs to ensure reliable operation of the microwave system. The documentation provides a comprehensive overview of parts and wiring essential for operational efficiency and repair guidance.
+

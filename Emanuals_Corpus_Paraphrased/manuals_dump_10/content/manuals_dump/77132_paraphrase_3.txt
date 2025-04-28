@@ -1,0 +1,69 @@
+**Touchmonitor LCD Rear Mount Manual for ET1546L-XXWA-X Revision P/N**
+
+Published by Elo Touch Solutions, Inc.  
+1-800-ELOTOUCH  
+www.elotouch.com  
+
+© Elo Touch Solutions, Inc. All rights reserved. This publication may not be reproduced, transmitted, or translated without written permission from TouchSystems. The information provided herein is without guarantees or warranties, and specifically excludes any implied warranties of merchantability. TouchSystems reserves the right to modify content without notice. Products mentioned, such as SecureTouch, AccuTouch, and MonitorMouse, are trademarks of their respective owners, not including this company.
+
+### Table of Contents
+1. **Product Overview**
+2. **Attaching the Touch Interface**
+3. **Connecting the Touchscreen**
+   - Remote OSD
+   - USB Touchscreen
+   - LCD VESA Mount
+4. **Operating Software for Touchmonitor**
+5. **Specifications**
+6. **Installation and Setup**
+7. **Common Issues and Troubleshooting**
+
+### Product Overview
+Congratulations on your purchase of the ET1546L LCD Touchmonitor, a high-resolution device designed for optimal performance. Please adhere to the instructions provided to maximize the touchmonitor's capabilities. Notable features include direct RGB input, compatibility with XGA/SVGA/VGA/VESA formats, and a user-friendly On-Screen Display (OSD) available in multiple languages including English, Spanish, Swedish, and Finnish.
+
+### Installation and Setup
+- **Mounting the Touchmonitor:**
+  Use the provided screws and a screwdriver to securely attach the monitor to a VESA-compatible mount. Ensure proper alignment with the mounting brackets located at the back of the unit.
+  
+- **Connecting Interfaces:**
+  - **Touchscreen Connection (RS-232 or USB):** Ensure the touchmonitor and your PC are powered off before connecting. Use the appropriate interface to link the devices.
+  - **Remote OSD Connection:** Connect the remote OSD switch to the designated port on the touchmonitor.
+  
+- **Power Connection:** Connect the device to a grounded AC outlet to avoid electrical issues. The touchmonitor should power on correctly.
+
+### Software Installation
+The software to operate the touchmonitor is located on the included CD-ROM. Follow the installation instructions based on your operating system, whether it be Windows XP, NT, MS-DOS, or others. Ensure you follow the prompts for necessary installations, including any updates or replacements for existing software configurations.
+
+### OSD Functionality
+Control the OSD menu using the remote switch to adjust screen settings such as brightness and contrast. Navigate through the options using the UP and DOWN buttons. The system will allow adjustments to various display parameters automatically or manually.
+
+### Troubleshooting
+If problems arise, ensure connections are secure and the device is configured according to factory settings. Check for any loose cables or settings that may be misconfigured. For further assistance, refer to the specific troubleshooting section included.
+
+For additional information, please visit [www.elotouch.com](http://www.elotouch.com).
+
+**Phase Synchronization and Display Refresh**  
+Ensure that the graphics refreshing phase aligns with the LCD and CLOCK signals when connected to the VGA interface. Confirm that the LCD touch monitor is securely attached. Connect the LCD to the touch monitor, specifically the XGA-15 inch model. You can increase the input resolution from VGA to SVGA or XGA. The native resolution of the LCD typically supports adjustments for vertical alignment.
+
+**Input Compatibility**  
+Vertical inputs such as VGA, SVGA, and XGA should match the LCD specifications. Differences in the input resolution may produce artifacts on the display, like text clarity issues. This document outlines essential information regarding the touch monitor's setup (Chapter Installation) and operation (Chapter Operation).  
+
+**Safety Precautions**  
+To minimize electric shock risks, ensure the touch monitor is grounded properly using a 3-wire cord and connect it to a corresponding outlet. Cleaning the monitor with appropriate materials is essential to avoid damage. Use only approved chemicals and avoid abrasive materials that could harm the touchscreen.
+
+**Technical Specifications**  
+The touch monitor (Model ET1546L) features a 15-inch TFT LCD display with normalized specifications as follows:  
+- Active Format: 0.125-inch 
+- Brightness: Typical benchmarks established by standards such as ASTM D1003 and ASTM D2457  
+- Humidity and EMC compliance: UL, TUV, FCC-B, CE, and others  
+- Operating temperature ranges: 0°C to 35°C, with storage capabilities from -20°C to +60°C  
+
+**Warranty**  
+The limited warranty covers manufacturing defects in materials and workmanship. Should any issues arise, the buyer must notify the seller within thirty days. Exclusive remedies include a refund to the original purchase price. Sellers are not liable for additional costs, damages, or losses incurred during procurement or installation of substitute goods.
+
+**Regulatory Compliance**  
+The touch monitor complies with relevant FCC and CE standards for electronic devices, ensuring protection against electromagnetic interference. Users should ensure proper installation to mitigate any potential interference with other devices. If interference occurs, repositioning or adjusting the devices may remedy the situation.
+
+**Conclusion**  
+The touch monitor model ET1546L is designed for reliable performance and simple installation, with defined specifications and guidelines to ensure safe operation and maximum efficiency.
+

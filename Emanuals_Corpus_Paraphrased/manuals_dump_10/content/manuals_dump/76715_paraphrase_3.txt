@@ -1,0 +1,23 @@
+### Sound Card Interface ELK-129
+
+The ELK-129 Sound Card Interface is compatible with various ELK devices, including the ELK-120, ELK-124, and ELK-MV480. It comes with software that facilitates the playback and downloading of .WAV files to the ELK-120 and ELK-124 switches. The interface operates on a 12V, 20VA AC power supply, which is included.
+
+#### Application
+
+The ELK-129 enables sound playback via an on-board microphone and provides functionality for recording sounds. Users can download .WAV files and utilize sounds collected from different sources. The interface originally supported the ELK-120 and ELK-124, and has specific instructions for compatibility with the ELK-MM447 or ELK-MV480.
+
+To use the ELK-129 with either of these models, users need to ensure that it’s connected properly, and that the correct software is installed. The Waveloader software is provided with the ELK-129 and is essential for managing .WAV files.
+
+When connected, ensure the on-board microphone and inputs are set correctly to minimize interference. Switch settings must be adjusted to channel 1 or 2 depending on the intended recording function. 
+
+#### Operation
+
+For effective operation, refer to the provided guidelines for activating recording features, noting the DIP switch settings for each channel. The ELK-120 and ELK-124 have specific configurations for recording durations, which can be adjusted using the SW1 switch.
+
+The ELK-129 includes a 20VA AC adapter and a shielded 6-foot cable for audio connections. Ensure the correct input and output configurations are in place to avoid EMI noise during recording processes. 
+
+Once everything is set, the Waveloader will allow users to upload or download .WAV files, and users can monitor recordings through indicators. Adjust settings as necessary to optimize playback and recording quality. 
+
+#### Note
+For detailed procedures specific to the ELK-120 or ELK-124, please refer to the respective user instructions. All steps and configurations are essential for the successful operation and integration of the ELK-129 with other ELK products.
+

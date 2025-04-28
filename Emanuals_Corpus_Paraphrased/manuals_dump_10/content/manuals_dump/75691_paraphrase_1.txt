@@ -1,0 +1,262 @@
+## Installation, Operation, and Maintenance Instructions
+
+### Document Overview
+This document provides essential guidance regarding the installation, operation, and maintenance of the following models:
+- BCF 30KG GN1/1 LW: AOFP061U4, AOFP061TU4
+- BCF 50KG GN1/1 LW: AOFP101U4
+- BCF 100KG GN1/1 LW: AOFP201RU4
+- BCF 70KG GN2/1 LW: AOFP102U4
+- BCF 180KG GN2/1 LW: AOFP202RU4 (REMOTE)
+
+### Control Panel
+The control panel includes various features:
+- **Power Options**: ON/OFF switch.
+- **Cycle Selection**: START/STOP, CRUISE, SOFT CHILLING, HARD CHILLING, COOLER, and FREEZER modes.
+- **Indicator Lights**: Various lights for cooling modes, HACCP compliance, core temperature, and service notifications.
+
+### Table of Contents
+- A.1 General Information
+  - A.1.1 Foreword
+  - A.1.2 Intended Use and Limitations
+  - A.1.3 Testing
+  - A.1.4 General Safety Rules
+  - A.1.5 Customer Responsibilities
+  - A.1.6 Data Plate Position
+- B.1 Description of Cycles
+  - B.1.1 Positive Blast Chilling
+  - B.1.2 Negative Blast Chilling or Freezing
+  - B.1.3 Maintenance or Preservation Cycle
+  - B.1.4 Sterilization Cycle
+- C.1 Analysis of User Interface
+  - C.1.1 OI ON/OFF
+  - C.1.2 Start/Stop Cycle
+  - C.1.3 Select Cycles
+  - C.1.3.1 Chilling with Light Option
+- D.1 Routine Maintenance
+- D.3 Troubleshooting
+- D.4 Waste Disposal and Demolition
+- D.5 Enclosed Documents
+- D.6 List of User Parameters
+
+### Safety Instructions
+To mitigate risks of fire or electrical shock, observe the following precautions:
+- Avoid storing flammable materials near the appliance.
+- Disconnect electrical service before servicing, and place a warning tag on the disconnect switch.
+- Contact an authorized service provider for maintenance and repairs.
+- Unauthorized modifications may void the warranty.
+
+### General Information
+#### A.1.1 Foreword
+This document encompasses critical information for the installation, operation, and maintenance of the specified equipment, aiming to inform users of necessary precautions and procedures to ensure safety and efficiency.
+
+#### A.1.2 Intended Use and Limitations
+The equipment is designed for chilling or freezing foods, reducing their temperatures to prolong freshness. Awareness of atmospheric conditions is crucial for optimal operation.
+
+#### A.1.3 Testing
+Laboratory testing validates high performance and efficiency standards.
+
+#### A.1.4 General Safety Rules
+Comply with relevant safety standards such as ANSI, NSF, UL, and CSA.
+
+#### A.1.5 Customer Responsibilities
+Ensure a proper electrical supply and consider using lockout/tagout procedures for maintenance.
+
+#### A.1.6 Data Plate Position
+The data plate contains essential identification details about the equipment.
+
+### Cycle Descriptions
+#### B.1.1 Positive Blast Chilling
+Rapidly reduces food temperatures to 37.4°F (3°C) for optimal safety and quality.
+
+#### B.1.2 Negative Blast Chilling/Freezing
+Facilitates freezing at -0.4°F (-18°C), significantly preserving food quality.
+
+#### B.1.3 Maintenance Cycle
+Focuses on preserving food quality post-chilling.
+
+#### B.1.4 Sterilization Cycle
+Employs UV light to sanitize the chamber during operation intervals.
+
+### User Interface Analysis
+#### C.1.1 OI ON/OFF
+Indicates power status via an active/inactive display.
+
+#### C.1.2 Start/Stop Cycle
+Initiates chosen cycles and ensures efficiency during operation.
+
+#### C.1.3 Select Cycles
+Provides multiple chilling and preservation options.
+
+### Routine Maintenance
+Follow specified guidelines for safety, cleaning, and preventive care of the equipment. Trained personnel should carry out complex maintenance tasks. 
+
+### Troubleshooting
+Refer to troubleshooting sections for solutions to common operational issues.
+
+### Waste Disposal and Documentation
+Ensure proper disposal of waste and refer to enclosed documents for additional guidelines.
+
+---
+
+**Note:** These instructions must be adhered to for safe and efficient operation of the appliances.
+
+Sure! Here's a paraphrased version of the text, maintaining its technical integrity:
+
+---
+
+### C.1.4 PROGRAMS
+
+Use the switches to select between the cooling modes P1 and P2. Each mode is designed for regulating the temperature in the chamber and facilitates both chilling and defrosting. 
+
+#### C.1.4.1 Chilling with Cooling
+The cooling system can achieve temperatures as low as -32.8°F (-36°C) and as high as +37.4°F (+3°C), operating continuously with automatic defrosting capabilities. 
+
+#### C.1.4.2 EICE Function
+The EICE can be toggled between P1 and P2 from the main menu. Depending on the selected mode, the system can be turned off. For P1, a chilling temperature of -6.8°F (-14°C) is set, while P2 provides a chilling temperature of 3.2°F (-16°C). Refer to section C.1.9.5 for additional details.
+
+#### C.1.5 TEMPERATURE INDICATORS
+The temperatures for both the chamber and the food are monitored. If chilling is active, the chamber temperature is displayed, alongside the food temperature. An indicator light will show which temperature is currently being displayed. 
+
+#### C.1.6 ALARM WARNING
+The light indicators will illuminate when HACCP criteria are met. The type and nature of alerts are detailed in section C.1.9. 
+
+#### C.1.7 STANDARDS
+The standard light typically remains off but will illuminate when in reference mode. For further reference, consult sections C.1.9 and C.1.9.4 for operational guidelines.
+
+#### C.1.8 TIMED CYCLES
+The indicator light reflects the duration of chilling or defrosting cycles. For instance, it shows how long has been spent defrosting. 
+
+#### C.1.9 UTILITIES FUNCTION DESCRIPTIONS
+1. **Manual Defrosting**: Can be activated via the right switch; the light will indicate the status.
+2. **Probe Temperature Display**: Shows the temperature of food items when selected.
+3. **UV Sterilization Cycle**: Activates sterilization features; refer to section B.1.4 for operational details.
+4. **Reference Standard**: Adheres to NSF guidelines for food safety, detailing acceptable temperature ranges for chilling.
+5. **User Parameters Editing**: Allows users to adjust settings while the machine is idle.
+
+### C.2 USER INSTRUCTIONS 
+#### C.2.1 SWICHING ON
+Initiate the system using the fused switch. The ON light will indicate that the system is active.
+
+#### C.2.2 OPERATION
+Upon activation, select your desired chilling mode immediately.
+
+1. **Selecting Chilling Modes**: Options include "SOFT CHILLING," "HARD CHILLING," "COOLER," "BLAST FREEZING," or "FREEZER." 
+2. **Confirming Selections**: Options must be confirmed by pressing the appropriate buttons.
+3. **Editing User Settings**: User settings can only be edited if the system is not currently in operation.
+
+#### C.2.3 BLAST CHILLING/PRESERVATION
+Choose based on food type and desired retention period. 
+
+#### C.2.4 DEFROSTING
+Activates the manual defrosting mode, which is indicated by a specific light. The system will return to standby once defrosting is complete.
+
+#### C.2.5 GERMICIDAL LIGHTS
+These can be activated via a separate switch for cleaning and maintenance purposes.
+
+### C.2.6 PRODUCT LOADING AND UNLOADING
+Proper loading techniques are critical for optimal chilling performance. Ensure food items are placed appropriately and avoid overcrowding, which can hinder cooling efficiency. 
+
+---
+
+Feel free to let me know if you need any further adjustments!
+
+### C.2.7 INSERTION OF THE FOOD (CORE) PROBE INTO THE PRODUCT
+
+To ensure effective chilling, insert the food (core) probe into the product appropriately.
+
+### C.3 INITIATING OPERATING CYCLES
+
+Follow these guidelines to begin the chilling process:
+
+1. **Activate the Chilling Cycle**: Press the button until the indicator light turns orange.
+2. **Cycle Activation**: If the probe is not inserted into the product, the chilling cycle will automatically time out.
+3. **Adjusting Chill Time**: To modify the chilling end time, if no selection is made within a specified period (e.g., 10 seconds), the last displayed setting will be confirmed automatically. You may also confirm by pressing the button again.
+4. **Program Selection**:
+   - If the chosen program is satisfactory, press the button until the light turns orange.
+   - Press the button for a specified duration to select the desired value.
+   - Press the cycle button until the indicator light turns orange.
+
+If you want to switch to a different program, press the button until the indicator light turns orange, then utilize the cycle button to proceed.
+
+5. **Finalizing the Settings**:
+   - Either press the button again to save the new settings, or it will be confirmed automatically if no action is taken within a specified timeframe.
+   - If you need to adjust the chamber temperature, set the new parameters accordingly then press the cycle button again.
+
+### C.4 ALARMS
+
+#### C.4.1 HACCP ALARMS
+The HACCP system monitors for high temperatures and if any alarms activate, the HACCP light will illuminate. For chamber temperature alarms, the system will display the corresponding codes for any discrepancies.
+
+- **High-Temperature Alarm**: Indicated by specific temperature thresholds (e.g., 59°F / 15°C).
+- **Chilling Cycle End Error Alarm**: Indicates a problem with food preparation if not chilled appropriately.
+
+#### C.4.1.2 SERVICE ALARMS
+Service alarms indicate equipment issues and require immediate attention. The relevant action is described under each alarm type, which includes malfunction codes like E1 to E13. Follow prescribed actions for service notifications.
+
+### D.1 ROUTINE MAINTENANCE
+
+#### D.1.1 MAINTENANCE PRECAUTIONS
+Closely adhere to maintenance protocols. Ensure that all safety guards are in place, and use appropriate protective gear—this is essential during cleaning and maintenance.
+
+#### D.1.2 CLEANING PROCEDURES
+Regular cleaning of the cabinet and internal components should be conducted using suitable cleaning agents to maintain hygiene and efficiency.
+
+- **Probe Cleaning**: Ensure that core food probes are cleaned thoroughly and sanitized to maintain operational effectiveness.
+
+#### D.1.3 LONG-TERM NON-USE PRECAUTIONS
+If the unit will not be in use for an extended period, disconnect from the power supply, and cover equipment to protect it from dust and debris.
+
+### D.2 MAINTENANCE BY TRAINED PERSONNEL ONLY
+
+Only authorized service personnel should perform non-routine maintenance. Always use protective gear—including gloves and masks—during maintenance actions.
+
+#### D.2.1 CONDENSER MAINTENANCE
+The condenser should be cleaned at least quarterly. If it appears dirty or poorly maintained, increase the cleaning frequency.
+
+#### D.2.2 EVAPORATOR CLEANING
+Disconnect the unit from the power supply and remove any necessary screws for access. Clean and inspect the evaporator plates regularly to ensure efficient cooling operations.
+
+#### D.2.3 FAN REPLACEMENT
+For specific models, follow manufacturer guidelines for fan replacement, ensuring to follow all safety protocols.
+
+### D.3 TROUBLESHOOTING
+
+#### D.3.1 Quick Troubleshooting Guide
+
+A. Confirm the switch functions correctly and is accessible internally for maintenance; ensure it is clean and operating as intended. 
+
+B. Identify any excessive heat which may indicate improper functionality.
+
+C. Ensure that all components are not in contact with each other during operation.
+
+D. Validate that the device operates correctly by following the procedures for inserting the core probe into the product; ensure that food is stored and chilled properly. Check that the cooling is functioning effectively, and if issues arise, consult service for the appropriate PNC type and R404A specifications.
+
+### D.4 WASTE DISPOSAL AND DEMOLITION 
+
+#### D.4.1 Waste Storage
+At the end of the appliance's lifecycle, waste should be stored safely and in accordance with local regulations, ensuring protection during temporary storage.
+
+#### D.4.2 Preliminary Dismantling Procedures 
+Regulations differ by country regarding the dismantling and disposal of appliances. It is important to group components by characteristics and ensure the recovery and reuse of coolants. 
+
+**ATTENTION:** Dismantling must be conducted by qualified professionals.
+
+### D.5 ENCLOSED DOCUMENTS of PNC
+
+### D.6 LIST OF USER PARAMETERS
+
+| SYMBOL | RANGE | DEF. | MIN |
+|--------|-------|------|-----|
+| CLOCK: HOUR | - | - | - |
+| CLOCK: DAY | - | - | - |
+| CLOCK: MONTH | - | - | - |
+| CLOCK: YEAR | - | - | - |
+
+- Indicates the holding and chilling parameters, with a range of 25 to 10°C/F.
+- LAC and HAC thresholds range from -50 to 125°C/F and indicate operational states.
+- Custom parameters for chilling times and temperatures are defined.
+
+Recipes can be selected for various meat types, seafood, and vegetables (e.g., GN fresh breast, poached seafood, perforated beans). Each category should outline specific cooking procedures and sorting methods. 
+
+Ensure all items are compatible with the respective trays and covers for optimal processing.
+

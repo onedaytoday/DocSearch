@@ -1,0 +1,309 @@
+### Advanced Instructions
+
+**Overview**  
+This document provides detailed instructions on the proper handling and integration of Emerson products, including Rosemount Analytical items, ensuring compliance with specifications for safety and optimal performance. Adherence to these instructions is essential to prevent hazards and ensure warranty coverage. The following guidelines must be followed during installation, operation, and maintenance.
+
+**Important Notices**  
+- **Warnings**: Non-compliance may lead to severe injury or death.  
+- **Cautions**: Ignoring these guidelines could impact operational efficiency or reliability.  
+- **Notes**: General operating tips are highlighted for your convenience.
+
+**Product Sections**  
+1. **Introduction**  
+   - In this section, users are encouraged to familiarize themselves thoroughly with the operational and technical aspects outlined in the manual.  
+
+2. **Specifications**  
+   - Detailed technical specifications are provided, including communication protocols, electrical ratings, and environmental conditions for operation.
+
+3. **Operation & Troubleshooting**  
+   - Instructions on troubleshooting common issues, grounding considerations, and performance indicators are included to facilitate user intervention.  
+
+4. **Optional Features**  
+   - This section covers advanced features like optional interfaces, HART communication, and the integration of AMS software for enhanced performance monitoring.
+
+5. **Remote Communication**  
+   - Information regarding the wireless communication capabilities using THUM technology is provided, enabling real-time data transmission to a Distributed Control System (DCS).
+
+**User Obligations**  
+Users are reminded to adhere to all guidelines to ensure the product operates correctly. Failure to follow these instructions may void warranties and compromise safety. 
+
+For further assistance, please contact Emerson Customer Service at 1-800-654-RSMT or visit [www.raihome.com](http://www.raihome.com).
+
+**Advanced Instruction Section PN: Specifications and Installation**
+
+**Product Specifications:**  
+The O2CAL product line, including the XS O2 TABLE models 1A99119G01, 1A99119G02, and 1A99119G03, will be shipped via airfreight. 
+
+**Mechanical Specifications:**  
+The SPS 4001B model adheres to NEMA 4X standards and is available in various configurations: single-probe, three-probe, and four-probe versions. There are also heated models available in both 115V and 220V options corresponding to each probe type.
+
+**Installation Considerations:**  
+When selecting a mounting location for O2-related equipment, refer to the specifications and guidelines outlined in the installation manual. Ensure the mounting height and positioning do not compromise visibility or accessibility, as this may affect operational performance.
+
+**Assembly Section:**  
+Follow the assembly guidelines detailed in the figures. It's essential to ensure that protective covers and ground leads are properly installed, as failure to do so may result in severe injury or death. Utilize IEC-compliant components rated for high temperatures and ensure reliable bonding to protective earth.
+
+**Electrical Wiring:**  
+The traditional architecture requires that AC inputs be correctly connected to the relay and I/O boards. Ensure all interlock mechanisms are functional to prevent hazards associated with heater malfunctions.
+
+**Shielding and EMC Compliance:**  
+For EMC protection, properly terminate shielded wires according to the guidelines provided. Ensure that any connections to the I/O boards comply with the EMC Directive, and verify that shields are appropriately grounded to mitigate interference.
+
+**Operational Instructions:**  
+Refer to the advanced features of the SPS or IMPS systems for operational guidance. This section includes critical switch configurations and additional instructions that enhance functionality and user control.
+
+**Troubleshooting and Diagnostics:**  
+If issues arise, consult the troubleshooting section for guidance on clearing errors and conducting necessary diagnostics. The interface menu provides options to navigate settings and display relevant information.
+
+**Security Features:**  
+Advanced features include user interface protection to prevent unauthorized access, alongside factory settings for software activation. Regular maintenance of these security features is essential to safeguard device functionality and integrity.
+
+**Important Warnings:**  
+Throughout all operations, it is critical to adhere to safety warnings regarding protective covers and grounding leads to avoid serious hazards. Ensure all installations follow recognized safety standards to prevent malfunctions and ensure operational reliability.
+
+**Advanced Instruction Section and Software Options**
+
+Referencing Emerson PN 6A00269G01 for Enhanced Software Options:
+
+- 6A00269G01: Enhanced Software Option Function  
+- 6A00269G02: Enhanced Software Option Reference Function  
+- 6A00269G03: Enhanced Software Option Function  
+- 6A00269G04: Enhanced Software Option Warning Function 
+
+The heater operates effectively at temperatures up to 736°C (1357°F), with an operational tolerance of approximately 1°C around 705°C (1300°F). The designed functionality allows the heater to shut off to manage heat levels, ensuring it remains within the specified limits of 736°C (1357°F) or 550°C (1022°F) to minimize instances of process disruptions. The user may select whether to allow the heater to cycle back below these set points, thereby reducing the chances of flameout if the heater exceeds 736°C. It provides options to trigger the heater to turn off at temperatures below 726°C or 750°C. The heater can also be maintained within a range of 10°C below either 550°C or 736°C based on operational needs.
+
+While monitoring at high temperatures of 750°C to 850°C, the operation can continuously relay its readings. Note that reduced operation near 736°C (1357°F) is expected. For continual stability around 705°C, using optional accessories is recommended to manage combustion quality and readings effectively.
+
+To optimize operation, advanced DCS functionality monitors O2 levels throughout the process. It enables recovery actions by routinely checking parameters and making corrections based on real-time feedback to mitigate any maladjustments. Historical data on O2 levels informs adjustments needed for maintaining effective combustion.
+
+Regular monitoring ensures combustion quality, requiring adjustments to reduce the output of unwanted emissions—often attributable to fouling over time. The DCS notifies operators to maintain desired flow rates by detecting deviations in SCFH readings. Seasonal adjustments and monitoring prevent prolonged operational inefficiencies.
+
+The system facilitates transition phases effectively. In scenarios where disconnections occur, warnings and alerts help manage flow rates and ensure system integrity. This advanced functionality supports technicians in addressing anomalies promptly.
+
+In specific setups, advanced features prompt user interaction, allowing real-time adjustments based on the readings. This involves analyses of the past flow rates and settings.
+
+**Table of CPU Unit Settings**
+
+The various calibration protocols are displayed, showing real-time monitoring of critical parameters (like PV, SV, and others) on the interface. This enhances operator awareness and system reliability, ensuring settings align with operational standards.
+
+Configurable language options improve accessibility for diverse users.
+
+### Advanced Instruction Section and PN Table for CPU Units
+
+#### Character Protection
+- Enable/Disable flashing alerts when issues arise: (No/Yes)
+  
+#### I/O Board Software
+- Advanced I/O board details: 
+  - **I/O Board Settings**  
+    - Status: ON/OFF (Factory default: OFF, internal only)
+    - Index for IOB AO and TX: Each I/O board is assigned an index.
+  
+#### O2 Measurements and Components
+- The O2 I/O board measures:
+  - Current: Measured from the I/O board.
+  - Temperature: T/C readings for O2.
+  - Heater parameters: 
+    - Heater bottle HSPS readings during H2O application.
+    - Outputs and maximum values are tracked. The highest reached values are recorded for O2 and heater rates.
+
+#### Operational States
+- Indicators for operation:
+  - NV Memory High, Factory Heater Rate: Normal (NM) operation is tracked using "AO Tracks," where recoverable and non-recoverable states are monitored.
+
+#### Troubleshooting Indicators
+- Alerts for O2 T/C conditions:
+  - High, shorted, reversed.
+  - Heater On/Off status, and advisories for high/low temperatures.
+  
+#### Acknowledgment Systems
+- Factory reset options available for I/O states.
+- Memory counts tracked for IOB and EE boards.
+
+#### HART Protocol Assignments
+- Assignments include:
+  - ID assignments for PV, SV, TV, and additional assignments as applicable.
+- T90 reference for O2 threshold allows for high reference settings beyond nominal.
+
+#### Heater Functionality
+- The heater resets once conditions fall below certain thresholds.
+- Advanced features include warnings for O2 LRV and URV conditions based on set parameters.
+
+#### Configuration Procedures
+1. Access the MENU repeatedly until IOB1 is displayed.
+2. Navigate through DETAILED SETUP -> ENTER -> CALIBRATION -> GAS.
+3. Use arrow keys for parameter adjustments and confirm changes by pressing ENTER.
+4. Exit through PROBE to HART for further CONFIGURE options.
+
+#### Tracking and Calibration
+- For calibration settings:
+  - Use arrow keys to set parameters from NO to YES for tracking options.
+  - Ensure proper setups for SPS4001B or IMPS configuration, confirming accurate operational states.
+
+This revised text maintains technical precision while clarifying processes related to CPU units and their operational parameters.
+
+### Advanced Instructions for Heater Operation
+
+**Section Overview:**
+
+To disable the heater operation, navigate to the relevant settings using the following steps. This document addresses non-recoverable errors and provides guidance for clearing O2 interlocks. Ensure the heater is correctly installed and configured with either the SPS4001B or IMPS.
+
+1. **Accessing Settings:**
+   - Press the MENU button repeatedly until the IOB1 displays.
+   - Select **DETAILED SETUP** and press ENTER.
+   - Navigate to **CALIBRATION** and press ENTER.
+   - Select **TOL CHECK** and press ENTER.
+   - Use the RIGHT arrow to change status from inactive to active. Use the UP and DOWN arrows to toggle between YES and NO. Press ENTER when complete to save your changes.
+   - Navigate back to **CALIBRATION** and press EXIT to return through the PROBE to HART from CONFIGURE.
+   - Navigate through **MANUAL SETUP** to access **CALIBRATION** and perform a TOLERANCE CHECK as described above.
+
+2. **Relay Configuration:**
+   - For systems with enhanced interlock features or traditional architecture, ensure the connection with AC or DR Board is proper.
+   - On encountering an "Access Restricted" warning, confirm the proper configuration.
+   - To adjust relay settings:
+     - Press MENU and select **DETAILED SETUP**.
+     - Access **RELAY** settings, adjusting the ON/OFF status as needed with the UP and DOWN arrows. After making selections, ensure to confirm changes by pressing ENTER.
+
+3. **Analog Output Settings:**
+   - Ensure the device is configured to the SPS 4001B or IMPS as per factory settings.
+   - From the DETAILED SETUP, access **ANALOG OUTPUT**.
+   - Specify O2 LRV or URV settings; utilize the arrows as needed to complete the adjustments, then press ENTER.
+
+4. **Auto Calibration:**
+   - To enable AUTO CALIBRATION, navigate to that option in the DETAILED SETUP.
+   - Adjust the settings as needed (YES or NO) before confirming with ENTER.
+   - Confirm proper function of recalibration features, especially if the equipment has been modified or replaced.
+
+5. **Acknowledgement Procedures:**
+   - Ensure factory settings for acknowledgment of calibration status are configured.
+   - Use the appropriate menu pathways to adjust CAL ACKNOWLEDGE settings.
+
+6. **Diffuser Checks:**
+   - To assess the condition of the diffuser, access the relevant settings in the CALIBRATION section.
+   - Make necessary adjustments for plugged diffusers, including measurements for proximity and flow ratings.
+   - Confirm changes with ENTER before navigating back through the settings.
+
+**Conclusion:**
+Follow these outlined steps to accurately configure the heater and associated settings for optimal operation. Make sure to abide by installation guidelines and factory recommendations for the best performance.
+
+**Advanced Instruction Section and Procedure Overview**
+
+To complete the procedure, access the Advanced Instruction Section using the designated part number (PN) and manually enter the required data upon completion. When using the Enhanced Software Option, ensure that the heater is initialized and turned off as needed. 
+
+To configure settings, press the MENU button repeatedly until the IOB1 display appears. Navigate to the DETAILED SETUP by pressing ENTER. From here, select SENSOR and press ENTER again, then proceed to HEATER SP (Set Point) and press ENTER. Use the RIGHT arrow to choose between the Normal Heater (736°C) and Heater (550°C). Adjust settings with the UP and DOWN arrows, then confirm with ENTER.
+
+Next, navigate to SENSOR HIGH TEMP ALM SP and press ENTER. Adjust the temperature limits (750°C or 850°C) using the RIGHT and LEFT arrows, followed by the UP and DOWN arrows, and press ENTER to save. Return to SENSOR HEATER LATCH OFF, press ENTER, and adjust the heater status between "NO" and "YES," followed by ENTER. 
+
+To calibrate, navigate through CONFIGURE to MANUAL SETUP and then to SENSOR HEATER SET POINT. Adjust as necessary and confirm settings by pressing ENTER when completed. Note that calibration is recommended during specified intervals, with necessary adjustments to reading and vibrations taken into account.
+
+If the function warning on the 6888XI is activated, ensure that you acknowledge it and monitor for any fouling issues. In the event of calibration failure, proceed as follows from the EXIT menu: access DIAG to confirm the CAL FAILED message, then use ACKNOWLEDGE ALARMS to confirm this status.
+
+If you need to abort calibration, navigate to the CALIBRATION section, select ABORT, and confirm the command as prompted. Upon successful completion of recalibration, various statuses will be displayed, indicating the operation's success or potential issues, such as an empty or incorrect bottle.
+
+To address any alerts, return to the OVERVIEW ALERTS section and monitor ACTIVE ALERTS. Confirm any notifications related to CALIBRATION STATUS or DEVICE STATUS as needed.
+
+Throughout this procedure, ensure that you follow the prompts and confirm changes meticulously to ensure accurate operation of the system.
+
+### Advanced Instruction Section
+
+To navigate through the Advanced Instruction Section using the PN model, utilize the UP and DOWN arrows to toggle between NO and YES. Confirm your selection with the ENTER key. If "YES" is chosen, the calibration constants will be accepted, and any alerts will be cleared. Acknowledge any warnings by pressing OK. If the warning function is active, access the SERVICE TOOLS and proceed to OVERVIEW ALERTS, then ACTIVE ALERTS. The ACTIVE ALERTS should indicate: "DIFFUSER WARNING." Use the arrow keys to navigate to ALERTS and then DEVICE STATUS, followed by ACKNOWLEDGE. Accept the "DIFFUSER WARNING" by executing the ACKNOWLEDGE command.
+
+If you need to abort a calibration, select the action from the SELECT ACTION menu, choose ABORT CALIBRATION, and confirm with ENTER. This action typically takes a few seconds. To stop the gas flow, access the SELECT ACTION menu, select CALIBRATION, and press ENTER. If aborting calibration, you will see IDLE; exit calibration by selecting EXIT and pressing ENTER. The 6888XI model includes previous calibration constants.
+
+The procedures for troubleshooting involve a systematic approach to diagnosing issues. For instance, when the heated sample reaches 736°C (1357°F), ensure that reference measurements are taken. Follow logarithmic trends as illustrated in the provided chart for accurate readings.
+
+### Grounding Indications Table
+
+Indications of grounding conditions should be thoroughly assessed when unpowered or reading unusually. Inspect protective covers and ground leads to prevent serious injury or death. Proper grounding enhances system performance, and it is essential to be aware of typical terminations and input connections.
+
+### Troubleshooting Definitions
+
+**Clearing NV Memory:** To clear the memory when the system is powered down, follow the necessary steps. Monitor the threshold readings on the board: for example, the High function should accurately reflect the threshold at 86°C for the IO board or 126°C for an alternative board. If the heater rate reads below expected VDC levels, inspect O2 wiring connections for disconnection or thermocouple issues.
+
+**High Readings:** If the thermocouple registers as shorted or reversed, or if the heater does not reach the required temperature, ensure that the heater is turned off to prevent further issues. Acknowledge and rectify any readings indicating a mismatch in sensor type or connection.
+
+**Troubleshoot High Pressure Readings:** Evaluate high readings against expected values. When using combustion or recovery systems, flow rates should stabilize to prevent erroneous readings. Address issues regarding connection integrity and inspect all relevant hoses and washers to ensure proper sealing.
+
+Overall, meticulous attention to calibration, grounding, and connection integrity will aid in maintaining optimal system performance and safety during troubleshooting and operating processes.
+
+### Advanced Instruction and Service Section Overview
+
+**Warning Regarding Safety Precautions:**  
+This section pertains to advanced instructions and service protocols. It is critical to ensure that protective covers and grounding leads are properly installed to avoid the risk of serious harm or death during maintenance. Be mindful of the specific service types required for operation, and note that improper servicing can lead to equipment failure or fire hazards.
+
+**Operating Conditions and Precautions:**  
+Exhaust fumes, particularly sulfur dioxide (SO2) and other harmful compounds from materials like plastics, can pose significant health risks. It is advisable to operate with monitored oxygen levels (O2), ensuring they remain above the recommended threshold. Regular inspections and timely calibration are necessary every few months. If oxygen levels from the regulator indicate problematic readings, further assessments as outlined in the operational procedures must be conducted.
+
+**Manual and Software Features:**  
+To manage the system, manual controls are accessible via the front interface or through remote communicators such as the SPS 4001B and IMPS units. The factory-shipped I/O devices may lack certain software features, which can be activated post-installation. Reference figures in the documentation for activation procedures.
+
+**I/O Operations and Safety Protocols:**  
+For I/O devices that previously operated with specific software, ensure that any alterations to hardware do not inadvertently disable functionality. Removing cover screws will allow access to the I/O board, where wires must be correctly managed and connected to maintain operational integrity. 
+
+**AC System Integration:**  
+Proper integration of AC components with the I/O system is essential, and adjustments may be necessary to ensure all wiring and connectors are secure. Ensure compliance with operational instructions, with a focus on the interlock functions that prevent unintended operational overlaps.
+
+**Final Notes on Assembly and Maintenance:**  
+During any assembly or disassembly procedures, take care to maintain the integrity of the front assembly and prevent damage to protective components. Follow documented steps carefully to ensure safety, especially when working with the CPU and I/O boards. Caution is advised to avoid damaging protective elements during reassembly. Always ensure that all parts are correctly seated and secure before operation. 
+
+This overview serves as a guide to the advanced instructions and operational safety protocols necessary for effective service and maintenance of the equipment.
+
+### Technical Rephrasing of Advanced Instruction
+
+**Service and Assembly Instructions for PN DR and LCD Panel**
+
+To prepare the assembly unit, it is advisable to clean the LCD display and surrounding areas to remove any fingerprints. Use a clean cloth or approved cleaning agents. Secure the front housing to the CPU board by attaching the screws at the designated points. Ensure the screws are tightened properly to hold the housing firmly in place.
+
+If needed, detach the cover and remove the four screws to access the I/O board. Disconnect any necessary components from the DR board, retaining the four screws for reassembly. Refer to FIGURE DR for clarity on components. 
+
+To reconnect the DR board, carefully align connectors J1, J2, J3, and J8, ensuring that all components are seated properly. Once all connections are made, reattach the cover using the screws removed earlier.
+
+**Remote Interface Setup**
+
+To reapply configurations to the Remote Interface, follow the instructions outlined in Section. Press the <DIAG> key once to view changes, then press <EXIT> to confirm and navigate to the next steps. Acknowledge any prompts by pressing <ENTER>.
+
+**Parts and Software Options**
+
+Refer to TABLE 6A00329G01 for specifications related to the I/O Board and associated components, including AC and DR connection options. Ensure all used software is compatible with the existing I/O operation. Follow the guidelines in TABLE 1A99119G01 for bottle specifications and flow rates.
+
+**Optional Components and Features**
+
+The HART (AMS) interface facilitates communication with HART-compatible devices. Properly install terminations to ensure secure connections. Rosemount Analytical's systems offer enhanced analytics through specially designed interfaces, capable of withstanding extreme heating conditions.
+
+**Weatherproof Optional Features**
+
+The IMPS system is rated IP56 (NEMA 4X), providing robust housing for four inputs and initiating CALIBRATION RECOMMENDED checks for out-of-calibration conditions. Ensure connections are secure before initiating relay operations.
+
+**Safety Instructions**
+
+IMPORTANT: Adhere strictly to the wiring and installation guidelines as they pertain to EU regulations. Setup should comply with the Directive, with emphasis on ensuring that all grounding and earthing measures are conducted per IEC227 or IEC245 standards. Avoid exceeding temperature limits of 75C. 
+
+When engaging in installation or maintenance activities, it’s critical that only trained personnel access internal components and that safety covers are reinstated properly afterward. Keep the apparatus in an atmosphere suited for its operational capabilities as defined in the instructions. 
+
+**Compliance Specifications**
+
+For compliance, refer to EN61010-1, IEC417, and ISO3864 standards. All safety covers must be appropriately fastened and inspected, following standard procedures for servicing to avoid potential hazards. 
+
+**Conclusion**
+
+Follow all provided instructions carefully to ensure effective operation and safety compliance for the apparatus in question.
+
+**B: Advanced Instruction PN**
+
+**B.1 Returning Equipment**  
+If factory service is required, follow these steps: Obtain authorization from the Emerson Office or contact Emerson for instructions. Do not proceed without authorization. **CAUTION:** Be aware of ESD (Electrostatic Discharge) risks when handling circuit boards. Ensure ESD protection covers are fully in place to avoid damage to the boards.
+
+For warranty or service requests, consult the complete instructions in the Reference Document. Contact Emerson Rosemount Analytical in Houston, TX, USA. If warranty service is needed, the equipment will be inspected and tested at the factory. If it falls under the Rosemount Analytical warranty, it will be repaired or replaced at Emerson's discretion, following specified instructions.
+
+**Advanced Instruction PN AC**  
+Refer to sections on Bottles Methods (62), D/A Simplified, Right-Hand Conditions, Interlock Index Grounding HART (40), and I/O AC Interlock including jumpers (26).
+
+For installation, troubleshooting, or typical mounting practices, please review specifications from pages 3-8 and 25-68 of the SPS 4001B manual.
+
+**Social Media Links:**   
+- Facebook: facebook.com/EmersonRosemountAnalytical  
+- Twitter: twitter.com/RAIhome  
+- YouTube: youtube.com/user/RosemountAnalytical  
+
+Emerson Rosemount Analytical Inc., Irvine, CA, USA. Rights reserved. The information provided is for reference purposes only. While every effort is made to ensure accuracy, no warranties, expressed or implied, are made regarding the products, services, or their applications. Emerson reserves the right to modify specifications without notice. Advanced Instruction Cards are intended for purchases made in the U.S. only.
+

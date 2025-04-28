@@ -1,0 +1,43 @@
+**PTC-401CIP IP Day/Night PTZ Camera with MPEG4/MJPEG Motion Detection**
+
+The PTC-401CIP is a versatile IP PTZ camera that supports both MJPEG and MPEG4 formats for LAN and WAN applications, making it suitable for various facilities and AV usages. It features dual video output in both MPEG4 and MJPEG, facilitating high-quality streaming and recording via a network interface to a PC or CCTV system.
+
+**Full Day/Night Functionality** 
+This camera combines high-quality optics with an advanced PTZ mechanism, incorporating a DSP with a 1-inch IT CCD sensor, delivering high TVL (horizontal) and S/N ratios. It is equipped with IR capabilities for low-light conditions, compatible with IR ESD-CC1 or ELMO systems.
+
+**Enhanced Surveillance and Communication**
+The camera ensures exceptional surveillance across all environments, featuring tracking capabilities and clear two-way audio communication. Its integration with sound cards supports distance-learning and AV functions.
+
+**Security Features**
+Additional security measures include built-in motion detection and FTP capabilities, allowing users to set access restrictions to authorized personnel only.
+
+**Company Information**
+ELMO CO, LTD (Head office and factory) adheres to QMS/EMS standards per ISO certifications. For more information, visit ELMO USA at www.elmousa.com, headquartered in Plainview, NY, with a facility in Cypress, CA.
+
+**PTC-401CIP Specifications:**
+- **Camera:** NTSC CCD 
+- **Effective Color:** (IRE) B&W: (IRE)
+- **White Balance:** Auto/One-push/Manual
+- **Night Light Type:** 12x F1.6, 16x 
+- **Functions:** Motion Detection
+
+**Interface:**
+- **Video Output:** BNC, Ethernet Base-T (RJ-45), RS485, I/O input (RCA)
+
+**Network Protocols:** 
+Supports MJPEG/MPEG4 with ARP, ICMP, TCP, UDP, HTTP, FTP, SMTP.
+
+**Resolution:** 
+D1, SIF, QQVGA
+
+**System Requirements:** 
+Operates on Microsoft XP, Microsoft, or JAVA2SE.
+
+**Power Supply:** 
+DC 12V 1.0A.
+
+**Dimensions:** 
+Approximate dimensions in inches (D) x (H).
+
+Note: Specifications are subject to change without notice and may differ from those of Microsoft Corporation and JAVA by Microsystems.
+

@@ -1,0 +1,41 @@
+EPI-3601S Wireless LAN PCI EPI-3601S Wireless LAN PCI to
+EPI-3601S LAN PCI ABLE OF C ONTENTS INTRODUCTION................................................................................................................................3 FEATURES PACKAGE CONTENTS.....................................................................................................................4 SYSTEM REQUIREMENTS INSTALLATION VERIFY INSTALLATION SETUP NETWORK CONFIGURATION (MS WINXP)...............................................................13 SETUP WLAN (ENGENIUS CLIENT UTILITY) SYSTEM TRAY UTILITY OPTIONS.............................................................................................19 SETUP NETWORK SECURITY (WEP, WPA)..........................................................................25 ONE WPA/WPA2..........................................................................................................................26 C WPA/WPA2 PASSPHRASE ETTING RE SHARED KEY TATIC WEP...........................................................................................30 MANAGING PROFILES..................................................................................................................31 DIAGNOSTICS..................................................................................................................................34 MENU UNINSTALLING ENGENIUS UTILITY/DRIVER.......................................................................38 APPENDIX SPECIFICATIONS
+EPI-3601S LAN PCI Introduction EPI-3601S LAN PCI with G and WLAN of to 108M, that of the products, to It security options with WEP Encryption, WPA, IEEE802.1X, TKIP and AES, which With firewall, EPI-3601S effective security to wireless from With and the to the Wireless effortlessly. EPI-3601S with other WLAN interoperable with High Rate to of heavy security specifications, Advanced Encryption (AES), Integrity (TKIP), Allows to the active Wireless Quality of roaming Supports to than the of products. such as MPEG streaming authentication and which Service wireless products.
+EPI-3601S LAN PCI Theoretical wireless based IEEE of chipset used. throughput Network and factors throughput the and that of the items below the of the shipped back its One EPI-3601S Wireless LAN PCI One Screwable One CD-ROM with LED LINK when active switched OFF
+EPI-3601S Wireless LAN PCI To the WLAN PCI the following the CD the CD the following Click the and the following Microsoft XP/2000 PCI (free to 256MB RAM memory or higher CPU or higher
+EPI-3601S Wireless LAN PCI Click to or to terminate installation.
+EPI-3601S Wireless LAN PCI options Choose of them and Next only. Choose location to and Next.
+EPI-3601S Wireless LAN PCI Choose to shortcuts. Click Next Should with terms and mentioned, Click Next to
+EPI-3601S Wireless LAN PCI Choose choose Third-party Next
+EPI-3601S Wireless LAN PCI the
+EPI-3601S Wireless LAN PCI the item
+EPI-3601S Wireless LAN PCI EPI-3601S and the correctly. =>Double-click Select [Hardware] tab=>Click Select Network Click PCI wireless Network
+EPI-3601S LAN PCI that the of PCI wireless Network [This properly]->Click [OK] Network (MS Right-click [Wireless Network] Select
+EPI-3601S Wireless LAN PCI Select (TCP/IP)] =>Click Select the If Wireless Router [DHCP] function, please both IP automatically] and DNS automatically].
+EPI-3601S Wireless LAN PCI WLAN Utility) home/office should wireless LAN Access You should readily the (security to those Wireless LAN first with Wireless AP there security required. If the appear Following to initially wireless If WLAN found Utility, already connected to that AP. Notice the the as followsthe that to Access ICN_DLINK_WIFI Other about the shown. Click from If the router [DHCP] function, to the IP and DNS (AP) that (AP) shows connected
+EPI-3601S LAN PCI You the as follows. shows information about the ACTIVE there manually connected following the below. Click from Click Profile
+EPI-3601S Wireless LAN PCI Click Scan. You showing AP that EPI-3601S LAN Click the SSID that security information or choose SSID which to with. Click Then, as shown below. that the of SSID,
+EPI-3601S LAN PCI Click Security the Access security Click This instance WEP protected. Therefore the to the security information as You to this information ready this protected Click OK when
+EPI-3601S Wireless LAN PCI back to and Advanced typically the following. Clicking OK connecting to the directly. options Right Network connected Network disconnected
+EPI-3601S Wireless LAN PCI Right options Enabled) Choose to Choose If already as shown below. If already as shown below. Right options Disabled)
+EPI-3601S LAN PCI Choose Preferences the to choose whether the to Choose and the that confirms the when
+EPI-3601S Wireless LAN PCI Choose and the that the Choose If WLAN the following with information. If WLAN the following with information.
+EPI-3601S LAN PCI Select Profile Choose Select Software If Profile options shown as below If Profiles shown as below If options shown as below.
+EPI-3601S LAN PCI Choose WLAN LAN connected. Immediately, active LAN Choose If options shown as below. detected, EPI-3601SWLAN If already as shown below. If already as shown below.
+EPI-3601S Wireless LAN PCI Click Advanced to information about the active Network security (WEP, WPA) If AP/Router security wireless to the security The of security below. Please Utility. If AP to
+EPI-3601S LAN PCI Security WPA/WPA2 Select WPA/WPA2 Security Choose the EAP type Click
+EPI-3601S Wireless LAN PCI Select the and Identity choose the Authorities. information EAP-TTLS authentication.
+EPI-3601S LAN PCI Click WPA/WPA2 If AP includes the following to Security WPA/WPA2 Click C You the the Click OK
+EPI-3601S Wireless LAN PCI The active with the security immediately applied. If AP to to based other type of authentication, Select Choose the EAP type the following and the Click to the of and
+EPI-3601S Wireless LAN PCI Include the Authentication timeout Network choose Temproary and Pre-shared Static WEP If Access to to [WEP] authentication, the Security
+EPI-3601S Wireless LAN PCI Choose Pre-Shared checkbox related to Association to Click Choose the WEP Choose the the WEP Profiles Click Profile the existing and about the
+EPI-3601S LAN PCI Choose There actions to You clicking Those That to the required. You apply the clicking You clicking including the security the previous chapter. associated with SSID of Access therefore should to from as shown below.
+EPI-3601S LAN PCI Click the to and choose OPEN. Exporting to as shown below. and the currently active Profiles Several or based clicking the Profiles Priority of buttons.
+EPI-3601S Wireless LAN PCI WLAN when LAN Active the WLAN LAN connected and the instantly based whether LAN active or of Utility.
+EPI-3601S LAN PCI Click to the and information of /received. Click Information to information about the H/W and information. Click Advanced Statistics to information about TX/RX information.
+EPI-3601S Wireless LAN PCI The options to choose from. Action This and shown boxes below
+EPI-3601S LAN PCI This option or that and other options. from to and refresh with or Scan the items shown AP using the following options
+EPI-3601S Wireless LAN PCI About Uninstalling Utility/Driver Select Uninstall option from the You the Select Software choose the to the EPI-3601S LAN PCI WZC and and third-party the options
+EPI-3601S Wireless LAN PCI Select Uninstall the previous Click Next Select OK. OK.
+EPI-3601S Wireless LAN PCI Click If to that Choose to or the Choosing OK PC.
+EPI-3601S Wireless LAN PCI Specifications Rates and IEEE802.11, FCC ETSI 300/328/CE RF Information Access Access with (CSMA/CA) Modulation OFDM (64-QAM, 16-QAM, QPSK, BPSK) DSSS (DBPSK, DQPSK, CCK) North America, and roaming from to (Typical) (Typical) Topology Ad-Hoc, Security WEP WPA-PSK/WPA2 TKIP/AES Physical Factor PCI interface (non-condensing) Humidity: Humidity:

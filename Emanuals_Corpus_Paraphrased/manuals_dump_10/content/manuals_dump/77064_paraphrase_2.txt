@@ -1,0 +1,103 @@
+**Touchmonitor 1915L LCD Touchmonitor Documentation**
+
+**Model Information:**
+LCD ET1915L Revision P/N E731143
+
+**Copyright Notice:**
+This publication may not be reproduced, transmitted, transcribed, or translated without the express written permission of TouchSystems. The provided information is subject to change and does not imply any warranty of merchantability or rights regarding this publication. TouchSystems, Inc. retains rights related to its products, including AccuTouch, AT4, CarrollTouch, MonitorMouse, and SecureTouch.
+
+**Table of Contents:**
+1. Introduction
+2. Warranty
+3. Product Precautions
+4. Touchmonitor Overview 
+5. Product Specifications 
+6. Software Setup 
+7. Troubleshooting
+
+**Product Overview:**
+The ET1915L LCD Touchmonitor features an active thin-film-transistor (TFT) display designed for optimal performance with SXGA graphics. The unit supports multiple resolutions, including VGA, SVGA, XGA, and non-interlaced SXGA, and maintains VESA DPMS compatibility along with DDC1/2B support. An integrated OSD (On-Screen Display) and wall-mounting capability enhance functionality.
+
+**Unpacking Instructions:**
+This section provides guidance for unboxing the LCD touchmonitor, which includes the unit, VGA cable, USB cable, and QuickStart software CD.
+
+**Installation and Setup:**
+To connect the touchmonitor to a PC, ensure both devices are powered off. Attach the video and touchscreen connections (USB or and VGA as applicable). Secure connections by tightening screws. Refer to the installation software on the included CD for various operating systems including XP and NT. 
+
+**Touch Interface Setup:**
+Load the appropriate drivers for plug-and-play functionality. Should software installation fail, ensure the connection method (USB or VGA) is correct and follow troubleshooting steps as needed.
+
+**Operating Procedures:**
+The OSD manages display functions such as brightness and position adjustments. To navigate the OSD, use designated control buttons to select or adjust settings. 
+
+**Performance and Specifications:**
+Ensure the touchmonitor operates under optimal conditions according to factory specifications, addressing any performance issues promptly. 
+
+**Troubleshooting Common Issues:**
+For issues impacting display performance, refer to resolution guidelines for input matching (VGA, SVGA, XGA, SXGA, etc.). Ensure connections are secure and follow cleaning and maintenance recommendations to avoid damage. 
+
+**Safety Precautions:**
+The touchmonitor should be connected through a 3-wire grounding cord to a properly grounded outlet to avoid electrical hazards. Consult safety guidelines to prevent unauthorized modifications or repairs.
+
+### Touchmonitor Specifications and Care Guidelines
+
+#### Touchmonitor Model: B-28
+
+For optimal functionality of the B-28 Touchmonitor, avoid exposing it to shock or using inappropriate cleaning agents. Use a lightly dampened cloth for cleaning; do not apply cleaners directly to the touchscreen as this may cause scratches.
+
+#### Technical Specifications (Appendix C)
+
+- **Model:** ET1915L LCD TFT 
+- **Active Area Dimensions:** 
+  - Horizontal: 376.32 mm 
+  - Vertical: 301.06 mm 
+  - Pixel Pitch: 0.294 mm (H) x 0.294 mm (V)
+- **Supported Resolutions:** VGA, SVGA, XGA, SXGA 
+- **Color Depth:** 16.2 million colors (non-touch)
+- **Brightness Levels:** Various modes available
+- **Connectivity:** Supports RGB TTL or negative connectors;
+  - Includes OSD controls for brightness, H-position, sharpness, phase, and clock adjustments; available in English and Spanish.
+- **Power Requirements:** AC 100-240V; operating temperature ranges and humidity details provided.
+- **Certifications:** UL, c-UL, FCC-B, CE, VCCI, C-Tick, MPRII, TUV.
+
+#### Touch Performance
+
+- **Touch Activation:** 
+  - Sensitivity is suitable for multiple touchpoints.
+  - Force required for activation typically measured in ounces.
+- **Durability:** Tested against wear from multiple touches while maintaining operational integrity without compromising location accuracy.
+- **Environmental Protection:** The device is designed to be splash resistant.
+
+#### Chemical Resistance
+
+The touchscreen is resistant to certain chemicals, including ammonia-based cleaners.
+
+#### User Information
+
+1. **Usage Guidelines:**
+   - Follow prescribed operational guidelines to prevent fire hazards and serviceability issues. 
+   - Only authorized technicians should perform services.
+  
+2. **Grounding Requirements:**
+   - The device must be properly grounded to prevent electrical shock. Users must ensure grounding continuity.
+
+3. **Regulatory Compliance:**
+   - Complies with FCC Class B standards for electromagnetic interference.
+   - CE compliance confirmed as per EMC Directive 89/336/EEC and Low Voltage Directive 73/23/EEC.
+   - Users should be aware of potential interference and take recommended actions, such as relocating devices or checking connections.
+
+#### Warranty Information
+
+The product is backed by a three-year warranty covering defects in materials and workmanship. Buyers must report warranty claims within thirty days of discovery. 
+
+- **Exclusive Remedies:** The remedies provided serve as the sole recourse for any warranty breaches. Aside from the expressly mentioned warranty, no other warranties—express or implied—are offered.
+- **Liability Limitations:** Seller liability is limited to a refund of the purchase price; no additional costs for replacement goods or incidental damages will be covered.
+
+#### Additional Resources
+
+For further information on specifications, cleaning, and maintenance, visit [www.elotouch.com](http://www.elotouch.com) or contact the USA headquarters directly.
+
+### Product Assembly
+
+- Components include: Seat Assembly, PCB Board, Protection Cover, LCD Assembly, Backlight Module, LCD Touchmonitor, VGA and USB cords.
+

@@ -1,0 +1,77 @@
+**ELO Touchmonitor LCD Touchmonitors 1725L/1727L Revision Documentation**
+
+**Touchmonitor Model: 1725L/1727L**  
+Manufacturer: TouchSystems, Inc.  
+Revision: P/N 1-800-ELOTOUCH | Website: www.elotouch.com  
+
+**Copyright Notice**  
+All rights reserved. No part of this publication may be reproduced, transmitted, or translated without the written consent of TouchSystems Inc. The information contained herein is subject to change without notice. TouchSystems disclaims any implied warranties including merchantability or fitness for a particular purpose. SecureTouch, AccuTouch, and MonitorMouse are trademarks of TouchSystems Inc.  
+
+**Acknowledgments**  
+**Introduction**  
+- **Precautions**  
+- **Product Overview**  
+- **Unpacking the Touchmonitor**  
+
+**Installation Steps**  
+1. **Connecting the Touch Interface (USB/RS-232)**  
+   - Ensure the touchmonitor and PC are powered off.  
+   - Select the appropriate connection type (RS-232 or USB).  
+   
+2. **Connecting the Video (DVI-D/15-Pin)**  
+   - Connect the video cable from the touchmonitor to the corresponding port on the PC.  
+
+3. **Power Connection**  
+   - Connect the power cable to an AC outlet.  
+
+4. **VESA Mounting**  
+   - Access the VESA mounting interface located on the back of the touchmonitor.  
+
+**Accessing the On-Screen Display (OSD)**  
+- The OSD features various settings for performance adjustments.  
+
+**Specifications**  
+- This touchmonitor is compatible with VESA mounting and conforms to the Physical Mounting Interface standard.  
+
+**Software Installation**  
+- Install the necessary drivers from the provided CD for optimal functionality with various operating systems (Windows XP, NT, MS-DOS). Follow on-screen instructions for a successful setup.  
+
+**Functionality and Settings in OSD**  
+- Use the OSD menu for brightness adjustments, selecting options, and switching the monitor on/off.  
+
+For additional information or troubleshooting, please refer to the corresponding chapters within this document.
+
+### OSD Functionality Overview
+
+The On-Screen Display (OSD) function, particularly for the VGA input of the LCD, facilitates automatic adjustment of brightness settings. Users can navigate left or right through factory settings and use the "USER" option to make individual adjustments to Red, Green, and Blue (R/G/B) components, as well as the foreground color.
+
+Operation includes features such as auto-contrast adjustments for analog and YUV signals, with access via the graphics DSUB connection, allowing users to toggle between DSUB and DVI displays. The DVI interface also provides clock phase adjustments and additional settings for intensity, saturation, hue, and flesh tone.
+
+The OSD can be configured in various languages, including English and Spanish. It is essential to ensure the interface is properly connected and set up; troubleshooting may require reference to the corresponding chapter in the manual.
+
+### Touchmonitor Specifications
+
+The touchmonitor employs a 17-inch Active Thin Film Transistor (TFT) LCD, capable of displaying resolutions from VGA to UXGA. The native resolution supports multiple formats, including SVGA, XGA, SXGA, and UXGA.
+
+The AccuTouch touchscreen features a hard surface coating and is designed to withstand significant interaction, with a rating for more than a specified number of touchpoints and light activation thresholds. It has been rigorously tested for performance, durability, and chemical resistance, complying with established standards. 
+
+### Safety and Regulatory Compliance
+
+To minimize electrical shock risk, the touchmonitor should be connected to a properly grounded outlet using a three-wire cord. Cleaning should be performed with caution, avoiding ammonia-based cleaners that may damage the touchscreen.
+
+The product complies with FCC regulations and CE directives concerning electromagnetic interference, providing guidelines for users to resolve any potential conflicts with other electronic devices. Ensuring correct installation and operation is critical to maintaining safety and functionality.
+
+### Warranty Information
+
+The warranty for the touchmonitor guarantees it will be free from defects in material and workmanship for a specified duration. Users must notify the manufacturer of any issues within a designated timeframe to facilitate inspection and resolution. This warranty covers various aspects, including repair or replacement options based on the condition of the product, ensuring satisfaction and performance standards are upheld.
+
+**Exclusive Remedies for Warranty Breach**
+
+The remedies outlined herein represent the sole recourse available to the buyer in the event of a warranty breach. Apart from the express warranty stated above, the seller does not provide any additional warranties—whether express or implied by law—related to the products, their suitability, quality, merchantability, or non-infringement. No employee or representative of the seller is permitted to offer any warranty beyond what is specified in this document. The seller's liability under this warranty is limited to a refund of the product's purchase price. Under no circumstances shall the seller be responsible for procurement or installation costs of replacement goods incurred by the buyer, nor for any special, consequential, indirect, or incidental damages.
+
+**Product Specifications and Information**
+
+Regarding the LCD Touchmonitor (ET172XL-XXWB-X), please refer to the specifications pertaining to product features, including VESA mounting interface access, AccuTouch technology specifics, backlight lifespan, brightness levels, and chemical cleaning guidelines. Additional details encompass supported formats, technical performance metrics, and warranty information.
+
+For comprehensive product details, including operational guidelines and troubleshooting support, please visit www.elotouch.com or contact USA TouchSystems, Inc.
+

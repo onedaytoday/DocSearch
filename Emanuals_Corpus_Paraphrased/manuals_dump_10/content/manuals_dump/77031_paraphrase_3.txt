@@ -1,0 +1,31 @@
+**PSS Product Manual Overview - November Edition**
+
+**Notice**  
+This document provides information on the PSS and PSSF series, including specifications and illustrations for reference only. The details herein are based on the outlined specifications and are subject to change without notice. Consult the PSS Product Revision History: MAN-PSSUG.PDF (March) for the latest updates. The AC systems referenced (PSS PSS 3U, PSS 6U) are manufactured by Motion Inc., MA, USA.
+
+**Warranty Information**  
+The products covered by this warranty guarantee against defects in materials and workmanship as specified within this document for a period of either 12 months from the date of installation or 18 months from the date of shipment, whichever occurs first. This warranty is in addition to any other express or implied warranties.
+
+**Product Description**  
+The PSS and PSSF series include integrated amplifiers and are designed with various cooling capabilities. Models available include PSS/PSSF configurations for both single-phase (3U) and three-phase (6U) power supplies. Mounting options are available to fit standard 19-inch racks and electrically compatible DIN backplanes.
+
+**Operational Guidelines**  
+This document outlines essential operational procedures for correctly using the PSS power supply. Prior to attempting any assembly or operation, users should have the appropriate technical knowledge and authorization. Special attention must be given to avoid the risk of electric shock or injury, especially when handling components that may become electrically charged.
+
+**Protection Features**  
+PSS products feature internal protections that help inhibit operations in unsafe conditions—such as high inertia loads or excessive voltage—to prevent damage to the connected equipment. These protective measures are automatically engaged under specified conditions.
+
+**Technical Specifications**  
+The PSS models (PS1, PS2, and PS3) each have specific electrical and thermal ratings reflecting their capabilities. These specifications include input voltages, current handling, and cooling requirements.
+
+**Assembly and Installation**  
+Follow detailed mounting procedures to ensure the correct installation of your PSS units. Proper inspection for tightness and adherence to electrical isolation standards is essential for safety and performance. 
+
+**Power Supply Configuration**  
+For transitioning power supplies from single-phase to three-phase configurations, refer to specific guidelines addressing the correct wiring and connections required for optimal performance.
+
+**LED Indicators**  
+LED indicators provide real-time feedback on the operational status of the PSS units, including power availability and system health.
+
+For any queries or more information, please consult the full manual or visit the official website at www.elmomc.com.
+

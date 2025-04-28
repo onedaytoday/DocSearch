@@ -1,0 +1,41 @@
+### Performance Data
+
+**No Load, No Door Openings**  
+**Mid-Point Control Settings:**  
+- **65°F (18°C)**  
+- **90°F (32°C)**  
+
+**Thermostat Settings:**  
+- **Cut-in: CD, C)**  
+- **Cut-out: (ADC)**  
+
+**Defrosting Frequency:**  
+- Every hours as per specifications.  
+
+**Heater Information:**  
+- **Thermostat:** Ground Water  
+- **Please note this location for Water Automatic Control.**  
+
+**Safety Note:**  
+- This information is for trained personnel only. Untrained individuals should avoid attempting repairs due to risk of electric shock. When servicing, ensure grounding wires are correctly placed and secured, and that they are protected from heat exposure (up to 200°F and can burn at 500°F). 
+
+**Operational Details:**  
+- The defrost heater activates for seconds during the defrost cycle.  
+- For the Fresh Food compartment, the heater activates for seconds. Press the ON/OFF switch for approximately seconds.  
+- To access the ice maker, remove the water cover using a screwdriver to pry it from the housing. 
+
+**Screw Requirements:**  
+- Make sure to turn one screw to replace and check the mounting plate screws for water gear securely in position.
+
+**Electrical Connections:**  
+- **Dispenser Housing:**  
+  - Heater connections include colors like light blue, red, black, and more.  
+  - Ensure proper connection to UI Communication and other components (detailed connections listed).  
+  - Refer to standard wiring diagrams for compressors and additional circuitry.  
+
+Connections should be recognized and marked appropriately for maintenance. Ensure that the diodes are installed in the proper direction, especially in relay circuits with various components such as the fan and main water valve connections. 
+
+Follow the wiring standards to ensure all connections including motors, switches, and various sensors are appropriately matched for functionality and safety. 
+
+This technical document is designed for skilled technicians working on the equipment's performance ratings, electrical wiring, and component specifications.
+

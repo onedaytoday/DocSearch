@@ -1,0 +1,61 @@
+# USER MANUAL for Touch 2740L Touchmonitors SW602096
+
+This document may not be reproduced, transmitted, or translated without prior written permission from Touch Inc. The information herein belongs to Touch Inc. and its affiliates. It is provided without warranties of any kind, including merchantability or suitability for a particular purpose, and may be subject to revisions without notification.
+
+## Table of Contents
+- Chapter 1: Introduction
+- Chapter 2: Mounting
+- Chapter 3: Technical Information
+- Chapter 4: Warranty Information
+
+## Chapter 1: Introduction
+The Touch 2740L touchmonitor is designed to enhance the performance of Touch products with advanced features. This monitor employs an active thin-film-transistor (TFT) LCD for high-quality performance, offering HD graphics with an LED backlight that minimizes power consumption and eliminates mercury compared to CCFL-backlit displays. Follow the safety precautions outlined in this user manual for optimal use and refer to the chapters on Installation, Mounting, and Technical Information.
+
+## Chapter 2: Unpacking the Touchmonitor
+Ensure the following items are included with your touchmonitor:
+- Touchmonitor with protective covering
+- CD with information
+- VGA and DVI cables
+- USB cable
+- Mounting and OSD information
+
+## Connector Interfaces
+The touchmonitor supports DVI or VGA connections. Ensure all screws are tightened for optimal performance. Connect the USB cable for touchscreen functionality. The touchmonitor operates on a 12V DC power supply. The display should activate upon powering the unit.
+
+## Touch Software
+Obtain touchscreen drivers from www.elotouch.com. For additional operating system compatibility and related downloads, refer to the Touch support section.
+
+## Chapter 3: Mounting Information
+The On-Screen Display (OSD) allows for rotation adjustments based on mounting orientation. The rear of the touchmonitor includes a threaded VESA mount following VESA MIS-E specifications. The monitor can use four M4 screws for secure installation.
+
+## Powering the Touchmonitor On/Off
+To turn the touchmonitor on or off, use the OSD. The LED indicates status, including SLEEP and OFF modes. To conserve energy, the monitor features factory-calibrated settings. Touching the screen activates the display. 
+
+## Using the Touchscreen
+Utilize the touchscreen functionality to select options easily. The screen is designed to provide accurate touch detection, accommodating various inputs based on its calibration algorithms. 
+
+## On-Screen Display (OSD) Features
+The OSD includes buttons that modify brightness and other settings. Users can navigate through a graphical interface to adjust parameters like clock phase and aspect ratio, ensuring optimal display quality. 
+
+## OSD Timeout
+The OSD can timeout after set periods of inactivity and allows for language selections, including English, Spanish, and Chinese. Users can change settings to match physical orientation and input priorities.
+
+## Technical Assistance
+For support, contact Touch Customer Service via the provided technical support links. If troubleshooting is needed, ensure all connections are secure, and if issues persist, consult specifications for resolution compatibility.
+
+## Cleaning and Maintenance
+To maintain your touchmonitor, use a soft cloth for cleaning. Avoid using harsh chemicals or applying liquid directly to the screen to prevent damage.
+
+## Compliance Information
+The touchmonitor is compliant with relevant directives concerning electrical and electronic equipment (WEEE) and has been tested to meet FCC Class A requirements for minimizing electromagnetic interference. 
+
+Ensure that all operational guidelines and safety instructions are followed to prevent hazards associated with improper setup or usage.
+
+The EMC Directive 2004/108/EC and Directive 2006/95/EC, as referenced in the EN Class standards, provide guidance on potential interference issues. If the device causes interference with reception or other devices, it may be necessary to turn it off. Users should consider repositioning the equipment or relocating it to a different AC outlet, avoiding any unterminated I/O connections to reduce RF interference and the risk of electrical shock.
+
+Additionally, relevant agency certifications (C-Tick, CUL, IC, CCC, CE) indicate compliance with safety standards. The product also complies with environmental regulations concerning hazardous substances such as Lead (Pb), Mercury (Hg), and Chromium, as defined by SJ/T11363-2006 and EU RoHS guidelines.
+
+Operating conditions are specified as follows: Temperature range from 0°C to 40°C with a humidity level between 20% and 80% (non-condensing). Regarding warranty, the manufacturer guarantees that the product is free from defects in materials and workmanship for three years. Customers must report any issues within a reasonable timeframe for inspection and remedy. The warranty does not cover incidental damages or guarantee specific performance beyond what is stated.
+
+For more information regarding the product specifications, updates, or software, users can visit www.elotouch.com or contact the North America office at 800-ELO-TOUCH.
+

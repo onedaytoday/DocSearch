@@ -1,0 +1,28 @@
+**AE8-1385 Emerson U.S.A. Application Overview**
+
+This document provides essential instructions regarding the application, conditioning, and restrictions for the products. It is crucial to adhere to these guidelines throughout the product's lifespan. Follow the instructions meticulously.
+
+**Warning and Safety Notices:**
+- **DANGER**: Ignoring this could result in death or severe injury.
+- **WARNING**: A failure to observe these warnings may lead to serious injury or harm.
+- **CAUTION**: Exercise caution when working with high-voltage components.
+- **NOTICE**: Specific operating notices related to safety and service are included.
+
+**Installation Guidelines:**
+This section includes protocols for mounting and wiring of the device. Ensure that screws are installed according to specifications for optimal service and operation. Terminals are designated as follows:
+- Common (C)
+- Demand (Y, Y2)
+- Power (R)
+
+**Operation:**
+The system contains algorithms designed for effective operation and troubleshooting. A sequence of alerts is displayed through LED indicators that indicate various operational states, such as alerts and locks. The interaction between components, measured voltages, and fault indications are described in detail.
+
+**History and Service:**
+It is essential to understand service operations and history downloads through USB connectivity to maintain functionality. All services and inquiries about performance history should refer to the Emerson website for warranty information.
+
+**Troubleshooting:**
+Troubleshooting tables provide insights into operational issues, such as high charge conditions, blower relay failures, and thermostat malfunctions. Each fault condition includes suggested corrective actions.
+
+**Disclaimer:**
+This document is for informational purposes only. Emerson Inc. reserves the right to amend specifications and terms without notice and assumes no responsibility for the applicability of these products or services.
+

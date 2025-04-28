@@ -1,0 +1,9 @@
+**ELMO ESD-CC1X Specifications**  
+- **RS-232 Support**: Integrates RS-232 for software-enabled backlight functionality and provides interface protection.  
+- **Joy Connector**: RJ11 with communication capability via RS232 and RS485.  
+- **Rate Interface Parity**: Interfaces with an LCD and contains a real-time clock integrated circuit (RTC-IC).  
+- **Power Supply**: Operates on DC 12V, 1A.  
+- **Compatibility**: Designed exclusively for use with ELMO domes and multiplexers.  
+- **Multi-Platform Compatibility**: Also compatible with ESD-CC2X and ECM-CC1X models.  
+- **Location**: ELMO, Brampton, Plainview, New York, L6T 3T6. Website: www.elmousa.com.
+

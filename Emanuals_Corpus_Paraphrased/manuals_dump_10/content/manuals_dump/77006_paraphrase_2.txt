@@ -1,0 +1,138 @@
+**CEILING PRESENTER HV-C1000XG INSTRUCTION MANUAL**
+
+**IMPORTANT SAFEGUARDS**
+
+Always adhere to the provided operating instructions to ensure safe and proper usage. Retain these instructions for future reference. It is critical to follow the cleaning and operational guidelines to prevent damage and ensure safety. When cleaning, disconnect the device from the power outlet and avoid using harsh cleaners; a dry cloth is recommended.
+
+**Safety Precautions:**
+
+- Ensure proper installation according to guidelines to avoid overheating or other hazards.
+- Use only the marketed mounting accessories to securely attach the unit.
+- Operate only with the specified power supply type to prevent damage or risk of fire.
+
+**Electrical Safety:**
+
+- Avoid pinching or damaging power cords which could lead to electrical hazards.
+- Do not remove covers to service internal components; consult qualified technicians if service is required.
+- The device is designed to comply with safety standards, including protection from moisture and interference, which could impact performance.
+
+**Operating Conditions:**
+
+Ensure the unit is placed within the recommended temperature (5°C to 40°C or 41°F to 104°F) and humidity ranges, while avoiding direct sunlight or heat sources.
+
+**Contents Overview:**
+
+- PART NAMES AND FUNCTIONS
+- WIRELESS REMOTE CONTROL
+- OPERATION PROCEDURES
+- VARIOUS FUNCTIONS
+- OSD (On-Screen Display) Operation
+- RS-232C Specifications
+- LAMP REPLACEMENT
+- TROUBLESHOOTING HINTS
+- SPECIFICATIONS
+
+**Function Reference:**
+
+- Connections: Ensure that connectors (RGB-out, RS-232C) are properly plugged into power and display units.
+- Remote Control Functions: The remote includes controls for power, image adjustments, focus, and presets among others, which should be used as indicated in the operating manual.
+
+**Preparation for Operation:**
+
+- Install batteries in the remote, observing the correct orientation.
+- Adjust settings according to your display type (NTSC/PAL), using the DIP switches and remote functionalities for optimal performance.
+
+This manual serves as a comprehensive guide to the proper setup and use of your CEILING PRESENTER HV-C1000XG, ensuring safety and maximizing its capabilities.
+
+### MOUSE Interface Instructions
+
+To engage the On-Screen Display (OSD), use the mouse to click or scroll. You can click the wheel to either clear the OSD or navigate through it. If the OSD is visible, clicking or rotating the mouse will change its priority. Ensure that the power supply is connected properly for functionality. If another device is connected, performance may not be guaranteed. Refer to pages 18 and 27 for OSD instructions.
+
+### Unit Installation 
+
+When mounting the VB-1000 UL, ensure that it is compliant with UL standards. Connect the included HV-C1000XG power supply cord and turn on the switch. If you need to turn it off, do so using the switch or disconnect the power supply. Accurate image projection requires adequate lighting; insufficient lighting may reduce focus quality. Configuring the DIP switches may be necessary; factory settings are indicated in the manual. Use the DIP switches to control power supply to various components, including RGB outputs.
+
+### Operational Procedures
+
+To power on the unit, press the [POWER] button on the wireless remote, which activates the LED indicator. If the switch is quickly turned off after being turned on, it may require several seconds to stabilize. The [LAMP] may take around 30 seconds to warm up, and you can adjust zoom settings using the [ZOOM TELE] and [ZOOM WIDE] buttons. Autofocus is activated with the [AF] button on the remote.
+
+### Functionality Overview
+
+For lighting adjustments, press the [LAMP] button on the remote to toggle it on/off. The [ZOOM TELE] button increases zoom, while the [ZOOM WIDE] button decreases it. Adjustments to contrast can be made by selecting the appropriate button on the remote, including options for negative/positive and color/b&w selections. 
+
+### Wireless Remote Functions
+
+The wireless remote allows for various operations. The OSD can be navigated via the wheel on the remote; functions can also be enabled or disabled from the OSD. For B&W image conversions, press the [COLOR/B&W] button to toggle between settings. 
+
+### Special Functions 
+
+Pressing the [POSI/NEGA] button on the remote alters the polarity of the displayed image. Additionally, the [IMAGE ROTATION] button allows clockwise or counterclockwise rotation of images. The [PAUSE] button temporarily suspends certain functions, including contrast and image selections.
+
+### Advanced Image Adjustments
+
+Utilizing the [F.A.M.] function reduces image artifacts by optimizing display quality. Control brightness with the [IRIS] buttons; [IRIS OPEN] increases brightness, while [IRIS CLOSE] reduces it. The [IRIS NORMAL] button returns the settings to default parameters.
+
+This summary consolidates operational guides and provides an overview of functionality. Always consult the reference pages for detailed instructions and settings.
+
+**AUTO FOCUS Operation**  
+By pressing the wireless remote, the AUTO FOCUS function is activated automatically. Once the focus is achieved, the function is released, allowing for FOCUSFREE adjustment. This functionality may be influenced by external conditions such as bright backgrounds or reflected light. For manual adjustments, you can use the MANUAL FOCUS options [FOCUS NEAR] or [FOCUS FAR]. During operation, if the ZOOM buttons [ZOOM TELE] or [ZOOM WIDE] are pressed, the AUTO FOCUS operation will pause. If a new AUTO FOCUS command is received, the function resumes as expected.
+
+**Preset Functionality**  
+To store a preset configuration, press the [PRESET SET] button on the wireless remote and select the desired MEMORY NO. This setting can store parameters like IRIS and WHITE ON/OFF status, COLOR/B&W settings, IMAGE ROTATION, and CONTRAST settings. When the device is powered off, these presets will remain saved. To retrieve a preset, press the [PRESET CALL] button and select the MEMORY NO. previously set.
+
+**Image Memory Management**  
+You can save specific images by pressing the [IMAGE SET] button and selecting a MEMORY NO. To recall a stored image, use the [IMAGE CALL] button along with the desired MEMORY NO. This will activate the stored configuration within seconds.
+
+**OSD (On-Screen Display)**  
+The OSD provides operating status information and can be accessed by pressing the [MENU] button. This menu allows navigation using ARROW buttons, providing access to MEMORY and PRESET options. The OSD will turn off if the [MENU] button is pressed again.
+
+**Color/B&W Functionality**  
+To switch between Color and B&W modes, use the designated controls while ensuring the lighting conditions are optimal. Color selection can also be adjusted for static or moving images based on user preference.
+
+**Iris Control**  
+The IRIS settings can be toggled ON/OFF, allowing for adjustments based on environmental conditions. This enables the system to revert to factory settings if necessary.
+
+**RS-232C Specifications**  
+The device can be connected to a PC via RS-232C for communication. Proper connection and power supply management are essential during operation. Commands sent over RS-232C must follow specific formats for successful acknowledgment. Each ASCII command corresponds to specific functions such as AF, ZOOM, IRIS, COLOR/B&W, and more.
+
+**Lamp Replacement Instructions**  
+If the lamp fails or begins to dim, it’s essential to replace it with a compatible model such as JR12V50W AKM/5EZ-1. Ensure the device is powered off and cool to the touch before attempting replacement to prevent burns. Carefully remove the cover by unscrewing it and follow the designated steps for installation. Always handle components safely to avoid damage.
+
+### TROUBLESHOOTING GUIDELINES
+
+**Symptoms and Verification:** Review the following items for irregularities. If any issues are detected, refer to the corresponding countermeasures for the office or branch.
+
+1. **TV Connections:** Ensure the TV is properly connected to the AC power source. Verify that the power switch is turned ON.
+2. **Display Issues:** If the display shows only white or black, check if the power switch is ON but the display turns OFF immediately. Try turning the switch OFF for a few seconds before switching it back ON.
+3. **Focusing Adjustments:** For focusing discrepancies, switch between TELE and WIDE modes and use the AUTO FOCUS feature. If issues persist, ensure the correct wireless format (PAL or NTSC) is selected.
+4. **Brightness Concerns:** If the image appears excessively bright or shows stripes, this may be due to interference affecting the TV or CCD, particularly with LCD displays. Adjust the brightness settings manually.
+5. **Tone Adjustments:** Change settings for brightness tones as necessary.
+
+### SPECIFICATIONS
+
+- **Power Supply:** AC 100-240V, Rated 0.6A 
+- **Input/Output Connections:**
+  - RGB: D-sub 15P
+  - RCA: NTSC/PAL
+  - RS-232C: D-sub 9P
+  - USB: DIN 4P for NTSC/PAL
+- **Projection Details:**
+  - F2.6 Aperture
+  - Effective CCD: 1077(H), 788(V)
+  - RGB Resolution: 600 TV Lines
+  - Video Outputs: 0.7V unbalanced, sync polarity compatible with XGA.
+
+### Optional Components
+
+- Illuminate with a 12V 50W bulb (JR12V50W).
+- Wireless Compatibility: RCA DIN 4P, supporting remote control types (RCW-C1000, R03, AAA).
+- Additional items such as installation screws and optional mounting brackets (VB-1000) are sold separately.
+
+**Note:** Unauthorized reproduction of copyrighted materials is prohibited and against copyright laws. 
+
+### Acknowledgements
+
+© ELMO CO., LTD. International Subsidiary Companies located in the U.S.A. ELMO, Country Road, Plainview, NY; ELMO, Brampton, L6T 3T6. 
+
+**WARNING:** Printed documentation is part of the information provided.
+

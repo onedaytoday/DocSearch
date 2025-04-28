@@ -1,0 +1,49 @@
+**Multi-Touch Touch CA Release - July**
+
+**Supported Operating Systems:** Windows XP, 2012R2  
+**Supported Touch Technologies:**  
+- iTouch (SAW)  
+- AccuTouch  
+- CarrollTouch (IR)  
+- Touch IR Capacitive  
+
+**Languages Supported:** Simplified Chinese, Traditional Chinese, English, French
+
+### Installation and Uninstallation Instructions
+
+To manage the user account, follow the given process. For uninstallation, navigate to Settings, select Programs and Features, choose Touch, and proceed with the uninstallation command. If single-touch operation is desired, follow these steps:
+
+1. Access the Common directory and locate the `EloOptions.ini` file. 
+2. Set the `EnableOneTouch` parameter as needed.
+
+For those preferring multi-touch:
+
+- Navigate to the Touch directory to access advanced properties and calibration options for each connected touchscreen. 
+
+**Advanced Features:**
+
+1. **Cursor Edge Adjustment (CEA):**  
+   - This feature increases the sensitivity at the screen edges, which allows for additional touch inputs that may not be detected otherwise. Adjustments can be made via the CEA Increase/Decrease buttons.
+
+2. **Calibration and Preferences:**  
+   - The calibration function should be performed for each touchscreen. This guarantees that touch interactions are recognized correctly based on user settings. 
+
+3. **Sound Notifications:**  
+   - Users can enable sound feedback for touches, which can either play through the internal motherboard or external speakers based on settings in `EloOptions.ini`.
+
+4. **Input Control Options:**  
+   - Users can specify the behavior of touch interactions, such as whether clicks are registered upon touch release. The options are customizable based on preferences.
+
+5. **Custom Touch Areas:**  
+   - Configure active touch zones or restrict touch inputs, with options to define the duration for those inputs.
+
+### Commands and Configuration
+
+Firmware commands can be specified within the `EloOptions.ini` file for device configuration through USB or RS-232 interfaces. The commands can be in decimal, hexadecimal, or character format, allowing flexible integration depending on user needs.
+
+### Release History
+
+- The most recent updates have addressed issues with dual-touch and four-touch capabilities. Adjustments have been made for improved performance and compatibility across devices. 
+
+For further details, follow up in the provided sections of the user manual or online support resources.
+

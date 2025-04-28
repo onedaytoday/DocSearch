@@ -1,0 +1,66 @@
+**Touchmonitor 1215L LCD Touchmonitor Documentation**
+
+**Revision: LCD ET1215L P/N E378269**
+
+**Copyright Notice:** All rights reserved. This document may not be reproduced, transmitted, transcribed, or translated without written permission. The information is provided "as is" without warranties, including implied warranties of merchantability. Revisions to this publication may occur without notice.
+
+**Product Overview:** 
+The LCD Touchmonitor 1215L features an active thin-film transistor (TFT) design for enhanced performance, supporting SVGA graphics. It is compatible with VGA and non-interlaced SVGA cards, and conforms to VESA DPMS standards. It also supports DDC1/2B compatibility and features advanced on-screen display (OSD) functions, along with optional wall-mounting capabilities.
+
+**Unpacking the Touchmonitor:**
+This section outlines the components included with the LCD touchmonitor, including the VGA cable, USB cable, Quick Start Guide, and installation software on CD.
+
+**Installation and Setup:**
+Follow these guidelines to connect the touchmonitor to your PC. Ensure both the touchmonitor and PC are powered off before making connections. Attach the touchscreen and USB cables to the designated ports on the back of the unit. Tighten the screws and ensure secure grounding if necessary. Software required for operation is stored on the provided CD-ROM, compatible with various operating systems, including Windows XP and NT.
+
+**Operating Instructions:**
+The OSD controls allow you to adjust settings such as brightness and position. Use the front panel buttons to navigate and select options. In case of multiple input signals, the monitor will automatically select the appropriate one.
+
+**Troubleshooting:**
+This chapter addresses common issues with the LCD touchmonitor, such as resolution mismatches and connection problems. Detailed troubleshooting steps are provided to assist users in resolving issues.
+
+**Safety Information:**
+To ensure safe usage, always operate the touchmonitor in accordance with the provided guidelines. Ensure proper grounding, and handle the device with care to avoid any electrostatic discharge or physical damage.
+
+For further support and detailed operating procedures, visit the manufacturer’s website or refer to the documentation included with the product.
+
+### Touchmonitor B-28 User Guidelines
+
+**Touchmonitor Handling Instructions**:  
+To ensure the longevity of the touchmonitor, avoid exposing it to shocks, electrical supply issues, or improper servicing. Cleaning should be performed using a soft cloth, slightly dampened, without any thinners, solvents, or aggressive cleaners to prevent scratching the touchscreen.
+
+#### Technical Specifications - Appendix C
+
+**Model:** ET1215L  
+- **Display Type:** LCD TFT  
+- **Resolution:** 246(H) x 184.5(V)  
+- **Pixel Pitch:** 0.3075(H) x 0.3075(V)  
+- **Supported Resolutions:** VGA, SVGA  
+- **Brightness:** Typical display brightness is 262K colors (RGB TTL)  
+- **Connectivity:** Adjustable via an OSD (On-Screen Display) for settings like Contrast and Brightness in English or Spanish.  
+- **Touch Options:** AccuTouch, IntelliTouch, Capacitive (optional)  
+- **Power Supply Range:** AC 100-240V, operational from 0°C to 40°C (32°F to 104°F)  
+- **Weight and Certification:** Lightweight, certified by TUV, UL, C-UL, FCC-B, CE, VCCI, C-Tick, MPRII.
+
+**Touch Activation and Performance**:  
+- **Activation Force:** Typically less than 2 ounces (ASTM D1044).  
+- **Touchpoints:** Designed to recognize more than one touchpoint simultaneously.  
+- **Light Transmission:** Tested under ASTM D1003 criteria indicating high transmittance using the USAF Chart.
+
+### Regulatory Information
+
+1. **FCC Compliance Notice (U.S.)**: The device complies with Class B standards for protection against interference. Follow operational instructions to maintain compliance.
+2. **European Union Compliance**: The cords and relevant cabling comply with CE regulations and electromagnetic compatibility standards (EMC Directive 89/336/EEC).
+3. **User Advisory**: If experiencing interference, consider relocating the device, changing the power outlet, or inspecting cabling. 
+
+### Warranty Information
+
+This product comes with a three-year warranty covering defects in material and workmanship. The warranty claims must be reported promptly (within 30 days of discovering the issue) and includes inspection rights. 
+
+**Limitations**:  
+The remedies outlined above are the exclusive resolutions for breaches of warranty. Seller disclaims further warranties relating to the product's fitness or quality. Seller holds limited liability, confined to a refund of the product’s purchase price and excludes coverage for procurement or installation of substitutes along with consequential damages. 
+
+For detailed product information, specifications, and support, please visit [www.elotouch.com](http://www.elotouch.com) or contact the company directly at TouchSystems, Inc.
+
+
+

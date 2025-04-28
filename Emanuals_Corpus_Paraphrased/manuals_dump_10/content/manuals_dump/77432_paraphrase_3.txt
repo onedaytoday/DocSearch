@@ -1,0 +1,149 @@
+**HAS60E-IM-HW Instructions for the CLD Chemiluminescence Detector with NGA Platform**
+
+To ensure correct operation of Emerson (Rosemount Analytical) products, it is crucial that all instructions are rigorously followed and integrated throughout the product lifecycle, encompassing installation, operation, and maintenance. Deviating from these guidelines may void your warranty and lead to safety hazards. It's vital to keep protective covers in place to avoid risks related to electric shock and fire.
+
+**Important Safety Instructions**
+Prior to operating the NGA CLD, familiarize yourself with the warnings, cautions, and notes in this manual. These address critical safety concerns that could impact health or lead to severe consequences if ignored.
+
+**Wiring and Installation Guidelines**
+These instructions are tailored for compliance with EU directives and should be adhered to strictly. Non-EU users must ensure compliance with their local regulations. Proper earth grounding is essential, and all connections should only be handled by qualified technicians, maintaining safety standards outlined in IEC947. 
+
+**Operating and Maintenance Procedures**
+Ensure that the operating supply matches the factory specifications. Any maintenance or repair should only be conducted by qualified personnel while the unit is disconnected from its power source. Unauthorized modifications are strictly prohibited.
+
+**Safety Measures Regarding Toxicity and Gas Handling**
+This apparatus handles potentially hazardous materials, including toxic gases and chemicals. Precautions must be taken to prevent inhalation of harmful substances, including those resulting from combustion reactions. Strict protocols must be followed while servicing to ensure a safe working environment.
+
+**General Precautions**
+When handling high-pressure gas cylinders, ensure they are stored correctly and protected from environmental exposure. Use appropriate equipment for transportation and handling to mitigate risks of accidents. 
+
+**Documentation and Compliance**
+All operations should adhere to the relevant safety regulations and compliance standards set by organizations such as OSHA and NAMUR. Please refer to the corresponding documentation for thorough details on compliance and safety practices.
+
+By following these comprehensive instructions, you can maintain operational integrity and ensure your safety while using Emerson's advanced analytical instruments.
+
+### Paraphrased Text:
+
+**Instruction HAS60E-IM-HW NGA CLD Overview**
+
+The NGA CLD consists of a conditioning backplane which interfaces with various system components including power supply and I/O boards. This architecture allows for network and distribution assembly, linking I/O boards that connect to the backplane from the rear of the platform while also facilitating input/output functions.
+
+The platform is capable of operating in a stand-alone mode or as part of an integrated assembly, defined by various configurations as per the architectural guidelines provided in the documentation. This includes the advanced features of the Architecture Emerson MLT Network, which encompasses multiple devices including the GA, FID, and PMD modules.
+
+### Features and Specifications
+
+The CLD is designed for continuous measurement of nitrogen monoxide (NO) flow and functions primarily through the reaction of NO with oxygen, producing electronically excited NO that emits light. The intensity of this light correlates with the NO concentration, allowing for accurate detection.
+
+In terms of physical specifications, the NG CLD incorporates various connector types and flow assemblies optimized for weather protection and vibration resistance. These connectors are essential for maintaining the integrity and functionality of the system during operation.
+
+### Installation and Setup
+
+Proper positioning of the CLD is crucial; it must be installed in a clean, vibration-free environment to ensure optimal performance. Installation should adhere to the provided assembly instructions to avoid any safety hazards or equipment damage. 
+
+The system requires specific gas conditions, with free-flowing gas samples necessary for accurate measurements. This includes ensuring that calibration gases are introduced at the correct pressures to avoid overexerting the sampling chamber.
+
+### Cautionary Notes
+
+Users should follow all safety instructions closely, as improper setup or operation could lead to malfunctions or safety risks. The instructions emphasize the importance of maintaining specified temperature ranges and gas compositions to ensure reliable system performance.
+
+### Conclusion
+
+The NGA CLD integrates advanced technologies to measure nitrogen monoxide levels effectively. It requires careful installation and operation to maintain its reliability and functionality within specified parameters.
+
+### NGA CLD Technical Overview
+
+The CLD has undergone complete factory testing, including the reaction chamber and associated components. Testing reveals proper handling of high NO concentrations, essential for Emerson's warranty. It is important to ensure electrical connections comply with NAMUR, DIN VDE, and the electricity supply requirements (ESE) for correct integration into the POWER network. The connection details with the NGA Platform's Backplane, including various power supply specifics, are documented in the Instruction Manual (HAS60E-IM-HW).
+
+#### System Configuration and Instructions
+
+Once assembled, the CLD is ready for operation as outlined in the respective sections. This manual provides detailed information about the system's software platform and interfacing requirements, presuming users have familiarity with the architecture. On startup, the CLD needs to be connected to the LON network, powering on the system to initiate boot-up and software loading. Follow the software interface instructions for operations, including initialization commands such as pressing F1 to return to factory settings and F3 to abort ongoing processes.
+
+#### Calibration and Testing Procedures
+
+For accurate analytical performance, the CLD requires a calibration procedure involving known reference flows at least once every few hours. This regular maintenance ensures that the CLD operates within the prescribed performance metrics. The calibration process may also involve adjustments based on specific operational conditions outlined in accompanying sections. Additionally, diagnostics can be performed if any operational issues arise, which may require adjustment of software calibration settings based on present configurations.
+
+#### Final Operations
+
+After initial setup, operational readiness of the CLD must be confirmed through status checks using the control interface. Various operational commands and indications (e.g., emergency shutdown, diagnostics) are categorized, and a complete functional check should be performed to ensure all systems are operating correctly. Adjustments and recalibrations may be necessary based on the collected data to optimize performance.
+
+#### System Network and I/O Controls
+
+The CLD integrates seamlessly with the SIO interface to facilitate I/O operations. Users can select measurement sources and configure system settings using the menu options as defined in the instructions. All settings, including reference selections and scaling adjustments, should be accomplished via the designated softkeys. Adherence to these protocols ensures accurate data acquisition and system integrity.
+
+This comprehensive manual ensures the effective operation and maintenance of the NGA CLD, providing users with the necessary tools and insights to maximize performance and reliability.
+
+### Instruction HAS60E-IM-HW NGA CLD Interface
+
+This document outlines the interface settings for the NGA CLD, utilizing the SIO board for communication. Options include enabling parity with Xon/Xoff for RS232 and MODBUS RTU protocols. For the RS-485 interface, precise measurement definitions and settings for the AK communication protocol are provided.
+
+The SIO board features three relays configurable as normally open (NO) or normally closed (NC). Users can enable or disable these relays and specify relay source measurements according to their operational requirements. Selection options include an inverted setting. The relay status can be viewed by pressing (F5), allowing users to navigate and select appropriate functions.
+
+### Instruction HAS60E-IM-HW NGA CLD Converter Temperature Adjustment
+
+To optimize the efficiency of the converter, adjustments are necessary due to potential reductions in performance introduced by environmental factors or operating conditions. The Environmental Protection Agency guidelines should be adhered to, ensuring both high and low temperatures are managed effectively to avoid diminishing returns in the chemiluminescence reaction.
+
+Initial high-temperature recommendations should be carefully followed, with adjustments varying from 30°C to 75°C (86°F to 167°F) based on operation needs. Operational settings should align with temperatures recorded in the "Physical" section of the documentation. 
+
+### NGA CLD Measurement of Converter Efficiency
+
+Users are responsible for regularly monitoring the efficiency of NO to NO conversions, recommending assessments at least monthly. Efficiency measurements may vary, and environmental conditions must be considered. The document includes detailed instructions for analyzing NO concentrations and ensuring that readings are obtained accurately by employing specific measurement protocols, including those for control valves (MV1 and MV2).
+
+### NGA CLD Fuses and Safety Disclaimer
+
+The document underscores the importance of safety, advising that all service and maintenance adhere strictly to established protocols. Unauthorized modifications or repairs are prohibited to prevent safety hazards. The fuses (T 6A) protect the VDC input and are annotated for easy identification within the system.
+
+### Printed Circuit Boards
+
+Proper handling of printed circuit boards (PCBs) is crucial, requiring ESD-safe practices. The document specifies assembly and disassembly procedures to prevent ESD damage, stressing that the housing must remain secured during operations.
+
+### NGA CLD Converter High Temperatures
+
+To maintain operational integrity, users must manage the converter heater (models 655228-R1 and 655282-R1) carefully. Maintenance instructions include appropriate assembly methods to ensure that the heater is correctly oriented and secured to maximize performance.
+
+This summary ensures users remain informed about device operation and troubleshooting while reinforcing safety and efficiency standards.
+
+## NGA CLD Detector Assembly Disassembly Instructions
+
+To disassemble the Detector Assembly from the Reaction Chamber, follow these steps:
+
+1. **Detach the Detector Assembly**: Remove the Detector Assembly from the chassis by disconnecting the J1 connector and the screws that secure the assembly. 
+   
+2. **Reapply Thermal Compound**: If the thermal interface materials like Corning grease or EG Thermal Compound need to be reapplied during reassembly, ensure this is done, especially on the heater and thermostat.
+
+3. **Remove Fasteners**: Carefully unscrew the retaining screws from the top of the detector housing. Note the wire connections and remove them along with the Detector Assembly.
+
+4. **Invert the Housing**: While inverting the Detector Housing, ensure that the Reaction Chamber is accessible from below. Rotate the housing to position the components correctly.
+
+5. **Secure Components**: After aligning the components, secure them using the appropriate screws and shoulder washers to avoid any issues with mounting.
+
+6. **Thermistor Installation**: Pay attention to the positioning of the thermistor while reassembling to avoid friction against adjacent components. 
+
+7. **Testing for Leaks**: It is recommended to test for leaks at least once a year. Disconnect the supply (both power and gas), and then perform the necessary pressure tests using appropriate media like SNOOP.
+
+### Replacement Parts Reference
+
+- **Components**: A list of necessary replacement parts includes various screws, thermistors, PCB components, and assemblies. Specific part numbers such as PROMs and transistors are provided for precise ordering.
+
+### Material Return Instructions
+
+For the return of defective materials, ensure prior authorization from the Emerson office or designated representative. Follow the provided instructions meticulously, as failure to do so may result in denial of service.
+
+### Customer Service Information
+
+For further assistance or queries, customers can reach out to Emerson Customer Service in the USA or Europe for technical support.
+
+### Figures and Tables
+
+- **Figures**: Diagrams illustrating NGA cabling and CLD functionality without flow points.
+- **Tables**: Specifications for I/O combinations and other relevant metrics supporting operations.
+
+For detailed references, consult the appendices and declarations pertinent to compliance and operational integrity. 
+
+### Contact Information
+
+Emerson Analytics, Rosemount, and regional services are available through designated contacts listed above. 
+
+---
+
+This paraphrase retains the technical accuracy and context of the original text while improving clarity.
+

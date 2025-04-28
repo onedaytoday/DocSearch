@@ -1,0 +1,38 @@
+### Multi-Touch Installation and Uninstallation Instructions
+
+**Release Date:** July  
+**Supported Operating Systems:** XP, 2012R2  
+**Supported Touch Technologies:** iTouch (SAW), AccuTouch, CarrollTouch (IR), Capacitive
+
+#### Installation Instructions
+1. **User Account**: Ensure you have sufficient permissions to carry out the installation.
+2. **Uninstallation Process**: Navigate to Control Panel > Programs and Features. Select the Touch software and proceed with the uninstallation guidelines.
+3. **Configuration for Single-Touch**: If single-touch functionality is needed, access the `EloOptions.ini` file located in the Common settings. Modify the `EnableOneTouch` parameter as necessary.
+
+#### Calibration and Touch Properties
+- Open the Touch Service software.
+- Users can interact with the touch interface through Microsoft’s support.
+- To calibrate touch properties, access the touch settings from the installation directory and follow the prompts.
+
+#### Advanced Touch Options
+- **Cursor Edge Adjustment (CEA)**: This feature allows adjustment of the cursor edge response for more precise control. Click the "Increase/Decrease CEA" buttons to modify sensitivity.
+- Users can leave or turn off the CEA altogether, depending on preference.
+
+#### Callback and Sound Options
+- Users can configure sound feedback settings through the Touch options menu. Choose between motherboard or internal speaker options.
+- Adjust click duration settings based on individual preference for touch responsiveness.
+
+#### Device Management
+- To uninstall or refresh USB devices, right-click on the touchscreen within Device Manager and select the appropriate action.
+- If problems occur, performing a ‘Scan for Hardware Changes’ can help restore connection.
+
+#### Command Configuration
+- Commands for touch interface behavior can be specified in the `EloOptions.ini` file, using either DECIMAL, HEX, or CHAR formats.
+- Following specific command syntax ensures proper interface loading.
+
+#### Troubleshooting 
+- Monitor for warnings regarding device connections. If issues arise, check the firmware status and ensure appropriate drivers are installed.
+- If touch points are not recognized, validate the IDS settings and ensure touch capabilities are enabled.
+
+For additional assistance, refer to the official documentation regarding your touch device model and specifications.
+

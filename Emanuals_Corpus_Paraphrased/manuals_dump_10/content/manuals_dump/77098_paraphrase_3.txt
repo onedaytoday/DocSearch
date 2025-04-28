@@ -1,0 +1,31 @@
+### 17A2 All-in-One Touchcomputer Overview
+
+The 17A2 All-in-One Touchcomputer is designed for diverse point-of-service (POS) applications, blending aesthetics with functionality. It features a choice of innovative touch technologies, including Acoustic AccuTouch five-wire resistive, Acoustic, and CarrollTouch. The SXGA display ensures high clarity and graphics readability while supporting easy integration with various peripherals.
+
+The 17A2 offers both rear-facing and optional built-in features, making it flexible for various usage scenarios in point-of-interest applications. Its compact design, aligned with industry-standard VESA mounting options, allows for versatility in installation, whether as a stand-alone unit or wall-mounted.
+
+Operating systems available include Microsoft Windows Embedded for Point of Service (WEPOS) and Windows XP Professional. Additional serviceable POS functionalities include options for MSR (Magnetic Stripe Reader), and various display features like integrated and optional wireless LAN, DVD drives, and multiple high-speed USB ports.
+
+### 17A2 All-in-One Touchcomputer Specifications
+
+- **CPU/Chipset:** 915GME/ICH6
+- **Memory (RAM):** 1GB DDR2, expandable to 2GB
+- **Operating Systems:** Microsoft Windows XP Professional, WEPOS
+- **Connectivity Options:** 
+  - RS232 (RJ45, COM2), RS422, RS485 
+  - High-speed USB (12V, 1.5A)
+  - VGA, Ethernet (100/10Base-T), RJ45, RJ11, PS/2
+- **Storage Interfaces:** SATA, Compact Flash
+- **Display:** Active TFT LCD; Optional Aspect Ratio Touchscreens (AccuTouch, CarrollTouch, Wave)
+- **Compatible Peripherals:** Customer Displays (VFD), Optical Drives (DVD), Wireless Cards
+- **Dimensions:** Width and Depth specifications available upon request
+- **Brightness Levels:** Typical range for AccuTouch and CarrollTouch models
+- **Operational Temperature:** 0°C to 35°C; storage -20°C to 60°C (non-condensing)
+- **Certifications:** FCC, CE, VCCI, C-tick, EN60950
+- **Warranty:** Limited to specified years, with MTBF rating available
+
+For more details on the warranty terms or product specifications, please visit www.elotouch.com or contact the North American office. The manufacturer reserves the right to update product details without prior notice.
+
+**AccuTouch, CarrollTouch, and TouchSystems are trademarks of ELO Touch Solutions, Inc.**   
+**For inquiries, call 800-ELO-TOUCH or visit www.elotouch.com.**
+

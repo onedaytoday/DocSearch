@@ -1,0 +1,26 @@
+### Overview of Switches: Third-Party Part Number A02 – November
+
+This document provides information regarding EMC Switches compatible with both EMC and third-party racks. The sections included are as follows:
+
+1. General Information
+2. Switch Mounting (Model DS16B2RKLS)
+3. EMC Switch Specifications
+
+The EMC Switch models DS-16B2 and DS-32B2 support a data rate of up to 1 Gb/s. Each switch can be connected to various devices, maintaining optimal configuration for individual setups. The DS-16B2 is a height-adjustable, air-cooled unit designed for either standalone use or installation in 19-inch racks. Similarly, the DS-32B2 encompasses a 1.5U air-cooled chassis suitable for these configurations.
+
+#### Mounting Details
+The DS-16B2 and DS-32B2 switches are typically positioned at the top of a rack or cabinet. Specific outlet locations and switch ratings are outlined in Table EMC2056S.
+
+##### Mounting Specifications
+- Switch Mounting Bracket for DS16B2RKLS includes various components detailed in the mounting specifications table (with measurements ranging from inches to inches).
+- Detailed information regarding screws and washers required for the mounting process is provided in Table EMC2041.
+
+###### Assembly Instructions
+To assemble the switch securely in a rack, ensure appropriate alignment of the front and back sections of the switch and use M5 pan-head screws with corresponding washers. The assembly should follow precise guidelines for proper fit and functionality.
+
+#### Technical Support and Customer Service
+For additional assistance regarding installation or product specifications, customers are encouraged to contact EMC Customer Service in the U.S. (SVC-4EMC) or explore global support options as indicated.
+
+### Disclaimer
+This publication’s content is provided "as is." EMC Corporation does not guarantee the accuracy or reliability of the information and disclaims any implied warranties related to marketability or specific use cases.
+

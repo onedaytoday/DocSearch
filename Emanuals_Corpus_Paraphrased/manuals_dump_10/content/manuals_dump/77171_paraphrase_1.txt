@@ -1,0 +1,92 @@
+**ELSA ECOMO TM 22H99**
+
+**Copyright Notice**  
+© ELSA AG, Germany. All rights related to reproduction, transmission, transcription, or translation of this material are reserved by ELSA. This document pertains to the software and hardware produced by ELSA AG, which complies with DIN EN ISO standards, as confirmed by the authorized institute, TV CERT. All trademarks and intellectual property are owned by ELSA AG or their respective owners. ELSA AG maintains the right to amend technical specifications as necessary.
+
+**Introduction to ELSA ECOMO 22H99**  
+The ECOMO 22H99 represents a selection from ELSA's high-end product line, known for its superior quality and reliability, beneficial for professional users. The product emphasizes usability and consistent performance. For inquiries or support related to this product, users are encouraged to refer to the relevant sections in the documentation.
+
+Key areas covered in this manual include:
+
+- Features overview
+- Compliance with CE and FCC standards
+- Front and rear panel functionalities
+- USB operations
+- On-screen Display (OSD) navigation
+- Troubleshooting guidelines and warranty information
+
+**Device Functionality**  
+The ECOMO 22H99 features advanced microprocessor technology that supports various graphics formats, including VGA, SVGA, and XGA, and is compatible with multiple graphics boards. The system is designed for easy integration with these boards, allowing for manual adjustments across various inputs, while supporting VESA DPMS standards for energy efficiency.
+
+**USB Functionality**  
+The USB capabilities of the ECOMO 22H99 simplify connections with peripherals. Each USB device is automatically detected, facilitating a streamlined user experience. For additional information on USB functionality and installation, please refer to the relevant sections.
+
+**On-screen Display (OSD)**  
+The OSD offers intuitive access to display settings such as brightness, contrast, and geometric adjustments. Users can easily navigate through options, select desired settings, and reset configurations as necessary. 
+
+**Technical Compliance**  
+This device has been tested for compliance with the CE directive (89/336/EEC) and meets FCC Class B regulations, ensuring adequate protection against electromagnetic interference. Users are advised to adhere to installation instructions to maintain compliance and optimal performance.
+
+For detailed troubleshooting and product support, please contact ELSA ServiceDirect or consult the warranty section in this manual.
+
+**Function Overview of the ELSA ECOMO 22H99**
+
+- **V-Convergence Adjustments**: Manage the red beams across the top, bottom, left, and right sides to ensure proper convergence.
+- **Moire Cancellation**: Enable or adjust the Moire cancel level and corner purity settings, specifically for the top-left, top-right, bottom-left, and bottom-right corners.
+- **Clamp Pulse Positioning**: Configures video levels to either 1.0V or 0.7V.
+- **Degaussing**: Clears any impurities.
+- **Power Save Mode**: Activates power-saving features.
+- **OSD Control**: Locks or unlocks the on-screen display (OSD) settings, allows position adjustments, and performs a full reset to factory settings.
+- **GTF Auto Adjust**: Automatically adjusts the settings based on the input configuration.
+- **Diagnosis and Language Selection**: Provides diagnostic information and allows users to select the OSD language (options include English, French, and Spanish).
+- **USB Inputs**: Configuration for USB upstreams and downstream ports; the functions correlate to specific video input combinations (e.g., D-SUB and BNC).
+- **Geometry Adjustments**: Allows for fine-tuning of aspects such as H-Size, H-Phase, and various positioning adjustments for screen geometry.
+- **PCC (Pixel Clock Control) Features**: Enables adjustments of the corners and balances to enhance display quality.
+- **Operating Guidelines**: Recommendations for optimal sitting height, viewing distances, and cleaning methods using appropriate materials to maintain the display.
+
+**Technical Specifications of the ELSA ECOMO 22H99**
+
+- **Display Technology**: CRT with anti-reflective glass. 
+- **Color Phosphors**: Red (P22).
+- **Brightness Settings**: Adjustable to white points at 9300K, 6500K, and 5000K.
+- **Power Requirements**: AC with a typical consumption of 170W (USB active).
+- **Environmental Compliance**: CE, FCC Class B, TCO, VESA DPMS, and ISO certifications.
+  
+The ELSA ECOMO 22H99 monitors utilize advanced features and settings to ensure high-quality visuals and seamless integration with various systems, while adhering to technical standards and user accessibility.
+
+### Troubleshooting the ELSA ECOMO 22H99 Monitor
+
+**LED Indicators:**
+- Check if the LED is powered on and if the switch has been activated. If you see "ATTENTION NO SIGNAL," your signal may be lost. 
+- "ATTENTION SIGNAL FREQUENCY IS OUT OF RANGE" indicates frequency or brightness issues, which may require adjustments to "VIDEO LEVEL" settings. Ensure the USB HUB and AC connections are secure. 
+
+**BNC Connections:**
+- Verify that BNC connections are not misconfigured, as improper connections can disrupt functionality. Ensure that the switch functions are active if necessary. 
+
+**Geometry Adjustment:**
+- Perform a "GEOMETRY RESET" or "ALL RESET" to restore optimal settings for H-SIZE, V-SIZE, H-PHASE, and V-POSITION to achieve a full-screen display. Adjust other settings, such as refresh rates, as needed.
+
+**Restraining Wires:**
+- Thin restraining wires in CRT monitors can affect performance by reducing interference. 
+
+### Environmental Standards: TCO'99 Certification
+
+Congratulations on selecting a TCO'99 certified product. This choice supports reducing environmental impact and contributes to sustainable product manufacturing. The TCO’99 standard, developed by several Swedish organizations, ensures compliance with environmental and health regulations related to materials used in electronic devices such as CFCs, brominated flame retardants, and restrictions on hazardous materials.
+
+### Product Safety and Toxicity Information:
+
+- TCO’99 emphasizes minimizing the use of toxic substances, including heavy metals like lead and mercury, in components such as circuit boards and connectors. 
+- Adherence to these standards helps mitigate risks to health and the environment, ensuring safe manufacturing and disposal practices.
+
+### Support and Warranty Information:
+
+If you encounter issues with your ELSA ECOMO 22H99, please first consult the troubleshooting section. For further assistance, contact the ELSA support team. You can find downloadable software updates on ELSA’s official website. 
+
+### Warranty Details:
+
+The ELSA Warranty provides coverage for three years, covering repairs when used according to guidelines. Warranty services encompass material defects and workmanship, while excluding damages caused by misuse or unauthorized repairs. Ensure your warranty documentation is kept safe, and report any defects promptly to initiate service. 
+
+Should any physical damage or malfunction arise, proper channels must be followed for repairs, and ELSA reserves the right to assess charges for any testing performed beyond the warranty scope. 
+
+For comprehensive service assistance, contact ELSA service centers directly or reach their support online.
+

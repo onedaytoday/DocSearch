@@ -1,0 +1,116 @@
+**Touchcomputer LCD User Guide - B-Series Overview**
+
+**Copyright Notice:**  
+All content in this document is protected and may not be reproduced, transmitted, or translated without written permission from Touch Inc. The information provided is subject to change without notice. Touch Inc. disclaims all warranties, including implied warranties of merchantability. 
+
+**Table of Contents:**
+
+- **Chapter 1: Unpacking Your Touchcomputer**
+  - Components and Setup Instructions
+
+- **Chapter 2: Operation Overview**
+  - On-Screen Display (OSD) and L.E.D. Functionality
+  
+- **Chapter 3: Connecting Optional Peripherals**
+  - Details on customer card readers (MSR), fingerprint readers (FPR), VGA cards, and wireless state cards.
+  
+- **Chapter 4: Installing and Configuring POS Software**
+  - Steps for recovery and reassignment of communication ports.
+
+- **Chapter 5: Technical Support**
+  - Guidance for seeking technical assistance and warranty information.
+
+---
+
+### Chapter 1: Unpacking Your Touchcomputer
+
+In this chapter, you'll find essential information for setting up your new touchcomputer, including a checklist of components and assembly instructions.
+
+### Chapter 2: Operation Overview
+
+This section identifies the functions of the OSD buttons and how to manage settings such as brightness and input selection. To navigate the OSD, use the RIGHT/LEFT buttons for adjustments and the SELECT button to confirm choices.
+
+### Chapter 3: Connecting Optional Peripherals
+
+Explore the options for enhancing your system, including how to install optional peripherals like the MSR and other cards. Instructions for installing these components can be found under the specified directories.
+
+### Chapter 4: Installing and Configuring POS Software
+
+Here, you will learn about the steps necessary to load and configure your POS software seamlessly while providing guidelines for troubleshooting.
+
+### Chapter 5: Technical Support
+
+A dedicated section for users needing technical support, with information on warranty services and how to contact support. 
+
+---
+
+For specific details about mounting the touchcomputer or configuring the OSD, please refer to the provided instructions within the relevant chapters. Always ensure to follow the safety precautions when setting up your device to avoid damage or malfunction. For the latest software updates and drivers, visit the mentioned website directory.
+
+**Testing the B-SERIES Touchcomputer**
+
+To test the B-SERIES Touchcomputer, identify the four mounting locations on the top and right sides of the device. For software-related inquiries, consult the directory or visit www.elotouch.com. Access the directory at C:\EloTouchSystems\Peripherals for specific drivers.
+
+### USB Connectivity
+The USB specifications for the optically bonded touchscreen ensure optimal reliability and performance. The system operates on a 5.0VDC power supply. The typical values include 0.25A for current and an operational temperature range of up to 40°C, adhering to ESD regulations.
+
+### VGA Card Installation
+To install the VGA Card, use either a 12V or 24V supply connected via the RJ11 port. As with other connections, reference the software directory or visit www.elotouch.com. The relevant file can be found at C:\EloTouchSystems\Peripherals.
+
+### Wireless Functionality
+For testing wireless capabilities, access C:\EloTouchSystems\Peripherals to find the appropriate drivers. Make sure the wireless network is detected by clicking on the Wireless Network icon.
+
+### RAID Configuration
+The system supports RAID functionality; refer to the directory or the website for the installation guide. Specifications for the RAID card can be found in the same directory as above.
+
+### POS Software Installation
+POS software is available for installation, located at C:\EloTouchSystems\Demos. Ensure compatibility with your system.
+
+### Maintenance and Safety Instructions
+To minimize the risk of electrical shock, always turn off the touchcomputer before cleaning. Use a 3-wire grounding cord when connecting to an outlet, as this is crucial for safe operation. Unauthorized modifications may void the warranty. Always follow the manufacturer’s instructions for proper usage and handling.
+
+**Clean the Touchscreen Properly**
+Use a soft cloth to clean the touchscreen. Avoid using solvents or cleaners that may damage the screen. Do not apply liquids directly to the touchscreen.
+
+### Compliance Information
+This device complies with WEEE and UL Directives, containing lithium components on the motherboard. Dispose of it in accordance with local regulations regarding electronic waste.
+
+### Recovery Process
+If the system encounters issues, you can restore factory settings using the included recovery DVD. Follow the provided instructions carefully, including selecting the correct operating system for recovery. 
+
+### USB Port Reassignment
+After recovery, COM ports may need reassignment. Access the Device Manager to review and correct the assignments as needed, following the provided steps to ensure proper configuration.
+
+### Technical Support
+For any technical assistance, refer to the options provided. Technical support can be reached through the website or by contacting the phone number displayed in the user guide. For additional help, right-click the relevant information button or visit www.elotouch.com/go/websupport.
+
+### REGULATORY INFORMATION
+
+I. Information  
+II. Immunity Information  
+
+**B-S SERIES TOUCHCOMPUTER USER GUIDE**  
+
+A) This device is compliant with the specified operational standards. Failure to adhere to these standards may void the warranty or result in fire hazards.
+B) The device contains components that are not operator-serviceable. Service should be performed by a qualified technician.
+C) Ensure the device is grounded appropriately. The grounding wire must be correctly installed to avoid electrical shock, which can lead to severe injury or death.
+
+A) **U.S. Notice**: This device has been tested and meets the Class B standards set forth by the FCC. It provides reasonable protection against radio frequency interference when installed as instructed.
+B) **Canadian Notice**: The device complies with Class B from Industry Canada, as outlined in the applicable interference regulations.
+C) **EU Notice**: The interconnecting cords and cabling meet the requirements of relevant CE directives. This device complies with EMC Directive 89/336/EEC and Low Voltage Directive 73/23/EEC.
+D) **User Information**: If interference occurs, there are several factors that may contribute. Users are advised to check connections and may need to reposition the device away from the receiving antenna. 
+
+III. **Agency Notices**:   
+The device's AC outlet and branch I/O ports are high-RF grounded to reduce shock hazards. Relevant certifications include FCC, TUV, CE, CB, GOST-R, C-Tick, VCCI, and CCC.
+
+### WARRANTY
+
+The **B-S SERIES TOUCHCOMPUTER USER GUIDE** provides a warranty subject to specific terms. This warranty ensures the product is free from defects in materials and craftsmanship for a designated period. 
+
+To make a warranty claim, users must notify within thirty days of discovering any defects. Responsibilities include allowing reasonable access for inspection. Warranty claims will be honored by repair, replacement, or refund at the seller's discretion.
+
+These remedies represent the exclusive options for warranty breaches. Aside from the express warranty stated, the seller provides no additional warranties, whether expressed or implied, regarding the product’s suitability or performance. Employees or agents of the seller cannot extend other warranties. 
+
+The seller's liability is limited to a refund of the purchase price. The seller will not be liable for costs related to acquiring substitute goods or for any special, consequential, indirect, or incidental damages associated with the product.
+
+For further product information, specifications, news, updates, or software, please visit **www.elotouch.com** or contact the North American office at ELO-TOUCH.
+

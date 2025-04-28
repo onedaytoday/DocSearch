@@ -1,0 +1,100 @@
+**EMC Documentation for P/N REV A01, August - EMC Corporation Headquarters, MA**
+
+© EMC Corporation. All rights reserved.
+
+The information in this publication is provided "as is." EMC Corporation makes no representations or warranties regarding the content of this document and expressly disclaims any implied warranties, including those of merchantability or fitness for a particular purpose.
+
+**Chapter Overview**
+
+- **HBA Introduction**: Information on EMC with HBAs (Host Bus Adapters).
+- **Downloading Instructions**: Details on downloading EMC software and firmware updates for HBAs and storage arrays.
+- **Direct-Connect Dual-Host Clustering**: Guidance on configuring EMC HBAs with pre-configured NVRAM for Fibre-Channel connections.
+
+**Firmware and BIOS Management**: Step-by-step procedures for applying firmware/BIOS updates manually, including revision history of HBAs.
+
+**Procedure Flowchart**: Visual guidance on I/O latency management and BIOS configurations related to the OS.
+
+**Third-Party Software Troubleshooting**: Information and procedures pertaining to troubleshooting issues that may arise withHBAs.
+
+**Safety Notices**: 
+- **Caution**: Information regarding potential hazards.
+- **Warning**: Important information that could affect life, property, or equipment.
+
+**Typography and Navigation**: 
+Reference styles for text elements including buttons, options, and commands in the interface.
+
+**HBA Functional Overview**: 
+When integrating EMC systems, the physical connection and routing through switches must remain consistent. If changes occur that affect the OS's ability to reference appropriate drives, data access may be compromised. The operating system typically assigns physical drives based on the order of detected HBAs during boot-up.
+
+**Device Assignment Protocol**: 
+During the boot process, the operating system identifies and assigns physical drives (e.g., \\PHYSICALDRIVE0, \\PHYSICALDRIVE1, \\PHYSICALDRIVE2) based on the lowest-numbered PCI slots corresponding to each HBA.
+
+**HBA Connection Guidelines**: 
+When installing and configuring HBAs, follow manufacturer protocols to ensure proper connectivity. This includes verifying that the necessary firmware/drivers are installed.
+
+**User Access to Configuration**: 
+Follow instructions to manually set the FC-AL IDs for each HBA, ensuring the topology is correct.
+
+**Caution on Firmware/NVRAM Updates**: 
+Apply updates carefully to avoid overwriting critical identifiers and configurations.
+
+The section discusses the integration of EMC HBAs (Host Bus Adapters) with EMC NVRAM (Non-Volatile Random Access Memory). It details the process of configuring these HBAs, which includes updating the BIOS and NVRAM through a CD-ROM creation method. Instructions for downloading firmware and the relevant tools, such as PowerPath/ATF, for adjusting throttle options and LIP (Loop Initialization Protocol) Retry Counts are provided.
+
+When receiving pre-loaded HBAs, users are prompted to check the settings during the HBA's POST (Power-On Self-Test). Each Core PCI chassis is examined, and users must ensure the proper manual application of firmware while following specified guidelines. 
+
+Additional procedures involve using DOS for firmware updates, including the creation of a bootable CD-ROM and using commands like FLASUTIL.EXE for BIOS and NVRAM adjustments. Specific caution is advised for identifying the HBA version and its associated history, ensuring compatibility with various operating systems, including Microsoft NT.
+
+The text also highlights the importance of following precise instructions for managing SCSI devices and RAID configurations. It points out that during installations or updates, users may encounter prompts to confirm the installation and specify selections correctly to avoid issues with unidentified hardware.
+
+Finally, it emphasizes the significance of maintaining performance through effective management of I/O latency, crash dumps, and network configurations to optimize system functionalities when booting from EMC storage.
+
+The following instructions pertain to the BIOS configuration for EMC systems. Ensure that your EMC is connected to Intel-based systems, and identify the lowest-numbered PCI slot used for HBA (Host Bus Adapter) connections. Upon initiating the BIOS, press CTRL-Q when prompted, which will allow you to load the HBA BIOS. If multiple HBAs are present, select the appropriate one from the list. After the BIOS loads, follow the necessary steps to configure the EMC and LUNs (Logical Unit Numbers).
+
+When installing NT (Windows NT), insert the NT CD-ROM and follow the prompts. Press F6 when prompted to include third-party drivers, and select the relevant type of HBA (QLA2300 or QLA2200) when the option appears. Ensure the CD-ROM is properly recognized; if using SCSI, adhere to the specific requirements for SCSI CD-ROM installations. 
+
+For HP G2 users, use the RDP (Remote Deployment Procedure) and navigate to the right interface for both RBSU and PCI configurations. Ensure that the necessary LUNs and HBAs are properly recognized and configured for optimal performance.
+
+Gather firmware and NVRAM data for the HBA, and ensure compatibility with related software such as Navisphere. Follow all operational prerequisites to establish a connection between the HBA and the EMC.
+
+In summary, detailed attention to each step in the BIOS and installation process is essential for successful configuration of your EMC system with HBAs. Always ensure drivers are updated and LUNs are properly assigned for seamless operation.
+
+### EMC Next Steps: HBA BIOS Configuration
+
+In this section, we will discuss configuring the HBA BIOS for EMC systems. When accessing the HBA BIOS, typically by pressing **CTRL-Q**, the relevant options for the HBA will be displayed. If there is only one HBA present, it will automatically appear. For multiple HBAs, navigate with the arrow keys to select the desired HBA, then press **ENTER**. 
+
+You will need to choose the appropriate WWN to link to the LUN. This setup is a prerequisite before using EMC Navisphere software to manually create the LUN.
+
+If using PowerPath or ATF, refer to their respective instructions as needed. If prompted, press **ESC** to return to the main menu. 
+
+To proceed with the installation on HP G2 OS with the HBA, ensure the LUN is bound correctly. When prompted to boot from the CD-ROM, press **F6** to inspect options and proceed, following on-screen instructions.
+
+### Installing the EMC Navisphere Software
+
+During installation, if a LUN was created, the licensing agreement will be displayed. You will need to navigate through the installation process using the **F8** key and follow the instructions provided.
+
+While performing these steps, ensure you are aware of relevant Microsoft Knowledge Base articles, such as Q240672 for NT bound BIOS matters. If the operations involve an unpartitioned LUN, follow prompts to format as necessary. 
+
+To complete the setup, ensure to apply any required changes and check that all LUNs are detected correctly. 
+
+### Using the EMC Navisphere Software with Multiple HBAs
+
+The EMC Navisphere software requires proper registration with PowerPath and ATF to manage the HBA paths effectively. Consistently refresh the software views to reflect any current paths assigned.
+
+To ensure high availability, you must configure the HBA BIOS as instructed, especially in a SAN environment. Each HBA should be connected to the respective storage processors (SP) for seamless operation.
+
+### Performing LUN Trespassing Commands
+
+To execute LUN trespassing, use the **atf_trespass** command to redirect the LUN to the desired SP, ensuring you identify the correct LUN ID. Commands should be executed based on whether the LUN is assigned to SP A or SP B. Double-check the current configuration with your EMC Navisphere software for accurate operation.
+
+### Conclusion
+
+In summary, thoroughly read the instructions for setting up the HBA BIOS and managing LUNs using EMC solutions. Always ensure that HBA configurations are in place before initiating any installations to maximize the efficiency and reliability of the storage environment.
+
+The BIOS and HBAs facilitate booting from NTOSKNL, which can lead to a BSOD when the OS is loading. This process involves communication with the high-level HBA BIOS and retrieving LUN path data necessary for completing the boot sequence. Internal errors may arise during this process, potentially leading to increased recovery times related to the %SYSTEMROOT% or EMC configurations.
+
+For third-party software utilized with EMC HBAs, it is essential to reference the appropriate documentation for compatibility and support. This includes guidance on HBA firmware/BIOS and NVRAM management. Ensure you download the latest updates and follow the provided instructions.
+
+Additionally, two registry entries, ShowGateKeeperDevices and ShowEmcHiddenDevices, are relevant for monitoring supported devices and service requirements. Caution is advised when modifying these settings, and users should consult EMC Customer Service if issues arise. 
+
+Troubleshooting should involve checking the connection status of HBAs and LUN instances. If devices are labeled as "Unknown" or "Unallocated," it may be necessary to verify firmware versions and connection quality. For errors reported by the EMC CX200 related to I/O, it’s recommended to address these with the available support resources.
+

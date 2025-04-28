@@ -1,0 +1,22 @@
+**Application BIOS ES601078**
+
+**Release Information:**  
+Initial release ECO-13-0889. This publication regarding BIOS Application ES601078 A is protected. Reproduction, transmission, transcription, or translation in any form without written consent from Touch Inc. is prohibited. The information herein is provided without warranty from Touch Inc. or its affiliates, particularly regarding merchantability or fitness for a specific purpose.
+
+**Acknowledgments:**  
+AccuTouch, CarrollTouch, TouchSystems, SecureTouch, and TouchTools, among others, are trademarks of Touch Inc. All rights reserved. The BIOS described is developed under the auspices of Microsoft Corporation.
+
+**Introduction:**  
+This document provides essential information about BIOS Application ES601078 A, including guidance for verification and operational status. It is highly recommended that the device be connected to an AC/DC power source while checking the BIOS. If you encounter difficulties, please consult a technical or service professional.
+
+**Checking the BIOS:**  
+To verify the BIOS version, access the InfoAbout section. The current BIOS version will be displayed there. If discrepancies are found compared to the specifications in this document, please refer to the BIOS Application Notes for corrections.
+
+To copy the BIOS, right-click as instructed in this document, and follow the prompts. The BIOS parameters will be displayed as outlined below.
+
+**Support & Additional Information:**  
+For product specifications, press releases, and software updates, please visit www.elotouch.com or contact the North American office at 800-ELO-TOUCH. All rights reserved as of October. For further queries, reach out via www.elotouch.com.cn. 
+
+**Copyright:**  
+Touch Inc. All rights reserved. BIOS Application ES601078 A.
+

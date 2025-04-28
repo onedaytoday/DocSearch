@@ -1,0 +1,44 @@
+**Instruction Sheet: PN Sensor/Process Application Compatibility**
+
+### Specifications
+The application and operational responsibilities of the sensor are outlined below. The sensor operates effectively within a temperature range of 122°F (50°C) and is constructed from Polysulfone and Teflon (TFE). 
+
+#### Flow Cells
+- **PN CPVC**: Maximum operating temperature of 122°F (50°C)
+- **NPT PVC**: Maximum operating temperature of 120°F (49°C)
+- **Flow**: Employs polyester/polycarbonate with a limit of 158°F (70°C); features 316 stainless steel and various diameters.
+
+For detailed compatibility information and specific operational guidelines, please consult the provided specifications.
+
+**Caution**: Do not exceed the specified temperature limits.
+
+### Model 499A OZ Installation
+
+Ensure proper installation as outlined below. The flow rate should remain within specified limits (ft/sec). 
+
+**Note**: Submersion of the 499A OZ model is not recommended.
+
+### Wiring Information for Model 499A OZ
+
+Refer to the wiring figures provided for electrical connections. Proper shielding against EMI/RFI is crucial during installation.
+
+### Calibration Procedure for Model 499A OZ
+
+Calibration should be conducted upon initial service and subsequently every specified interval. Recommended practices include ensuring the electrolyte solution reaches optimal conditions. Follow the guidelines precisely for optimal results.
+
+### Maintenance of Model 499A OZ
+
+Regular maintenance is essential for performance. Cleaning should occur every four months, or as needed based on operation. Clean the electrodes using a spray from a cleaning bottle.
+
+**Replacing the Electrolyte Solution and Membrane**: Unscrew and disassemble the unit carefully. Inspect the cathode for tarnishing and clean as necessary. If any scratches are present, finish the cathode properly to restore functionality. 
+
+**Warning**: Exercise caution to prevent damage during assembly and disassembly.
+
+### Maintenance Spare Parts
+
+Includes necessary components as specified in the assembly figure.
+
+### Ordering Information for Model 499A OZ
+
+For purchasing and inquiries, contact Emerson in Rosemount, Analyticals, USA. Online ordering is available on our website for U.S. customers using credit cards. Specifications and parts are subject to change without notice.
+

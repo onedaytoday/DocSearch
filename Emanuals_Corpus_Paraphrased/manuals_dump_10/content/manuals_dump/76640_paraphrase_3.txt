@@ -1,0 +1,10 @@
+**Paraphrased Version:**
+
+The B/W and EL2000 telephone entry/access features include the Unlock function and the LED board. Ensure the screws are removed from both the board and the LED assembly for proper access. If the EL2000 is wired to a switched input, follow guidelines for connection. The LED board connects to the back mounting plate of the EL2000. For models EL2000BWCAMKT, EL2000CCAMKT, and EL2000DVRCAMKT, be cautious of any potential damage to the LED board.
+
+Similarly, for the EL25 model, the telephone entry/access uses the LED board for Unlock functions. Ensure the screws are correctly positioned, as the board must be mounted only in the specified orientation. The LED should be connected through the back mounting plate of the EL25, with the BNC connector aligned accordingly for models EL25BWCAMKT, EL25CCAMKT, and EL25DVRCAMKT, which may also experience LED board damage.
+
+For the B/W EL25BWCAMKT and EL2000BWCAMKT models, the CCD specification includes Effective EIA and CCIR values for horizontal and vertical resolutions. The interlaced TV scanning process features a signal-to-noise ratio (S/N) exceeding specified thresholds (with AGC disabled) and includes details on backlight compensation (BLC). Adjustments for various standards (NTSC and PAL) are provided, including corrections for white balance within a range of 2100K to 8200K.
+
+Specifications for the B/W EL25DVRCAMKT and EL2000DVRCAMKT focus on high EX-VIEW CCD capabilities and similar resolutions and ratios, maintaining the same temperature and moisture resistance parameters. Be aware of MTBF (Mean Time Between Failures) hours for these models while considering the environmental conditions and connections specified.
+

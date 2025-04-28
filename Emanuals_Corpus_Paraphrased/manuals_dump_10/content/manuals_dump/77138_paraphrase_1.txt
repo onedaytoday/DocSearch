@@ -1,0 +1,83 @@
+### Touchmonitor 1915L 19-inch LCD Touchmonitor ET1915L
+
+**Model Information:**
+- 19-inch LCD Touchmonitor 1915L Revision P/N E731143.
+
+**Copyright Notice:**
+All rights related to this publication are owned by TouchSystems. Reproduction, transmission, transcription, or translation of this material—whether partially or in full—without the written consent of TouchSystems is prohibited. Information here is subject to change without notice, and TouchSystems disclaims any implied warranties of merchantability. TouchSystems reserves the right to modify the product and related information. The trademarks "SecureTouch," "AccuTouch," and "MonitorMouse" are owned by TouchSystems, as are other referenced trademarks.
+
+**Contents Overview:**
+- Chapter Introduction
+- Product Precautions
+- Touchmonitor Features and Touch Interface
+- Software Installation
+- Troubleshooting
+- Technical Specifications
+
+### Product Overview
+
+The 1915L LCD Touchmonitor features a 19-inch active thin-film transistor (TFT) display, supporting SXGA resolution. It is equipped with compatibility for VGA, SVGA, XGA, and non-interlaced SXGA graphics cards and adheres to VESA DPMS standards. It supports DDC1/2B for plug-and-play functionality and includes advanced on-screen display (OSD) capabilities and a wall-mounting option.
+
+### Unpacking the Touchmonitor
+
+This section outlines the initial setup of the LCD touchmonitor, including the required components: LCD, VGA and USB connectors, QuickStart guide, and Software CD.
+
+### Touch Interface Setup
+
+Ensure both the touchmonitor and PC are powered off before connecting. Connect the 1915L touchmonitor to the PC using the appropriate VGA or USB cable. Secure connections by tightening screws. The relevant software can be found on the included CD-ROM, with further information available online at www.elotouch.com.
+
+### Operating System Installation
+
+To integrate the touchmonitor with different operating systems like MS-DOS, follow the installation guidelines provided on the CD. For plug-and-play installation, navigate through the setup prompts to specify the installation directory.
+
+### Touchmonitor Controls and OSD Functionality
+
+The 1915L features controls for adjusting various settings through the OSD. You can increase or decrease brightness, manage horizontal positioning, and adjust clock phase and sharpness. Factory settings can be restored as needed.
+
+### Troubleshooting
+
+Common issues can often be resolved by ensuring that all cables are securely connected. Consult the troubleshooting section for specific guidance on visual artifacts or input mismatches, as these can affect display performance.
+
+### Technical Specifications
+
+Included within the manual are detailed specs for the ET1915L model, including compatibility and performance metrics to ensure optimal use. 
+
+For any further assistance, refer to the user manual or contact TouchSystems support.
+
+### Touchmonitor Information and Safety Guidelines
+
+#### Overview
+This document contains critical information regarding the touchmonitor, specifically in the Installation and Operation chapters. To minimize the risk of electrical shock, it is essential to turn off the touchmonitor before cleaning and ensure it is connected using a 3-wire grounding cord. This cord should always be plugged into a grounded outlet to prevent unauthorized warranty issues.
+
+#### Safety Warnings
+The touchmonitor contains mercury in its backlight, which is pertinent to the WEEE Directive in the EU for safe disposal and recycling. Users should ensure they comply with local regulations regarding hazardous waste.
+
+#### Technical Specifications
+**Model:** ET1915L  
+- **Display Type:** LCD TFT  
+- **Resolution:** 376.32mm (H) x 301.06mm (V)  
+- **Pixel Pitch:** 0.294mm (H) x 0.294mm (V)  
+- **Supported Resolutions:** VGA, SVGA, XGA, SXGA  
+- **Color Depth:** 16.7 million colors  
+- **Brightness:** Typical values available  
+- **Connector Types:** TTL or negative  
+- **Power Requirements:** AC 100-240V  
+- **Operating Conditions:** 0°C to 50°C, Humidity 20% to 80%  
+- **Certifications:** UL, FCC, CE, TUV, etc.
+
+#### User Guidelines
+1. **Warnings:**
+   - Follow all provided safety guidelines to avoid electric shock or fire hazards.
+   - Only qualified personnel should service the unit, particularly if grounding issues arise.
+
+2. **Interference Management:**
+   - The touchmonitor has been tested and confirmed to meet Class B FCC standards, ensuring minimal electromagnetic interference.
+   - Users experiencing interference should reposition cables or the unit itself and consult with a technician when necessary.
+
+#### Warranty Information
+The standard warranty for the touchmonitor covers three years from the purchase date. It protects against defects in materials and workmanship. To claim the warranty, notify the manufacturer within 30 days of discovering any issue, allowing them to inspect or replace the product if required. 
+
+For further details and product information, including troubleshooting and technical documentation, visit [www.elotouch.com](http://www.elotouch.com). 
+
+For inquiries in North America, contact Tyco, 2F CA, USA.
+

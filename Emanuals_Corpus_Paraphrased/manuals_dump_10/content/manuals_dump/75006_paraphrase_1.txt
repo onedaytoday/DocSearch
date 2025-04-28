@@ -1,0 +1,53 @@
+**E30M065GSS Cover Files**  
+- **Files Included:**  
+  - E30M065GSS.eps  
+  - E30MO65GSSB-Wiring-1.eps  
+  - E30MO65GSSB-Wiring-2.eps  
+
+**Manufacturer:** Appliances North America  
+**Address:** P.O. Box, Augusta, GA  
+**Product Model:** E30MO65GSSB  
+**North America TIN:** SEB471MRR0  
+**Instructions TIN:** SEB472MRR0  
+**Category:** Built-In Microwave  
+
+**Publication Reference:** E30MO65GSSB (EN/SERVICE/KC)  
+**Copyright:** Products, Inc.  
+
+### E30MO65GSSB Parts Overview:
+1. **Cord Assembly:**
+   - Switch
+   - Thermal switch
+   - Motor components:
+     - Convection fan
+     - Heating element
+     - Turntable motor
+   - High voltage rectifier
+   - Turntable assembly
+   - Thermal protector (left/right)
+   - Duct assembly (heating)
+   - Cushion assemblies
+
+### Control Panel and Door Components:
+- **Assembly Components:**
+  - Touch control assembly
+  - Various screws and thermal protection elements
+  - Cushion pieces
+
+### Circuit Diagrams:
+1. **Oven Operational Conditions:**
+   - **Closed Door State:** The display clock is visible.
+   - **Cooking Time Setup:** Initiated by pressing the start pad; incorporates thermal noise filter and necessary safety features.
+
+2. **Wiring Schematics:**
+   - Representation of oven thermal cut-outs and control units.
+   - Detailed schematic for operational and safety components, including interlock switches and monitor circuits.
+
+### Magnetic and Thermal Conditions:
+- **Operational Scenarios:**
+   - Specific states during different operational phases (microwave, convection).
+   - Detailed interaction between components such as the magnetron, motors, and thermal cut-outs.
+
+### Additional Notes:
+- The diagrams include wiring paths for thermal cut-outs, control logic paths, and the interactions of various components during operation. The schematics serve as a reference for troubleshooting and maintenance of the E30MO65GSSB model.
+

@@ -1,0 +1,197 @@
+# MS-1 Instruction Manual
+
+**Copyright ELMO Co., Ltd.**
+
+### Table of Contents:
+- Important Safeguards
+- Federal Communications Commission Interference Statement
+- Package Contents
+- About the Camera
+- Component Identification
+- Preparations
+  - Battery Charging
+  - Inserting the Micro SD Card
+  - Powering On/Off
+  - Changing SSID and Password
+- Recording
+  - Movie Recording
+  - Photo Recording
+- Accessing Recorded Files
+  - Viewing on TV or Projector (HDMI Output)
+  - Viewing on Smart Device
+  - Viewing on Computer
+  - Transferring Files to Computer
+- Mass Storage 
+- Live Viewing
+  - Live Viewing on QBIC App
+  - Live Viewing on TV or Projector
+- Camera Reset
+  - Force Shutdown
+  - Factory Reset
+- QBIC App Icon Descriptions
+  - Movie and Photo Recording
+  - Grid Display
+  - Angle of View
+  - White Balance
+  - Self-Timer
+  - Wide Dynamic Range (WDR)
+  - Exposure
+  - Resolution
+  - Battery Status
+  - Record Source
+  - Movie/Photo Thumbnails
+  - File Edit, Download, and Delete Options
+  - File Sharing
+- Settings
+- Maintenance
+  - Camera Maintenance
+  - Software Updates
+- Troubleshooting
+- After-Sales Service
+- Specifications
+  - Camera Functions
+  - Recordable Time and Image Count
+  - Estimated Recordable Time and Count
+  - Continuous Operation Time
+- Trademarks
+- Licensing
+
+### Preface:
+Thank you for purchasing the MS-1. Please read this instruction manual carefully before use. 
+
+**Important Note:** Reproduction of this manual in whole or in part is strictly prohibited. For inquiries regarding this manual or its contents, please contact ELMO Customer Service.
+
+**Important Safeguards:** 
+Failure to adhere to these warnings may result in serious injury or death. 
+
+### Warnings and Precautions:
+- **DANGER:** Misuse may cause risk of serious injury or death. 
+- **WARNING:** Risk of injury or death due to improper operation can occur. 
+- **CAUTION:** Risk of minor injuries or property damage.
+
+Handle with care, especially when mounted on vehicles. Failing to do so may lead to accidents. The device features a lithium-polymer battery that must be handled according to safety guidelines to prevent fire or explosion risks. 
+
+If the device emits smoke or unusual odors, discontinue use immediately and contact our Customer Service. 
+
+**Environmental Guidelines:**
+- Operate the device within a temperature range of 0 to 40°C and store it in conditions that do not exceed recommended humidity levels. 
+- Interference may occur when using wireless operations in proximity to other electronic devices.
+
+**User Responsibility:**
+This manual contains essential instructions and cautions. Any damage caused by failure to follow these guidelines may void the warranty. 
+
+### Before You Use:
+The ELMO MS-1 requires proper installation and care to ensure optimal performance. Be mindful of charging the USB and maintaining wireless connections during use. Avoid exposure to extreme conditions, which may adversely affect device functionality. 
+
+Engage with Customer Service for further assistance and warranty concerns. Proper treatment of the device can prevent malfunctions and extend its operational lifespan. 
+
+**Final Note:** Keep this manual for future reference and ensure compliance with the specified guidelines to enhance user experience and safety.
+
+### Paraphrased Version:
+
+The MS-1 device is protected under copyright laws, and any reproduction, distribution, or modification without prior written consent from ELMO or its authorized representatives is strictly prohibited. This includes any third-party usage. The device is designed to function correctly, but any unauthorized alterations may lead to malfunctions. Users are advised to be aware that unauthorized recording or use may result in violations of copyright regulations, including international treaties.
+
+**Attention**: This device may interfere with other electronic systems. Users are advised that using this device could affect reception quality. It meets FCC Class standards, which are designed to provide reasonable protection against interference. Users should follow provided instructions to minimize potential interference, including turning the device off if it causes disruptions. 
+
+**Caution**: Ensure compliance with FCC regulations regarding interference, which can occur during regular operation.
+
+**Wireless Industry Notices**: The MS-1 complies with IC standards ICES-003 and RSS-210 and should not cause interference when operated as intended.
+
+**Warranty**: The warranty covers individuals who purchase the MS-1, provided they follow the official user instructions. Compatibility with devices like smartphones is also supported.
+
+### Package Contents:
+- **USB Interface**
+- **HDMI Port**
+- **Camera Controls**: Recording Switch, Accessory Switch, LED indicators
+
+### Charging and Using the Device:
+The MS-1 includes a built-in battery that requires charging upon purchase. While charging, the LED indicator will illuminate. Once charged, the LED will turn off. An AC option for continual power is available.
+
+### Inserting the Micro SD Card:
+Insert the compatible SD card ensuring proper alignment. Supported storage includes Class 2 for 2GB to 32GB and higher capacities, as per MS-1 specifications. Failure to use the correct card may lead to performance issues.
+
+### Powering On/Off:
+Power the device on or off by connecting it to USB or AC. The LED indicator will show status during this process.
+
+### Changing SSID and Key:
+To change the SSID and key, follow the steps in the manual to prevent unauthorized access.
+
+### Recording Modes:
+Recording can be initiated by pressing the Recording Switch. The device supports both audio and video recording in formats like MPEG4 and JPEG. For still images, press the appropriate switch to capture photographs.
+
+### Viewing Options:
+Connect the MS-1 to a TV or projector via the HDMI interface. Use the control switches to navigate through recorded files and playback options.
+
+### File Transfer:
+To transfer files to a computer, connect the device using the USB interface. Ensure the device is in mass storage mode.
+
+### Live Viewing:
+For live viewing using the QBIC APP, download the application as per instructions. Follow the steps to ensure successful connection and operation.
+
+### Resetting Device:
+If a reset is needed, use the designated switches to return the MS-1 to factory default settings.
+
+By adhering to these instructions, users can maximize functionality and maintain compliance with regulatory standards.
+
+### WDR Shooting (Wide Dynamic Range Shooting)
+
+To enable or disable WDR shooting. 
+
+**Exposure Settings:**
+- Adjust resolution for recording and playback.
+- Recorded audio settings for playback.
+- Toggle WDR ON/OFF according to lighting conditions.
+
+**Battery Monitoring:**
+- Display remaining battery life during recording.
+
+**Thumbnail Management:**
+- Select and display thumbnails for MOVIE/PHOTO modes.
+
+### Editing and File Management
+- **Edit Files:** Choose files to modify or remove.
+- **Download:** Transfer data from the SD memory to the software.
+- **Delete:** Remove selected files.
+- **Split:** Process selected files.
+- **Send File:** Share selected files with others.
+
+### Camera Settings
+- **Light Control:** Adjust lighting settings.
+- **Center-weighted Exposure:** Toggle ON/OFF.
+- **Distortion Correction:** Activate during recording at certain resolutions.
+- **Handshake Correction:** Enable or disable based on recording resolution.
+- **Rotation Feature:** Activate for specific frame rates.
+
+### Recording Controls
+- **Recording Options:** Adjust settings for various FPS rates.
+- **Audio Channels:** L5 for left audio, R5 for right audio.
+- **Built-in Sound Off:**
+- **Streaming Apparatus:** Use AP Network for streaming capabilities.
+
+### Maintenance and Troubleshooting
+- **Camera Care:** Clean the camera with a soft cloth and ensure proper ventilation.
+- **Firmware Updates:** Download latest firmware to enhance performance.
+- **Battery Management:** Charge only under specified conditions.
+
+### Limited Warranty and Customer Support
+- Warranty coverage starts from the purchase date. Conditions apply based on proper usage as outlined in the MS-1 manual.
+- Exclusions include damage from improper handling, natural disasters, or unauthorized service.
+- For support, customers can inquire about service or warranty via official communication channels.
+
+### Camera Specifications
+- Uses effective CMOS sensor, capable of recording in JPEG format at 60fps or 30fps.
+- Connectivity options include USB B and HDMI with IPX4 water resistance.
+
+### LED Indicators
+- Define the status of operation based on LED activity (charging, recording, self-timer).
+- Understand battery recovery and operational status through LED feedback.
+
+### Recording Functions
+- Switch actions for recording modes, including turnaround features.
+- Estimated recording duration based on various memory card sizes.
+
+### Trademarks and Software Licensing 
+- The software is protected under copyright law. Users may access GNU GPL/LGPL information as provided by ELMO.
+
+This paraphrase retains the original message's meaning while presenting it in a more coherent and technical format.
+

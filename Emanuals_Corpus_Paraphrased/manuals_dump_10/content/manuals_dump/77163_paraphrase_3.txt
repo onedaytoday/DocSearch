@@ -1,0 +1,87 @@
+### Touchcomputer LCD Overview
+
+**Touchcomputer TE Connectivity**
+**Contact:** 1-800-ELOTOUCH   
+**Website:** www.elotouch.com  
+**Revision:** SW601671
+
+---
+
+**Copyright Notice**  
+This document is property of TE Connectivity Corporation. Any reproduction, transmission, transcription, or translation is prohibited without written consent from Tyco Corporation. The information herein may be modified without prior notice by TE Connectivity and its affiliates (collectively referred to as "TE"). TE does not guarantee merchantability or fitness for a specific purpose regarding the information provided.
+
+---
+
+### Table of Contents
+
+1. Unpacking Your Touchcomputer
+2. Installation
+   - Wall Mounting Options
+3. Operation
+   - LED Functionality
+   - Accessing Input/Output (I/O)
+4. Safety
+5. Technical Support
+6. Warranty
+7. Regulatory Information
+
+---
+
+### Unpacking Your Touchcomputer  
+
+This section details the items included with your Touchcomputer. Ensure you have the following contents:  
+
+- Touchcomputer unit  
+- Wall mounting hardware (M4, M3 screws)  
+
+### Setup
+
+Carefully follow the installation instructions provided.  
+
+**Caution:** Exercise care when handling the Touchcomputer.
+
+### Calibration
+
+To recalibrate the touchscreen, right-click on the desktop, select "Properties," and follow the prompts as shown. 
+
+### Additional Mounting Options  
+
+You can mount the Touchcomputer using VESA-compatible brackets.  
+
+### Operation
+
+#### LED Functionality
+
+The LEDs provide essential information, including BIOS status and memory usage. Brightness adjustments are available, and you can control backlight settings based on system demands.
+
+#### Accessing the I/O Cover
+
+The I/O cover is secured with a provided security screw. Ensure the unit is powered down before making any connections.  
+
+---
+
+### Safety and Maintenance  
+
+Adhere to the WEEE Directive to prevent electric shocks. Use only recommended cleaning methods, such as a light damp cloth. 
+
+### Technical Assistance  
+
+For technical support, please reach out to customer service via the provided website link.
+
+---
+
+### Regulatory Information  
+
+- **Compliance Notices:**
+   - This device complies with FCC Class B standards and is designed to minimize interference.
+   - CE compliance with EMC Directive 2004/108/EC has been achieved.
+- Ensure proper grounding to avoid electric shock.  
+
+### Warranty Information  
+
+TE Connectivity warrants its Touchcomputer product against defects in materials and workmanship. Claims must be filed promptly within 30 days of discovery. Please retain the original packaging for any returns. 
+
+For further details regarding claims, please consult the warranty statement included with the product.
+
+THESE REMEDIES SHALL BE THE EXCLUSIVE OPTIONS AVAILABLE TO THE BUYER IN THE EVENT OF A WARRANTY BREACH. APART FROM THE EXPRESS WARRANTY STATED ABOVE, THE SELLER OFFERS NO OTHER WARRANTIES, EITHER EXPRESS OR IMPLIED BY LAW, REGARDING THE PRODUCTS, INCLUDING THEIR FITNESS FOR ANY PARTICULAR PURPOSE, QUALITY, MARKETABILITY, OR NON-INFRINGEMENT. NO EMPLOYEE OR THIRD PARTY REPRESENTATIVE OF THE SELLER HAS THE AUTHORITY TO PROVIDE ANY WARRANTIES BEYOND WHAT IS STATED HERE. THE SELLER'S LIABILITY UNDER THIS WARRANTY WILL BE LIMITED TO A REFUND OF THE PURCHASE PRICE OF THE PRODUCT. UNDER NO CIRCUMSTANCES WILL THE SELLER BE HELD RESPONSIBLE FOR ANY PROCUREMENT OR INSTALLATION COSTS RELATED TO SUBSTITUTE GOODS, OR FOR ANY SPECIAL, CONSEQUENTIAL, INDIRECT, OR INCIDENTAL DAMAGES.
+

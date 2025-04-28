@@ -1,0 +1,79 @@
+# Instruction Manual
+
+## IMPORTANT SAFETY AND INSTALLATION INFORMATION
+
+This instruction manual must be adhered to when using the EHG appliance. It also complies with the relevant standards and regulations, specifically the IEE Regulations and the Irish Standards I.S. 813 for electrical installations, as well as ETCI regulations. 
+
+### Child Safety
+
+This appliance should be used under adult supervision and should not be operated by children unless instructed to do so. Ensure the appliance is cool to the touch before allowing children to interact with it, as it is intended for cooking purposes only. 
+
+### Operating Instructions 
+
+To ignite the appliance, turn the control knob counter-clockwise to the ignition position and hold for several seconds to allow the thermocouple to heat. If the ignition is not successful, the gas supply will be interrupted. Adjust the flame as needed for cooking—please ensure the area is free from any obstructions to prevent overheating.
+
+### Cleaning Guidelines
+
+Before cleaning, disconnect the appliance from the electrical supply. Allow it to cool completely before cleaning the surface. Use a damp cloth and mild household cleaners; avoid abrasive substances. If the appliance has heavy stains, consider using specialized cleaning agents.
+
+### Troubleshooting 
+
+If the appliance is not igniting, check the following: 
+- Ensure the gas supply is connected and switched on. 
+- Confirm that the appliance's rating matches the available supply. 
+- Look for clogs or debris around the burners that may affect functionality. 
+
+For service inquiries or assistance, contact Service Force at the provided channel, including their website for additional information. 
+
+### Technical Specifications
+
+```plaintext
+- Voltage: 230-240V
+- Appliance Class: II2H3+
+- Gas Supply: G20 (Natural Gas & LPG)
+- Burner Specifications:
+  - Rapid, Semi-Rapid, Auxiliary
+```
+
+### Installation Requirements 
+
+When installing the hob, ensure that it is positioned correctly with the necessary clearances from walls and surrounding surfaces, as specified in local regulations. The installation must comply with applicable standards and include proper earthing configurations.
+
+### IMPORTANT NOTICE ON EARTHING
+
+This hob must be earthed. Ensure that the power supply is connected to an AC system and that the type of switch used is compatible with the appliance’s specifications. Pay attention to the connections, using the appropriate wiring codes for Live (L), Neutral (N), and Earth (E) wires.
+
+For any additional support or technical queries, contact our customer service department. Follow all safety and operational guidelines to ensure proper function and longevity of the appliance.
+
+### Technical Paraphrase:
+
+**A. Earth Continuity Check**  
+- Confirm whether continuity is established. Test results: NO, YES, YES, NO indicates a fault. Rectification is required.
+
+**B. Insulation Check**  
+- Perform insulation verification and rectify where necessary. This applies to TAPS, IGNITOR SWITCHES, IGNITOR UNIT PLUG (ensuring Earth connectivity).
+
+**C. Polarity Check**  
+- Ensure correct polarity.  
+1. **Earth Continuity Check**: The appliance must be electrically disconnected. Conduct tests from earth to earth; connections should be tighter than other earth wires.  
+2. **Insulation Check**: Disconnect the appliance, turning switches ON.   
+    - If readings are measured, continue testing.  
+    - In case you encounter an infinity reading, take note that proper disconnection and examination are crucial. Look for indications of burning or arcing during inspection of sockets and fuses.   
+    - Ensure the electricity supply is satisfactory.
+
+**D. Electricity Supply Check**  
+- Verify connections from 'N' (neutral) and 'O,' as well as from 'L' (live) to switches. Cross-examine insulation of high-tension leads from switches back to the supply. Conduct a manual light check of the system.
+
+**Commissioning Procedures**  
+1. Set power to MAX then MIN and back to MAX.  
+2. If the light is extinguished, refer to the troubleshooting steps below.
+3. Adjust power settings to MIN, employing a thin screwdriver to secure necessary screws.  
+4. If the light remains steady and extinguishes upon adjustment, test the screw located at the injector's crown.  
+5. Turn off the supply and assess another reading. Documentation should indicate whether the adjustment aligns with specifications.
+
+**Conversion from LPG**  
+- Note: Confirm compatibility when changing settings. It is imperative to turn the injectors to 'OFF' before making the conversion. Ensure thorough checks are done with the injectors to match LPG specifications. 
+
+**CUSTOMER CARE**  
+- High Street, Slough, SL1 1DZ. Quality products and cleaning solutions are accessible in over **[MDM Forl]** countries globally, reinforcing our reputation as the world’s choice for excellence.
+

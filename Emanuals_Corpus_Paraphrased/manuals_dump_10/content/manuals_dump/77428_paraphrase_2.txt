@@ -1,0 +1,14 @@
+The CPC CO (P/N CO) is designed in compliance with ASHRAE and other efficiency standards, specifically for LCD applications and CO processing. Its microprocessor-based design ensures reliable long-term operation. 
+
+Mounting the device requires securing it with a screwdriver to the top of the mounting plate. It is essential to choose a location that allows for fresh air access, ensuring the unit is mounted at least 12 inches (30 cm) away from any obstruction. The installation can be done by using the mounting plate as a template and securing it with screws and anchors as needed. Note that the device should be oriented vertically for accurate readings.
+
+The three-terminal configuration allows connection to the I/O board, where the on-board relay is easily accessible. The CO unit operates using a 24VAC supply, typically rated at 3VA, with CPC recommending a 10VA, 110VAC Class transformer for operation. The CO connects to various I/O boards, such as 16AI or 8DO, allowing for integration into broader systems.
+
+Proper assembly involves ensuring the wires connect seamlessly to the I/O board. The on-board relay can handle higher voltage inputs, making it adaptable for various applications. Confirm connections for voltage sources, ensuring the unit's relay operates correctly, either in a normally-open or normally-closed state depending on CO levels.
+
+After mounting, ensure the board is correctly positioned, with all relay connections firmly established. The front switch determines operational modes, and for CPC I/O boards, this switch should be set accordingly. The CO unit's software interface includes an LCD display and three buttons for navigation and configuration. 
+
+Reassembly should conform to CPC guidelines, with periodic checks on CO performance every few years to maintain reading accuracy. Always follow the manufacturer's instructions when adjusting settings and interfacing with other systems. Users should validate voltage connections and settings through the interface, ensuring readiness for operation.
+
+Emerson TM and its associated trademarks recognize their respective ownership. The Product Information Sheet provides essential specifications and guidelines for successful installation and operation of the CO unit and its REFLECS equivalent components. Adjustments, particularly in relation to CO offsets, should follow documented procedures to ensure precision.
+

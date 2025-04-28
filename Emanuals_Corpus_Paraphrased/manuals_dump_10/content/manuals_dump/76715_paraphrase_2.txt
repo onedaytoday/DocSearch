@@ -1,0 +1,34 @@
+**ELK-129 Sound Card Interface Overview**
+
+The ELK-129 Sound Card Interface is compatible with various ELK models, including the ELK-120, ELK-124, and ELK-MV480. It comes with software for managing .WAV files, enabling playback and recording on the ELK-120 or ELK-124 systems. The package includes a software CD, a compact footswitch, and a warranty.
+
+### Specifications
+- Power Requirement: 12V DC or 20VA AC
+- Compatible Models: ELK-120, ELK-124, ELK-MM447, ELK-MV480
+
+### Application
+The ELK-129 facilitates sound recording and playback. Users can connect directly to the on-board microphone or utilize the audio input/output ports to avoid interference issues. The device allows .WAV files to be downloaded or played back from the ELK system.
+
+### Operation
+Initially designed for ELK-120 and ELK-124, the ELK-129 can also work with the ELK-MM447 or ELK-MV480 by adding the appropriate ELK-MK485 or ELK-MK400 interfaces. These interfaces require the corresponding software version to function correctly. The included Waveloader software enables file management for .WAV audio.
+
+To operate:
+1. Connect power (20VA recommended).
+2. Configure switches for CH1 or CH2 as needed.
+3. Enable recording by pressing the RECORD button on the system while using the built-in microphone.
+
+### Important Notes
+- The software provided requires specific setup instructions depending on the model.
+- Waveloader should be correctly installed from the included CD, and users should navigate to the directory containing their .WAV files for playback or recording.
+- Ensure all systems—microphones, switches, and outputs—are properly configured and powered.
+
+### Activations Related to ELK-129 Operation
+Recording intervals are adjustable via the SW1 dip switches. Different ELK models come with distinct recording capacities, which can be toggled with dip switches set to the ON position for active recording.
+
+### Included Items
+- 20VA AC power adapter
+- Shielded audio cable
+- Waveloader software for .WAV file management
+
+**Note:** Consult the specific instructions for each ELK model for optimal configuration and operation. Make sure to power the system appropriately and verify all connections for smooth functionality.
+

@@ -1,0 +1,143 @@
+**EMC Corporation South MA Corporate Headquarters 424-EMC2 Service SVC-4EMC EMC (DPE) Rackmount FC4500 Hardware Reference P/N**
+
+© EMC Corporation. This document is protected by copyright and may not be reproduced or distributed in any form without the written consent of EMC Corporation. The information provided is subject to change without notice and EMC Corporation assumes no responsibility for inaccuracies that may appear. EMC Corporation retains ownership rights to the software included in this document. All implied warranties of merchantability and fitness for a particular purpose are disclaimed. EMC Corporation is not liable for any indirect or consequential damages arising from the use or inability to use this information or products.
+
+EMC trademarks include MOSAIC:2000, Navisphere, The Company, The EMC Effect, EDM, SDMS, SRDF, PowerPath, and EMC Universal Access, among others. All other trademarks are the property of their respective owners.
+
+**Regulatory Notices:**
+This device complies with FCC regulations. To prevent interference, proper installation using shielded cables is required. This device has been tested and found to meet Class A standards for the FCC. Compliance also adheres to ICES-003, NMB-003, CE standards, and relevant Community Council Directives covering electromagnetic compatibility. 
+
+**Device Overview:**
+The EMC (DPE) Rackmount FC4500 is designed for high-performance and capacity using FC-AL as its interface. This allows direct connectivity to a DAE without a splitter (SP). 
+
+**Installation and Maintenance Procedures:**
+- Power down the system and disconnect the AC cord prior to making any changes.
+- Follow the specified procedures for removing and installing components including the SP, LCC, or memory units.
+- Consult appropriate chapters for additional technical specifications and procedures associated with rackmount management and installation.
+
+**Notices:**
+When dealing with hardware, always pay attention to safety warnings and tags, such as CAUTION, WARNING, and DANGER. Specific emphasis is provided through font styles to guide users on operational safety and actions.
+
+**Summary of Components:**
+- The DPE contains front-facing and operational integrity elements with built-in EMI shielding.
+- Direct access to customer-replaceable units (CRUs) is facilitated through designated locations.
+
+**Performance Indicators:**
+The DPE features indicator lights for operational status, including activity, link, and fault alerts. Each SP is equipped with multiple lights to provide real-time operational feedback.
+
+For routine operations, maintenance, and performance checks, the user is advised to consult the detailed reference materials provided in the associated chapters.
+
+The SP cools the DPE by transferring heat through the SP cover. The SP supplies operation to the acoustic system, and as the acoustic levels increase, the light indicator becomes brighter. During DPE operation, you will notice flashing LED indicators as each supply unit activates. If the load exceeds certain limits, alerts will be generated, specifically concerning the Rackmount Cards and associated light indicators.
+
+The Rackmount EMC (DPE) reference guide provides details on the functions of the SP and the DPE section. It also outlines the requirements for high-availability configurations and memory mirroring with DAE components, which enhance redundancy and reliability. Instructions are provided on managing cooling and power supply needs, emphasizing the importance of maintaining appropriate environmental conditions for optimal operation.
+
+This section also includes specifics on cabling and ratings, including input (VA) specifications and typical thermal outputs. The configuration must ensure compatibility with the DAE, maintaining consistency to prevent operational disruptions. 
+
+The document provides additional information regarding the physical ID assignments for FC-AL and the management of switchable distribution. It stresses proper handling during installation, including physical precautions against ESD, and offers instructions for secure mounting and adjustments of the DPE units.
+
+Warnings are included to ensure safety during the setup and operation of the Rackmount DPE, including the necessity for multiple personnel when dealing with heavy units. The guide also offers insights into turning off, locking, and maintaining the DPE to uphold its functional integrity.
+
+Instructions cover connecting the DPE to the DAE, and ensure proper configuration with LCCs for optimal data transfer. Particular attention is given to securing connections and verifying the status of the system before proceeding with further service actions.
+
+Finally, the guide highlights visibility of indicator lights for monitoring operational statuses, clearly delineating which lights correspond to various components within the DPE, and providing troubleshooting steps for suspected issues with the setup.
+
+### DPE Light Indicators and Servicing Instructions
+
+#### Light Indicator Overview
+The DPE (Data Processing Environment) includes a range of light indicators that provide status updates:
+
+1. **Activity Indicators**:
+   - Lights will be **active** when I/O operations are occurring.
+   - They will **flash** when the system is in a standby or offline mode.
+
+2. **DPE Status**:
+   - The DPE light signifies online activity, while specific indicators show when components like I/O are operational or inactive.
+   - A steady light indicates normal operation, while flashing may suggest firmware updates.
+
+3. **Service Processor (SP) Indicators**:
+   - The SP light remains **on** during normal operation and may **flash** when updating firmware.
+   - The LAN indicator is lit when Ethernet activity is detected.
+
+4. **LCC and Power Supply**:
+   - The LCC (Link Control Card) light indicates its operational status.
+   - The power supply indicator activates when power is flowing, while it **flashes** in certain fault conditions.
+
+#### Servicing Protocols
+During maintenance and servicing, adhere to the following best practices:
+
+1. **Static Precautions**:
+   - Always wear an ESD (Electrostatic Discharge) wristband to minimize static shock risks. 
+   - Ensure clear operational areas free of items that could generate static electricity, such as plastic wrappers.
+
+2. **CRU Handling**:
+   - Ensure that CRUs (Customer Replaceable Units) are properly sealed and EMI compliant.
+   - Keep doors and covers securely in place until servicing is about to take place.
+
+3. **Removal Procedures**:
+   - When removing components, follow specified unlocking and removal instructions carefully.
+   - Avoid applying excessive force to prevent damage.
+
+4. **Memory Installation**:
+   - When handling memory DIMMs, ensure static precautions are observed, and align notches correctly during installation.
+   - Ensure that all components are properly seated in their respective slots after servicing.
+
+5. **Power and Connectivity**:
+   - Disconnect power sources when servicing to prevent electrical hazards.
+   - Recheck all cable connections and configurations post-service to ensure system integrity.
+
+Following these guidelines helps maintain the system's integrity and operational performance while mitigating risks associated with static and improper handling.
+
+### DPE Servicing and Maintenance
+
+**A. Notch Orientation and Connector Seating**
+1. Ensure the notch of the connector is properly aligned.
+2. Secure the locking mechanism and verify that the connector is fully seated.
+
+**B. Reference to SP or SP EMC (DPE) Connectors**
+- For systems shipped without memory or with a specific connector, confirm the presence of the SP board.
+
+**C. Safety Precautions**
+- Always use ESD wristbands when handling SP or DPE components.
+- If operating multiple SP units, ensure the FC-AL ID is configured correctly. Refer to the provided guide for ID adjustments.
+
+**D. SP Installation Procedure**
+1. Access the back of the DPE and insert the SP connectors as illustrated.
+2. Once both SPs are installed, tighten the associated screws.
+
+**E. LCC Removal Process**
+- To remove the LCC:
+  1. Disconnect the LCC as per the EMC (DPE) guidelines.
+  2. Use an ESD wristband during removal.
+  3. Follow the steps for disconnecting and handling the GBIC connectors and any SP components.
+
+**F. LCC Reinstallation Procedures**
+- Reinstall the LCC carefully, allowing the Core Software to recognize it during the process. Maintain ESD precautions.
+
+**G. LCC Activity Indicators**
+- Monitor the steady activity lights; if they remain off after a few seconds, further investigation may be needed.
+
+**H. Reconnecting the LCC**
+- Follow the designated procedure to reconnect, ensuring an ESD wristband is utilized throughout the process.
+
+**I. Power Supply Management**
+1. Always turn off the power supply before removal.
+2. Follow the outlined procedure to detach the power supply, ensuring all connections are secure before re-engaging the system.
+
+**J. Technical Specifications**
+- The DPE's technical specifications document includes input/output parameters, interface details, and power requirements alongside safety certifications like IEC, UL, and CE directives.
+
+**K. Environmental Requirements**
+- Maintain the specified operational temperature and relative humidity to ensure optimal performance.
+
+**L. Component Terminology**
+- Familiarize yourself with industry terminology related to DPE components, like DAE, LCC, SP, and FC-AL, to communicate effectively about system components and their configurations.
+
+**M. Handling and Setup**
+- Follow the provided instructions carefully when setting up or modifying the hardware to prevent damage and ensure compliance with EMC standards.
+
+The FC field-replaceable unit (FRU) encompasses various components, including a host bus adapter (HBA), additional JBODs, and a DAE LCC CRU connected to the storage processor (SP). Each logical unit number (LUN) is associated with a specific RAID group and is managed by the SP’s memory, which facilitates communication within the chassis. This setup allows for streamlined operations without relying on FC_AL switching, while still integrating peripheral protocols like SCSI.
+
+In a rack-mounted environment, the power distribution unit (PDU) handles power supply to multiple outlets. Additional LUNs can be provisioned, utilizing power supplies (PS) A and B. The system can operate with or without a PLDA, enabling applications to function effectively alongside recognized interfaces.
+
+The SCSI interface, integrated with the SP and HBA, allows for bidirectional communication, while DIMM memory caches process data that can be efficiently written from the SP's cache. The SPS plays a critical role in managing temporary power supplies, supporting write operations to memory and ensuring system stability in response to application demands.
+

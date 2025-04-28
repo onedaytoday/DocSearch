@@ -1,0 +1,82 @@
+**EDR Models Overview: EDR-X04, EDR-X109, EDR-X116, EDR-X216, EDR-X416, and Remote 2003G**
+
+**ELMO DVR 2003G Version 2.07**  
+All rights reserved by ELMO. Unauthorized reproduction or distribution, in any form—mechanical, digital, or otherwise—requires written permission from ELMO and the publisher.
+
+**Product Information**  
+Thank you for purchasing the ELMO DVR. These instructions cover the functionalities of the ELMO DVR and ELMO DVR Remote software. For any inquiries or technical support, please contact our technical team. ELMO guarantees that this product meets its specifications and is free from defects in materials and workmanship for three years from the purchase date. This warranty only covers the product's drives; other components are excluded. Note that Compact (CP) components are warranted separately, and responsibility for service rests with the retailer. This warranty does not cover indirect costs or lost profits related to the purchase, installation, or use of this ELMO product.
+
+**Installation Guidelines**  
+When setting up the ELMO DVR, avoid placing it in areas with excessive heat, such as direct sunlight or near heating devices. Ensure there is sufficient space for ventilation and keep the device away from microwave or wireless signal interference. 
+
+**Product Components**  
+Included with your ELMO DVR are the DVR unit, ELMO DVR software, AC adapter, and telephone interface. 
+
+**User Interface Overview**  
+The rear panel of the DVR has various connection ports. To access functions, you can double-click the ELMO icon. User information is accessible from the right-hand menu, and for security, it is advised to change access credentials. 
+
+**Motion Detection Features**  
+The DVR includes a function that allows you to search through recorded footage and playback, which can also incorporate motion detection, point of sale (POS) integration, and metadata. 
+
+**System Configuration**  
+You can configure motion detection settings based on specific criteria such as detection zones, sensitivity levels, and recording schedules. 
+
+**Recording Options and Management**  
+There are various recording modes available, including motion-activated, continuous, or scheduled recordings. Ensure you configure the type of recording that fits your security needs.
+
+**Emergency Protocols**  
+In case of an emergency, the system can notify you via chosen communication channels (LAN/PSTN/LEASED CIRCUIT). Configure these settings to enable instant alerts.
+
+**Technical Information**  
+Enter your server ID and location details in the settings for optimized performance. The DVR supports various image formats, such as JPEG or BMP, based on your configuration selections. 
+
+**Audio Recording Capabilities**  
+The DVR can also capture audio through a microphone, enhancing the value of recordings. Adjust audio settings as necessary to ensure functionality.
+
+**Authentication and Security Features**  
+For enhanced security, enable authentication for remote access. Follow the procedure outlined in the user manual to set this up effectively.
+
+By understanding these features and following installation guidelines, users can maximize the performance of their ELMO DVR system for security and monitoring needs.
+
+### ELMO USER MANUAL 2003G
+
+To manage audio settings associated with the PC, select the format (NTSC or PAL) for optimal communication. Click on the “Sound” option to activate sound features; this enables the system to respond accordingly. The ELMO DVR provides P/T/Z functionalities and tracking options. 
+
+To enable tracking, choose the desired setting. This motion detection feature will activate when movement is detected. Follow the instructions in the relevant section to customize these settings.
+
+The manual also outlines the steps for formatting storage. When ready, click the formatting button, select NTFS or FAT32 for security, and confirm. Ensure you know where the DVR stores its data.
+
+To review recorded activity, navigate through the Records section, where you can filter by month and username. Use the navigation options to access specific recorded activities.
+
+Adjust the system’s brightness and background refresh rate accordingly, with a maximum refresh time of 1800 seconds. Detection settings can be tuned for sound wave detection, which activates when movement is sensed. Settings for threshold and SMTP configurations must be completed to enable full functionalities.
+
+For encrypted recordings or AVI formats, ensure sufficient space on your CD-R, as at least 650MB is required. Search and backup options are provided to manage these recordings effectively.
+
+For snapshot functionality during playback, select the Snapshot option and confirm your choice. This feature allows graphical outputs in formats such as JPEG.
+
+To create schedules, access the scheduling options via the interface. Specify settings for immediate actions or hourly priorities as needed.
+
+To search recorded content, use the DVR software interface. You can filter searches based on date and type of recording (continuous or motion). Numerous buttons are designated for detailed search capabilities.
+
+Lastly, the PAC functions allow text overlays for detected motions, improving clarity during playback. Adjust text formatting and background color for optimal visibility.
+
+Ensure all settings and functionalities are correctly set to maximize the use of the ELMO DVR and its remote capabilities.
+
+### ELMO USER MANUAL 2003G
+
+**Remote Access and Search Functionality**  
+The ELMO DVR Remote software enables users to remotely access previously recorded footage or files stored on CD-R/CD-RW. It allows for configuration to specify search parameters, facilitating connection to the DVR through the current IP address of either a motion-detected event or an active emergency. Users can utilize the software to create a connection, spending time to specify acceptable parameters via an intuitive interface.
+
+To connect, users need to input the appropriate IP address, which can be verified through services like www.123ip.com. Upon following the necessary steps, the ELMO DVR screen will display relevant data, prompting the creation of new user groups, which are customizable based on character input.
+
+Users can also establish or stop connections to ELMO DVR while ensuring that ultimately, the software is responsive to the current network state. Should a user's needs change—like wanting to discontinue a session—they can easily execute the disconnection process via the interface.
+
+**Recording and Playback Options**  
+The software allows extensive recording options depending on user needs. When recording, users can choose from various formats, including Snapshot, Encrypted, or AVI. They can initiate a recording session, select multiple options as needed, and all recorded data is automatically saved to the selected format.
+
+While the ELMO DVR Remote is in use, users can search through recorded data, both on local devices and remotely from the DVR. The system is capable of identifying previous sessions quickly and can facilitate choosing specific footage for playback. Playback controls are simple, allowing users to navigate through recorded files effectively.
+
+Communication over the ELMO DVR Remote can be managed via phone or LAN. Users may opt for a Read-only mode that provides them with secure viewing rights. The software supports multiple TCP/IP configurations to enhance network interaction. 
+
+For further instructions on utilizing these features, refer to the relevant sections in the manual.
+

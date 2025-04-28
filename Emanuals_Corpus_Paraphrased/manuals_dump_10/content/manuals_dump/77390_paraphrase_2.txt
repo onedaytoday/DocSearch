@@ -1,0 +1,484 @@
+**VSS VSR VSM Screw and Service Instructions**
+
+**Important: Read Before Compressor Installation and Operation**
+
+Please carefully follow the installation guidelines for optimal performance of your screw compressor. Adhering to these instructions is essential to ensure satisfactory operation. Any service inquiries or issues should be directed to qualified personnel. Installations must meet the specified safeguards to prevent damage. If any deficiencies are detected during transportation, it is crucial to report them immediately to the transportation company, and any necessary corrections must be made to avoid serious or costly issues. For service-related inquiries, contact:
+
+**VILTER Customer Service**  
+P.O. Box South, WI USA  
+Telephone: [Insert]
+
+**Warranty Information and Troubleshooting**
+
+The warranty for the screw compressor covers workmanship and materials for 12 months from the date of installation or 18 months from manufacturing, whichever occurs first. In the event of defects within this warranty period, VILTER will repair or replace the product at its discretion. Claims must be reported promptly, within the warranty period, and sent to the factory for processing. Transportation costs related to warranty claims will be addressed per guidelines.
+
+This warranty does not cover issues resulting from normal wear and tear, misuse, or overloading beyond specified capacity limits, including operation in unsuitable conditions. The warranty is exclusive and replaces all other representations or warranties, express or implied, including merchantability or fitness for a particular purpose.
+
+**General Operation Guidelines**
+
+Ensure all maintenance procedures are followed as outlined in the product manual to preserve integrity and performance. If applicable, take precautions against adverse environmental conditions. Secure all units properly to prevent any movement during operation. Precautions must be taken regarding heater installation and monitoring of holding charges.
+
+For compressors, the operation relies on intermeshed screw assemblies. The design allows for efficient intake and compression of gas. Regular checks of the system, especially concerning lubricating and cooling systems, are critical for maintaining operational reliability and longevity.
+
+**Foundation and Installation Requirements**
+
+Proper foundations must be established, considering mounting points, anchoring, and clearance around the installation site. It is critical that the unit is securely anchored to minimize vibration and ensure stability during operation. Regular monitoring is essential for all components to prevent functionality issues.
+
+By adhering to these guidelines and recommendations, the system's efficiency and reliability can be maximized, ensuring effective operation.
+
+Certainly! Here’s a technical paraphrase of your provided text while retaining its original meaning:
+
+**Purchase Agreement and Disclaimer Notice**
+
+This document outlines the terms associated with the purchase from the LLC, specifically regarding the performance and provision of the related information. It is essential to acknowledge that the information provided is without any guarantee. The warranty details and specifics are integral to this agreement.
+
+Before lifting and rigging the compressor, it is crucial for purchasers to consider multiple factors, including proper training for all personnel involved. This is to ensure safe operations and adherence to safety protocols.
+
+**Disclaimer**
+Only qualified individuals should operate the compressor, referring to charts and inspection protocols outlined below. This includes an assessment of fitness for duty through required testing. Ensure that expectations and specifications are clearly communicated to all mechanics and personnel involved. Confirm that all operations comply with the necessary regulations to avoid potential hazards. 
+
+**Inspection and Coordination**
+Inspect all attachments and verify compliance with safety regulations. This includes specific attention to lifting equipment like outriggers and ensuring that all related inspection records are maintained.
+
+**Testing and Balancing**
+Prior to operation, ensure the compressor is tested and balanced correctly. If adverse weather conditions are present, halt operations. Maintain a close watch for any potential hazards while managing the compressor's positioning.
+
+**Contact Information**
+Please direct any inquiries or feedback to Vilter at [contact details].
+
+**I. Delivery Inspection**
+Upon delivery, the unit should be thoroughly inspected to confirm its mechanical integrity. Any discrepancies should be reported immediately to the authorized dealer. 
+
+**II. Foundations**
+Foundations for the compressor must be properly assessed to ensure they can support the unit during operation.
+
+**III. Unit Alignment**
+Follow ASHRAE Mechanical guidelines for mounting position and alignment of the drive coupling, ensuring that the compressor is securely installed.
+
+**IV. System Piping**
+The piping should be compliant with ANSI/ASME B31.5 standards. Care should be taken to ensure proper thread cleaning and use of appropriate thread compounds, ensuring flexibility and integrity in service.
+
+**V. Electrical Connections**
+Ensure that all electrical connections are carried out correctly according to specified guidelines. Any field-mounted components must be properly integrated with the battery.
+
+**VI. Refrigeration System Testing**
+Conduct thorough leakage testing in accordance with ANSI standards. The correct pressure and temperature parameters must be maintained throughout the testing process.
+
+It is essential to follow all safety instructions and maintenance practices for optimal operation and to avoid costly repairs or safety incidents. Ensure that any repairs maintain the integrity of the system before resuming normal operations.
+
+To enable efficient operation and reduce operational hours in this reading, adjust the setup accordingly. Power down the system when not in use and adhere to the instructions to maintain optimal performance below specified hours. Manage weight allowances to ensure safety, charging the system correctly per the guidelines outlined. Always follow the designated procedures for starting the system.
+
+During evacuation, ensure the heating components are positioned correctly. Monitor water collection, directing it as needed to prevent issues. This process should be repeated as necessary, with particular attention to unit VII.
+
+### UNIT OIL CHARGING
+The oil charge must match specifications before shipping. Utilize a manual charger or the manual operating system to facilitate this process. Charge through the suction side while maintaining system visibility as indicated in the associated TABLE OIL CHARGE. Specifically, monitor pressure levels between VSR and VSM units, ensuring proper function.
+
+System inspection is crucial before operation. Verify that all supplied cooling systems are correctly set and check rotation and tension of motors and components. Maintain appropriate cleaning and maintenance schedules for optimal performance.
+
+### INITIAL AND HIGH CHARGING PROCEDURES
+For initial high charging, adhere to outlined methods to achieve recommended charge levels. Ensure safety and operational compliance during this phase. Proper monitoring of sight levels allows for adjustments as needed. 
+
+### MAINTENANCE SUGGESTIONS
+A rigorous maintenance schedule is essential for uninterrupted operation. Regularly clean strainers and replace any worn components. Monthly checks should focus on mechanical integrity and cleanliness of cooling systems. Trimonthly evaluations (approx. every operating hours) are recommended for comprehensive checks. 
+
+Utilize thread compounds during assembly and ensure proper tightening. Inspect internal components yearly to mitigate risks during operation. 
+
+### INSTALLATION AND COUPLING INFORMATION
+Follow precise instructions for coupling installation and alignment. Clean all surfaces before assembly, ensuring the bore is straight. Utilize proper heating methods if expansion is necessary, avoiding localized heating to prevent distortion. 
+
+Address any misalignment issues promptly and conduct thorough checks of operational spacing to reduce waviness effects. Properly fitted couplings enhance performance and minimize operational disruptions.
+
+By maintaining these procedures and guidelines, you will optimize system functionality and achieve longevity in service. For further information, always refer to the specific sections for detailed protocols.
+
+### Installation Instructions
+
+**IMPORTANT**: When installing the Optical Slide Motor, first loosen the locking collar before sliding it down the shaft. Avoid using a screwdriver to force the locking collar into place.
+
+**Overview**: The VDC is located in the housing, and the calibration is crucial for ensuring proper functionality. This documentation instructs users on the operational parameters.
+
+**Note**: The actuator motor control module requires calibration, including the selection of the desired operating mode. If the device is completely powered off, ensure it is correctly mounted before proceeding with any adjustments. 
+
+The wiring diagram shows the AC and DC connections, with external tie-wraps securing the setup. Inspect to ensure that connections from DC to AC are managed correctly, as improper connections can affect performance.
+
+When adjusting the system, follow the calibration steps to accurately gauge and set output voltage levels. The LED will indicate operational states, lighting up to display 0V or 5V as appropriate during the calibration process.
+
+**Calibration Process**: 
+1. Disconnect the cover gently, ensuring you do not damage connected wires.
+2. Access the LED indicator and monitor conditions.
+3. Use the INC and DEC buttons to adjust the angular rotation of the actuator and observe real-time feedback.
+4. Confirm successful calibration as indicated by the LED.
+
+**Troubleshooting**: 
+- If issues arise, verify connections at the optocouplers and other electrical components.
+- Clean optocouplers and circuit boards to prevent electromagnetic interference (EMI).
+- Ensure the thermal switch functions correctly and is not tripped from overheating.
+
+Certain ambient conditions, like strong light, may impact operation, particularly if the cover is removed. Always consult with authorized personnel regarding thermal switch behavior. Any discrepancies must be rectified as this may void the warranty and affect performance.
+
+**Important Reminder**: Modifications made without adherence to the specified guidelines may impact equipment efficacy and warranty coverage. Always prioritize proper calibration and installation practices to maintain optimal functioning.
+
+### OIL SYSTEM
+
+**A. Charging Procedure**
+Charge the system as outlined in Section [X]. Ensure the receiver is charged adequately to maintain optimal heater operation. Monitor the sight glass closely; if the level drops below the lowest indicator, the suction operation could be compromised. Watch for the indicator to rise above the highest level during operation, as this could signal an issue.
+
+**B. Maintenance Schedule**
+For the first few hours of operation, perform checks as noted in the hour documentation. Subsequently, conduct maintenance every few months or when the system reaches specific thresholds, whichever comes first. To service the housing, ensure the VSG Units 1833C are isolated properly. Follow the necessary safety protocols during housing service. Open the cover by unscrewing it fully, and upon reassembly, ensure all components are tightly secured to maintain operational integrity.
+
+**C. Coolant System Overview**
+The system utilizes either water-cooled or air-cooled heat exchangers. The cooler is mounted locally and allows for bypassing as needed. Figure [X] presents a typical water-cooled oil cooler diagram. Ensure proper flow direction to avoid operational issues. The system should initially be installed with the flow direction correctly oriented to maintain efficiency.
+
+**D. Electrical System**
+The control panel operates on a feedback loop to monitor closed and open flow conditions, utilizing either 120V or 24V supplies. Ensure that during operation, the system permits efficient feedback to maintain conditions as required; this includes monitoring the injection cooling processes adequately.
+
+**E. Restarting Protocol**
+When restarting the system, ensure that all suction valves are correctly set before activating the On-Off switch. Maintain a close watch on system ratios and address any conditions that fall below the desired operating levels. Following the prescribed instructions for both manual and automatic operations is crucial.
+
+**F. Amperage Protection**
+The system is equipped with amperage protection to prevent overloading. The heater requires proper management to avoid excess heat buildup. Ensure the heater functions correctly and is disabled when necessary.
+
+**G. Compact PLC Operation**
+The Compact PLC 35391CL oversees system operations, monitoring suction levels and maintaining operational thresholds. Ensure that conditions are suitable for startup to avoid potential failures.
+
+**H. Pre-Operational Checks**
+Before commencing operations, verify all components are ready for service. Make sure that all items are checked off and documented in accordance with warranty service protocols. Trained Technicians should conduct these checks to ensure compliance with operational standards and ensure a smooth commissioning process.
+
+### NOTE:
+If a service has been acquired, the following items should be completed before the technician's arrival. Ensure financial matters are settled. All mounting and suction connections must be secure and adequately supported. The Stop/Check valve should be shipped and positioned appropriately according to guidelines to regulate downstream flow. Installation should comply with ASHRAE/ANSI standards related to Cooling Injection in dedicated systems. All high connections must lead to the Thermostatic V-PLUS to maintain functionality and suction stability. For thermosyphon coolers, connect to the front head; for water-cooled systems, use the same point. Ensure proper sight glass alignment for charging and that couplings are installed for field use, allowing sufficient clearance for technician access.
+
+### FIELD WIRING REQUIREMENTS FOR UNITS WITH FACTORY-WIRED VISION MICROPROCESSORS:
+If service is requested, the following tasks should be completed upon the technician's arrival. The units are factory pre-wired. The input voltage should be 208/230 VAC, 60 Hz, connected to the I/O board where L1 connects to the designated terminals. Ensure L1A connects to the N terminals and that the heaters are wired correctly to L2 and L3. With V-PLUS cooling, L1 and L1A must connect to their respective terminals. Isolate K-1 relay inputs accordingly to the top safety circuitry. Ensure proper wiring layout for relays and functionality checks are conducted, ensuring leads pass through the designated hubs clearly.
+
+### PRE-STARTUP CHECKLIST FOR VRS/VSS/VSM SINGLE SCREW COMPRESSORS:
+Confirm flow direction aligns with valve arrows and adjust settings as per the provided chart. Ensure that manual controls are positioned as required, allowing for appropriate suction flow.
+
+### GENERAL COMMENTS:
+Ensure the unit is serviced without power. Close the switch and ensure isolation from the suction line. Properly close the Suction Bypass valve. Before removing the compressor, ensure all components are systematically detached, ensuring no residual charge remains. Carefully document clearances during removal and installation.
+
+### INSTALLATION OF THE COMPRESSOR:
+Once installation is complete, ensure proper alignment of the compressor feet. Fine-tune any necessary adjustments to ensure clearances are maintained as per specifications.
+
+### LEAK CHECKING UNIT:
+Assess for leaks following internal supply isolation. Document any breaks and perform necessary repairs.
+
+### COMPRESSOR INSPECTION:
+Conduct yearly inspections to ensure components operate freely, observing for wear that needs attention. Follow established procedures for checking bearing conditions and conduct regular assessments.
+
+### GATE ROTOR ASSEMBLY:
+Adhere strictly to service instructions during assembly and disassembly. Ensure all parts are in place before reassembly. Follow outlined steps meticulously to prevent misalignments and ensure correct functioning.
+
+### SERVICE REMOVAL (ALL VSM MODELS):
+Take note of specific assembly techniques during servicing. Remove components carefully to prevent damage. Execute clearances checks on thrust bearings and follow documented guidelines for installation and adjustments to ensure proper operational performance.
+
+### Clearance Measurement and Adjustment
+
+D) To determine the clearance, measure the distance from the top of the shelf to the top of the thrust housing. This measurement indicates the necessary clearance. The factory recommends adjusting the housing cover without the O-ring for the tightest fit. It is important to ensure that the clearance is adjusted to be snug without being excessively tight against the shelf. 
+
+E) Once the clearance is set correctly, apply thread sealant to the head screws connecting the thrust housing cover according to the manufacturer's specifications.
+
+F) Tighten the housing cover to the recommended torque settings, as detailed in the service manual.
+
+---
+
+### Gate Rotor Blade Removal
+
+A) Begin by removing the assembly.
+
+B) Detach the washer from the assembly.
+
+C) Carefully take the assembly off.
+
+---
+
+### Gate Rotor Blade Installation
+
+A) Position the bushing in the back of the assembly, ensuring it is seated correctly.
+
+B) Align the assembly with the locating washer.
+
+C) After assembling, ensure there is an adequate amount of clearance.
+
+D) Measure the clearance as outlined in the service section.
+
+---
+
+### Gate Rotor Thrust Bearing Removal
+
+A) Refer to the section on INSTALLATION VSS for thrust housing removal.
+
+B) Detach the thrust bearing from the housing.
+
+C) Remove the thrust bearings carefully.
+
+---
+
+### Gate Rotor Thrust Bearing Installation
+
+A) Insert the thrust bearings into the housing gently, ensuring proper seating.
+
+B) Align the thrust bearings so that they fit easily into the housing.
+
+---
+
+### Gate Rotor Roller Bearing Removal and Installation
+
+A) Check the section on REMOVAL VSG for housing removal.
+
+B) Detach the roller bearings from the housing.
+
+C) During installation, match the inner bearing components to the outer housing.
+
+---
+
+### Compressor Shaft Seal Replacement
+
+**Removal:**
+
+A) Follow the outlined procedures for servicing.
+
+B) Loosen the cover from the threaded attachment.
+
+C) Rotate to free the cover.
+
+D) Detach the stationary component from the cover.
+
+E) Safely remove both stationary and rotating seals.
+
+---
+
+**Installation:**
+
+A) Insert the stationary seals into the assembly.
+
+B) Ensure the components are clean to avoid contamination.
+
+C) Carefully place the rotating seal, ensuring it fits correctly against the input shoulder.
+
+D) Confirm that both seals are seated properly before reassembly.
+
+---
+
+### Main Rotor Assembly Inspection
+
+Refer to proper procedures for thorough inspection of slide valve assemblies in the compressor. Use a flashlight to check for wear, ensuring all clearances are within specified limits. Report any discrepancies to the factory.
+
+---
+
+### Command Shaft Assembly Removal and Installation
+
+Follow the correct procedures for removal and installation, ensuring all parts are aligned and secured with the recommended screws. Apply rational pressure to avoid any damage during reassembly.
+
+---
+
+### Discharge Manifold Removal and Installation
+
+A) Detach the charge from the system while observing appropriate safety protocols.
+
+B) Align and secure the manifold during installation, ensuring a tight fit.
+
+---
+
+### Slide Valve Gear and Rack Inspection
+
+Measure clearances and adjust accordingly, verifying that all components fit tightly and without excessive wear.
+
+---
+
+### Capacity or Volume Cross Shafts
+
+Follow the manufacturer’s guidelines for removal and installation, ensuring that all parts are correctly aligned during reassembly.
+
+---
+
+### Torque Specifications
+
+Refer to the table of torque specifications for bolts made from different materials, and ensure that red and blue Loctite are applied as per the current guidelines on the fasteners.
+
+### Proper Torque Wrench Usage
+
+Correct utilization of a torque wrench encompasses four main aspects:
+
+A. **Smooth Operation**: Ensure that the wrench does not engage prematurely. Use it smoothly until the specified torque is achieved.
+
+B. **Incremental Tightening**: Generally, bolts should be tightened incrementally as specified to prevent cracking or damaging threads.
+
+C. **Thread Integrity**: Always verify whether the amount of torque needed aligns with the recommended specifications.
+
+D. **Ratchet Mechanism**: Be mindful of the ratchet's directional switch so that it functions correctly when used clockwise or counterclockwise.
+
+### Service for Torque Wrenches
+
+A. Ensure that both washers are properly mounted to the VSG and VSSG screws. 
+
+B. Verify that the washers are assembled correctly for optimal contact.
+
+C. After manual tightening of the washer, apply force as necessary to prevent displacement during operation. 
+
+### Oil Filter Elements Overview
+
+The following outlines the characteristics of various oil filter elements, including models VSS, VSR, and VSM (1833C):
+
+- **Material Construction**: Each element is typically covered with a perforated layer for durability. The housing may be equipped with a removable cover for maintenance. Some models may offer optional housing configurations.
+
+### KT Filter Elements Specifications
+
+For models KT 2176BU and KT 2176AJ, the elements possess a pleated design for improved filtration.
+
+**interchangeability**: Components are designed to be compatible across various applications.
+
+### Inspection and Service Intervals
+
+Systematic inspection of screws and components related to the oil circuit package, including suction coupling integrity, and calibration of transducers and RTDs, is critical. 
+
+**Service Note**: Maintain cleanliness standards and conduct inspections either continuously or annually.
+
+### Recommended Parts Summary
+
+The list below outlines replacement kits and individual parts needed for various functions, including:
+
+- Gate Rotor Blade and Bearing Replacement Kits
+- Gaskets and Shim Packs
+- Various bearings, retainers, and seals
+
+**Note**: Ensure that part numbers and quantities match the specifications for proper assembly and maintenance. 
+
+This summary ensures clarity and provides structured guidance on the use, service, and replacement of essential components.
+
+**Assembly Model Numbers and Item Descriptions**
+
+**Assembly Components:**
+- **VSS Carriage Assembly:** 
+  - A25179B Capacity Piston 
+  - A25183B Volume Piston 
+  - A25184B Gasket Set 345B 
+  - A25200B Rack
+  - Additional Racks: 25024A, 25023A
+  - Covers: 343A Separate Volume Capacity, 343B One-Piece Cast 
+  - Gaskets: 345A Separate Volume Capacity Covers, 345B One-Piece Cast Cover 
+  - Other Components: Piston Ring Set (25900A), Expansion Pin (2953AA), Pipe Plug (1193PP), Lock Washer Pair (3004C), Washer (13265B)
+  - Hex Head Cap Screws: 366A Separate Volume Capacity Covers, 366B One-Piece Cast Cover
+
+- **Additional Variants (A25179C, A25179D, etc.):**
+  - Include similar components with updated model numbers for capacity and volume pistons, racks, covers, and gaskets.
+  
+**Command Shaft Assembly:**
+- **Model Numbers:**
+  - A25994B to A25994E Command Shaft Assembly
+  - Slide Valve Actuator: 25972D
+  - O-Ring: 2176X
+
+**Gasket and O-Ring Kits:**
+- **Model Number: KT710A1 to KT710D**
+  - Contains flanges, gaskets for various parts such as the Economizer Port, Manifold, and suction/discharge flange gaskets.
+  - Items also include hex head cap screws and dowel pins.
+
+**Gaterotor Tools:**
+- **Model Numbers: A25205C, A25205E:**
+  - Gaterotor Stabilizer Sets with variants.
+
+**Support Assembly Components:**
+- **Support Assembly (135B):**
+  - Various items related to assembly such as the gate rotor damper assembly, shim pack set, and retainer components.
+  
+**General Notes:**
+- The assembly configurations include multiple versions with specific part numbers, each tailored for distinct applications or variations.
+- Ensure all components are compatible with respective assembly configurations as indicated by the model numbers.
+
+This paraphrasing retains the original meaning while aligning it to a more technical and structured format.
+
+### Item List and Descriptions
+
+**Model Number | Description | VSM Qty | VPN**  
+- **Main Rotor Assembly**: A25226AB | A25226AA | A25226AC  
+- **Oil Baffle Assembly**: A25942AA (all variations)  
+- **Shim Assortment**: A25177A (all variations)  
+- **Oil Baffle Plate**: 25938A (all variations)  
+- **End Plate**: 25719D (all variations)  
+- **Shaft**: 25941A (all variations)  
+- **Gear**: 25027A (all variations)  
+- **Clamp**: 25913A (all variations)  
+- **Spacer**: 25847A (all variations)  
+- **Shims**:  
+  - 25409AA (all variations)  
+  - 25409AB (all variations)  
+  - 25409AC (all variations)  
+  - 25409AD (all variations)  
+- **Teflon Ring**: 25939A (all variations)  
+- **Check Valve**: 3120A (all variations)  
+- **Check Valve**: 3120B (all variations)  
+- **Retaining Ring**: 2829M (all variations)  
+- **Expansion Pins**:  
+  - 1193D (all variations)  
+  - 2981AA (all variations)  
+- **Solid Plug**: 25422A (all variations)  
+- **Hex Head Cap Screw**: 2796N (all variations)  
+- **Socket Head Cap Screw**: 2795F (all variations)  
+- **Set Screws**:  
+  - 2060J (all variations)  
+  - 2060H (all variations)  
+
+*Note: Not illustrated. Required for Rotor Plate VSM Clockwise/Counterclockwise operations only.*
+
+---
+
+**Model Number | Description | VSM Qty | VPN**  
+- **Main Rotor Assembly**: A26010BB | A26010BA | A26010BC  
+- **Oil Baffle Assembly**: A26034B (all variations)  
+- **Shim Assortment**: A25177B (all variations)  
+- **End Plate**: 26025B (all variations)  
+- **Shaft**: 25843A (all variations)  
+- **Gear**: 25027A (all variations)  
+- **Spacer**: 25847A (all variations)  
+- **Shims**:  
+  - 25255AA (all variations)  
+  - 25255AB (all variations)  
+  - 25255AC (all variations)  
+  - 25255AD (all variations)  
+- **Teflon Ring**: 25929B (all variations)  
+- **Check Valve**: 3120A (all variations)  
+- **Check Valve**: 3120B (all variations)  
+- **Retaining Ring**: 2928N (all variations)  
+- **Washers**:  
+  - 25977E (all variations)  
+  - 25977F (all variations)  
+- **Expansion Pins**:  
+  - 1193D (all variations)  
+  - 2981AA (all variations)  
+- **Hex Head Cap Screw**: 2796B (all variations)  
+- **Socket Head Cap Screw**: 2795D (all variations)  
+- **Set Screws**:  
+  - 2060J (all variations)  
+  - 2060H (all variations)  
+
+*Note: Not illustrated. Required for Rotor Plate VSM operations, clockwise only.*
+
+---
+
+### Assembly and Components
+
+**Model Number | Description | All VSM Qty | VPN**  
+- **Carriage Assembly**: A25179A | A26012B  
+- **Capacity Piston**: A25183A | A25183B  
+- **Volume Piston**: A25184A | A25184B  
+- **Capacity Rack**: 25023D | 25024A  
+- **Capacity Rack Shaft**: 25772C | 25772A  
+- **Volume Ratio Rack**: 25023C | 25023A  
+- **Volume Ratio Rack Shaft**: 25772D | 25772B  
+- **Piston Ring Set**: 2953AE | 2953AA  
+- **Lock Washer (Pair)**: 3004C | 3004C  
+- **Washer**: 13265B | 13265B  
+- **Nut**: 2797A | 2797A  
+- **Socket Head Cap Screw**: N/A | 2795M  
+
+*Note: Not illustrated. Every component contributes to the functionality of the ratio and capacity assemblies.*
+
+---
+
+**Warnings and Important Notes**  
+For remote oil coolers, please read carefully before proceeding. Follow all warnings, bearing requirements, and warranties. Ensure proper operation settings and manual procedures are adhered to for optimum performance.
+
+---
+
+**Company Information**  
+LLC P.O. WI [www.vilter.com](http://www.vilter.com) | Emerson LLC or its affiliates. All rights reserved. Printed in the USA. Model Number 35391S.
+

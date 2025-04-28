@@ -1,0 +1,100 @@
+## Touchmonitor 1939L LCD Rear-Mount Touchmonitor
+
+**Model**: Optional Revision C P/N E824781  
+**Technical Support**: 1-800-ELOTOUCH  
+**Website**: www.elotouch.com  
+
+This publication contains proprietary information from ELO Touch Solutions and its affiliates. It may not be reproduced, distributed, or modified in any form without written permission from ELO Touch. ELO Touch reserves the right to change the specifications and information contained herein without notice. Please note that any references to trademarks or other intellectual property belong to their respective owners.
+
+### Introduction
+The 1939L Touchmonitor utilizes an active thin-film-transistor (TFT) LCD to deliver high-quality SXGA graphics and optimize performance. It includes features that enhance compatibility with various operating systems, including Windows XP, NT, and MS-DOS.
+
+### Installation and Setup
+This section outlines the setup process for the LCD Touchmonitor and related software. The package includes:
+- Touchmonitor
+- USB Cable
+- Quick Start Guide
+- Software CD
+
+**Installation Steps**:  
+1. Ensure that both the Touchmonitor and the PC are powered off before connecting.
+2. Connect the touchscreen using either RS232 or USB interfaces.
+3. Secure all connections by tightening screws clockwise.
+4. Connect power to the monitor (requires 12V DC, 4A).
+
+### Software
+The accompanying ELO software allows integration with various operating systems. To install it:
+- Insert the software CD into your computer's CD-ROM drive.
+- Follow on-screen prompts to complete the installation for both RS232 and USB configurations.
+
+### Operation
+To optimize the Touchmonitor's performance, ensure it is correctly configured for your display settings. Refer to the on-screen display (OSD) functionality for adjustments such as brightness, contrast, and input selection.
+
+- **OSD Functionality**: Use the buttons to navigate through options, adjusting settings by selecting items and following prompts.
+
+### Troubleshooting
+If issues arise with the Touchmonitor:
+1. Verify power connections and ensure the monitor is switched on.
+2. Check for proper connection of all cables.
+3. Refer to the Common Issues section in the manual for specific error codes and resolutions.
+
+### Safety Information
+To ensure safe operation, always adhere to the guidelines specified in the installation and operation sections. Disconnect power if any maintenance or cleaning is needed. If the monitor displays erratic behavior, refer to the troubleshooting guidelines first or seek professional assistance.
+
+---
+
+This paraphrase maintains the original's technical details and structure while presenting the information in a clearer and more organized manner.
+
+### Touchmonitor Guidelines
+
+**Operating Instructions:**
+To ensure safety and effectiveness, it’s essential to follow the prescribed cleaning and maintenance procedures for the touchmonitor. Users should avoid using scrubbing materials or chemicals like thinners that could damage the touchscreen. Instead, a soft cloth should be used for cleaning. Do not apply cleaners directly to the screen's surface.
+
+**Safety Warning:**
+This device contains mercury in the backlight. It must be properly disposed of in accordance with relevant European directives for household recovery and recycling.
+
+---
+
+### Touchmonitor Specifications (Model 1939L)
+
+- **Display Type:** 1939L LCD TFT Active
+- **Resolution:** 376(H) x 301(V)
+- **Pixel Pitch:** 0.294(H) x 0.294(V)
+- **Supported Resolutions:** CGA, VGA, SVGA, XGA, SXGA
+- **Brightness Levels:** Typical brightness values for different touch technologies include:
+  - CarrollTouch 
+  - Capacitive
+  - SecureTouch
+  - AccuTouch
+  - Acoustic
+- **Color Support:** 16.7 million colors
+- **Connectivity:** TTL or negative through a rear connector
+- **On-Screen Display (OSD) Languages:** English, Spanish
+- **Power Requirements:** AC 100-240V
+- **Environmental Conditions:** Operating Temperature 0°C to 50°C; Humidity 20% to 80%
+- **Compliance:** UL, FCC-B, CE, VCCI, C-Tick, MPR II, TUV, CCC, BSMI, KC, NOM
+
+---
+
+### Regulatory and Immunity Information
+
+**USA Compliance:**
+The unit has been tested and meets Class A FCC standards for interference protection. Users are advised to adhere to the provided instructions for optimal performance.
+
+**EU Compliance:**
+Only certified cables and wiring should be used to ensure compliance with established directives (2004/108/EC, 2006/95/EC). 
+
+**Interference Troubleshooting:**
+If interference is experienced, users should attempt to reposition the device, disconnect from power, or contact a professional for assistance.
+
+---
+
+### Warranty Information
+
+The product is warranted against defects in materials and workmanship for three years from the purchase date. In case of warranty claims, users must notify the company in writing, ideally within thirty days of discovering any defects. The warranty covers repair, replacement, or credit for the purchase price of the product.
+
+**Limitations:**
+The exclusive remedy for any warranty breach is limited to refunds or replacements as specified. The manufacturer does not allow for any additional warranties, whether expressed or implied, regarding the product’s performance or fitness for a specific purpose. Liability for indirect damages or procurement costs from substitutions is expressly excluded. 
+
+For further information, including detailed specifications and support, please visit [ELO Touch](www.elotouch.com) or contact the North American office.
+

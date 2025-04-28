@@ -1,0 +1,84 @@
+### 1928L LCD Touchmonitor Revision Document
+
+**Product Name:** 1928L LCD Touchmonitor  
+**Part Number:** E116103  
+**Copyright Notice:** © TouchSystems. All rights reserved. Reproduction or distribution without written consent from TouchSystems is prohibited. The information herein may be subject to change without notice. The company explicitly disclaims any warranties regarding suitability for a particular purpose.
+
+**Safety Warning:**  
+To prevent electrical shock or fire hazards, do not open the unit. To reduce risk, avoid removing the back cover; servicing should be performed by qualified personnel only. Ensure all connections comply with safety standards, and power off the unit when connecting accessories. Choose components that meet IEC safety standards.
+
+**Operating Conditions:**  
+- Temperature range: 0°C to 50°C for operation; -20°C to 60°C for transportation.
+- Humidity: Non-condensing.
+
+**Technical Specifications:**  
+The 1928L features a TFT LCD display with a touch interface. It supports various resolutions including SXGA and allows for continuous operation. It is designed for environments free from anesthetic gases, classifying it as ordinary equipment.
+
+**Installation Instructions:**
+1. **Connecting Video:** Ensure both the touchmonitor and PC are turned off. Connect a video cable (DVI or VGA) from the PC to the touchmonitor, securing with screws.
+  
+2. **Connecting Touch Interface:** Use either the USB or RS-232 port for touch functionality. Again, ensure power is off when making these connections.
+
+3. **Connecting Power:** Route the power cable safely and connect to a grounded outlet. 
+
+4. **Software Setup:** The touchmonitor is compatible with multiple operating systems and includes software for configuration on the supplied CD.
+
+**Operational Guidelines:**  
+The touchmonitor's OSD (On-Screen Display) allows users to adjust settings such as brightness, contrast, and display orientation. The OSD is navigable using integrated buttons, facilitating user-friendly adjustments.
+
+Refer to the troubleshooting section for issues related to connectivity or performance, ensuring the unit operates within specified parameters.
+
+**Contact for Support:**  
+For additional information or technical support, please visit www.elotouch.com or contact customer service. 
+
+**Index of Topics:**  
+- Product Specifications  
+- Installation Steps  
+- Touch Interface  
+- Software Guidance  
+- Operations and OSD Functions  
+- Troubleshooting Common Issues   
+
+---  
+
+This text maintains the original meaning but conveys it in a more concise and technical format, suitable for users seeking clarity on the touchmonitor's specifications and operations.
+
+### Paraphrased Text:
+
+The A-20 Touchmonitor features a vertically oriented SVGA LCD, compatible with XGA input. When the incoming signal exceeds the LCD's specifications, display artifacts may occur, affecting character clarity. This document provides critical information regarding the operation and maintenance of the touchmonitor. To prevent electric shock, ensure to switch off the device before cleaning, using a 3-wire grounded cord connected only to a properly grounded outlet. Unauthorized modifications may void the warranty. 
+
+Do not place objects on or near the top of the touchmonitor, and avoid contact with the device if it malfunctions. 
+
+### Touchmonitor Safety and Specifications:
+The following guidelines outline the proper operation of the touchmonitor to minimize electric shock and ensure user safety. Servicing should only be performed by qualified technicians. For cleaning, use a soft, non-abrasive cloth slightly moistened with a suitable cleaner; avoid direct contact with the touchscreen to prevent damage. 
+
+### Technical Specifications:
+- **Panel Type**: LCD TFT Active
+- **Pitch**: 0.294mm (H) x 0.294mm (V)
+- **Resolution**: Supports VGA, SVGA, and SXGA 
+- **Brightness**: Typical conditions
+- **Supply Voltage**: AC 100-240V, environmental conditions (non-condensing)
+- **Power Consumption**: DC 12V, 4A
+- **Regulatory Certifications**: UL, C-UL, FCC, CE, VCCI, MPRII, C-TICK
+
+For proper grounding and safety compliance, ensure your electrical connections meet local regulatory standards.
+
+### Regulatory Compliance:
+The touchmonitor complies with FCC Class A regulations for EMI and is tested to meet the EU’s CE standards, including Medical Device Directive 93/42/EEC and related EMC directives. Users are advised to report any interference issues to the relevant authorities and to adjust connections or placements as necessary.
+
+### Warranty Information:
+The touchmonitor is covered under a defined warranty period, which includes repairs or replacements for manufacturer defects only. Other than the explicit warranty stated, no additional implied warranties are offered, and the Seller's liability is limited to refunding the purchase price. Under no circumstances will the Seller be held liable for installation costs or any indirect damages.
+
+This warranty also encompasses compliance with regulations, excluding liability for products not used in accordance with provided guidelines. 
+
+### Contact Information:
+For further inquiries, reach out to ELO Touch Solutions at 1-800-ELO-TOUCH or visit their website for support.
+
+**ET1928L-XXWA-1-G Touch Monitor Overview**
+
+This document provides detailed specifications for the AccuTouch (resistive) touchscreen monitor, ET1928L-XXWA-1-G. It includes information on unit brightness, connectivity options (including USB), and cord selection pertinent to regions outside of North America. 
+
+Key sections address protection, immunity, chemical resistance, and expected performance metrics. The document also covers features related to LCD performance, including native resolution and OSD settings like H-position adjustments. Additional topics encompass power management settings, touch activation force, interface details, safety standards, troubleshooting guidelines, unpacking instructions, and warranty information.
+
+For further product details and updates, please visit www.elotouch.com or contact ELO-TOUCH Corporation, located at 2F CA D-85521 B-3010, USA.
+

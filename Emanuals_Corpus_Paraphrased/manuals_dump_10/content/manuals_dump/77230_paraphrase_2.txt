@@ -1,0 +1,122 @@
+### AM INSTRUCTION MANUAL FOR VHF AND UHF TRANSCEIVERS
+
+#### AM FOREWORD
+Please read all instructions thoroughly and retain this manual for future reference. This guide provides operating instructions for the IC-F15/F15S VHF Transceiver and the IC-F25/F25S UHF Transceiver. 
+
+**EXPLICIT DEFINITIONS:**
+- **WARNING:** Indicates potential for injury, fire, or shock.
+- **CAUTION:** Indicates conditions that may lead to damage or safety issues.
+- **NOTE:** Important operational information.
+
+#### AM PRECAUTIONS
+**WARNING!** Never use the device near water or while touching metal objects. Avoid using the microphone close to electrical sources. 
+
+**CAUTION!** 
+- Do not connect incompatible accessories. Use only BP-230, BP-231, or BP-232 batteries.
+- Do not transmit without pressing the PTT (Push-to-Talk) button.
+- Keep the unit out of direct sunlight and avoid operating temperatures below -25°C or above +55°C.
+- Ensure all components are securely attached to prevent damage and preserve warranty.
+
+### AM TABLE OF CONTENTS
+1. Foreword
+2. Explicit Definitions
+3. Operating Notes
+4. Precautions
+5. Accessories
+6. Panel Description
+7. Conventional Operation
+8. Optional Unit Installation
+9. Battery Charging
+
+### AM ACCESSORIES
+The following items are included:
+- Battery Unit
+- Cover (with screws)
+
+**CAUTION:** Never carry the device without securing it properly.
+
+### AM PANEL DESCRIPTION
+**IC-F15S/F25S Controls:** 
+- **VOLUME CONTROL [VOL]:** Used to turn the unit ON/OFF.
+- **LED Indicator:** Provides operation status (e.g., TX/RX indications).
+- **PTT SWITCH [PTT]:** Initiates transmission when pressed.
+
+The detailed function of each key is provided, including options for programming, emergency functions, and additional settings.
+
+#### CONVENTIONAL OPERATION
+To power ON, adjust the [VOL] control. Use the [CHANNEL SWITCH] or [CHANNEL SELECTOR] to select channels. The automatic scan feature can be activated for convenience.
+
+**Notes on Operation:**
+- Utilize CTCSS and DCS codes for selective communication to avoid interference.
+- Always hold the microphone appropriately during transmission to ensure clarity.
+
+#### EMERGENCY FUNCTION
+The optional UT-113 MAN DOWN UNIT can be used for emergency activation which requires specific setup procedures.
+
+### BATTERY CHARGING
+To charge the battery, ensure the device is powered OFF. Optimal charging temperatures are between +10°C and +40°C. Avoid using incompatible chargers and do not exceed recommended charging times to ensure battery longevity. 
+
+Overall, this manual provides critical instructions for safe and effective operation of the VHF and UHF transceivers, ensuring users can maximize the functionality while adhering to safety standards.
+
+### Battery Charging Instructions
+
+**Warning:** Only use the specified battery for charging. Ensure the battery is tested and functional. Be cautious of third-party or counterfeit batteries. 
+
+**Important Safety Precautions:**
+- Never store the transceiver with the battery attached to avoid corrosion at the terminals.
+- If the battery terminals show signs of corrosion, disconnect the battery immediately.
+- Avoid leaving the battery in a fully discharged state for extended periods.
+
+**Charging Options:**
+1. **Using the BC-160 Charger:**
+   - Required accessories: BC-160 charger, AC or DC power supply (OPC-515L/CP-17L).
+   - Ensure the battery is properly connected before charging. Turn off the charger when not in use.
+
+2. **Using the AD-106 Charger with BC-119N/121N:**
+   - Required: One AD-106 adapter.
+   - Connect the adapter to the BC-119N or BC-121N charger, securing it with screws.
+
+3. **Charging with BC-119N + AD-106:**
+   - Required: One AD-106 adapter and either an AC or DC power supply.
+   - Ensure the battery is correctly attached to the charger. Turn off the charger when not in use.
+
+4. **Charging with BC-121N + AD-106:**
+   - Required: AD-106 adapter and an AC (BC-157) or DC (OPC-656) power supply.
+   - Ensure the battery is attached correctly. Turn off the charger after charging.
+
+### Swivel Belt Clip (MB-93) Instructions
+To detach the swivel belt clip, align the clip with the arrow and apply pressure until you hear a click. 
+
+**Caution:** Hold the transceiver securely when attaching or detaching from the belt clip to prevent damage.
+
+### Battery Pack Options
+- **BP-230:** Typical operation time varies.
+- **BP-231:** Up to 800 hours of operation.
+- **BP-232:** Up to 2000 hours of operation.
+  
+**Charging Accessories:**
+- **BC-119N Desktop Charger**
+- **AD-106 Charger Adapter**
+- **BC-145 AC Adapter**
+
+### Additional Features
+- **Optional Units:** DTMF decoder (UT-108) and scrambler units (UT-109/UT-110) provide enhanced security.
+- **Man Down Unit (UT-113):** Alerts in emergencies.
+
+### DC Power Cables
+- **CP-17L:** For charging via cigarette lighter connection.
+  
+### Headset Options
+- **HM-131L:** Speaker microphone for clear communication.
+- **HS-Series:** Various headset types (ear, throat, etc.) depending on use case.
+
+### Antennas
+- Multiple stubby antennas and standard options available for different frequency ranges.
+
+### Compliance Declaration
+This product adheres to the Telecommunications Directive 1999/5/EC, fulfilling compliance with the specified EN standards. 
+
+---
+
+This manual summarizes key battery charging, attachment guidelines, and accessory details to ensure optimal performance and safety.
+

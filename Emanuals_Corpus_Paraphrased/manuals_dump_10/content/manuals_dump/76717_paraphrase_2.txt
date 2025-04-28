@@ -1,0 +1,39 @@
+### ELK-M1KPAS Arming Station Application Overview
+
+The ELK-M1KPAS is a user-friendly arming station designed for integration within the ELK M1 Family Platform. It provides clear functionality and status indications, displaying "Ready" and "Armed" statuses. Its compact design eliminates the need for an expensive LCD, making it suitable for various environments such as offices where essential functionality is necessary.
+
+### Key Features 
+- Blue/white backlit display
+- Direct access to functions via M1/EZ8 over RS-485
+- Includes mounting hardware
+
+### Specifications
+- Flying Lead Connector (included)
+- Color: White
+- Voltage: VDC, operational with specified mounting
+- Compliance with local codes as per authority having jurisdiction (AHJ)
+
+The ELK-M1KPAS Arming Station adheres to regulations, allowing installation in multiple locations. For optimal performance, CAT5 or CAT6 cabling is recommended for data connections, and proper wire termination is crucial. **Important:** Ensure the control power is off before connecting wires to avoid damage.
+
+### Installation Instructions
+1. Turn off power before working with wires.
+2. Connect wires neatly matching the specifications to the back of the M1KPAS unit.
+3. Signal indicators light up accordingly during installation.
+4. Ensure to follow correct termination practices, especially for the RS-485 connections.
+
+### Operation
+To initiate the arming process:
+- Press the designated "F" function button and hold while powering up.
+- Follow the indicators for status: Ready (Yellow), Armed (Red), Trouble (Flashing).
+- Reset or clear any trouble conditions if necessary by following the designated procedures.
+
+### Troubleshooting
+For any disruptions or operation failures, refer to the troubleshooting section. Suggestions include checking wire connections, ensuring proper termination, and confirming device functionality.
+
+### Security Features
+The ELK-M1KPAS offers additional arming options, including Night and Vacation modes. Users can manage these features efficiently via the functional buttons on the arming station.
+
+### Notes
+- Users should familiarize themselves with the system and consult operational documentation for detailed functions and indications, especially concerning the RS-485 data bus and termination requirements.
+- Important: Ensure compliance with local codes and guidelines during installation and operation to maintain system integrity.
+

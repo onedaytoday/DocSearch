@@ -1,0 +1,21 @@
+The label "WARNING" is designated to alert users about potential hazards that could result in death or property damage. The label "CAUTION" serves to inform users of situations that may lead to serious injury, although they might not be immediately life-threatening. The label "NOTE" is intended to provide users with essential information regarding installation, operation, or other relevant details, even in scenarios where it does not necessarily correspond to a warning or caution.
+
+### Auto Select 
+(H V) H. V.  
+C C (LED only) C steady  
+
+**Item Functionality**  
+- **Brightness:** Adjust to increase brightness. 
+- **OSD Navigation:** Use left or right to access or modify OSD settings. 
+- **OSD Background:** Choose color or timeout for OSD appearance. 
+- **DPMS Settings:** Manage power source options, including off and high settings. 
+- **Sharpness Adjustment:** Set sharpness levels from minimum to maximum. 
+- **Input Source Selection:** Choose between RGB input and other options. 
+- **Factory Reset:** Restore all settings to factory defaults. 
+
+### Additional Functions  
+- Brightness and sharpness can be adjusted similarly, with left or right navigation for fine-tuning.  
+- OSD and source settings should be configured for user preference. 
+
+Note: Ensure connections to +12V DC and GND are correctly established for optimal performance.
+

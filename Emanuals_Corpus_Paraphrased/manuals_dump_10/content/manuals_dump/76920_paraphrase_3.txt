@@ -1,0 +1,63 @@
+### Specifications and Installation Guidelines for O.D. Tubes
+
+**O.D. Tube Water Out**
+- External Diameter Water Outlet Tube
+
+**O.D. Tube Water In**
+- External Diameter Water Inlet Tube
+
+**Temperature Adjustment**
+- Adjusts thermostat temperature settings.
+
+**Electrical Components**
+- Electrical connections include:
+  - **C**: Temperature Control
+  - **Ground**: Earth connection
+  - **Fan**: Cooling fan operation
+  - **Cold Control**: Thermostat regulation
+  - **Internal Overload Protector**: Prevents system overload
+  - **PTC Starter**: Positive Temperature Coefficient starter
+
+**Wiring Diagram**
+- Models: ERS1-1E/2E, EWC100
+- Reference page: 97574C for wiring specifics.
+
+#### Installation Instructions
+- Ensure proper clearance around the unit during installation.
+- The water inlet should be thoroughly flushed before connecting to the cooler.
+- Use a shut-off valve at the water supply for maintenance purposes.
+- Make sure the cooler is directly connected to the designated supply line.
+
+#### Start-Up Procedures
+- Verify the water supply and operational parameters before activating the cooler.
+- Monitor clearance and functionality during the initial run.
+
+#### Troubleshooting and Maintenance
+- Verify that all components are functioning correctly, particularly the overload protector.
+- Clean the unit as necessary, using a hose or appropriate cleaner.
+- Lubricate moving parts as needed.
+
+### Parts List
+| Item Description                         | Part Number |
+|------------------------------------------|-------------|
+| Fan Motor Bracket                        | 22000C      |
+| Front Panel                              | 23084C      |
+| Electrical Cover                         | 23085C      |
+| Right Side Panel                         | 23086C      |
+| Left Side Panel                          | 23087C      |
+| Top Assembly Cover                       | 35768C      |
+| Relay                                    | 36139C      |
+| Fan Blade                                | 30824C      |
+| Overload Protector                       | 36169C      |
+| Cold Control                             | 31513C      |
+| Compressor                                | 36141C      |
+
+*Note: Replace components with identical parts used in original assembly.*
+
+### Repair Service Information
+For parts and service inquiries, please contact your local distributor or call the toll-free service number provided. 
+
+Elkay Manufacturing Company  
+Camden Court, Oak Brook, IL  
+Reference Page: 97574C
+

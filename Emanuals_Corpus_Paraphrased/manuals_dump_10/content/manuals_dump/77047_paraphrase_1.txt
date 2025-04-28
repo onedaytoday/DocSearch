@@ -1,0 +1,104 @@
+### Rear-Mount Touchmonitor 1739L LCD Overview
+
+**Model**: 1739L LCD Touchmonitor  
+**Revision**: Optional Power Brick P/N E220169  
+**Contact**: 1-800-ELOTOUCH | Website: www.elotouch.com  
+
+**Copyright Notice**: Reproduction, transmission, transcription, or translation of this document without written consent from TouchSystems is prohibited. The information contained is provided "as is," without any warranty, including implied warranties of merchantability. TouchSystems reserves the right to make revisions without notice. Terms such as SecureTouch, AccuTouch, and MonitorMouse are trademarks of their respective owners.
+
+### Product Information
+
+- **Introduction**: This document outlines specifications and software for the rear-mount LCD touchmonitor.
+- **Technology**: The touchmonitor features a high-performance SXGA TFT LCD for superior graphics display. It is compatible with VGA, SVGA, XGA, and SXGA (non-interlaced) graphics cards and adheres to VESA DPMS standards, supporting DDC2B. The monitor also includes an advanced On-Screen Display (OSD).
+
+### Installation and Setup
+
+- **Hardware Connection**: Ensure the touchmonitor and PC are powered off before connecting. Use a 12V, 3A power supply. Connect the touchscreen via RS232 or USB, ensuring secure connections and grounding by tightening screws.
+- **Software Installation**: The provided QuickStart CD contains necessary drivers for various Microsoft operating systems, including XP and NT. Follow on-screen instructions for installation.
+
+### Functionality and OSD
+
+- **OSD Controls**: Rear-mounted buttons control settings.  
+  - **MENU**: Display or exit the OSD.  
+  - **AUTO/SEL**: Select items within the OSD.  
+  - **Brightness Control**: Increase or decrease brightness using directional buttons.
+
+### Troubleshooting
+
+- Common issues may relate to incorrect input resolutions or connection errors. If the touchmonitor displays "OUT OF RANGE," ensure the input resolution matches the monitor's specifications (SXGA). For operational inquiries or further assistance, refer to the troubleshooting section.
+
+This technical overview consolidates key features and operational guidance for the 1739L LCD touchmonitor while maintaining necessary specifications and user instructions.
+
+### B-26
+
+This section provides information on the touchmonitor covering both installation and operational guidelines. To minimize the risk of electric shock, ensure the touchmonitor is turned off before cleaning. Avoid placing any objects on or near the top of the touchmonitor. If the touchmonitor poses a risk, take necessary precautions. 
+
+#### Touchmonitor Safety
+
+For optimal functioning, follow these safety recommendations. The device is not user-serviceable. Always disconnect it from the power outlet prior to cleaning. Use a soft cloth for cleaning and avoid any solvents or abrasive cleaners that could damage the touchscreen. **Warning:** This device may contain mercury in the backlight, and compliance with environmental regulations mandates proper disposal and recycling through designated facilities.
+
+### C-28
+
+#### Touchmonitor Specifications
+
+Model: 1739L LCD TFT Active
+- Resolution: 337.92(H) x 270.336(V)
+- Pixel Pitch: 0.264(H) x 0.264(V)
+
+Supported Resolutions:
+- VGA
+- SVGA
+- XGA
+- SXGA 
+
+Aspect Ratio: Typical
+- Brightness: Typical
+- Color Depth: 16.7M colors
+
+Connections:
+- RGB TTL or Negative Connector
+- Rear panel OSD options: Contrast, Brightness, Phase, Clock, available in English and Spanish
+
+Touch Technology Options:
+- IntelliTouch
+- CarrollTouch
+- Surface Capacitive
+- SecureTouch
+- AccuTouch
+
+Operating Conditions: 
+- Temperature: 0°C to 50°C (32°F to 122°F)
+
+Compliance Certifications: 
+- UL, CUL, FCC-B, CE, VCCI, C-Tick, MPRII, TUV, CCC, RoHS, MIC, BSMI
+
+### C-29
+
+#### LCD Touchmonitor (Model 1739L) Information
+
+A) Compliance: This monitor must be used in accordance with the provided instructions to avoid fire or electric shock.
+
+B) Service: Repairs should only be performed by qualified service technicians.
+
+C) Further Information: Refer to regulatory notices and compliance guidelines for installation and operation.
+
+#### Immunity Information
+
+A) To Users in the U.S.: This device has been tested and complies with FCC Class B regulations for electromagnetic interference, ensuring reasonable protection against interference when properly installed and used.
+
+B) EU Compliance: This equipment must use authorized cords and interconnecting cables as defined by relevant directives.
+
+C) User Information: If interference is experienced, reorienting the affected receiver or relocating the device may resolve the issue. Ensure the unit is connected to a properly grounded outlet.
+
+III. Agency Certifications: This product has received certification from C-Tick, CUL, IC, CCC, RoHS, TUV, CE, VCCI, MIC, and FCC.
+
+### Warranty Information
+
+The following remedies shall serve as the exclusive recourse for any breaches of warranty. Except for the explicitly stated warranty, no additional warranties—express or implied—are granted. Any claims regarding the products' fitness for a specific purpose, quality, or merchantability are excluded. No personnel are authorized to provide any warranty beyond what is specified here. 
+
+Seller liability under the warranty is limited to the product's purchase price; additionally, there will be no liability for costs associated with substitute goods or consequential damages. Any concerns regarding the products must be directed to the manufacturer or authorized service. 
+
+For further information on products, specifications, and updates, please visit **www.elotouch.com** or contact the office in North America. 
+
+ELO-TOUCH, Printed in the USA.
+

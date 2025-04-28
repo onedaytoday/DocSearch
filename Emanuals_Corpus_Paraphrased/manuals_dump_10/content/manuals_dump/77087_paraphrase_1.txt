@@ -1,0 +1,90 @@
+### Touchmonitor 1715L LCD Touchmonitor Revision
+
+**Model**: LCD ET1715L Revision P/N E183495
+
+**Copyright Notice**: All reproduction, transmission, transcription, or translation of this document, in any form or by any means, is prohibited without written permission from TouchSystems. The information provided is subject to change without notice and comes with no warranties regarding merchantability or suitability. TouchSystems retains the right to revise this publication at any time without obligation to notify users. Trademarks such as AccuTouch, AT4, CarrollTouch, MonitorMouse, and SecureTouch are owned by TouchSystems, Inc. Other trademarks are acknowledged.
+
+**Contents**:
+1. **Introduction** 
+2. **Warranty**
+3. **Product Precautions and Unpacking** (Touchmonitor...page 9)
+4. **Product Specifications**
+5. **Touch Interface Software**
+6. **Operating System Support** (Windows XP, NT, MS-DOS, USB)
+7. **Chapter on Touchmonitor and OSD Features**
+8. **Troubleshooting** 
+9. **Specifications Summary**
+  
+### Introduction
+
+**Product Overview**: The Touchmonitor is an SXGA TFT LCD device featuring advanced specifications and optimized performance, designed for compatibility with a range of graphics cards including VGA, SVGA, XGA, and non-interlaced SXGA. It adheres to VESA DPMS standards and supports DDC1/2B, offering an integrated OSD (On-Screen Display) and wall-mounting capabilities.
+
+### Unpacking Instructions
+
+This section outlines unpacking procedures for the LCD touchmonitor and associated software, ensuring all items such as the LCD monitor, VGA cable, USB cable, and installation CD are included.
+
+### Installation and Setup
+
+**Touch Interface Connection**: Prior to connection, ensure the touchmonitor and PC are powered off. Connect the monitor to the PC using the provided cables (either touchscreen or USB) before powering on. Ensure USB grounding screws are fastened securely and turn on the monitor.
+
+### Software Installation
+
+The touchmonitor software, located on the installation CD, is compatible with several operating systems, including XP and NT. For installation, follow instructions based on your operating system to configure touch functionality.
+
+### Touchmonitor Functions and OSD
+
+- **Display Adjustments**: Access the OSD to adjust brightness, contrast, and input selections.
+- **Functionality**: Utilize the front panel buttons to navigate and modify settings within the OSD. Users can switch input modes and customize display configurations as needed.
+
+### Common Issues and Troubleshooting
+
+- If the touchmonitor displays incorrect resolutions or artifacts, check compatibility with the connected source and adjust settings accordingly. Ensure inputs match the monitor's specifications.
+
+### Safety and Maintenance
+
+Always operate the monitor in accordance with safety guidelines, utilizing a grounded outlet to prevent electric shock. Regularly update software and handle with care to ensure a long operational life.
+
+For further assistance, refer to the troubleshooting chapter or contact customer support.
+
+---
+
+This paraphrased version maintains the original meaning while streamlining technical information for clarity and coherence.
+
+### Touchmonitor B-28 Operating Guidelines
+
+**Precautions:** 
+When operating the touch monitor, avoid exposure to shock or damage. Ensure the monitor is connected to a grounded electrical outlet for safety. Use a soft cloth lightly moistened with a cleaner or thinner for maintenance, taking care not to apply any cleaner directly to the touchscreen or use abrasive materials that could cause scratches.
+
+### Technical Specifications
+
+#### Touchmonitor Model: ET1715L
+- **Screen Type:** LCD TFT
+- **Active Area:** 337.9 mm (H) x 270.33 mm (V)
+- **Dot Pitch:** 0.264 mm (H) x 0.264 mm (V)
+- **Resolution Support:** VGA, SVGA, XGA, SXGA
+- **Typical Brightness:** 300 cd/m²
+- **Color Depth:** 16.2 million colors
+- **Connector Type:** R.G.B. TTL or Negative
+- **Power Supply:** AC 100-240V
+- **Operating Temperature:** 0°C to 50°C (32°F to 122°F)
+- **Operating Humidity:** 10% to 90%
+- **Certification:** ETL, UL, C-UL, FCC-B, CE, VCCI, C-Tick
+
+**Performance Metrics:**
+- Touchpoints: More than 10 with typical activation force of less than 5 ounces.
+- Durability: Designed for more than 50,000 touches without failure.
+
+### Chemical Resistance
+The touchscreen tolerates ammonia-based cleaners, ensuring longevity and reliability.
+
+### Regulatory Information
+1. **USA Compliance:** The device has been tested and complies with FCC Class B regulations for interference.
+2. **European Compliance:** Adheres to CE directives regarding EMC and safety standards.
+
+### Warranty Information
+- The warranty for touch monitors spans three years, covering defects in material and workmanship.
+- Any claims must be reported within thirty days of discovery, allowing for inspection and resolution.
+- Remedies are limited to refunding the purchase price; no additional warranties are expressed or implied.
+
+For more information on products and support, visit [Elo Touch Solutions](www.elotouch.com) or contact our USA headquarters.
+

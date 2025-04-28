@@ -1,0 +1,12 @@
+CPCs CO (Part Number CO) operates in accordance with ASHRAE standards and emphasizes energy efficiency. This product includes features for relay applications, utilizing a microprocessor for long-term performance. For installation, use a screwdriver to secure the mounting plate to a location where it can access fresh air, ensuring it is mounted vertically and at least within 32°F (0°C). Utilize the mounting plate as a template, attaching it with appropriate screws and anchors, if required.
+
+The CO features a three-terminal setup connecting to the I/O board, typically to relay outputs at 24VAC and drawing a maximum of 3VA from a recommended 10VA, 110VAC power source. The connections should be made as illustrated, typically to I/O boards such as 16AI or 8DO. Ensure the CO's signal and common terminals are connected to the corresponding I/O board terminals.
+
+The on-board relay can be wired for normally open or normally closed configurations, activated when CO levels drop below a specified threshold. After installation, ensure that the CO unit is properly assembled and that the relay functions as intended.
+
+The front of the board includes a switch to select either voltage or configuration modes, typically requiring the switch to be set down for proper operation. The CO's software interface allows navigation through various settings using three buttons: ENTER, which confirms selections. It's crucial to monitor CO readings consistently, as failure to do so may lead to inaccurate data being reported.
+
+CPC advises against using the CO without following the provided operational instructions. Regular maintenance checks should be performed, as the CO is designed for long intervals between readings, typically every few years. Any adjustments or calibrations should be carried out according to the documented specifications.
+
+Finally, ensure the CO is connected correctly to the I/O board, operating at a voltage of either 5VDC or another specified level, and confirm its readiness for operation. For installation guidelines and product information, refer to the specific datasheet from Emerson, which holds all relevant rights and ownerships for related trademarks and services.
+

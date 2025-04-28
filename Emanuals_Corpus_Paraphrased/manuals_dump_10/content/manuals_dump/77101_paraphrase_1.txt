@@ -1,0 +1,117 @@
+**Touchmonitor LCD 1847L Revision Overview**
+
+**TouchSystems, Inc. (P/N 1-800-ELOTOUCH)**  
+For more information, visit: www.elotouch.com  
+© TouchSystems, Inc. All rights reserved. No part of this publication may be reproduced, transmitted, or translated without prior written permission from TouchSystems. The information provided is subject to change without notice and does not imply any guarantee of merchantability or fitness for a particular purpose. TouchSystems disclaims any liability for errors or omissions.
+
+**Contents Overview:**
+1. Introduction
+2. Safety Precautions
+3. Product Information and Unpacking
+4. Touchmonitor Specifications
+5. Connections and Setup Steps
+6. Software Installation
+7. Technical Specifications
+8. Warranty Information
+
+---
+
+**Introduction & Product Overview:**
+Congratulations on your purchase of the TouchSystems touchmonitor. This device is designed to deliver high performance, featuring an LCD equipped with Direct RGB and refresh rates suitable for various applications. It supports an OSD (On-Screen Display) that operates in multiple languages (English, Spanish, etc.), and includes options for USB interface compatibility.
+
+**Unpacking and Installation:**
+In this section, you will find details about unpacking the LCD touchmonitor and installing the necessary software. Ensure that you have the following items upon unboxing: the LCD unit and the software CD.
+
+**Setup Instructions:**
+1. **Attaching the Touchmonitor:**
+   - Use a screwdriver to connect the touchmonitor using either the rear or front VESA mounting options. Refer to the included mounting information and secure with screws.
+
+2. **Connecting Interfaces:**
+   - **Step 1:** Connect the video cable from the monitor to the PC via the DVI-D or 15-pin video connector.
+   - **Step 2:** Connect the touchscreen interface (RS-232 or USB) to the corresponding port on the PC. Ensure both the monitor and PC are powered off during connection.
+   - **Step 3:** Connect the OSD remote using the provided connections.
+   - **Step 4:** Attach the power supply cable, ensuring it is grounded.
+
+**Mounting Specifications:**
+The product adheres to the VESA Physical Mounting Interface (FPMPMI) standards. For compatible mounting solutions, refer to manufacturers like Ergotron or GCX Office Products.
+
+**Software Installation:**
+Install the touchmonitor software by following the included instructions. Various operating systems such as Windows XP, NT, and MS-DOS are supported. For additional support, visit www.elotouch.com.
+
+**Touchmonitor Operations:**
+For optimal performance, configure the touchmonitor according to the included instructions and factory settings. Ensure to consult the OSD menu for additional settings and troubleshooting.
+
+For full details on specifications and advanced options, refer to the respective chapters included in the manual.
+
+### OSD Controls and Functions
+
+The On-Screen Display (OSD) features several controls: 
+
+- **Menu:** Accesses or exits the OSD.
+- **Brightness:** Adjusts the brightness level. 
+  - **Increase:** Rotate clockwise.
+  - **Decrease:** Rotate counterclockwise.
+- **AUTO/SEL:** 
+  - Toggles the monitor's power.
+  - Adjusts OSD brightness.
+- **Select Item:** Allows users to choose options within the OSD.
+
+To access specific functions, press the **Menu** and **Select Item** buttons simultaneously for several seconds. 
+
+### Automatic Functions and Adjustment Options
+
+The OSD automatically selects the default brightness settings. Users can manually adjust characteristics such as contrast via the “USER” setting, enabling adjustments to red, green, and blue levels individually.
+
+### Input and Connectivity
+
+The graphics input can be switched between DSUB and DVI for optimal functionality. The OSD will display additional options including clock phase, saturation, and hue. The OSD has a timeout feature that automatically selects settings based on user preferences.
+
+### Operational Guidelines
+
+Ensure proper connection of the I/O ports. If the LCD display appears distorted or has higher refresh rates than recommended, perform troubleshooting as described. 
+
+### Specifications
+
+- **Display Type:** Active TFT, 18.1-inch diagonal.
+- **Touchscreen Type:** AccuTouch, with options for dithering.
+- **Brightness and Color:** Typical brightness levels and color reproduction metrics.
+- **Environmental Conditions:** Operating temperature and humidity specifications.
+- **Regulatory Compliance:** EMC compliance with FCC, CE, and other standards.
+
+### Maintenance and Safety
+
+To maintain the touchmonitor:
+- Use a grounding cord when cleaning.
+- Apply cleaners sparingly, avoiding ammonia-based substances.
+- Operational tests indicate that the touchscreen can withstand more than a certain number of touches before showing wear.
+
+### Regulatory Information
+
+The unit complies with international standards for electrical safety and EMC. Users should be aware of potential interference and should follow instructions to mitigate issues, including repositioning devices if necessary. 
+
+For necessary service or technical inquiries, refer to the relevant chapters and guidelines provided in the manual.
+
+Here’s a paraphrase of the provided text with a technical tone while preserving its meaning:
+
+Except as explicitly stated or acknowledged, the Product is warranted to be free from defects in materials and workmanship. The warranty for the touch monitors spans multiple years. Claims regarding the warranty must be submitted in writing within thirty days of product discovery. Customers are responsible for notifying us about any issues and allowing for inspection of the affected Products. Should the warranty conditions be met, the option may include either repair, replacement, or credit towards the purchase of the Product.
+
+THESE REMEDIES REPRESENT THE SOLE RECOURSE FOR THE BUYER IN CASE OF WARRANTY BREACH. APART FROM THE EXPLICIT WARRANTY MENTIONED ABOVE, THE SELLER OFFERS NO OTHER WARRANTIES, WHETHER EXPRESS OR IMPLIED BY LAW, REGARDING THE PRODUCTS, INCLUDING THEIR SUITABILITY FOR ANY SPECIFIC PURPOSE, QUALITY, MERCHANTABILITY, OR NON-INFRINGEMENT. NO REPRESENTATIVE OF THE SELLER IS AUTHORIZED TO OFFER ANY WARRANTY OTHER THAN THOSE STATED HERE. THE SELLER'S LIABILITY UNDER THIS WARRANTY IS LIMITED TO A REFUND OF THE PRODUCT'S PURCHASE PRICE. NEITHER THE SELLER NOR ANY PARTY SHALL BE LIABLE FOR ANY REPLACEMENT PROCUREMENT OR INSTALLATION COSTS, NOR FOR ANY SPECIAL, CONSEQUENTIAL, INDIRECT, OR INCIDENTAL DAMAGES.
+
+The warranty applies to all products, their compliance with regulations, and obligations associated with other products that include or integrate with the Products in question, which may also involve reasonable attorney fees arising from issues related to such Products.
+
+**Specifications for LCD Touchmonitor (ET18X7L-XXWB-X) include**: 
+- Product Overview
+- Details on VESA Mounting Interface
+- AccuTouch Touchmonitor Specifications
+- Instructions for Attaching L-Brackets
+- Contrast and Backlight Life
+- Brightness specs
+- Chemical Cleaning Instructions
+- Features like Clock and Color Compatibility
+- Connection instructions for OSD Remote, USB Touchscreen, and other interfaces
+- Touchmonitor Construction details and Performance expectations
+
+For additional product information, specifications, and updates, visit www.elotouch.com or contact TouchSystems, Inc., located in California, USA. 
+
+
+

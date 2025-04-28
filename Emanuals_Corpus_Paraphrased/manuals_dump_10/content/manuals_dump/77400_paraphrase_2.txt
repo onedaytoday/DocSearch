@@ -1,0 +1,499 @@
+### Rosemount 8700M Flowmeter Platform with HART Reference AC Overview
+
+The Rosemount 8700M Flowmeter Platform, equipped with HART technology, ensures reliable performance and is suitable for various applications. However, it's important to note that this product is not intended for use in certain situations.
+
+#### Introduction to the 8700M Platform
+
+The 8700M Platform includes different configurations, allowing for remote or integral mounting. This platform features three types of Rosemount flow meters designed to provide accurate readings under various conditions.
+
+The flow measurement system is calibrated to manage induced flow velocity effectively and can achieve precise readings. All operational procedures and instructions are essential for ensuring optimal functionality.
+
+#### Technical Support
+
+For assistance within North America, including the United States and Canada, customers can reach out via the toll-free number 800-654-RSMT. This service is available during specified hours and provides information for product handling, including Returns Merchandise Authorization (RMA) procedures. It is crucial to adhere to guidelines from OSHA and relevant Material Safety Data Sheets (MSDS).
+
+#### Mounting and Installation Guidelines
+
+This section outlines the physical mounting and installation procedures critical for the 8700M Platform's operation. Follow safety instructions to prevent any risk of serious injury. Ensure that the installation environment is verified to avoid any hazardous atmospheres.
+
+Always ground the equipment properly to protect against electrical build-up. During installation, using appropriate protective gear is recommended to ensure the safety of personnel. 
+
+#### Flow Measurement Specifications
+
+The 8732EM Flowmeter features both mechanical and electronic switches designed for safety and versatility. These switches include Internal/External options and Security features, which are pre-configured before shipment.
+
+For electrical input guidelines, the following specifications apply:
+- **250VAC, 0.45A**
+- **40VA, 42VDC, 1.2A**
+
+The flowmeter is designed to accommodate various installations, such as high-vibration environments and extreme temperatures, ensuring reliable performance.
+
+#### Installation Requirements
+
+Ensure adequate space for mounting to facilitate easy operation and serviceability. When mounting the 8732EM, verify that the installation meets the appropriate guidelines for securing the housing correctly.
+
+Proper alignment of the flow direction and adherence to downstream piping specifications is crucial for optimal performance. It's also important to tighten components adequately according to the approved standards outlined in the installation guide.
+
+#### Material Specifications
+
+The fluid compatibility of the Rosemount flowmeters depends on the materials used:
+- Fluoropolymer
+- Polyurethane
+- ETFE
+
+These materials provide durability and reliability in various operational contexts.
+
+#### Safety and Grounding Recommendations
+
+All equipment should be installed with suitable grounding mechanisms to minimize risk. The installation process must prioritize safety and compliance with the technical specifications outlined.
+
+For further details about the 8700M Flowmeter and its capabilities, refer to the official Rosemount website or technical documentation.
+
+### Section Overview
+
+This section covers the installation and specifications of spacers and washers recommended for the 8-inch Rosemount assembly. Ensure the proper installation of spacers by following the guidelines in the provided tables and reference specifications according to CS, ASTM A193, and B7 standards. Tables detail the spacer ratings tied to various models (e.g., Rosemount series 0A15 to 0B80 and international standards like JIS and EN).
+
+### Grounding Recommendations
+
+Proper grounding is critical for installation. Various grounding methods are outlined, including conductive and non-conductive options with protective devices. Follow the specified grounding procedures, ensuring all grounding straps are securely attached.
+
+### Installation Preparation
+
+Ensure that equipment is shipped pre-assembled and wired. Reference interconnecting details for compatibility with existing Emerson systems. Follow the guidelines for applying insulation correctly for both shielded and unshielded wiring to minimize interference.
+
+### Connecting Power Supply
+
+When connecting the 8732EM device, ensure the supply voltage is within the range of 90-250 VAC or 12-42 VDC, depending on your setup. Pay attention to the ratings for devices to avoid damage from overcurrent or overvoltage conditions. Use appropriately rated wiring to connect to the device.
+
+### Communication Protocols
+
+Reference the necessary protocols for configuration via HART or LOI, allowing tailored flow measurement parameters. Units of measure and other essential parameters must be predefined for accurate readings.
+
+### Advanced Security Features
+
+This section details the advanced security options available with the Rosemount 8700M Platform, including internal and external switch settings for security. Specific configurations dictate operational permissions based on security switch settings, which should be customized as per installation requirements.
+
+### Conclusion
+
+For further detailed specifications and installation guidelines, refer to the respective tables and sections mentioned throughout the document to ensure optimal functionality and compliance with the required standards.
+
+Certainly! Here's a paraphrased and technical version of the text you've provided:
+
+---
+
+Reference AC for the advanced functionality of switches, including the Letter of Intent (LOI) and protective cover. If issues arise with the cover screw, consult the specifications for guidance on correct assembly with the cover. The Rosemount 8732EM features three operational modes, where it can serve as either an input device or perform singular tasks. The switches offer galvanic isolation typically via external connections. The physical switch is located on the board.
+
+For the advanced section, in the internal/external switch configuration, you can select either an EXTERNAL option (A) or an intrinsically safe option (B). The applicable voltage range typically spans several VDC options, including the following configurations: Option B5, Option B2, and Option B24, all allowing operation under specified voltages.
+
+Before proceeding with connections, ensure the power supply is turned off to facilitate safe installation. Follow the outlined procedures to connect the Totalizer/Counter, which can be configured with an FET, as indicated in the reference materials.
+
+When connecting the switch in internal mode, ensure direct integration with the counter, turning off any DC power before making connections. The switch's functionality is contingent on flow conditions, and various operational parameters should be considered to ensure proper relay engagement.
+
+For reference housing installation, ensure that protective measures are in place to maintain the integrity of the readings and physical durability against environmental factors. The housing options include M0, M1, M2, or M4 variants, each providing specific protections based on installation requirements.
+
+The M1 housing is factory-sealed and features threaded connections for pressure relief valves (PRV). This design ensures safety against over-pressurization while maintaining necessary internal conditions. The M2 and M4 options also feature sealed designs to prevent ingress and support reliability, especially in harsh environments.
+
+Insulation ratings of 150°F (65°C) or higher are recommended for increased longevity and resistance to thermal degradation. Ensure that insulation does not compromise the housing or the device's performance and allow for adequate heat dissipation.
+
+The Rosemount Flowmeter prioritizes external protection against overheating of the housing and associated components, offering necessary insulation without obstructing functionality or impacting readings.
+
+In the context of operations, the 8732EM includes a user interface (LOI) integrated with software functionalities, which can be navigated via on-screen instructions. This section details the basic operations of the LOI, including button functionalities and important features that facilitate flow monitoring.
+
+The interface allows for adjustments and control over measurements, with clear indication of successful parameter changes. Users can navigate through options such as PV (Process Variable) and URV (Upper Range Value) using directional arrows, and any changes made are confirmed on-screen.
+
+The comprehensive interface outlines flow conditions, system statuses, and prompts for corrective actions as required. Ensuring data accuracy and operational integrity is fundamental to maintaining optimal performance across the connected systems.
+
+--- 
+
+Let me know if you need further adjustments or additional details!
+
+**Reference AC Interface (LOI) Tree and Processing Details**
+
+**Flow Functionality Overview:**
+The 8732EM with HART connects seamlessly with the software, offering comprehensive processing data on various parameters such as process variable (PV), set points, flow rates, and more. The active state of the interface is visually presented, ensuring clear communication with associated devices, including traditional communicators.
+
+The interface hierarchy comprises multiple tables, detailing traditional functions like PV displays, units, scaling, and commands. The organizational structure supports easy navigation through various operational settings and configurations, ensuring that key elements such as grounding/wiring, coating flows, and measurement units are systematically arranged.
+
+**Advanced Functionality:**
+This section outlines the advanced features of the Rosemount 8732EM, including the integration of information via HART and its compatibility with AMS software. It emphasizes the device's capabilities for both factory settings and user-customized operations, ensuring that essential output functions, like auxiliary flows, are accessible.
+
+The operating principles of the device hinge on measured variables, which are crucial for calculating flow rates and processing results. Specifications such as Upper Range Value (URV) and Lower Range Value (LRV) are critical for establishing flow dynamics, providing users with the necessary calibration tools for accurate flow measurement.
+
+**I/O Configuration and Status Management:**
+The interface supports multiple input/output configurations, accommodating various flow conditions and operational statuses. It provides feedback on the current state of flow, identifies empty conditions, and enables clear indications when thresholds are reached. 
+
+The functionalities related to AO, including flow detection and conditioning, ensure that interactions with the system are intuitive. Alerts for conditions such as high flow rates or empty states facilitate immediate corrective actions, enhancing overall operational efficiency.
+
+**Conclusion:**
+The Reference AC Interface equips users with effective tools for monitoring and controlling flow systems, enhancing the operational parameters of the 8732EM device. As industries advance, the integration of these features into user environments ensures streamlined processes and improved decision-making based on real-time data.
+
+**Reference AC Advanced Functionality Overview**
+
+The advanced functionality of the AC Reference system includes various features tailored to enhance performance. Typically, these functionalities are more effective for measuring data compared to standard configurations. When using AC Reference, it is important to ensure that all input and output settings correspond with the operational specifications of peripheral devices, such as counters and relays.
+
+**Reading Adjustments and Functionality**
+
+Systems may have thresholds set above or below recommended limits, impacting their operational capabilities. If these limits are exceeded, adjustments may be necessary to ensure accurate counting and gross/forward operations. Traditional units display relevant readings and indicate flow conditions, allowing for timely updates based on real-time flow data.
+
+**Input/Output Management**
+
+The AC Reference system performs continuous monitoring of inputs and outputs, with memory updates every three seconds. In cases where interruptions occur, the system can resume functioning once power is restored. Various input options provide detailed information about flow conditions, ensuring optimized operations.
+
+**Flow Measurement and Control**
+
+The flow measurement system includes functionalities for adjusting parameters based on HART integration. This allows operators to manage flow levels effectively during batching operations. Activation of HART can be monitored to ensure compliance with specified operational limits.
+
+**Advanced HART Features**
+
+Comprehensive control is possible through HART functionalities, including managing outputs to secondary and tertiary devices. The system supports burst functionality, enabling precise data readings. Operators can customize commands as per applications, enhancing the system's adaptability for varied operational needs.
+
+**General Operations and Troubleshooting**
+
+Potential issues such as wiring or sensor malfunctions can impact performance. Operators are encouraged to follow on-screen prompts for troubleshooting and system adjustments. The system is designed for quick adaptations, ensuring efficient management of flow data and operational parameters.
+
+This overview encapsulates the advanced functionalities and considerations necessary for optimal use of the Reference AC system within its operational context.
+
+### Overview of Advanced Functionality for LOI Processing in AC Flow PV
+
+The Reference AC flow PV Advanced Functionality for LOI Processing includes features for flow cutoff, allowing for specified rate limits. The system can manage flow rates below these limits and enables the observation of both current and historical flows.
+
+**Processing and Flow Control**: The LOI Processing features in the Traditional PV mode can be configured to optimize flow behavior for specific durations, often aiming for smoother operations. The advanced capabilities of the 8732EM unit enhance this functionality, ensuring proper activation of processes based on defined parameters.
+
+**User Interface for Flow Management**: The intuitive interface of the 8732EM simplifies the user experience in selecting higher flow rates. It enables isolation of various inputs and maintains three distinct operational modes for LOI Processing. Users have the option to switch between factory settings and advanced configurations based on real-time flow readings.
+
+**Flow Units and Conversion Factors**: The system supports several flow unit types and conversion factors, enabling smooth transitions between units such as gallons per minute (gpm) and acre-feet (AF). The ability to reconfigure these units enhances operational flexibility and accuracy in data presentation.
+
+### Advanced Licensing and Integration
+
+Licensing options for the 8732EM allow for integration through the AMS interface, facilitating streamlined installations and maintenance procedures. Both DA1 and DA2 options provide advanced functionalities that can be activated as required.
+
+**Empty Flow and Health Monitoring**: The LOI Empty functionality periodically assesses flow status. The system is designed to indicate when thresholds are reached, ensuring consistent reliability. Notifications on empty flow conditions could trigger alerts for timely maintenance.
+
+**Grounding and Wiring Integrity Checks**: The 8732EM includes mechanisms to monitor internal conditions, specifically focusing on grounding and wiring integrity. If issues are detected, the system can provide alerts to ensure that installations adhere to safety and performance standards.
+
+**Coating Detection and Management**: The LOI Advanced Coating function assesses the health of the protective coating on the flow equipment. If coating degradation is detected, immediate action may be required to prevent process disruption.
+
+Overall, the functionality embedded in the Reference AC for LOI Processing significantly enhances operational efficiency, facilitates troubleshooting, and maximizes the reliability of flow measurement systems. Each advanced feature is aligned with modern requirements for precision and ease of use across various applications.
+
+**Section: Advanced LOI and Traditional Systems**
+
+This section discusses the measurements of Loss on Ignition (LOI), distinguishing between advanced and traditional methodologies. Advanced systems continuously monitor LOI levels, cross-referencing them against expected values for operational integrity. The reference AC Advanced units and SMART systems facilitate real-time feedback during processes, allowing for manual initiation when required.
+
+**Field Strength Measurement**
+
+The field strength diagnostics are crucial for determining system health. Advanced LOI systems utilize inductance measurements to assess functionality, ensuring devices operate correctly. If discrepancies arise, the device memory is utilized to recover data regarding field conditions. The system must remain connected to the flow to monitor operational efficiency.
+
+**Flow Measurement Systems**
+
+In discussing flow dynamics, both the Advanced and Traditional LOI systems are examined. These systems can be initiated manually or can operate autonomously. Continuous monitoring is essential for diagnosing health and performance in various operational states, including empty or flowing conditions.
+
+**Data Recording and Compliance**
+
+Data from the SMART systems are logged for compliance with industry regulations and facilitate troubleshooting processes. Each parameter is documented, including velocity deviations, ensuring that performance aligns with predefined standards.
+
+**Smart Functionality**
+
+Connectivity and functionality are essential for the SMART systems. They leverage HART data for operational transparency and compliance, ultimately contributing to the health assessment of the systems. Regular checks are performed to ensure data accuracy and operational soundness.
+
+**Summary and Conclusion**
+
+This section has outlined the advanced methodologies and traditional practices for measuring LOI and flow dynamics, emphasizing compliance, functionality, and system health monitoring. Following these guidelines is critical for maintaining safety and operational efficiency across varying environments.
+
+Based on the content provided, here’s a technical paraphrase that retains the original meaning:
+
+---
+
+**Section Processing Overview**
+
+High-level processing should only be performed in relation to death or serious injury risk management. Other services not explicitly related to severe incidents are not covered within this high-level framework, which emphasizes the significant repercussions of shocks associated with these processes. This section discusses various high flow scenarios, including direct injections and flow reactions, and describes the behavior of White flow types where reactions are constantly adjusting within specific operating conditions.
+
+For the Rosemount 8732EM, reference readings can indicate compromised flow conditions. To ensure the integrity of flow measurements, proper grounding methods must be followed. Monitoring reactions and free activity is essential for avoiding noise disruption in these measurements. Should any non-optimal conditions arise, adjustments and resets to factory settings may be necessary to maintain accuracy.
+
+**Flow Processing Functionality**
+
+The flow processing section covers instructions and operational guidance. Users are advised to adhere to safety protocols to prevent severe accidents. The system’s performance can be enhanced by following these guidelines, which affect both standard and high flow readings. The Rosemount 8732EM provides mechanisms to calculate flow rates effectively and to track historic flow information through three defined states—on, off, and processing.
+
+**Input Management and Data Handling**
+
+The system continuously monitors flow inputs, rejecting out-of-band data to maintain operational integrity. This helps ensure that the Rosemount 8732EM delivers reliable outputs while handling calculations through its memory. Proper memories and thresholds are established for input management, allowing the system to incrementally adjust and capture data accurately.
+
+**Installation and Interface Instructions**
+
+Installation instructions emphasize the handling and orientation of the Interface (LOI). Any screws that secure the housing cover must be correctly managed to ensure functionality. When orienting the LOI, care should be taken to secure screws appropriately, and the quality of reporting must be validated.
+
+**Mounting Guidance**
+
+Follow procedures for mounting securely while ensuring all electrical connections are robust. Proper wiring must be maintained to prevent operational issues. When engaging with the device’s mounting screws, caution is advised to protect against potential damage during assembly.
+
+**D/A Functionality**
+
+The D/A function should be initiated correctly to maintain accuracy, and any necessary adjustments should be performed as the system prompts. It’s crucial to adhere to best practices to avoid any Digital Trim Failure notifications, which would indicate communication issues with the system. Regular maintenance and user awareness are necessary to ensure seamless operation.
+
+In summary, the documentation provides guidelines on managing high-level processing, input data, system installation, and D/A function for the Rosemount 8732EM and related models.
+
+--- 
+
+This refined version aims to maintain clarity and professionalism while presenting the original concepts in a more fluid format.
+
+### Section: Universal Operations
+
+This section describes the operation of the flow measurement system and addresses potential inaccuracies in flow readings. Refer to the PV Upper Range Value (URV) and PV Lower Range Value (LRV) instructions found in the manual as necessary. When connecting the Rosemount 8714D, verify that system readings align with expected values. If the flow reading is within acceptable limits, initiate the LOI (Line of Interface) function; otherwise, note that the Rosemount 8732EM may require factory calibration. 
+
+### Troubleshooting Overview
+
+The Troubleshooting section provides guidance on resolving common issues, particularly those indicated by erroneous readings or test failures. The Rosemount unit should be returned to the factory if persistent problems occur. Emerson offers troubleshooting support, which can assist with operational processes referenced throughout this section.
+
+### Installation and Safety Considerations
+
+Follow proper installation protocols to minimize risks associated with operating equipment. Strict adherence to the provided servicing instructions is critical to preventing serious injury or equipment damage. Products should not be incompatible with non-Rosemount equipment. Ensure compliance with OSHA regulations and maintain safety data sheets (MSDS) as part of standard operating procedures. 
+
+### Troubleshooting Guide
+
+To troubleshoot issues effectively, keep a detailed record of all operational parameters and conduct thorough inspections of installation elements, including grounding connections. The Rosemount 8714D requires proper wiring to ensure that flow measurements are accurate. Ensure that twisted shielded wires meet the specified requirements (AWG) for optimal performance. 
+
+### Corrective Actions
+
+If the flow readings are inaccurate, the following actions can be taken:
+- Clear obstructions in flow paths.
+- Adjust conductivity to ensure it meets the required levels.
+- Verify that the wiring is correctly connected and aligned with flow direction.
+
+### Advanced Troubleshooting
+
+In scenarios of unstable or erratic flow performance, verification of wiring integrity and functional checks of both internal and external switches may be necessary. If issues persist, reevaluate the installation and operational parameters for compliance with technical standards.
+
+This structured approach will optimize the functioning of your flow measurement system while ensuring safety and reliability in operations.
+
+### Troubleshooting Guide
+
+#### Coating Troubleshooting
+
+**Issue Identification:**
+The type of switching and processing involved can lead to issues with the coating. Common problems with white coatings may arise from reactions or high flow conditions, affecting the head unit.
+
+**Action Steps:**
+When coating issues are detected, follow the outlined corrective actions. To resolve conductivity problems stemming from coating buildup, increase the flow velocity.
+
+---
+
+#### SMART Troubleshooting
+
+**Potential Causes:**
+Heat or shorting may cause issues in the SMART system. If readings are unstable, check the configuration of the coated shorted flow with the model 8714D.
+
+**Corrective Actions:**
+Verify the selected settings and ensure proper connections.
+
+---
+
+#### Common Symptoms and Solutions
+
+**Symptoms:**
+- Improperly functioning switches
+- Blown circuits
+- Flow cutoff issues, indicating high flow or activation of the PZR switch.
+
+**Recommended Actions:**
+- Check and adjust flow rates to specifications.
+- Ensure that the correct terminals are connected to the PZR.
+
+**Communication Problems:**
+If communication errors occur, verify the input and grounding connections.
+
+---
+
+#### Coated Detection Issues
+
+**Symptoms:**
+- Readings vary outside rated conditions or show inconsistencies in coating detection.
+
+**Corrective Measures:**
+- Test additional locations upstream or downstream.
+- Inspect for short circuits or failures that may affect conductivity.
+
+---
+
+#### Technical Flowmeter Selection
+
+**Issues with Grounding:**
+Improper grounding can lead to interference affecting flow measurement.
+
+**Mitigation Steps:**
+- Ensure proper grounding connections.
+- Follow necessary mounting and routing procedures.
+
+---
+
+#### Internal Feed-Through Testing
+
+**Setup:**
+Inspect the internal feed-through points for connectivity and functionality. Test continuity at designated locations.
+
+---
+
+#### Remote Mounting Troubleshooting
+
+**Visual Indicators:**
+Verify that mounting positions are accurate and directions correspond with expected parameters.
+
+---
+
+#### Shorted Coating Issues
+
+**Corrective Actions:**
+- Clean all connections and ensure the housing is free from dirt.
+- Follow the appropriate troubleshooting references for troubleshooting shorted coatings.
+
+---
+
+#### Universal Compatibility
+
+**Installation Guidance:**
+Follow specific instructions for integrating the Rosemount 8732EM with existing systems, ensuring compatibility and peak functionality.
+
+**Post-Installation:**
+After installation, confirm that the measured flow aligns with expected values, indicating proper operation.
+
+This document serves as an overview of troubleshooting procedures for common issues encountered with coatings, SMART systems, and flow measurement devices. Refer to specific sections for detailed steps and corrective measures.
+
+### Reference AC - Universal Flow Transmission Specifications
+
+This section covers the flow transmission functions and provides details pertinent to their operation. Upon completion, all necessary information is organized, highlighting both current and included data. For any existing configurations, refer to Table A-1.
+
+#### A - Universal Function
+**A.2 Rosemount Connections**  
+- Connection details include various Rosemount models as specified in Table A-2. Flowtube connections and functionalities are outlined accordingly.
+  
+**A.3 Additional Connections**  
+- Procedures for connecting additional devices are detailed in A-3, with references to tables A-4 and A-5 for clarity.
+
+#### AC Power Details
+**A.6 Foxboro Series Overview**  
+- Connections for the Rosemount and Foxboro series sensors are articulated in A-12 and A-13. Circuit configurations are further elaborated, including L1 and L2 wiring specificities.
+
+**A.7 VTC Integration**  
+- VTC model connections and specifications are established in A-16 and A-17, ensuring compatibility with the Rosemount transmitter.
+
+#### Sensor & Operational Details
+**A.10 Taylor Series Sensors**  
+- Details about the Taylor series are provided in A-20, highlighting wiring configurations and ensuring compliance with system specifications.
+
+**A.11 Yamatake-Honeywell and Yokogawa Sensors**  
+- This section covers the integration of various sensor types, including chassis grounding and connection details, illustrated in Tables A-22 and A-23.
+
+### Product Specifications
+**B.1 Rosemount 8732EM Specifications**  
+- Configuration compatible with AC/DC outputs, supporting various flow and conductivity measurements.
+
+**B.2 AC & DC Supply Specifications**  
+- Detailed electrical specifications include operating ranges and ratings suitable for diverse applications. This encompasses operating voltages from 90-250VAC and 12-42VDC.
+
+**B.3 Interface Requirements**  
+- Additional operational guidelines address interface protections and operational limits under specified temperature and environmental conditions.
+
+This format maintains clarity and organization, ensuring easy reference to specific sections and configurations while keeping technical accuracy intact.
+
+### Revised Text
+
+**Reference AC Product Specifications (B.1.2, B.1.3)**
+The product can be configured with intrinsic safety (Option B) or external safety. Electrical specifications include a grounding/wiring system and high coating. The device can be set to either internally (24VDC) or externally (30VDC) selectable modes. 
+
+**Product Flow Specifications (DA1)**
+The system has continuous flow capabilities using HART protocols for communication and monitoring. Flow inputs can be switched between internal and external sources, with voltage options of 12VDC internally and 28VDC externally for testing purposes. An optional AX function enables the flow switch to activate when flow is detected.
+
+**Flow Activation Mechanisms**
+The switch activates upon detecting flow when it falls below a certain cutoff level, indicating an empty or low flow condition. The system is designed to activate in response to specific flow thresholds. Additional input functions with Option AX allow for external activation at 28VDC.
+
+**Operational Security Features**
+The system includes security switches compatible with both LOI and HART functions, which can be manually activated by holding the UP arrow and following on-screen prompts. 
+
+**Performance Specifications**
+The Rosemount system is factory-calibrated for performance validation against known standards, including linearity and repeatability. Performance metrics indicate flow rates exceeding specified values.
+
+**Physical Specifications**
+The housing of the Rosemount system is designed to be robust, featuring a 4X enclosure rating and IEC IP66 standards. Optional materials include stainless steel and various polyurethane coatings.
+
+**Software Options**
+The F0875 software option allows for specific adjustments to supply voltage ranging from lower power consumption areas, thus improving efficiency. 
+
+**Rosemount 8705-M Specifications (B.2)**
+The 8705-M is interchangeable with the 8732EM. The device is rated for a wide range of temperatures and has submergence protection up to IP68.
+
+**Non-Wetted Components**
+Material specifications include 304/304L or 316/316L stainless steel, with optional protective coatings. 
+
+**Rosemount 8711-M/L Specifications (B.3)**
+Similar to the 8705-M, the 8711-M/L offers interchangeable and conductive services, with IP68 protection for wet environments.
+
+**Adjustments and Mechanical Specifications**
+Both systems utilize standard ASME threads with additional options for stainless steel or carbon steel components. Grounding options are available to ensure safe operation.
+
+This succinctly encapsulates the critical details while maintaining the integrity of the original content.
+
+### B: Product Specifications
+
+**B.4 Rosemount Specifications**
+
+**B.4.1 Functional Specifications**
+
+- **Service Conductivity**: The Rosemount model is designed for conductivity applications, with interchangeability to the Rosemount 8732EM, including optional features. It can connect using the Liquid Interface or through interconnecting installations.
+
+**B.4.2 Physical Product Specifications**
+
+- **Temperature Range**: Capable of operating from -40°F to 194°F (-40°C to 90°C).
+- **Material Composition**: Constructed with PFA and protected to an IP68 rating, suitable for extended periods of immersion.
+- **Mounting Options**: Factory-integrated, wired units are available for both remote and direct installation.
+- **Product Weight**: Approximately [Weight] depending on configurations (Polyurethane and SST).
+
+**Reference AC Product Specifications**
+
+- Compatible with various couplings including IDF, BSin4825, ANSI, DIN, and SMS. Optional electropolishing and sealing with EPDM materials are available.
+
+### C: Product Information
+
+- **Rosemount 8700M Flowmeter Platform**: Compliant with certification standards like CE, C-tick, FM, CSA, and EAC, suitable for various operational environments including hazardous locations.
+  
+- **Directive Compliance**: Adheres to directives for electromagnetic compatibility (EMC), low voltage (LVD), and pressure equipment (PED). Flowtubes meet the necessary material and design standards for safe operation under specified conditions.
+
+- **Intrinsically Safe and Explosion-Proof Ratings**: Models are categorized under various standards, including Class I, II, and III for non-incendive and explosion-proof applications.
+
+- **Installation Precautions**: Units must be installed following specified guidelines to ensure IP66/68 protection standards.
+
+- **Electrical Specifications**: Power requirements vary (e.g., range from 250VAC/0.45A to lower voltage options for internal and external sources), necessitating attention to safety and grounding during setup.
+
+### Final Comments
+
+The specifications for the Rosemount 8700M Platform and associated models provide a comprehensive overview of performance, safety, and interoperability features essential for industrial applications. Specific installation guidelines and compliance with international standards ensure reliability and safety in diverse environments. For more detailed technical data, refer to Rosemount's official documentation.
+
+**Reference AC Information: Rosemount 8700M Platform, IEC EX ATEX 08732-AP02, AA Nomenclature**
+
+- **Flow Options:** 8705-M and M4 
+   - **K1 G1 L1 B3 J1 SC V1 SH II III IV VI VII VIII IX XI XII XIII XIV**
+   - **Explanations:**
+     - **Flowtube II, Custom III:** Designed to comply with IEC standards.
+     - **Housing VI:** Includes options for grounding.
+     - **Mounting VIII:** Compatibility with 8732EM as an option.
+     - **J1 Options:** CM20 or M20 junction.
+     - **Mounting IX:** Options for NPS sizes.
+
+- **ATEX Ratings:**
+   - Models II IIC T5/T3, II tb IIIC CT C across several configurations (K1, K7, N1, N7, ND, NF).
+
+**Note:** 
+- Housing types M0, M1, M2, M3, and M4 are specified, with unique compliance information provided for different configurations (C).
+
+**Additional Reference AC Information: C.2 FM Locations**
+- Further details as per previous sections.
+
+**C.3 Locations:**
+- Continued reference information and compliance notes.
+
+**C.4 EC Declaration of Conformity:**
+- Information indicating compliance with standards.
+
+**Print Copies:** 
+- Note that printed versions of documents are uncontrolled.
+
+**D Section Information (including 8732EM):**
+- Specific diagrams and details about the 8732EM device and its integration with other systems, including THUM wireless configurations.
+

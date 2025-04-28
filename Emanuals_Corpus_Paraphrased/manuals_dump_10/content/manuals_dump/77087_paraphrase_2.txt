@@ -1,0 +1,76 @@
+**Touchmonitor 1715L LCD Touchmonitor Revision**  
+Model: LCD ET1715L Revision P/N E183495
+
+© TouchSystems, Inc. All rights reserved. Reproduction, transmission, transcription, or translation by any means is prohibited without written permission from TouchSystems. The information provided is subject to change without notice and is furnished "as is" without warranties, including any implied warranties of merchantability or suitability for a particular purpose. TouchSystems reserves the right to make modifications or updates without obligation. Trademarks such as AccuTouch, AT4, CarrollTouch, MonitorMouse, and SecureTouch belong to TouchSystems, Inc. Acknowledgments and further information can be found in the dedicated sections.
+
+### Introduction
+This Touchmonitor features an advanced SXGA TFT LCD, providing high performance and compatibility. It supports various graphics card configurations including VGA, SVGA, XGA, and non-interlaced SXGA and adheres to VESA DPMS standards. The monitor also supports DDC1/2B and offers an integrated wall-mounting function.
+
+### Unpacking the Touchmonitor
+Refer to this chapter for the proper unpacking procedure of the LCD touchmonitor and installation of accompanying software. Ensure you have the following items: the LCD monitor, VGA and USB cables, and installation CD.
+
+### Installation and Setup
+When connecting the touchmonitor to your PC, ensure that both devices are turned off. Connect the touch interface and USB cable accordingly. Secure the connections by turning the screws clockwise to ensure proper grounding.
+
+### Touchmonitor Software
+The touchmonitor software, located on the installation CD, supports several operating systems including Windows XP and NT. Additional operating system information can be accessed at www.elotouch.com. Follow the on-screen instructions for proper installation.
+
+### Touchmonitor Operation
+To operate the On-Screen Display (OSD), use the designated buttons to navigate and adjust settings such as brightness and item selection. The OSD can take a few seconds to appear, and changes can be made to display attributes such as size and position.
+
+### Troubleshooting
+If you encounter issues with the LCD touchmonitor, check the input settings and ensure that they match the output from your graphic source. Common resolutions are supported; however, mismatches may cause display artifacts. In case of persistent issues, refer to the installation and operation chapters for guided resolutions.
+
+### Safety and Maintenance
+To prevent static shock or damage, ensure proper grounding by using a 3-wire cord. Cleaning the touchmonitor should be performed carefully to avoid harm to the device. For any technical difficulties, consult the mentioned sections or reach out for customer support.
+
+### Touchmonitor B-28 User Guide
+
+**Cleaning Instructions:**
+To maintain the touchmonitor, avoid using harsh chemicals or solvents. Clean with a soft, lint-free cloth, lightly dampened if necessary. Directly applying cleaners to the touchscreen is not recommended, as it may cause scratches.
+
+### Technical Specifications - Appendix C
+
+**Touchmonitor Specifications:**
+- Model: ET1715L
+- Display Type: LCD TFT Active
+- Resolution: 337.9mm (H) x 270.33mm (V)
+- Pixel Pitch: 0.264mm (H) x 0.264mm (V)
+- Supported Resolutions: VGA, SVGA, XGA, SXGA
+- Typical Brightness: 300 cd/m²
+- Color Depth: 16.2M
+- Connector Types: R.G.B. TTL or negative
+- OSD Menu Language: English, Spanish (optional support for DDC1/2B)
+- Power Supply: AC 100-240V
+- Operating Temperature: 0°C to 50°C (32°F to 122°F)
+- Humidity Conditions: 20% to 80% RH
+- Certifications: ETL, UL, C-UL, FCC-B, CE, VCCI, C-Tick, MPRII
+
+**Mechanical Specifications:**
+- Touch Activation: Greater than five touchpoints
+- Activation Force: Typically less than three ounces
+- Expected Life: Designed to withstand more than 50 million touches
+
+**Chemical Protection:**
+- Resistant to ammonia-based cleaners per EN standards.
+
+### Regulatory Information
+
+**Compliance and Safety Notices:**
+A) This device complies with FCC Class B regulations, ensuring reasonable protection against interference in installation. Follow the provided instructions to minimize interference risks.
+B) Users in the EU: Only use approved cords and connections as indicated in CE compliance standards.
+C) Interference may occur and can often be resolved by adjusting the orientation or distance from the affected equipment.
+
+### Warranty Terms
+
+**General Warranty:**
+The manufacturer warrants that the product is free from defects for three years from the date of purchase. Should any defect arise during this period, notify the manufacturer within thirty days of discovery. The manufacturer reserves the right to inspect the product and determine appropriate action, including repair, replacement, or refund of the purchase price.
+
+**Limitations:**
+This warranty is the sole remedy provided, and no additional warranties, either expressed or implied, are offered. The manufacturer is not responsible for any costs related to substitute goods or consequential damages. 
+
+For further information, consult the official website or contact the support office.
+
+### Contact Information
+For product details, software updates, and additional support, visit www.elotouch.com or contact TouchSystems, Inc. at 800-356-8682.
+

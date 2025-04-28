@@ -1,0 +1,27 @@
+### PSS MAN-PSSUG Technical Document Overview
+
+**Notice**
+This document provides an overview and reference information regarding the PSS and PSSF systems, including text and graphics. The specifications outlined herein are introductory and not comprehensive. For detailed specifications, consult the PSS Product Revision History available in MAN-PSSUG.PDF from March and PSSUG0403.PDF from October as well as the Initial Release documentation from Motion Inc., located at MA, USA.
+
+### Warranty Information
+The products detailed in this document are warranted against defects in materials and workmanship for a period specified in either the installation documentation or within a specified timeframe. This warranty does not extend to any implied warranties of merchantability. The PSS and the AC supply must adhere to operational guidelines to maintain warranty coverage.
+
+### Product Overview
+The PSS and PSSF products are designed for amplifiers and include an integrated power supply. These systems are suitable for high-inertia loads and feature both single- and three-phase options. The mounting options comply with standard 19-inch DIN backplane configurations. This section includes tables for specifications related to the PSS 3U and PSS 6U models, outlining input and output configurations for AC and DC supply.
+
+### Technical Specifications
+The PSS/PSSF systems feature the following key specifications:
+- Input configurations: AC (ISolated/Floating) inputs across multiple phases and DC connections for high-inertia applications.
+- Protection mechanisms and thermal management features are incorporated within these systems to prevent damage during high load conditions.
+
+### Mounting and Setup Procedures
+Installation guidelines emphasize the importance of proper mounting to ensure optimal operation and heat dissipation. If issues occur during setup, immediate action is advised. Suitable wire connections must be verified for tightness beforehand. The PSS system should only be connected to isolating or floating supplies.
+
+### Operation Guidelines
+To convert from single-phase to three-phase operation for the PSS 3U model, specific connections between phases must be established. Recommended voltage levels and load specifications should adhere to the outlined parameters for operational integrity.
+
+### LED Status Indications
+Indicators are installed on the PSS systems for real-time status monitoring, including power supply health and operational alerts.
+
+For further details, please refer to the respective technical documentation and product specifications.
+

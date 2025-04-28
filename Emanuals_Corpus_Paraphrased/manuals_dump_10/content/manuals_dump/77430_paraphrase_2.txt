@@ -1,0 +1,36 @@
+### Instruction Sheet: PN Sensor/Process Application Compatibility
+
+#### Specifications
+The operational responsibility of the **Sensor Application** lies with the user. The device operates within a temperature range of up to 122°F (50°C) and features a ½ inch MNPT connection made from Polysulfone and Teflon TFE. The cathode is constructed from E.I. Teflon.
+
+**Flow Cells:** 
+- Model **CPVC**: Suitable for temperatures up to 122°F (50°C) with NFPT connections.  
+- Model **PVC**: Rated for 120°F (49°C) with NFPT connections.  
+- Model **Polyester/Polycarbonate**: Acceptable for temperatures up to 158°F (70°C).  
+- Model **316SS**: Contains specifications applicable to the specified flow parameters.
+
+**Caution:** Refer to the accompanying information for specifications and operational guidelines.
+
+#### Installation
+For the **Model 499A OZ**, ensure proper flow as outlined below, targeting a velocity of 0 to 10 ft/sec. The 499A OZ is not designed for submersion.
+
+#### Wiring 
+Refer to the wiring diagrams for proper connections. Ensure that any EMI/RFI precautions are taken into account during installation.
+
+#### Calibration
+Calibration of the **499A OZ** is necessary upon initial service and every several months thereafter. Follow the prescribed procedures accurately. If the device has been inactive for an extended period, allow it to operate for a minimum of one hour before taking measurements.
+
+#### Maintenance
+Regular maintenance and cleaning are important for optimal performance. Cleaning should occur every four months, or sooner if performance degradation is noticed. 
+
+**Cleaning Instructions:**
+- Clean the membrane using a spray from a clean bottle.
+  
+**Replacing Electrolyte Solution and Membrane:**
+- Unscrew the assembly, inspect the cathode for tarnishing, and clean it as needed. If scratches are present, ensure proper finishing.
+
+**Warning:** Be cautious during handling to prevent overflow and damage to the threads.
+
+**Spare Parts and Ordering Information:**
+For spare parts and components, refer to assembly figures and contact Emerson in Rosemount, Analytical Inc., USA. Online ordering is available through our website for U.S. purchases exclusively, and credit cards are accepted. Specifications are subject to change without notice.
+

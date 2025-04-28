@@ -1,0 +1,90 @@
+### XDR Precision Cooling: Ensuring Business Continuity
+
+**IMPORTANT SAFETY GUIDELINES**  
+**SAVE THESE INSTRUCTIONS**  
+**WARNING:** Risk of serious injury or death due to top-heavy design. Follow all listed instructions during setup and use.  
+**WARNING:** High-pressure hazards may result in injury or death. Disconnecting equipment improperly can pose serious risks.  
+**CAUTION:** Ensure all technicians are properly trained, equipped with head protection, and adhere to all operational guidelines.
+
+**Fluorinated Refrigerants**  
+The XDR system uses refrigerants including R407C and R410A, and must comply with (EC) regulations to minimize environmental impact. Proper recovery and service practices are necessary.
+
+**Installation Considerations**  
+- The system's installation should be well-insulated and properly sealed.
+- Follow guidelines for removing the XDR unit from packaging and for connection.
+
+### Table of Contents
+- Installation Checklist
+- Connecting Methods
+- Mechanical Considerations
+- System Maintenance
+- Specifications 
+
+**General Product Information**  
+The XDR cooling unit is designed for high-density heat removal and mounts at the rear of a 42U rack system. It efficiently facilitates cooling through designated airflow channels.
+
+**Mechanical Considerations**  
+The XDR's positioning and connections using hard-piped systems or pre-charged couplings require compatibility checks and compliance with safety protocols.
+
+**Installation**  
+- The XDR unit must be securely mounted using the provided hardware and following all weight specifications.
+- Ensure technician safety during installation to prevent injuries.
+
+Regular checks and adherence to guidelines ensure effective operation and prolong the equipment’s lifespan.
+
+**Piping for XDR Connection**
+
+Piping configurations must be established for the XDR unit, particularly for applications employing fluorinated refrigerants like R407C and R410A, while adhering to EC regulations. The systems shall be designed for optimal performance, ensuring both serviceability and recovery compatibility.
+
+When connecting the XDR to XDP or XDC units, ensure that all connected equipment operates in tandem without interference. It's standard for typical XDR setups to be non-interlaced; as illustrated in the piping diagrams, proportional dimensions must be maintained across the XDP, XDC, and XDR systems.
+
+**Installation and Specifications**
+
+For the hard-piped XDR, maintain a low-pressure holding charge, typically shipped with optional one-shot couplings facilitating easy assembly. Note that the outer diameter (OD) for connections must align with specified standards, and both the XDR and XD should serve low-pressure applications. 
+
+**Handling and Maintenance**
+
+During assembly, utilize high-temperature soft materials around the charge connections to prevent oxidation. Prior to testing, ensure all connections flow properly to uphold ASHRAE standards. Reference tables should be followed to verify the proper fit and flow from the XDR to XDC.
+
+**Leak Checking and Charging**
+
+Engagement of leak-checking protocols is crucial, particularly when charging XDR units with optional XD configurations. All assembly instructions must be referenced for compliance with model SL-16655 found on www.liebert.com. 
+
+Use one-shot couplings if retrofitting or servicing units to facilitate easier connections and maintain integrity. If operating in pre-charged conditions, verify that all connections are secure, and utilize recommended tools to prevent over-tightening.
+
+**Safety Precautions**
+
+Always follow safety guidelines when disconnecting or connecting the XD and XDR. Ensure that protective equipment is utilized, and be cautious of pressure release during any system adjustments. Proper procedures reduce the risk of injury and ensure system functionality.
+
+**Disconnecting the XD from the XDR**
+
+When disconnecting the XD from the XDR, use a wrench to loosen the XD’s couplings, and then attach the XD using one-shot couplings. Ensure that the couplings are fully disengaged from the XD. It is crucial to follow the proper instructions, as improper handling may lead to serious injuries or death. Only trained personnel should carry out these procedures.
+
+**Installation Checklist and System Startup**
+
+Verify that the XDR is securely attached and correctly connected to the appropriate isolation points on the XDP or XDC. Ensure that all couplings are assembled according to specifications. For charging, use either the XDP (SL-16671) or XDC (SL-16644). For further guidance, refer to www.liebert.com to confirm proper installation and insulation.
+
+Charge the XD according to user instructions to ensure it integrates properly with XDP or XDC cooling systems.
+
+**Starting the Liebert XD System**
+
+When initiating the system, ensure the user is equipped with the manuals for XDP (SL-16644) and XDC (SL-16671). For more details on starting the XD, explore the resources available at www.liebert.com.
+
+**Maintenance for the XDR**
+
+To maintain proper operation of the XDR, regular cleaning is essential. Ensure cooling fins are clear of debris. The cooling system must comply with regulations such as (EC) No. 842/2006 regarding fluorinated gases to ensure environmental safety.
+
+**Specifications Table for XDR Models**
+
+| Model         | Pre-Charged Cooling Capacity (tons) | EAT (°F) | EAT (°C) | Dimensions (inches) | CSA/CE |
+|---------------|-------------------------------------|----------|----------|---------------------|--------|
+| XDR20B1P     | Rated (40°F)                        | 55       | 13       | Not specified       | Yes    |
+| XDR20B1      |                                     |          |          |                     |        |
+| XDR20B1R     |                                     |          |          |                     |        |
+
+**Ensuring High Availability for Mission-Critical Applications**
+
+Emerson Network provides solutions that ensure business continuity for mission-critical applications, incorporating cutting-edge cooling technologies and architectures. This helps maintain IT flexibility while reducing operating costs.
+
+For further details regarding Emerson's services, specifications, and to access technical support, please visit www.liebert.com or contact our North America offices.
+

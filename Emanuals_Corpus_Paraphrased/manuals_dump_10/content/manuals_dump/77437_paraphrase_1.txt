@@ -1,0 +1,81 @@
+# 2U POD Annual Owner Availability Distribution
+
+## Important Safety Instructions
+
+### Glossary of Symbols  
+### Introduction and System Description  
+### Rack Installation  
+### Installation on GXT 2U UPS.  
+### Hardwire Connections  
+
+#### Considerations for Proper Grounding 
+
+**WARNING:** Do not attempt to service this unit on your own. Ensure the cover is in place when AC power is connected. Follow the instructions strictly for servicing the 2U POD. This unit should only be used with compatible UPS systems. Adhere to the operating and safety recommendations to prevent malfunction. Turn off the UPS and disconnect the 2U POD prior to cleaning, and use only a soft cloth for this purpose. Avoid placing the 2U POD near heaters or cleaning fluids.
+
+**WARNING:** Ensure the 2U POD is compatible with the UPS's input requirements. Maintain proper grounding while the UPS is off.
+
+#### Caution 
+
+To reduce electrical shock risk, disconnect input power before servicing. All maintenance should adhere to the UPS's operational guidelines.
+
+### Specifications
+
+**WARNING:** The 2U POD and connected devices must be operated according to the specified ratings. 
+
+### Introduction and System Description 
+
+Congratulations on your choice of the 2U POD. This unit is designed for seamless integration with your UPS and may be mounted or serviceable as needed. It facilitates the distribution of utility and load from the UPS, allowing for efficient management of power flow through the system.
+
+### Rack Installation
+
+**Installation Instructions:** Use the mounting kit included with the POD to install it securely. Follow provided guidelines to ensure proper placement on the rack. Ensure screws are tightened adequately before proceeding.
+
+**CAUTION:** Ensure the load is supported by the UPS while transitioning between operational modes.
+
+### Installation on GXT 2U UPS 
+
+**Note:** This section is specific to the installation of the 2U POD. After unpacking, inspect the unit for any damage during shipping and confirm compatibility with the UPS input. If connected, power off the UPS before attaching the POD to it.
+
+### Hardwire Connections Considerations 
+
+**CAUTION:** The POD must be connected with the appropriate branch circuit protection in accordance with national standards.
+
+### Maintenance of UPS 
+
+To engage in maintenance mode, ensure the maintenance bypass lamp is illuminated. Switch to maintenance bypass to unprotected state, then power down the UPS.
+
+### Operation 
+
+To switch between utility and UPS power, refer to the operational guidelines. Ensure the UPS and POD are functioning properly when switching modes. Follow troubleshooting instructions as necessary. 
+
+### Indicator Components 
+
+The indicators on the unit will give you real-time feedback on operational status. If the utility lamp illuminates, ensure to engage bypass mode when necessary. 
+
+Adhere to these instructions clearly to ensure optimal performance and safety of the 2U POD and connected UPS systems.
+
+**TROUBLESHOOTING THE 2U POD FOR UTILITY UPS CONNECTED LOADS**
+
+To service utility connections that may be closed to the branch, refer to the instructions for the 2U POD associated with the GXT 2U UPS. Ensure the UPS is powered on and that the input connection aligns with the operational guidelines of the 2U POD. Verify that the UPS and its protectors are operational and within the specified ratings for the connected loads.
+
+**SPECIFICATIONS** (including bypass duration in milliseconds): Operating temperature range is 32°F to 104°F (0°C to +40°C), with a storage range of -4°F to 140°F (-20°C to +60°C). Compliance with standards such as UL1778 and ISTA Procedure 1A.
+
+**Power Ratings for Pod Types:**
+- MP2-115HW: 12A, 15A, AWG
+- MP2-120HW: 16A, 20A, AWG
+- MP2-130HW: 24A, 30A, AWG
+
+Ensure the correct UPS input rating and cable type for connection. Connect the UPS line cord appropriately to the POD input.
+
+**Product Warranty:** For warranty details, please click on the Product Warranty section. If you require further assistance, contact us.
+
+**RECOMMENDED PROTECTION:** Ensure proper grounding with 75°C rated wire. 
+
+**2U POD ANNUAL SERVICE:** Our company has a longstanding reputation for providing protection and conditioning solutions. Our UPS systems, rated from VA to a higher capacity, have been designed to meet various service needs across multiple locations.
+
+Although every effort is made to ensure the accuracy of this information, the corporation assumes no liability for errors or omissions. Specifications and rights remain the property of their respective owners. For technical support and service inquiries, please visit www.liebert.com.
+
+**Locations in the United States:**
+- Dearborn, OH
+- Columbus, OH
+

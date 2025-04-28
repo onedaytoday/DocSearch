@@ -1,0 +1,410 @@
+### Printed in Taiwan D720/D520 Service Manual
+
+#### Service Information & Revision History
+For detailed service information regarding the D720/D520, refer to Chapter II.
+
+#### Copyright Notice
+All rights reserved by Incorporated. This document may not be reproduced, transmitted, transcribed, or translated in any form without the written permission of Incorporated. The information provided is subject to change without notice and is provided "as is," without implied warranties including warranty of merchantability for the software. It is advisable to consult with Incorporated for any servicing related to the software.
+
+#### Service Messages
+The following messages may appear during service operations:
+
+- **WARNING**: Caution is advised to prevent potential harm.
+- **CAUTION**: Precautionary measures may be necessary.
+- **IMPORTANT**: Actions may be critical to successful operation.
+
+#### Technical Information
+This service manual contains technical details about the BASIC CONFIGURATION and LOCALIZED FEATURES of the device. For further assistance or specific inquiries regarding parts or service, please consult your local ACER-AUTHORIZED SERVICE PROVIDER.
+
+### Specifications
+- **Memory**: Up to 4GB DDR2
+- **Graphics**: WXGA with GL40 Chipset
+- **Audio**: High-definition integrated MS-Sound microphone
+- **Dimensions**: (W) x (D) x (H) inches
+- **Integrated Communication**: 
+  - WLAN: IEEE standards
+  - Ethernet: 10/100 LAN
+
+#### External Interface
+- **USB Ports**: Multiple USB interfaces
+- **Audio**: Headphone output and microphone input
+- **Security**: Kensington lock compatible
+
+#### User Interface Features
+- **TouchPad**: 
+  - Supports left and right click functionality
+  - Sensitive to touch
+
+#### Battery and Power Management
+- **LED Indicators**: Show charging status and HDD activity
+- **Battery Cooling**: Designed for enhanced heat dissipation
+
+#### Special Keys and Functionality
+- **Function Keys**: For controlling brightness, enabling/disabling the TouchPad, and activating other device functionalities.
+- **Shortcut Keys**: To facilitate user interactions with applications.
+
+For detailed technical specifications, configurations, and troubleshooting instructions, consult the relevant sections in the manual.
+
+### Memory Specifications
+
+- **Memory Options:** 
+  - On-board Memory: 0MB
+  - DIMM Support: Up to 4GB (with 2GB SODIMM)
+  - DIMM Type: DDR Synchronous DRAM, requiring 1.8V
+
+- **Memory Combinations:**
+  - Various combinations possible, including:
+    - 0MB, 512MB, 1024MB, 2048MB, 2560MB, 3072MB, and 4096MB
+
+### Storage Interface
+
+- **SATA Interfaces:**
+  - Models: 
+    - ST9250827AS, ST9160827AS, ST9120817AS with specifications for capacity and RPM
+    - Performance parameters provided in Mbytes/sec (DC 5V)
+
+### Optical Drives
+
+- **Supported Models:**
+  - HLDS/GSA-T50N, DS-8A2S, Sony/AD-7560S
+  - Formats Supported: DVD+R, DVD-R, CD-ROM, and more.
+
+### Audio Specifications
+
+- **Audio Interface:**
+  - Chipset: REALTEK ALC268
+  - Features: High Definition audio with multiple input/output options.
+
+### Display Specifications
+
+- **LCD Details:**
+  - Model: AUO/B141EW04
+  - Size: 14 inches with WXGA resolution.
+  - Brightness and response time specifications included.
+
+### BIOS Features
+
+- **Accessing BIOS:**
+  - Utility available at startup by pressing <F2> or <F12> for boot options.
+  - Contains sections for Information, Advanced, and Security settings.
+
+### Information Display
+
+- **System Information:**
+  - Provides details on CPU, HDD specifications, and BIOS versions.
+  - UUID included for software identification.
+
+### Security Settings
+
+- **User Access Control:**
+  - Password protection options to safeguard BIOS settings and HDD access.
+
+### Advanced Settings
+
+- **Configurable Options:**
+  - Advanced CPU settings, power management, and performance tuning items available.
+  - Options with potential impact on system operation highlighted.
+
+### Boot Options
+
+- **Boot Sequence:**
+  - Options for setting the boot order including HDD, USB, and optical drives. 
+
+This summary encapsulates the core technical specifications and functionalities while maintaining clarity and conciseness.
+
+The BIOS Utility enables access to advanced security settings and CMOS options. Use F1 to select an item, F5 or F6 for modification, F9 to initialize, ESC to exit, and F10 to save. Corruption of the BIOS can occur, necessitating recovery via Phlash to restore the BIOS ROM. Ensure the AC power is connected during this process, as a disrupted power supply can hinder BIOS flashing.
+
+For DOS utility functions, press F2 to choose options regarding the USB HDD, IDE devices, and other components. If the AC power is connected, the system will indicate this in the display.
+
+When managing HDD/BIOS security, specific commands like UnlockHD.EXE can help reset or clear settings. Enter the necessary credentials when prompted and use F2 for BIOS access.
+
+Clearing BIOS settings or performing hardware maintenance involves carefully following the prescribed procedures, utilizing the appropriate tools such as screwdrivers while ensuring not to scratch the motherboard during disassembly.
+
+When removing components like the battery, memory cover, and various screws, ensure to document the quantities and specifications of screws utilized. The assembly processes should be executed in a meticulous manner, including the correct order for disassembling parts such as the TouchPad bracket and LCD unit while handling the internal connections with care to avoid damage. 
+
+Maintain organization of screws and components throughout the disassembly and reassembly processes to ensure efficient reconnection and proper function of the device.
+
+### LCD Removal
+
+1. **Removing the LCD**: 
+   - Detach the LCD by unscrewing the M2.5*5 screws specified for the LCD. Refer to the relevant chapter for clarity.
+
+2. **Removing the LCD and FPC**: 
+   - Rotate the LCD to the back and disconnect the FPC from the LCD. Remove the four M2*L3 screws securing the LCD as illustrated in the chapter.
+
+3. **Releasing the LCD**: 
+   - Hold the assembly free of the LCD and carefully detach it from the right side, as detailed in the chapter.
+
+### Microphone Removal
+
+- **Removing the Microphone**: 
+   - Detach the microphone from the assembly, ensuring it is freed from the LCD. Note: Refer to the associated chapter to clear any obstruction to the assembly.
+
+### LCD Reassembly
+
+1. **Reassembling the LCD**: 
+   - Reattach the LCD and ensure all components are placed correctly as indicated. Secure the microphone as shown in the chapter, making sure all screws are in position.
+
+2. **Securing the LCD**: 
+   - Install the LCD by reinserting the screws, beginning with the top ones, and referencing provided illustrations.
+
+3. **Connecting the Back Cover**: 
+   - Align the LCD correctly with the back cover and attach it using the appropriate screws. Ensure the first screw is installed correctly.
+
+### CPU Reassembly
+
+1. **Reattaching the CPU**: 
+   - Begin by mounting the CPU and securing it with the thermal paste as needed. Fix the four screws accordingly. 
+
+2. **Connecting the Mainboard**: 
+   - Attach the CPU to the mainboard using the designated screws and connect the DC IN as specified in the chapter. 
+
+3. **Finalizing the Assembly**: 
+   - Ensure that the I/O ports are positioned correctly through the chassis, and secure the screws to complete the assembly.
+
+### TouchPad Bracket
+
+1. **Installing the TouchPad**: 
+   - Remove the TouchPad individually, secure the FFC connector, and follow outlined instructions to align and attach the screws correctly.
+
+2. **Final TouchPad Configuration**: 
+   - Connect all necessary cables and ensure they are tightened per the instructions given.
+
+### Other Component Reassembly
+
+- Throughout this process, ensure all internal connections (FFC, HDD, WLAN, etc.) are properly connected and secured.
+- Use the right screws and follow the positioning instructions as outlined in each corresponding chapter.
+
+### Troubleshooting
+
+1. **Common Issues**: 
+   - If the LCD, TouchPad, or any other component experiences issues, familiarize yourself with the troubleshooting guide provided for specific symptoms.
+
+2. **Hardware Checks**: 
+   - Confirm that all components are properly connected and functional as per diagnostic steps to resolve problems efficiently.
+
+3. **Software Issues**: 
+   - If any software-related issues arise, ensure all drivers are current and conflict-free.
+
+4. **Final Checks**: 
+   - Verify the BIOS settings and perform additional hardware diagnostics as necessary to ensure all components are operating correctly. 
+
+Refer to the relevant chapters for specific visual guidance and detailed instructions on each step to ensure smooth assembly and troubleshooting.
+
+**Accessing ATA/ATAPI and DVD/CD-ROM Drives:**
+
+To manage ATA/ATAPI drives, double-click them. If an arrow appears next to them, you can right-click to access additional options. Similarly, for DVD/CD-ROM drives, double-click them and right-click if an arrow shows up. Ensure that these drives are recently updated, correctly seated, and free of scratches. To select audio from a CD or DVD, choose the appropriate options.
+
+**Troubleshooting Writable Drives:**
+
+To troubleshoot writable optical disc drives (ODDs), check the recording settings. Ensure the software used for burning is functioning correctly. If playback is choppy, consider closing other applications or adjusting settings related to DMA. Access the Advanced tab under the ATA options for configuration adjustments.
+
+**Device Detection Issues:**
+
+If devices are not detected by the system, restart and enter the BIOS utility. Check the ATAPI fields for detailed information. If necessary, inspect connections, reseat components, and test with different hardware setups. If issues persist, components may need replacement.
+
+**Wireless Functionality:**
+
+For wireless functionality, follow the outlined processes to resolve any detected issues. Check the functioning of the USB components and ensure all related software is up to date.
+
+**Isolating Faulty Components:**
+
+In the event of recurring issues, identify and isolate the faulty Field Replaceable Unit (FRU). If discrepancies are found during testing and diagnosis, take the necessary steps to confirm the integrity of each component.
+
+**Memory Initialization and Configuration:**
+
+In the memory initialization process, configuration settings for memory modules such as DIMMs and cache attributes are vital. Parameters like CAS latency and refresh rates also play a role in optimal performance.
+
+**BIOS Recovery:**
+
+For BIOS recovery procedures, follow the steps to clear the BIOS if issues arise during POST. Ensure that hardware components such as the HDD, AC power, and battery are disconnected prior to clearing the BIOS. If recovery is needed, utilize a Crisis USB with the appropriate BIOS files and follow the specified installation instructions.
+
+By adhering to these procedures and recommendations, users can effectively troubleshoot, manage hardware, and perform necessary recoveries.
+
+### FRU Unit Overview for D720/D520
+
+This section addresses the FRU (Field Replaceable Unit) details for the D720/D520 models. Refer to this chapter for information regarding ordering FRU parts or obtaining RMA (Return Merchandise Authorization). It’s essential that when ordering FRU components, all necessary information is provided. If your service office differs from the designated FRU service office, you must inform them to ensure proper handling and compliance with relevant regulations.
+
+#### FRU Inventory
+- **Assemblies:**
+  - HDD
+  - CPU
+  - LCD (various parts, including right assembly)
+
+- **Adapters:**
+  - 65W AC Adapters (multiple models from Delta, Liteon, and Hipro)
+  
+- **Batteries:**
+  - Several models of 6-cell Li-Ion batteries from manufacturers like SANYO, SONY, and SIMPLO.
+
+- **Motherboard Components:**
+  - Power and modem boards,
+  - Mini cards (Broadcom, Atheros),
+  - Various power cords categorized by region (e.g., US, EU, UK, Australia).
+
+- **Covers and Cases:**
+  - Middle cover, upper and lower case assemblies (with and without RJ11).
+
+- **Drives:**
+  - Multiple models of DVD Super Multi Drives and Combo Drives.
+
+- **Hard Drives (HDD):**
+  - Various capacities (120GB, 160GB, 250GB, 320GB) from brands like HGST, Toshiba, Seagate, and Western Digital.
+
+- **LCD Components:**
+  - Keyboards available in various layouts (e.g., Arabic, English, French, German) and LCD panels with inverter boards.
+
+- **Memory and Screws:**
+  - RAM specifications (512MB to 2GB, DDRII) and a list of different screws used throughout the assembly.
+
+- **Module and Assembly Parts:**
+  - Mainboard specifications, power and thermal modules, and acoustic components like microphones and speakers.
+
+#### Definitions and Regional Variants
+The section concludes with a list of part numbers corresponding to various configurations aimed at specific regions, ensuring compliance with local standards and market requirements.
+
+This comprehensive outline provides a robust framework for understanding the FRU components and associated procedures for the D720/D520 models.
+
+Here’s a paraphrased version of the provided text, retaining the original meaning in a clearer, more organized format:
+
+---
+
+**Region Code and Product Details:**
+
+- **EMEA Region:**
+  - Spanish Models: 
+    - LX.N110Y.018 UMA, PA ACLA
+    - LX.N110Y.004 EM UMA AAP
+- **Australia/New Zealand:**
+  - Various Models:
+    - LX.N110C.013 UMA AAP
+    - LX.N110C.012 UMA AAP
+    - LX.N110C.011 UMA AAP
+    - LX.N110C.010 UMA AAP
+    - LX.N110C.009 UMA AAP
+    - LX.N110C.008 UMA AAP
+    - LX.N110C.007 UMA AAP
+    - LX.N110Y.017 UMA AAP
+    - LX.N110Y.016 UMA AAP
+- **Thailand:**
+  - LX.N110C.006 UMA AAP
+  - LX.N110C.005 UMA AAP
+  - LX.N110Y Code Series: 
+    - LX.N110Y.015 to LX.N110Y.006 (various specifications)
+- **USA:**
+  - Multiple Codes Including:
+    - LX.N110Y.005 UMA, PA ACLA
+    - LX.N110Y.003 EM UMA
+
+**China Region:**
+- UMAC Products:
+  - Various Models (LX.N250Y series, LX.N090Y series, etc.)
+  - Notable Specs Include:
+    - 1*1G/120/6L, 1*2G/320/6L, etc.
+- Additional Models:
+  - 571G12C, CM575 series with specified configurations.
+
+**Note:**
+Several products repeat across various regions, featuring different configurations and model numbers. For instance, models such as CM575 N14.1WXGAG have a range of specifications throughout the document.
+
+--- 
+
+This streamlined format preserves the technical details while making it easier to read and understand.
+
+Here's a technical paraphrase of the provided text while maintaining the original meaning:
+
+---
+
+**Specifications Overview:**
+- **Components**: CPU, LCD, HDD (1 GB), ODD, WLAN
+- **Model Details**: 
+  - CM575 with N14.1WXGAG, SO1GBII6, N120GB, NSM8XS, 5.4KS (repeated numerous times)
+  - CMT1700 with N14.1WXGAG, SO1GBII6, N120GB, NSM8XS, 5.4KS
+  - Other configurations including variations for CM585 and PMDT models with various HDD capacities (N160GB, N250GB, N320GB, N160GB) and different firmware versions.
+
+**Compatibility and Testing**:
+- Confirmed compatibility with Microsoft XP Home and D720/D520 models through extensive internal testing.
+
+**Power Supplies**:
+- Multiple power adapter options such as:
+  - DELTA F0000183 65W
+  - LITE-ON 65W PA-1650-02AC
+  - Other 65W models from HIPRO and additional vendors
+  
+**Battery Information**:
+- Batteries include:
+  - SANYO 6CELL2.2, 
+  - SONY AS-2007A, 
+  - PANASONIC, 
+  - SAMSUNG, all supporting various configurations and capacities.
+
+**Audio and Card Compatibility**:
+- Bluetooth: ALC268; card readers for SD/MMC/MS; JMicron JMB385 for PCI support.
+
+**Processor Details**:
+- Various CPU models including:
+  - Intel C2DP8400, C2DP8600, C2DT9400, and others, specifying clock speeds, cache sizes, and power ratings.
+
+**Hard Drives**:
+- HDD models such as HGST, WD, and SEAGATE with specific capacities (120GB, 160GB, 250GB, 320GB) and firmware versions listed for compatibility.
+
+**Network Interface**:
+- Includes RTL8111C network interface for compatibility.
+
+---
+
+This paraphrase retains the essential details and technical specifications provided in the original text.
+
+### Technical Overview
+
+**Displays:**
+- **LCD Models:**
+  - AUO WXGA B141EW04-V4
+  - Samsung WXGA LTN141W3-L01-J
+  - LPL WXGA LP141WX3-TLN1
+  - CMO WXGA N141I3-L02
+
+**Memory Modules:**
+- **2GB SO-DIMMs:**
+  - Hynix DDRII (HYMP125S64CP8-Y5)
+  - Nanya DDRII (NT2GT64U8HD0BN-3C)
+  - Samsung DDRII (M470T5663QZ3-CE6)
+- **1GB SO-DIMMs:**
+  - Nanya DDRII (NT1GT64UH8D0FN-3C)
+  - Samsung DDRII (M470T2864QZ3-CE6)
+  - Hynix DDRII (HYMP112S64CP6-Y5)
+- **512MB SO-DIMMs:**
+  - Nanya DDRII (NT512T64UH8B0FN-3C)
+  - Samsung DDRII (M470T6464QZ3-CE6)
+  - Hynix DDRII (HYMP164S64CP6-Y5)
+
+**Chipsets:**
+- **Northbridge:**
+  - Intel GL40
+- **Southbridge:**
+  - Intel ICH9M
+
+**Optical Drives:**
+- Toshiba Combo DL 24X (TS-L463A)
+- Sony Combo DL 24X (CRX890S)
+- Pioneer DL 8X (DVR-TD08RS)
+- HLDS 8X Drives (GSA-T50N)
+- Philips 8X Drive (DS-8A2S)
+
+**Wireless Components:**
+- Atheros Wireless LAN (AR5B91 BGN)
+- RT2700E BGN
+
+### Technical Services Information
+This section outlines services for ASP or TPM inquiries. For further assistance, please contact your local branch offices. They can provide direct access to technical support, including service training, software downloads, and details on Acer's International Warranty (ITW).
+
+### BIOS and Hardware Components
+- **BIOS:**
+  - FLASH Battery ROM
+  - Supported BIOS types: Advanced and Security
+- **Common Components:**
+  - CPU, DIMM, Flowcharts, HDTV switches, and connectors
+  - Thermal units and TouchPad troubleshooting information
+
+For additional technical documentation, including setup flowcharts and troubleshooting protocols, please refer to the relevant sections or contact technical support.
+

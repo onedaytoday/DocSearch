@@ -1,0 +1,524 @@
+**9094-21/EN Reference: Washer FOM CLS & FOM IEC**
+
+**Introduction**
+The FOM CLS software facilitates the inspection of laboratory references, including the cleaning protocols over a designated period. It encompasses aspects such as flow installation and cleaning frequencies. This document serves as a guide to using the software in compliance with international IEC standards, providing users with essential references for effective usage.
+
+**FOM CLS Software Updates**
+The FOM CLS software has undergone several modifications:
+- **Flow Control Adjustments**: Implement changes to the slow fill speed and temperature adjustments.
+- **Calibration Updates**: Include low and high-speed calibration adjustments with specific settings displayed.
+- **User Interface Enhancements**: Implement backlight adjustments and correction features for temperature.
+
+**Reference Inspection Criteria**
+The inspection involves verifying various components:
+- Ensure that all parts, including hoses, are securely connected and not obstructed.
+- The hoses must be of suitable material (e.g., PVC) and correctly positioned for proper flow.
+- Confirm the correct flow rate relative to specified operational parameters and ensure no leaks.
+
+**Testing Protocol with IEC Standards**
+Refer to the IEC ED5 guidelines when activating the washer functions like heating. Follow assembly instructions for mounting components, ensuring all parts are either manually installed or assembled following the provided guidelines.
+
+**Service Program Options**
+To access service functions:
+1. Press 'Select' to navigate the service program.
+2. Options include clearing various counters and adjusting calibration settings. Confirm any calibration changes as needed.
+
+**Calibration Instructions**
+For level calibration:
+- Fill with water to the indicated level and confirm by pressing 'OK.'
+- Be aware that old calibration settings will be overwritten.
+
+**Installation Notes**
+Ensure that hoses and connections are calibrated according to factory settings. All components must be freely movable and installed as previously instructed. Address any issues with weight distribution and mounting as specified in the manual.
+
+**Operational and Functional Settings**
+The FOM CLS has predefined functions that govern operation parameters:
+- Adjustments for time, temperature, weight, and water reduction settings.
+- Manual operation functions and auto-restart for program continuity.
+- Guidelines for temperature control and program modes to ensure standardized washing processes.
+
+**Final Remarks**
+Technicians should adhere to procedures for updates, adjustments, and part replacements as described. Set all switches according to operational requirements, ensuring compliance with the setup and safety protocols outlined in the FOM CLS manual.
+
+### Table Function Defaults and Explanations
+
+This document outlines the default settings and explanations for various functions related to operational cues and service alarms.
+
+1. **Heating and Cooling Controls:**
+   - **PC5 Blocking of Heating and Spinning:** Configuration options prioritize operations related to heating functionalities, noting that non-FOM CLS operations will not be included.
+   - **Service Alarm:** Indicates service hours and triggers a buzzer timeout at the end of a process or upon activation and pause.
+   - **Error Handling:** If the system reaches an overfilled state, a password protection mechanism becomes active. 
+
+2. **Fluid Level Management:**
+   - The system determines the slow filling process based on the measured reference level (in mm) and adjusts heating levels accordingly. For accuracy, software applies specific parameters for temperature adjustments.
+
+3. **Speed Calibration:**
+   - Calibration settings for low and high RPM ranges ensure correct speed display. The ratios between displayed values are adjusted to achieve accurate readings across low and high ranges.
+
+4. **Cleaning Protocols:**
+   - Regular cleaning of heating elements is crucial for maintaining performance. Lint or thread buildup can reduce efficiency, necessitating inspections. Cleaning procedures include checking the incoming hose and ensuring all connections are free of blockages.
+
+5. **Repair Guidelines:**
+   - If maintenance or repairs are required, disconnect the switch and remove the front cover. Specialized training is advised for personnel performing repairs to avoid damage.
+
+6. **Inspection and Maintenance:**
+   - Routine inspections should include verification of clearances and connections to ensure proper operation and adherence to IEC standards.
+
+7. **Operational Guidelines:**
+   - Procedures regarding the heating cycles are defined, including temperature settings for different fabric types (wool, synthetics) to optimize washing and rinsing processes.
+
+8. **Performance Monitoring:**
+   - The reference standards for operational efficiency are tracked through specified time limits for various heating tasks, as defined by IEC/CENELEC/CECED standards.
+
+9. **Documentation Required:** 
+   - Regular updates should be logged, detailing operational hours and maintenance performed, to ensure compliance with regulatory standards. 
+
+Following these guidelines will optimize machine performance and ensure compliance with industry regulations. Regular review and adherence to these protocols are essential for operational success.
+
+**FOM and Laboratory Operations**
+
+Attached to the FOM, the laboratory must adhere to the following operational guidelines regarding heating BSP. The laboratory has been authorized for these procedures.
+
+When configuring the FOM, it’s crucial to ensure the performance aligns with FOM CLS standards. If the temperature is excessively high or low, adjustments may be necessary. In such cases, altering the flow or incoming pressure may help mitigate the issue.
+
+**Flow Management**
+
+This section pertains to the FOM flow related to ELS. The flow should be directed straight through the front flow housing. The housing location should be checked regularly for optimal flow performance, which is influenced by a K-factor that varies depending on the supply and installation specifics.
+
+If the supply flow is inadequate, follow the procedure outlined below:
+
+1. Select the appropriate settings based on IEC standards.
+2. Ensure all connections are secure.
+3. Hold the temperature within specified limits (e.g., 60°C).
+4. Adjust the K-factor based on the achieved flow amount.
+5. Inspect connections for blockages, especially in the supply hose.
+
+**Cleaning Protocols**
+
+To maintain efficiency, cleaning procedures must be followed:
+
+- Remove external obstructions from the housing that could impede function.
+- Clean lint or thread buildups affecting heating performance.
+- Inspect the housing and surrounding components for any accumulated debris.
+
+For thorough cleaning, disconnect power and clean the heating elements appropriately. Follow the steps to ensure proper reassembly after cleaning.
+
+**Motor Operation**
+
+The motor-operated emptying mechanism is designed for self-cleaning with acme-threaded components. Adjustments should be made carefully, ensuring the motor performs optimally. 
+
+**Regular Maintenance**
+
+Periodic checks and maintenance every few months are recommended to ensure the system operates correctly. This includes cleaning and checking the integrity of all components and verifying that the supply flows freely.
+
+**Estimated Parameters for Heating**
+
+Refer to specific tables regarding expected heating durations at various temperatures, including guidelines for switching relays at designated temperature thresholds (e.g., 20°C, 40°C, 60°C). 
+
+For optimal function:
+- Keep an accurate log of temperatures and relay activities.
+- Adjust settings based on feedback from testing to minimize buildup.
+
+Overall, adherence to these guidelines will ensure the laboratory and FOM operate efficiently while delivering accurate results.
+
+### Heating Protocols and Actions per IEC Ed5 Standards
+
+1. **Heating Temperatures for Synthetics/Blends:**
+   - 60°C: Refer to the Action for heating water as per IEC Ed5.
+   - 40°C: Refer to the Action for heating water as per IEC Ed5.
+  
+2. **Heating Temperatures for Wool:**
+   - 40°C: Refer to the Action for heating water as per IEC Ed5.
+
+3. **Additional Heating Protocols:**
+   - 30°C: Refer to the Action for heating water as per IEC Ed5.
+   - 20°C: Refer to the Action for heating water as per IEC Ed5.
+
+4. **Washing Parameters for Cotton:**
+   - Main wash: Pause with buzzer (Yes/No)
+   - Normal/gentle action during filling: (Yes/No)
+   - Normal/gentle action during heating: (Yes/No)
+   - Normal/gentle action during wash: (Yes/No)
+
+5. **Control Settings:**
+   - Level units and their hysteresis
+   - Temperature settings in °C
+   - Wash time in minutes and seconds
+
+6. **Water Source Options:**
+   - Cold water (Yes/No)
+   - Hot water (Yes/No)
+   - Cold hard water (Yes/No)
+
+7. **Compartment Control:**
+   - For level-controlled compartments: (Yes/No)
+   - For hot level-controlled compartment: (Yes/No)
+
+8. **Detergent Dispensing:**
+   - Times for detergent dispensing in minutes and seconds for multiple cycles.
+
+9. **Rinse Protocols:**
+   - Drain pause with buzzer (Yes/No)
+   - Normal/gentle action during drain and rinse processes: (Yes/No)
+
+This outline summarizes the necessary heating actions, washing parameters, and control settings that must conform to the IEC Ed5 standards for efficient and effective operation.
+
+**Rinse Pause with Buzzer**: Yes/No  
+**Normal Action During Filling**: Yes/No  
+**Gentle Action During Filling**: Yes/No  
+**Normal Action During Heating**: Yes/No  
+**Gentle Action During Heating**: Yes/No  
+**Normal Action During Wash**: Yes/No  
+**Gentle Action During Wash**: Yes/No  
+**Level Units**  
+**Hysteresis Units**  
+**Temperature (°C)**  
+**Wash Time**: Minutes and Seconds   
+**COLD Water**: Yes/No  
+**HOT Water**: Yes/No  
+**Cold Hard Water**: Yes/No  
+**Comp (Level Controlled)**: Yes/No (x4)   
+**Comp Hot (Level Controlled)**: Yes/No  
+**Soap Dispenser**  
+**Detergent Time**: Minutes and Seconds (5 entries)  
+**Drain Pause with Buzzer**: Yes/No  
+**Normal Action**: Yes/No  
+**Gentle Action**: Yes/No  
+**Time**: Minutes and Seconds   
+**Main Data**  
+**Buzzer On When Program Finished**: Yes/No  
+**Gentle Action On Time**: Seconds  
+**Gentle Action Off Time**: Seconds  
+**Normal Action On Time**: Seconds  
+**Normal Action Off Time**: Seconds  
+
+### Cotton Main Wash
+**Pause with Buzzer**: Yes/No  
+**Normal Action During Filling**: Yes/No  
+**Gentle Action During Filling**: Yes/No  
+**Normal Action During Heating**: Yes/No  
+**Gentle Action During Heating**: Yes/No  
+**Normal Action During Wash**: Yes/No  
+**Gentle Action During Wash**: Yes/No  
+**Level Units**  
+**Hysteresis Units**  
+**Temperature (°C)**  
+**Wash Time**: Minutes and Seconds  
+**COLD Water**: Yes/No  
+**HOT Water**: Yes/No  
+**Cold Hard Water**: Yes/No  
+**Comp (Level Controlled)**: Yes/No (x4)  
+**Comp Hot (Level Controlled)**: Yes/No  
+**Soap Dispenser**  
+**Detergent Time**: Minutes and Seconds (5 entries)
+
+**Drain Pause with Buzzer**: Yes/No  
+**Normal Action**: Yes/No  
+**Gentle Action**: Yes/No  
+**Time**: Minutes and Seconds  
+**Rinse Pause with Buzzer**: Yes/No  
+**Normal Action During Filling**: Yes/No  
+**Gentle Action During Filling**: Yes/No  
+**Normal Action During Heating**: Yes/No  
+**Gentle Action During Heating**: Yes/No  
+**Normal Action During Wash**: Yes/No  
+**Gentle Action During Wash**: Yes/No  
+**Level Units**  
+**Hysteresis Units**  
+**Temperature (°C)**  
+**Wash Time**: Minutes and Seconds  
+**COLD Water**: Yes/No  
+**HOT Water**: Yes/No  
+**Cold Hard Water**: Yes/No  
+**Comp (Level Controlled)**: Yes/No (x4)  
+**Comp Hot (Level Controlled)**: Yes/No  
+**Soap Dispenser**  
+**Detergent Time**: Minutes and Seconds (5 entries)  
+
+Sure, here is a paraphrased version of the text, maintaining the technical details:
+
+---
+
+**Rinse Pause with Buzzer (Yes/No)**  
+Normal Operation During Filling (Yes/No)  
+Gentle Operation During Filling (Yes/No)  
+Normal Operation During Heating (Yes/No)  
+Gentle Operation During Heating (Yes/No)  
+Normal Operation During Washing (Yes/No)  
+Gentle Operation During Washing (Yes/No)  
+Level Measurement Units  
+Hysteresis Units  
+Temperature (°C)  
+Wash Duration (Minutes/Seconds)  
+Minimum Cold Water Input (Yes/No)  
+Hot Water Option (Yes/No)  
+Cold Hard Water (Yes/No)  
+Compartment (Level Controlled) (Yes/No)  
+Compartment Hot (Level Controlled) (Yes/No)  
+Soap Dispenser Detergent Times (Multiple Entries Minutes/Seconds)  
+Drain Pause with Buzzer (Yes/No)  
+Normal Operation (Yes/No)  
+Gentle Operation (Yes/No)  
+Time (Minutes/Seconds)  
+Minimum Extraction Spinning Duration (Minutes/Seconds)  
+Main Data:  
+Buzzer Activation Upon Program Completion (Yes/No)  
+Gentle Action Activation Time (Seconds)  
+Gentle Action Deactivation Time (Seconds)  
+Normal Action Activation Time (Seconds)  
+Normal Action Deactivation Time (Seconds)  
+
+---
+
+**Cotton Main Wash Settings:**  
+Pause with Buzzer (Yes/No)  
+Normal and Gentle Operations During Various Stages (Filling, Heating, Washing) (Yes/No)  
+Other Parameters as outlined above (Level Units, Hysteresis Units, etc.)
+
+---
+
+**Main Wash Procedures:**  
+Define detainment times for various detergent applications.  
+Key attributes such as the buzzer signals during various wash phases must be specified, including inputs for cold/hot water and hard water types.
+
+---
+
+**Final Considerations:**  
+Ensure that all operations (normal/gentle) during filling, heating, and washing phases are delineated for both compartments and the soap dispenser.  
+It's essential to highlight the importance of rinsing procedures, buzzer notifications, and the activation of normal and gentle cycles.
+
+---
+
+This version remains technical while being more concise and organized for clarity.
+
+**Synthesis/Blends Specifications**
+
+- **Main Wash Pause with Buzzer**: Enable/Disable (Y/N)
+- **Normal Filling Action**: Yes/No
+- **Gentle Filling Action**: Yes/No
+- **Normal Heating Action**: Yes/No
+- **Gentle Heating Action**: Yes/No
+- **Normal Washing Action**: Yes/No
+- **Gentle Washing Action**: Yes/No
+
+**Control Parameters:**
+- **Level Units**
+- **Hysteresis Units**
+- **Temperature (°C)**
+- **Wash Time**: Minutes and Seconds
+- **Cold Water**: Yes/No
+- **Hot Water**: Yes/No
+- **Cold Hard Water**: Yes/No
+
+**Level Controls:**
+- **COMP (Level Controlled)**: Yes/No (for multiple points)
+- **COMP HOT (Level Controlled)**: Yes/No
+
+**Soap Dispenser Settings:**
+- **Detergent Dispensing Times**: (in Minutes and Seconds for up to 5 intervals)
+
+**Additional Parameters:**
+- **Drain Pause with Buzzer**: Yes/No
+- **Normal Drain Action**: Yes/No
+- **Gentle Drain Action**: Yes/No
+- **Rinse Pause with Buzzer**: Yes/No
+- **Normal Rinse Filling Action**: Yes/No
+- **Gentle Rinse Filling Action**: Yes/No
+
+- **Extract Spinning Time**: Minutes and Seconds
+- **Main Data - Program Completion Buzzer**: Enable/Disable (Y/N)
+- **Gentle Actions Time Settings**: On and Off (in Seconds)
+- **Normal Actions Time Settings**: On and Off (in Seconds)
+
+**Standard Compliance**: IEC Ed5 Synth/Blends
+
+**Synth/Blends Parameters**
+
+- **Main Wash:**
+  - Pause with Buzzer: Yes/No
+  - Filling: 
+    - Normal Action: Yes/No
+    - Gentle Action: Yes/No
+  - Heating: 
+    - Normal Action: Yes/No
+    - Gentle Action: Yes/No
+  - Washing: 
+    - Normal Action: Yes/No
+    - Gentle Action: Yes/No
+
+- **Level Units:**
+  - Hysteresis Units:
+  - Temperature (°C):
+  - Wash Time: 
+    - Minutes: 
+    - Seconds: 
+
+- **Water Sources:**
+  - Cold Water: Yes/No
+  - Hot Water: Yes/No
+  - Cold Hard Water: Yes/No
+
+- **Compartment Control:**
+  - Level Controlled: Yes/No (for each compartment)
+  - Compartment for Hot Water Level Controlled: Yes/No
+
+- **Soap Dispenser:**
+  - Detergent Timing (in Minutes and Seconds):
+    - Time 1:
+    - Time 2:
+    - Time 3:
+    - Time 4:
+    - Time 5:
+
+- **Additional Functions:**
+  - Drain:
+    - Pause with Buzzer: Yes/No
+    - Normal Action: Yes/No
+    - Gentle Action: Yes/No
+    - Time (Min/Sec):
+  
+- **Rinse Cycle:**
+  - Pause with Buzzer: Yes/No
+  - Filling:
+    - Normal Action: Yes/No
+    - Gentle Action: Yes/No
+  - Heating:
+    - Normal Action: Yes/No
+    - Gentle Action: Yes/No
+  - Washing:
+    - Normal Action: Yes/No
+    - Gentle Action: Yes/No
+
+- **Main Data:**
+  - Buzzer Activation After Program Completion: Yes/No
+  - Timing for Gentle Action:
+    - On: 
+    - Off: 
+  - Timing for Normal Action:
+    - On: 
+    - Off: 
+
+- **Wool Program:**
+  - Similar parameters apply for wool with adjustments as needed based on the specific wash requirements and detergent management.
+
+**Note:** Ensure to set all parameters appropriately based on program needs and material care instructions.
+
+**Heat & Wash Action Settings:**
+
+- **Heating Phase Actions:**
+  - Normal Action during Heating: Yes/No
+  - Gentle Action during Heating: Yes/No
+
+- **Washing Phase Actions:**
+  - Normal Action during Wash: Yes/No
+  - Gentle Action during Wash: Yes/No
+
+- **Measurement Units:**
+  - Level units: 
+  - Hysteresis: 
+  - Temperature (°C): 
+  - Wash Time (minutes and seconds): 
+
+- **Water Supply:**
+  - Cold Water: Yes/No
+  - Hot Water: Yes/No
+  - Cold Hard Water: Yes/No
+
+- **Level Control:**
+  - Component (Level Controlled): Yes/No
+  - Component Hot (Level Controlled): Yes/No
+
+- **Soap Dispenser Timing:**
+  - Detergent Time (various timings in minutes and seconds)
+
+- **Drain Settings:**
+  - Drain Pause with Buzzer: Yes/No
+  - Normal Action: Yes/No
+  - Gentle Action: Yes/No
+  - Time (minutes and seconds): 
+
+- **Rinse Settings:**
+  - Rinse Pause with Buzzer: Yes/No
+  - Normal Action during Filling: Yes/No
+  - Gentle Action during Filling: Yes/No
+  - Normal Action during Heating: Yes/No
+  - Gentle Action during Heating: Yes/No
+  - Normal Action during Wash: Yes/No
+  - Gentle Action during Wash: Yes/No
+
+- **Extraction & Spin Settings:**
+  - Normal Extraction Time (minutes and seconds)
+
+- **End of Program Alerts:**
+  - Buzzer On when Program Finished: Yes/No
+  - Gentle Action Timing: 
+  - Normal Action Timing: 
+
+- **Cotton Main Wash Settings:**
+  - Main Wash Pause with Buzzer: Yes/No
+
+This summarizes the various operational settings and conditions for heating, washing, and rinsing in an appliance, including the controls for water supply and detergent timing.
+
+**Cotton Main Wash Parameters:**
+
+- **Pause with Buzzer:** Yes/No  
+- **Normal Action During Filling:** Yes/No  
+- **Gentle Action During Filling:** Yes/No  
+- **Normal Action During Heating:** Yes/No  
+- **Gentle Action During Heating:** Yes/No  
+- **Normal Action During Washing:** Yes/No  
+- **Gentle Action During Washing:** Yes/No  
+
+**Measurement Units:**
+
+- **Level Units:**  
+- **Hysteresis Units:**  
+- **Temperature (°C):**  
+- **Wash Time (Min/Sec):**  
+
+**Water Types:**
+
+- **Cold Water Available:** Yes/No  
+- **Hot Water Available:** Yes/No  
+- **Cold Hard Water Available:** Yes/No  
+
+**Pump Control:**
+
+- **Level Controlled (Pump 1):** Yes/No  
+- **Level Controlled (Pump 2):** Yes/No  
+- **Level Controlled (Pump 3):** Yes/No  
+- **Hot Water Level Controlled (Pump):** Yes/No  
+
+**Detergent Dispenser Timings:**
+
+- **Detergent Timing (1-5):** (Min/Sec for each)  
+
+**Drain Parameters:**
+
+- **Pause with Buzzer:** Yes/No  
+- **Normal Action During Drain:** Yes/No  
+- **Gentle Action During Drain:** Yes/No  
+- **Drain Time (Min/Sec):**  
+
+**Rinse Parameters:**
+
+- **Rinse Pause with Buzzer:** Yes/No  
+- **Normal Action During Rinse Filling:** Yes/No  
+- **Gentle Action During Rinse Filling:** Yes/No  
+- **Normal Action During Rinse Heating:** Yes/No  
+- **Gentle Action During Rinse Heating:** Yes/No  
+- **Normal Action During Rinse Washing:** Yes/No  
+- **Gentle Action During Rinse Washing:** Yes/No  
+
+**Overall Summary Settings:**
+
+- **Buzzer Activation at Program Completion:** Yes/No  
+- **Gentle Action On Time (Sec):**  
+- **Gentle Action Off Time (Sec):**  
+- **Normal Action On Time (Sec):**  
+- **Normal Action Off Time (Sec):**  
+
+**Technical Configuration:**
+
+Ensure to follow specific connection guidelines for the fitted FOM LAB system in conjunction with the defined standards. The flow should be aligned with the reference configurations stated for optimal operation. All electrical specifications must adhere to the guidelines outlined, including power supply integration and connection points for various components. Maintain the integrity of the flow meter calibration (K-factor), ensuring accurate readings for laboratory applications.
+

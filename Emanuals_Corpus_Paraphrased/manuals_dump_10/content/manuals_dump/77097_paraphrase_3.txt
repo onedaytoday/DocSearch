@@ -1,0 +1,114 @@
+### ELO Touchmonitor LCD Touchmonitors 1747L/1767L Revision Guide
+
+**Product Information**  
+ELO Touchmonitor LCD Touchmonitors 1747L/1767L, Revision P/N 1-800-ELOTOUCH, www.elotouch.com. All rights reserved; any reproduction, transmission, transcription, or translation of this document without the written consent of ELO Touch is prohibited. The information herein is provided “as is” without warranties regarding merchantability or suitability.
+
+**Acknowledgments**  
+This manual includes sections on precautions, product details, installation, operation, troubleshooting, and technical specifications.
+
+---
+
+### Chapter 1: Introduction
+
+**Precautions**  
+Thank you for purchasing the ELO touchscreen monitor. This LCD monitor features a SXGA TFT display with capabilities including Direct RGB input and several touch interface options (including USB for compatibility with Windows XP).
+
+---
+
+### Chapter 2: Installation and Setup
+
+**Unpacking the Touchmonitor**  
+In this chapter, you will find instructions for setting up your LCD touchmonitor, including the components and software provided.
+
+**Product Connections**  
+The 1767L front-mount and 1747L rear-mount options both will feature multiple connections located on the monitor's underside. Ensure all devices are powered off before making any connections. Key connections include:
+
+- **Power**
+- **DVI-D Video Connector**
+- **15-PIN Video Connector**
+- **9-PIN Serial Touchscreen Connector**
+- **USB Connection**
+- **OSD Remote Switch**
+
+**VESA Mounting**  
+The touchmonitor complies with the VESA Physical Mounting Interface (FPMPMI) standards, including mounting information and spacer specifications. For mounting instructions, ensure you have the necessary screws available.
+
+---
+
+### Chapter 3: Software Installation
+
+**Touchmonitor Software**  
+The provided CD-ROM contains software essential for operating the touchmonitor with various operating systems. For Windows XP and NT, ensure that the necessary drivers and software are installed correctly, following on-screen instructions.
+
+---
+
+### Operational Details
+
+**On-Screen Display (OSD)**  
+For optimal performance, adjustments to the touchmonitor settings can be made through the OSD, using the remote, and through the manual configuration options available. Ensure that the unit is set back to factory settings if necessary. 
+
+For more detailed operational guidance, consult the specific sections in the manual regarding setup, troubleshooting, and configuring your monitor.
+
+### Remote OSD Overview
+
+**OSD Controls:**
+- **AUTO/SEL**: Activates the On-Screen Display (OSD) menu.
+- **UP/DOWN**: Navigates through menu items.
+- **MENU**: Displays and exits the OSD menu.
+
+**Functionality:**
+- **Brightness Adjustment**: Use the brightness control to increase or decrease levels in a clockwise or counter-clockwise direction, respectively.
+- **OSD Functionality**: Automatically configures display settings such as brightness for different input sources including VGA.
+- **User Settings**: The "USER" option allows individual adjustments for Red/Green/Blue (RGB) settings.
+
+**Display Selection:**
+- Supports selection between DSUB and DVI inputs. It includes options to adjust clock and phase for optimal display quality. 
+
+**Optional Features:**
+- Adjusts parameters like saturation and hue, including flesh tone settings.
+- Timeout settings for OSD can be configured to close automatically.
+
+**Troubleshooting:**
+- If encountering image distortion, ensure the I/O connections are secure and compatible with the specifications of the display.
+- Verify the touch monitor is properly connected and powered. 
+
+**Technical Specifications:**
+- **Display Type**: Active thin film transistor (TFT), 17-inch display.
+- **Touchscreen**: AccuTouch technology with typical brightness levels and mechanical specifications including EMC compliance.
+- **Environmental Conditions**: Operational range from 0°C to 40°C.
+
+**Construction Details:**
+- Hard-surface coatings provide durability, and touch activation force metrics are established.
+- The device is tested for chemical resistance to standard cleaning agents.
+
+**Safety and Regulatory Compliance:**
+- The product meets various FCC, CE, and VCCI standards for electromagnetic compatibility.
+- Users are advised to heed safety warnings regarding electrical grounding to prevent electric shock.
+
+**Warranty Information:**
+- The touch monitor comes with a warranty covering parts and workmanship for a defined period.
+- Warranty claims must be reported within a specified timeframe, with provisions for inspection and potential repairs or replacements.
+
+This technical summary aims to preserve the core details while presenting the information clearly.
+
+**Exclusive Remedies for Warranty Breach**  
+
+The remedies outlined herein shall be the sole recourse for the buyer in the event of a warranty breach. Except for the explicit warranty stated above, the seller offers no additional warranties, whether expressed or implied by law, concerning the products, including but not limited to their fitness for a specific purpose, quality, merchantability, or non-infringement. No representative of the seller is authorized to provide any warranty beyond what is expressly stated in this document. The seller's liability under the warranty is strictly limited to a refund of the product's purchase price. The seller shall not be responsible for any costs related to the procurement or installation of substitute goods, nor for any special, consequential, indirect, or incidental damages.
+
+**Product Specifications for the LCD Touchmonitor (ET17X7L-XXWB-X)**  
+- Overview of the LCD Touchmonitor and specifications
+- VESA mounting interface details
+- AccuTouch touchmonitor specifications
+- Contrast and brightness parameters
+- Backlight lifespan and chemical cleaning guidelines
+- Connectivity options including USB and OSD remote
+- Mechanical specifications and durability information
+
+**Technical Information**  
+- Touch activation force and performance metrics
+- OSD function and navigation controls
+- Interaction with operating systems including MS-DOS, Windows XP, and NT
+- Additional resources available at www.elotouch.com, including product news, press releases, and software updates.
+
+For further details, please contact TouchSystems, Inc. or visit our offices in the USA or Japan.
+

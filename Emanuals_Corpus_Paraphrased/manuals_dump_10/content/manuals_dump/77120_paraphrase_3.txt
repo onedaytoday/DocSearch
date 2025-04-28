@@ -1,0 +1,108 @@
+### AUTO-SCANNING WITH DIGITAL CONTROL LCD COLOR MEDICAL MONITOR AMM15TK2/AMM15TK2-TE/AMM15TK2-TEW
+
+**SERIAL NUMBER**  
+The serial number is located on the back of the unit.
+
+#### Safety Warnings
+- **WARNING:** Alerts users to conditions that could result in injury or property damage.
+- **CAUTION:** Alerts users to potential hazards that could cause serious injury but may not be immediately life-threatening.
+- **NOTE:** Provides informational context about the operation of the device.
+
+This document serves as a reference and incorporates guidelines from ADVAN INTL CORP. 2005, ELO of TouchSystems, Inc., and other relevant proprietary information.
+
+#### Operation and Maintenance
+Users should operate the monitor according to the guidelines provided to prevent electric shock or damage. This monitor has been factory-tested and includes safety features for electrical protection.
+
+- **Cleaning Guidelines:** Do not sterilize the monitor. Use a soft cleaning cloth without applying liquid directly to the screen. Avoid using abrasive materials.
+- **Environmental Considerations:** Keep the monitor away from high temperatures, direct sunlight, and mechanical shocks to prevent operational issues. 
+
+The device complies with IEC/EN standards for safety and electromagnetic compatibility (EMC). If interference occurs with other devices, troubleshoot by following the guidelines outlined in this document, including turning off surrounding equipment.
+
+#### Product Features
+The AMM15TK2 is a microprocessor-controlled TFT-LCD monitor featuring:
+- **Display:** RGB color technology with customizable brightness and contrast settings.
+- **Interface:** Touchscreen functionalities available with the AMM15TK2-TE and AMM15TK2-TEW models.
+- **Resolution:** Supports XGA resolution.
+- **Compliance:** UL certified and complies with international standards.
+
+#### OSD (On-Screen Display) Features
+The monitor includes OSD controls for brightness and contrast adjustments, as well as function selections accessed via buttons.
+
+#### Cleaning and Maintenance
+Use non-corrosive cleaning agents, avoiding bleach or IPA directly on the screen. Ensure the monitor is unplugged and cool before cleaning.
+
+#### Certifications
+The monitor meets compliance standards set by the EU and is marked with applicable certifying labels. Any modifications or repairs should be performed by qualified personnel according to the specified guidelines.
+
+#### Connections
+The monitor supports connections via standard ports including VGA, BNC, and DB9 for touchscreen options. Ensure proper grounding and adherence to local electrical standards.
+
+#### Power Management
+The AMM15TK2 has multiple power-saving modes, facilitating reduced energy consumption during periods of inactivity. The LED indicators will provide information about the power state.
+
+#### User Instructions for OSD
+- **Brightness Control:** Adjust the brightness through the OSD.
+- **Phase Adjustment:** Fine-tune display clarity.
+- **Input Selection:** Easily switch between input sources via OSD options.
+
+Please follow the provided instructions carefully to ensure the proper functioning of the monitor. Any issues should be addressed using the troubleshooting section included in the user manual.
+
+### Product Functions
+
+#### Item Functions
+- **Brightness Adjustment**: Increase or decrease the display brightness.
+- **Clock Phase Adjustment**: Modify the clock phase settings.
+- **OSD Control**: Navigate the On-Screen Display (OSD) to the left or right.
+- **OSD Timeout and Background Color**: Choose the timeout for the OSD display and set the background color to red.
+- **DPMS Control**: Manage Display Power Management Signaling settings.
+- **Source Selection**: Choose input sources.
+- **Sharpness Adjustment**: Increase or decrease image sharpness.
+- **Information Display**: Access factory settings and input information.
+
+### Model Specifications
+- **Model**: AMM15TK2 LCD TFT
+- **Display Features**: 
+  - Touchscreen
+  - Type: Active RGB
+  - Coated finish for enhanced durability
+- **Connectivity**: DB-9 RS-232 (optional), DC Source
+- **Compliance Standards**: UL, EN60601-1, EN60601-1-2, CE, FCC
+
+### Connector Specifications
+- **DC Connectors**: 
+  - SCD-014-1-A (SHIUA CHYUAN)
+  - DHSB-15 FRF7 (LEOCO)
+- **Pin Configuration**:
+  - +12V / GND / NC / VGA / SDA (DDC1/2) / H-Ground / SCL (DDC2B) / RXD / TXD
+
+### Troubleshooting
+- **LED Indicators**: If the LED is ON, check OSD functions and brightness settings. If OFF, verify the power switch.
+- **Graphic Stability**: Unstable graphics may indicate a mismatch in input settings.
+- **Clock Phase & Position**: Adjust using OSD for optimal display.
+- **Power Connection**: Ensure AC power is properly connected.
+
+### Health and Safety Standards
+- **Operation Instructions**: The device operates on 12V DC, 3.5A with IPX0 shock protection rating.
+- **Regulatory Compliance**: Tested to meet IEC/EC and IEC/EN60601-1-2 standards, UL certified.
+
+### Warranty Information
+- **Warranty Coverage**: Covers defects in materials and workmanship for a specified duration from the date of purchase.
+- **Duration**: Warranty lasts for a defined number of months.
+- **Authorization for Service**: Warranty service must be authorized. Unauthorized service will void the warranty.
+- **Exclusions**: Warranty does not cover issues caused by unauthorized service or modifications.
+
+### Limitation of Liability
+The company disclaims all other warranties, express or implied, including any implied warranties of merchantability or fitness for a particular purpose. The company cannot be held liable for indirect damages or lost profits related to warranty claims.
+
+### Technical Assistance
+For technical support, customers can contact the company via specified channels. Ensure that devices sent for service are disinfected and comply with the RMA procedures.
+
+#### Touchscreen Specifications
+- The ELO touchscreen features a spherical design with a scratch-resistant coating for durability.
+- Software compatibility includes DOS, NT, OS/2, and others.
+- Installation instructions are provided for system compatibility.
+
+For further details, visit ELO’s official website: www.elotouch.com. 
+
+**Manufacturer**: ADVAN INTERNATIONAL CORPORATION
+

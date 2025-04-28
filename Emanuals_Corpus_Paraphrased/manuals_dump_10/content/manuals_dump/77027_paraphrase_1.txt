@@ -1,0 +1,143 @@
+**DBP Warranty Performance Overview**
+
+The warranty provided covers products with respect to impaired performance, craftsmanship, or functionality. It specifically excludes issues arising from excessive load, misuse, or operation outside of stipulated guidelines. Warranty claims are valid for a duration of months starting from the date of service or repair, beyond which units are treated as non-warranty entities. If a warranty claim is rejected due to conditions outlined in the warranty policy, it is essential to acknowledge the effective terms.
+
+**DBP Hardware Manual**
+
+Please refer to the accompanying flowchart and related chapters for guidance on using the DBP software. The DBP system (H) or (R) and its associated motherboard require compliance with the specific chapters outlined in the user manual for optimal integration.
+
+**Technical Specifications**
+
+The DBP includes input-output configurations, communication methods, and battery performance specifications, supporting both RS485 and RS232 protocols. The protective measures and mounting configurations for the Mother Boards (MBA-DBP/3U and MBA-DBP/6U) ensure robust operation.
+
+**Table of Contents**
+
+- Inductance and AC supply specifications
+- Motor AC communication interfaces
+- Procedures for pulse/direction modulation
+- Common amplifier functions, including CFM (Closed Loop Feedback Mechanism)
+- Input selection and protective measures
+
+**Dimensional Drawings and Mounting Options**
+
+Diagrams are provided for various configurations (DBP1 through DBP6), including rack-mounted options (3U/20T, 6U/21T) and external shunt resistors as applicable.
+
+**Amplifier Performance**
+
+The DBP high-performance three-phase amplifiers can handle up to 7KW, ensuring high efficiency. The system operates from either AC or three-phase power sources and can connect directly with isolation options. The internal design includes rectifiers and switching terminals that facilitate protection against shorts and voltage transients.
+
+**Communication Protocols and Performance Metrics**
+
+The DBP supports communication via RS232 and RS485, adhering to specific data integrity requirements, such as fixed parity and baud rates. Battery operation is rated to maintain performance for a minimum number of continuous operational hours. 
+
+Operational performance metrics include counts per second for velocity, acceleration, and specific operational feedback.
+
+**Control and Input Specifications**
+
+The DBP utilizes various digital and analog inputs, with threshold settings optimized for functionality. Inputs can manage up to +5V, with high/low signals configured for precise control.
+
+**Summary of Operational Capacities**
+
+The DBP is configured for continuous feedback and can function using commands from the DCB. Motion control commands issued via RS232 or RS485 allow for closed-loop feedback mechanisms. Each component's operational specifications are critical for maintaining the integrity and performance of the DBP system.
+
+By adhering to these guidelines, you can ensure effective utilization of the DBP system within its operational benchmarks.
+
+The system allows for three direct initialization methods via commands implemented to facilitate user interaction and motion control. The software encompasses subroutines to manage motion termination, enabling the cessation of movement at either the stationary state or when a termination command is received from the host. Users can activate the termination process through a switch or an input from the host. There are two main abort commands: one comes from the host, while the other is an external abort input. These commands promptly halt any motion, which is internally controlled to ensure efficient performance, given that friction is also factored into the system's behavior.
+
+The system features a reporting mechanism that communicates status to the DCB (controller) and includes details such as velocity and termination reasoning. Whenever motion is inhibited, the system conveniently provides information via the motherboard's relay outputs. 
+
+The DCB provides several protective measures, including short-circuit protection and under-voltage detection, to maintain operational integrity. If voltage levels drop below specified thresholds, the system will inhibit functions to prevent damage. Current feedback mechanisms are employed to stabilize performance across various operational scenarios.
+
+The DBP Power Board configuration includes AC and DC supply connections, providing various voltage levels necessary for operation. Each output or input is clearly defined, ensuring proper interfacing with external components. Additionally, a comprehensive layout of components, including motor outputs and signal processing, is provided for clarity on connections and functionalities.
+
+Overall, the DBP architecture emphasizes reliability and efficiency through effective termination, protection mechanisms, and well-structured input/output interfacing.
+
+### J3 (MBA-DBP/3U and MBA-DBP/6U)
+**Function**: Amplifier input. This includes the negative input and the P terminal, which should receive +5V. The options are +15V and -15V, although some are not connected and are free. The input should read +5V for expected amplifier operation. This amplifier is rated for A/V. The relay will close when the load is 0.5A at 200V and 10W. 
+
+**Motion Input**: The velocity selection is indicated by a +5V signal entering through this input. 
+
+### J4 (MBA-DBP/3U and MBA-DBP/6U)
+**Function**: Inputs receive +30VDC. Again, the relay closes at 0.5A, 200V, and 10W. This input connects to the amplifier and allows a high velocity signal with an 8V input. If the input is high (>2V), it denotes high velocity.
+
+**Motion Complete Input**: This input becomes high when motion is completed. 
+
+### J6 (MBA-DBP/3U and MBA-DBP/6U)
+**Function**: This takes auxiliary input, indicated by +5V output. The switch activates at +5V, impacting the J1A fan terminals (MBA-DBP/6U ONLY) that require a +24V isolated supply input. 
+
+### J8 (MBA-DBP/3U and MBA-DBP/6U)
+**Function**: This operates with 0-5V signals for various outputs related to mounting configurations. It includes the relevant terminals as per H/R-2a,E-J4/13.
+
+### POWER TERMINALS
+**For MBA-DBP/3UE & 6UE**: Configurations support multiple phases (A, B, C) and DC ground connections. Ensure the DC and AC connections are properly isolated.
+
+### J1 (MBA-DBP/3UE and MBA-DBP/6UE)
+**Function**: Inputs include A and B types with specified +5V and +15V references.
+
+### J2 (MBA-DBP/3UE and MBA-DBP/6UE)
+**Function**: This provides a reference input/output at +15V and -15V, with appropriate connections required.
+
+### Communication Connector (Jc)
+**Function**: Compatible with IBM XT and AT for RS232 communication. Ensure proper common connections for RS485 functions.
+
+### Mounting Recommendations
+The DBP should be mounted with appropriate shielding and grounding to enhance performance and prevent issues. Ensure that all inductively coupled wires are twisted and shielded, and connect only to ground when necessary. All connections should be checked for tightness and proper grounding upon installation.
+
+### Inductance and Supply Specifications
+
+#### Inductance Overview
+Inductance (Ir) is specified for both DC and AC power supplies within the amplifier system. For DC supplies, the inductance must be consistent across all phases. For AC supplies, ensure compliance with technical specifications, including voltage ranges from 135V to 270V, and a recommended current over 20A.
+
+#### AC Supply Options
+- **Non-Isolated AC Chassis**: Connects directly to a three-phase AC supply, with the amplifier's ground established accordingly.
+- **Isolated AC Chassis**: Similar to the above, with heat management considerations. Grounding needs are fulfilled through different configurations depending on whether the amplifier is isolated or non-isolated.
+
+#### Shunt Current and Power Terminal Connections
+DC power terminals will connect in scenarios involving single-phase use or when an increase in shunt current is necessary. For configurations involving multiple DBPs, ensure proper connections to three-phase mains and adhere to isolation specifications.
+
+#### External Connections
+- **Hall Sensors**: Utilize twisted pair shielding to connect to J8, ensuring +15V and ground connections.
+- **RS232 Communication**: Shielding should be connected solely at the computer’s end while ensuring proper data signal integrity.
+- **RS485 Communication**: Follow similar shielding practices as with RS232. Proper connections for transmit/receive signals are crucial.
+- **Differential Encoder**: Ensures that +5V or +15V supplies are properly connected to J1 or J6, respectively. Grounding should be directed to the metal frame or pins as specified.
+
+#### Pulse/Direction Connection
+Configure pulse and direction inputs through J6, noting the importance of grounding for signal stability.
+
+### Amplifier Configuration Settings
+1. Adjust DIP switches on the board to match functional requirements.
+2. Follow input settings to ensure correct operation within the amplifier's rated capacity.
+3. Match communication protocols (RS232 vs RS485) accordingly.
+
+### Feedback and Monitoring
+Monitor amplifier status through LED indicators, ensuring all signals are functioning properly. Troubleshoot any discrepancies by resetting switches or reviewing connection integrity.
+
+### Additional Notes
+- Ensure all wiring and connections respect specified shielding and grounding principles to minimize interference.
+- Verify compliance with recommended scaling and tracking rates for optimal performance.
+
+This technical overview underlines the stringent requirements for inductance, supply voltage, current ratings, and connection protocols to ensure efficient amplifier operation and reliability.
+
+**Instructions: Overview**
+
+**A) Protective Internal Functions:**
+The internal latch (LM1) hinders the feedback operation when the input (H/R-17a, E-J3/21) is activated. To clear the latch, turn off the related input and connect the leads as necessary. Recommended actions involve either powering off or applying the required input to allow feedback adjustments. 
+
+**Amplifier Feedback:**
+Immediately address the DCB RAM to display status indicators such as BAUD, OK conditions for CLIM, Battery, and Abort signals. Ensure voltages of -15V and +15V are maintained, and check the outputs for shorts. The AMPD command should be enabled within the DBP for monitoring.
+
+**DIP Switch Settings:**
+Each DIP switch (DS1 to DS14) controls various functionalities, including auto-selection, input configurations, and communication protocols like RS485 and RS232. Confirm selected DIP settings to match desired configurations.
+
+**Circuit Adjustments:**
+For optimal performance, connect R7 (1K) to the amplifier's input. If using a specified option, set DS11 to OFF. Follow the commands carefully, applying waveforms of +2.0V as needed. In critical scenarios, consider shorting components C1 and R4 based on specific requirements.
+
+**Electrical Specifications:**
+Refer to dimensional drawings, where all measurements are in millimeters, covering various panel and rack configurations (e.g., DBP1 through DBP6, and rack sizes 3U and 6U). Each panel has designated views and grounding screws indicated.
+
+**External Shunt Resistor:**
+Further details on the External Shunt Resistor (ESR) are displayed in multiple views, emphasizing its placement and electrical connections.
+
+**Manufacturer Information:**
+Contact information for international representatives and offices is listed, covering multiple regions including Austria, Finland, France, Germany, Italy, Sweden, and the UK.
+

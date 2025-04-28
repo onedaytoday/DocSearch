@@ -1,0 +1,94 @@
+### Paraphrased Text
+
+**Instructions for Operation and Installation of the FTA1100**
+
+---
+
+**INTRODUCTION**
+
+This document covers the installation and operational guidelines for the FTA1100 system. Please read all instructions thoroughly for proper implementation. For any uncertainties, contact support or seek factory service. The FTA1100 complies with UL218, CSA, and various national standards including NEMA and NFPA.
+
+**MOUNTING THE CONTROLLER**
+
+- **Wall Mounting Plate:** Ensure the mounting location is secure. Use the appropriate anchors and washers for the wall type. Securely fasten the controller to the mounting surface using four anchors. 
+- **Base/Legs Mounting (Optional):** Begin by unpacking and inspecting the mounting hardware. Confirm that all components are intact and ready for installation.
+
+**ELECTRICAL CONNECTIONS**
+
+Follow proper procedures for electrical connections, ensuring all wiring corresponds with national standards. Ensure power disconnections during servicing. Connect AC supply and battery terminals according to the labeling on the controller (CB1 for AC, CB2 and CB3 for batteries).
+
+**SYSTEM PRESSURE CONNECTIONS**
+
+Connect the system pressure input to the designated FNPT port on the controller, consistent with safety regulations.
+
+**PROGRAMMING THE MARK II XG**
+
+Turn on the device and follow the onboard instructions to configure timers and interlocks. The interface provides visibility into system status including active alarms, power availability, and operational states. 
+
+**USER SETTINGS**
+
+Customize the display settings, including brightness and contrast. You can also adjust language preferences, pressure units, and set access levels for security (password management).
+
+*Note: Be aware of potential risks associated with incorrect setups, as it may impact fire protection systems. Always ensure proper understanding of these settings.*
+
+**FINAL CONFIGURATION TIMERS AND PRESSURE CONTROLS**
+
+Adjust timers for system start-up and shut down sequences, ensuring continuous operations meet specified parameters.
+
+---
+
+For full operational effectiveness, adhere to these guidelines closely.
+
+### Settings and Configuration Overview
+
+#### Pressure Settings
+- Adjust the OVERPRESSURE ALARM by using the arrows. 
+- To set the PRESSURE SETTINGS, select RECORDING DELTA to log data at specified intervals or hour-by-hour. 
+
+#### Pressure Sensor Settings
+- The pressure sensor's operational data is displayed here.
+
+#### Calibration Settings
+- To calibrate, set the pressure to zero. Ensure the terminals are correctly connected. If the reading is not as required, make necessary adjustments.
+- To set the SPAN, press the corresponding button and follow on-screen prompts.
+- Use the RESET TO DEFAULT function to restore factory settings.
+
+#### Engine Cranking Settings
+- Specify the type of engine control (Mechanical or Electronic) and adjust the cranking duration as needed.
+- The system provides information on the cranking process.
+
+#### Alarm Limits Settings
+- Enable or disable the OVERPRESSURE ALARM and set thresholds for activation.
+- Adjust MIN and MAX alarm limits for Battery Trouble and AC levels as needed.
+
+#### Features and Operational Settings
+- Configure settings for various alarm features, including LOW PRESSURE, LOW SUCTION, and MANUAL TEST DURATION.
+- Set up USER INPUT options and acknowledge delays for alarms.
+
+#### Pump Room Audibles
+- Activate audible alerts for conditions such as LOW PUMP ROOM TEMP, LOW RESERVOIR, RELIEF VALVE OPEN, and HIGH FUEL LEVEL.
+
+#### Event Logging
+- The system records events in memory. Use the arrow buttons for navigation through past data.
+
+#### Data History
+- Save historical data to USB; ensure proper functions for recording and retrieval are followed. 
+- This includes paths for file storage and data retrieval.
+
+#### Factory Configuration
+- Reset to factory values, including MODEL, SERIAL NUMBER, and BATTERY TYPE.
+- Configure ADC CALIBRATION settings and input options.
+
+#### Diagnostics
+- Monitor RAW INPUT and OUTPUT data for troubleshooting.
+- Conduct LAMP and AUDIBLE tests to ensure all systems are functioning properly.
+
+#### Firmware Updates
+- Follow specified procedures for firmware updates via USB.
+
+#### Battery Charger Operation
+- Confirm functionality and type of battery charger being used. Ensure compatibility with the battery type (Lead, Acid, etc.).
+- Monitor charging indicators and adjust as necessary.
+
+These settings and configurations allow for effective monitoring and management of system performance and safety features. And ensure optimal operation tailored to your specific requirements.
+

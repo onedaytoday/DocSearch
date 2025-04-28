@@ -1,0 +1,80 @@
+**Conversion from FC4700 to IP4700 Overview**
+
+The process begins with transitioning from the FC4700 to the IP4700, which includes updating to the IP4700 software and ensuring proper configuration during the conversion. Factory-authorized EMC service is necessary to avoid potential issues. This document provides detailed instructions on the conversion process, including switching configurations, handling DAE IDs, and service guidelines.
+
+### Conversion Specifications
+
+1. **Network Configuration**:
+   - The IP4700 supports twisted-pair CAT5 Ethernet connections using specific DPE and DAE cards.
+   - Proper LAN connections are critical for smooth operation and include configurations for the IP4700 (1000FD).
+
+2. **Conversion Parts**:
+   - Specific part numbers (P/N) for conversion kits related to the FC4700 to IP4700 upgrade are included alongside quantity details.
+   - Accessory part numbers must be referenced to ensure all components for the upgrade are accounted for.
+
+3. **Data Caution**:
+   - Data backed up from the FC4700 cannot be recovered post-conversion. Therefore, it is essential to follow the outlined instructions meticulously to avoid any data loss.
+
+### Installation Steps
+
+1. **Initial Setup**:
+   - Ensure all necessary switches are configured correctly as per the service instructions.
+   - Position the DAE IDs appropriately following the guidelines provided in the service manual.
+
+2. **Loading Software**:
+   - Follow prompts to load the IP4700 software, initiating through a boot process that may require flashing firmware.
+   - Monitor the progress via terminal commands to ensure successful installation.
+
+3. **Diagnostic Checks**:
+   - It is necessary to run diagnostic commands to validate the installation, ensuring that PROM and BIOS are up to date.
+   - Any discrepancies must be adjusted according to the provided diagnostic instructions.
+
+4. **Factory Reset/Recovery**:
+   - Instructions for clearing previous configurations or recovering the factory settings are to be strictly adhered to when required.
+   - Use factory commands to reset and prepare systems for new configurations.
+
+5. **Verification**:
+   - Confirm that all status indicators and component settings align with expected operational parameters post-installation.
+   - Ensure that no error states are present and that all components are reporting OK.
+
+By following these detailed instructions and specifications, the conversion process from FC4700 to IP4700 can be effectively realized while minimizing risks associated with data loss and system misconfiguration.
+
+### Rephrased Text:
+
+**CRU Status:** Factory Start-Up Sequence Initiation
+
+To initiate the conversion from FC4700 to IP4700, follow these steps:
+1. Access the clearlog function and execute it.
+2. Once all indicators are flashing, proceed to confirm the operation.
+
+**Note:** Ensure both DAE factory connections are established, as required for internal factory setup.
+
+**Factory CRU Status:** Completed Operations
+
+Ensure to execute the clearlog command again after all the processes have successfully completed.
+
+**DPE Chassis Information:**
+During the conversion to IP4700, the DPE Chassis identifier (e.g., F20004701426) must be recorded. A warning appears regarding the creation of the WWN. This command will affect the write cache and I/O operations. Be prepared to respond immediately if the IP4700 Startup SP is displayed.
+
+In the specified fields, input the required selections, and confirm your choices to proceed to factory access.
+
+**Factory Access Instructions:**
+Utilize the FCLI passthru command for interface access. Confirm the recovery state by typing the appropriate selections. If any input is incorrect, backtrack using the clearlog command to rectify it.
+
+**Factory Conversion Process:**
+Engage the factory access commands to initiate the FC4700 to IP4700 conversion. A status indicating "NOT FOUND GMT" may appear while extracting and creating configurations A0 and B0. The factory initialization process will conclude successfully, generally followed by a confirmation message upon completion.
+
+Upon successful conversion, the IP4700 will indicate that the process has started correctly. 
+
+**Adherence to Instructions:**
+Always refer to the IP4700 release notes for software revisions to ensure accurate procedures are followed. Compliance with these instructions helps prevent issues during the conversion.
+
+**Copyright Notice:** 
+© EMC Corporation. All rights reserved. You may not reproduce or distribute this publication without written permission from EMC Corporation. The information contained herein is provided without any warranty of any kind. EMC Corporation disclaims all implied warranties of merchantability and fitness for a particular purpose.
+
+**Disclaimer:**
+EMC Corporation is not liable for any indirect or consequential damages resulting from the use or inability to use this information, or for any profits lost in connection to the IP4700 and related software. All trademarks are the property of their respective owners. 
+
+**Final Note:**
+To abort the process, press the designated key. Always ensure you are using the authorized release of the IP4700 software.
+

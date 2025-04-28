@@ -1,0 +1,135 @@
+**EMC Corporation Corporate Headquarters: MA 424-EMC2 UNIX Installation and Administration Guide P/N REV A03**  
+Copyright EMC Corporation. Printed July, 2023. The information in this publication is current as of the date of release. The data is provided "as is," without any representations or warranties of any kind. EMC Corporation disclaims all implied warranties, including those of merchantability or fitness for a particular purpose. The software referenced and the c-tree are the property of EMC Corporation and are protected by U.S. and international laws. Other product names are trademarks of their respective owners.
+
+**UNIX Installation and Administration Guide**  
+Chapters include:  
+- Keeping Updated on PowerPath  
+- Troubleshooting from the CD-ROM  
+- PowerPath Installation Guidelines  
+- Commands for PowerPath Applications and Devices  
+- Configuring VCS (or AAM)
+
+**Administration and Support**  
+This section covers the administration of UNIX and PowerPath, including tools for managing both new and existing installations, partitioning, and recovery procedures. 
+
+**Customer Support**  
+For additional support regarding UNIX and PowerPath, customers should refer to the EMC documentation available for each product. 
+
+**Technical Documentation**  
+EMC continually updates PowerPath software to enhance performance and reliability. Any issues with functionality should be directed to EMC Customer Service for resolution. 
+
+**Patch Management**  
+It is crucial to keep PowerPath up to date. Information on software patches and releases is available and should be reviewed before implementation.
+
+**Installation and Configuration**  
+Instructions on mounting from CD-ROMs and proper configuration steps are included. If the CD does not mount automatically, users can manually mount it.
+
+For more detailed guidance on troubleshooting or installation steps, please contact the EMC Customer Service office.
+
+Here’s a paraphrased and technical version of the provided text:
+
+---
+
+You are assigned to the PowerPath UNIX Administration. Please allocate resources to the cluster as prompted. To assign the cluster, press ENTER. If the software is already installed, you can overwrite it by pressing ENTER again. The installation details will be displayed, including instructions such as rebooting the system post-installation. 
+
+For EMC PowerPath and VCS package selections, ensure that you are selecting the correct package for either UNIX or Administration. If there are issues, troubleshoot by checking specific files such as /etc/emc/emcpxarchive/powermt.custom.saved, which may indicate whether the PowerPath installation is corrupted. If problems persist, you may need to consult EMC Customer Support.
+
+For uninstallation processes or installing an earlier version of PowerPath, follow the provided instructions carefully. Ensure to unmount the CD-ROM after installation if it was previously mounted. 
+
+When checking the installation status of the PowerPath software, refer to the relevant command outputs to confirm that the installation was completed successfully. Look for discrepancies in the system paths and ensure that all application files are properly referenced.
+
+If dealing with AAM or VERITAS clusters, the cluster may need to be managed using specific tools, such as ftcli for service management. Return to Section 3 for more detailed instructions relevant to AAM clusters, ensuring each host is properly configured.
+
+Please refer to the following information regarding the EMC PowerPath VCS installation:
+
+- **PKGINST:** NAME: EMC PowerPath VCS
+- **CATEGORY:** ARCH: VERSION: VENDOR: EMC Corporation
+- **DESC:** EMC PowerPath VCS
+- **STATUS:** COMPLETELY INSTALLED
+- **FILES:** Pathnames shared accordingly
+
+Follow the outlined troubleshooting and installation steps to ensure proper setup and management of the PowerPath software within your UNIX environment.
+
+--- 
+
+This version retains the key information while presenting it in a clearer and more structured manner.
+
+### PowerPath UNIX and Administration Guide
+
+#### New PowerPath Overview
+This section covers the integration of PowerPath with clusters, detailing how the software should be included within the existing cluster framework. It discusses when neither PowerPath nor EMC Connectivity is utilized, along with the necessary DMP and applications setup for each host. Refer to the specified chapter for guidelines on using VCMDB to designate or create shared services within the shared host architecture.
+
+#### Existing PowerPath Deployment
+To implement PowerPath on existing clusters, stop the services using the appropriate commands. Refer to the chapter detailing DMP or PowerPath commands for further information on managing cluster services.
+
+#### VERITAS PowerPath Integration
+This section focuses on the compatibility of PowerPath with VCS, particularly in existing VCS cluster installations. It provides instructions for configuring PowerPath when VCS is active on each host in the cluster. Ensure that the EMC Connectivity and VERITAS specifications are properly incorporated for each host. Additionally, it instructs on configuring the service groups within the cluster.
+
+If PowerPath is utilized with VCS, ensure the /etc/VRTSvcs/conf/config/main.cf file is appropriately edited for the cluster settings. This ensures the configuration aligns with the service group requirements.
+
+#### VCS and PowerPath Configuration
+For existing VCS clusters, utilize the GUI or command line to manage service groups related to PowerPath. Commands such as `hastop` and `hastart` must be executed correctly on each cluster node. If any changes are made, ensure they reflect in the main configuration file.
+
+#### PowerPath Configuration Parameters
+The configuration file for VCS must define the service type as PowerPath, and include parameters such as `NumThreads`, `OnlineTimeout`, and others impacting the operation and performance thresholds. Adjustments to `OnlineTimeout` should be made carefully as they influence the overall system performance.
+
+#### Editing Configuration Files
+Edit the configuration files under /etc/VRTSvcs/conf to ensure the VCS and PowerPath integration aligns with system requirements. These adjustments may include including "EMCTypes.cf" and ensuring the correct host configuration is maintained.
+
+#### Minor Configuration Considerations
+In configuring PowerPath with minor assignments across an NFS cluster, ensure that each assignment is consistent and properly established. Commands should indicate whether paths are being imported or manipulated, ensuring proper management across all nodes.
+
+#### PowerPath Administration
+This section outlines the procedures for determining the I/O configuration and ensuring the overall system is set up efficiently for PowerPath operations. Follow the established commands and directory structures for optimal performance during deployments.
+
+#### Boot Configuration
+Explicit instructions are provided to ensure the system boots properly with PowerPath enabled. Attention must be given to changing the boot device and configurations specific to the host architecture. It includes copying necessary files to ensure a successful boot sequence.
+
+#### Recovery Procedures
+Should issues arise, a recovery procedure is outlined to revert to the last stable configuration and restore PowerPath functionality. Clear steps are provided for mounting recovery media and executing necessary commands for system restoration.
+
+Ensure all paths and references are consistent with PowerPath operations to maintain system integrity and performance.
+
+This chapter focuses on removing PowerPath from a host system in UNIX and its management. The procedure outlines steps for unmounting PowerPath and its components, determining whether they are currently allocated, and ensuring the appropriate actions are taken before removal. Key steps include stopping services and unmounting any active connections to PowerPath. 
+
+To fully remove PowerPath, any related configuration files in locations such as `/etc/powermt.custom` and `/etc/PPVM_config_bak` must be addressed, as existing files can be overwritten during this process. There is a warning about potential features being affected through this operation, and confirmation is required to proceed.
+
+Be aware that removing PowerPath while using the VCS (Veritas Cluster Server) requires specific instructions outlined in `/etc/VRTSvcs/conf/config/main.cf.orig`. Caution is advised to maintain operational integrity during this phase.
+
+This chapter also covers commands relevant to PowerPath and Solaris, ensuring proper boot configurations with built-in ports. Recovery operations should be handled with care to avoid issues stemming from lost connectivity to Storage Processors (SP) or LUNs. 
+
+In managing PowerPath, connectivity checks and command utilities are essential for monitoring and restoring functionality. Additionally, support for EMC's R1/R2 configurations is referenced, detailing boot options and dependencies for successful implementation.
+
+Comprehensive information is provided throughout the chapter regarding installation procedures, command usage, and the interaction between PowerPath and native devices. Proper coordination with systems, cabling, and hardware interfaces is crucial for seamless integration.
+
+For the effective deployment of PowerPath, clear steps are laid out for deactivation and troubleshooting procedures when necessary, ensuring stability in the host's operations.
+
+### PowerPath Administration for UNIX
+
+To administer PowerPath in a UNIX environment, first execute the `sol9_liveup.sh` script located in the `/opt/EMCpower/scripts` directory. If you encounter issues with the script or require activation, ensure that the inactive mounts are correctly directed to the intended directory. 
+
+You can access both single-ported and multipathed host bus adapters (HBAs), and the identity of each HBA should be verified. This verification may involve checking the physical connections, cabling, or interfaces associated with the devices. 
+
+Use the command line to administer your PowerPath hosts, which can include issuing commands such as `-Z` for bootable configurations on Symmetrix-based hosts. This should be done manually during reports and when initiating recovery processes. 
+
+A list of related commands and files can be found in specified directories under `/basedir/EMCpower`, which includes various PowerPath CLI commands.
+
+For installation processes, you may find files like `emcpv_setup.csh` and `emcpv_setup.sh` useful. Additionally, for VCS hosts, specific scripts and configuration files related to VCS, such as `EMCvgAgent` and `EMCtypes.cf`, will be created in their appropriate directories.
+
+### Troubleshooting and Support
+
+For software detection and troubleshooting guidance, contact EMC Customer Support. This support structure is designed to help you navigate issues and gather essential information. Collect pertinent details, such as tracking IDs and software release versions, when reaching out to the support team.
+
+If you’re based in the U.S., utilize the designated help numbers for quicker assistance. Ensure any communication includes relevant information about your EMC products and the circumstances surrounding any errors or operational issues you are experiencing.
+
+### Reporting Issues
+
+When reporting issues regarding PowerPath, be prepared to provide the following:
+
+- Software version and type
+- Details surrounding the issue’s occurrence
+- Any visible errors or warnings
+- Context such as operating environment
+
+Make sure to have your tracking ID on hand for reference in your correspondence with EMC Customer Support.
+

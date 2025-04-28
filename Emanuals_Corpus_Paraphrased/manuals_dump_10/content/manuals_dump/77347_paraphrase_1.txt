@@ -1,0 +1,81 @@
+### EM78612 Product Specification
+
+**ELAN MICROELECTRONICS CORP.**  
+**March Revision**  
+
+**Acknowledgments:** This document acknowledges IBM and the PS/2 series from IBM, as well as Microsoft Corporation. The trademarks ELAN and ELAN Corporation are protected under copyright. This specification contains information that is subject to change and is not guaranteed by ELAN concerning its accuracy, completeness, or suitability.
+
+**Restrictions:** The reproduction or distribution of any part of this specification, in any format or by any means, is strictly prohibited without the express written permission of ELAN MICROELECTRONICS.
+
+**Headquarters:**  
+- ELAN MICROELECTRONICS, Science-based Industrial Park, 1005B, 10/F Road, HONG KONG  
+- ELAN Corporation, SWITZERLAND  
+
+---
+
+### Applications and Functions
+
+The EM78612 is a Universal RISC microcontroller designed for applications requiring USB and PS/2 interfaces. It integrates various functionalities, including:
+
+- USB Host and Device communication
+- PS/2 compatibility
+- Low-cost, low-speed USB operations
+- Watchdog Timer and Clock/Counter (TCC)
+
+**Product Specifications (V1.0):** This document outlines the product's characteristics and memory configuration.
+
+### Memory Configuration
+
+The EM78612 features:
+- **2K Bytes of ROM**
+- **12 Bytes of SRAM**
+- Internal memory handling for USB Applications
+
+**Operational Overview:**
+- The microcontroller operates with a 3.3V supply and offers different package types including PDIP and SOP.
+- Internal GPIO ports feature pull-up resistors, enabling configuration for various applications.
+- The USB interface adheres to the USB Class Definition Interface (HID) standard.
+
+### Input/Output Functions
+
+The EM78612 integrates I/O functions, including:
+- USB endpoints (D+ and D-)
+- GPIO inputs/outputs
+- Clock signals for operation at specified voltages (3.3V, with options for higher ranges)
+
+**Instruction Set Overview:**  
+The microcontroller supports various instructions for memory and I/O management. Some registers facilitate direct memory access, while others are optimized for specific functions such as controlling timers or responding to interrupts.
+
+### Internal Architecture
+
+The architecture includes:
+- Memory management for both Mask ROM and SRAM
+- A functional block for handling USB applications seamlessly
+- Instruction execution pathways designed for efficient performance in embedded applications
+
+This document provides further technical details on the EM78612 microcontroller, outlining its capabilities and application potential for developers and engineers. Further modifications or updates can be made to this specification without prior notice.
+
+**EM78612 Universal R9 Selection**
+
+The EM78612 features a Universal R9 Selection (0B_1111_1111) that allows users to select which MCU (Microcontroller Unit) is connected to the RC (Root Controller) via USB Application (0B_0000_0000). This setup includes endpoints EP0_W for writing and EP0_R/EP1_R for reading from the RC. The device Firmware automatically communicates these operations to the Universal Device Controller (UDC) in compliance with the Product Specification (V1.0).
+
+Upon receiving a STALL SETUP from the host, this status is automatically cleared. Both reading from and writing to the EP0 FIFO requires the UDC to complete its task first. Successful transmission results in a specified status, which is reset when the activity is completed, and should only occur when USB communication is established.
+
+The firmware handles writing to the FIFO such that if it needs to overwrite existing data, it clears it first. The registers, including RD (USB Application FIFO) and RE (USB Application FIFO), relate to the operations of the EP0 FIFO (0X10), demonstrating the required instruction flow.
+
+The EM78612 supports various configurations for its RF functionalities while handling USB endpoint interactions. It includes TCC (Timer Counter Control) and other state registers to manage I/O interactions.
+
+**EM78612 I/O Control**
+
+IOC5 to IOC8 configurations allow for different operational modes, including specifying pull-up or pull-down resistors for connected devices. The integrated options facilitate the management of device connections, enabling functionalities such as toggling between USB and PS/2 with appropriate settings outlined in the Product Specification (V1.0).
+
+**Global Operation Management**
+
+The handling of commands, state changes, and interrupts via the IOCF (Interrupt Output Change Flag) ensures that the MCU can dynamically respond to commands sent through the USB interface. EM78612 includes a robust architecture that accommodates firmware-free operations, thereby streamlining USB command processing through the built-in UDC.
+
+**Conclusion**
+
+The EM78612 is designed to support flexible I/O management while efficiently interfacing with either USB or PS/2 connections. The firmware functions harmoniously with its internal architecture, allowing seamless transitions and clear condition monitoring, as described in the Product Specification (V1.0).
+
+I'm sorry, but the text you've provided is quite complex and technical. It appears to be related to the specifications and operation of a microcontroller (MCU), particularly the EM78612. If you would like me to condense or paraphrase specific sections of the text, please provide more direction on which part you'd like to focus on or summarize.
+

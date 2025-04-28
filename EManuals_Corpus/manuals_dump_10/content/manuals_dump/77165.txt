@@ -1,0 +1,26 @@
+Thermal Corporation
+FOREWORD This and information the LP Corporation, California. COPYRIGHT NOTICE This information to Corporation. This and the information contained within copyrighted Corporation and or without written from Corporation. While to the information within and as of the of publication, or that the or that with to Corporation the right to the of TRADEMARKS LP service of Corporation. and MS-DOS of Microsoft other or of their respective LP Thermal FCC DECLARATION OF CONFORMITY: Information: This with of the FCC to the following Con- This interference and this interference received, including interference that operation. INDUSTRY CANADA NOTICE: This with Industry ICS-003 Council Directive to 89/336/EEC to 92/31/EE EN EMC Directive CB EN LP conforms to the following specification: FCC B, Section and Section Class EN 55022-B RF IEC Harmonic IEC
+SHOCK HAZARD WARNING: The and supply should operated location where MEDIA WARNING: high and ribbons. If backed that DO NOT the the to the and the causing the to off from the and the from RELOADING HINT: If should of while DO NOT the switch OFF while or The loaded. STATIC DISCHARGE: The of that the of the or other or the head or this DO NOT TOUCH the head or the the top cover. THERMAL PRINTING: The head becomes while To from the head and of touching the head. the cleaning to
+and To Option Troubleshooting Interface Interface Cleaning the Head and Loading TABLE OF CONTENTS
+and This section information the and of the The thermal The specifically or (with or without from DOS, ASCII-based host.
+and
+To and
+and Operation To The Cord AC The following through the of the and software. OFF Cord the SHOCK HAZARD WARNING
+Interface OFF Interface RJ-11 Interface (Optional) Interface The interface or interface (with optional RJ-11 information to A. and Operation
+and ON Cover inch inch MOVIE MOVIE
+infor- mation to and MOVIE
+and Thread Through If the Troubleshooting.
+MOVIE OFF ON this when If the option, OFF the and
+and Flashes, Release Advances and Prints Summary To Normal of DUMP If the or red, the troubleshooting MO3351F V3.21 96,N,8,1 I8,0,001 S2 D8 R016,000 ZT UN Q1029,025 Option: DUMP
+Option to Switch On the Several Through and MOVIE
+and to of Thread Through
+Software and follow the instructions the (CD). and
+and
+Troubleshooting light when switch turned to ON (I) Lights GREEN, the GREEN-RED-RED. batch the FEED to or Lights AMBER. The optional cover RED. Press top cover to and lock. of Lights RED. process. GREEN-AMBER. Download process. Lights AMBER-RED. appears to nothing printed. or Clean the head with cleaning software. or Reason STATUS from A.C. outlet to supply to interface from to top cover closed. that the the type thermal). that the with the thermal facing Clean the head with cleaning top cover closed.
+Troubleshooting Prints only or and STATUS lights ORANGE or RED. or Reason caught head. head properly latched. software the memory to the EPL2 with and memory the memory software to the EPL2
+Troubleshooting Interface The below displays the to the RS-232 interface. DB-9 DB-9 N/C DTR GND DSR RTS CTS RI DB-9 to DB-9 P/N or DB-25 DB-9 N/C DTR GND DSR RTS CTS RI DB-25 to DB-9 P/N KDU or N/C GND RDY N/C N/C GND RDY N/C RDY N/C RDY N/C
+The below displays the assignments the interface. to the tion Troubleshooting RJ-11 PRINTER RJ-11 D.C. than SGND /SDRV1 +24V* /SDRV2 LGND
+Troubleshooting The below displays the to the interface. DB-25 PRINTER HOST STROBE DATA DATA DATA DATA DATA DATA DATA DATA ACK/ BUSY PAPER ERR. READY INIT ERROR/ N/A N/A N/A SIG. GND SIG. GND SIG. GND SIG. GND SIG. GND SIG. GND SIG. GND DB-25 to KDU or STROBE DATA DATA DATA DATA DATA DATA DATA DATA ACK/ BUSY PAPER ERR. READY INIT ERROR/ N/A N/A +5V SIG. GND SIG. GND SIG. GND SIG. GND SIG. GND SIG. GND
+Cleaning the clean the head. Head Cleaning of Head One Closing Not Clean Troubleshooting MOVIE
+MOVIE and Loading the and off both the the and the the of become when or when both the head and You or the head and the head and covered warranty.
+001A

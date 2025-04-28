@@ -1,0 +1,124 @@
+### 15D1 Touchcomputer Overview
+
+**Model:** 15D1 15-inch LCD Touchcomputer  
+**Contact:** 1-800-ELOTOUCH | [www.elotouch.com](http://www.elotouch.com)  
+**Revision:** P/N E674343
+
+---
+
+**Copyright Notice:**  
+All rights reserved. This publication may not be reproduced, transmitted, or translated without written consent from TouchSystems. The information contained herein is provided "as is," without any warranties, and does not imply any relationship to products or services available in any specific country.
+
+---
+
+**Table of Contents:**  
+1. Unpacking the Touchcomputer  
+2. Testing Peripherals  
+3. Touchscreen Operation  
+4. On-Screen Display (OSD) Features  
+5. Connector and Technical Specifications  
+6. Technical Assistance Information  
+7. Warranty Details  
+
+---
+
+### Unpacking the 15D1 Touchcomputer
+
+This section provides information about the touchcomputer and its peripheral options, including the items included in the package, such as a Recovery DVD and optional security screws.
+
+### Setup Instructions
+
+Follow the steps below to ensure proper setup:  
+**CAUTION:** Avoid touching the LCD surface during assembly. Handle the touchcomputer carefully to prevent damage.
+
+1. Connect the required power supply and peripheral devices.
+2. For Windows XP or other operating systems, follow the prompted installation instructions.
+3. Adjust settings as needed for optimal performance.
+
+### Testing the Touchscreen and Peripherals
+
+To verify the functionality of the touchcomputer and optional peripherals (like MSR devices):
+1. Access the Testing section for specific instructions.
+2. If recalibration of the touchscreen is needed, access the Properties menu for adjustments.
+
+### Mounting Options
+
+The 15D1 touchcomputer can be mounted in various configurations. Use the appropriate mounting screws provided with the device for secure installation at designated locations.
+
+### On-Screen Display (OSD) Functionality
+
+To navigate the OSD:
+- Use the RIGHT or LEFT buttons to adjust settings.
+- Press SELECT to confirm changes.
+
+The OSD allows for adjustments to brightness, clock settings, and other functions, with specific options for different color temperatures.
+
+### Input/Output (I/O) Interfaces
+
+The touchcomputer includes multiple input and output connectors, detailed below, for optimal connectivity:
+- RJ45 Ethernet
+- USB ports
+- D-SUB VGA
+- PS/2 interfaces
+
+---
+
+### Peripheral Options
+
+Field-installable options, including Magnetic Stripe Reader (MSR) and Fingerprint Reader (FPR), can be integrated into the 15D1 touchcomputer. For integration, follow the provided instructions.
+
+### MSR Functionality Testing
+
+To ensure the MSR is functioning properly, conduct the following test:
+- Connect the MSR via USB.
+- Verify that the correct data is displayed when swiping cards.
+
+For optimal performance, refer to the comprehensive user guide that includes details about each function and feature.
+
+### Testing Procedures for 15D1 Touchcomputer Series
+
+**1. Brightness and Character Display:**
+To test the display characteristics for the 15D1 OUCHCOMPUTER, initiate by double-clicking the VFD application. Select the appropriate COM port from the 'Text' field. The interface supports USB E326629.
+
+**2. Fingerprint Reader (FPR) Testing:**
+For FPR testing on the USB interface, ensure optimal performance by connecting the device and verifying reliability as detailed in the specifications. The standard power supply is 5.0VDC at 0.25A. Ensure the device is mounted correctly for effective operation. Observe the specified testing conditions for interface types.
+
+**3. 1D and 2D Scanning Options:**
+The 15D1 OUCHCOMPUTER supports optional 1D or 2D scanning interfaces. When selecting, ensure compatibility with either the USB-SSI board (P/N E946856 for 1D scanning) or the USB interface for 2D (P/N E449881). Follow the provided guidelines to scan formats such as PDF417 for 2D tests.
+
+**4. Wireless Card Testing:**
+For testing the Wireless Card, access the Network option from within the application. Ensure the wireless module is detected. Note that if it does not initialize, please troubleshoot accordingly, as the device includes third-party peripherals.
+
+**5. Additional POS Software:**
+The 15D1 Applications interface allows access to POS software via a recovery DVD-ROM for system restoration. Specifications include an 80GB SATA HDD (optional P/N E828965). 
+
+**6. Safety and Maintenance:**
+To maintain optimal function, power down the device prior to cleaning. Use a three-wire grounded cord to avoid electric shock hazards. Avoid using abrasive materials or solvents for cleaning the touchscreen to prevent damage. 
+
+**7. WEEE Directive Compliance:**
+In compliance with the WEEE Directive, ensure proper disposal of the device and its components through designated recycling facilities to mitigate environmental impact.
+
+**8. Touchcomputer Specifications:**
+Key specifications include a 430M CPU with a 512K L2 cache, supporting up to 4GB DDR2 RAM. The device operates with Microsoft XP Professional SP3. The power supply can range from 12VDC to 24VDC with a 100-240V AC input.
+
+**9. Regulatory Information:**
+Ensure compliance with FCC Class A standards for electromagnetic interference and follow the grounding requirements carefully to prevent electrical hazards.
+
+For further technical support, please contact our helpline at 1-800-ELO-TOUCH or visit our website for detailed resources and support information.
+
+**15D1 OUCHCOMPUTER SERVICE GUIDE**
+
+**Notice to the User:** The cords and interconnecting cabling associated with the device comply with CE standards for emissions and immunity as specified. This product has been tested against the relevant directives, including the EMC Directive 89/336/EEC (as per EN Class) and the Low Voltage Directive 73/23/EEC (as per EN). 
+
+**User Instructions:** This device is designed to mitigate interference; however, external factors may still affect performance. If you experience any interference affecting reception or operation, you may try turning the device off and then back on. Additionally, repositioning the affected receiver or the device may help.
+
+**Agency Compliance:** The device should be connected to a properly grounded AC outlet. Using unterminated I/O connections may increase RF interference and pose a shock hazard. Ensure connections are in compliance with regulations set forth by agencies such as the FCC, PCT, C-Tick, IMERC, BSMI, CE, VCCI, UL, CCC, EK/KCC, and NOM WEEE.
+
+**Warranty Overview:** We guarantee that the product is free from defects in materials and workmanship. Warranty coverage applies to the touchscreen computer for a specified number of years from the date of purchase. In the event of defects, please notify us in writing within thirty days of discovery. We reserve the right to inspect the product prior to providing replacement or rectification.
+
+**Exclusive Remedies:** The remedies outlined above are the buyer's sole recourse for any warranty breaches. Aside from the explicitly stated warranty, no other warranties—express or implied—are granted by the seller concerning the product's suitability, quality, or any other aspect. No employee or third party is authorized to extend any warranty beyond that mentioned herein. Seller’s liability is limited to a refund of the product purchase price. Under no circumstances will the seller be liable for any indirect or consequential costs related to replacement or installation.
+
+**Index:** This guide covers TouchSystems 2-D scanning, specifications, testing protocols, installation guidelines, peripheral connections, troubleshooting, and relevant technical specifications for the device. Additional details, including product updates and software downloads, can be found at www.elotouch.com or by contacting the North American office.
+
+**Contact Information:** ELO TOUCH, D-85521 N.V., B-3010 2F, Printed in USA.
+

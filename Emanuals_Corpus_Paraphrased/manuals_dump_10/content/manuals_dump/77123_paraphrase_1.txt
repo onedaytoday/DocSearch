@@ -1,0 +1,95 @@
+**Touchmonitor and CRT Touchmonitors Revision C**  
+**Document # SW500068**  
+**TouchSystems, Inc. | 1-800-ELOTOUCH | www.elotouch.com**  
+
+*Copyright Notice*: All rights reserved for the reproduction, transmission, transcription, or translation of this document. Unauthorized use or distribution without written permission is prohibited. The information herein is provided without warranty of merchantability or rights to the content. TouchSystems, Inc. acknowledges its proprietary technologies, including SecureTouch, AccuTouch, and MonitorMouse. 
+
+---
+
+### Introduction
+
+This document details the setup and operation of the CRT Touchmonitor, including installation guidelines, operation instructions, and technical specifications for 15-inch and 17-inch models. The 13.8-inch microprocessor-based CRT Touchmonitor is compatible with both existing VGA interfaces and complies with the VESA Display Power Management Signaling (DPMS) standards.
+
+### Unpacking
+
+Included in your package are:
+- Touchmonitor
+- RS-232 touchscreen or USB cable
+- AC power cable
+- Quickstart TouchTools CD-ROM
+
+### Installation
+
+To install the Touchmonitor, first, ensure both the Touchmonitor and the PC are powered off. Connect the VGA cable to the PC and the Touchmonitor, followed by the AC power connection and the RS-232 or USB interface as required. 
+
+### Operation
+
+The Touchmonitor is equipped with power-saving features that comply with industry standards, including NUTEK and TCO. It is also designed to automatically enter a reduced power state after a period of inactivity.
+
+### Features
+
+Several operational features are available, including:
+- **Brightness Adjustment**: Increase or decrease the brightness in relation to the background.
+- **Geometry Settings**: Adjust the vertical and horizontal positioning to improve image clarity.
+- **Preset Color Temperatures**: Choose between 9300K and 6500K color settings for optimal display performance.
+
+### Technical Specifications
+
+The document includes detailed specifications and settings for both AccuTouch and CRT Touchmonitors, including pinout configurations and warranty information.
+
+### Maintenance
+
+Ensure regular cleaning of the Touchmonitor to maintain optimal performance. For any malfunctions or troubleshooting, refer to the troubleshooting section of this document.
+
+For further assistance, please contact TouchSystems, Inc. at their main office:
+
+**TouchSystems, Inc.**  
+**CA USA KG D-85521 B-3010**  
+**www.elotouch.com**  
+
+This concise guide serves as a reference for the functionality and upkeep of your CRT Touchmonitor, enabling you to effectively utilize its capabilities.
+
+### Chapter: Troubleshooting Common Issues with Touch Monitors
+
+When dealing with touch monitors, ensure that both the monitor and the PC are properly connected and that the monitor is centered in its position. If the display appears washed out or distorted, check the connections, refresh the display settings, and make sure the touchscreen is securely attached. 
+
+### Chapter: Troubleshooting Warnings for CRT Touch Monitors
+
+Touchscreens are often used by individuals who may be frustrated with traditional keyboard/mouse interactions. They facilitate the flow of information and improve user experience by providing direct interaction with the interface. Enhanced touchscreen technologies allow for greater selectivity in user interactions, offering functionalities in areas like educational tools and point-of-sale systems.
+
+### Caring for Your Touch Monitor
+
+Protect the touch monitor from high temperatures and cleaning materials that could damage it. When cleaning, shut off both the monitor and the PC, disconnect from AC power, and avoid applying any cleaners directly to the screen. Use a soft, ammonia-free cloth to wipe the surface.
+
+### Safety Information
+
+A) Ensure that only manufacturer-approved power cords are used, as connecting to a different type can lead to electrical hazards. B) Service should only be conducted by qualified technicians. C) Adhere to grounding requirements to prevent shock risks.
+
+### Compliance Notices
+
+A) Compliance with FCC regulations ensures protection against electromagnetic interference. The device has been tested and found compliant with Class B standards. B) In the European Union, it meets CE directives for electrical safety and electromagnetic compatibility, ensuring reliable operation in various conditions.
+
+### Technical Specifications of Touch Monitors
+
+The specifications include advanced anti-reflection technologies and compliance with VESA standards. The monitors feature USB connectivity and multiple operational controls for customization. They adhere to various safety and performance standards to ensure durability and usability across different environments.
+
+### Mechanical and Chemical Properties
+
+The touch monitor is designed with a robust outer layer, resistant to scratches and other wear. It can withstand significant operational use without degradation. Ensure any cleaning substances used are compatible with the protective coatings to maintain functionality. 
+
+### Pinout and Connectivity
+
+The touch monitor adheres to standard connectivity protocols, ensuring proper grounding and functionality across various devices.
+
+**Warranty Terms and Conditions**
+
+This warranty applies specifically to the product and workmanship of the touchmonitors. Claims regarding the warranty must be submitted in writing within thirty days of identifying the issue. The warranty covers reasonable inspection and repair of the product based on the findings. 
+
+Within thirty days of notification, any functional product issues will be addressed accordingly. The warranty is strictly limited to the repair or replacement of the product at the seller's discretion. If a product is found defective, the seller may offer repair, replacement, or a credit to the buyer’s account.
+
+These remedies represent the exclusive solutions available to the buyer in cases of warranty breach. Except for the explicit warranty mentioned above, the seller provides no additional warranties, whether express or implied, regarding the products, including their suitability for a particular purpose, quality, or compliance with regulations. 
+
+No employee or representative of the seller is authorized to provide any warranty beyond what is specified here. The seller's liability under this warranty is strictly limited to a refund of the purchase price. Under no circumstances will the seller be responsible for costs related to the procurement or installation of substitute goods by the buyer, nor for any special, consequential, indirect, or incidental damages.
+
+For more information, including technical specifications and troubleshooting for the Touchmonitors, please refer to the relevant product documentation or visit the official website.
+

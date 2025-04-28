@@ -1,0 +1,36 @@
+### EMC Considerations
+
+**Conducted Noise**  
+Conducted noise refers to the AC currents flowing through the supply, which includes both input and switching currents from devices, such as board-mounted PWM regulators. Compliance with EMC standards, such as FCC and VDE, is essential. Existing performance guidelines can provide useful insights into the management of conducted noise. 
+
+For applications involving the VI-230-CV, note that both input leads and their switching behaviors should be analyzed closely for effective EMC management. The design recommendations outlined in the "Dos and Don'ts" section aim to minimize conducted emissions, aligning with standards like UL544 and EN60601.
+
+In terms of typical configurations, ensure that input connections (e.g., C1, C2) are designed to manage common-mode conducted emissions. This includes optimizing inductor placement and ensuring effective grounding techniques to maintain compliance.
+
+### Additional Considerations
+
+**Radiated Noise**  
+Radiated noise is significantly influenced by switching operations in devices using PWM techniques, particularly zero-current-switching methods. These techniques can produce distinct electromagnetic fields that are subject to measurement against standards such as FCC or MIL-STD-461. 
+
+Designers should utilize twisted or routed AC leads to mitigate the effects of capacitive coupling on PCBs, reducing unintended radiation from the board. The induced noise can be examined for correlation with specific designs and switching patterns, and a focus on minimizing EMI is crucial for compliance.
+
+### Interconnectivity and Measurements
+
+When interconnecting various components, ensure that input and output gates are adequately shielded and routed to minimize inductance and cross-talk. This setup can help in managing both conducted and radiated noise effectively.
+
+Measurement techniques should prioritize a thorough understanding of ground leads and their rejection characteristics, playing a critical role in noise mitigation strategies. Utilizing high-quality input capacitors and inductors, combined with optimal PCB layout strategies, will further enhance overall system performance and compliance with EMC standards.
+
+**Note**: When designing the output path and when utilizing FETs and rectifiers, ensure that insulation and grounding methodologies are meticulously adhered to, as they directly influence system integrity and regulatory compliance.
+
+### Concluding Remarks
+
+Constant vigilance regarding EMC parameters and noise management will be necessary for all applications within the VI-200 and VI-J00 family, particularly when dealing with high switching rates. Ensure all components used, such as capacitors (C1, C4), are selected judiciously to enhance performance and minimize radiated and conducted noise effectively. Regular audits against relevant EMC standards will protect against regulatory issues and ensure reliable operation.
+
+### EMC Considerations for RAM MI-RAM Operation
+
+The RAM/MI-RAM inductor-capacitor (LC) design features a high level of performance associated with switching. Additionally, the active components linked to the input are critical for managing certain characteristics and harmonics in the circuit. Essentially, this active configuration inverts signals and optimizes the flow through the RAM, ensuring effective operation without interference from external sources.
+
+The design incorporates standard components like the VI-230-CV and serves applications within the VI-200 and VI-J00 DC-DC converter families. It is essential to note that while the LC configuration enables efficient performance, any shorting of leads could compromise the system's integrity. 
+
+Proper implementation of the RAM with inputs from the VI-200/VI-J00 family and the MI-RAM with MI-200/MI-J00 family is crucial for seamless integration. The devices can be mounted in a chassis, and care must be taken when dealing with inductive loads to prevent increased noise and ripple effects on output. Ensure that the configurations accommodate light load conditions to maintain performance stability.
+

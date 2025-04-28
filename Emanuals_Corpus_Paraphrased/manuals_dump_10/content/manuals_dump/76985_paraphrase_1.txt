@@ -1,0 +1,176 @@
+# VISUAL PRESENTER HV-8000SX INSTRUCTION MANUAL
+
+### Important Instructions and Safety Guidelines
+
+This manual is to be used as a reference for the Visual Presenter HV-8000SX. 
+
+**Safety Precautions:**
+- Ensure proper operation according to the provided instructions. Keep these instructions for future reference.
+- When cleaning, unplug the device and use recommended cleaning materials. Avoid water and harsh cleaners that could damage the unit.
+- Install the device according to the guidelines to prevent overheating or other hazards.
+- Use the unit only with the indicated power supply to avoid damage and ensure safety.
+
+**Grounding and Power Supply:**
+- Use a grounding type power cord. Avoid using non-grounded cords.
+- Route power cords to prevent pinching or tripping hazards. 
+
+**Service Information:**
+- Do not attempt internal service or repairs; contact qualified personnel if servicing is needed.
+- Regularly follow operational instructions to maintain performance. 
+
+**Heat Precautions:**
+- Keep the unit away from heat sources such as amplifiers to prevent overheating.
+
+**Caution:** Do not remove the cover as there are no user-serviceable parts inside. Refer service requests to qualified technicians.
+
+### User Warnings
+- To minimize the risk of fire or electric shock, avoid exposing the device to moisture or rain. 
+- The device complies with Class regulations and may cause radio interference if not operated per guidelines. 
+
+### Operating Environment:
+- Ideally placed in a clean, dry area with a temperature between 5°C to 35°C (41°F to 95°F). Avoid locations with direct sunlight or dust.
+
+### Contents Overview
+1. **Part Names and Functions**
+   - Appearance
+   - Rear Components
+   - Wireless Remote Control Preps 
+   - Mouse Setup
+   - RGB Assignments
+
+2. **Operation Procedures**
+   - Various Functions (e.g., overhead presentation)
+   - Lighting and Audio Settings
+
+3. **Network Functions**
+   - FTP Specifications 
+   - RS-232C Commands
+
+4. **Troubleshooting Tips**
+
+### Rear Component Overview
+- Includes AC IN, USB port, Ethernet, S-Video/Video Output, and various connection terminals for external devices.
+- Specify command functionalities and settings using DIP switches, including display modes (SXGA/XGA) and video formats (NTSC/PAL).
+
+### Wireless Remote Control
+- Functions include IRIS controls, focus adjustments, and input selections.
+- Ensure batteries are installed correctly per polarity.
+
+### Final Notes
+- Effective use and maintenance of the Visual Presenter HV-8000SX will ensure its longevity and optimal performance. Always follow the guidelines in this manual for safe and efficient operation.
+
+**Mouse and OSD Interaction:**
+
+The OSD (On-Screen Display) is activated using the mouse. Clicking on the OSD reveals its functions. Changes can be made by either clicking or clearing certain options. Functions are prioritized when the right-click action is performed. For detailed reference, see P.25. Ensure power supply connections are secure, as guaranteed operation depends on it. The OSD can be accessed via the wheel and will display options accordingly. 
+
+**Setting Up Lighting:**
+
+To set up the lighting, unfold it as demonstrated. Press the release button to fully lock the head in place. Rotate the head as shown to adjust the AC settings. Various DIP switches are available for switching functions, including toggling between the factory settings and specific outputs. If the input deviates, manual adjustments may be necessary. 
+
+**Storing the Presenter:**
+
+To store the presenter, turn off the switch and adjust the head as illustrated. Apply force gently during the locking process.
+
+**Operation Procedures:**
+
+Power on the device by turning on the switch. If the device shuts down immediately, turn it off for a few seconds and then power it back on. Use the [TELE] and [WIDE] buttons on the front or wireless remote to adjust the zoom. Press [AUTO FOCUS] for focus adjustments. The control of lighting is managed through designated buttons for both the front and wireless remote.
+
+**Various Functions:**
+
+Lighting can be adjusted using controls like [LAMP], which when pressed will illuminate for a set duration. Input selection is made through the appropriate buttons for RGB channels. 
+
+Functionality for toggling contrast, white balance, and iris settings is also available. Press [OPEN] or [CLOSE] to adjust iris settings as needed.
+
+**Focusing:**
+
+Activate autofocus with [AUTO FOCUS] or adjust manually with [FOCUS NEAR] or [FOCUS FAR]. The camera can be positioned for various scenarios, ensuring optimal focus even in challenging lighting conditions.
+
+**LCD Connection:**
+
+To connect an optional LCD (such as LM-5011N), ensure that all cables are correctly attached and powered. Follow the set-up instructions provided with the device for proper installation. 
+
+**PC Software Integration:**
+
+Connect to the PC using the provided software and CD-ROM for further operational capabilities. 
+
+
+
+### On-Screen Display (OSD) Functions
+
+The On-Screen Display (OSD) allows users to toggle the light on and off. You can also switch between Color and Black & White modes, adjust settings for static or moving content, and manage various factory settings through simple navigation. When activated, the interface shows a series of arrows that help guide your selection.
+
+The NEAR/FAR setting can automatically adjust the focus, and the TELE/WIDE option allows users to set the iris. The white microphone indicator reflects when audio is active, and you can follow audio automatically. Color adjustments can be made using red, green, and blue buttons to achieve desired effects.
+
+#### Network Functions
+
+To connect via Ethernet (10BASE-T/100BASE-TX), ensure the PC and device are properly configured. Use FTP for image transfer and ensure a stable connection with authorized ELMO services. To set the device's IP address, follow the outlined connections and make sure it complies with specified configurations.
+
+If you need to reset to factory settings, adjustments can be made by accessing the appropriate DIP switches. After any changes, always restart the power supply to apply settings. To access the network features and confirm or change configurations, refer to the corresponding pages in your manual.
+
+User authentication will be required for network access. If incorrect information is submitted, you will be prompted to retry. Please ensure to carefully check the IP and settings to avoid connectivity issues.
+
+Should you wish to utilize FTP functions, you'll need a stable connection. Follow specific URL guidelines to interact with the device through a web browser. Confirm the settings and complete the network configurations prior to any operations. If tasks are completed successfully, the appropriate LEDs will indicate the completion of processes.
+
+Be sure to consult the specifications for FTP requirements, including username and password protocols, to ensure successful operation.
+
+**Item Specifications and Networking Details**
+
+This document outlines the IP specifications related to the factory settings of the device. The IP address assigned to the router corresponds with the factory configuration, enabling the device to connect effectively to the network through the router. It is essential to establish the router's IP within the factory settings for optimal communication.
+
+For security, it is advisable to either disable FTP access or utilize secure methods for transferring images via FTP, ensuring that specified items related to image transfer are managed under proper protocols. The factory defaults the FTP account to anonymous, which can be modified depending on the network's security requirements.
+
+**Directory Structure and Image Resolution**
+
+The device can operate with different image resolutions such as SXGA, VGA, and QVGA. Configuration settings allow for automatic adjustments based on existing factory parameters. The system should confirm if specific functions are enabled or disabled, reflecting the operational state.
+
+**FTP Command Specifications**
+
+The following FTP command summary facilitates communication with the system:
+
+- USER: Authenticate user credentials.
+- PASS: Provide password.
+- PORT: Specify data port.
+- TYPE: Define file transfer type.
+- PWD/XPWD: Display current directory.
+- RETR: Retrieve files.
+- PASV: Switch to passive mode.
+- LIST/NLST: List directory contents.
+- NOOP: No operation command.
+- QUIT: Terminate session.
+
+Successful execution of these commands will return appropriate acknowledgments like "OK", while errors will trigger responses such as NAK for invalid requests.
+
+**RS-232C Connection Specifications**
+
+The device facilitates communication via an RS-232C interface. It connects a PC using a D-SUB 9P connector, detailing signal lines for transmission and reception. A proper connection is crucial for successful data exchange.
+
+**Command Functions Table**
+
+- AF: Focus adjustments (FO, NEAR, FAR, STOP)
+- ZO: Zoom functions (TELE, WIDE, STOP)
+- Iris: Control (OPEN, CLOSE, STOP, AUTO, OFF)
+- Lighting: Preferences (BASE, UPPER, MAIN)
+- Color Selection: B&W and Color toggle.
+  
+This table enumerates various command functions and their respective operations, with emphasis on facilitating user control over device settings.
+
+**Troubleshooting Guidelines**
+
+In case of malfunction, including power disconnections or incorrect settings leading to unexpected device behavior, follow these remediation steps:
+
+- Ensure the connections are secure and the device is powered on.
+- Check operation after switching off and on if malfunctions occur.
+- In situations of excessive focusing demands, allow for a protective preheating period.
+
+**Power and Interface Specifications**
+
+The device operates within an AC range of 100-240V, with varying current specifications. It features multiple input options including RGB and USB, alongside Ethernet connectivity for network interfacing.
+
+**Additional Notes**
+
+The document emphasizes the copyright notice concerning unauthorized recording practices and reiterates compliance with ownership rights. All trademarks referenced belong to their respective holders, and any reproduction without permission is prohibited.
+
+**Contact Information**
+
+For further inquiries, reach out to the listed subsidiaries of ELMO CO., LTD. across various locations.
+

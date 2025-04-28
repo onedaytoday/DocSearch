@@ -1,0 +1,449 @@
+### Printed in Taiwan E628 Service
+
+**Service and Acer/CSD Information**
+Refer to Chapter II for revision history related to this service. 
+
+**Copyright Notice**
+All rights reserved. This document may not be reproduced, transmitted, transcribed, or translated by any means without the written consent of the corporation. The information provided herein is subject to change without notice and does not carry any warranties, implied or otherwise, including but not limited to the implied warranties of merchantability. Users should be aware of the risks accompanying the use of the software, and the corporation disclaims liability for any damages resulting from its usage.
+
+**Service Notes**
+The following section details the SCREEN MESSAGES and related information. Note that only cautionary terms and important action items relevant to the accomplishment of tasks are included.
+
+This service guide covers technical information pertinent to the BASIC CONFIGURATION of Acer's offerings. For questions regarding functionality or software that are not covered in this document, please contact your local authorized service provider when ordering FRU parts. It is vital that you consult directly with the service office for any discrepancies in parts.
+
+### Specifications & Configuration
+
+**System Overview**
+The system features an AMD platform with the following specifications: 
+- Memory: Up to 4 GB DDR2 SDRAM (2 GB SODIMM)
+- Graphics: ATI HD Graphics with support for high-definition interfaces.
+- Chipset: AMD Athlon X2 with RS780MN and SB710.
+
+**Communication Interfaces**
+- Integrated WLAN: 2.1+ Enhanced Data Rate (EDR)
+- Ethernet: Standard RJ-45 ports 
+
+**Physical Dimensions**
+- Storage dimensions: (W) x (D) x (H) inches
+
+**Electrical Specifications**
+- Operating temperature: 0°C to 35°C (non-condensing)
+- Non-operating temperature: -20°C to 65°C
+
+### Component Removal & Reassembly Instructions
+
+**General Procedure**
+This section details the steps for removing and reassembling various components, including the CPU, LCD, WLAN unit, and battery assembly. Each removal step should follow a systematic approach to ensure proper reassembly.
+
+**TouchPad Functionality**
+The TouchPad includes left and right-click functions, which can be used to select and manipulate items on the screen. Ensure that the TouchPad is kept clean for optimal performance.
+
+### Keyboard Shortcuts & Function Keys
+
+**Function Key Operations**
+- The <F2>/<F3> keys adjust display brightness.
+- The <F4><F5> keys control audio volume.
+- The <F11> and <F12> keys function as document navigation keys.
+
+**Windows-Specific Shortcuts**
+Use these shortcuts to access applications or assistive features:
+- <D>: Show Desktop
+- <E>: Open Explorer
+- <F>: Search
+
+### Additional Specifications
+
+**CPU and Chipset Details**
+- CPU Type: AMD with PGA interface.
+- Main chipset: AMD RS780MN Northbridge, AMD SB710 A13 Southbridge.
+- DDR2 Memory support: Up to 800 MHz with HyperMemory technology. 
+
+For more detailed specifications or troubleshooting, consult the relevant sections of this manual.
+
+### II Interface Memory Specifications
+
+**Memory Support:**  
+- Compatible with 8GB DIMMs.  
+- Accepts memory sizes of 512MB, 1GB, 2GB, 4GB, and supports up to 8GB total.  
+- Uses +1.8V DDRII SODIMM with a frequency of 667MHz.
+
+**Chipset Information:**  
+- Integrated VGA: AMD RS780MN (UMA).  
+- Dedicated VGA: ATI M92-S2 LP (DIS).  
+- Package: 21mm 528-FCBGA (Northbridge integrated).  
+- Clock performance is highly optimized.
+
+**Interface Specifications:**  
+- Hard Drive Models: HTS545050B9A300, HTS545032B9A300, HTS545025B9A300, HTS545016B9A300.  
+- Capacity: Specific models vary in MB capacity.  
+- Supports PCI OHCI and EHCI for USB connectivity.  
+- Integrates IOAPIC/X-IO APIC with DMA support.  
+- LPC-based I/O and SATA support with varying data transfer rates.  
+- Integrated RAID capabilities and ACPI-compliant high definition.
+
+**Graphics and Memory Performance:**  
+- DirectX compatibility with floating-point operations.  
+- Motion acceleration with 128MB UMA VGA memory from the Northbridge.  
+- 512MB dedicated DIS VGA memory from the Northbridge.
+
+**Storage Specifications:**  
+- Various hard drive models including ST9160310AS, ST9250315AS, ST9320320AS, ST9500325AS, and others.  
+- Standard capacity, sector heads, and RPM specifications across SATA interfaces.  
+- Performance metrics provided in MB/s with a +5.0V DC power requirement.
+
+**Optical Drive Performance:**  
+- Models include HLDS GU10N and Panasonic UJ892.  
+- Performance metrics for CD and DVD playback included, alongside technical specifications like memory interface and loading mechanisms.
+
+**Networking:**  
+- Integrated LAN Chipset: RTL8111CA-VB-GR (Giga LAN).  
+- Supports various wireless LAN standards, including Atheros models with BGN specifications.
+
+**BIOS Information:**  
+- BIOS is pre-configured and optimized for efficiency.  
+- Access BIOS utility during POST by pressing <F2>.  
+- Use <F12> for network boot options.
+
+**User Instructions for BIOS Utility:**
+- Navigate using arrow keys; modifications can be made for different settings.  
+- Press <F5> or <F6> for adjustments, and <F10> to save changes.  
+- Security settings to protect against unauthorized access are implemented.
+
+**Summary Information Display:**  
+- System details include CPU type and hard drive specifications, such as UUID.  
+- Offers straightforward instructions for system management and recovery functions.
+
+**Advanced Settings:**  
+- Access to advanced configuration options vital for system functionality.  
+- Ensure all changes are made with caution to prevent potential issues.
+
+**Security Features:**  
+- Options to secure HDD access and BIOS setting changes.  
+- The possibility to clear or modify settings as per user requirements with adequate prompts and instructions. 
+
+This refined draft retains the essential technical meanings and details of the original while enhancing clarity and organization.
+
+Here’s a technical paraphrase with the same meaning:
+
+To emphasize the necessary fields, type in the specified entries for the "Confirm New" field. If adjustments are made, press F10 to access the BIOS Utility. Upon successful completion, follow the displayed prompts. If the entries do not align, a warning message will appear. The user interface provides options for configuring the CPU, including security settings and advanced CPU features (ACPI modes). 
+
+The following menu displays the status of various hardware components, including IDE drives and USB devices. Use the function keys to navigate and select the necessary options to complete the configuration. To interact with the BIOS Utility, access the designated CMOS settings. Instructions regarding reset procedures and accessing system information will follow.
+
+In cases where the BIOS memory encounters corruption, a process will be outlined to recover the system via DOS commands. This includes utilizing a batch file and ensuring power is supplied to the system to facilitate these actions. 
+
+The HDD/BIOS section discusses methods for managing disk drives alongside BIOS settings. Users can unlock drives and execute specific commands to interact with DOS directly. Instructions will detail how to update system components, including the DMI interface to reflect product information accurately.
+
+Safety precautions will be highlighted before performing disassembly, emphasizing the importance of grounding and caution with screws. Procedures for removing components like the battery, HDD, and ODD will be laid out, along with necessary steps for accessing and replacing memory modules.
+
+Considerations for the WLAN module will also be included, specifying cable connections and securing the module appropriately. This guide reinforces the importance of maintaining proper orientation and handling during assembly and component replacement, ensuring that all steps are clearly labeled for different sections.
+
+Certainly! Here’s a more concise and technical paraphrase of your provided text:
+
+**Removing Components:**
+
+1. **Screw Removal:** Detach the M2.5*3 screw connecting the cover to the board.
+   - Important: Ensure the FFC is not damaged during removal.
+
+2. **I/O Board Disconnect:** 
+   - Locking mechanisms must be disengaged to detach the FFC from the mainboard. 
+   - Remove the I/O board by unscrewing the indicated M2.5*6 screws.
+
+3. **DC Disconnect:** 
+   - Follow the instructions to disconnect the DC adapter. 
+
+4. **Microphone and Bluetooth Detachment:** 
+   - Disconnect the microphone and Bluetooth components from the mainboard, removing the specified screws.
+
+5. **LVDS Connection:** 
+   - Gain access to the LVDS connection for disconnection.
+
+6. **LCD Assembly:** 
+   - Remove the WLAN component and the microphone as indicated.
+   - Unscrew the four M2.5*6 screws securing the LCD. 
+   - Carefully detach the LCD from the assembly.
+
+7. **Material Clearing:** 
+   - Ensure all components, including the thermal paste, are cleared from the CPU area prior to reassembly.
+
+8. **Reassembly Instructions:** 
+   - Reverse the removal procedure for reassembly, ensuring all FFCs are routed correctly and safeguarded against pinching.
+   - Tighten the screws (M2.5*6 for the mainboard; M2*4 for LCD and I/O components) as indicated in each section.
+
+9. **Final Checks:** 
+   - Verify that all components are securely connected and properly positioned, referring to the respective chapters for specific instructions on connections and orientations.
+
+10. **Memory and HDD Installation:** 
+    - Ensure SODIMM and DIMM modules are seated correctly and secure HDD with designated M3*3 screws. 
+
+11. **Cover Assembly:** 
+    - Press the memory cover into position and secure with the corresponding screws.
+
+This technical outline retains the original intent while presenting the information in a more streamlined manner.
+
+### Troubleshooting Common Issues
+
+**Note:** This guide applies only to Acer products. For non-Acer items, including certain cards or options, please refer to the manufacturer’s instructions.
+
+#### Symptoms and Solutions
+
+1. **Display Issues (LCD)**  
+   If the LCD displays abnormalities, try the following steps:
+   - Adjust the brightness to its maximum setting.
+   - Replace the LCD if necessary. 
+   - Reseat any connected components as indicated in the information chapter.
+
+2. **Microphone Problems**  
+   For issues with the internal microphone:
+   - Ensure it is correctly configured.
+   - Right-click on the Recording devices, and make sure the microphone is selected as default.
+   - Increase the microphone volume if needed and follow the setup prompts.
+
+3. **Optical Drive (ODD) Malfunctions**  
+   If the ODD is not functioning:
+   - Check if the appropriate discs are loaded and undamaged.
+   - Verify hardware connections and seating of components.
+   - Inspect settings in the BIOS and ensure the drive is detected.
+
+4. **Hard Drive (HDD) Issues**  
+   If the HDD is not recognized:
+   - Use the recovery DVD to attempt repairs.
+   - Ensure connections are secure and check BIOS settings for proper detection.
+
+5. **USB Functionality Problems**  
+   For issues with USB ports:
+   - Ensure devices are correctly connected and functioning.
+   - Check for conflicts with other connected devices and return to previous software versions if necessary.
+
+6. **Wireless and Bluetooth Connectivity**  
+   If wireless or Bluetooth connections are failing:
+   - Confirm the respective cards are correctly seated.
+   - Try re-establishing connections or reinstalling drivers.
+
+7. **Thermal Unit Concerns**  
+   For the thermal unit:
+   - Ensure that the CPU is properly seated and connections are secure.
+   - Check for any obstructions or clean the components if overheating occurs.
+
+#### General Troubleshooting Steps
+
+- Follow troubleshooting instructions as outlined in the relevant chapters of this guide.
+- For recurring issues, identifying the faulty FRU (Field Replaceable Unit) may be necessary.
+- Remember to power off the device before attempting any hardware checks.
+- If a non-defective FRU is suspected, consult the respective chapter for replacement guidance. 
+
+This comprehensive approach aims to isolate and resolve common hardware issues effectively. For specific details on parts, refer to the product information sections.
+
+Here’s a more technical, yet natural rephrasing of the text you provided:
+
+---
+
+**POST Process Overview**
+
+This document covers the POST sequences and configurations, including the NO_EVICTION_MODE_DEBUG setting located in (CommonPlatform\sec\Ia32\SecCore.inc). It discusses MTRR cache settings, NEM, and the role of the BSP in relation to memory configurations such as CR0.CD and CR0.NW. 
+
+**Memory Initialization**
+
+The Memory Initialization sequence is provided in DEBUG_BIOS, as detailed in (Chipset\Alviso\MemoryInitAsm\IA32\IMEMORY.INC). Initial memory addresses for MCHBAR DRAM include DDR and DDR2 configurations, as well as ECC specifications, which dictate how CAS latency, TRAS, TRP, TRCD, refresh bursts, and timings like tWR are handled. The architecture surrounding memory operations is explained with an emphasis on transitions in memory clock crossing and dispatching DRAM within its architecture, as referenced in the chapter.
+
+**DRAM and Throttling Functions**
+
+DRAM I/O clocks adhere to JEDEC standards, with emphasis on memory initialization, throttling operations, and their effects on graphic clocks, as explored further in the Thermal Throttling chapter.
+
+**BDS and PEI Initialization Procedures**
+
+Details on the BDS action involving Aps SMM, BSP initialization, ECC configuration for all memory addresses, USB clearance, and PS2 reset operations can be found. The PEIM (Pre-EFI Initialization Module) processes, including 80_PORT initiatives and PEI event logging, are critical at the DXE_ENTRY_POINT level until ExitBootServices() is called.
+
+Further sections explore the PEI stages, such as PEI_SB_INIT, memory initialization, and S3 resume, along with clock generation and debug functionalities.
+
+**Component Descriptions and Connections**
+
+A detailed description of component connections and types, such as JP2 for IO/B connectivity, JP3 for VRAM, and JP4 for Bluetooth indicators, provides essential data for system assembly and integration.
+
+**BIOS Recovery and Clearing Procedures**
+
+This section details the procedures for clearing CMOS memory and the BIOS recovery process. Specific steps for resetting BIOS in instances of malfunction, including recommended practices for AC and battery disconnection as well as USB crisis recovery methods, are explained.
+
+**FRU Unit Guidance**
+
+The FRU (Field Replaceable Unit) section outlines the guidelines necessary for ordering and obtaining parts, emphasizing the need to gather accurate information when liaising with ACER Authorized Service Providers and adhering to necessary regulations.
+
+**Part Numbers and Categories**
+
+Part numbers for various assemblies and components are categorized systematically, covering assembly details, adapter specifications, battery types, and critical interconnects for optimal functionality of the overall system architecture. 
+
+--- 
+
+This paraphrased version maintains the technicalities and core meanings of the original text while improving clarity and coherence.
+
+Here’s a paraphrased version of the provided text:
+
+---
+
+### Categories and Part Numbers
+
+**Power Cords**
+- 27.TAVV5.001: US Pin Power Cord
+- 27.TAVV5.002: EU Pin Power Cord
+- 27.TAVV5.003: AUS Pin Power Cord
+- 27.TAVV5.004: UK Pin Power Cord
+- 27.TAVV5.005: China Pin Power Cord
+- 27.TAVV5.006: Swiss Pin Power Cord
+- 27.TAVV5.007: Italian Pin Power Cord
+- 27.TAVV5.008: Denmark Pin Power Cord
+- 27.TAVV5.009: JP Pin Power Cord
+- 27.TAVV5.010: South Africa Pin Power Cord
+- 27.TAVV5.011: Korea Pin Power Cord
+- 27.TAVV5.012: Israel Pin Power Cord
+- 27.TAVV5.013: India Pin Power Cord
+- 27.TAVV5.014: Taiwan Pin Power Cord
+- 27.APV02.001: Argentina Pin Power Cord
+
+**Brackets and Cables**
+- 33.PEA02.001: TP Bracket
+- 33.PEA02.002: HDD Bracket
+- 33.PEA02.003: Cap Sensor Bracket
+- 33.PEA02.004: ODD Bracket
+- 33.PEA02.005: LCD Hinge (Right & Left)
+- 50.PEA02.004: LCD Cable
+- 50.PEA02.005: WLAN Antenna
+- 50.PEA02.006: WLAN-AUX Antenna
+
+**Processors and Components**
+- KC.AL002.110: AMD Athlon L110 CPU (1.2 GHz, 512KB)
+- KC.AL002.310: AMD Athlon L310 CPU (1.2 GHz, 1MB)
+- KC.ATF02.200: AMD Athlon TF20 CPU (1.6 GHz, 512KB, 15W)
+- 57.PEA02.001: 1.0M Camera
+
+**Hard Drives**
+- KH.16001.034: Seagate 160GB SATA HDD
+- KH.16004.006: Toshiba 160GB SATA HDD
+- KH.25001.016: Seagate 250GB SATA HDD
+- KH.50001.011: Seagate 500GB SATA HDD
+- (Additional HDDs listed in the original text)
+
+**Keyboards and Thermal Modules**
+- KB.I170A.032 to KB.I170A.056: Various Acer AC7T JV50 Keyboards in different layouts/colors
+- 60.PE902.001: Thermal Module-UMA
+- 60.PEA02.005: Thermal Module-DIS
+
+**LCD Components**
+- 6M.PEA02.002: LEC LCD Module (WXGA Glare)
+- LK.15606.004: Samsung 15.6" WXGA LED LCD
+- MB.PE902.001: AS5538 ATI Mainboard with RS780 SB710
+
+**Miscellaneous Parts**
+- 23.PEA02.001: Fan
+- 40.PEA02.001: Name Plate for AS5538
+
+**Screws**
+- 86.PEA02.001 - 86.PEA02.009: Various screws of different specifications (size, type, and application)
+
+**Regional Variants**
+- Definitions for the AS5538 model series across various EMEA regions and specifications for operating systems (e.g., LINPUS, VHP32AT variants).
+
+--- 
+
+This structure maintains the classification while presenting the information in a clear, technical manner.
+
+Sure, here’s a paraphrased version of your text using a natural and technical tone while preserving the original meaning:
+
+---
+
+**RO Country AS5538-EMEA South**  
+- **LX.PE90X.042** EM VHP32ATZA1 MC Africa 2G+1G/250/6L/5R  
+- **LX.PE90X.043** EM VHP32ATZA2 MC Africa 2G+1G/250/6L/5R  
+- **LX.PE90X.044** VHP32ATNO1 MC EMEA Norway  
+- **LX.PE90X.045** VHP32ATES1 MC EMEA  
+- **LX.PE90X.046** VHP32ATES1 MC EMEA  
+- **LX.PE90X.047** EM VHP32ATME2 MC East 1*2G/250/BT/6L2.2/5R/ CB_bgn_0.3D_AN_AR23  
+
+**AS5538-CHINA**  
+- **LX.PE90Y.001** VHB32ATHK2 MC  
+- **LX.PE90Y.002** VHB32ATCN1 MC  
+- **AS5538G-EMEA Eastern**  
+- **LX.PEA0C.001** LINPUSAEU7 M92LP512Css_V3 2G+1G/320/BT/6L/5R  
+- **LX.PEA0C.002** LINPUSAME4 East M92LP512Css_V3 2*2G/320/BT/6L2.2/5R  
+- **LX.PEA0X.001** VHP32ATGB1 MC M92LP512Css_V3 2G+1G/320/6L/5R  
+- **LX.PEA0X.002** VHP32ATUK1 MC M92LP512Css_V3 2G+1G/320/6L/5R  
+- **LX.PEA0X.003** EM VHP32ATTR1 MC M92LP512Css_V3 2G+1G/320/6L/5R  
+- **LX.PEA0X.004** EM VHP32ATME2 MC East M92LP512Css_V3 2G+1G/320/6L/5R  
+
+**Continuing with additional entries:**  
+- **LX.PEA0X.005** VHP32ATPL1 MC M92LP512Css_V3 2G+1G/320/6L/5R   
+- **LX.PEA0X.006** VHP32ATCH1 MC M92LP512Css_V3 2G+1G/320/6L/5R  
+- **LX.PEA0X.007** EM VHP32ATME4 MC East M92LP512Css_V3 2G+1G/320/6L/5R  
+- **LX.PEA0X.008-009** similarly denote EM configurations for VHP32ATME4 and VHP32ATME2 mechanisms with consistent specifications.  
+
+**Additional national entries include:**    
+- **LX.PEA0X.014-020** for various regions in EMEA, featuring VHP32AT and M92LP512 configurations.  
+- **LX.PEA0X.021-047** span various specifications for EMEA and related areas, mainly focusing on 2G and 1G configurations with esteemed memory specifications.  
+
+In summary, all entries list detailed configurations per region, including specifications such as memory types, connectivity options, and additional system characteristics.
+
+**Specifications:**
+
+- **CPU**: AAL310
+- **Display**: NLED 15.6" WXGA GAGS
+- **Graphics Processor**: M92LP with 512MB DDR3 VRAM
+- **Chipset**: AAL310
+- **Memory**: 
+  - SO2GBII6
+  - SO1GBII6 
+- **Storage Options**: 
+  - 250GB, 320GB, 500GB 5,400 RPM drives
+  - NSM8XS9.5 
+- **Antivirus**: McAfee pre-installed on all configurations
+- **Wireless LAN**: 
+  - AS5538 Series with multiple country configurations
+  - BGN standard
+- **Optical Drive**: ODD SW1 Card
+
+**Note**: Multiple entries indicate various configurations and options for memory and storage, represented by formats such as SO2GBII6 and different HDD capacities. Each unit supports McAfee antivirus software. Wireless LAN support includes a variety of language versions for global use, ensuring compatibility across different markets.
+
+### Wireless LAN Models and Specifications
+
+**Model Overview:**
+1. **Wireless LAN AS5538 Series:**
+   - Multiple models identified by specific configurations and regional codes.
+   - Core specifications include BGN compatibility and respective codes (KB.I170A.051, KB.I170A.056, etc.).
+
+**Model Configurations:**
+- **VHP32** Variants:
+  - AS5538- VHP32 VHP32ATFI2FI11 BGN (KB.I170A.051)
+  - AS5538- VHP32 VHP32ATEU5RO12 US BGN (KB.I170A.056)
+  - Additional configurations for various international codes (SLO/CRO, CZ/SK, etc.).
+
+**Regional Specifications:**
+- The models feature variants tailored for specific regions such as:
+  - **US**: AS5538G- VHP32 series with international options (KB.I170A.056).
+  - **European Models**: Specific configurations such as AS5538- VHB32 and AS5538G- BT series, optimized for diverse regional standards like Spanish and Nordic.
+
+### Compatibility and Testing
+
+**Peripheral Compatibility:**
+- Tested compatibility with various peripherals and operating systems, including:
+  - **AC Power Adapters**
+    - Supported models include DELTA (65W), HIPRO, LITE-ON, and others.
+  - **Batteries**
+    - Compatible with Panasonic, Sanyo, and Simplon models; specific configurations for 6-cell batteries.
+
+**Storage and Hardware Configurations:**
+- **CPU Support:**
+  - AMD AAL110, AAL310, AATF20, and specs such as 1.2G to 1.6G speeds.
+  
+- **Hard Drives:**
+  - Various storage capacities from manufacturers like HGST, Seagate, Toshiba, and WD, with SATA interface and specific firmware versions.
+
+**Peripheral Support:**
+- Various cards (e.g., Bluetooth, MS, SD, SC, and XD) are noted for compatibility.
+  
+This overview encompasses the primary models and their specifications, ensuring a concise reference for compatibility and performance expectations across regions.
+
+AUO NLED15.6WX LED LCD specifications include models such as the AUO 15.6" WXGA B156XW03 GAGS V1 LF, LPL 15.6" WXGA LP156WH3-GAGS TLA1 LF, and SAMSUNG 15.6" WXGA GAGS LTN156AT07-A01 LF. 
+
+Memory options consist of HYNIX SO-DIMM DDRII modules: 1GB (HYMP112S64CP6-Y5 LF) and 2GB (HYMP125S64CP8-Y5 LF). NANYA also provides SO-DIMM options with 1GB (NT1GT64UH8D0FN-3C LF) and 2GB (NT2GT64U8HD0BN-3C LF). SAMSUNG offers comparable memory modules of 1GB (M470T2864EH3-CE6 LF) and 2GB (M470T5663EH3-CE6 LF).
+
+For the chipset, the AMD AMDRS780M and AMD SB710 are included, supporting integrated VGA (UMA) graphics. Wireless connectivity features include Atheros AR5B91 and RT2700E BGN wireless LAN capabilities. 
+
+This section provides technical services information, and users should contact the branch office for assistance with ASP or TPM inquiries. Details and updates can be obtained directly from CSD. The Technical Information section includes software downloads, service details, and Acer's International Warranty (ITW) for authorization related to technical services. For further inquiries, please do not hesitate to reach out for assistance.
+

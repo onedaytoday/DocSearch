@@ -1,0 +1,34 @@
+### ATEX Compliance Instructions for IP221/SI and Amplifiers
+
+For detailed instructions regarding the installations of devices rated for environments classified as ATEX Zone II, refer to the specifications provided for models TRL03ATEX21023X and TRL03ATEX21035X. These devices are suitable for operating temperatures between -40°C and +85°C and have a temperature classification of T4.
+
+**Key Considerations:**
+
+1. **Certified Protection**: Ensure that installations conform to the specified protection standards. Any impacts that may compromise the device's protection level must be assessed, particularly in environments with combustible materials or chemical exposure.
+
+2. **Inspection Protocols**: Regular inspections must be conducted to verify the integrity of the protection mechanisms employed. 
+
+3. **Electrical Specifications**: The devices feature connection ratings, such as inputs of +16.27V and power ratings ranging from 0.4W to 1.42W, depending on specific configurations.
+
+4. **Installation Compliance**: Installations should be executed by qualified personnel in accordance with the relevant standards (IEC 60721 Class 3M8/4M8, EN 50020).
+
+5. **Maintenance**: Repairs must be carried out by trained technicians, ensuring that all components remain in accordance with ATEX regulations. Internal connections must only occur with certified devices, as outlined in the technical charts provided in the documentation.
+
+6. **Cleaning Protocols**: Use a cloth for cleaning the devices, ensuring no risk of ignition from static charge build-up.
+
+For any additional queries or detailed technical assistance, please refer to the technical support resources available on the Mobrey website: www.mobrey.com.
+
+Here's a paraphrased version of your text:
+
+**Technical Specifications of MEP3*I, TRL03ATEX21035X**
+
+Designated for Zone 1, 2, 3, and 4 (II G, IIC T4), this model operates at +16.27V with a power consumption of 1.42W and another variant that operates at +16.27V drawing 0.4W. It complies with ATEX standards (EN50020) and has a protection category of IP221/SI. The unit also adheres to IEC60721 classification for environments ranging from -40°C to +85°C (T4).
+
+**Related Models:**
+- TRL03ATEX21024X, which is similar in specifications.
+- TRL03ATEX21033X has additional certifications indicating its capability to operate in various zones, including IIA, IIB, and IIC standards with temperature classifications T1 to T5.
+
+These units are designed for intrinsically safe applications and feature robust environmental resilience with specified power ratings. All referenced models are registered trademarks of their respective owners, including Emerson. For more information, visit [Mobrey](http://www.mobrey.com), Slough, UK, SL1 4UE.  
+
+*Note: This summary preserves the essential meaning and technical details while reorganizing the information for clarity.*
+

@@ -1,0 +1,155 @@
+Please use the following instructions along with the referenced Visual Presenter HV-5100XG Instruction Manual. 
+
+**IMPORTANT SAFEGUARDS**: Always adhere to the provided operating instructions and retain them for future reference. It’s essential to follow these guidelines to avoid potential hazards. Make sure to disconnect the device from the power outlet before cleaning. Use only recommended cleaning agents and avoid using solvents or excessive moisture, as these can cause damage or create a hazard.
+
+**Grounding and Power Supply**: This device requires proper AC grounding. Ensure that the power cord is not pinched or damaged, and that it is routed to prevent tripping hazards. To minimize the risk of electric shock or fire, do not open the device. Servicing should only be performed by qualified personnel.
+
+**Warning**: To avoid fire or electric shock, do not expose this product to rain or moisture. This unit complies with FCC Class requirements and should be operated with considerations for radio interference.
+
+**Operating Conditions**: Ensure the device operates within a temperature range of 5°C to 40°C (41°F to 104°F) and is kept away from direct sunlight or heat sources. 
+
+**Battery Care**: If applicable, use only the specified rechargeable batteries and ensure they are charged properly to avoid short-circuiting.
+
+**Contents**: The manual includes sections on part names, functions, remote control details, setup and connections, various operations, troubleshooting hints, and specifications.
+
+**Functionality**: The sections cover the operation of lighting functions, monitor output, control buttons, and memory presets for different settings, ensuring users have a comprehensive guide to effectively use the device.
+
+Always follow the instructions carefully to ensure proper function and safety when using the Visual Presenter HV-5100XG.
+
+### MOUSE Operation Overview 
+
+The operation of the MOUSE is as follows: You can clear the OSD (On-Screen Display) by clicking. The OSD will show important functions. Holding the specified button while clicking will activate the desired function, which will be displayed electronically. When turning the system on, ensure the power supply is connected for proper operation. Refer to P.24 for connection guidelines and P.33 for OSD details.
+
+### Setup and Connections 
+
+Follow the connections as specified on the right. Ensure everything is locked in place. Adjust the head orientation and connect the AC power. The DIP switch can be used to switch the factory settings as indicated. To modify the output type to NTSC or RGB, change the DIP switch accordingly. The RGB output should match the connected devices. If there's any deviation, manual adjustments to the LCD may be necessary.
+
+### Storing Procedures
+
+When the LCD is mounted, turn off the switch, adjust the head position, and press the release button to prepare the LCD. Apply pressure to ensure proper locking before powering on.
+
+### Operational Procedures 
+
+To execute basic functions, turn on the main switch. The LED indicators will show the status of each function. If the switch is turned off shortly after turning on, allow it to restart and then immediately turn it back on. The function can also be operated via the wireless remote controls like [TELE], [WIDE], or [ZOOM] buttons to adjust the image as needed. 
+
+### Various Functions and Operations
+
+Press the [LAMP] button or its wireless equivalent to turn on the light. To switch off, press the [LAMP] or [LAMP BASE]. Ensure the head positioning is optimal for focus adjustments. For functionality like balancing the lamp or performing color adjustments, refer to the specific control buttons.
+
+### Input Selection
+
+Select the desired input source using buttons [RGB1], [RGB2], or [MAIN]. The LED will indicate the selected input. 
+
+### Signal Polarity and Clock Adjustment 
+
+The system supports various input types, including VGA and SXGA with specific clock settings. Adjustments can be made either wirelessly or via the control panel to manage signal polarity.
+
+### Image Adjustment Functions 
+
+To switch between positive and negative displays, use the [POSI/NEGA] button. Pressing it will toggle between modes. The rotation function can be activated using the [IMAGE ROTATION] button, allowing for counterclockwise adjustments. 
+
+### Conclusion
+
+For a comprehensive operation, always refer to the corresponding pages for detailed settings and maintenance procedures.
+
+### Wireless Control System Overview
+
+**MONITOR OUTPUT**: The system provides options to pause the output, adjust the iris, and control RGB settings (RGB1 and RGB2). The [PAUSE] button on the front panel allows for temporary halting of operations, which can be canceled by pressing the button again.
+
+**Image Adjustments**: Character and background tones can be modified through the [CONTRAST] button. Pressing this button adjusts brightness levels, enhancing overall image contrast. The settings include options for NEGA and POSI contrast, as well as control over the WHITE IMAGE LAMP BALANCE in AUTO or MANUAL modes.
+
+**White Balance Settings**: The white balance can be set manually or automatically. By pressing the [WHITE BALANCE] button, users can stabilize white tones in the image. This includes options for ONE-PUSH white balance and manual adjustments accessible through the on-screen display (OSD).
+
+**Iris Control**: Users can control the iris brightness both automatically and manually. The brightness can be adjusted using the [OPEN] and [CLOSE] buttons either on the front panel or via wireless control. Pressing the [AUTO/MANUAL] toggle will switch modes, allowing for operation in either setting.
+
+**Auto Focus (AF) Function**: The [AF] button can be activated to manage focus automatically. Once focusing is achieved, the function releases to allow for a focus-free operation. This system helps in handling bright backgrounds and varying light conditions. If users wish to fine-tune focus, the [FOCUS NEAR] or [FOCUS FAR] buttons can be pressed.
+
+**Memory Functions**: The device includes preset and memory functions for saving various settings. Users can set and call these presets, allowing for quick adjustments depending on the shooting conditions. The white balance and light configurations can also be saved and restored.
+
+**LCD Connections**: The LCD (LM-5011N) can be connected to the system using appropriate cables and mounting hardware (MS-201). The setup allows for video output to be displayed on compatible screens.
+
+**On-Screen Display (OSD)**: The OSD provides real-time feedback on settings and configurations, including display options for color or black/white, and allows for easy navigation of functions via an intuitive interface.
+
+**RS-232C Specifications**: The device can interface with a PC via RS-232C for external control. This communication allows for instruction transfers and data retrieval, enhancing automation and user control of the system.
+
+This overview outlines the primary functionalities and controls of the wireless monitoring and operation system, emphasizing the features that support effective image management and system interaction.
+
+### Format Specifications
+
+This document pertains to the 1-command/1 system, which has been previously completed. The command is initiated with STX (Start of Text) and concluded with ETX (End of Text). An NAK (Negative Acknowledgement) indicates an error, while an ACK (Normal Acknowledgement) confirms proper receipt. The command is transmitted in PC ASCII format as follows:
+
+- **Normal Selection**:  
+  - Command: `&W`, `White`  
+  - Values: 32H, 30H, 31H, 20H (space characters)
+
+- **Iris Control**:  
+  - AUTO: 31H  
+  - MANUAL: 32H  
+
+- **Memory Settings**:  
+  - Memory8: 30H  
+  - Memory7: 31H  
+  - Memory6: 32H  
+  - ROM: 56H  
+
+### UART Communication Format
+
+Commands are transmitted in ASCII format as follows:
+- **Focus Control**:  
+  - NEAR: AF  
+  - FAR: FO  
+  - TELE: ZO  
+  - WIDE: (STOP)  
+
+- **Iris Control**:  
+  - OPEN: IR  
+  - CLOSE: (STOP)  
+  - AUTO: (STOP)  
+
+- **Lighting Control**:  
+  - OFF: PL  
+  - BASE: (MAIN)  
+  - RGB Output: AV (RGB1, RGB2)  
+
+- **Negative and Positive Control**:  
+  - POSITIVE: NP  
+  - NEGATIVE: (STOP)  
+
+- **Color Settings**:  
+  - COLOR: CB  
+  - B&W: PO (OFF, ON)  
+
+- **Power Management**:  
+  - OFF: PM  
+  - ON: MA  
+  - (STOP): FZ  
+
+Additionally, selections such as AW (White) and checks on communication (acknowledgement messages) should ensure proper RS-232C connection to the PC. 
+
+### Troubleshooting Hints
+
+If any abnormalities are detected, investigate the following symptoms and countermeasures:
+
+- Ensure all components are properly connected to AC power.
+- Confirm that the TELE switch is turned ON; troubleshoot any immediate shutdowns.
+- If TELE focusing is improperly working, verify connection and preheat for several seconds.
+- Check compatibility between PAL and NTSC formats.
+- Monitor potential interference from connected devices, which might affect display quality.
+
+### Specifications
+
+- **Power Supply**: AC100-240V, Rated 0.8A, 0.4A (as applicable).
+- **Input/Output Connections**:
+  - RGB Input: DSUB 15P, RCA (NTSC/PAL), DIN 4P (NTSC/PAL).
+  - USB: DSUB 9P, DIN 6P
+  
+### Imaging Specifications
+
+- **Shooting Resolution**: CCD 1077(H) x 788(V), Effective: 1034(H) x 779(V).
+- **RGB Output**: 600TV, unbalanced synchronization, XGA compatibility with NTSC/PAL.
+- **Lighting**: High lighting with a 3-wave-length type, 6W.
+
+### Note on Copyright
+
+Unauthorized reproduction of copyrighted materials contravenes copyright laws. For further information about ELMO and its subsidiaries, please refer to the product documentation.
+

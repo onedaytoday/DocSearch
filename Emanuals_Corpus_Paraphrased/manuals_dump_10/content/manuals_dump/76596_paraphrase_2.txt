@@ -1,0 +1,32 @@
+HD HD LLC Street, CA, USA Revision
+
+HD HD HD offers seamless conversion of AVCHD files to high-quality H.264 or HD H.264 formats, suitable for playback on devices like the iPhone, Apple TV, and various smartphones. The software is user-friendly, featuring advanced tools for cropping, batch processing, and selecting from preset options or user-defined settings.
+
+For detailed guidance on software functionality, including setup, encoding preferences, and device compatibility, users can access support through the official website at www.elgato.com/registration.html. System requirements include a minimum of 1 GB RAM and a built-in USB port.
+
+With the ability to convert AVCHD to H.264 (MPEG-4), the software facilitates ease of playback across platforms including the iPhone, Apple TV, and PlayStation. Users can select desired output formats tailored to each device’s specifications.
+
+Custom encoding options allow for adjustments in aspect ratio, frame rate, and other parameters, ensuring compatibility with the intended playback devices. The software provides a clear interface for first-time users and advanced functionalities for experienced users.
+
+Users can manage their code preferences and specify output locations via the HD Preferences menu, enabling streamlined file organization and automated workflows.
+
+For AVCHD support, users can specify recording features, and the software can integrate with QuickTime for enhanced performance. Additionally, detailed instructions on profile management and encoding settings guarantee that users can customize their experiences according to individual needs.
+
+For troubleshooting and further information, users are urged to consult the help resources included in the software or available online.
+
+### HD Application Overview
+
+The HD application includes custom functions and operates with QuickTime using the QuickTime Player. You can select from various HD options available within the software. 
+
+#### HD Dictionary
+
+The HD dictionary contains a list of commands and functionalities compatible with OS X. You can find it in the Applications/AppleScript directory. If you encounter any features within the HD dictionary that need attention, please report them. This includes functionalities related to specific encoding processes.
+
+The application supports exporting in various HD formats, such as High, iPod Standard, Sony PSP, Apple TV, iPhone, YouTube, YouTube HD, and HD 720p. The encoding status can be determined using a boolean variable, isEncoding, which indicates whether or not encoding is currently active. When encoding is complete, the output file will be saved as "finished.mp4," making it easy to locate in the OS file structure.
+
+#### HD Format Specifications
+
+For video formatting, the application primarily utilizes H.264 with the Low-Complexity Profile and AAC-LC audio encoding. Specific configurations apply depending on the target device—iPhone and Apple TV encoding adheres to strict aspect ratio standards, while PSP videos maintain a specific frames per second rate. 
+
+YouTube and YouTube HD exports are also formatted to H.264 with AAC-LC. Additional formats supported include AVCHD, AVI, DV, WMV, MPEG-1, MPEG-2, Stream, MPEG-4, MP4, M4V, H.263, and various other standards to ensure compatibility across multiple platforms.
+

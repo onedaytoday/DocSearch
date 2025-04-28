@@ -1,0 +1,32 @@
+### EL SB USB RX Instructions
+
+**Overview**  
+This document provides instructions for the EL USB RX SPEED Remote USB RX software for both MAC and Windows platforms, along with troubleshooting tips, CE and FCC compliance information, and recycling guidelines.
+
+**Product Features**  
+The EL USB RX SPEED enables wireless functionality with a remote USB RX system and PC compatibility. Key features include:
+
+- Security options for remote access
+- Standby and flash functionality
+- Software tools for performance optimization
+
+For more information, visit the ELINCHROM website under the SUPPORT > DOWNLOAD EL-SKYPORT SOFTWARE section. Feedback on the RX software can also be provided through this portal.
+
+**Software Compatibility**  
+The software is essential for proper configuration and operation of both MAC and Windows devices. It ensures seamless interaction with the EL-RX system, allowing users to access additional features. The software can recognize connected RX units and facilitates the activation and deactivation processes within milliseconds.
+
+**Connection Types**  
+The USB RX SPEED supports both Hot-shoe and ECO Hot-shoe setups, allowing for flexible remote operating capabilities.
+
+**Troubleshooting**  
+Before proceeding with troubleshooting, ensure that the RX USB is connected correctly. Refer to the ELINCHROM website for additional support. Check that all software is updated and functioning correctly. If performance issues arise, consider adjusting the positioning of the RX device to reduce interference.
+
+**Compliance Information**  
+The RX has been tested and complies with the EMC Directives 2004/108/EG and 2006/95/EG, as well as the R&TTE Directive 99/5/EG. 
+
+**FCC Compliance**  
+This device adheres to FCC regulations concerning Class B computing devices. Proper installation and operation can minimize interference. If interference is encountered, suggestions include adjusting the device's position, moving to a different outlet, or consulting authorities for further assistance.
+
+**Disposal and Recycling**  
+For recycling and disposal, return the product to designated collection points. Further details are available through ELINCHROM representatives or the website.
+

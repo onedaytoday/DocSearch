@@ -1,0 +1,57 @@
+**2243L, 2244L SW601560 C Touchmonitor by TouchSystems**
+
+**Copyright Notice:** © Tyco Corporation, TE Connectivity. This publication's content is protected against reproduction, transmission, transcription, translation, or dissemination without written permission from TE Connectivity and its affiliates (collectively "TE"). The information provided is offered with no guarantees, including potential warranties of merchantability. TE reserves the right to revise this document without notice.
+
+**Touchmonitor Overview:** The TouchSystems 2243L and 2244L touchmonitors utilize active thin-film-transistor LCD technology for enhanced performance, delivering high-definition graphics. These touchmonitors employ LED backlighting, minimizing mercury use compared to traditional CCFL technology. A detailed overview of the operational specifications and installation instructions is provided throughout the following chapters.
+
+**Unpacking the Touchmonitor:** Upon unboxing, ensure you have the following items: the touchmonitor itself, a protective cover, a TouchTools CD, and various connectors (DVI, VGA, USB). Connect the DVI or VGA input to the respective port and secure with screws. The touchmonitor is powered via a USB connection and should be switched on upon installation.
+
+**Software Installation:** Install the touchmonitor's accompanying software, which is compatible with Windows XP and WEPOS, using the provided CD. For additional support, refer to TouchSystems' website, www.elotouch.com, for resources and other operating system compatibilities.
+
+**Mounting and Orientation:** The On-Screen Display (OSD) menu facilitates the adjustment of mounting brackets and threaded support. 
+
+**Powering the Touchmonitor:** To turn on or off the touchmonitor, press the power button once. The LED indicators will provide feedback on the power status, switching to sleep mode or off as needed to conserve energy. Ensure the device is connected to a compatible AC power source.
+
+**APR Performance Settings:** Adjust the APR settings through the OSD to optimize performance for point-of-sale applications. 
+
+**User Calibration:** Generally, accuracy in touch performance corresponds with the monitor's dimensions. If text appears distorted or unclear, calibration may be required using the OSD features. 
+
+**OSD Functions:** The OSD allows for adjustments such as brightness, clock phase, scaling, and aspect ratio. The menu also supports multiple input sources and language selection, with default settings adjustable to the user’s preferences. 
+
+**Technical Support and Troubleshooting:** For technical issues, ensure all connections are secure and that the device adheres to specified functioning standards. If the LED indicator shows abnormal activity, refer to the troubleshooting guide. For further assistance, contact Technical Support via the resources provided on the TouchSystems website.
+
+**Cleaning Instructions:** For maintenance, gently clean the touchscreen with a soft cloth. Avoid abrasive materials or harsh chemicals, and comply with WEEE directives for disposal and recycling.
+
+**Conclusion:** For optimal performance and longevity, adhere to the guidelines outlined in this manual and regularly check for updates or additional information from TouchSystems.
+
+### Chapter Overview
+
+#### I. General Information
+This section provides operational details regarding the device, emphasizing the importance of adhering to specified procedures for safe use. It is recommended that a qualified service technician handle any service requirements.
+
+#### II. Compliance and Immunity Information
+This device has been tested for compliance with Class A FCC standards, ensuring a reasonable level of protection against interference, provided that the installation follows the guidelines outlined in this document. The product meets the CE requirements as per EMC Directive 89/336/EEC and is compliant with Directive 73/23/EEC. Users should be aware that if interference occurs, it may be influenced by environmental factors. 
+
+Users are advised to use only the specified cords. If interference with other devices is detected, try turning off the device and disconnecting or repositioning the affected receiver. In case of persistent disruption, consult a technician.
+
+#### III. Agency Certifications
+This product has received various certifications including C-Tick, CUL, IC, CCC, CE, VCCI, KCC, NOM CoC, BSMI, FCC, and UL standards.
+
+#### IV. Environmental Impact Notice
+The product complies with regulations regarding hazardous materials. It contains certain restricted substances such as lead (Pb), mercury (Hg), and chromium, with toxicity levels adhering to SJ/T11363-2006 and EU RoHS standards.
+
+#### V. Operating Specifications
+- **Input Voltage**: 100-240VAC
+- **Output**: 12VDC, 3A
+- **Operating Conditions**: 
+  - Temperature: 0°C to 40°C
+  - Humidity: 20%-80% (non-condensing)
+- **Environmental Conditions**: -20°C to 50°C, humidity 10%-90% (non-condensing).
+
+#### VI. Warranty Information
+The manufacturer offers a warranty against defects in materials and workmanship for a duration of three years for the product including TouchMonitors. Any warranty claims must be submitted in writing within thirty days of discovery of the defect, allowing reasonable time for product inspection. 
+
+The warranty covers only those specific terms outlined and does not extend to any implied warranties, including merchantability or fitness for a particular purpose. Any damages or claims related to the use of the product are limited and do not extend beyond what is explicitly stated.
+
+For further details about the product, specifications, news, and software, visit [www.elotouch.com](http://www.elotouch.com) or contact TE Connectivity in North America at 800-ELO-TOUCH.
+

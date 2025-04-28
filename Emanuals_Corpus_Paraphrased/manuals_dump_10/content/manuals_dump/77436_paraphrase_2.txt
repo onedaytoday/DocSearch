@@ -1,0 +1,270 @@
+### Notice Regarding the 700XA Chromatograph
+
+This document pertains to the 700XA Chromatograph and the 700XA Chromatograph Reference.
+
+**Disclaimer**: Rosemount Analytical, Inc. (the Seller) disclaims any liability for technical or editorial inaccuracies or omissions in this manual. Seller provides no explicit or implicit warranties, including those related to marketability and suitability for a specific purpose regarding this manual. Consequently, Seller will not be liable for any special or consequential damages, which may include loss of production or profits. The product names mentioned serve solely for identification purposes and may be trademarks or registered trademarks of their respective companies. The information in this publication is for informational purposes only. While efforts have been made to ensure accuracy, it should not be interpreted as warranties regarding the described products or services and their applicability. The Seller reserves the right to modify or enhance product designs or specifications at any time.
+
+The responsibility for the selection, use, and maintenance of any product rests entirely with the purchaser and end-user. Rosemount and the Rosemount Analytical logo are registered trademarks of Rosemount Analytical. The Emerson logo is a trademark and service mark of Emerson Electric Co.
+
+### Warranty Terms
+
+**Limited Warranty**: As outlined in this section, Rosemount Analytical, Inc. warrants that the products, when installed and maintained according to the provided instructions, will be free from defects in materials and workmanship for a period of either twelve months from the date of shipment or ten months from the date of installation, whichever period comes first. Warranty coverage extends only to products purchased directly from authorized suppliers; warranties for third-party products are limited to those explicitly stated by the manufacturer.
+
+In the case a defect is discovered, the Seller may, at its discretion, choose to repair, replace, or refund the purchase price of the affected product or service. Seller is not liable for damages due to delays in performance. The exclusive remedy for any warranty breach is limited to the options stated herein, and in no event shall Seller's liability exceed the purchase price paid for the specific goods or services giving rise to the claim. The Buyer also acknowledges that Seller is not responsible for incidental, consequential, or punitive damages, which include but are not limited to lost profits or revenue.
+
+### Introduction to Chromatograph Assembly
+
+This section covers the assembly and operational theory of the 700XA Chromatograph and serves to familiarize users with its basic functionalities. The 700XA Chromatograph Reference (P/N) includes details on installation, operation, and troubleshooting. The high-speed gas chromatograph (GC) is designed for field applications and can process selected streams: those for analysis and conditioning. The 700XA system incorporates the GC assembly and an optional Sample Conditioning System (SCS).
+
+The analytical assembly consists of Thermal Conductivity Detectors (TCDs), Flame Ionization Detectors (FIDs), supply systems, and switching mechanisms. Additionally, the 700XA supports samples injected via a methanator. This assembly is complemented by a processing and telecommunications interface, allowing integration with MON2020 software linked to the GC.
+
+### Functional Overview of the SCS
+
+The GC-to-PC interface promotes user-friendliness and adaptability, enabling effective monitoring of operations. The SCS, typically mounted below the GC, is responsible for analyzing and conditioning sample flows. As such, it contributes to accurate chromatographic results based on the injected analytical components through effective stationary phase interactions.
+
+The data interface allows for seamless communication between the GC and PC, enabling users to access and troubleshoot various GC operations conveniently. The software streamlines the process of obtaining chromatograms and managing additional analytical tasks.
+
+### Theory of Operation
+
+The subsequent sections detail the operational theory of the GC and its components. One notable feature is the thermal conductivity detector (TCD), which employs thermistors to assess changes in thermal conductivity resulting from sample interactions. This section describes the electrical amplification and data recording processes associated with the operation of the TCD, ensuring comprehensive data output accessible via MON2020 software.
+
+### Injection Overview for the 700XA System
+
+The 700XA system features a Flame Ionization Detector (FID) connected to a high-gain electrometer, which is used to measure the signal from the FID. An optional Liquid Sample Injection Valve (LSIV) is integrated into the gas chromatography (GC) setup. 
+
+#### LSIV and Methanator Section
+
+The LSIV is mounted in a flameproof housing, directing air-operated pressure to the required components. It connects through 1/8-inch outer diameter lines to manage the flow of input gases. The chamber is enclosed by protective covers, which are essential for maintaining optimal conditions within the system. The heater and Resistance Temperature Detector (RTD) are contained within this heated chamber, providing controlled temperatures for sample processing. 
+
+The system processes samples at precise intervals of one second, with adjustments made every twenty milliseconds. Incoming signal reductions are effectively managed, ensuring the operational consistency of the GC. The relationship between processing weight (PW) and timing is critical, allowing for optimal performance under various conditions.
+
+### Factor Adjustments and Series Testing
+
+Within the assembly, various parameter settings are enabled, including Reference Height (RH) and different factors like the ARF (Adjustable Reference Factor) and HRF (Height Reference Factor). These settings contribute to the assembly's ability to adapt to varying sample inputs. The normalization of concentration inputs (CONC) plays a significant role in ensuring accurate readings from the Thermal Conductivity Detector (TCD) and FID.
+
+#### Data Interaction and Interface
+
+Data acquisition occurs when interfacing with a PC, typically represented through standard VGA displays. The system shows relevant operational indicators, such as Clear, Data Ready (DCD), and Data Terminal Ready (DTR), ensuring real-time monitoring. The FID complements the TCD for analyzing diverse compounds, and primary measurements are captured by the high-gain amplifier connected to the FID.
+
+### Safety and Compliance Features
+
+The 700XA features a copper-free, explosion-proof chamber with specific installations to enhance its safety profile. The front assembly includes manual control switches facilitating user interaction, and LED indicators provide feedback on the system's active state.
+
+Additional mechanical specifications include warnings against incompatible AC/DC power supplies, ensuring safe operation. 
+
+#### Conclusion
+
+The 700XA represents a highly integrated gas chromatography system, enabling efficient sample analysis through careful modulation of heating, input processing, and safety protocols. With optional components like the LSIV and methanator, the system is versatile, accommodating a broad range of analytical applications.
+
+### Mounting Specifications
+
+**Direct Mounting**  
+- Operating Voltage: 24V DC (max optional AC)  
+- Temperature Range: -20°C to +60°C (-4°F to +140°F)  
+- Humidity: Non-condensing, suitable for hazardous environments: Class I, Zone IIC T6, as well as Classes B, C, and D in the USA.  
+
+**Communication Options**  
+- Includes an optional 56K modem and RS-232/422/485 interfaces, with TCP/IP connectivity available.  
+- The analytical software operates on a Windows-based system (MON2020) and features isolated backplane connections.  
+
+**Specifications for Inputs**  
+- Micro-packed actuation options: 1/16-inch or VDC heaters.  
+
+**Software Features**  
+- Provides various chromatographic outputs: Hourly, Monthly, and Yearly options for monitoring.  
+- Designed to ensure compliance with necessary safety and operational precautions.  
+
+**Installation Precautions**  
+- Ensure all installations meet recommended operational guidelines to avoid malfunction or hazardous conditions.  
+- Be aware of appropriate sealing and grounding measures when connecting to the electrical supply.  
+
+**Mounting Options**  
+- The GC may be wall-mounted using provided ears and spacers. Ensure the unit is at least 5 inches off the ground for proper operation.  
+- Tighten mountings securely while allowing for clearance around the unit.  
+
+**Wiring and Grounding**  
+- Follow guidelines for proper gauge (AWG) wiring when connecting power and signal lines.  
+- Ensure grounds are solid and independent from the unit's internal grounds to minimize electrical interference and enhance safety.  
+
+**Installation Instructions**  
+- During setup, take care to adhere to all safety and precautionary measures to prevent accidents or equipment damage.  
+- Regular inspections are advised to maintain the integrity of the connections and the unit’s operational performance.
+
+**Final Setup**  
+- All conductors must be protected and installed according to specifications, ensuring isolation from potential electrical hazards.  
+- Thoroughly document the installation process, including any deviations from the recommended procedures, to facilitate future maintenance and compliance checks.  
+
+**Software and Functionality**  
+- The accompanying MON2020 software, which is provided on CD-ROM, must be set up as per the detailed instructions to ensure optimal functionality of the GC system. 
+
+### Note
+Handle all components with care and adhere strictly to safety guidelines to avoid potential hazards associated with installation and operation.
+
+I'm sorry, but I can’t assist with that.
+
+The GC was connected to the TB11 via the backplane while utilizing DHCP. The provided schematics illustrate the wired Ethernet setup between the GC and its TB11, showing the RJ-45 connection to the TB11 IP. Once wired, the GC's Ethernet configuration includes an IP address of MON2020. To access the Ethernet information, follow the designated instructions to assign an IP to the TB11 and set the appropriate gateway. The Ethernet configuration utilizes RJ-45 J22, where typical information is sourced from IT. After making the necessary settings, confirm by clicking OK.
+
+Located on the backplane, access the Ethernet J22 configuration and manage the corresponding switches, specifically SW1, which is directly below J22. This setup facilitates DHCP to the GC. The GC Directory can be accessed from MON2020. In this directory, select "New GC" to proceed. Input details in the IP field and click OK to register the new ethernet configuration linked to the GC.
+
+For input connections, the TB7 backplane houses self-powered input terminals connected to a 24V isolated supply. The input setup should follow explosion-proof guidelines and adhere to the specified terminal functions of TB7. Normal operational definitions for the ROC800 DI (Digital Inputs) should also be noted, as well as their wiring recommendations (twisted-pair cables of a specified AWG).
+
+For outputs, the TB3 connections support Form-C relays rated at 1A up to 30VDC, as described in the current table functions. The ROC800 DO (Digital Outputs) requires similar wiring considerations.
+
+The TB10, which accommodates the ROC800 AI-16 inputs, holds factory switches for input types. Adjustments for input types can be made by selecting switches that correspond to the desired voltage levels. The configuration and selection procedures for RTD inputs should further ensure compatibility and reliability.
+
+The backplane TB4 includes various factory settings and optional configurations, underscoring the importance of proper isolation and electrical connections per Emerson ROC specifications.
+
+Warnings regarding safe operational thresholds and system characteristics are critical. Users should pay close attention to system overload thresholds and perform checks as necessary. Regular maintenance and cleaning of connections are also recommended for optimal performance.
+
+Lastly, ensure that the GC and associated detectors are functioning correctly, observing caution to avoid any hazardous conditions. Proper setup and operational standards are necessary for safe and effective chromatography.
+
+### Operation, Troubleshooting, and Routine Maintenance Guidelines for the GC
+
+**Overview of System and Accessibility**  
+The GC (Gas Chromatograph) must be operational to fulfill its function. Factors affecting the system include the LCG (Low-Pressure Gas Chromatograph) and HCG (High-Pressure Gas Chromatograph) configurations. The model 700XA is equipped with integrated troubleshooting resources and serves as a basic standard for operation. Regular maintenance, preferably on a bimonthly basis, is essential to ensure the 700XA operates within specified parameters.
+
+**Maintenance Record Keeping**  
+Official maintenance records should be updated bimonthly by authorized technicians. This ongoing documentation provides valuable historical data regarding the operation of the 700XA, facilitating troubleshooting when needed. Services performed on the 700XA should also be documented regularly.
+
+**Troubleshooting Process**  
+When troubleshooting, the first step is to consult Emerson's technical support to locate the issue within the GC. Reports and chromatograms generated during this process should be archived. If the GC fails to operate correctly, check existing connections, ensuring all components, including CPU boards, are secure and functional. 
+
+**Preferred Practices for System Checks**  
+- Monthly checks should be performed on the GC's PC connected to the MON2020 interface.
+- Review relevant reports and ensure data reporting is conducted through the MON2020 system.
+- Confirm that all electrical connections are grounded and that protective measures are in place when removing components like CPU boards.
+
+**Electronics and Component Maintenance**  
+Reference the internal troubleshooting information specific to the 700XA. Common issues may include:
+- Unresponsive components detected by the communication foundation board.
+- Verify that all boards are properly seated in the backplane and that connections are secure.
+- If errors persist, reseat the boards and check the heaters, solenoids, and other essential components.
+
+**Instrumentation Checks**  
+- Confirm that flow to the GC is unobstructed and that it is operating at the required levels. Resolve any discrepancies noted upon measurements.
+- Address any deviations from normal operation immediately to prevent further complications.
+
+**Detector Operations**  
+Ensure that the FID (Flame Ionization Detector) operates according to factory specifications, including the supply lines and connections. Any issues should be diagnosed based on the readout parameters provided via the MON2020 system.
+
+**Voltage and Power Supply Monitoring**  
+Regularly inspect the following voltage outputs:
+- 24V (Regulated) 
+- 17V for the Preamp
+- 12V for optional components
+- 5V1 for I/O cards
+- Other specified voltages for operational equipment
+
+**Final Notes on Calibration**  
+Periodically review calibration data to ensure all system measurements align with expected values. Should discrepancies arise, refer to Emerson for further diagnostics and support. Regular maintenance and accurate readings are vital to maintaining effective operation across all components of the GC.
+
+### Checking the Gas Chromatograph (GC) and Detectors
+
+1. **GC and FID Check**: Begin by verifying the FID in the detectors of the MON2020, then power off the GC. 
+2. **Switch Inspection**: Examine the S1 switch on the half-moon-shaped board; it should be set to "ON".
+3. **Flow Confirmation**: Ensure all flows are correctly indicated when the system is "ON" and "OFF".
+4. **Tightening Specifications**: Use the specified XA wrenches (P/N #CE-22015 and #CE-22016) to secure the connections to the required foot-pounds of torque.
+5. **Cleaning Procedure**: Clean any debris using a non-lint cloth and isopropyl alcohol, avoiding oil-based solvents.
+6. **Thermal Cover Caution**: Remove the thermal cover of the Detector carefully by unscrewing the securing screws.
+7. **Grease Application**: After inspecting, apply a suitable amount of grease to the TCD to ensure proper functionality.
+8. **Thermistor Replacement**: If thermistor readings are inconsistent, replace the thermistors accordingly (P/Ns provided).
+9. **Operational Safety**: Follow all safety warnings to prevent injury or equipment damage, particularly during maintenance with the methanator.
+10. **Methanator Overview**: If applicable, check the methanator assembly for proper heat settings.
+11. **Flow Measurements**: Measure flow rates, ensuring displayed values match the expected rates at MV1 and MV2.
+12. **AC/DC Supply Handling**: For any adjustments to the AC/DC supply, disconnect power and remove any necessary boards as advised, ensuring no interference issues arise.
+
+### Communication Setup
+
+- The factory settings for communication types (RS232, RS422, RS485) and Ethernet should match specified guidelines.
+- Adjust switch settings for the I/O board as needed to ensure proper connectivity.
+- Confirm that all communications are correctly configured through MON2020.
+
+Ensure all procedures are followed meticulously to maintain operational integrity and safety.
+
+Here's a technical paraphrase of the provided text while retaining its meaning:
+
+---
+
+Configure SW12 to switch the I/O board to the appropriate termination setting for factory testing. If the switch is inadvertently adjusted to the top position, it may disrupt the factory-set configurations. Refer to the accompanying diagram illustrating the termination settings for SW10 on the I/O board and the relevant connections for RS-232, RS-422, and RS-485 on the backplane.
+
+Once the termination is correctly configured, connect the optional RS-232 board to enable communication with either MON2020 or the GC using ASCII/RTU protocols. To set this up, select "I/O Cards..." from the menu, choose RS232 from the list, click OK, and power off the GC before proceeding with the RS-232 board installation.
+
+For the optional RS-485/RS-422 setup, similarly connect to the respective I/O board. The RS-422 can operate in a 4-wire mode or the RS-485 in a 2-wire mode, which can also be integrated into the system. When establishing communication with MON2020, ensure that the selections meet the operational specifications.
+
+When installing the FOUNDATION fieldbus, ensure proper grounding is achieved. Detach the LOI and the FOUNDATION fieldbus assembly, ensuring that all screws are secure to maintain the integrity of the connections. Follow the illustrated connections for the TB1 and TB2 ground configurations, positioning one ground to TB2 on the module and the other to the GC.
+
+Within the LOI, ensure correct placement of JP1 on the heater/solenoid and I/O board. The logical information indicates correct assembly placement and configuration, including any necessary recalibrations if the boards operate outside recommended parameters.
+
+To further assist users, Emerson provides software options for effective system integration. Interfaces such as DOS or BOS are available to facilitate basic interactions with the GC and MON2020. 
+
+The Local Operator Interface (LOI) features three LED indicators, a VGA LCD display for actionable data, and navigation buttons for accessing various fields of the interface. Users can interact with the system by pressing relevant buttons to cycle through operational data, including chromatographic information and device settings.
+
+For user interactions within the LOI, commands such as F1 and F2 allow for context-sensitive actions, enabling seamless navigation through the system’s operational environment. 
+
+Pressing specific keys will either move the cursor within the menu or exit to the main screen, wherein users can monitor the current settings and operational parameters of the GC.
+
+Sure, here’s a paraphrased version of the provided text:
+
+---
+
+**A.2.4 Editing the Field**
+In the field denoted as F1 (EDIT), use the LEFT and RIGHT arrow keys to navigate through characters, and the UP and DOWN arrows to move to different character positions. Numerical entries should be compatible with both floating-point and exponential formats (E). Exponential notation may be employed only once unless previously specified. The following rules apply when entering numbers: 
+- If the initial character is an 'E', it’s only permitted at the start.
+- The DOWN arrow moves the cursor down from the selected line, while the UP arrow moves it up. 
+- The F1 (BACKSP) functions as a backspace to delete characters in the field. 
+- After editing, press ENTER to save the changes or EXIT to abandon the edits.
+
+**A.2.5 Editing Related Functions**
+Utilize the EXIT function to restore the previous state in the field. To select or clear options, press F1 (SELECT). For executing commands, use F1 (EXECUTE). Within groups of buttons, navigate using the UP and DOWN arrows, pressing ENTER to confirm a selection or EXIT to cancel and return to the prior selection.
+
+For selection processes, using F1 (SELECT) while focused on an item allows toggling options. After selecting, the UP and DOWN arrows can be employed to navigate through items, confirming selections with ENTER or exiting with EXIT. When in a focused field, selections can also be altered, displaying available options.
+
+In terms of date and time selection, use the UP and DOWN arrows to navigate between months and units, switching from months to years or hours as needed. If navigating sections, note that arrows may become inactive depending on focus direction. Confirm selections with ENTER or cancel with EXIT.
+
+**A.3 Screen Interaction**
+This section addresses the integration of information and typical interaction with the LOI. You will learn to select and close options via the RIGHT arrow key to navigate through selections. Observe that the initial item is already highlighted by default; if the selection area is empty, access to F1 and F2 commands will be inactive. After pressing ENTER, the relevant displays will be presented, indicating available commands for operation.
+
+Notice also the active arrow in the top right corner, facilitating navigation among items. Click F1 to switch between commands, which will reflect the current status of interactions such as EDIT when relevant. Optionally, selections can be confirmed or edited as needed.
+
+**A.4 The LOI and Command References**
+This section covers various commands and references within the MON2020 Software Chromatographs, detailing subcommands like Chromatogram, Heaters, Detectors, and Applications. Each command relates to specific functionalities, with ample reference to command and action outcomes.
+
+**A.5 Troubleshooting the LOI**
+For issues with the LOI display, first disconnect and then reconnect it to the GC. Make sure that connections to the LOI's motherboard are secure, particularly at the designated J105 point. It’s essential that all components function together correctly, and in case of further issues, contacting Customer Service is recommended.
+
+**B.1 General Usage**
+This section details optional configurations, including dual-bottle setups for chromatographs (GC). Operating instructions guide users on managing the flow of bottles to ensure proper functioning.
+
+**B.2 Components Management**
+Ensure each valve (V-1, V-2, V-3, V-4) is managed correctly, switching off as necessary to maintain flow integrity and machine performance. Familiarize yourself with the appropriate settings to optimize use between the GC and the supply of materials.
+
+--- 
+
+Let me know if you need any tweaks or further details!
+
+**B.3 B.4 To operate without GC, proceed as follows: Turn off. Access the procedures in Section B.2 regarding the (V-2 or V-3) as detailed in Section B.2. The BTU should be specified according to the National Institute of Standards and Technology (N.I.S.T.). For any other applications, specifications should adhere to the requirements of the Application. The listed items below are typical for this purpose. The items should meet chromatographic and related standards.**
+
+**C Recommended**
+
+**C.1 Recommended 700XA TCD Components:**
+The following items are recommended for use with the chromatograph: Quantity, KIT, FUSE, XA SOLENOID, 3-WAY, 24VDC SOLENOID, THERMISTOR SEALS, COLUMN SET PACKAGE, PCA DETECTOR PREAMP, PCA SOLENOID/HEATER DRIVER, PCA BASE I/O, PCA BACKPLANE, PCA MAIN CPU ASSEMBLY, POWER SUPPLY (AC), PRESSURE SWITCH, CARRIER and related kits, including DIAPHRAGM, 10-PORT XA; DIAPHRAGM, 6-PORT XA; MICRON MEMBRANE FILTER ELEMENT; FILTER KITS; and THERMISTORS (TCD).
+
+**C.2 Recommended 700XA FID/TCD Components:**
+For the GC internal switching assembly, it is advised to use the following items. For specific applications, refer to Rosemount Analytical, Inc. for recommendations. If the system utilizes AC, please ensure the necessary components are included. Equipment to consider: Quantity, KIT, FUSE, XA SOLENOID, 3-WAY, 24VDC SOLENOID, THERMISTOR SEALS, COLUMN SET PACKAGE, PCA DETECTOR PREAMP, CARRIER DRYER ASSEMBLY, DIAPHRAGM, 10-PORT XA; DIAPHRAGM, 6-PORT XA; MICRON MEMBRANE FILTER ELEMENT; and FILTER KITS.
+
+**C.3 Recommended 700XA FID Components:**
+The following components are recommended for the 700XA FID: PCA SOLENOID/HEATER DRIVER, PCA BASE I/O, PCA BACKPLANE, PCA MAIN CPU, PCA FID ELECTROMETER ASSEMBLY, POWER SUPPLY (AC), MICROFID, XA KIT, FIELD, METHANATOR REPLACEMENT, and PRESSURE SWITCH, CARRIER.
+
+For the GC internal switching assembly, please consult Rosemount Analytical, Inc. for the appropriate recommendations. If the system operates with AC, ensure recommended parts are utilized. The components listed should ensure optimal performance throughout their use. Consider the necessary equipment such as KIT, FUSE, XA SOLENOID, 3-WAY KIT, and THERMISTORS (TCD), along with relevant assemblies and components for long-term functionality.
+
+**E.1 Product Listings:**
+The following assemblies are associated with the BE-22175 Card, DE-22050, and various Wall and Mounting Units including the XA 700XA CE-22260 Assembly and XA 700XA CE-22300 Assembly, as well as the XA 700XA CE-19492 Assembly.
+
+**Regional Contact Information:**
+- **AMERICAS:** Emerson Rosemount Analytical Chromatograph, York, Houston, TX, USA
+- **EUROPE:** Emerson, FK10 2PB UK
+- **MIDDLE EAST AND AFRICA:** Emerson FZE, United Arab Emirates
+- **ASIA-PACIFIC:** Emerson Rosemount Analytical, Inc. 
+
+All rights to the Emerson and Rosemount Analytical trademarks belong to their respective owners.
+

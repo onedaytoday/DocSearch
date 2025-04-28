@@ -1,0 +1,41 @@
+**PTC-401CIP Day/Night IP PTZ Camera with Motion Detection (MPEG4/MJPEG)**
+
+The PTC-401CIP is an advanced Day/Night PTZ camera that supports both MJPEG and MPEG4 formats, designed for versatile LAN and WAN applications in security and audiovisual settings. 
+
+**DUAL MPEG4/MJPEG VIDEO OUTPUT**  
+This unit features dual video outputs, enabling integration with network interfaces. It supports both high-resolution streaming and recording via PC software, with NTSC outputs compatible with CCTV systems, allowing remote access and management from any location at any time. The camera provides clear video in both MJPEG and MPEG4 formats, ensuring flexibility in viewing options.
+
+**FULL DAY/NIGHT OPERATION**  
+Equipped with high-performance optics and sophisticated PTZ capabilities, this camera utilizes DSP technology alongside a high-resolution 1-inch IT CCD sensor with excellent sensitivity (high TVL and S/N ratios). It features IR illumination for enhanced visibility in low-light conditions, compatible with ESD-CC1 or ELMO lighting solutions, allowing for superior surveillance in various environments.
+
+**CLEAR 2-WAY COMMUNICATIONS**  
+The system includes seamless integration with sound cards, facilitating effective communication in distance learning or other AV applications. It supports full-duplex audio transmission to enhance user interaction.
+
+**ADDITIONAL SECURITY FEATURES**  
+Integrated motion detection and built-in FTP capabilities allow for real-time alerts and customized recording options. Robust user authentication mechanisms restrict access to authorized personnel only.
+
+**ELMO CO., LTD**  
+Headquarters and factory are ISO-certified, promoting quality management systems.
+
+**PTC-401CIP SPECIFICATIONS**  
+- **Camera:** NTSC CCD  
+- **Effective Color:** IRE (B&W: IRE)  
+- **White Balance:** Auto/One-Push/Manual/Indoor  
+- **Lens Type:** 12X F1.6, 16X  
+- **Other Functions:** Motion Detection  
+
+**Interface:**  
+- **Video Output:** BNC  
+- **Network:** Ethernet (Base-T, Base-TX RJ-45)  
+- **Control:** RS485 (5P), I/O (6P)  
+
+**Network Protocols:**  
+MJPEG/MPEG4 IP; supports ARP, ICMP, TCP, UDP, HTTP, FTP, SMTP with resolutions including D1, SIF, and QQVGA.
+
+**System Requirements:**  
+Operating systems: Microsoft XP, Microsoft Vista, or JAVA2SE.  
+Power Supply: DC 12V, 1.0A.  
+Dimensions: Approx. (D) (H) inches, weight unclear.
+
+**Note:** Specifications are subject to change without notice. Microsoft is a registered trademark of Microsoft Corporation. JAVA is a trademark of Sun Microsystems.
+

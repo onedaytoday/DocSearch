@@ -1,0 +1,47 @@
+### TND4204VX Vandal Resistant Dome Camera Instruction Manual
+
+**WARNING:** Electric Shock Hazard  
+Do not open the unit to avoid the risk of electric shock. Removing the cover is prohibited as there are no user-serviceable parts inside. Please consult a qualified service technician for any maintenance.
+
+This device is compliant with Class B of the FCC regulations, providing reasonable protection against interference when operated as instructed. The user is responsible for resolving any interference issues that may arise.
+
+---
+
+### Important Safety Instructions
+
+1. **Follow all instructions carefully.**
+2. **Cleaning:** Use a soft cloth only for cleaning.
+3. **Avoid heat sources:** Keep away from devices that generate heat.
+4. **Installation and Servicing:** Ensure suitable lighting during installation. Service only under normal conditions.
+
+### Functions and Installation
+
+- **Mounting the Camera:** Use the provided screws and dedicated wrench for installation. Ensure the camera is securely attached.
+- **Connection:** Utilize the BNC input for video output, connecting to a display device. Power can be supplied via AC24V or DC12V.
+
+### Selector Switch Functions
+
+1. **SENS UP Switch:** Activates the sensitivity adjustment.
+2. **BLC (Back Light Compensation) Switch:** Enhances visibility in bright lighting conditions.
+3. **INT/LL Switch:** Selects between internal synchronization and line-lock synchronization.
+4. **PUSH/ATW Switch:**
+   - **PUSH:** Adjusts white balance for various lighting conditions.
+   - **ATW:** Automatically balances light intensity continuously.
+
+### Mounting Procedure
+
+- Confirm that all cables and connections are correctly secured.
+- Adjust the camera to the desired position and tighten all mounting screws.
+- Verify that the setup functions properly and all connections are intact.
+
+### Specifications
+
+- **Model:** TND4204VX
+- **Effective Pixels:** 768 (H) x 494 (V)
+- **S/N Ratio:** 480 TV lines (AC), 350 TV lines (DC)
+- **Power Supply:** AC 24V (15V-27V) or DC 12V (11V-35V)
+- **Power Consumption:** Approximately 2.5W (AC) or 2.8W (DC)
+- **IP Rating:** IP66 (weather resistant)
+
+For further assistance, please contact ELMO Company, Limited or visit our overseas subsidiaries.
+

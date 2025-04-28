@@ -1,0 +1,80 @@
+**1928L LCD Touchmonitor Revision Overview**
+
+**Model:** 1928L LCD Touchmonitor  
+**Part Number:** E116103  
+**Copyright:** TouchSystems Corporation. All rights reserved for reproduction, transmission, transcription, or translation of this document. The information contained herein is subject to change without notice. TouchSystems provides no warranties regarding merchantability or fitness for a particular purpose concerning this publication. Unauthorized modifications or revisions may occur without prior notice.
+
+**Warning:** To prevent electrical shock or fire hazards, do not open the casing. To mitigate shock risk, do not remove the back cover or attempt to service it; this should only be done by a qualified technician. Live components inside may pose shock risks. Ensure all connections follow the specified guidelines, particularly when connecting accessories. Proper accessories should comply with IEC and/or IEC harmonized standards. 
+
+**Specifications:**
+- **Environmental Considerations:** Suitable for continuous operation; operating temperature range is 0°C to 50°C.  
+- **Transportation Conditions:** Non-condensing conditions are required during transport.
+
+**Introduction:**  
+This document provides comprehensive information about the 1928L LCD Touchmonitor, including its installation, operation, troubleshooting, and specifications. The monitor features a TFT LCD display with a touchscreen interface for enhanced user interaction.
+
+**Installation:**  
+- **Connecting to a Computer:** Ensure the monitor and PC are powered off before making connections. Follow the guidelines for connecting video and USB cables securely. Tighten screws clockwise to secure connections. 
+
+**Touch Interface Setup:**
+1. **Video Connection:** Using standard VGA or DVI cables, connect the monitor to the PC.
+2. **Touchscreen Connection:** Utilize the USB or serial RS-232 connections for touchscreen functionality.
+3. **Power Connection:** Connect the monitor to a grounded AC power source.
+  
+**Software Installation:**  
+Include compatible software for operating systems (Windows, DOS, etc.) found on the provided CD-ROM or online. 
+
+**Touchmonitor Functions:**  
+The user interface allows for adjustments to OSD (On-Screen Display) settings including brightness, contrast, and image positioning, all easily navigable using dedicated buttons.
+
+**Troubleshooting:**  
+For issues arising from incorrect resolutions, ensure the output matches the monitor's native 1280x1024 resolution. If problems persist, consult the included troubleshooting section for further guidance.
+
+**Regulatory Information & Warranty:**  
+The product complies with UL60601-1 and CAN/CSA C22.2 safety standards as a Class 1 grounded device. Please refer to the warranty section for specific coverage details.
+
+In summary, the 1928L LCD Touchmonitor is a versatile device designed for reliable performance in various applications. For detailed technical specifications and user support, consult the documentation or reach out to TouchSystems directly.
+
+**Technical Rewrite of Touchmonitor Information**
+
+The A-20 Touchmonitor features a vertically oriented SVGA LCD display. It accepts XGA inputs, and its input compatibility is aligned with the specifications of the LCD. In cases where the input resolution exceeds the LCD's native capabilities, the display algorithms manage the images to reduce artifacts such as blurring of characters.
+
+For safety during operation, it is essential to power off the touchmonitor before cleaning. Use a 3-wire grounding cord connected to an appropriate outlet. This grounding is crucial for preventing electric shock. Unauthorized modifications or repairs can void the warranty. Do not place objects on or obstruct the top of the touchmonitor, as this can pose risks.
+
+In terms of maintenance, if the touchmonitor becomes damaged or malfunctions, consult the instructions provided. Users are discouraged from attempting repairs themselves, as the device contains no serviceable user components. For cleaning, use a soft cloth dampened with a gentle cleaner. Avoid using abrasive materials that could scratch the touchscreen.
+
+**Touchmonitor Technical Specifications:**
+
+- LCD Type: TFT Active
+- Pixel Pitch: 0.294mm (H) x 0.294mm (V)
+- Supported Resolutions: VGA, SVGA, SXGA, and others
+- Brightness: Typical specified levels for various settings and modes
+
+**Power Supply Specifications:**
+
+- Input: AC 100-240V, 50/60Hz
+- Output: DC 12V, 4A
+
+**Cord Selection for North America:**
+Only use UL Listed cords with the specified gauge and grounding type appropriate for the touchmonitor. For operations outside North America, ensure that IEC cords comply with local regulations.
+
+**Safety and Regulatory Information:**
+
+The touchmonitor complies with FCC Class B standards to limit interference. If you notice any disruptions in radio or television reception, try relocating the device or adjusting its position. This device has been tested according to various international standards and complies with directives for safety and electromagnetic compatibility.
+
+**Warranty Statement:**
+
+The remedies provided under warranty are the exclusive solutions for any claims. Aside from the express warranty detailed herein, no other guarantees are given regarding the product's suitability for specific purposes, quality, or merchantability. The seller’s liability is limited to the refund of the initial purchase price. The seller is not responsible for additional costs incurred by the buyer related to substitute goods or for any special or indirect damages.
+
+For further details or assistance, contact the manufacturer directly.
+
+**ET1928L-XXWA-1-G Touchmonitor Overview**
+
+This document outlines the specifications for the AccuTouch (resistive) touchscreen, including the unit's brightness, clock settings, and connection options via USB. It also covers various aspects such as protection standards, immunity criteria, chemical resistance, and expected performance metrics. 
+
+Core specifications include the H-Position, software compatibility, and features related to TM LCD performance. Additional details pertain to the light unit, native operation, OSD (On-Screen Display) controls, performance parameters, phase adjustments, accuracy, and power-saving modes. 
+
+Included are technical specifications for touch activation force and touch interface compatibility, as well as safety guidelines and troubleshooting information. The document also offers guidance on unpacking the touchmonitor, compatibility with VGA and XGA formats, and warranty details. 
+
+For further product information and updates, please visit www.elotouch.com or reach out to ELO-TOUCH Corporation at our office in the USA.
+

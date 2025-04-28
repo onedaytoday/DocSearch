@@ -1,0 +1,93 @@
+**Touchmonitor LCD Touchmonitors L/17 Revision /N**
+
+**Copyright Notice**
+All rights reserved. Reproduction, transmission, transcription, or translation of this document, including modifications, requires written consent from TouchSystems. The information contained herein is provided with no guarantee of accuracy or completeness and is subject to change without notice. TouchSystems disclaims any implied warranties, including merchantability and appropriateness for a specific purpose, regarding this publication. The terms "SecureTouch," "AccuTouch," and "MonitorMouse" are trademarks of TouchSystems, while other trademarks belong to their respective owners.
+
+---
+
+**Product Overview**
+
+Congratulations on your purchase of the Touchmonitor. This touchscreen device is equipped with an LCD and supports enhanced information flow. Please adhere to the guidelines provided to ensure optimal performance. The LCD Touchmonitor SXGA TFT offers the following features:
+
+- Direct RGB or RGB (1749L only)
+- Color Depth: 16.2M (1746L) / 16.7M (1749L)
+- Refresh Rate: C C
+
+---
+
+**Unpacking the Touchmonitor**
+
+This section describes the contents of the LCD Touchmonitor package and installation software. Ensure the following items are included:
+
+- Touchmonitor unit
+- Driver CD
+
+---
+
+**Installation and Setup**
+
+**Mounting Options**
+- Front-Mount
+- Rear-Mount
+- VESA Mount for models 1746L and 1749L (Sample: 1749L shown)
+
+**Attaching the Monitor**
+Utilize a screwdriver to attach the monitor to the mounting bracket using VESA configurations located on the back of the unit. Ensure a secure installation with integrated M4 threaded mounting options.
+
+**Touch Interface Setup**
+*CAUTION:* Before connecting the touchmonitor to your PC, ensure both devices are powered off. The connection types include touchscreen (RS-232) and USB (USB connection for XP only). 
+
+1. **Video Connection:**
+   - Connect the DVI-I cable to the PC and the touchscreen monitor. Fasten securely by turning the screws clockwise.
+
+2. **Touchscreen Connection:**
+   - Connect the RS-232 or USB cable from the PC to the touchscreen monitor. Ensure secure connections without powering on both devices simultaneously.
+
+3. **OSD Remote Connection:**
+   - Connect the Remote OSD DIN to the corresponding port on the touchmonitor.
+
+4. **Power Connection:**
+   - Attach the power cable, ensuring the power supply brick is properly connected.
+
+---
+
+**VESA Mount Compatibility**
+The touchmonitor conforms to the VESA Physical Mounting Interface (FPMPMI), which permits various mounting options. Refer to the mounting information provided for compatible mounts.
+
+---
+
+**Driver Installation**
+Install the software located on the accompanying CD-ROM to enable touchmonitor functionality with various operating systems, including XP and NT. Follow specific instructions based on the operating system in use.
+
+---
+
+**On-Screen Display (OSD) Functionality**
+The OSD allows users to adjust the touchmonitor settings for optimized performance. For further options, refer to section A. Use the remote OSD buttons for navigation and adjustments, resetting to factory specifications when necessary.
+
+---
+
+**Remote OSD Controls**
+- AUTO/SEL Button: Displays/menu navigation.
+- Brightness Control: Adjusts the OSD brightness.
+- Selection Buttons: Navigate through OSD items and make selections.
+
+---
+
+For detailed operational features and navigational instructions, please refer to the OSD section. This device is equipped with various performance settings including brightness, contrast, and color balance management. 
+
+For any additional queries, consult the manufacturer's documentation or website.
+
+It seems that the I/O connections are not properly established as described in Chapter 1. If the LCD display is crooked, you may need to verify the connections to the VGA (or other graphics) interface. Ensure that the touch monitor is securely attached and configured with the correct input resolution settings, whether VGA, SVGA, XGA, or SXGA, to match the native resolution of the LCD.
+
+It's advised to handle the touch monitor with care to avoid electric shock. Turn off the device before cleaning it and use a cloth that won’t scratch the screen, avoiding ammonia-based cleaners. Ensure the monitor is grounded using a 3-wire cord to prevent electrical hazards. 
+
+Regarding compatibility, the touch monitor supports various input formats including H. V. VGA and MAC standards as detailed in Chapter 3. Specifications such as touchscreen colors, brightness, and mechanical features are further explored in the technical specifications section. 
+
+To maintain optimal performance, avoid exposing the touchscreen to harmful chemicals and ensure the unit is properly mounted with concealed M4 screws. 
+
+The product is compliant with applicable FCC regulations and has been tested for electromagnetic compatibility as outlined in Chapter 5. Any issues observed should be addressed according to the guidelines provided to prevent interference and protect user safety.
+
+Finally, the warranty is limited to the purchase price refund, and no additional warranties are implied. Users should report defects promptly within thirty days, allowing the opportunity to inspect the product. Detailed care and maintenance guidelines are also provided for proper usage and longevity of the product, including recommended cleaning practices and input connectivity options.
+
+Operation involves the LCD On-Screen Display (OSD) functionality, including phase adjustments, format settings, product rear information, remote OSD saturation, and USB sharpness. This content covers common technical specifications such as SVGA, SXGA, and UXGA resolutions, as well as touch activation force and interference details related to touchmonitor specifications. It includes troubleshooting guidelines and warranty information, along with VESA mount compatibility for touchmonitors. For additional product information, specifications, news, press releases, and software, please visit www.elotouch.com or contact the USA headquarters at TouchSystems, Inc., CA, ELO-TOUCH KG, D-85521 B-3010, Touch K.K. 2F, TouchSystems, Inc. Printed in the USA.
+

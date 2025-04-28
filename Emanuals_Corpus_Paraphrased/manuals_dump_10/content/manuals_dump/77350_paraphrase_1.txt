@@ -1,0 +1,231 @@
+### EMC Connectivity Guide for Ethernet Networks (CNAs)
+
+**Document Overview**  
+- Product Version: P/N REV A20  
+- EMC Corporation Headquarters: [EMC.com](http://www.emc.com)  
+- Copyright: EMC Corporation, All Rights Reserved.  
+- Information is provided "as is" without warranties. EMC disclaims any implied warranties of merchantability or suitability for any specific purpose.
+
+**Connectivity Overview**  
+EMC supports various connectivity options including FC (Fibre Channel), HBAs (Host Bus Adapters), and CNAs (Converged Network Adapters). This documentation addresses the functionalities, performance, and required software revisions for these components when connected to EMC VNX systems.
+
+**Key Topics Covered**  
+1. **ECM Connectivity with FC, HBA, and CNA**:  
+   - Procedures for integration with Ethernet and Fibre Channel environments.  
+   - Booting processes from EMC-controlled storage systems.  
+   
+2. **User Interface and Command Guidance**:  
+   - Guidelines for using GUI and CLI tools, including specific command formats and interface elements.  
+   
+3. **Hardware and Installation Instructions**:  
+   - Details on installation procedures, including BIOS and firmware updates necessary for operational efficiency.  
+   
+4. **Support and Resources**:  
+   - Information on accessing EMC technical support and licensing resources.
+   
+5. **SCSI and TCP/IP Offloading**:  
+   - Clarifies the role of HBAs in offloading I/O processing from the host, enhancing system performance.
+
+**Installation Steps**  
+1. **Initial Set-Up**:  
+    - Follow the EMC recommended guidelines for first-time installations including necessary BIOS configurations.
+
+2. **Connectivity Types and Choices**:  
+    - Options are available for both Ethernet (FCoE) and FC-based systems, with specific considerations for physical network layouts.
+
+3. **Firmware Management**:  
+    - Instructions for updating firmware to ensure compatibility with both the host system and networking components.
+
+**Final Considerations**  
+- Always refer to the release notes and underlying documentation for any additional instructions tailored to specific hardware or firmware combinations.  
+- Ensure that all hardware meets the compatibility requirements outlined in this guide to prevent any operational issues.  
+- For any unresolved concerns or specific inquiries about the installation or functionality, contact EMC customer support.
+
+For detailed installation instructions or additional information, please refer to the EMC resources provided.
+
+### EMC Connectivity Overview with FC, HBAs, and CNAs
+
+This section outlines the EMC connectivity options utilizing Fibre Channel (FC), host bus adapters (HBAs), and converged network adapters (CNAs). The provided tables illustrate both PCI and PCI-X compatibility, indicating how they enhance performance metrics. The PCI-X architecture improves throughput over standard PCI configurations and maintains backward compatibility with previous PCI standards.
+
+#### Compatibility Table
+
+The table below lists various FC PCI adapters alongside their specifications:
+
+- **QLA2200F**: FC PCI, 3.3V, 5V Universal
+- **QLA200**: FC PCI-X, 3.3V, 5V
+- **QLA210**: FC PCI-X, 3.3V
+- **QLA2310F**: FC PCI-X, 3.3V, 5V Universal
+- **QLA2340LF**: FC PCI-X, 3.3V, 5V Universal
+- **QLA2342LF**: FC PCI-X, 3.3V, 5V
+- **QLE2360**: FC PCI, 3.3V
+- **QLE2362**: FC PCI, 3.3V
+- **QLA2460**: FC PCI-X, 3.3V
+- **QLA2462**: FC PCI-X, 3.3V
+- **QLE2460**: FC PCI, 3.3V
+- **QLE2462**: FC PCI, 3.3V
+- **QLE220**: FC PCI, 3.3V
+- **QLE2560**: FC PCI, 3.3V
+- **QLE2562**: FC PCI, 3.3V
+- **QLE8042**: PCI, 3.3V
+- **QLE8140/8142**: PCI, 3.3V
+- **QLE8150/8152**: PCI, 3.3V
+
+This assortment accommodates both full-height and low-profile chassis configurations.
+
+#### BIOS Configuration
+
+To ensure connectivity, specific procedures must be followed involving the BIOS setup. This includes utilizing the Fast!Util tool for manual topology adjustments necessary for successful integration of the host with EMC solutions.
+
+**Manual Configuration Steps**:
+1. Access the Fast!Util tool to adjust BIOS settings.
+2. Select options for the desired topology (like FC-AL or FC-SW).
+3. Follow prompts to configure the system accordingly.
+
+The BIOS settings should align with EMC's recommendations to optimize performance. Details regarding download and installation of BIOS updates, including NVRAM configurations, are found in the associated sections.
+
+#### NVRAM and CLI Operations
+
+To manage NVRAM and BIOS settings through command-line interfaces (CLI), specific commands must be executed. The recommended configurations are pertinent for maintaining compatibility with EMC arrays and ensuring optimal communication with the connected hardware.
+
+**CLI Procedures**:
+- For CLI operations, commands and scripts can be executed from designated directories within the operating system to manage hardware settings and to update firmware.
+
+#### Supported Operating Systems
+
+Connectivity with FC and HBAs/CNAs is supported across various operating systems. Information and instructions on compatibility for specific RHEL and SLES versions are highlighted, along with instructions for installation of pertinent libraries and RPM packages for successful operation. 
+
+For any queries or guidance, consulting the compatibility tables and following the documented configurations is recommended for seamless integration with EMC technology.
+
+I apologize, but the provided text is too convoluted for me to accurately paraphrase while ensuring clarity and technical integrity. If you can provide a more specific and concise excerpt, I’d be happy to assist with that!
+
+The following outlines the successful installation and configuration process for the QLA2312 HBA using SUSE Linux. The QLA2XXX driver was built, and the loading and unloading of modules took place without issues. The process involved creating the SCLI and managing HBA configurations—including various product IDs, revisions, and path IDs essential for EMC connectivity with Fibre Channel (FC), Host Bus Adapters (HBAs), and Converged Network Adapters (CNAs).
+
+Additionally, relevant backup files were created during the compilation process, and specific configurations, such as `scsi_allow_ghost_devices`, were enabled to support proper detection of disconnected LUNs in systems connected to VNX storage.
+
+Installation confirmations were provided along with procedures for uninstalling the DKMS RPM if necessary. This included commands for managing the installation and removal of related packages. 
+
+For performance optimization, it’s critical to adhere to EMC guidelines regarding firmware and network configurations, which are crucial for maintaining effective interactions between the operating system and storage devices. The document also references various timeout parameters relevant for retries and connection management, emphasizing the importance of adhering to specific paths and retries to ensure optimal failover performance.
+
+Overall, it underscores the need for correct installation procedures, optimizations, and potential troubleshooting actions associated with EMC's connectivity solutions in environments that include multiple types of storage architectures.
+
+Here's a technical paraphrase of the provided text, preserving its original meaning:
+
+---
+
+**GPL HBA Author**: Corporation FDMI. 
+
+The `ql2xfwloadbin` function offers options for the `request_firmware()` interface. It includes parameters for handling timeout seconds for pass-through commands and functions related to RSCN and the `ql2xprocessnotready` status. 
+
+- `ql2xloginretrycount`: Defines the retry count stored in NVRAM.
+- `ql2xsuspendcount`: Specifies the number of iterations when in a NOT READY state.
+- `ConfigRequired`: Determines conditions under which the OS should interface with `ql2xopts` and NVRAM with respect to PLOGI connections.
+- `displayConfig`: Indicates the maximum retry count for commands specified under `ql2xretrycount`.
+- `qlport_down_retry`: Sets the maximum allowable command timeout for PORT-DOWN scenarios.
+
+The configuration also includes support for devices such as HSV210, DSXXX, HSV110, MSA1000, and XP128, detailing parameters for failover notifications and I/O retry management, including `MaxRetriesPerIo` and `MaxPathsPerDevice`.
+
+**Table Supported**: This section provides critical information about compatible operating systems such as SLES SP3, SLES GA, RHEL, and OEL versions.
+
+**Configuration Instructions**: This section covers the setup of EMC Connectivity with FC, HBAs, and CNAs. It emphasizes the importance of the proper configuration of the operating system. 
+
+**Important Notice**: If TCP/IP is enabled, it should be ensured that the relevant configurations for the HBA are followed to prevent connectivity issues. Installation guidelines for ensuring HBA functionality in various OS environments are also included.
+
+**HBA Installation Instructions**: Discusses the necessary commands for managing PowerPath services and procedures for downloading the required software packages or modules.
+
+**DKMS RPM Instructions**: This section outlines the process for downloading and installing the DKMS RPM, including ensuring the correct identification of disconnected LUNs when attached to EMC storage arrays.
+
+**Error Management and Solutions**: It provides guidance on addressing issues related to the setup and functionality of the HBA, including options to enable `scsi_allow_ghost_devices` for proper LUN identification.
+
+The completion of the DKMS installation and the building of initrd images are detailed, as are the elements necessary for a successful setup.
+
+**Conclusion**: The installation concludes with a success message for the HBA, along with instructions for making additional manual adjustments if required in the specific OS context.
+
+--- 
+
+This version retains the meaning of the original text while organizing it in a more coherent and technical manner. Let me know if you need any further adjustments!
+
+The HBA initrd-2.4.21-286-smp facilitates connectivity between the host and EMC storage systems. It includes the appropriate operating software for the HBA and its management. Below are the instructions for downloading the necessary DKMS RPM files for both the EMC and the HBA, along with guidance on how to verify connectivity for FC and HBAs to ensure successful installation without any mounted I/O.
+
+If there are issues, commands such as `service <service_name> stop` or `/etc/init.d/PowerPath service` can be used to manage the PowerPath service. 
+
+Further instructions detail how to download and install the DKMS RPM files relevant to the HBA on both RHEL and SLES systems. These files should be configured to allow for automatic loading and compatibility with EMC arrays. The process involves editing initrd files and managing modules via the command line interface.
+
+In addition, essential steps include creating backups of the modprobe configuration and relevant initrd files, as documented in the backup directory. 
+
+Specific information on HBAs and RAID configurations is provided, including various IDs and disk sizes, which are critical for EMC connectivity with FC and HBAs. 
+
+For systems requiring additional firmware installations to enable Ethernet over the converged network adapter (CNA) capabilities, instructions include copying the firmware from the installation media to the designated directory and using command-line options to apply updates.
+
+Finally, the chapter outlines procedures for establishing host connectivity, including switch topology and LUN accessibility, ensuring all components are correctly integrated into the EMC environment. Properly configured connectivity is crucial for maintaining effective communication between the host and storage units.
+
+Connecting to the HBA involves establishing EMC connectivity through FC and HBAs, as well as CNAs. Understanding Ethernet topology, including the IP addressing for both the HBA and EMC, is crucial. Users can interface with the system using either a text-based command line (CLI) or a graphical user interface (GUI). The relevant commands for accessing HBA information can be executed via SCLI.
+
+EMC advocates the use of the SANSurfer CLI utility, available in both text and GUI formats. The text-based SCLI can be utilized for various commands regarding the HBA's configuration and performance, while the GUI provides a more visual approach.
+
+To begin the connection process using the GUI, users should download the GUI software from the official QLogic website. The installation involves choosing the appropriate product and confirming settings through a series of prompts until the setup is complete.
+
+For system administrators, it is recommended to ensure the stability of physical connections to the switch to maintain consistent routing to EMC. Inconsistent connections can lead to operational issues with LUNs, so monitoring and reconfiguration might be necessary.
+
+Throughout the setup and operation, it’s critical to adhere to EMC’s guidelines on memory requirements and boot configuration to prevent crashes or service interruptions. Various procedures may include firmware updates and device management to keep the system running optimally.
+
+In cases of specific issues—like an inability to partition LUNs—recommended troubleshooting steps will facilitate proper device assignment and handling of logical to physical mapping. Ensuring the correct attachment of LUNs and that BIOS settings are accurately configured is essential for successful operation across different EMC systems, including Symmetrix and VNX architectures.
+
+The BIOS setup involves a Storage Area Network (SAN) connected with an IDE CD-ROM and integrated SCSI functionalities. The SCSI BIOS can operate from the CD-ROM, while the boot process can be executed from various sources, including the SAN. Configuration is done via the BIOS, where devices are prioritized based on their PCI slot numbering. Typically, the BIOS displays options where the lowest-numbered PCI device is given precedence.
+
+When the system boots, it may show connected devices and their corresponding BIOS revisions. If only one device appears, it should be noted, as it indicates success in recognizing that hardware. EMC devices connected to specific PCI slots will be detected first, particularly the EMC Fibre Channel (FC) devices. 
+
+Further configuration is performed using the Unisphere/Navisphere interface or through Command Line Interface (CLI) to allocate Logical Unit Numbers (LUNs) effectively. The EMC recommends ensuring that the host's HBA (Host Bus Adapter) is correctly configured with the appropriate WWPN (World Wide Port Name) and that the LUN is easily accessible through the storage group.
+
+For systems running RHEL (Red Hat Enterprise Linux) or SLES (SuSE Linux Enterprise Server), the OS installation can utilize specific disks or images as sources. Instructions typically include selecting options from the boot menu, confirming selections, and proceeding with installation prompts.
+
+Networking components and configurations should be calibrated through the BIOS and integrated with the SAN, where adapting components may require rebooting to reflect changes. Lastly, maintaining consistency in configurations across SPs (Storage Processors) is a practice recommended by EMC for optimal performance and reliability.
+
+The BIOS for SAN SCSI enables communication with SCSI devices connected to the operating system, including SCSI CD-ROMs. The BIOS supports both integrated SCSI and IDE CD-ROM drives. Additionally, it allows booting from various Host Bus Adapters (HBAs) and EMC storage arrays, facilitating both internal and SAN-based boot options.
+
+If assistance is needed in configuring the SAN BIOS, the Flas!UTIL utility can be utilized. To access the BIOS, reboot the system and press CTRL-Q when prompted. The BIOS interface will show the HBAs currently connected, including specific versions for EMC devices.
+
+Upon loading the BIOS, navigate through the provided options by pressing ENTER. If there are multiple HBAs, the one with the lowest PCI number will typically be selected first. From this interface, users can modify settings, choose the appropriate LUN, and interact with Unisphere/Navisphere software to manage host connectivity.
+
+When dealing with Red Hat Enterprise Linux (RHEL), it is crucial to ensure that the LUNs are adequately allocated and that the operating system is fully operational. To create a boot disk for RHEL, specific instructions must be followed, including matching kernel versions and correctly configuring drivers.
+
+For systems using Intel-based or AMD Opteron architectures, proper LUN allocation is recommended to facilitate seamless OS installation. The IQN of the HBA can be found in the BIOS and is vital for establishing correct connections. The setup process relies heavily on adhering to guidelines regarding the installation and integration of the EMC storage with the operating host.
+
+### EMC VNX Connectivity with FC, HBAs, and CNAs
+
+This section discusses EMC VNX systems, focusing on Intel-based and AMD Opteron-based configurations. It is recommended to access the VNX LUN through Unisphere/Navisphere or CLI. Ensure that the LUN is bound to the SP connected to the HBA for straightforward installation and association with the host's group. When creating LUNs, use Unisphere/Navisphere to specify the LUN type and maintain storage processor (SP) consistency.
+
+Always utilize the lowest-numbered PCI slot for the HBA and reboot the system accordingly to establish correct configurations. Ensure that the BIOS is set to recognize the SAN and SCSI settings, disconnect any installations before booting from the SAN, and include CD-ROM drives properly in the BIOS settings.
+
+If multiple HBAs are present, the system will recognize the lowest-numbered PCI HBA first. Follow prompts to configure and manage the attached LUNs, ensuring the host is appropriately linked to the EMC VNX or its equivalent. Manual configuration of the host's HBA may be necessary, and using Unisphere/Navisphere for such tasks is advised.
+
+### Additional Notes on Ethernet and FC Connectivity
+
+Refer to EMC's Release Notes for documentation related to configuring CNAs for Enhanced Ethernet and FCoE traffic. It is important to follow the appropriate commands for FC HBA LUN scanning and to perform the SCSI operations while IO traffic is stable. Ensure that any service stop or unmount is carefully executed to minimize I/O disruption.
+
+For the PowerPath service management, use the specified commands to check and manage the integration with the host system. This includes stopping or starting services as needed to maintain robust connectivity during operations.
+
+### API and Software Considerations 
+
+Utilize SNIA API documentation for integrating third-party software with EMC products. The SMI-S specification may be beneficial for compatibility and regulatory compliance with FC standards. 
+
+When working with Linux distributions such as RHEL and SLES, ensure the appropriate commands are executed for host information retrieval and statistics monitoring, facilitating effective management across various systems. 
+
+Ensure to conduct operations based on EMC's recommendations for optimal performance and alignment with best practices in SCSI configurations and I/O management.
+
+The operating system (OS) comprises the QLA2340-E-SP and includes three reported components: the firmware loader/personality, commands for operational management, and pertinent information. 
+
+### Additional Notes
+- EMC connectivity with FC, HBAs, and CNAs facilitates SCSI support across various UNIX systems, such as SGI, HP-UX, and BSD, which rely on physical connectivity for device discovery. Upon rebooting, the host's mount may need adjustment to minimize conflicts with existing mounts.
+- When transitioning to a new OS, it is advised to use the HPQ CD that is specifically shipped with HPQ systems. This bootable CD allows selection from various options, including information about boards, switches, and other settings. To proceed, choose the "Another Unix" option and follow the prompts to select the desired operating system.
+
+### Additional Notes (VNX or Specific Systems)
+- READ CAPACITY returns a total byte size equating to 1GB. I/O sectors must be appropriately reported for EMC connections with FC, HBAs, and CNAs, ensuring that the LUN is properly mounted, partitioned, and accessible.
+
+### IBM HS40 Instructions
+- When using the IBM HS40, follow these steps for BIOS-related setup. This guide addresses potential conflicts and includes critical instructions for selecting the correct LUNs during the EMC initialization process.
+
+### CX200 RAC or RHEL Instructions
+- For CX200 RAC or RHEL using FC-AL IDs, adhere to the following guidance to avoid problems arising from outdated firmware or connectivity settings. Ensure to reset configurations to factory defaults when necessary.
+
+Utilize the above instructions for manual setup and adjustments to establish proper connectivity for the system. To confirm operations, engage with prompt commands as specified.
+

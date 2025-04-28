@@ -1,0 +1,101 @@
+# TRW-1 Installation and Operating Instructions
+
+## Introduction
+The TRW-1 system can be controlled either manually or via a thermostat. It operates through radio frequency (RF) communication, ensuring a secure connection between the thermostat and receiver which are pre-configured at the factory.
+
+### Wall Mount Thermostat
+The wall-mounted thermostat operates on a 3V battery (included) that powers the LCD display and RF functionality. A CR2032 lithium battery is recommended for optimal performance. If the LCD display is inactive, check the battery.
+
+### Battery Installation in Wireless Thermostat
+To install batteries, carefully remove the cover as indicated, ensuring the battery is correctly oriented. 
+
+### Battery Removal from Wireless Thermostat
+Use a screwdriver to remove the cover and take out the 3V battery.
+
+### Important Safety Information
+If you have difficulty understanding these instructions, do not attempt installation. Refer to the Communication Safety and Thermo Safety sections for detailed information.
+
+### Wireless Thermostat Operation
+- **Room Temperature Display**: Shows the current temperature.
+- **Flame Icon**: Indicates that the appliance is operational.
+- **SET**: Indicates active settings on the thermostat.
+- **Dashes**: Indicate that the thermostat is in setup mode.
+
+To operate manually, adjust the settings using the buttons until the desired temperature appears on the LCD.
+
+### Thermostat Operational Settings
+To set the thermostat, press the SET button, and use the UP/DOWN buttons to reach the desired setting. The flashing display guides you through this process.
+
+### Temperature Scale Configuration
+The factory default is Celsius. If adjustments are needed, follow the on-screen instructions until the desired display is achieved.
+
+### Thermo Updating Feature
+The Thermo Updating feature automatically reads and communicates room temperature to the receiver.
+
+### Communication Safety
+The Communication Safety feature ensures a secure connection, monitoring the operational distance between the transmitter and receiver. If the system becomes unresponsive, a countdown timer will be activated.
+
+### Receiver Operation
+The receiver operates on 1.5V alkaline batteries. It receives commands and supports multiple operational modes: ON, REMOTE, or OFF.
+
+### Safety and Installation Precautions
+Follow installation instructions precisely to avoid voiding the warranty or creating fire hazards. The system should be installed in a suitable location, away from extreme heat sources.
+
+### Wiring Instructions
+All wiring must comply with specifications stated in the manual. Incorrect wiring can lead to operational failure.
+
+### Hearth Mount Considerations
+When mounting on the hearth, ensure it is positioned to prevent heat damage. 
+
+### Conclusion
+To ensure optimal performance, use fresh batteries upon installation and follow all instructions carefully. The unit's stability relies heavily on proper setup and regular maintenance.
+
+### Wiring Instructions for Electronic Spark Ignitions
+
+Connect the 24VAC power supply to the electronic module at the TR terminal. Next, connect the 24VAC to the terminals of the receiver and the thermostat (TH) to the electronic module. 
+
+### System Check for Millivolt Valves
+
+Follow the guidelines for lighting to ensure successful operation. Verify that the system is turned ON; the burners should ignite as intended. Turn OFF the system; the flame should extinguish. 
+
+After the flames are extinguished, press the ON button to activate the system, then confirm that the status indicator lights up. To set the thermostat, ensure the display shows a room temperature below the set value (at least C). The system should turn OFF after several seconds once the set temperature is reached, again automatically regulating heating based on room requirements.
+
+### General Information on Matching Security Codes
+
+Each remote is equipped with unique security codes that must be learned by the system when replaced or originally purchased. If the remote does not learn correctly, toggle it ON/OFF to establish communication with the receiver. 
+
+### Thermo Functions
+
+The thermo function utilizes various heat sources such as fireplaces and sunlight. Ensure that sunlight does not mislead the system by providing false temperature readings above actual room conditions. 
+
+### Battery Life
+
+The ECS TRW-1 batteries should have a life of at least six months but should be checked annually. The operational efficiency depends on adequate battery performance and proper functionality.
+
+### Troubleshooting
+
+If issues arise with the fireplace or ECS operation: 
+1. Verify that all components are functioning correctly. 
+2. Check the direction of the switch and ensure proper connections. 
+3. Assess both RF and LCD operations; if communication fails, replace the batteries. 
+
+### Receiver Adjustment Instructions
+
+To adjust the receiver, use a screwdriver to turn the adjustment screw counter-clockwise about a quarter turn. If adjustments are necessary afterward, turn the screw clockwise. 
+
+### Specifications
+
+- **Batteries:** CR2032 lithium 6V AA.
+- **FCC ID:** K9L TS-R-2A; K9L 3001RX.
+- **IC ID:** 2439A-TSR2A; 2439-102-760A.
+
+### Warranty Information
+
+This remote control system is warranted for a period of several months from the date of purchase against manufacturing defects. Warranty coverage includes free repairs or replacements for issues not caused by misuse or unauthorized service. 
+
+### Installation Instructions
+
+After installation of the Remote Wall Thermostat receiver, ensure to leave instructions with the owner for future reference. Pay attention to installation specifics, ensuring proper alignment and configuration to optimize functionality. 
+
+This document should be kept handy for any future technical inquiries or adjustments.
+

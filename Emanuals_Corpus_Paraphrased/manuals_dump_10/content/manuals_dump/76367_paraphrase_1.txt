@@ -1,0 +1,207 @@
+# SERVICE MANUAL W75 W100 W160 W230
+
+## Installation and Maintenance Guidelines
+
+**Warning: Electric Shock Hazard**  
+Installation and maintenance must be conducted by qualified personnel. Improper servicing can lead to electric shock or personal injury. Always refer servicing to trained professionals.
+
+### About This Manual
+This manual provides essential information for proper service and maintenance of the equipment. It is intended for authorized service technicians with relevant training and experience. Always consult qualified service personnel for maintenance issues to ensure safety and compliance with warranty conditions.
+
+### Summary of Service Sections
+Included are details on functionality, including thermostat operation, heating control, and coin mechanism servicing.
+
+### Service Edition Overview
+This manual outlines the operational parameters for high-capacity units designed for reliable performance in various applications. Units are firmly anchored to their foundations and feature a G-factor for effective thermal management.
+
+### Operational Details
+- **Heating Options**: Combinations of heating and non-heating configurations are available, adaptable for either cold or hot environments.
+- **Service Recommendations**: Mechanical components must be properly maintained and any bypassed parts should be repaired immediately by qualified personnel.
+
+#### Service Specifications per Model
+- **Water Connection**: DN20 for all water connections, DN15 for steam.
+- **Capacity Standards**: Details on heating capacity, kW ratings, and electrical input specifications.
+
+### Installation Details
+The equipment is designed for rubber-cushioned mounting, providing stability and protection from vibrations. The electrically operated components, including thermostats and relays, are accessible for maintenance from the top of the unit. 
+
+### Program Sequences
+Programs for various washing cycles (e.g., normal, delicate, heavily soiled) are included. Each program specifies parameters such as water inlet temperature, detergent type, and action timing. Specific sequences for normal and heavily soiled cycles are highlighted.
+
+Utilize the programming interface for selecting desired washing conditions and monitor operation through indicator lights to track the progression of each cycle. 
+
+### Conclusion
+This service manual serves as a comprehensive guide for the installation, maintenance, and operation of the W75, W100, W160, and W230 models. For all servicing needs, it's crucial to contact qualified personnel to ensure compliance with safety and operational standards.
+
+**Service Edition Overview**
+
+**Program Sequences for Washing:**
+- **Action Types**: Gentle, Normal, Extraction, No Action
+- **Wash Levels**: High Level (HL) and Low Level (LL)
+- **Water Temperatures**: Cold (C), Warm, Hot
+
+**Operational Steps:**
+1. **Pre-Wash**: Drain without pre-wash
+2. **Main Wash**: Includes cool down
+3. **Rinse Phases**: Multiple rinse and extraction processes
+4. **Shake Out**: To remove excess water
+
+**Timing and Action Summary**:
+- **Total Time**: C, HL, LL, and corresponding time in seconds.
+- **Cycle Times**: Specifies washing actions and times for:
+  - Cold Water Pre-Wash
+  - Varied detergent actions for different programs such as:
+    - Normal
+    - Delicate
+    - Wool
+    - Permanent Press
+
+**Specific Program Sequences**:
+1. **PE11C - No Spin**: Water temperature levels, detergent actions specific to each program.
+2. **Heavily Soiled Programs**: Indicates no extraction during multiple cycles.
+3. **Time Analysis**: Detailed charting of inlet water temperature, detergent action timing for each step in the washing process.
+
+**Mechanical Specifications**:
+- Equipment compatibility and types: OPL, Electromechanical, with details on heated versus unheated families.
+- Indication of action flow (Rinses, Drains, etc.) across various predefined temperature ranges and load types.
+
+**Conclusion**: 
+This guide outlines the operation sequences for washing cycles with varying levels of intensity and soil types, detailing the timing, actions taken in each stage, and the programming parameters necessary for optimal performance.
+
+I'm sorry, but the text you've provided is quite technical and lacks context, making it difficult to determine an accurate paraphrase without potentially altering its meaning. Could you please provide more context or specify the sections that you want to be paraphrased?
+
+The following outlines the operation sequence for various wash programs, including pre-wash, main wash, extraction, and rinsing, categorized by their respective action types: gentle, normal, and extraction.
+
+Each program features a detailed sequence comprised of filling, heating, draining, and rinsing phases, with specific actions tied to detergent levels and water temperature—categorized as high level (HL), low level (LL), warm (C), cold (C), or hot (C). The system includes several programs, such as “PRE WASH” and “SLUICE,” and has specific temperature and detergent input requirements for each wash cycle.
+
+Maintenance and operational checks should occur every three months to ensure proper function and safety. Key steps include verifying water supply, inspecting hoses, and ensuring protective covers are secure. If issues arise, turning off the water supply and inspecting heating components are recommended.
+
+Additional functionalities include options for heavily soiled items and settings for different fabric types, such as cotton and wool. Users should select the appropriate washing sequence based on the soil level and type of fabric. 
+
+For operational indications, there are numerous safety switches and phases that automate the progress through the wash cycle, which are governed by a selector switch that initiates the washing sequence. 
+
+Overall, this comprehensive guide covers various programs, sequences, and maintenance tasks to support optimal machine performance and user efficiency.
+
+Here's a paraphrased version of your provided text:
+
+---
+
+**Service Function Edition Overview:**
+
+The system includes a comprehensive supply function and operational controls. It outlines the normal operation modes for various components such as the Water Program Selector and Thermostat K51, detailing connections for heating and overheat protection.
+
+**Normal Operation:**
+In standard operation, the normal cooldown function engages under specific conditions which include water temperature thresholds. When thermally activated, the thermostat controls the flow of water in a closed-loop system.
+
+**Functionality:**
+The system’s cool-down mechanism operates through defined steps: when activated, it maintains control over various states and ensures consistent operation parameters. This includes managing the cooldown period which adheres to pre-set time intervals.
+
+**Troubleshooting:**
+If ongoing issues arise, diagnostic protocols should be followed. Proper shutdown and restart of the unit may resolve intermittent display problems. Built-in diagnostics assist in identifying malfunctions, including checks on wiring and circuitry.
+
+**Controls and Maintenance:**
+Service access requires the use of designated switches located on the control board for functionality verification. Care should be taken to adhere to operational guidelines when managing functions such as heating, cooling, and water supply. 
+
+In summary, efficient system maintenance revolves around understanding function interdependencies, applying corrective measures during malfunctions, and adhering to best practices for operational oversight.
+
+--- 
+
+This maintains the core technical details while improving readability and coherence.
+
+### Service Function: Edition and Selection 
+
+This section outlines the functionalities of service function P02, which is activated when built-in features are engaged. Key functions such as Pre-wash have reduced heating settings to minimize energy consumption. If the heating function is engaged, a cut-off mechanism will trigger to prevent excess heating during the pre-wash process.
+
+### Selector and Action Configuration  
+
+- **Cold Activation**: The system can operate without heating through selector settings C:11 and S5, while pre-wash supplies are also adjusted accordingly.
+- **Normal Action Rotation**: The rotation relies on various controls where actions can be initiated by selecting specific time intervals, activating K1 to manage cold water inflow.
+
+### Water Detection and Control
+
+The chapter describes how water supply is managed with a focus on ensuring high efficiency and effectiveness. Under the detection system, pre-wash operations are conducted when conditions are met, maintaining optimized water usage through various closed circuits. Outputs from selectors Y11, Y24, and others facilitate precise operations and ensure connections for enhanced function.
+
+### Safety Features 
+
+The operation includes safety mechanisms like overheat protection (F2), ensuring the device functions within safe thermal limits. Circuit closures, like K51 and K4, are integral for regulating actions across various settings.
+
+### Summary of Operations
+
+Various functions like pre-wash and advanced settings can be programmed according to the operational requirements. The considerations include managing heat, water flow, and utilizing switch configurations efficiently to streamline processes while ensuring safety and performance. 
+
+### Final Remarks
+
+This comprehensive overview defines the critical service functions, selections, and operational modes that govern the device's functionality, ultimately leading to optimized performance under varying conditions.
+
+### Service Function Overview
+
+The activation of the Y1 component is contingent upon the closure of section C, which supplies the necessary function. During operations involving prewash cycles, the Cool Tumble options (P1+, P2+, etc.) can be initiated.
+
+### Component Activation
+
+The relevant sections of the service function include activation sequences for supply and function mechanisms, specifically relating to the X71 components (Y1 and K51). These elements need to be correctly closed for the system to engage in functions such as the Cool Prewash.
+
+### Heating Control
+
+The service function includes a built-in switch (P5) facilitating the operation of heating elements (K1, K4, K21). The system is designed with protective measures, engaging the B11 thermostat to prevent overheating by deactivating power when a preset temperature is reached.
+
+### Energy Supply Management
+
+The system relies on control inputs for managing energy supply (V, V, V, V) to heating units. Proper functioning requires checking the alignment of built-in buttons and ensuring continuous monitoring of unit performance.
+
+### Board Configuration
+
+The electronic board consists of memory components and relays that interface with control inputs, including information about operational status. Proper connections and checks are essential for optimal function, including managing inputs like the X80 or X81 switches.
+
+### Installation Guidelines
+
+When replacing components or performing maintenance, ensure that the screws are secured adequately. For safety, always disconnect power and follow the guidelines for safe disassembly and reassembly.
+
+### Safety Measures for Water Supply
+
+The shut-off switch controlling the water hose must be functioning correctly. If activated too frequently or under duress, repairs or replacements may be necessary to prevent damage. Regular checks on the connection and integrity of the hose are crucial.
+
+### Thermostat Functions
+
+The thermostat regulates heating via preset functions. It is essential that these settings remain sealed to avoid inadvertent changes; the regular checks of these systems are recommended.
+
+### Mechanical Components
+
+An anchor plate secures essential components like the microswitch, ensuring that closures function seamlessly. If any mechanical parts are damaged, timely replacements are necessary to maintain operational integrity.
+
+### Cool-Down Process
+
+During the cool-down phase, ensure that all components function smoothly and effectively. Monitoring switches and supply lines is crucial to prevent failures, and troubleshooting should include checking connections and functions.
+
+### Electrical Supply Verification
+
+For equipment using three-phase power, confirm that supply connections are properly established. Systematic checks and screwdriver engagement will help in resolving issues efficiently.
+
+### Water Flow Functionality
+
+Electromagnetic mechanisms help regulate water flow, ensuring closure when required. Regular maintenance should include cleaning of components to prevent blockages and ensure smooth operational flow.
+
+### General Maintenance Instructions
+
+To maintain optimal performance, regular inspections and cleanings of all components are advised. If discrepancies arise in operational readings, immediate action, including disassembly and thorough checks, should be undertaken to rectify issues and ensure reliability.
+
+**Service Edition Overview**
+
+The service edition refers to the configuration of the hoses, which have been activated to facilitate the supply flow. This setup involves the mechanism that directs the supply through the hoses, ensuring proper functionality.
+
+**Heating Service Edition**
+
+This edition encompasses three components located at the front, which are interchangeable with the heating system (K2) and the thermostat. They monitor whether the heating element is operational. It is crucial to adjust the front panel to minimize any overheating, adhering to the provided guidelines. To disconnect the system, ensure the shut-off switch is utilized, and turn the screws counterclockwise. This action detaches the system effectively. To reconnect, turn the screws clockwise to secure the components back in place.
+
+**Coin Service Edition**
+
+The coin service edition can vary in type and includes components such as coin mechanisms or counters linked to relays. This setup allows straightforward connections which enable the activation or deactivation of processes based on coin insertion. The relay operates continuously and disengages when the required coin insertion occurs, thus managing the operational flow.
+
+**Additional Coin Service Edition**
+
+In this instance, the system is equipped with a microswitch that interacts with the coin mechanism. This microswitch detects the phase of the insertion process. Turning the wheel adjusts the position of the microswitch, facilitating the counting mechanism. The switch operates by turning OFF upon exceeding limits and returns to ON when conditions are met. Manual manipulation of the wheel may be necessary for adjustments; use a screwdriver to perform corrections without disrupting overall functionality.
+
+**Mechanical Service Edition**
+
+The service edition emphasizes plate rigidity and torsional strength, designed for direct mounting without shock-absorbers. For optimal performance, ensure stable foundation installation as outlined in the guidance documents. The setup incorporates plates that are adequately secured in their designated surroundings.
+

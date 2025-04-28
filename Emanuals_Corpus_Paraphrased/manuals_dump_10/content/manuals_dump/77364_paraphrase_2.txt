@@ -1,0 +1,109 @@
+### EMC Products Installation Guide  
+**P/N REV A05**  
+**EMC Corporation Headquarters: MA**  
+**Website: www.EMC.com**
+
+**Copyright Notice:** © EMC Corporation, all rights reserved. This publication contains information as current as the date of publication. EMC Corporation provides the information in this document "as is" without any guarantees or warranties, including implied warranties of merchantability or fitness for a specific purpose. Trademarks such as EMC, Navisphere, PowerPath, and others are owned by EMC Corporation or their respective proprietors.
+
+**Overview of Navisphere Software**  
+This document covers the installation of the Navisphere Utility, CLI (Command Line Interface), and related software products. It details functionalities and compatibility with different versions of Microsoft operating systems and EMC software revisions.
+
+**Chapters Overview:**
+1. Related EMC Products
+2. Navisphere Utility
+3. Admhost Utility
+4. VSS (Volume Shadow Copy Service)
+
+**Cautions:** Always exercise care while handling the information provided in this document. References to commands or file paths are indicated in a specific typeface to distinguish them clearly from other text.
+
+**Technical Support:** For assistance with EMC products and services, please contact EMC Customer Service:
+- **United States:** (SVC-4EMC) (543-4SVC)
+- **Worldwide:** Refer to EMC’s website for regional support options.
+
+**Software Installation Instructions:**  
+- When installing Navisphere, ensure you follow the on-screen instructions. Select the desired destination for installation, often defaulting to `C:\Program Files\EMC\Navisphere`.
+- If the directory already exists, the system may prompt for replacement or confirmation before proceeding.
+- For detailed technical support or inquiries about NAVISPHERE features, consult the EMC support resources or service locations.
+
+**Note on System Requirements:**  
+The Navisphere software is compatible with AX150, CX300, CX500, CX700, and requires FLARE Operating Environment version or higher. Ensure that your system meets these prerequisites before installation.
+
+This guide aims to provide a concise reference for installing and utilizing EMC's suite of products, ensuring a smooth implementation for users.
+
+This chapter discusses the Navisphere and Navisphere Utility, focusing on system I/O connections and related topics. It provides guidance on how to manage and interact with Navisphere, including features related to EMC products and configurations.
+
+Users can access LUN information either through the graphical user interface (UI) or command-line interface (CLI). The UI displays relevant data, while the CLI allows for manual command execution to manage service interactions. For Windows environments, users can navigate through the Microsoft UI to view service options related to LUN configurations.
+
+The document outlines comparisons of functionalities between different systems, including the necessary software installations and options for users with different access privileges. Instructions for setting up the software, including installation paths, are provided. Users are advised on handling existing service configurations and making changes through command prompts in service management.
+
+Additionally, connectivity protocols such as TCP/IP for LUN information retrieval are explained, as well as compliance with EMX products and their respective configurations. Steps for stopping and starting services via the Windows Services management interface are included, emphasizing a systematic approach to service management and potential troubleshooting scenarios within the Navisphere environment.
+
+Overall, the guidance encompasses the installation, management, and operational procedures essential for effectively using the Navisphere Utility while integrating with various EMC products.
+
+The Navisphere Utility is accessible from the CD, and you may also retrieve information from the latest version of the software. For setup, follow the guidelines provided for either your installed version or the CD version. This chapter discusses the Admhost Utility and the VSS, detailing their functionalities and integration with EMC products.
+
+Supported operating systems include specific Microsoft platforms that meet the defined requirements. Refer to the Release Notes for compatibility details. If using ESX, additional operational details may apply depending on the installed revision of the software.
+
+To install the Admhost, select it, then choose your operating system, followed by confirming your selections by clicking "Next" through the installation prompts. Ensure you enter correct customer information when prompted, and specify the destination folder for installation, typically located at Files\EMC\Navisphere Admhost.
+
+Functions within the Admhost Utility allow for assigning and managing device switches (WWNs) and offer commands for activating or deactivating LUNs as needed. The utility also includes options for writing flush commands and interacting with the physical drives in the system.
+
+Each command may include optional parameters to customize its execution, such as specifying LUNs or drives. You should always reference the EMC Command Interfaces documentation for detailed command usage and system operations.
+
+For installations involving the Navisphere Command Interface (CLI), it is essential to ensure that all SPs are connected properly, either directly or through a switch, enabling efficient communication over TCP/IP. The CLI provides comprehensive commands for managing EMC systems, including those configured within VSS environments.
+
+Before proceeding with the installation of the CLI, verify the current version and compatibility with your system. Follow the installation prompts to select appropriate directories, ensuring everything aligns with your network architecture.
+
+Finally, please consult the EMC documentation for specific information about command operations and the functionalities available through the Navisphere CLI.
+
+This document pertains to the Navisphere Utility, its CLI, and related topics intended for advanced users. It includes installation procedures and additional operations relevant to the Navisphere Utility. Here’s a structured overview:
+
+1. **Navisphere Utility Overview**: 
+   - Contains details on installing, removing, and utilizing the Navisphere Utility and CLI. References are provided for specific tasks, from basic operations to advanced configurations.
+
+2. **Installation Procedures**: 
+   - Steps for installing the Navisphere Utility are outlined. Users are guided to run the configuration via the CD that comes with the product, selecting the appropriate initialization wizard.
+
+3. **Command-line Interface (CLI) Usage**: 
+   - Detailed instructions for using the CLI are provided, including how to execute commands effectively and manage attached systems. Directories and file path references are specified for ease of access.
+
+4. **Uninstallation Process**: 
+   - Steps to uninstall the software, including access to the Windows registry for removing entries, are detailed. Specific registry paths and uninstall strings are mentioned for manual removal.
+
+5. **Advanced Options and Specifications**: 
+   - Additional command options are provided for customizing installations or uninstalls, ensuring users can tailor processes to their systems.
+
+6. **Logging and Responses**: 
+   - Guidance on logging installation details and managing response files for both installation and uninstallation processes is included, enhancing troubleshooting and procedural transparency.
+
+This paraphrase maintains the original intent while presenting the information in a clearer, more organized manner suitable for technical users.
+
+The following guidance outlines whether to utilize the command-line interface (CLI) for connecting with existing switches, detailing the necessary specifications. Below are the instructions for the switch interface, including existing directories and relevant options for command-line operations. For log attributes, the path “-f2C:\aLocalSafeDir\agentInst.log” is denoted for instances of CLI use. If a service is being accessed through CLI, ensure all necessary switches are included for installations. Detailed information can be found in the Navisphere documentation regarding creating and managing EMC products.
+
+Refer to the Windows registry path: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Uninstall\{249CF790-30CE-11D4-9A87-0060B0FB53A4}\ with the UninstallString containing specific information about the software. For example, the string should appear as follows: “C:\PROGRA~1\COMMON~1\INSTAL~1\engine\6\INTEL3~1\ctor.Information\{249CF790-30CE-11D4-9A87-0060B0FB53A4}\ -STARTEDFROMADDREMOVEPROGRAMS”. This means that on initiating the uninstallation process, paths and switches need to be appropriately specified as shown.
+
+During the uninstallation, the command syntax will relay data regarding the process, including the log file's path. Examples might include: “-f1E:\aSafeDir\agentUninst.iss -f2C:\aLocalSafeDir\agentUninst.log,” indicating where logs are stored.
+
+Further, similar actions apply to other installation tasks related to Navisphere. Access the CD-ROM directory to initiate the process using the Navisphere_Server_Utility.exe or Install_Navisphere_Server_Utility.exe, following prompts to complete installation.
+
+When executing commands, ensure the path defined in “fullpath\responsefilename” is utilized to indicate where installations take place. If changing directories, ensure you refer to existing structured paths appropriately.
+
+For CLI installations, refer again to the specific commands and registry paths that direct the system during the uninstallation or creation of installations and EMC products, specifically under the HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\CurrentVersion\Uninstall. The command output will similarly denote activity prompted through CLI interfaces, necessitating clarity in the respective paths and strings used. 
+
+In conclusion, always refer to the registry and specified directories, ensuring operations such as uninstallation or installations reflect accurate command and log paths as indicated throughout this document.
+
+A path for the response filename has been established as A-30, with the log filename located at fullpath\logfilename and containing details from Information\{249CF790-30CE-11D4-9A87-0060B0FB53A4}\. The process was initiated from the Add/Remove Programs interface, using a configuration file located at E:\aSafeDir\cliUninst.iss, while the generation of logs was directed to C:\aLocalSafeDir\cliUninst.log. This process utilizes the recorded configurations from E:\aSafeDir\cliUninst.iss. 
+
+In reference to sections A-31 (Removing Navisphere CLI Installations) and A-32 (EMC Products), this section describes how to manage installations and configure utilities. It specifies the necessary file locations and options for operation. If operations fail, errors may indicate issues with memory or incorrect option types.
+
+Details regarding the Navisphere CLI interface are presented, indicating that it can operate via command interfaces such as DOS for managing attachments, utilizing command formats for IP configurations or system commands. A decision tree for relevant commands ensures correct execution.
+
+Sections A-33 and A-34 further discuss the compatibility of various operating systems with EMC Products. This includes interaction with Microsoft Windows, Unix variants, and other environments for managing storage and snapshot functions via the CLI, particularly with LUNs regarding different RAID configurations—RAID types include FC-AL ID setups for storage processors.
+
+The Navisphere management software operates through a hardware-based interface that facilitates high-speed data transfer and RAID configurations, with specific attributes concerning LUN access and storage processor memory. The software oversees RAID operations and interacts with other systems for synchronization and mirroring.
+
+The text outlines the structure of RAID configurations and their relationship to physical drives and SP management. It ensures performance optimization by distributing workloads across multiple SPs. The capabilities of the EMC Products are designed for efficient RAID management, employing the functionality of FLARE software to enhance operations.
+
+The utility allows seamless interaction with system commands, effectively managing the caching processes associated with storage operations. Further details set expectations for system memory contributions and operational dependencies among the SPs for optimal performance, underscoring the reliability built into the EMC architecture for high-level data management.
+
+

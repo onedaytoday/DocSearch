@@ -1,0 +1,74 @@
+**E15TC75H Technical Documentation Overview**
+
+**Files:**  
+- E15TC75HP_Cover.eps  
+- E15TC75H_S_Parts-Rotated.eps  
+- E15TC75H_Wiring.eps  
+
+**Company:** Appliances North America  
+**Address:** P.O. Box, Augusta, GA  
+**Product Models:** E15TC75HPS, E15TC75HSS  
+**Series:** Icon-Pro, Icon-Designer  
+**Product Type:** Trash Compactor  
+**Publication Type:** Service Manual (EN/SERVICE/KC)  
+**Copyright:** Products, Inc.
+
+---
+
+### **Recommended Spare Parts for E15TC75H**
+
+**Part List:**
+
+| Position | Part Number      | Description                                         |
+|----------|-------------------|-----------------------------------------------------|
+| 1        | -                 | Assembly, top with interlock                        |
+| 2        | -                 | Touch Switch Assembly, PC AC/DC                     |
+| 3        | Broan S99526870   | Assembly, left/right back                           |
+| 4        | -                 | Compaction Cord Unit Assembly                       |
+| 5        | -                 | Motor Pulley Switch                                 |
+| 6        | -                 | Switch Assembly Housing                             |
+| 7        | Icon-Designer, Icon-Pro | Functional Switch Plate                       |
+
+#### **Recommended Spare Parts Index:**
+- E15TC75H (Model E15TC75HSS)  
+- E15TC75H (Model E15TC75HPS)  
+
+---
+
+### **E15TC75H Wiring and Component Description**
+
+**Key Components:**
+- RAM Lock Switch  
+- Ram Up Sensor Switch  
+- Odor Disk Sensor (Red)  
+- Centrifugal Motor Switch (Black)  
+- Upper Limit Switch (White)  
+- Door Interlock Switch (Blue)  
+- Key Switch (White)  
+- Start Relay  
+- Compact Mode Relay  
+- Power PCB Wiring Diagram  
+- Door Sensor Switch (White)  
+- Main Motor Run (Blue)  
+- Start Down Switch (Red)  
+- 200MFD 125VAC Capacitor  
+
+**Schematic Notation:**  
+The schematic displays the unit in an upright position, with the key switch off, the door open, and compact mode engaged. 
+
+**Voltage Information:** 
+- 0V Black  
+- 120V DC  
+- 24V Motor (Switch 99526904B)  
+
+**Backup Power:**  
+- DC 9V Battery Backup  
+
+**Manufacturer Specifications:**  
+- Motor Protector (White)  
+- Wiring Colors and Configurations indicated for system functionality.  
+
+--- 
+
+This document serves as a technical reference for the E15TC75H Trash Compactor, detailing the necessary spare parts and wiring diagrams for operational maintenance and troubleshooting.
+

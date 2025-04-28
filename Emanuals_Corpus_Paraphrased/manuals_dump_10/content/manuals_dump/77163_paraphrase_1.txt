@@ -1,0 +1,49 @@
+**Touchcomputer LCD Overview**
+
+**Manufacturer Information**  
+TE Connectivity  
+Customer Service: 1-800-ELOTOUCH  
+Website: www.elotouch.com  
+Revision SW601671  
+Copyright © TE Connectivity Corporation. All rights reserved. Reproduction, transmission, transcription, or translation of this document without written permission from Tyco Corporation is prohibited. The information herein is subject to change without notice. TE Connectivity and its affiliates (collectively "TE") do not provide warranties regarding merchantability or fitness for a particular purpose. TE reserves the right to revise this document without notice.
+
+---
+
+### Contents
+
+1. **Unpacking the Touchcomputer**  
+   - Includes items like the Touchcomputer, wall mounting bracket, and screws (M4, M3).
+
+2. **Setup**  
+   - Follow the illustrated setup instructions.  
+   **Caution:** Handle the Touchcomputer carefully during unpacking and installation.
+
+3. **Touchscreen Calibration**  
+   - If recalibration is necessary, right-click the touchscreen, go to Properties, and follow the on-screen instructions.
+
+4. **Additional Mounting Options**  
+   - The Touchcomputer can be mounted using VESA mounts. Refer to the included documentation for options.
+
+5. **Operation**  
+   - LED functionality and I/O access, including details on brightness and CPU information. The LEDs indicate the operating state (inputs, hibernation, etc.).
+
+6. **Safety and Maintenance**  
+   - To prevent electrical shock, maintain proper cleaning protocols. Use a 3-wire grounding cord and avoid unauthorized openings to preserve warranty.
+
+7. **Technical Support**  
+   - For assistance, visit www.elotouch.com/go/contactsupport.
+
+---
+
+### Regulatory Information
+
+- **Compliance**  
+   - This device complies with FCC Class A and CE regulations. Ensure proper grounding and connection practices to avoid interference.
+
+- **Warranty**  
+   - TE Connectivity provides a warranty covering material and workmanship. For warranty claims, notify TE within thirty days of discovery of an issue for inspection and resolution.
+
+**End of Document**
+
+THE REMEDIES STIPULATED HEREIN SHALL CONSTITUTE THE BUYER'S SOLE REMEDIES FOR ANY WARRANTY BREACH. APART FROM THE EXPRESS WARRANTY DESCRIBED ABOVE, THE SELLER PROVIDES NO ADDITIONAL WARRANTIES, WHETHER EXPRESSED OR IMPLIED BY LAW OR OTHERWISE, REGARDING THE PRODUCTS, INCLUDING THEIR FITNESS FOR SPECIFIC PURPOSES, QUALITY, MARKETABILITY, OR NON-INFRINGEMENT. NO EMPLOYEE OR AGENT OF THE SELLER HAS THE AUTHORITY TO OFFER ANY WARRANTIES BEYOND THOSE SPECIFIED HERE. THE SELLER'S LIABILITY UNDER THIS WARRANTY SHALL BE RESTRICTED TO A REFUND OF THE PRODUCT'S PURCHASE PRICE. UNDER NO CIRCUMSTANCES SHALL THE SELLER BE RESPONSIBLE FOR ANY COSTS RELATED TO THE PROCUREMENT OR INSTALLATION OF SUBSTITUTE GOODS BY THE BUYER, OR FOR ANY SPECIAL, CONSEQUENTIAL, INDIRECT, OR INCIDENTAL DAMAGES.
+

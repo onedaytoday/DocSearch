@@ -1,0 +1,36 @@
+**Battery ELK-BLT Specifications and User Instructions**
+
+The ELK-BLT Battery provides a straightforward method for testing rechargeable batteries. It measures internal conductivity to assess battery health, allowing users to interpret results using the accompanying chart. This chart categorizes battery characteristics based on their charge status. The device can be used while testing, charging, or reconnecting the battery. 
+
+**Features Include:**
+- Rechargeable battery indication and warning features
+- Carrying case and self-adhesive labels
+- Warranty included
+
+**Specifications:**
+- Input: 10.0V D.C. 
+- Amperes: As specified 
+- Battery Leads: 3 H x 1.15 D inches
+
+For optimal use, connect the black lead to the negative terminal and the red lead to the positive terminal of the battery. Ensure a secure connection to facilitate accurate readings. The internal reading stabilizes within seconds, allowing for quick reference against the chart.
+
+Note: The chart operates optimally at around 72°F. Performance metrics are influenced by temperature: cooler environments (below 72°F) can reduce conductivity readings, while warmer conditions may enhance them. Users should monitor battery readings regularly by documenting the battery's performance and referring to the provided chart for guidance.
+
+**Battery Performance Assessment:**
+- Record the following data:
+  A. The battery voltage reading
+  B. The charge state (optional)
+  C. Freshness and health metrics.
+
+If readings drop significantly, recharge the battery for a minimum of four hours. Consider various factors that might affect performance. 
+
+**General Temperature Effects:**
+Temperatures below 72°F can hinder internal activity, causing reduced conductivity readings. Conversely, temperatures above this threshold facilitate better performance.
+
+**Maintenance and Service Life:**
+The battery generally lasts for approximately three years. It's essential to monitor readings across the service life, as early degradation can indicate a need for replacement. Specific characteristics such as cold cranking amps (CCA) and amp-hour ratings can reveal the battery’s operational limits. 
+
+If oxidation occurs on battery plates—typically after three months of charging—you may experience diminished capacity. It's crucial to frequently recharge and maintain batteries to prevent irreversible damage from oxidation. 
+
+In summary, regular assessment, proper maintenance, and prompt action based on readings can significantly enhance battery longevity and performance. Ensure to follow the specified guidelines for successful charging and testing processes.
+

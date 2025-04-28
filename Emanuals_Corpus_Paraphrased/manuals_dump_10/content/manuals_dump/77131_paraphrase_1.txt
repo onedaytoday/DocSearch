@@ -1,0 +1,73 @@
+**Touchmonitor LCD Overview and Installation Guide**
+
+Models: ET1545L-XXWC-X, ET1547L-XXWC-X, ET1548L-XXWC-X, ET1549L-XXWC-X, ET1567L-XXWC-X  
+For support: 1-800-ELOTOUCH or visit www.elotouch.com  
+© TouchSystems, Inc. All rights reserved.
+
+Congratulations on your purchase of an LCD touchmonitor. This high-resolution monitor enhances user interaction by facilitating smooth information flow. Please follow the precautions and procedures outlined in this guide for optimal use.
+
+**Product Overview:**
+The touchmonitor features:
+- XGA TFT display
+- Direct RGB input (262,144-1549L)
+- Compatibility with XGA, SVGA, VGA, VESA, NEC PC-98 refresh rates
+- User-friendly on-screen display (OSD) in multiple languages (English, Spanish)
+- VESA physical mounting interface
+
+**Installation:**
+Upon unpacking, ensure the following items are included:
+- LCD touchmonitor
+- Software CD
+- Mounting hardware (C-bracket and four screws)
+
+To install, refer to the VESA mounting information located on the back of the monitor. Use a screwdriver to attach the mounting brackets securely.
+
+**Connecting the Touch Interface:**
+The touchmonitor can be connected via RS-232 or USB. Ensure the monitor and PC are off before making connections. 
+1. For RS-232, connect the touchscreen cable from the monitor to the PC.
+2. For USB, connect the USB touchscreen cable between the monitor and PC.
+
+**Power Connection:**
+Connect the power cord to a grounded AC outlet. Once connected, the monitor should power up.
+
+The touchmonitor is compatible with various graphic resolutions and has VESA mounting capabilities. For further information regarding compatible mounting solutions, consult the provided links.
+
+**Driver Installation:**
+Install the software from the included CD-ROM following the necessary steps for your operating system, including Windows XP, NT, and other platforms like MS DOS and OS/2. 
+
+**Operation:**
+Use the OSD buttons on the remote control to adjust settings such as brightness and contrast. The menu allows you to navigate and select various functions.
+
+**Troubleshooting:**
+If issues arise, check that all connections are secure and verify that the power supply is functioning. For persistent problems, consult the support section or contact customer service.
+
+### PHASE Overview
+
+**Graphic Refresh**: The LCD and CLOCK refresh to the VGA module must be effectively connected. Ensure that both the LCD and touch interface are securely attached.
+
+**LCD Specifications**: The LCD touch monitor operates in XGA resolution on a 15-inch display. When utilizing increased functionality, ensure compatibility with the input resolution set—either VGA, SVGA, or XGA. The vertical refresh aligns with the selected resolution throughout the operation, showcasing optimal performance without graphical artifacts, such as rendering distortion.
+
+### Touchmonitor Guidelines
+
+**Installation and Safety**: To mitigate electrical shock risks, always turn off the touch monitor before cleaning. Connect the touch monitor to a grounded outlet using a 3-wire cord to prevent unauthorized warranty voiding. If issues arise, refer to the manual for troubleshooting procedures.
+
+**Cleaning Instructions**: Use a soft, non-abrasive cloth to lightly clean the touch monitor's surface. Avoid using solvents or sharp objects that could damage the screen.
+
+### Touchmonitor Technical Specifications
+
+**Models**: Touchmonitor models include ET1545L, ET1547L, ET1548L, and ET1567L. All models feature a 15-inch active thin-film transistor (TFT) display with dithered colors.
+
+**Mechanical Properties**: Each model is designed for durability, rated for multiple touches through various coatings and layers. The touchscreen is protected against chemical exposure and physical wear, maintaining functionality even in demanding conditions.
+
+### Regulatory Information
+
+**Compliance and User Information**: Confirmation of compliance with FCC regulations is vital for preventing interference. Users are advised to follow setup instructions closely to minimize potential disruptions. If interference occurs, consult the manual for corrective measures.
+
+### Warranty
+
+**Coverage**: The warranty covers defects in materials and workmanship for specified periods. Timely reporting of issues is essential for claiming warranty service. The manufacturer reserves the right to inspect and manage repairs or replacements effectively.
+
+For further details, refer to the respective sections outlined in the product documentation.
+
+THESE REMEDIES WILL BE THE SOLE REMEDIES AVAILABLE TO THE BUYER FOR ANY BREACH OF WARRANTY. APART FROM THE EXPLICIT WARRANTY STATED ABOVE, THE SELLER OFFERS NO ADDITIONAL WARRANTIES, WHETHER EXPRESS OR IMPLIED BY LAW OR OTHERWISE, CONCERNING THE PRODUCTS, INCLUDING BUT NOT LIMITED TO THEIR FITNESS FOR PARTICULAR PURPOSES, QUALITY, MERCHANTABILITY, NON-INFRINGEMENT, OR OTHERWISE. NO EMPLOYEE OR REPRESENTATIVE OF THE SELLER HAS THE AUTHORITY TO PROVIDE ANY WARRANTY BEYOND WHAT IS STATED HEREIN. THE SELLER'S LIABILITY UNDER THIS WARRANTY IS LIMITED TO REFUNDING THE PURCHASE PRICE OF THE PRODUCT. THE SELLER SHALL NOT BE HELD LIABLE FOR COSTS RELATED TO THE PROCUREMENT OR INSTALLATION OF SUBSTITUTE GOODS BY THE BUYER, OR FOR ANY SPECIAL, CONSEQUENTIAL, INDIRECT, OR INCIDENTAL DAMAGES.
+

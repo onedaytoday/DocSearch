@@ -1,0 +1,80 @@
+### Notice to CISPR Compliance
+
+This equipment has been tested in accordance with CISPR standards and falls within the established Class that provides protection against interference. It must adhere to guidelines to minimize radiated interference within specified limits. Users should take into account the influence of interference on the operation of connected devices, particularly regarding recommended settings for 4K VA and 20K VA UPS systems connected to power outlets. Compliance with relevant EU directives, such as 73/23/EEC for safety and 89/336/EEC for electromagnetic compatibility (EMC), is mandated for units marked with CE. 
+
+### Important Safety Instructions
+
+**CAUTION:** This UPS poses a risk of electric shock if the AC input is disconnected while in use. Always reference the operator’s manual for specific operational instructions. Ensure the unit is fully powered down and disconnected before performing any maintenance. 
+
+The UPS is designed to safeguard sensitive electronic equipment—including computers, workstations, and telecommunications systems—against potential electrical interference and shock. Care should be taken to properly ground the unit and to prevent contact with live terminals. 
+
+The UPS is rated for continuous supply in single-phase applications and should be adequately installed, adhering to environmental guidelines and specifications. Any installations must ensure proper connection to avoid unintended power fluctuations, which can cause software malfunctions and equipment downtime.
+
+### UPS Specifications and Connectivity
+
+The UPS operates effectively within specified voltage ranges and features operational efficiency enhancements through various connectivity options, including RS232 and USB interfaces. The unit offers expandable battery options and provides real-time operational data, which can be monitored via an LCD interface.
+
+The UPS should ideally be kept in a controlled environment (15°C to 25°C) to optimize performance and battery life. Ensure adequate airflow around the device for cooling and maintain a clearance for user operation. For upgraded features and advanced configuration, refer to the installation guide corresponding to the version installed.
+
+### Installation and Maintenance
+
+Follow specific installation procedures for both the UPS and the connected battery unit to ensure safety and compliance with local regulations. It is crucial to follow grounding recommendations and to observe the necessary distance from high-conductivity surfaces to prevent electric shock.
+
+Consult with authorized service technicians for any repairs or servicing requirements, ensuring all operations are conducted in accordance with safety protocols. Avoid unauthorized modifications to the UPS, as such actions may void compliance and warranty agreements. 
+
+For detailed information regarding UPS functionalities, specific operating procedures, and enhanced battery management practices, please refer to the relevant technical sections in the operator's manual.
+
+To operate the UPS, press the ON/OFF button for at least a few seconds. Ensure you connect the UPS using the USB port located at the back. The USB cable may need to be purchased separately. The UPS includes features that allow connections to remote switches, enabling a shutdown via the Emergency Power Off (EPO) function. When the EPO is activated, the UPS will immediately turn off, safeguarding the connected devices.
+
+For interaction with the UPS, utilize the front panel buttons. When the UPS is functioning, the STATUS indicator will illuminate, and you can monitor the LCD display for information about performance metrics like output voltage, battery status, and load percentage.
+
+To navigate through the functions, press the FUNC button and make selections with the ENTER button. Functions can include various settings that adjust the UPS's operation; if no selection is made within a set time, the UPS will revert to its default state.
+
+Regular internal inspections are necessary for optimal operation, and the UPS should remain free from debris and dust. Standard operating conditions are typically at 25°C, where the UPS can function effectively for many years if maintained properly.
+
+Warnings regarding battery handling and UPS operation are critical. Always ensure connected loads are protected and avoid disturbances that could lead to potential hazards. The UPS includes systems for high-efficiency operation, safety protections, and monitoring systems wherein indicators on the LCD and LEDs will inform users of the device’s status and any issues that may arise.
+
+Specifications for UPS capacities and operational voltages are clearly defined, accommodating a variety of input configurations and output demands. Ensure that installation aligns with manufacturer guidelines for safe and effective use.
+
+**Without ISOTR Specifications:**
+
+**Tower Specifications:**
+- Model Options: VGD-10000, VGD-6000, VGD-5000, VGD-4000
+- Capacity: 
+   - VA Ratings: 10000VA, 6000VA, 5000VA, 4000VA
+   - Wattage: 7000W, 4200W, 3500W, 2800W
+- Voltage Compatibility: 
+   - Inputs: 100V, 110V, 115V, 120V, 208V, 220V, 230V, 240V
+- Compliance: IEC, FCC, CISPR, UL, and CE
+- Environmental Ratings: Relative humidity and EMC (EMS/EMI) protections.
+
+**With ISOTR Specifications:**
+- Model Options: VGD-20000, VGD-15000, VGD-12000, VGD-10000
+- Capacity: 
+   - VA Ratings: 20000VA, 15000VA, 12000VA, 10000VA
+   - Wattage: 14000W, 10500W, 8400W, 7000W
+- Total Harmonic Distortion (THD): Ensures high efficiency from AC to AC.
+- Recovery Time: Time in seconds for UPS recovery during battery operations.
+
+**Protection Features:**
+- Modes: UPS (yellow), Bypass (yellow), Fault (red).
+- Immediate input protection to avoid UPS shutdown.
+- Continuous monitoring via LCD and LED indicators with audio alerts.
+- Self-test capabilities without the need for battery maintenance.
+
+**Battery Specifications:**
+- Configurations: 
+   - 240V with 12V9AH or 12V7.2AH batteries.
+- Connection options: RS-232 and USB for communication.
+- External battery connectors positioned on the rear panel with corresponding components including terminal blocks, bypass switch, and SNMP slot.
+
+**Mechanical Design:**
+- 3U rack-mountable design compatible with standard EIA 19-inch racks.
+- Front and rear mounting provisions with screws for secure installation.
+
+**Installation Options:**
+- Rack mount or wall installation guidance provided.
+- Remote control functionality for ease of management.
+
+This technical summary retains the core information while providing a clearer and more structured presentation.
+

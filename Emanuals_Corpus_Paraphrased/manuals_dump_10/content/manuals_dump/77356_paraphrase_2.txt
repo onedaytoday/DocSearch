@@ -1,0 +1,35 @@
+**Procedure: Transitioning DPE from FC 55XX/57XX to FC 45XX**
+
+This document outlines the process for transitioning the Data Processing Environment (DPE) from the FC 55XX/57XX series to the FC 45XX series, utilizing the Licensed Core Software (LIC) authorized for EMC service only.
+
+The Transition:
+
+The DPE model numbers 54XX/56XX will be upgraded to 45XX. This assembly comprises various components, including Disks Access options and software packages. If the Access option is chosen, the accompanying Core Software is provided via CD-ROM. Make sure to verify compatibility with existing switches and software versions, including Navisphere and Application Task Framework (ATF).
+
+For the FC 54XX/55XX or FC 56XX/57XX units running older versions of Core Software, ensure that the HBA (Host Bus Adapter) is updated if necessary. Ensure to download the latest revisions of Core Software and Navisphere from the EMC support website.
+
+**Mandatory Procedures:**
+
+- Confirm that the Core Software version is compatible with the new DPE. 
+- The RAID configuration must be established correctly, with LUNs (Logical Unit Numbers) bound into RAID groups as needed. 
+- Understand the relationship between RAID groups and LUNs, particularly when interacting with Navisphere.
+- If upgrading from Core Software version 5.XX, be aware of potential impacts on RAID and LUN interactions.
+
+**Installation Steps:**
+
+1. Ensure CD-ROMs containing Core Software and revisions of Navisphere products are accessible.
+2. Power off the DPE and any attached service processors (SPs) before replacement or upgrades.
+3. Use static-free measures when handling electronic components, ensuring that memory is seated correctly and locked.
+4. For SP installations with or without GBIC interfaces, confirm the proper connection of cables and interfaces.
+5. Check LED indicators on each SP to confirm readiness post-upgrade.
+
+**Revisions and Licensing:**
+
+All materials and related software are the intellectual property of EMC Corporation. Users should adhere strictly to the licensing terms provided with the software and navigation tools associated with EMC products. Ensure compliance with copyright regulations, as EMC maintains ownership and rights of its proprietary software, including Navisphere.
+
+**Final Checks:**
+
+Once installation is complete, verify that the system operates as expected and that indicators signal successful transitions. For additional assistance, refer to EMC's official support channels or documentation.
+
+**End of Procedure: Transitioning DPE from FC 55XX/57XX to FC 45XX**
+

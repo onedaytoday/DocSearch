@@ -1,0 +1,93 @@
+### Technical Manual for MCS600W, MCS600B, MCD1200W, MCD1200B, ECS750W, ECS750B, ECD1500W, ECD1500B
+
+**Manufacturer**: White-Rodgers, Emerson   
+**Website**: www.white-rodgers.com  
+**Model Numbers**: 2SD1, 2SD2  
+**Owner's Manual**: English Version  
+
+#### Product Overview
+Models:  
+- MCS600W, MCS600B  
+- MCD1200W, MCD1200B  
+- ECS750W, ECS750B  
+- ECD1500W, ECD1500B  
+
+**Flow Specifications**:  
+- MCS600W: Flow rate (CFM)  
+- MCS600B: Flow rate (CFM)  
+- MCD1200W: Flow rate (CFM)  
+- MCD1200B: Flow rate (CFM)  
+- ECS750W: Flow rate (CFM)  
+- ECS750B: Flow rate (CFM)  
+- ECD1500W: Flow rate (CFM)  
+- ECD1500B: Flow rate (CFM)  
+
+#### Important Safety Instructions
+**Operational Guidelines**:  
+Ensure adherence to the presented instructions to avoid equipment malfunction or service interruptions. Special attention must be given to reducing the risks of electric shock or fire.
+
+**Installation Advisory**:  
+Utilize the correct grounding methods to prevent shock hazards. Follow installation guidelines strictly to ensure safety and performance. Regular inspection of the unit is necessary.
+
+**Maintenance Protocols**:  
+Carry out regular cleaning and maintenance to ensure optimal functionality. Promptly address any unusual noises or performance issues associated with the cleaner.
+
+#### Control Functions
+The unit features controls for operational settings:
+- **OFF**: Power off the unit.
+- **AUTO**: Automatic operation setting.
+- **TURBO**: High-performance mode.
+- **HIGH**: Standard high setting.
+- **MEDIUM**: Moderate setting.
+- **LOW**: Low power setting.
+- **STANDBY**: Energy-saving mode.
+
+#### Programming Settings
+The unit allows for various operational modes, adjustable based on usage requirements:
+- **LOW DUTY**: For minimal tobacco exposure  
+- **MEDIUM DUTY**: For moderate tobacco exposure  
+- **HEAVY DUTY**: For significant tobacco exposure  
+- **EXTREME DUTY**: For maximum tobacco exposure  
+
+#### Troubleshooting
+In the event of flashing indicators, follow the diagnostic steps outlined in the service section. Identify if maintenance or service is required based on the behavior and flashing status of the indicators.
+
+#### Final Remarks
+**Maintenance Reminder**: Regular service and inspection are critical for performance and safety, particularly in high-use environments. Always comply with safety directives to mitigate risks during operation.
+
+For further details, refer to the complete technical manual or contact customer service.
+
+**Technical Operation Guide**
+
+1. **Controls Overview**:
+   - Press the HV V button to increase settings.
+   - Use the PROGRAM button and select STANDBY for a few seconds to initiate cleaning cycles for various environments (offices, cleaners, etc.).
+   - The TURBO mode activates by pressing its corresponding button; this also activates the PROGRAM and STANDBY functions at specified intervals to ensure optimal performance.
+
+2. **Indicators**:
+   - The LOW indicator light signals low performance.
+   - The MEDIUM light indicates a moderate operating level.
+   - The HIGH indicator indicates maximum performance.
+   - The TURBO light denotes the highest operational capacity.
+
+3. **Service Operations**:
+   - For high servicing requirements, follow the guidelines to return settings to the factory defaults.
+   - Use a suitable screwdriver (e.g., Torx type) to release clips; avoid opening doors without releasing clips first to prevent damage.
+   - If crackling noises occur, particularly during high arc situations, check and clean the unit as necessary to maintain efficiency. Regular maintenance is advised.
+   - Ensure all wires are free of buildup, and use appropriate tools for cleaning to avoid damage.
+
+4. **Warning Notices**:
+   - Caution: Internal cells may have sharp edges.
+   - Ensure the unit is off before performing any service to prevent electric shock.
+   - Dispose of and handle filters carefully as they can have sharp edges.
+
+5. **Basic Maintenance**:
+   - Regularly inspect and clean filters to enhance operational efficiency.
+   - If any defects occur—like malfunctioning switches or saturated sensors—clean components to maintain optimal functionality.
+
+6. **Product Information and Service Parts**:
+   - Refer to the following part numbers for specific components: F849, F809, F859, F881, etc.
+   - Ensure all service guidelines and operational modes are followed as per the model specifications to guarantee effective performance.
+
+For additional technical support, contact Emerson Comfort Worldwide or visit the official website.
+

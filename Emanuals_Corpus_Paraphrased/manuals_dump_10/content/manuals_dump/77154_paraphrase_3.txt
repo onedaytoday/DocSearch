@@ -1,0 +1,52 @@
+**API Touch ES601068**
+
+**Release Note**: Initial Release ECO-13-0697
+
+This document, version NFC Application ES601068 A, may not be reproduced, transmitted, transcribed, or translated in any form without the prior written consent of Touch Inc. The information contained herein is provided "as is" without warranties of merchantability or fitness for a particular purpose. Touch Inc. reserves the right to make revisions to this documentation without obligation to notify any party of such changes.
+
+**Acknowledgments**: AccuTouch, CarrollTouch, Touch SecureTouch, TouchTools, and affiliates of Touch Inc. are mentioned, as well as Microsoft Corporation.  
+
+**Overview**:   
+This document details the Application Interfaces pertaining to the API released as a Dynamic Link Library (DLL). Functions related to Battery, MCU, POS, and EEPROM are classified below. For further information, please refer to Touch Inc.’s technical support.
+
+**Application Interfaces**:
+
+1. **Battery Functions**:
+   - `EloGetBatteryStatus(OUT: Battery Information)`: Retrieves battery status information.
+   - `EloGetBatteryCapacityPercentage(BATTERY_LOCATION location, OUT: int *pCapacity)`: Provides the battery capacity percentage at a specified location.
+   - `EloGetBatteryChargingStrength(BATTERY_LOCATION location, OUT: int *pStrength)`: Obtains the charging strength for a battery.
+   - `EloGetBatteryChargingThreshold(BATTERY_LOCATION location, OUT: int *chargingThreshold)`: Fetches the charging threshold.
+   - `EloGetBatteryLifeTime(BATTERY_LOCATION location, OUT: int *lifeTime)`: Returns the expected battery life.
+   - `EloGetBatteryRemainingLifeTime(BATTERY_LOCATION location, OUT: int *remainingLifeTime)`: Provides remaining battery life information.
+   - `EloSetBatteryChargingStrength(BATTERY_LOCATION location, int strength)`: Sets the charging strength.
+   - `EloSetBatteryChargingThreshold(BATTERY_LOCATION location, int threshold)`: Configures the charging threshold.
+   - `EloSetBatteryLifeTime(BATTERY_LOCATION location, int lifeTime)`: Defines the battery’s lifetime.
+
+2. **MCU Functions**:
+   - Functions to interact with the MCU, allowing data transfer and operations as specified.
+
+3. **POS Functions**:
+   - Interface for controlling the MSR, enabling/disabling the NFC, and handling output configurations.
+
+4. **Light Sensor Functions**:
+   - `EloEnableLightSensor()`: Activates the light sensor.
+   - `EloGetLightSensorData(OUT: int *pData)`: Retrieves data from the light sensor.
+
+5. **Accelerometer Functions**:
+   - `EloGetAccelerometerSamplingPeriod(OUT: int *samplingPeriod)`: Gets the sampling period.
+   - `EloSetAccelerometerSamplingPeriod(int period)`: Sets the sampling period.
+   - `EloSetAccelerometerGSetting(int setting)`: Configures G-forces (2G, 4G, 8G).
+
+6. **Backlight and Power Functions**:
+   - `EloOnBacklight(int brightness)`: Controls the LED backlight brightness.
+   - `EloGetPowerBtnStat(OUT: int *status)`: Retrieves the status of the power button.
+
+7. **Camera Functions**:
+   - `EloGetCameraFlashStrength(OUT: int *pStrength)`: Gets the camera flash strength.
+   - `EloSetCameraFlashStrength(int strength)`: Sets the camera flash strength.
+
+8. **EEPROM Functions**:
+   - Functions to read and write data to specific EEPROM locations, including serial numbers for the motherboard and tablets.
+
+For additional information and assistance, visit our website at www.elotouch.com or contact our North America office at 800-ELO-TOUCH. All rights reserved, Copyright Touch Inc.
+

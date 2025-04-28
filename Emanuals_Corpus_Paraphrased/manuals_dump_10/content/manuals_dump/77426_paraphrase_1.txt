@@ -1,0 +1,35 @@
+**ATEX Guidelines for IP221/SI and Amplifiers**
+
+For detailed instructions regarding the IP221/SI and associated amplifiers, please refer to the official website at www.mobrey.com. These guidelines are applicable across various regions, including the Netherlands (NL), Finland (FIN), Greece (GR), Denmark (DK), Poland (PL), Portugal (PT), and Italy (IT).
+
+The equipment is designed to operate within a temperature range of -40°C to +85°C, classified as T4. It is critical to follow these guidelines to ensure the equipment's integrity and that no protective measures are compromised. Users must be aware of the potential effects of environmental contaminants, including chemicals and dust, which may endanger the equipment.
+
+The devices specifically meet the requirements for Zone II, 1G, indicating their suitability in areas with potential ignition sources. Appropriate measures, such as regular inspections and maintenance, should be adhered to, especially in hazardous environments. Cleaning should be performed using a lint-free cloth.
+
+The equipment is tested according to EN50020 standards and possesses an ATEX certification, including options such as TRL03ATEX21023X for Zone II, and compatibility with gas groups IIA, IIB, and IIC, across temperature classes T1 to T5.
+
+Electrical specifications include a voltage of +16.27V and varying wattage depending on the unit type. The insulation must be proper, respecting the necessary isolation from ground connections. Maintenance and repairs should only be conducted by trained personnel, and the housing must be secured to prevent any accidental disconnection of internal components.
+
+Ensure compliance with IEC 60721 classification of the relevant environmental conditions (3M8/4M8) while operating these devices. Lastly, please confirm that the guidelines have been translated from English (US) correctly to avoid any misinterpretations.
+
+**MEP3*I, TRL03ATEX21035X Specifications:**
+
+- Categories: C 1, 2, 3, 4
+- II G, IIC T4 C C
+- Power Supply: +16.27V, 1.42W for main operation; +16.27V, 0.4W for additional functions
+- Compliance: ATEX, EN50020
+- Models: TRL03ATEX21024X, TRL03ATEX21035X
+- Environmental Classification: 3M8/4M8 IEC60721
+- Protection Rating: IP221/SI
+- Temperature Range: -40°C to +85°C (T4)
+- Designation II, 1G for hazardous areas
+- Additional Ratings: TRL03ATEX21023X covers IIA, IIB, IIC T1, T2, T3, T4, and T5
+- Power Specifications for repairs: +16.27V, 0.63W
+- Intrinsic Safety Ratings: II G, IIC T4; C C, with relevant ATEX compliance.
+
+**Location:** Slough, UK, SL1 4UE  
+**Website:** www.mobrey.com  
+**Ownership:** All rights reserved by Emerson and their respective owners.  
+
+This document is subject to changes without notice.
+

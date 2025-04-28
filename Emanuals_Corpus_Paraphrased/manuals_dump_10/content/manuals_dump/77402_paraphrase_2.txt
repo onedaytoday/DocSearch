@@ -1,0 +1,18 @@
+**Safety and Installation Instructions for FCR Motors and Gearmotors**  
+**Browning, Emerson, and affiliated Emerson Corps.**  
+**Rights MCIM13005E 9055E, Printed USA**  
+**Emerson Automation, New Buffington, KY**  
+**Application: www.emerson-ept.com 9055E**  
+
+Ensure compliance with the following guidelines to prevent injury or death during installation and servicing. Always inspect the motor or gearmotor against the nameplate specifications and follow all mounting and operational instructions. Ensure a minimum clearance from the cover for proper servicing and to safeguard against mechanical shocks and power fluctuations.  
+
+When connecting wiring, utilize normally closed thermostats appropriately wired to the protective supply. Motors can be directly powered from a 575V supply, as detailed in the documentation. For manual release, follow designated procedures and ensure that threaded connections are secure.  
+
+The motor operates on three phases, with onboard rectifiers allowing compatibility with both SO6 and SO8 configurations. Proper wiring is crucial, especially for phase configurations of 190/380V or 575V. Always disconnect the rectifier cell prior to any testing for current insulation or dielectric integrity.  
+
+For mechanical release, unscrew the designated screws and carefully inspect the release mechanism. Cleaning the friction surfaces is necessary to ensure optimal operation. Follow reassembly procedures closely.  
+
+For troubleshooting, monitor symptoms such as abnormal heating or mechanical locking, and follow the recommended actions for resolution. Ensure proper connectivity and continuity of supplies to maintain functionality. Dismantle and clean components as needed.  
+
+For comprehensive information, refer to the equipment nameplates and additional instructions provided.
+

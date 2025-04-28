@@ -1,0 +1,86 @@
+### Touchmonitor 1739L LCD Rear-Mount Touchmonitor Revision
+
+**Product Overview**
+- Model: LCD Rear-Mount Touchmonitor 1739L
+- Revision P/N: E247574
+- © Copyright Corporation. All rights reserved; reproduction or distribution in any form requires prior written consent from TouchSystems. This publication is provided without guarantees, and no warranties of merchantability or other rights are implied. Updates may occur without prior notice.
+
+**Contents**
+- **Chapter Information**
+1. Introduction
+2. Warranty
+3. Product Index
+4. Product Precautions
+5. About the Touchmonitor
+6. Touch Interface
+7. Software Installation
+8. Troubleshooting
+9. Touchmonitor Specifications
+
+**Introduction to the Product**
+- The LCD rear-mount touchmonitor features SXGA TFT technology, ensuring high performance and compatibility with various graphics modes (VGA, SVGA, XGA, SXGA non-interlaced), in compliance with VESA DPMS standards. DDC1/2B compatibility is also supported. 
+
+**Unpacking the Touchmonitor**
+- Ensure the following items are included with the LCD touchmonitor and USB Touch supply.
+
+**Installation and Setup Instructions**
+1. Connect the touchmonitor to your PC, ensuring it is powered off.
+2. Securely attach the power cord to the monitor and connect the touchscreen interface (RS232 or USB) to the rear of the unit.
+3. Tighten all screws to ensure proper grounding.
+
+**Software Installation**
+- The necessary software for the touchmonitor is provided on a CD-ROM, compatible with Windows XP and NT. Follow the instructions for Plug-and-Play setup.
+- For DOS systems, utilize the MOUSE.COM from the CD-ROM to configure the touchmonitor.
+
+**Operation**
+- The On-Screen Display (OSD) allows you to adjust settings such as brightness, sharpness, and positioning. Select options using dedicated buttons and navigate through the OSD menus.
+
+**Common Troubleshooting Tips**
+- If you encounter issues with the display resolution or input, ensure that the appropriate settings are selected and that connections are secure. Refer to the specifications for native resolutions and compatibility.
+
+**Safety Precautions**
+- To avoid electrical shock, always use a grounded three-wire cord when operating the touchmonitor. Clean the surface gently with a suitable cloth, avoiding any abrasive materials.
+
+**Technical Specifications**
+- Detailed technical specifications and performance metrics for the LCD touchmonitor are provided in the accompanying sections of this document.
+
+For further information and detailed operating procedures, please refer to the respective sections of this documentation.
+
+### Touchmonitor Specifications for 1739L LCD TFT
+
+- **Model**: 1739L LCD TFT Active
+- **Display Dimensions**: 338 mm (H), 270 mm (V)
+- **Pixel Pitch**: 0.264 mm (H), 0.264 mm (V)
+- **Supported Resolutions**: VGA, SVGA, XGA, SXGA
+- **Brightness**: Typical brightness without Tf: 16.7M colors
+- **Connection Type**: R.G.B. TTL or Negative
+
+### Controls
+- **On-Screen Display (OSD)**: Brightness, Phase, Clock adjustments available in English and Spanish. 
+- **Touch Technology**: Optional capacitive touch support.
+
+### Power Specifications
+- **Input Voltage**: AC 100-240V
+- **Operating Temperature**: 0°C to 50°C (32°F to 122°F)
+
+### Regulatory Compliance
+- Compliant with UL, C-UL, FCC-B, CE, VCCI, C-Tick, MPRII standards.
+- TUV certification.
+
+### User Information
+- **Warnings**: Ensure the Touchmonitor is properly grounded to prevent electric shock. Use the specified type of grounding wire.
+- **Service**: The Touchmonitor is not user-serviceable; contact a qualified technician for maintenance.
+
+### Immunity and Installation Information
+- **FCC Compliance**: The device meets FCC Class B standards, minimizing interference with other electronic devices. Users should follow installation instructions carefully to maintain compliance.
+- **CE Certification**: The Touchmonitor is compliant with the EMC Directive 89/336/EEC and the Low Voltage Directive 73/23/EEC.
+
+### Warranty Information
+- The product is warranted against defects in materials and workmanship. The warranty details including procedures for claims are outlined. Warranty remedies are limited to refunding the purchase price of the product.
+
+### Additional Resources
+- For further details on specifications, warranty, troubleshooting, and technical support, visit [www.elotouch.com](http://www.elotouch.com) or contact ELO Touch Corporation.
+
+### Note
+- These remedies are exclusive, and no other warranties, express or implied, are granted beyond those stated. No employee or agent is authorized to make additional warranties on behalf of the seller.
+

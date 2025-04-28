@@ -1,0 +1,117 @@
+**Touchmonitor and CRT Touchmonitors ET1X8XC-4SWA-1 Revision C P/N**  
+1-800-ELOTOUCH  
+www.elotouch.com  
+www.elogaming.com  
+
+Copyright © TouchSystems Inc. All rights reserved. This document may not be reproduced, transmitted, transcribed, or translated without the written permission of TouchSystems. The information in this document is subject to change without notice, and it does not imply any warranties regarding merchantability or suitability. Additionally, the trademarks SecureTouch and MonitorMouse belong to TouchSystems, Inc., as do any other associated trademarks.
+
+---
+
+**Table of Contents:**
+
+- Introduction
+- Precautions
+- Product Overview
+- Touchmonitor Connectivity
+- Touchscreen Software
+- Touch Operating Systems: Windows XP, NT, and MS-DOS 
+- Troubleshooting 
+- Technical Specifications 
+- Touchmonitor PINOUT and Preset Table 
+- Warranty Information 
+
+Congratulations on acquiring your new high-resolution CRT touchmonitor! This device offers impressive performance and information flow. Please observe the precautions and guidelines outlined in this document.
+
+---
+
+The CRT touchmonitor features include:
+- 13.8-inch pitch CDT
+- 15.7-inch pitch CDT
+- 18-inch pitch CDT
+- Support for various refresh rates to optimize its functionality.
+- Compliance with VESA DPMS and VESA DDC1/2B standards.
+- Patented technologies by TouchSystems.
+
+---
+
+**Chapter: Introduction**  
+This chapter details the CRT touchmonitor and the associated software. Upon unpacking the touchmonitor, ensure you have all the included items. 
+
+---
+
+**Chapter: Installation and Setup**  
+Before connecting the touchmonitor to your PC, ensure both devices are powered off. Connect the touchmonitor's cable to the PC, securing it with the provided thumbscrews. The touchscreen attachment should also be secured similarly to maintain proper alignment. 
+
+You can purchase the touchmonitor directly from (www.elogaming.com) or via the provided AC connection. When plugging in, ensure the touchmonitor is grounded using a three-prong AC outlet with a switch.
+
+If issues arise, refer to Chapter Troubleshooting. To connect the touchmonitor, use the TouchTools CD-ROM to install necessary touchscreen software. Follow installation instructions provided on the CD-ROM. If you encounter software compatibility issues, see the corresponding section.
+
+---
+
+**About Touchmonitor Connectivity**  
+It is crucial to ensure that the touchmonitor is correctly connected to your PC to meet factory specifications. 
+
+---
+
+**Chapter: Operation**  
+You can access the On-Screen Display (OSD) on the right-hand side of the touchmonitor for navigation. Utilize the OSD to select various settings highlighted on the display. If anomalies occur, troubleshooting through the OSD sections is recommended, particularly concerning geometric adjustments such as pincushion corrections.
+
+Make sure the touchmonitor is receiving proper power and signal to function optimally. If a "NO SIGNAL" message appears, check the cable connections and PC status. 
+
+---
+
+**Touchscreens**  
+Touchscreens enhance user-computer interaction by allowing intuitive access to information without traditional peripherals. Their design facilitates ease of use for individuals regardless of prior experience with technology.
+
+---
+
+**Chapter: Touch Technology Overview**  
+Touch technology applies a "touch-on-tube" method, enhancing CRT displays with touch capabilities while maintaining high clarity and brightness without reflection interference.
+
+---
+
+**Chapter: Safety Information**  
+Safety is paramount when using the touchmonitor. Avoid exposure to electrical hazards by ensuring the device is properly grounded. Follow all safety precautions outlined in this document to prevent damage or personal injury.
+
+--- 
+
+Please consult respective sections for comprehensive details about setup, operation, and troubleshooting of your touchmonitor.
+
+### Touchmonitor Specifications
+
+**Specifications Overview**:  
+- **Refresh Rate**: 85Hz  
+- **Resolution**: H: 300, V: as specified  
+- **Input Type**: RGB, VAC  
+- **Display**: Non-interlaced, compliant with VESA standards (DPMS and DDC).  
+
+**Brightness and Contrast**:  
+- Achieves specified brightness levels over CRT hours, with parameters for brightness, contrast, vertical/horizontal rotation, on-screen display (OSD), corner adjustments, and spatial/coordinate corrections.  
+- Compliant with DHHS, TV regulations, EMC, IC, ES-003, C-Tick, and VCCI, maintaining performance in varied temperatures (5-55°C).
+
+**Mechanical Specifications**:  
+- More than expected touchpoints and activation force, typically less than specified ounces.  
+- Expected to endure operational wear with a robust touchscreen design resistant to multiple touches without compromising performance.
+
+**Environmental and Chemical Protection**:  
+- The touchscreen is designed to withstand exposure to ammonia-based cleaners, compliant with various international standards for safety and chemical resistance.
+
+**Pinout Information**:  
+- Connectivity includes standard VGA and I/O configurations. Grounding is crucial for the touch monitor to function reliably.
+
+**Power Management**:  
+- The monitor supports power-saving modes conforming to VESA's DPMS standards, isolating power functions effectively.
+
+### Regulatory Information
+
+- **A) Compliance**: This device complies with FCC Class regulations to minimize interference. Users should follow installation instructions carefully.
+- **B) Serviceability**: Only qualified technicians should undertake servicing.  
+- **C) Grounding Instructions**: Ensure proper grounding using a three-prong plug to mitigate risks of electric shock.
+
+### Warranty Information
+
+- The warranty covers manufacturing defects for a specified period, emphasizing a prompt reporting process (within thirty days of discovery).
+- Remedies provided under this warranty include repair, replacement, or refund options. However, the manufacturer will not be liable for any indirect, special, or consequential damages.
+
+**Limitations of Liability**: Seller's responsibilities are limited to the purchase price refund only. No other warranties, express or implied, are provided beyond those explicitly stated in this document.
+

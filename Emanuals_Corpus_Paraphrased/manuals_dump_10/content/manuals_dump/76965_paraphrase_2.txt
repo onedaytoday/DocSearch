@@ -1,0 +1,162 @@
+**MS-1 Instruction Manual**
+
+**Copyright** ELMO Co., Ltd. Rights
+
+---
+
+### Table of Contents
+- **Important Safeguards**
+- **Federal Communications Commission Interference Statement**
+- **Package Contents**
+- **About the Camera**
+- **Component Identification**
+- **Preparations**
+  - Charging the Battery
+  - Inserting the Micro SD Card
+  - Powering On/Off
+  - Changing SSID and Key
+- **Recording**
+  - Movie Recording
+  - Photo Recording
+- **Viewing Recorded Files**
+  - On TV or Projector (HDMI Output)
+  - On Smart Device
+  - On Computer
+  - Transferring Files to Computer
+- **Live Viewing**
+  - Using QBIC App
+  - On TV or Projector
+- **Resetting the Camera**
+  - Force Turn Off
+  - Factory Default Settings
+- **QBIC App Icon Explanations**
+  - Movie/Photo Recording
+  - Grid Display
+  - View Angle
+  - White Balance
+  - Self-Timer
+  - WDR Shooting
+  - Exposure
+  - Resolution
+  - Battery Status
+  - Record Source
+  - File Management
+- **Settings**
+- **Maintenance**
+  - Camera Upkeep
+  - Updating the Camera
+- **Troubleshooting**
+- **After Sales Service**
+- **Specifications**
+  - Functions of the Switches
+  - Recordable Time and Photo Count
+  - Estimated Continuous Operation Time
+- **Trademarks and Licensing**
+
+---
+
+### Preface
+
+Thank you for purchasing the MS-1. Before using this device, please read this instruction manual thoroughly.
+
+**Please Note:** Reproducing any part of this manual in any form is strictly prohibited. Although we aim to provide accurate information, ELMO Co., Ltd. is not liable for any changes or omissions. For assistance or inquiries regarding this instruction or any related matters, please contact ELMO directly.
+
+**Important Safeguards:** Reading the safety warnings in this manual is essential to prevent injury or property damage. 
+
+- **DANGER:** Hazards associated with misuse can lead to serious injury or death.
+- **WARNING:** Improper operation may result in severe injury or death.
+- **CAUTION:** Misuse or violation of safety protocols may cause minor injury or equipment damage.
+
+**General Warnings:**
+- Avoid operation while driving to prevent accidents.
+- Do not allow the device to fall, and ensure secure mountings.
+- Keep the device out of reach of children, as it may pose choking hazards.
+- If any abnormal behavior occurs, turn off the device immediately.
+- The rechargeable lithium-polymer battery must be stored and used in dry environments away from any conductive materials.
+- Avoid exposure to extreme temperatures, moisture, and direct sunlight.
+
+### Before You Use
+Before using the MS-1, ensure it is free of any manufacturing defects and that you understand its operation. 
+
+- **Wireless Interference:** Be aware that external factors such as Bluetooth devices and microwaves can affect performance.
+- **Temperature and Humidity:** Operating conditions should be between 0-40°C with appropriate humidity levels.
+- Safeguard against physical damage to the USB and interface covers to maintain functionality.
+- For any malfunctions or service-related inquiries, please contact ELMO Customer Service.
+
+In summary, please handle the MS-1 with care and consult this manual to maximize performance and safety.
+
+**Disclaimer:** Unauthorized reproduction or transmission of this material, in whole or in part, is strictly prohibited without written consent from ELMO. This includes any attempts to modify, redistribute, or utilize elements of this content, including but not limited to memory and copyrights protected under international treaties.
+
+**Attention:** This device has been tested for compliance with FCC Class B regulations, designed to provide reasonable protection against interference. Users are advised to follow installation instructions carefully to mitigate potential interference. If interference occurs, turning off the device or repositioning can resolve the issue.
+
+**Powering On/Off:** The device can be powered on or off by connecting it to a USB power source or an optional AC adapter. When powered off, the indicator LED will appear red.
+
+**Inserting Micro SD Card:** Ensure that the micro SD card is compatible (minimum Class 2, up to 64GB) and inserted correctly. Improper installation may affect performance.
+
+**Changing SSID and Key:** To change the SSID and security key, press and hold the designated switch for several seconds, then input the new values as instructed.
+
+**Recording Functionality:** The device allows for both movie and photo recording. The Recording Switch activates recording, and the associated LED indicates status. Recordings will include audio unless specified otherwise.
+
+**Viewing Content:** Recorded content can be displayed on a TV or projector via HDMI. The user can navigate recorded files using the switches provided.
+
+**File Transfer:** To transfer files to a computer, connect the device via USB and follow the on-screen instructions. Enable MASS STORAGE mode for file access.
+
+**Live Viewing:** The QBIC app allows for live viewing capabilities. Ensure the device is connected to the smart device and follow proper connection protocols.
+
+**Factory Reset:** To restore factory settings, simultaneously hold the Recording Switch and designated switch for a few seconds.
+
+For detailed operation and additional functions, refer to the official MS-1 documentation.
+
+**WDR Shooting (Wide Dynamic Range Shooting)**  
+This feature allows you to toggle WDR on and off. 
+
+**Exposure Settings**  
+You can select the resolution for recording and playback, including audio capture. WDR can be set to OFF or ON based on lighting conditions.
+
+**Remaining Battery Information**  
+Check the battery status during recording. Thumbnail previews can be displayed for recorded sources.
+
+**Movie/Photo Thumbnail Switching**  
+Switch between types of thumbnails to view different media.
+
+**File Management Options**  
+You can edit, download, delete, and split files. The system allows sending selected files to other devices.
+
+**Camera Settings**  
+Adjust various parameters including light settings, center-weighted distortion correction, and hand-shake correction (which is OFF by default). You can enable rotation for video at 240fps.
+
+**Recording Configuration**  
+You can adjust the recording settings including frame rates (e.g., 2fps, 5fps, 60fps). Left and right audio channels are recorded separately. Built-in sound can be turned off.
+
+**Streaming and Network Settings**  
+You can stream video using protocols such as HTTP (MJPEG), HLS (H.264), and RTSP (H.264). SSID and Key settings are generated randomly.
+
+**Battery and Sound Synchronization**  
+Management of sound playback and battery monitoring is possible. Firmware updates can be initialized via the appropriate interface.
+
+**Camera Maintenance**  
+Regularly clean the camera with a soft cloth and ensure it is stored in a well-ventilated area. Avoid exposure to harsh chemicals that may affect performance.
+
+**Firmware Updates**  
+Keep the camera’s firmware up to date for improved functionality. Firmware can be obtained from the official MS-1 website.
+
+**Troubleshooting**  
+If issues arise, charge the battery and attempt to restart the device. If problems persist, power off and retry.
+
+**Warranty Information**  
+The warranty covers the camera for a specified period from the purchase date and applies only to defects related to quality or manufacturing.
+
+**Specifications**  
+The camera features a CMOS sensor, supports various recording formats, and is equipped with a built-in lithium-polymer battery. It has a charging interface compatible with USB B and HDMI connections.
+
+**LED Indicators and Switch Functions**  
+The LED indicators provide visual feedback for power, recording, and operational status. The action switches allow for recording, photo capturing, and configuration resets.
+
+**Estimated Recording Times**  
+Different storage capacities result in varying estimated recordable times for video and photo capture. 
+
+**Trademark Information**  
+This device may include components licensed from other companies and adhere to relevant software licensing agreements. Users have rights concerning redistribution under GNU licenses. 
+
+This summary encapsulates the original content while maintaining the essential technical details.
+

@@ -1,0 +1,78 @@
+### Touchmonitor 2400LM LCD Touchmonitor
+
+**Model**: LCD Touchmonitor Revision C SW601252  
+**Contact**: 1-800-ELOTOUCH | [www.elotouch.com](http://www.elotouch.com)
+
+**Copyright Notice**: The content contained herein is protected against reproduction, transmission, transcription, or translation by any means without prior written consent from Tyco. The information is provided without warranties of any kind, including but not limited to merchantability or specific rights regarding this publication. This document details revisions or specifications for AccuTouch, CarrollTouch, TouchSystems, and TE under the Tyco brand, as well as Microsoft’s associated technologies.
+
+**Safety Warnings**: Risk of electrical shock is present; do not open the device. To minimize shock risk, avoid accessing the back panel, as it contains non-user-serviceable components. Uninsulated parts within the device could pose shock hazards. This equipment is designed to withstand specified electromagnetic interference (EMI), as well as maintain performance levels. The touchmonitor should be tested under operational conditions to ensure compliance with electromagnetic standards. 
+
+**Environmental and Operational Considerations**: This monitor is classified as a Class I (grounded) device under UL60601-1 and CAN/CSA C22.2, impacting its operation in environments involving anesthetic gases. Intended for continuous operation, the operating temperature range is specified along with transport and humidity conditions.
+
+**Product Specifications**:
+- Ingress Protection: IPX1
+- EMC Compliance: CISPR, IEC standards
+- Characteristics of RF and immunity performance under various conditions are detailed, including considerations for installation locations to minimize interference. The monitor's rated power output is noted, and recommendations for handling external RF sources are included.
+
+**Installation and Setup**: This section covers the installation of the LCD touchmonitor and attached software. The product is comprised of a touchscreen interface and standard VGA/USB connectivity. The setup procedure includes connecting to a PC, ensuring that the monitor is powered OFF during connections, and securing all cables properly.
+
+**User Guidelines**: The touch interface must be integrated according to the provided specifications. The setup will require an understanding of user-defined settings and function modifications within the OSD menu.
+
+**Troubleshooting**: Includes common issues and native resolutions, along with a technical specifications overview and regulatory information.
+
+**Unpacking Instructions**: Ensure that all components, including cables (such as VGA, USB, and DVI), are accounted for before proceeding with installation.
+
+For detailed setup procedures regarding connections, ensure the monitor is powered off before initiating connections, following a systematic guide for etabling secure connections and preventing operational risks.
+
+### Technical and Warranty Information
+The 2400LM provides both functional and non-functional interfacing options, featuring a WUXGA LCD and touchscreen capabilities. Further details regarding digital and magnetism dampening features, and unique operating conditions will be provided in ongoing documentation for optimal use and performance.
+
+**Note:** This section covers the DC power connections at the bottom of the touch monitor. Connect the AC power cable to the grounded outlet, ensuring to route it through the touch monitor's protective cover. Secure the cover with screws from the accessories.
+
+For mounting, use a screwdriver to attach the medically approved touchscreen, which complies with the VESA Physical Mounting Interface (FPMPMI). This interface is located on the back of the touchscreen and includes M4 Phillips screw locations.
+
+If the VESA interface is pre-attached, remove the four screws provided and use them to fix the item to the VESA mount, referring to the mounting template provided. For further assistance, visit the relevant websites for products compatible with the touchscreen.
+
+**Touch Software:** To install the software that integrates the LCD with graphic capabilities, check compatibility with operating systems like Windows XP, NT, or MS-DOS. The software can be found on the accompanying CD-ROM; follow the installation instructions based on your system's requirements, whether connected via USB or RS232.
+
+**Notes:** For USB connections, follow similar steps by selecting the appropriate options during the installation process. Once the touchscreen is recognized, proceed with the installation.
+
+**About the Touchmonitor:** The overall performance and compatibility must align with factory specifications. If adjustments are needed, refer to the section for optimizing performance.
+
+**OSD Functions:** Utilize the OSD (On-Screen Display) to manage settings, including adjusting brightness and selecting input sources. Indicators show when functions are selected. Settings can also be reset to factory defaults if needed.
+
+Ensure to handle the LCD with care during operation and cleaning. Use appropriate cleaning methods to avoid damage.
+
+**Safety Information:** The touchscreen may contain hazardous materials such as mercury. Dispose of it responsibly according to local regulations regarding electronic waste.
+
+**Technical Specifications:** The touchmonitor is equipped with various display capabilities and resolutions, including WUXGA. For further technical and safety information, consult the detailed specifications table associated with the model. 
+
+Make sure the touchmonitor is securely attached and that all safety precautions are followed during installation and use.
+
+### Regulatory Information
+
+**I. General Information:**  
+A) This device is intended for use under specific operating conditions and must be installed according to the provided guidelines to avoid fire hazards.  
+B) Service of this device should be performed by a qualified service technician.  
+C) Ensure compliance with the connection requirements outlined.
+
+**II. Compliance and Immunity Information:**  
+A) **U.S. Notice:** This device has been tested and complies with Class [insert appropriate classification] of FCC standards, providing reasonable protection against radio frequency interference when installed according to the guidelines.  
+B) **Interference Notice:** This device meets the standards established in the Interference Regulations.  
+C) **EU Notice:** The connecting cords and cabling comply with CE standards for immunity and have been tested according to the pertinent directives (including EMC Directive 89/336/EEC and Low Voltage Directive 73/23/EEC).  
+D) **User Information:** If you experience interference with other devices, factors such as I/O connections or the placement of the device may contribute. To mitigate interference:  
+1) If experiencing issues with TV or radio reception, try turning the device off.  
+2) If interference persists, adjust the position of the receiver or disconnect the product. Using a grounded AC outlet is advised to reduce RF interference. 
+
+**III. Regulatory Approvals:**  
+The product has received certifications from C-Tick, IC, CE, VCCI, FCC (US), UL, and CCC in accordance with regulations regarding interference-causing devices.  
+
+### Warranty Information
+
+The warranty for this product covers defects in materials and workmanship for a period of three years from the date of purchase. Customers are encouraged to report any product issues within 30 days of discovery to allow for inspection and resolution. 
+
+**Warranty Limitations:**  
+These remedies represent the exclusive options for breach of warranty. Except for the explicit warranty stated above, the seller provides no additional warranties, either express or implied, including but not limited to fitness for a particular purpose, quality, merchantability, or non-infringement. No seller employee or third party is authorized to offer any warranty not explicitly stated herein. The seller's liability under this warranty is strictly limited to a refund of the product's purchase price. The seller shall not be liable for any costs incurred for the procurement or installation of substitute goods, nor for any special, consequential, indirect, or incidental damages.
+
+For further product information such as specifications, press releases, and software updates, please visit [www.elotouch.com](http://www.elotouch.com). The office is located at 2F CA, USA D-85521, B-3010, ELO-TOUCH, Printed in the USA.
+

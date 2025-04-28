@@ -1,0 +1,82 @@
+## Touchmonitor 2400LM LCD Touchmonitor
+
+### LCD Touchmonitor Revision C SW601252 
+Contact: 1-800-ELOTOUCH | Website: www.elotouch.com
+
+**Copyright Information**  
+All rights reserved for any reproduction, transmission, transcription, or translation of this information without the written consent of Tyco. This document carries no warranties regarding its accuracy or merchantability. It is important to note that specific brands mentioned, such as AccuTouch and CarrollTouch, are trademarks of their respective owners, distinct from Tyco and Microsoft's trademarks.
+
+### Safety Warnings  
+This device contains anesthetics and electronic components that could pose risks of fire or electric shock. To avoid the RISK OF ELECTRICAL SHOCK, do not open the unit. To minimize the risk of shock, do not remove the back cover, and limit servicing to trained professionals. Uninsulated components may cause electric shock.
+
+### Compliance and Performance Standards  
+This touchmonitor complies with safety and electromagnetic compatibility (EMC) standards outlined in IEC 60601-1 and other relevant regulations. The device’s operational parameters include:
+
+- **Operating Temperature Range:** -0°C to 40°C
+- **Transportation Temperature:** -20°C to 60°C
+- **Humidity:** 10% to 90% (non-condensing)
+- **Altitude:** Up to 3000 meters
+- **Ingress Protection Rating:** IPX1
+
+### EMC and Interference  
+The ET2400LM is designed to function in environments with potential electromagnetic interference. If the device experiences interference, such as that caused by radiofrequency (RF) sources, adjustments may be necessary to ensure proper operation.
+
+### Touchmonitor Specifications  
+- **Display Type:** WUXGA TFT LCD 
+- **Brightness:** Typical specifications apply
+- **Touchscreen Responsiveness:** Approximately 10 ms typical response time 
+- **Power Supply:** AC input of 100-240 VAC, 1.27A or DC output of 24 VDC/6.5A 
+
+### Installation and Setup  
+Instructions for unpacking and setting up the LCD touchmonitor are provided, including:
+
+1. **Connecting the Display:** Use a DVI or VGA cable to connect the touchmonitor to a PC.
+2. **Connecting USB Touchscreen Interface:** Attach the USB touchscreen cable to enable touch functionality.
+3. **Connecting Audio Components:** If desired, connect external speakers to the designated ports.
+
+### Regulatory Information  
+This device is classified as ordinary equipment with no applied parts in contact with anesthetics. Continuous operation is expected in clinical settings. Users should follow the guidelines for operation in a life-supporting context, as specified in the relevant IEC standards.
+
+### Conclusion  
+The 2400LM LCD Touchmonitor is designed for reliability in various operating conditions with an emphasis on safety, compliance, and ease of installation.
+
+For any further information or assistance, please refer to the provided contact details.
+
+**NOTE:** Proceed to STEP 4 to connect the DC power to the touchmonitor's underside. Ensure the cable runs through the touchmonitor's protector, and then connect it to a grounded AC power supply. After that, secure the cover using screws from the accessory kit.
+
+**Mounting Instructions:** Use a screwdriver to properly attach the medically-certified touchscreen that conforms to the VESA Physical Mounting Interface (FPMPMI). The interface is located on the back of the touchscreen. If the mount is already equipped with four screws, remove these to access the VESA interface mounting. Follow the template provided for the rear mount installation.
+
+**Touch Software Installation:** To configure the LCD with the associated graphic, refer to the software on the CD-ROM for compatible operating systems, including Windows XP, NT, and MS-DOS. For additional information about the touchmonitor, visit www.elotouch.com. Ensure the touchmonitor is properly connected via USB, following the setup instructions provided.
+
+**OSD Control Functions:** The On-Screen Display (OSD) manages settings such as brightness, contrast, and input selection. You can increase or decrease values using the function button and navigate through the OSD options. The highlighted selection indicates the current choice. The OSD will time out after several seconds of inactivity.
+
+**Common Issues and Troubleshooting:** If issues arise with the LCD, consult the troubleshooting section for guidance. Operational parameters should align with factory specifications to ensure optimal performance.
+
+**Touchmonitor Specifications:** The touchmonitor supports various resolutions, including VGA, SVGA, XGA, SXGA, and WUXGA. It is important to match your input settings to the native LCD resolution to avoid quality loss. Poor alignment or higher input resolutions may lead to display artifacts, which can be mitigated with the monitor's built-in algorithms.
+
+**Safety and Care:** Follow safety procedures while using and cleaning the touchmonitor. Avoid exposing it to harsh cleaning agents or physical shocks, and use a soft cloth for maintenance. Be aware of the environmental impact of certain components, such as mercury used in backlighting, and adhere to local regulations for disposal.
+
+**Technical Specifications:** The touchmonitor has a native resolution of WUXGA and operates within various input ranges. Ensure the power supply is properly rated for optimal performance. Compliance with safety standards (UL, CE, FCC, etc.) is crucial for continued safe operation.
+
+### Regulatory Information
+
+I. **General Information:**
+A) This product is designed to operate within specified parameters and meets regulatory requirements to prevent fires and related hazards.  
+B) Only a qualified service technician should perform maintenance on this equipment.  
+C) Ensure proper connections when integrating this device with other systems.
+
+II. **Immunity Information:**
+A) Notice to Users in the United States: This equipment has been tested and complies with FCC Class A standards, providing reasonable protection against interference when installed according to the guidelines.  
+B) Users should be aware of the potential for interference as established by FCC regulations.  
+C) Notice to Users in the European Union: This device, along with its interconnecting cables, meets CE standards, verified under the relevant directives (EMC Directive 89/336/EEC and 73/23/EEC).  
+D) **User Guidance:** This product may cause interference with other devices; however, multiple factors may influence this. Solutions include: 
+   1) Turning off the device or other potentially affected equipment to mitigate interference. 
+   2) Repositioning the product or altering the connections may help resolve any issues. Ensure proper grounding to avoid RF interference and electrical hazards.
+
+III. **Regulatory Compliance**: The following certifications have been obtained: C-Tick, IC, CE, VCCI, FCC, UL, and CCC, in accordance with established regulations regarding interference.
+
+**Warranty Information:**
+The warranty covers defects in materials and workmanship for a period of three years for touch monitors. Notification of any product issues must be provided in writing within thirty days of discovery. Warranty claims involve inspection opportunities and must be documented. Remedies are limited to repair, replacement, or refund of the purchase price. Sellers are not liable for costs related to the procurement or installation of substitute goods, or for any incidental or consequential damages. Seller's liability is expressly limited as outlined above.
+
+For further product specifications and information, please visit [www.elotouch.com](http://www.elotouch.com).
+

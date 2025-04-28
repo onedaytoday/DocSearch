@@ -1,0 +1,37 @@
+### 17A2 All-in-One Touchcomputer Technical Overview
+
+The 17A2 All-in-One Touchcomputer offers a versatile solution for point-of-service (POS) applications, combining aesthetic design with enhanced serviceability. It features a choice of cutting-edge Acoustic AccuTouch five-wire resistive, acoustic, or CarrollTouch touch technologies, providing exceptional clarity and graphics readability on its SXGA display.
+
+This device supports seamless integration of various peripherals, which include options for built-in or rear-facing components. Its integrated functions make it suitable for numerous applications in both the POS and point-of-interest (POI) sectors. The compact all-in-one touchcomputer adheres to industry-standard VESA mounting options for flexible installation as either a desktop or wall-mounted unit.
+
+The 17A2 is compatible with Microsoft operating systems including Windows XP Professional and Windows Embedded for Point of Service (WEPOS). Additional serviceable options include magnetic stripe readers (MSR) and several USB interfaces providing high-speed connectivity. The device comes equipped with capabilities such as an optional integrated wireless LAN and DVD drive, enhancing its advanced functionality.
+
+### 17A2 Specifications
+
+- **CPU Chipset**: 915GME/ICH6  
+- **Memory**: 1GB DDR2 (expandable to 2GB)  
+- **Operating Systems**: Microsoft XP Professional / WEPOS  
+- **Connectivity**: RS232 (RJ45, COM2), RS422, RS485, and high-speed USB (12V, 1.5A) for POS peripherals  
+- **Display Connectivity**: VGA (D-SUB)  
+- **Network Interface**: 100/10Base-T LAN (RJ45, RJ11)  
+- **Storage**: GB SATA  
+- **Display Technology**: Active TFT LCD; Aspect Ratio Optional  
+- **Touchscreen Options**: AccuTouch Five-Wire Resistive; CarrollTouch Acoustic (APR)  
+  
+**Peripherals and Customer Display Options**: Includes a variety of displays and can support optional wireless cards.
+
+**Dimensions**:  
+- Width: [Measurements]  
+- Depth: [Measurements]  
+- Weight: [Measurements] (Colors Available)  
+- Brightness (typical):  
+  - With AccuTouch: [Values]  
+  - With CarrollTouch: [Values]  
+  - With APR: [Values]  
+- Operating Temperature: 0°C to 35°C; Storage Temperature: -20°C to 60°C (non-condensing)  
+
+**Certifications**: FCC, CE, VCCI, C-Tick, EN60950  
+**Warranty**: [Years] with average MTBF in hours  
+
+For additional information regarding product specifications, changes, or warranties, please visit www.elotouch.com or contact ELO Touch Solutions North America. The company retains the right to modify products without prior notice. All copyrights and trademarks are owned by their respective entities.
+

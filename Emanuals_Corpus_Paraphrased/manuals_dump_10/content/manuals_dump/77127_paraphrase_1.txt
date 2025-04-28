@@ -1,0 +1,97 @@
+**Touchmonitor and CRT Touchmonitors ET1525C ET1725C TouchSystems, Inc. DOC# SW500125 P/N 1-800-ELOTOUCH www.elotouch.com**
+
+This document contains proprietary information about TouchSystems and cannot be reproduced, transmitted, transcribed, or translated in any form without written permission from TouchSystems. The information is provided "as is" without any guarantees, including but not limited to implied warranties of merchantability or suitability. TouchSystems reserves the right to make changes to this publication without any obligation to notify users of such revisions. The terms SecureTouch, AccuTouch, and MonitorMouse are trademarks of TouchSystems, Inc. Other trademarks mentioned herein are the property of their respective owners.
+
+### Introduction to Touchmonitors
+**Chapter Overview**
+1. Introduction to the Touchmonitor
+2. Setting Up the Base
+3. Choosing the Correct Location
+4. Connecting the Touchmonitor
+5. Installing the Software
+6. Operative Use of Touchmonitor
+7. Troubleshooting Guide
+8. Touchscreen Safety Warnings
+9. Technical Specifications
+10. Warranty Information
+
+### Product Overview
+Congratulations on your purchase of the Touchmonitor, a high-resolution display tailored for performance. The CRT touchmonitor features a microprocessor-based system with sizes of 13.8 inches, 15 inches, 15.7 inches, and 17 inches. It supports various refresh rates and offers VESA DPMS and VESA DDC1/2B compatibility. The device includes both RS-232 and USB interfaces for connectivity.
+
+### Setup Instructions
+**Unpacking and Initial Setup:**
+1. Make sure the touchmonitor is positioned correctly, avoiding placement upside-down.
+2. Maintain a distance of at least 6 inches from heat sources and ensure that light does not reflect directly on the screen. This helps in reducing glare and strain during use.
+
+### Connecting the Touchmonitor
+- Connect the touchmonitor to your PC using either RS-232 or USB interface, ensuring that both the monitor and PC are powered off during the connection process.
+- Properly attach the AC power cord to a grounded outlet.
+- For optimal functionality, ensure both the touchscreen connection and the PC connection are secure.
+
+### Software Installation
+- Follow the prompts on the TouchTools CD-ROM to install the required software for both Windows NT and other operating systems (like MS-DOS, OS/2).
+
+### Operating the Touchmonitor
+- Use the On-Screen Display (OSD) to navigate settings. Access the OSD by utilizing the MENU buttons. Here you can adjust settings such as brightness and screen alignment.
+
+### Troubleshooting
+- If you encounter issues with the touchmonitor, ensure connections are secure and check for compatibility with the graphics output.
+- In the case of display distortions or improper function, consult the troubleshooting section for specific guidance on diagnosing common issues.
+
+### Technical Support and Warranty
+- Ensure that all specifications are adhered to in order to maintain warranty coverage. Any unauthorized modifications or cover removals may void the warranty.
+
+This paraphrase retains the original content's technical details and structure while presenting it in a more concise manner.
+
+**Warning: OUT OF RANGE**
+
+The graphics refresh rate is either too high or not set correctly. Ensure that the connection is secure and check for a faulty signal. Verify that the screws are tightened and that the PC is properly connected to the Touchmonitor CRT.
+
+**Troubleshooting Touchmonitor CRT**
+
+Touchscreens, specifically the Touchmonitor CRT, are sometimes frustrating for users who are accustomed to keyboards or mice. It's crucial to recognize that many individuals find the transition to touchscreen interfaces challenging. This interface facilitates a smoother flow of information to users while enhancing interactions with customers. Touchscreens facilitate effective user-computer interactions by providing clarity and operational ease.
+
+**AccuTouch Touchscreens**
+
+The AccuTouch Touchmonitor CRT enhances touchscreen interactions, allowing for more precise selections at points of information, such as in-store displays or educational settings. The patented five-wire resistive AccuTouch technology offers unmatched responsiveness. Its rugged, scratch-resistant surface is designed to withstand the wear and tear typical in high-usage environments, including point-of-sale terminals and transportation systems.
+
+**Touchmonitor Setup**
+
+To minimize the risk of electrical shock, ensure the touchmonitor is connected through a three-wire grounded power cord, plugging it into a compatible outlet. Avoid placing any objects on top of the monitor to prevent obstruction. Should the touchmonitor become damaged, seek professional help.
+
+**Touchmonitor Cleaning and Maintenance**
+
+Users are advised to only clean the Touchmonitor using a soft, lint-free cloth, avoiding any harsh chemicals or abrasive materials. If repairs are necessary, consult a technician familiar with the device.
+
+**Safety Information**
+
+A) Ensure the touchmonitor does not exceed the specified electrical ratings to prevent fire hazards.  
+B) This device is not user-serviceable and should be repaired by qualified professionals.  
+C) Connect using a grounded, three-prong plug to prevent electric shock, as using improper grounding can lead to serious consequences.
+
+**Compliance and Testing**
+
+The touchmonitor complies with FCC regulations for Class B devices, indicating it has been tested for interference. It also meets European CE standards as per Directive 73/23/EEC and the EMC Directive 89/336/EEC.
+
+**Technical Specifications**
+
+Technical specifications include enhanced performance metrics, compliance with regulations, and operational parameters designed for durability. Notable features are the mechanical construction, touch-point capacity, activation force, and chemical resistance.
+
+**Preset Table and Operational Guidelines**
+
+This section outlines factory settings, including recommended refresh rates and operational characteristics to ensure optimal performance of the touchmonitor.
+
+Please refer to the user manual for detailed information on features, functionality, and technical specifications of the Touchmonitor CRT.
+
+**Warranty for Touchmonitor CRT**
+
+Unless otherwise specified, this warranty asserts that the Product is free from defects in materials and workmanship. Buyers must promptly report any issues related to the Product in writing (within thirty days of discovery) and provide reasonable access for inspection. The warranty obligations may involve returning the Product in its original packaging.
+
+If the Product is found defective, the Seller will, at its discretion, either repair or replace it. The options available may also encompass providing a credit towards the original purchase price. 
+
+These remedies represent the exclusive solutions for breach of warranty. Aside from the explicit warranty outlined above, the Seller offers no additional warranties, whether express or implied, including but not limited to fitness for a particular purpose, quality, merchantability, or non-infringement. No Seller employee or third party is authorized to provide any warranties beyond those stated herein. 
+
+The Seller's liability under this warranty is limited to a refund of the Product's purchase price. The Seller will not be responsible for any costs incurred for procuring or installing substitute goods, nor any special, consequential, indirect, or incidental damages. 
+
+For further details about the Product, including specifications, technical information, and support resources, please refer to [www.elotouch.com](http://www.elotouch.com).
+

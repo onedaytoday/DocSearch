@@ -1,0 +1,98 @@
+**Touchmonitor LCD Mount Guide for Model 1566L (Revision P/N TouchSystems, Inc.)**
+
+**Contact Information:**
+TouchSystems, Inc.  
+1-800-ELOTOUCH  
+www.elotouch.com  
+
+© TouchSystems, Inc. All rights reserved. Reproduction, transmission, transcription, or translation of any part of this publication is prohibited without written consent from TouchSystems. The information within this document is provided without guarantees, including those of merchantability or suitability. TouchSystems may update this publication without notice. Trademarks such as SecureTouch, AccuTouch, and MonitorMouse belong to their respective owners.
+
+---
+
+**Table of Contents:**
+- Introduction
+- Precautions
+- Product Overview
+- Installation and Mounting Instructions
+- Connecting the Touchmonitor
+- Software Setup
+- Touchmonitor Operation
+- Troubleshooting
+- Technical Specifications
+- Warranty Information
+
+**Introduction:**
+Congratulations on your purchase of the LCD mount touchmonitor, featuring a high-resolution touchscreen designed for optimal information processing. This touchmonitor supports XGA resolution with Direct RGB input and complies with multiple VESA standards.
+
+**Product Overview:**
+The Touchmonitor (Model ET1566L) includes:
+- High refresh rates
+- Corded On-Screen Display (OSD) in English and Spanish
+- VESA DDC 1/2B and DPMS compliance
+- Certification from UL, CUL, FCC, CE, and C-Tick, among others
+
+**Installation and Setup:**
+When unpacking the Touchmonitor, ensure that all components are included, such as the LCD unit, software CD, power brick, and necessary mounting hardware. 
+
+**Mounting Instructions:**
+Utilize the supplied hex wrench and screws for mounting. Carefully position the monitor using the recommended NEMA specifications, ensuring the monitor is securely fastened.
+
+**Connecting the Touchmonitor:**
+Before connecting, ensure that both the touchmonitor and PC are powered off. Follow these steps for connecting your touchmonitor:
+- Connect the touchmonitor to your PC using the appropriate ports.
+- Attach the power supply to the touchmonitor.
+- Ensure proper grounding by using a three-pronged AC plug.
+
+**Software Setup:**
+The software CD includes drivers for various operating systems including Windows NT and MS-DOS. Follow the on-screen instructions for installation. For specific queries or issues, refer to the manufacturer's website.
+
+**Touchmonitor Operation:**
+For optimal performance adjustments, utilize the OSD. You can modify brightness, contrast, and other display settings via the corded OSD buttons.
+
+**Troubleshooting:**
+If issues arise, refer to the troubleshooting section for common problems and solutions.
+
+**Technical Specifications:**
+Refer to the product manual for complete technical specifications, including touchscreen specifications and warranty information.
+
+--- 
+
+This guide provides all necessary information for the installation, operation, and troubleshooting of your new touchmonitor, ensuring a seamless experience. For further inquiries or support, please visit the manufacturer’s website.
+
+### Troubleshooting and Technical Specifications for Touchmonitor
+
+**Touchmonitor Setup and Functionality**
+Ensure that the touchmonitor is properly connected, as detailed in the relevant chapters. If there are issues with the I/O display—such as incorrect representation or connection—confirm that the cables are linked correctly and that the power supply is functioning properly. The refresh rate for the graphic output must align with the LCD specifications.
+
+**Input Resolution Compatibility**
+The 15-inch XGA LCD touchmonitor is designed to handle various input resolutions. The following standards apply:
+- VGA
+- SVGA
+- XGA
+
+It's crucial to match the input resolution correctly; otherwise, the monitor may not display properly or may produce image artifacts. The touchmonitor is equipped with algorithms to enhance display quality by minimizing distortion and ensuring clarity for visual elements like text and graphics.
+
+**Safety Precautions**
+To prevent electric shock, follow necessary safety measures when handling the touchmonitor. Disconnect the power supply using the three-pronged cord and ensure it's grounded correctly. Avoid using any unauthorized cleaning materials that could void the warranty. For cleaning, use a soft cloth lightly dampened, carefully avoiding direct application of any chemicals to the touchscreen.
+
+**Touchmonitor Specifications**
+- **Model**: ET1566L
+- **Screen Type**: 15-inch Active TFT
+- **Touch Technology**: AccuTouch with dithering capabilities
+- **Brightness and Contrast**: Specifications typically include adequate backlighting and a brightness ratio suitable for most environments.
+- **EMC Compliance**: The unit meets UL, FCC-B, CE-B, and other relevant standards.
+
+**Touchscreen Performance**
+The AccuTouch touchscreen supports multiple simultaneous touch points, with a typical activation force lower than specified thresholds for ease of use. It has been rigorously tested to perform under various conditions, with resistance to common cleaning chemicals.
+
+**Mechanical Specifications**
+Construction includes materials rated for durability, and all connectors are designed for secure interconnections. The touchscreen is designed to withstand significant electrical interference, ensuring operational integrity under various conditions.
+
+**Regulatory Information**
+The touchmonitor is compliant with various safety and interference regulations, confirming that it meets established standards for electronic devices. Users are advised to ensure proper grounding and are informed of their rights regarding service and warranty claims.
+
+**Warranty**
+The product is covered by a warranty, ensuring that it is free from defects in materials and craftsmanship for a specified period. Claims should be reported promptly based on the outlined procedures to receive support or repairs efficiently.
+
+THE REMEDIES OUTLINED HEREIN SHALL CONSTITUTE THE BUYER'S SOLE REMEDIES FOR ANY BREACH OF WARRANTY. EXCLUDING THE SPECIFIC WARRANTY PROVIDED ABOVE, THE SELLER OFFERS NO OTHER WARRANTIES, WHETHER EXPRESS OR IMPLIED BY LAW OR OTHERWISE, REGARDING THE PRODUCTS, THEIR SUITABILITY FOR ANY PARTICULAR PURPOSE, QUALITY, MARKETABILITY, OR NON-INFRINGEMENT. NO REPRESENTATIVE OF THE SELLER HAS THE AUTHORITY TO OFFER ANY WARRANTIES OTHER THAN THOSE STATED HERE. THE SELLER'S LIABILITY UNDER THIS WARRANTY WILL BE LIMITED TO A REFUND OF THE PRODUCT'S PURCHASE PRICE. UNDER NO CIRCUMSTANCES SHALL THE SELLER BE RESPONSIBLE FOR THE COST OF ACQUIRING OR INSTALLING SUBSTITUTE PRODUCTS, NOR FOR ANY SPECIAL, CONSEQUENTIAL, INDIRECT, OR INCIDENTAL DAMAGES.
+

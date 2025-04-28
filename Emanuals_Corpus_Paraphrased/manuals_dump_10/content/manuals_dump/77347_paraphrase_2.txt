@@ -1,0 +1,101 @@
+### EM78612 Product Specification
+**ELAN Microelectronics Corp.**  
+**Revision: March OC Edition**
+
+**Acknowledgments:** This document references IBM, PS/2 technology, and Microsoft Corporation. Copyright is held by ELAN Corporation. Unauthorized reproduction of this specification, in any form or by any means, is strictly prohibited without ELAN Microelectronics’ written consent. ELAN makes no guarantees regarding the accuracy of the information provided.
+
+**Headquarters:**  
+ELAN Microelectronics Corp.  
+HONG KONG: 1005B, 10/F SSMEC Road  
+SWITZERLAND: www.elan-europe.com  
+USA: www.emc.com.tw
+
+---
+
+#### Applications and Features
+The EM78612 is designed for various applications, providing flexibility in functionality like USB and PS/2 I/O. Utilizing a RISC architecture, it combines low-cost USB compatibility with specific features such as a WatchDog timer and clock generator.
+
+#### Specifications
+- **Memory:**
+  - ROM: 2K
+  - SRAM: 12K
+- **Clock:**
+  - Supports both USB and PS/2 standards.
+- **I/O Functionality:**
+  - Integrated GPIO with internal pull-up resistors.
+- **Power Supply:**
+  - Operates at 3.3V.
+
+#### I/O Configuration
+The EM78612 includes multiple I/O pins designated for USB and PS/2 interfaces, each having unique roles defined by firmware. Internal pull-up configurations allow for seamless integration with devices utilizing USB or PS/2 connections.
+
+- **Pin Configuration:**
+  - USB Data: D+ (P50) and D- (P51)
+  - Other I/O: Configurable for various functionalities.
+
+---
+
+**Function Block Overview:**
+The EM78612’s architecture incorporates key elements such as:
+- **Clock Control:** TCC and WDT function settings.
+- **Memory Architecture:** RAM, ROM, and FIFO handling for efficient command processing.
+
+**Instruction Set:**
+Specifications include a detailed breakdown of operation codes, supporting both direct and indirect addressing modes. The device can execute commands with memory functions spanning from I/O operations to advanced processing tasks.
+
+#### Compliance and Final Notes:
+This version (V1.0) may be modified further, as ELAN Microelectronics Corp. continues to enhance performance and functionality. Please consult updated documents as needed for the most current specifications and capabilities of the EM78612.
+
+Sure, here is a paraphrased version of the provided text with the technical meaning intact:
+
+---
+
+**EM78612 Universal R9 Selection (0B_1111_1111)**  
+The R9 choice directs the MCU from RC (USB Application (0B_0000_0000) EP0_W EP0_R EP1_R RC, connecting both the MCU and RC to the UDC. If USB communication through the RC is established, this firmware will handle instructions automatically. The EP1_R and EP0_R endpoints are utilized to inform the UDC according to the requirements in the Product Specification (V1.0). Host functions are directed to the UDC; once a STALL SETUP is received, it is automatically reset. Both writing and reading are enabled, and operations from EP0 FIFO will only proceed once the UDC has completed its write or read tasks. This status will clear during activity. It is imperative to manage USB connections and reset the appropriate flags as required. The UDC will handle data exchanges post-processing.
+
+**USB Application FIFO (0B_0000_0000)**  
+Regarding the writing process, any data written into the FIFO must first overwrite existing entries, with all such operations being cleared automatically. Once writing to the FIFO is complete, the UDC will manage the data without needing further prompts. When interacting with EP0, data should be processed as follows:  
+- Use `MOVA, @0X10`  
+- `MOVRD, to RD`  
+- `MOVA, @0X03`  
+- `MOVRE to RE`  
+
+The reading operations can proceed once the UDC finalizes its engagement with the FIFO.
+
+**EM78612 Universal RF**  
+Entity EM78612 monitors TCC overflows and dynamically manages RF Endpoints based on USB activities. It distinguishes the state of RF operations during specific clock cycles. A range of data paths (R10~R1F and R20~R3F) directs various instructions, including "CONT," "CONTR," and "CONTW" alongside other I/O operations such as IO requests and writes. The behavior of arithmetic functions is consistent with the specified Product Specification (V1.0). 
+
+**WatchDog and I/O Management**  
+The CONT instructions manage the state of key control metrics and adjust settings as necessary. The relationships across parameters PSR and TSR are notable for controlling TCC and watchdog rates. These instructions, alongside various I/O configurations, delineate between input/output as determined by the firmware's configurations.
+
+**Pull-Up and Pull-Down Configurations**  
+The IOC features allow for parameter adjustments, determining whether pull-up or pull-down configurations are active based on USB or PS/2 setups. States defined within the specifications help manage behavioral functions across USB and I/O channels. 
+
+**Operational Specifications**  
+The EM78612 establishes frequency clocks and input conditions, applicable in various scenarios detailed in the product documentation, ensuring that configurations are maintained for both USB and PS/2 operation modes.
+
+**Command Processing**  
+The USB Command interface integrated into the EM78612 enables seamless command handling and prompt interactions across the UDC, allowing the MCU to execute various USB commands effectively. Included commands such as Clear Interface and Address operations support flexible management of endpoint communications. The firmware accommodates dynamic interactions, preparing the MCU for processing commands as needed.
+
+---
+
+This paraphrase maintains the technical structure while simplifying language for clarity.
+
+Here's a paraphrased version of your text in a natural, technical style, maintaining the original meaning:
+
+---
+
+C. Regarding the MCU, when the voltage drops from 3.3V to below 2.2V, it will power down. The WatchDog timer will reset upon overflow, but the UDC remains unaffected. The USB UDC operates in alignment with specified conditions. If a USB device is connected, it interacts accordingly with the MCU. The EM78612 offers various power conservation options, including clock management. Clearing the RUN status (IOCE[4]) effectively powers down the MCU. When USB is resumed or the WatchDog resets due to input signals, the MCU will process input I/O as programmed, using instructions like MOV A,@0XFF to manipulate PORT6.
+
+For product specification (V1.0), the EM78612 features an internal clock and condition registers that monitor various operations. When the Clock Counter (R1) overflows, it will affect the EP0 state of the USB UDC. The inputs manage individual state changes as they are documented in the EM78612 instruction set. The product specification outlines the default values for RF registers.
+
+The MCU's power supply characteristics while operating at 5V with 3.3V detection for high signals and defined input currents are specified. The static high and low levels for various outputs are detailed, ensuring compatibility with connected devices. The input characteristics with pull-up or pull-down resistors are also specified.
+
+In terms of USB interface functionality, the definitions for outputs and inputs on the associated GPIO pins are clarified, including recommended configurations for various application setups like PS/2.
+
+The EM78612 supports various instructions for indirect addressing and manipulating registers, with detailed operational effects and instructions listed for programming.
+
+---
+
+This version preserves the technical aspects and details while improving clarity and coherence.
+

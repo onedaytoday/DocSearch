@@ -1,0 +1,86 @@
+### Touchmonitor 2400LM LCD Touchmonitor
+
+**Model:** LCD Touchmonitor Revision C SW601252  
+**Contact:** 1-800-ELOTOUCH | [www.elotouch.com](http://www.elotouch.com)  
+**Copyright Notice:** This document may not be reproduced or transmitted in any form without written permission from Tyco. The information here does not come with warranties regarding merchantability or the right to provide this publication. It incorporates various technologies associated with AccuTouch, CarrollTouch, TouchSystems, and TE. All other trademarks belong to their respective owners.
+
+#### Important Safety Warnings
+
+To avoid the risk of electrical shock or fire, do not open the device. To minimize shock hazards, never remove the back cover, as it contains no user-serviceable parts. Uninsulated components inside may cause shock. This device complies with electromagnetic interference specifications.
+
+**Compliance and Performance:**  
+This device has been tested for compliance with IEC60601-1 and must be operated in the specified environments to ensure functionality. The device complies with relevant electromagnetic compatibility (EMC) regulations including IEC CISPR, with properties to withstand specific levels of interference.
+
+**Operating Conditions:**  
+- Continuous operation  
+- Suitable operating temperature: 0°C to 40°C  
+- Transportation conditions: Non-condensing humidity up to 3000M altitude  
+- Compliance with IPX1 ingress protection.
+
+**Regulations and Immunity:**  
+This device is designated as Class I equipment and has no applied parts. It requires proper grounding to ensure safety and functionality. When connected to networks or devices, care should be taken to minimize exposure to electromagnetic fields.
+
+### Technical Specifications
+
+- **Display:** 24-inch TFT LCD with touchscreen functionality
+- **Inputs:** AC supply (100-240VAC, 1.27A), DC (VDC/6.5A)
+- **Resolution:** WUXGA (1920x1200) 
+- **Brightness:** Typical levels of brightness and contrast ratio specifications available upon request
+
+### Installation Instructions
+
+1. **Unpacking the Touchmonitor:**  
+   Verify that the package contains the touchmonitor, power supply, cables (VGA, USB, etc.), and installation software.
+
+2. **Connecting the Monitor:**
+   - **Video Connection:** Connect the DVI or VGA cable from the monitor to the PC.
+   - **Touch Interface:** Connect the USB cable to enable touch functionality.
+   - Ensure all connections are secure and equipment is powered down during setup.
+
+3. **Speaker Connections (if applicable):**  
+   Connect any external speakers to the appropriate ports on the monitor.
+
+### Additional Information
+
+This touchmonitor is designed for both touch and non-touch operation. Operations must comply with safety instructions to avoid damage or malfunction. Maintenance and setup should be performed in a controlled, static-free environment.
+
+For complete usage instructions, troubleshooting, and warranty details, refer to the specific chapters in the user manual provided with the product.
+
+**IMPORTANT:** Refer to STEP 4 for instructions on connecting the DC power supply at the underside of the touch monitor. Ensure the cable runs through the protective conduit and connects to a grounded AC power source. After completing the connection, secure the cover using the provided screws and accessories.
+
+**Installation Guide:** Utilize a screwdriver to mount the medically-compliant touchscreen, which adheres to the VESA Physical Mounting Interface (FPMPMI). The FPMPMI interface is designed for various mounting solutions. You will find the VESA mounting location on the back of the touchscreen, along with the M4 Phillips screw locations.
+
+**Rear Mounting Instructions:** If the device is equipped with four pre-installed screws, remove them to attach it to the VESA mount according to the provided template. For further assistance on VESA mounting, you can reference resources from GCX or Ergotron.
+
+**Touch Software Installation:** To set up the LCD touch monitor with the necessary drivers, refer to the documentation included on the CD-ROM, which details compatibility with operating systems such as XP, NT, and MS-DOS. For specific instructions regarding USB connections, follow the directions provided in the manual.
+
+**Operating the Touchmonitor:** The monitor includes features for adjusting its settings through the On-Screen Display (OSD). Use the designated buttons to navigate the OSD, which includes options for increasing or decreasing settings such as brightness and sharpness, changing input sources, and accessing various modes. 
+
+For optimum performance, familiarize yourself with the OSD functions and configuration options available. Ensure the touchscreen is securely connected to avoid issues during operation. 
+
+**Safety and Maintenance:** Always turn off the power before performing maintenance on the device. Use a soft cloth for cleaning and avoid abrasive materials. The touchmonitor contains components that must be disposed of according to local regulations.
+
+**Technical Specifications:** The LCD touch monitor features include a native screen resolution that supports multiple formats (VGA to WUXGA). The specifications also detail electrical requirements and dimensions. For safety compliance, ensure that the device is connected to a compatible power supply.
+
+For detailed troubleshooting and specifications, please consult the relevant chapters dedicated to installation and operation.
+
+### Regulatory Information
+
+**I. Information:**
+A) This product must be installed and operated in accordance with the specified guidelines to prevent any malfunction or fire hazards.  
+B) Only qualified service technicians should perform maintenance and servicing on this equipment.  
+C) Ensure proper connections are made according to the specifications provided.  
+
+**II. EMI and Immunity Information**
+A) **U.S. Notice:** This equipment has been tested and complies with FCC Class B standards, providing reasonable protection against radio frequency interference when properly installed and used.  
+B) **Canadian Notice:** This device meets the requirements set forth by Canadian interference regulations.  
+C) **European Union Notice:** The cables and interconnections comply with CE standards as specified in the relevant directives, including EMC Directive 89/336/EEC and Low Voltage Directive 73/23/EEC.  
+D) **User Information:** If the device interferes with radio or television reception, try turning it off and on or adjusting the position of the affected receiver. If necessary, relocate the device or change the outlet being used to reduce interference. Ensure the device is plugged into a properly grounded outlet to minimize risks of RF interference and electrical shock. 
+
+**III. Warranty Information**
+This product is compliant with C-Tick, IC, CE, VCCI, and UL standards, pertaining to regulations governing interference-causing devices. We guarantee this product is free from defects in materials and workmanship for a period of three years. In case of any issues, please inform us in writing within thirty days of discovery to initiate warranty procedures. All returns must include the original packaging, and the product should be functional. 
+
+All remedies described herein are the exclusive remedies available to the buyer for any breach of warranty. Except for the express warranty detailed above, no other warranties, whether express or implied, including those of fitness for a particular purpose, quality, and merchantability, are granted. Employees of the seller are not authorized to make additional warranties beyond those stated. The seller's liability under this warranty is limited to refunding the product's purchase price and does not cover procurement or installation costs of substitute goods or any indirect, special, or consequential damages arising from the use of the product.
+
+For product specifications, news, press releases, and software updates, please visit [www.elotouch.com](http://www.elotouch.com). For assistance, contact our North America office at 2F CA USA D-85521 B-3010 ELO-TOUCH.
+

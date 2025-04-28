@@ -1,0 +1,83 @@
+### 2201L SW601363 Touchmonitor Overview
+
+**Copyright Information**  
+This document is protected under copyright law. No part of this publication may be reproduced, transmitted, or translated by any means without written permission from TouchSystems and TE. All rights regarding merchantability and variations of this publication are reserved. Microsoft and other entities possess rights to their respective trademarks, distinct from this document.
+
+---
+
+### Chapter Structure  
+- Introduction  
+- Mounting  
+- Technical Information  
+- Warranty Information  
+
+---
+
+### Chapter Introduction  
+The 2201L Touchmonitor by TouchSystems features advanced performance specifications. Utilizing an active thin-film transistor (TFT) LCD technology, it delivers high-definition graphics, enhanced by an LED backlight that minimizes environmental impact compared to traditional CCFL technology. The monitor includes on-screen display (OSD) capabilities, built-in audio, and compliance with various standards. Users are encouraged to review the installation and safety information provided in subsequent chapters.
+
+---
+
+### Touchmonitor Components  
+The package includes the touchmonitor, a protective cover, TouchTools CD, as well as DVI, VGA, USB, and AC-DC connectors for North America. Installation instructions can be found at the back of the monitor. 
+
+---
+
+### Connections and Power  
+Connect the DVI or VGA input to the appropriate ports, ensuring to tighten screws for stable performance. Connect USB interfaces accordingly. The AC input should be routed neatly to avoid obstruction. Power on the monitor using the designated button.
+
+---
+
+### Software Installation  
+To set up the touchmonitor with Windows XP or WEPOS, use the software included on the TouchTools CD. More installation resources can be found at www.elotouch.com.
+
+---
+
+### Mounting Information  
+The OSD can be adjusted for mounting using the four M4 screws at the rear for VESA MIS-D C mounting compliance. 
+
+---
+
+### Power States  
+The touchmonitor's LED indicates its status: SLEEP, OFF, or ON. The device is factory-calibrated and should conform to specified input requirements for optimal performance. 
+
+---
+
+### OSD Functionality  
+The touchmonitor’s OSD buttons allow users to control settings such as brightness and contrast. Additional functionalities include clock settings, scaling options, and aspect ratios, displayed graphically via the OSD. 
+
+---
+
+### Language and OSD Settings  
+The OSD setup provides language options, screen rotation, and input source selection. The buttons facilitate adjustments for the display and audio output settings.
+
+---
+
+### Safety and Care Instructions  
+To prevent damage, ensure the AC connection is secure. For cleaning, use a soft cloth; avoid abrasive materials or aggressive solvents. 
+
+---
+
+### Environmental Compliance  
+The monitor adheres to WEEE regulations for responsible disposal and recycling, ensuring compliance with environmental standards.
+
+--- 
+
+For further assistance, contact Technical Support through www.elotouch.com/products or visit the support links provided.
+
+### Chapter Summary
+
+**I. General Information**: This chapter provides operational details and references the required service procedures for technicians when handling this equipment. It outlines the importance of adhering to specified operational guidelines related to connections and fire safety compliance.
+
+**II. FCC Compliance Notice**: The device has been tested and complies with FCC Class B standards, offering reasonable resistance to interference when installed according to the provided instructions. The notice details the connections and cables permissible under CE and FCC regulations. Users should be aware that external factors may affect immunity to interference. If interference is detected, users are advised to disconnect the device and reposition it or the receiving antenna to mitigate issues.
+
+**III. Regulatory Approvals**: The product has been granted certifications from relevant authorities, including FCC, UL, and others, ensuring compliance with established safety standards.
+
+**IV. Environmental Compliance**: The product contains materials regulated under the Chinese RoHS directive and other international standards regarding toxic substances like lead, mercury, and certain brominated compounds. Manufacturer guidance indicates how to handle these materials properly, following environmental regulations.
+
+**V. Specifications**: The product operates on an input range of 100-240VAC and outputs 12VDC at 3A. Operating conditions are specified, including temperature and humidity ranges.
+
+**Chapter Warranty Information**: The manufacturer provides a warranty for three years against defects in materials and workmanship on TouchMonitors and other specified products. The warranty requires timely reporting of defects to enable inspections. While the warranty assures product quality, it does not extend beyond the scope explicitly outlined, including any indirect liabilities. Warranty claims should be made within thirty days of product discovery issues, and users must bear any associated costs. 
+
+For further information, users can visit www.elotouch.com or contact the North America office at 800-ELO-TOUCH.
+

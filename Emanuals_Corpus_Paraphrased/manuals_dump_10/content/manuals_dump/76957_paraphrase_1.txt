@@ -1,0 +1,63 @@
+### ISP Warranty Performance Overview
+
+The warranty covers products against defects in functionality and workmanship, except for issues caused by overloading, unauthorized operation, or other specific exclusions. Warranty claims are valid for a period that extends a specified number of months from the date of service, and all warranty-repaired units will be treated as part of this policy. Certain warranty claims may be rejected based on the outlined conditions found in the Terms and Conditions on the reverse side of the warranty card. 
+
+### Technical Guidelines for ISP
+
+The ISP OEM recommends that users review the following flowchart for understanding operational procedures. If issues arise with the ISP, it is advised to refer to the respective chapters associated with the ISP model or motherboard specifications.
+
+#### Technical Inputs
+
+The velocity feedback input features protective mechanisms, including short-circuit protection and inductance, especially when the ISP is mounted within a 3U ENC enclosure. The supplied equipment includes standard procedures for amplifiers operating in clockwise (CW) and counter-clockwise (CCW) modes.
+
+### Contents Overview
+
+- Velocity Feedback Mechanisms
+- Amplifier Specifications and LED Indicators
+- Activation Protocols for Protective Functions
+- Assembly Specifications for the ISP amplifier and power supply, rated at 1500W, including an integrated power supply with predefined linearity.
+
+### Specifications and Mounting
+
+The ISP models listed include various ratings such as ISP-8/65, ISP-15/65, and ISP-5/135 among others. Each model has distinct technical specifications illustrating AC and DC input parameters and operational efficiency. The inputs include current monitoring and feedback relays, with clearly defined voltage ratings and operational limits.
+
+### Safety and Protection Features
+
+The internal protective features of the ISP include short-circuit and latch protections. These mechanisms prevent unintended currents from reaching potentially damaging levels and require parameter alignment according to technical specifications to ensure safe operation.
+
+### Wiring and Grounding Recommendations
+
+Proper mounting of the ISP is essential for optimal heat dissipation and operational efficiency. All wiring should be appropriately grounded and shielded to avoid performance degradation. Twisted and shielded wires should be used for all feedback connections to minimize electromagnetic interference (EMI). Ensure all connections are secure and periodically inspect for integrity and proper earth grounding. 
+
+This technical overview provides essential guidelines for the operation, maintenance, and installation of ISP systems to ensure reliable performance and longevity.
+
+**Inductance Specifications**  
+Inductance values should conform to the recommended ratings provided (Ir) for both DC and AC supply configurations. If the system operates under DC conditions, the appropriate inductance must be maintained across the relevant branches. For AC supply, adherence to the technical specifications—including protection activation protocols—is essential. Chapter guidelines detail the necessary inductance intervals for both DC and AC configurations.
+
+**Chassis Wiring and Grounding**  
+For optimum performance, chassis wiring must be twisted and shielded to minimize RFI interference. The grounding setup includes configurations for M1, M2, and their respective ground connections with the ISP.
+
+**Phase Transformer Connections**  
+When connecting multiple ISPs, ensure proper single-phase transformer integration. Refer to the wiring standards for DC and AC compatibility.
+
+**Feedback and Control Connections**  
+Feedback control connections should handle armature voltage and tachogenerator signals. The use of twisted and shielded cables is recommended to mitigate interference. The connection process will be outlined in standard operational procedures for CW/CCW amplifiers. 
+
+**Velocity Control and Protection**  
+Velocity settings should be carefully implemented through specific resistors (e.g., R6, R5) to enhance amplifier performance. The selection of reference inputs and feedback mechanisms is crucial to ensure accurate velocity readings. 
+
+**Protection Activation**  
+Protection mechanisms, such as disabling feedback, can be managed through active low or closed-contact protocols. Ensure that specific resistors (e.g., R14, R15) are correctly configured to reflect the amplifier's voltage ratings.
+
+**Velocity Feedback Implementation**  
+The design mandates that reference inputs are accurately linked to velocity feedback mechanisms (R3, R4) to optimize system responsiveness. 
+
+**Continuous Contouring Settings**  
+For continuous contouring operations, adjust the resistances (R11, R10) as necessary. Activation of feedback circuits is essential to maintain operational contouring precision.
+
+**Physical Mounting and Enclosures**  
+The mechanical outline of the enclosure must reflect accurate dimensions for all components, ensuring that all installations comply with specified guidelines across different models, including rack mounting specifications.
+
+**Support and Maintenance**  
+For detailed instructions and diagrams, consult the ISP documentation from ELMO Service Motion LTD and relevant support resources. All dimensional specifications should adhere strictly to the outlined standards.
+

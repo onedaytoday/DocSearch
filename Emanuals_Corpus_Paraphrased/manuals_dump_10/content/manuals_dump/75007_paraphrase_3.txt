@@ -1,0 +1,105 @@
+**E30MO75HSS E30M075HSS E30M075HSS E30MO75HSS**  
+**Appliances North America**  
+P.O. BOX  
+AUGUSTA, GA  
+
+**BRUSH DIRECTION**  
+**Product Codes:** E30MO75HPSA, E30MO75HSSA  
+**North America**  
+TIN: SEB493MRR1  
+**Instructions:** TINSEB504MRR0  
+**Publication:** (EN/SERVICE/KC)  
+**Copyright:** Products, Inc.   
+
+**COUNTER-TOP MICROWAVE**   
+Model Numbers: E30MO75HP, E30MO75HS  
+**Publication Index:**  
+- E30MO75HP (E30MO75HPSA)  
+- E30MO75HS (E30MO75HSSA)  
+
+| **POS. NO** | **PART NO.** | **DESCRIPTION**                             |
+|-------------|---------------|--------------------------------------------|
+|             | Cord          | Assembly, switch                           |
+|             | Switch        | Interlock, Thermal                         |
+|             | Motor         | High convection/oven, light                |
+|             | Rectifier     | High                                       |
+|             | Motor         | Assembly, AH                               |
+|             | Thermistor    | Motor                                      |
+|             | Casing        | Chassis, cover back, right                 |
+|             | Cushion       | Duct Assembly, release Coupler             |
+|             | Turntable     | Motor light cooling chassis                 |
+|             | Cushion       | Thermal protection                          |
+|             | Functional    | Non-Illustrated                            |
+
+**OVEN, CABINET**  
+**Publication Index:**  
+- E30MO75HP (E30MO75HPSA)  
+- E30MO75HS (E30MO75HSSA)  
+
+| **POS. NO** | **PART NO.** | **DESCRIPTION**                             |
+|-------------|---------------|--------------------------------------------|
+|             | Thermal       | Thermistor, right                          |
+|             | Duct          | Turntable mount, right                     |
+|             | Assembly      | Thermal protection, LH                     |
+|             | Bearing       | Duct Assembly, heater thermal               |
+|             | Screw         | Height                                     |
+|             | Functional    | Non-Illustrated                            |
+
+**OVEN, CABINET**  
+**Publication Index:**  
+- E30MO75HP (E30MO75HPSA)  
+- E30MO75HS (E30MO75HSSA)  
+
+| **POS. NO** | **PART NO.** | **DESCRIPTION**                             |
+|-------------|---------------|--------------------------------------------|
+|             | Screw         | White                                      |
+|             | Cushion       | Right board                                |
+|             | Heating       | Height                                     |
+|             | Functional    | Non-Illustrated                            |
+
+**CONTROL PANEL, DOOR, MISC.**  
+**Publication Index:**  
+- E30MO75HP (E30MO75HPSA)  
+- E30MO75HS (E30MO75HSSA)  
+
+| **POS. NO** | **PART NO.** | **DESCRIPTION**                             |
+|-------------|---------------|--------------------------------------------|
+|             | Touch Board   | Professional Touch                         |
+|             | CPU           | Mount grounding supply                      |
+|             | Screw         | Assembly, high outer cover                  |
+|             | Head          | Right                                      |
+|             | Harness       | Wire, high, cooling                        |
+|             | Wire          | Ground                                     |
+|             | Rack          | Functional non-illustrated                 |
+
+**SCHEMATIC**  
+**NOTE:** OVEN DOOR MUST BE CLOSED. CLOCK DISPLAYED.  
+| **COMPONENT**                                    | TOPOLOGY                       |
+|--------------------------------------------------|-------------------------------|
+| Noise Filter Unit Fuse 20A                        |                               |
+| Noise Suppression Coil 120V                       |                               |
+| Convection Motor                                   |                               |
+| Turntable Motor                                    |                               |
+| Damper Motor                                       |                               |
+| Oven Lamp                                         |                               |
+| Fan Motor                                         |                               |
+| 3rd Door Switch                                   |                               |
+
+**IMPORTANT:** Circuit configurations are subject to change without notice. Wire color codes apply solely to the primary circuit, not to low voltage circuits. Ensure hot wires connect at the terminal marked with a blue indicator on the lamp socket and an "H" mark on the power supply cord. 
+
+**WIRING SCHEMATIC**  
+**DIAGRAM (DOOR CLOSED, COOK OFF CONDITION)**  
+- **Oven Magnetron** (A3, A7, A9, A5)  
+- **Low Voltage Transformer** (B1, B2, B3, B4)  
+- **Relay Controls** (RY1, RY2, RY3, RY4, RY5, RY6)  
+- **Door Sensing Switch**  
+- **Damper Thermistor**  
+
+**PRIMARY INTERLOCK SWITCH** (RY1)  
+- **Power Transformer (RY3)**  
+- **Secondary Interlock Relay** (RY2)  
+- **Heating Capacitor**  
+- **Rectifier Element**  
+
+**NOTE:** All wiring and circuit configurations are subject to updates.
+

@@ -1,0 +1,120 @@
+### Touchmonitor and CRT Rear Mount Touchmonitors 
+**Document No.: SW500127**  
+**Part Numbers: ET1545C, ET1745C**  
+**TouchSystems, Inc.**  
+**Customer Service: 1-800-ELOTOUCH**  
+**Website: www.elotouch.com**  
+
+**Copyright Notice:**  
+This publication may not be reproduced, transmitted, transcribed, translated, or transformed in any form without the written consent of TouchSystems. The information presented is subject to change without notice and does not guarantee distinct warranties, including merchantability or ownership rights concerning this publication. TouchSystems is not liable for any obligations related to revisions or updates. Trademarks and product names such as SecureTouch, AccuTouch, and MonitorMouse belong to TouchSystems, Inc., or their respective owners.
+
+### Table of Contents  
+- **Chapter 1: Introduction**  
+  - Overview of the Product and Touchmonitor
+  - Selecting a Location  
+  - Mounting the Touchmonitor  
+  - Connecting the Touchmonitor  
+  - Software Installation  
+
+- **Chapter 2: Operation**  
+  - Using the On-Screen Display (OSD)  
+  - Troubleshooting  
+  - Technical Specifications  
+  - Touchmonitor Specifications  
+  - Warranty Information  
+
+### Chapter 1: Introduction  
+This section covers the high-resolution Touchmonitor CRT Rear Mount, detailing its capabilities and features. The touchmonitor operates optimally with CRT systems and facilitates high-quality information flow. Key features include a 13.8-inch microprocessor-based 15-inch and 15.7-inch variant with a 17-inch model also available, supporting various refresh rates. It adheres to VESA DPMS and DDC1/2B standards and utilizes patented technology from TouchSystems with both RS-232 and USB interfaces.
+
+### Unpacking and Setup  
+This chapter guides you through unpacking your Touchmonitor CRT Rear Mount and installing the provided TouchTools CD-ROM software. Ensure you have the touchmonitor and tethered CD software ready.
+
+**Installation Instructions:**
+- Maintain a distance of at least 18 inches from heat sources and reflective surfaces to minimize strain and ensure optimal viewing.
+- Select a sturdy mounting location for the touchmonitor.
+
+### Mounting the Touchmonitor  
+The Touchmonitor can be mounted either horizontally or vertically depending on your requirements. Use a screwdriver to attach the bracket securely using the provided screws. 
+
+### Connecting the Touchmonitor  
+To connect the touchmonitor, choose between RS-232 or USB options. Ensure both the touchmonitor and PC are powered off during the connection process to prevent damage.
+
+1. Connect the power cord to a grounded outlet.
+2. Attach the touchscreen interface to the appropriate port on the PC and the corresponding terminal at the back of the touchmonitor.
+
+### Software Installation  
+For software settings, access the OSD and utilize the soft switch to adjust parameters such as brightness and contrast. The software provided on the TouchTools CD-ROM assists with plug-and-play functionality for various operating systems.
+
+**Note:** Follow detailed instructions for different operating systems, including NT and others, to ensure proper installation and functionality. 
+
+### Maintenance and Usage  
+This chapter ensures that the touchmonitor maintains factory specifications and covers the adjustments available via the touchmonitor's control buttons. 
+
+### Conclusion  
+For further assistance with your Touchmonitor CRT Rear Mount, consult the troubleshooting section or reach out to customer support.
+
+Here's a paraphrased version of your text, maintaining the original meanings while presenting it in a clear and technical style:
+
+---
+
+**Chapter Overview: OSD Functions and Settings**
+
+This chapter discusses the On-Screen Display (OSD) of the Touchmonitor CRT Rear Mount, including adjustments for horizontal (H) and vertical (V) settings, as well as pincushion corrections. Users can modify the pincushion settings depending on the display position. If the interface shows repeated patterns or discrepancies, adjustments can be made to the settings. The OSD can display information regarding the preset color and polarity configurations for the Touchmonitor CRT Rear Mount, applicable in multiple languages, including English, French, Spanish, Swedish, Finnish, and Danish.
+
+In terms of color temperature settings, users can select from three options: 9300K, 6500K, or customized USER settings, where users can adjust red, green, and blue levels to their preference. 
+
+**Brightness Control:**
+The chapter outlines how to manage the brightness settings of the Touchmonitor CRT Rear Mount during regular operation. Should the monitor show stray light or flickering, adjustments can be made to reduce such occurrences.
+
+**Troubleshooting:**
+This section provides guidance on routing issues between the touch monitor and the PC, ensuring compliance with VESA Display Power Management Signaling (DPMS) standards. If the monitor shows a ‘No Signal’ error, the system should be examined for proper connections and refresh rate settings. Users must check that the monitor is positioned appropriately to avoid distorted images.
+
+Warnings such as “OUT OF RANGE” indicate that the graphics refresh rate is too high, necessitating parameter adjustments. On troubleshooting touchscreens, users may encounter frustrations if they are unfamiliar with touchscreen operations compared to traditional input methods.
+
+**Touchscreen Technology:**
+The AccuTouch touchscreen technology mentioned includes features that facilitate enhanced interaction. These touchscreens are designed to be durable and resistant to scratches and heavy use, making them suitable for various applications, including point-of-sale terminals and educational environments.
+
+**Maintenance:**
+To maintain optimal performance and ensure safety, users should follow proper grounding procedures and regular cleaning. Only recommended cleaning agents should be employed to avoid damaging the screen.
+
+**Technical Specifications:**
+The specifications safeguard consistent performance, including VESA DPMS compliance and various input configurations. The touchmonitor features multiple adjustment settings for optimal visual output, including horizontal and vertical positioning, pincushion adjustments, and color control. 
+
+**Chemical Resistance:**
+Touchscreen surfaces are designed to withstand exposure to certain chemicals, ensuring longevity and reliability in various environments.
+
+**Final Notes on Mounting:**
+Proper installation practices for the Touchmonitor CRT Rear Mount are essential to ensure it functions effectively within prescribed limits.
+
+--- 
+
+This rewritten version organizes and clarifies the content while remaining faithful to the original's technical details and meaning.
+
+**Information and Safety Guidelines for Touchmonitor CRT Rear Mount**
+
+A) This product is designed to operate within specified parameters. Exceeding these recommendations may result in damage, malfunction, or fire hazards.
+
+B) Any repairs or servicing should be conducted by a qualified technician.
+
+C) Ensure proper grounding using a three-prong plug. Failure to ground correctly may cause electric shock, which can result in serious injury or death. If there are concerns about connectivity, refer to the following:
+
+A) Notice for the United States: This device has been tested and complies with FCC rules for Class B devices, ensuring reasonable protection against interference. Adhere to the operational instructions to mitigate interference.
+
+B) Notice for Testing: This device conforms to standards regarding interference for Class B devices, as defined by appropriate regulatory bodies.
+
+C) Notice for the European Union: This device complies with CE directives, specifically Directive 73/23/ECC and EMC Directive 89/336/ECC for both Class B and non-Class B devices.
+
+D) User Information: This device may experience interference due to environmental factors. To troubleshoot, consider the following:
+
+- If interference is detected, try relocating the unit or turning it off and on again. You may also need to adjust the affected receiver's position.
+
+- Disconnect the AC power and branch circuit connected to the affected unit.
+
+- For any high RF interference, ensure that the device is connected to a properly grounded AC outlet.
+
+Regarding warranty: unless stated otherwise, the manufacturer warrants the product against defects in materials and workmanship. Users must notify them of any product issues within thirty days of discovery for evaluation and potential inspection. The warranty covers reasonable inspection costs and options available.
+
+THESE REMEDIES SHALL BE EXCLUSIVE FOR WARRANTY CLAIMS. EXCEPT FOR THE EXPRESS WARRANTY MENTIONED, THE SELLER DISCLAIMs ALL OTHER WARRANTIEs, WHETHER EXPRESS OR IMPLIED, INCLUDING FITNESS FOR A PARTICULAR PURPOSE OR MERCHANTABILITY. Only authorized personnel may issue warranties other than the stipulated one. The seller's liability under this warranty is limited to the refund of the purchase price. They are not liable for substitute goods or any consequential, indirect, or incidental damages.
+
+For more information regarding the products and warranty, visit www.elotouch.com.
+

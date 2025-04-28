@@ -1,0 +1,23 @@
+**Telephone Protector Security ELK-952**
+
+The ELK-952 provides protection for telephone lines using the RJ31X interface, integrating features that surpass standard MOV protection. 
+
+**Installation Instructions:**  
+This device is designed for use with the RJ31X and includes protective components, such as Ring-Ground tube and inductors, which enhance its effectiveness compared to MOVs. Ensure proper connection to Earth Ground for optimal performance. The RJ45 connector is intended for direct attachment to the RJ31X jack.
+
+**User Instructions:**  
+Compliance with FCC guidelines is essential, and additional information is available in the ACTA documentation regarding the REN (Ringer Equivalence Number). Should you need this information, it can be provided upon request. The REN indicates the number of devices connected to the phone line; ensuring the total does not exceed limits is crucial for service functionality. 
+
+If you experience connection issues, temporary disconnections from your telephone service may resolve problems. Also, verifying that the device adheres to FCC regulations ensures proper operation without interference. 
+
+For optimal use, it is advised to connect the AC system precisely as outlined. Any issues arising from incorrect installation may impact performance. 
+
+**Warranty Information:**  
+The product comes with a one-year warranty. For further details about warranty policies and other products, visit www.elkproducts.com.
+
+**Technical Specifications:**  
+- Voltage Rating: 250V - 280V  
+- Max Current: 100 Amps  
+- Manufacturer: ELK Products Inc., P.O. Box 100, USA  
+
+

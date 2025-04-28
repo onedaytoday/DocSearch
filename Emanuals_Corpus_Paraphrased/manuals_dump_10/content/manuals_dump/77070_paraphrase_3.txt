@@ -1,0 +1,103 @@
+### Touchmonitor 1229L LCD Touch Monitors with Optional and Rear Customer Display
+
+The Touchmonitor 1229L LCD incorporates optional features and a rear-facing customer display. The ET1229L Touch Systems, Inc. Revision P/N E799279 is available through 1-800-ELOTOUCH and on www.elotouch.com. All rights to this publication are reserved and reproduction in any form without written consent from Touch Systems is prohibited.
+
+#### Disclaimer
+
+The information provided is subject to change without notice and comes with no specific warranties regarding merchantability or suitability for any purpose. Touch Systems and its technologies, including SecureTouch, AccuTouch, and MonitorMouse, are proprietary to Touch Systems, Inc. 
+
+### Chapter Overview
+
+- **Product Specifications**
+- **LCD Performance**
+- **Customer Interface Theory**
+- **Testing Methods for USB and MSR**
+
+### Product Overview
+
+The 1229L model is equipped with an LCD touchscreen and offers optional features such as a customer display (VFD) and various USB configurations. With a screen size of 12.1 inches, it supports SVGA resolution, utilizing three types of touchscreen technology: AccuTouch, IR, and more. The customer display utilizes a VFD for character imaging, which supports user authentication through software processing. 
+
+### Technical Specifications
+
+1. **TFT LCD Characteristics**
+   - Typical parameters including brightness, response time, and contrast ratios.
+   - Touchscreen specifications detailing various input methods.
+
+2. **USB Connectivity**
+   - Details on interfacing with peripherals and standards compliance for universal connection.
+   - Descriptions of protocols for credit card reading and data transfer specifications.
+
+### Testing Procedures
+
+Testing methodologies for magnetic stripe readers (MSR) and various USB interfaces are thoroughly documented. The software and drivers necessary for operation are available on the accompanying CD, with specific instructions for installation and configuration.
+
+### Setup and Connections
+
+- Ensure the touchmonitor is powered off before making any connections.
+- Follow specific installation instructions to securely connect the monitor to various input sources, including VGA and USB, ensuring all screws are tightened appropriately to maintain grounding.
+
+### Customer Display Integration
+
+Instructions for the rear-facing display, compatible with various operating systems including Windows XP and NT, are provided along with troubleshooting tips for software installation. 
+
+### Conclusion
+
+This comprehensive guide serves as an essential resource for the integration and operation of the 1229L LCD touchmonitor, ensuring effective setup and utilization of its advanced features.
+
+To integrate Touch MS-DOS and You DOS (MOUSE.COM) with a touch monitor running DOS, please follow the steps outlined below: 
+
+1. From DOS, access the CD-ROM directory to initiate the installation for the touchscreen.
+2. Ensure that previous software installations have been completed as detailed in Chapter 1 of the DOS information guide.
+3. Run the INSTALL program located within the directory containing the installation files. Select the necessary options from the displayed menu to either install or overwrite existing files as required.
+4. If AUTOEXEC.BAT already exists, it will be replaced by INSTALL AUTOEXEC.BAT, which will be archived as AUTOEXEC.OLD.
+5. After completing the INSTALL procedure, execute GO.BAT from the specified subdirectory to set up the touchscreen. Follow on-screen instructions for the ELOCALIB.
+
+**Note:** For users utilizing Windows XP with USB touch functionality, make sure the CD-ROM is active. Select “Next” on the search for installation locations, then choose the CD-ROM directory and again select "Next" once the USB touchscreen has been detected. 
+
+If prompted, confirm copying files to the system from the CD. 
+
+Additional details regarding the touch monitor's performance can be accessed through the On-Screen Display (OSD). For optimal screen clarity and functionality, consult the specifications to make necessary adjustments that comply with factory settings via the OSD options.
+
+**Touchmonitor Functionality:**
+- The OSD allows users to toggle settings and adjust parameters such as sharpness, brightness, and contrast.
+- Control to increase or decrease settings can be managed through the designated buttons on the OSD.
+- If changes need to be reverted to factory presets, users can navigate through the OSD menu.
+
+**Operational Guidelines:**
+To maintain the monitor's integrity, avoid using harsh cleaning agents directly on the touchscreen. Instead, utilize a soft cloth. In the event of troubleshooting, safety protocols should be followed, including disconnecting the power supply when performing maintenance.
+
+**Technical Specifications:**
+The Touchmonitor (model: ET1229L) supports resolutions up to SVGA and features a robust touchscreen design suitable for various applications, ensuring compatibility with diverse input methods and optimal performance metrics. 
+
+Always refer to the provided documentation for comprehensive setup and operational guidelines.
+
+### Touchmonitor Overview
+
+**I. Safety Information**  
+A) Ensure operations comply with specified guidelines to avoid risks.  
+B) Repairs should only be carried out by a qualified service technician.  
+C) This device must be grounded using an appropriate outlet to prevent serious electric shock or death.
+
+**II. Compliance Information**  
+A) U.S. Notice: This device has been tested and meets FCC Class requirements, providing reasonable protection against interference. Follow the installation instructions to maintain compliance.  
+B) U.S. Notice: Compliance falls under Class regulations for interference.  
+C) European Union Notice: This product adheres to the CE and relevant directives regarding electromagnetic compatibility (Directive 89/336/EEC) and safety (Directive 73/23/EEC).  
+D) User Guidance: If you experience interference, it may be caused by external factors. Adjust the positioning or disconnect other devices to resolve issues. 
+
+### Warranty Information
+
+This touchmonitor is warranted to be free from defects in materials and workmanship. The warranty covers a period of years, requiring prompt reporting (within thirty days) of any issues for inspection. Limited remedies include a refund of the purchase price if the product fails to meet warranty standards. The seller disclaims any additional warranties, either expressed or implied, aside from those stated herein.
+
+**Notable Disclaimers:**  
+The seller is not liable for costs related to substitution or incidental damages. Any disputes regarding compliance or product quality should be directed to the appropriate regulatory bodies.
+
+For detailed product specifications and support, including software drivers and technical data, visit [www.elotouch.com](http://www.elotouch.com) or contact TouchSystems, Inc. at their U.S. headquarters. 
+
+**Assembly Instructions:**  
+- Ensure proper assembly using the specified components such as LCD and PCB among others.  
+- Refer to the provided documentation for detailed assembly guidance.
+
+### Conclusion
+
+For further information and resources, please contact our support team or check our website.
+

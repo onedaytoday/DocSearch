@@ -1,0 +1,123 @@
+# Theatre Owner Manual
+
+### Warning: Risk of Electric Shock
+**Do Not Open.** The arrow symbol indicates a risk of electric shock inside the device. Please refer to the operating and servicing instructions provided with this manual.
+
+### Safety Alerts
+**Warning:** To prevent fire or electrical hazards, avoid exposing this appliance to rain or moisture.  
+**Caution:** To minimize the risk of electric shock, do not remove the cover or back panel. There are no user-serviceable parts inside. Service should be performed by qualified personnel only.
+
+### Important Information (UK Version)
+This appliance must comply with local safety standards, specifically BS1362 for fuses, utilizing a molded type plug. The fuse rating should be 13A. Never use a fuse rated higher than 5A.
+
+### Connecting the Power Plug
+Wire connections should follow color codes: 
+- Blue (Neutral - "N") 
+- Brown (Live - "L") 
+- The blue wire connects to the "N" terminal or black wire, while the brown wire connects to the "L" terminal or red wire.
+- Ensure the earth connection is intact, typically green-and-yellow, and that the outer sheath of the lead is not damaged.
+
+### Copyright Information
+This manual is protected under copyright laws, including the Dramatic and Musical Protection Acts.
+
+### Safety Precautions
+When using the equipment, adhere to the following guidelines:
+- Ensure the area is free from obstruction around the unit.
+- Keep it away from extreme heat, cold, or direct sunlight.
+- Avoid placing heavy objects on top.
+- Disconnect power during storms or when leaving unattended.
+
+### About the Memory Function
+This device has a memory function that retains settings. Press the tuning mode button for over two seconds to reset memory. If the power is interrupted for an extended period, the memory may be erased.
+
+### DTS Surround Sound
+DTS technology enhances audio quality in home theaters, delivering sound replicated precisely as intended in recordings. It encompasses various formats, including DVDs and CDs, to provide an immersive surround experience.
+
+### Rear Panel Connections
+1. **AC Outlets:** Provide power when the unit is on.
+2. **Pre-Out/Surround:** Connects to external devices or powered subwoofers.
+3. **Channel Inputs:** For connecting DVD players, VCRs, and other audio/visual equipment. Use appropriate RCA cables for stereo sound.
+
+### Connecting Various Devices
+For optimal audio quality, connect devices using S-Video where applicable. Ensure all connections are secure, and switch the TV input settings based on the device you are using (DVD or VCR). 
+
+### Digital Inputs/Outputs
+Utilize RCA connections for devices like CD players, tape decks, and digital recorders. Make sure to connect to the appropriate digital inputs for optimal performance.
+
+**FM and AM Connection Notes**: 
+
+When connecting FM and AM signals, ensure the antennas are positioned to minimize interference and maximize reception. It is essential to ground your system to prevent electrical shock. For FM, alignment with road layouts may enhance signal clarity. Similarly, for AM connections, adequate grounding is crucial to reduce noise.
+
+**Surround Sound Configuration**: 
+
+When using surround sound or stereo modes, consider the spatial placement of speakers to optimize acoustics. Front speakers should connect to the "L" and "R" outputs of a shielded TV, ideally positioned in front or slightly below the screen. This enhances the sound field and properly aligns audio delivery to the listener's ears. 
+
+**Remote Control Instructions**: 
+
+To operate the system, press the POWER or STANDBY/ON button. Utilize the FUNCTION selector to choose input sources, such as VCR, TV, DVD, or CD. Ensure that the correct digital input (optical or coaxial) is selected, and adjust the MASTER VOLUME for desired sound levels. Remember that batteries for the remote (AA type) should be replaced as needed to ensure proper functionality, avoiding hazards related to overheating or improper disposal.
+
+**Sound Operations**: 
+
+To temporarily mute the sound, use the MUTING function, which will pause audio until deactivated. If headphones are connected, the system will automatically switch from surround to stereo mode. The SLEEP function allows the device to turn off after a specified period, and the NIGHT MODE reduces high-volume elements in soundtracks.
+
+**Tuner Functionality**: 
+
+To access radio stations, switch to the TUNER using the FUNCTION selector. Choose between FM and AM bands, using the TUNING controls to scan for available channels. For presetting frequencies, hold the MEMORY button for more than two seconds. 
+
+**RDS Features**: 
+
+For RDS-enabled stations, you can retrieve information like RADIO TEXT, which displays character-by-character updates on your screen. Use the PROGRAM TYPE (PTY) feature to categorize stations, and navigate through these settings to discover various genres of programming.
+
+**Audio Source Selection**: 
+
+For streaming audio from devices like VCRs, DVDs, or CDs, ensure your FUNCTION selector is set accordingly. Connect the appropriate audio and video outputs to ensure optimal playback. 
+
+**Surround Sound Enhancement**: 
+
+DTS and Dolby Surround technologies provide immersive audio experiences akin to cinema sound systems. Modifications to the sound modes, such as switching to DOLBY DIGITAL, can further enhance your listening experience, capturing the dynamic range and spatial qualities of the audio.
+
+Ensure to follow manufacturer guidelines for optimal operation and safety.
+
+### Overview of DOLBY PRO LOGIC II Technology and Surround Sound Configurations
+
+**DOLBY PRO LOGIC II Surround Sound** offers an enhanced audio experience through various formats such as CD, FM, TV, and VCR. The system supports multiple surround sound modes:
+
+- **MUSIC**: Processes sound from stereo sources.
+- **MOVIE**: Uses discrete surround tracks for enhanced cinema experience.
+- **EMULATION**: Simulates surround sound from stereo tracks.
+
+#### Speaker Configuration and Adjustments
+
+To optimize performance, the *Speaker Configuration* should be set based on your setup, with options for front and surround speakers categorized as LARGE, SMALL, or NONE. It is crucial to adjust the following:
+
+- **FRONT SPEAKERS**: Choose FNT-LARGE or FNT-SMALL according to the size of your speakers.
+- **CENTER SPEAKER**: Options include CNT-LARGE, CNT-SMALL, or CNT-NONE.
+- **SURROUND SPEAKERS**: Configure based on your environment; choices are SUR-LARGE, SUR-SMALL, and SUR-NONE.
+- **SURROUND BACK SPEAKERS**: Options include BAC-LARGE, BAC-SMALL, or BAC-NONE, depending on whether they are utilized.
+
+#### Surround Settings and Audio Enhancements
+
+This system allows for the manipulation of surround sound dynamics through a variety of adjustments:
+
+- **DELAY TIME**: The timing for center and rear speakers can be customized for synchronization.
+- **LEVEL SELECT**: This feature helps in balancing sound levels across speakers.
+  
+Utilize the **TEST TONE** function to evaluate sound output from each speaker to ensure proper calibration.
+
+#### Troubleshooting Common Issues
+
+When encountering sound issues such as reversed audio or absence of surround effects, check the following:
+
+- All input connections are secure.
+- Ensure the correct surround mode is selected (DOLBY DIGITAL, DTS, or PRO LOGIC II).
+- Verify speaker settings are correctly configured.
+
+### Technical Specifications
+
+- **Amplifier Section**: Produces 120W per channel with low Total Harmonic Distortion (THD).
+- **Surround Modes**: Capable of DOLBY DIGITAL and PRO LOGIC II surround sound.
+- **FM Reception**: High rejection ratios and low harmonic distortion.
+- **Accessories**: Includes a remote for ease of operation and connectivity options for various input sources.
+
+These configurations and troubleshooting methods will aid in optimizing your surround sound experience, ensuring a rich audio landscape whether for music or movies.
+

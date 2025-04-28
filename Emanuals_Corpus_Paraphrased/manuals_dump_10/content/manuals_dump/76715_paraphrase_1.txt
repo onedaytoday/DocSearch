@@ -1,0 +1,32 @@
+**Sound Card Interface ELK-129**
+
+The ELK-129 Sound Card Interface is compatible with ELK systems, including models ELK-120, ELK-124, or ELK-MV480. It comes with software to facilitate the download of .WAV files to these models. The interface connects to a 12V, 20VA AC source and also supports foot switch functionality.
+
+**Specifications**
+
+The ELK-129 is designed for operation with ELK-120 or higher versions, using a DC power supply. Included in the package are the necessary software and hardware components.
+
+**Application**
+
+The ELK-129 facilitates sound playback and recording through its on-board microphone, enabling users to play or download .WAV files. One highlight of the ELK-129 is its capacity to gather and record sounds edited from various sources.
+
+**Operation**
+
+Originally compatible with the ELK-120 and ELK-124, the ELK-129 operates with slight variations depending on the model. If connecting to the ELK-MM447 or ELK-MV480, ensure to use the ELK-129 alongside either the ELK-MK485 or ELK-MK400 interfaces. The software provided (Waveloader) is specific to these models, and installation instructions are included.
+
+For the ELK-120/124, utilize the AC power as specified and install the software from the included CD-ROM. The Waveloader software is designed to manage the loading and playback of .WAV files. After downloading, users can hear the audio through the interface, given that all outputs are appropriately muted or adjusted.
+
+**Activations Related to the ELK-129 Operation**
+
+This section describes the recording activations that can be set via DIP switches. The ELK-120 V1 allows for recordings of varying lengths by adjusting switch settings. 
+
+**Included Items**
+
+The package contains the following: a 20VA AC power supply and a six-foot shielded cable. Instructions for connecting and configuring these components are provided to ensure optimal operation.
+
+**Note**
+
+This section specifically pertains to the ELK-120 or ELK-124. Users should refer to the guidelines for other ELK models. After software installation, utilize the Waveloader to select the desired .WAV files for playback or recording. Adjustments to input/output settings should be made as needed during operation.
+
+In summary, the ELK-129 serves as an essential tool for sound management within the ELK system, designed for ease of use and flexible applications.
+

@@ -1,0 +1,164 @@
+### User Manual
+
+**Please review this manual for guidance and reference.**
+
+#### Included Items
+- Items listed below are included with this product.
+  
+#### Operational Guidelines
+- **Basic Operations**
+- **Advanced Features**
+  
+### Important Safety Precautions
+- Adhere strictly to the operating instructions to prevent accidents. Retain these instructions for future reference.
+- Ensure proper cleaning by disconnecting from the outlet before any maintenance. Use only recommended cleaning products; water and abrasive cleaners can cause severe damage.
+- Follow installation guidelines meticulously to avoid overheating and ensure safe usage.
+
+#### Power Supply and Grounding
+- Verify that the device operates on the specified power type. For devices requiring grounding, ensure proper connections to avoid electrical risks.
+- Protect power cords from being pinched or damaged to prevent fire or electric shock. 
+
+#### Servicing Information
+- Do not attempt repairs beyond the scope outlined in the manual. Disconnect from the power supply before servicing.
+- Unauthorized servicing can cause fire hazards or electric shock.
+
+### Warning Notices
+- To minimize the risk of fire or electric shock, do not expose the device to rain or moisture.
+- This product complies with FCC regulations, providing reasonable protection against interference when installed correctly.
+
+### Cautions 
+- Specific batteries used with this device may contain hazardous materials. Follow disposal regulations.
+
+### Pre-Operating Instructions
+- Check compatibility with the specified AC power before use. Avoid direct sunlight and extreme temperatures during storage.
+- Ensure proper installation to prevent damage, especially concerning sensitive components like the CMOS.
+
+### Bundled Items
+- The items included are:
+  - **AC Adapter**
+  - **Instruction CD-ROM**
+  - **Remote Control**
+  - **Warranty Information**
+
+### Basic Operations
+- The LED indicators display the status. Use the designated buttons for brightness and input selection (e.g., HDMI, RGB).
+- Follow instructions for device connectivity and basic functionality.
+
+### Specifications
+- Ensure correct input settings for optimal performance. Adjust settings as needed for connected devices.
+  
+### Troubleshooting
+- If the display appears misaligned, adjust the clock phase settings using the connected PC interface.
+
+For further assistance, refer to the service contact details or visit the manufacturer's website.
+
+**Basic Operations Overview**
+
+**Security Functions:** The security capabilities rely on the [RGB OUT] and [HDMI OUT] connections. When an HDMI connection is established, the output reflects the information from the selected [RGB OUT]. Ensure power is off before connecting other devices, such as microphones, to avoid malfunctions. Use the function switch to change the output type. The right switch allows transitioning from HDMI OUT 720P, SXGA, WXGA, RGB OUT, to XGA and SD. Instructions for connecting wireless devices and USB inputs are provided on pages 57 and 37.
+
+**Remote Control Setup:** To prepare the remote, align with the designated arrow, ensuring proper orientation as indicated (see page 14). Use a CR2025 battery, keep it out of children's reach, and replace it immediately to prevent asphyxiation hazards. The system's light function operates optimally under specific lighting conditions; avoid direct sunlight or bright light interference.
+
+**Software Installation:** Use the provided CD-ROM for software installation on your PC, following the outlined instructions.
+
+**Connecting AC Power:** First, connect the AC power supply to the DC IN 12V at the rear of the unit. Press the ON/OFF switch to power on. Ensure the device is powered off before connecting other devices to avoid potential issues. The power indicator LED will flash during the operation cycle; refer to page 10 for troubleshooting.
+
+**Zoom Functions:** You can zoom in and out using the respective buttons. Adjust brightness and settings through the operating buttons for optimal shooting conditions.
+
+**Brightness Control:** The brightness is adjustable through the operating buttons. Returning to factory settings is also possible. Check for sufficient brightness when operating in bright environments.
+
+**LED Limitations:** Direct exposure to high-brightness LED lights may cause performance issues over time. Ensure proper usage to prevent malfunction.
+
+**Input Selection:** Select the desired input from SD or PC via the operating buttons. Confirm changes through the displayed characters and selections.
+
+**Function Customization:** Access and adjust preferences, including brightness settings and other options, to suit your needs.
+
+**Highlight and PIP Functions:** Utilize the highlight feature to distinguish specific sections of the display. The PIP function allows you to view multiple inputs simultaneously. Adjust settings for performance enhancement while using the selection options.
+
+**Conclusion:** This guide provides an overview of operational functions, input selections, brightness adjustments, and software installation. For detailed guidance on specific operations and configurations, refer to the mentioned pages.
+
+### Function Overview
+
+This function pertains to the operations section labeled **OPERATIONS** or **BASIC**. It allows for the display of previously selected functions. The options can be cleared using buttons as necessary. 
+
+The functions can be expanded or scrolled to show previously viewed operations. When an operation is selected, it indicates the current status, adjusting the displayed ratio as you scroll through available options.
+
+### SD & USB Operations
+
+This function enables the use of SD or USB devices for storing operations under the **OPERATIONS** or **BASIC** sections, aligning the display accordingly. You can switch between different SD selections or USB functions while the system is running.
+
+The right-side display for SD cards will flash during selection, and if you wish to switch to other USB or SD devices, you can do so through designated buttons.
+
+### Subscreen Management 
+
+You can switch the subscreen selections while navigating through **OPERATIONS BASIC**. Selecting a function will display available options under the currently selected section. 
+
+### Applying Operations 
+
+This function applies actions during operation displays. You can clear selections as needed, and the function will indicate which item is selected.
+
+### Advanced Operations with SD & USB
+
+For advanced operations involving SD or USB devices, ensure compatibility with recommended types like SDXC. It's advised to format these devices as per requirements and to avoid overloading memory during recording or educational functions.
+
+### Formatting SD & USB
+
+To format an SD card or USB, initiate the designated command to switch between operations. Follow prompts to select appropriate items for formatting, ensuring you understand whether the memory is in a protected or unprotected state.
+
+### Display Management 
+
+While in full-screen mode, you can switch views and manage selections from displayed thumbnails. If certain options are already displayed, you can toggle between them seamlessly. 
+
+### Cautionary Guidelines
+
+While operating with SD or USB, certain prompts will prevent incompatible actions, such as forcing a connection or switching devices improperly, which could lead to malfunctions. 
+
+By adhering to these guidelines, you will maintain functionality and prevent data loss during use.
+
+Please connect the USB to the PC and ensure the UVC settings are configured. This process involves completing software installation and connecting to the PC via USB. Applications for operations and recording, including software specification, are referenced below. If you notice that the software isn’t refreshing properly when connecting, please check the USB Application settings. 
+
+**CAUTION**: Avoid operating the USB device improperly, as it may lead to malfunctions. Make sure to power off the USB while restarting to avoid any display issues with the UVC settings. The software supports only MJPEG format for USB operations.
+
+For wireless setup or IWB (Interactive Whiteboard) operations, follow the provided instructions. Ensure that the ELMO Wireless (CRA-1) is properly configured.
+
+**CAUTION**: When interacting with the whiteboard, apply gentle pressure while holding it upright. If there’s no response during usage, check if the device is activated.
+
+To select various functions, touch the screen lightly and navigate through the options displayed. The function parameters can be adjusted as needed.
+
+Use the whiteboard and its software features effectively, and refer to the specific sections for detailed instructions on individual functions and how they can be customized for your needs. When adjusting settings or switching between functions, be mindful of the display settings to ensure a smooth operation experience.
+
+For additional operations related to thumbnails, memory formats, and protection settings, follow the guidelines outlined in the relevant sections. 
+
+This summarization maintains the original intent and context while presenting the information in a clearer, more organized manner.
+
+**Selection Item Functions**
+
+The selected memory can be set to either "protected" or "unprotected." When the item is selected, the function options for thickness are displayed. You can change the thickness to "Thin" or "Thick" to adjust accordingly. The display will indicate "red" or "black" based on your choice. 
+
+**Advanced Operations**
+
+To use advanced functions and settings, you can select options for background colors, such as "white" for WB or "black" for IWB (refer to pages 65 and 70). You can increase the selection or adjust settings using the SD card with your device. 
+
+When utilizing the advanced operations, especially in playback functions, ensure to attach any necessary components properly. Adjust the brightness settings while taking care not to over-tighten the screws, as this can damage both the screws and the equipment. 
+
+**Troubleshooting**
+
+For troubleshooting symptoms, if an abnormality occurs, consult the vendor or branch where the unit was purchased. Symptoms might automatically display issues related to USB connections or screen outputs. Check that all connections are secure and power settings are optimized. 
+
+In case of issues with UVC or USB functionalities, confirm the correct installation and compatibility of the SD card. There may be specifics regarding file formats or the necessity to upgrade related software that could resolve operational issues.
+
+**Specifications**
+
+Power requirements are 12VDC (100–240V AC) with a consumption of 16.2W. Input options include USB and HDMI. The structure's dimensions measure 355mm x 373.5mm x 168mm. 
+
+Graphics and video output options include a range of HDMI standards, and specific brightness adjustments are available. Please be aware of copyright restrictions when using recorded media and respect the rights of copyright holders. 
+
+**Software Compatibility**
+
+The system is compatible with various OS versions, ensuring that software installations follow proper procedures as outlined in the user manual. Memory and CPU specifications should also be considered to optimize performance.
+
+**Disclaimer**
+
+The information provided in this document is subject to change without notice, and reusing or distributing content without permission is prohibited. 
+
+**ELMO CO., LTD.**
+

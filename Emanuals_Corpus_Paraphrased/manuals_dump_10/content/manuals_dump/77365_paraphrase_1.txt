@@ -1,0 +1,151 @@
+### Application Connectivity Configuration Guide
+
+**P/N REV A01**  
+**EMC Corporation Headquarters: MA**  
+**Website: www.EMC.com**  
+
+**Copyright Notice:**  
+© EMC Corporation. All rights reserved. The information contained herein is proprietary to EMC. Unauthorized reproduction and distribution are prohibited. This document and the software it describes are provided "as is" without any warranties, including but not limited to implied warranties of merchantability or fitness for a particular purpose. EMC disclaims any liability for direct, indirect, incidental, or consequential damages arising from the use of the publication. The InCharge product suite referenced here includes "InCharge," "InCharge SMARTS," and "SMARTS Graphical Correlation." Other trademarks mentioned are the properties of their respective owners. Detailed copyright and third-party rights pertaining to the accompanying software are documented within.
+
+### EMC Application Connectivity Overview
+
+This section outlines features and configurations essential for optimal use of EMC Application Connectivity and provides relevant instructions.
+
+#### Table of Contents:
+1. **Introduction to Application Connectivity**: Overview of features.
+2. **Deploying Application Connectivity**: Guidance on implementation steps.
+3. **Monitoring**: Best practices for application oversight.
+4. **Creating and Configuring Application Signatures**: Instructions for defining application behaviors.
+5. **Groups and Settings**: Organizational aspects and configurations.
+6. **Wildcard Usage**: Clarifications on command syntax and wildcards within EMC software.
+
+#### EMC Application Connectivity Directory:
+- The directory structure is represented in the following conventions:
+  - `/InCharge`: Denotes the directory path.
+  - `user-specific`: Indicates customization by the user.
+  - Commands are presented wrapped in brackets: [command].
+  
+For example, “/opt/InCharge<n>/<product>” is the default UNIX installation path, while “C:\InCharge<n>\<product>” applies to Windows platforms. The typical BASEDIR can be found at:
+- **UNIX**: `/opt/InCharge6/ACM/smarts`
+- **Windows**: `C:\InCharge6\ACM\smarts`
+
+#### Application Connectivity Product Suite:
+EMC Application Connectivity includes various products and command sets documented in the BASEDIR directory. Users can optionally modify BASEDIR to other locations as needed.
+
+### Technical Support & Documentation:
+For additional technical support and information regarding EMC products and services, users can refer to the following resources:
+
+- **EMC Administration Guide**
+- **Application Connectivity Release Notes**
+- **Support Contact Information**:
+  - **USA**: (SVC.4EMC) (543.4SVC)
+  - **Global Access**: Reference to the EMC knowledge base for patches and additional documentation.
+
+### Introduction to Application Connectivity 
+This chapter provides insights into the features of EMC Application Connectivity, including network operations and TCP-based connections. It describes how the system interacts with various software services to facilitate effective business operations and root-cause analysis through automated discovery and connectivity. 
+
+#### Application Interface:
+The Application Interface enables interaction with applications, allowing users to create action specifications (e.g., `tcpAction`) to establish TCP sessions as needed.
+
+### Deployment Considerations:
+When deploying Application Connectivity, ensure that network and firewall settings accommodate the required communication for optimal functionality. Consult with EMC documentation to configure the Application Connectivity Management (ACM) effectively regarding security measures.
+
+**EMC Application Connectivity Overview**
+
+**Service Configuration**  
+To configure EMC Application Connectivity, start by collecting software information relevant to the EMC services. You'll need to place the SM_LICENSE file (smarts.lic) in the BASEDIR directory, typically located at `/opt/InCharge6/ACM` on UNIX or `C:\InCharge6\ACM` on Windows. Also, ensure the application connectivity configuration file can be edited using `sm_edit`, located at `BASEDIR/smarts/bin/sm_edit`.
+
+**Deployment Process**  
+Deploy the Application Connectivity by managing topologies within the EMC Platform. This includes specifying configurations found in the `dxa-sysip.conf` file located in `/opt/InCharge6/SAM/smarts/icoi/conf` or `C:\InCharge6\SAM\smarts\icoi\conf`. A sample configuration entry might include `DomainSection "dxa-sysip.conf"; SmoothingInterval "INCHARGE-AM";`
+
+**Integration With ACM**  
+For integrating ACM with the required applications, ensure that you have the right platform configurations. You can manually configure the connections and sources for ACM using the relevant commands. Use the Administration interface to select data sources and manage the topology effectively.
+
+**Smoothing Configuration**  
+Configure the smoothing intervals and hook scripts for optimal performance. This enables effective communication with the services such as monitoring the states of the ACM applications and their connections.
+
+**Log Management and Security**  
+Logs can be accessed from the BASEDIR directory at `/smarts/local/logs`. Security protocols must be in place to ensure safe communications within the EMC architecture, which may require manual command execution to verify the setup.
+
+**Discovery and Notifications**  
+Utilize the Discovery feature in the Administration console to gather details on platforms and services, ensuring that notifications are appropriately configured to alert system administrators.
+
+**Editing Configuration**  
+When dealing with configurations, the `sm_edit` utility is available for both UNIX and Windows versions. The configurations must be left unchanged if the software dependencies are compliant, although directed edits may be required based on specific integration tasks.
+
+**Creating Application Interfaces**  
+This section covers the creation of Application Interfaces, outlining action specifications and the topology involved with Application Connectivity. By navigating through the Administration interface, you can define the required configurations and apply them as necessary.
+
+**Summary of Components**  
+An overview of essential services includes `ic-am-server`, `ic-pm-server`, and `ic-acm-server`, detailing their roles within the ACM installation. 
+
+This guide provides insight into configuring and managing the EMC Application Connectivity effectively, ensuring seamless integration and performance monitoring across services.
+
+### Field Name Description Required / Optional
+
+The system should actively monitor the specified field when establishing connections. If the command meets the criteria defined, it facilitates interaction with other components. The established parameters dictate how the application behaves. The use of wildcards is supported within the EMC software environment, which permits matching specific byte patterns. This includes support for newline characters and various application classes, such as SW-Apache/frame.company.com.
+
+### Creating and Specifying Action
+
+The action type, labeled as `tcpAction`, can be specified by clicking the appropriate button. User-defined patterns may be established for what should be matched. The system allows for wildcards as needed, and only specific connection types (e.g., SMTP) need verification. 
+
+To access existing applications, select from the displayed list. Ensure the connection is currently active. If modifications are outdated, a refresh will update the view with the most current topology.
+
+### Specifying the Action
+
+To define a `tcpAction`, access the required application interface. In the action field, select the type of `tcpAction` you wish to implement. Click the "OK" button to confirm your selection, and then apply the changes to the associated topology.
+
+### Creating and Matching Applications
+
+For configuring application match options, specify how the patterns align with the ACM topology. Using available wildcard options, click "OK" to finalize your matched selection. The application interface will display relevant information regarding matches according to defined criteria.
+
+### Removing Topology Information
+
+To remove specific software services from the topology, explicitly match them with parameters such as `requestString`, `matchPattern`, and `timeout`. Right-click on the service within the Topology Browser to initiate removal.
+
+### Creating and Removing Applications
+
+To create or remove a software service from the topology, right-click on the appropriate element. All instances will be identified, ensuring you can accurately remove specific services as needed. This operation is only valid within its original context to maintain system integrity.
+
+### Threshold Information
+
+Each threshold in the system is tied to particular application classes, indicating the necessary parameters for performance monitoring. This section describes applicable thresholds within EMC Application Connectivity. Specific settings categorize how thresholds function, including sensitivity and statistical window criteria, to maintain operational standards.
+
+### Parameter Definitions and Descriptions
+
+**Check_MaxResponseTime (Seconds)**: This parameter sets a threshold on the maximum allowable response time. It interacts with Check_Sensitivity and StatisticsWindow, determining how often the Check_MaxResponseTime threshold is assessed. Within the defined StatisticsWindow, the threshold is evaluated every second to track if the response time exceeds this limit.
+
+**Application Connectivity Polling Settings**: This section discusses the EMC Application Connectivity framework, which includes groups of Software Services and their configurations. The Software Service pertains to the InChargeService class. Each object within the Software Service table contains details about the relevant thresholds for monitoring performance.
+
+**Polling Period Settings**: The Check_PollingPeriod parameter is crucial in defining the frequency of data collection. It pertains to thresholds associated with each Software Service.
+
+### Administration Functions
+
+**User Management**: The Administration EMC Application Connectivity interface allows users to configure groups and manage their settings, including polling and thresholds. Users can associate groups with existing configurations through the serverConnect.conf file. 
+
+### Display of Threshold Information
+
+**Threshold Overview**: The Administration section provides a comprehensive view of the polling and thresholds. The displayed information reflects the thresholds and groups currently selected, facilitating easy tracking of their statuses and performance metrics.
+
+### Modifying Groups and Priorities
+
+**Editing Group Priorities**: Users can modify group priorities and thresholds through the interface. The highest priority items will appear at the top, allowing for efficient management of resources.
+
+### Wildcard Functionality
+
+**Wildcard Matching in EMC Software**: This section outlines how wildcards are utilized within EMC software for matching criteria. Wildcards can encompass various characters, aiding in flexibility when identifying target servers or configurations.
+
+### Wildcard Character Definitions
+
+1. **`.` (Dot)**: Matches any single character, e.g., `server?.smarts.com` matches `server3.smarts.com`.
+2. **`*` (Asterisk)**: Matches zero or more characters, e.g., `server*.smarts.com` matches `server-ny.smarts.com`.
+3. **`[]` (Brackets)**: Matches a range of characters, e.g., `server[789].smarts.com` matches `server7.smarts.com`.
+
+### Summary
+
+This documentation provides detailed information on parameters, polling settings, user management, and wildcard functionality within the EMC Application Connectivity environment. Users are guided through configuring thresholds and managing resources to optimize performance monitoring effectively.
+
+The EMC Application Connectivity utilizes wildcard characters as described in the following table. The compound wildcard character functions as follows: when a wildcard is used with a preceding character (or if it’s the first character), it signifies a match. For example, *NY*&*Router* will match any instances containing both NY and Router. The match is inclusive, allowing *A*|*B*&*C* to find results that include either A or B, along with C. The wildcard function operates similarly. Furthermore, the expression *Router*~*Cisco*&*10.20.30.*~10.20.30.<10-20>* will match terms such as Router and router, filtering through specified criteria.
+
+Wildcards in EMC Software - EMC Application Connectivity.
+

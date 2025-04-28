@@ -1,0 +1,109 @@
+**Optional Touchmonitor Specifications and Usage Guide**
+
+The 1729L LCD Touchmonitor can be paired with optional features such as a VFD module, MSR, and USB interface. This model utilizes a 17-inch SXGA LCD and supports various touchscreen technologies, including AccuTouch, CarrollTouch, and Acoustic. Key specifications include typical brightness levels and response times for each touchscreen type.
+
+**Product Overview**
+
+The 1729L Touchmonitor combines LCD technology with touchscreen functionalities. It accommodates optional components, such as USB interfaces and a magnetic strip reader (MSR), enhancing its versatility. Performance specifications include typical brightness and response times, as well as durability metrics, such as mean time between failures (MTBF).
+
+**Interface Details**
+
+The USB MSR reads credit cards conforming to ISO/ANSI standards. It connects through a USB interface, which supports multiple scanning modes and options. This includes backward compatibility with existing systems.
+
+**Installation Instructions**
+
+When unpacking the touchmonitor, ensure you have all necessary components, including the USB cable, as well as the software installation CD. Follow the instructions for connecting the touchmonitor to a PC, ensuring both devices are powered off during setup.
+
+**Connection Elements**
+
+- **Power Connection**: Ensure secure connections to prevent grounding issues.
+- **Video Port**: Connect the video cable to the 15-pin female connector for display.
+- **Speaker Port**: Connect the speaker using the designated port.
+- **USB Connection**: Connect the USB cable for touchscreen functionality and optional peripherals.
+
+**Software Installation and Testing**
+
+Utilize the provided TouchTools CD for driver installation and application functionality tests. Follow on-screen prompts to ensure proper setup.
+
+**Testing Procedures**
+
+To verify functionality, you can use applications available on the TouchTools CD to test the MSR and touchscreen capabilities. Instructions are included for converting the MSR between different communication protocols.
+
+**Troubleshooting and Support**
+
+Refer to the troubleshooting guide within the installation manual for common issues. Ensure that all software is compatible with the operating systems supported by the touchmonitor.
+
+This technical overview provides essential information for setting up and utilizing the 1729L Touchmonitor efficiently. For additional details, consult the product documentation and relevant online resources.
+
+### Touchmonitor Installation and Operation Guide
+
+To install the USB Touchmonitor (XP), insert the USB Touch cable and the CD-ROM into your computer. Choose the "Next" option and select "Search (Recommended)." Then navigate to the CD-ROM directory and proceed by clicking "Next." Once the USB touchscreen is detected, select "Next" to copy the files prompted by the installer. If you are using Windows XP, ensure that the CD-ROM is active during this process. If it is not active, click the appropriate settings to activate it and then confirm your action.
+
+### Touchmonitor Configuration
+
+To optimize touchmonitor performance, you may need to adjust the settings from the OSD (On-Screen Display). If you want to reset your touchmonitor to factory specifications, access the OSD menu. 
+
+#### OSD Functions
+
+1. **Power On/Off**: Utilize the OSD to toggle various settings (select using the menu button).
+2. **Brightness and Contrast**: Adjust brightness by modifying the RGB settings (Red, Green, Blue) in the OSD. 
+3. **Sharpness and Clock Phase**: Fine-tune the image sharpness and clock timing in the display settings. 
+4. **OSD Position**: Change the OSD's location for better visibility on the screen.
+5. **OSD Timeout**: Set the duration the OSD remains visible.
+6. **Language Options**: Select from multiple languages available in the OSD.
+
+### Power Management
+
+The LCD will enter a power-saving mode when there is no input. The LED indicator will provide status information—lit when operational and off during power-saving. 
+
+### Safety and Maintenance
+
+- Avoid exposing the LCD to high brightness or prolonged usage beyond recommended levels; this could damage the display.
+- Always turn off the touchmonitor before cleaning. Use a soft, non-abrasive cloth slightly moistened with appropriate cleaner.
+
+### Cleaning Instructions
+
+Do not use aggressive cleaners like ammonia or thinner. Clean the touchscreen using a damp cloth without applying the cleaner directly to the screen.
+
+### Touchmonitor Specifications
+
+- **Model**: 1729L LCD TFT
+- **Display Resolution**: Supports multiple input resolutions including VGA, SVGA, XGA, and SXGA.
+- **Brightness**: Typically rated for optimal display conditions.
+- **Input Signal**: Accepts standard VGA/DVI inputs.
+- **Power Supply**: AC 90-264V or DC 12V/5A.
+- **Regulatory Compliance**: Meets standards from UL, FCC, CE, among others.
+
+### Environmental Considerations
+
+The touchscreen is tested to withstand exposure to chemicals and is designed for durability against wear and tear. Ensure that the touchmonitor is sealed and protected to prevent damage. 
+
+### Important Notices
+
+- This touchmonitor is compliant with FCC Class B requirements for reducing interference.
+- Proper grounding is crucial to avoid electrical shocks—always ensure the device is appropriately grounded when in use. 
+
+For further issues or troubleshooting, refer to the user manual or contact technical support.
+
+### Touchmonitor Information 
+
+**Compliance and Testing**  
+This Touchmonitor has been tested and complies with the following Directives: the EMC Directive 89/336/EEC, as indicated by the EN Class, and the Low Voltage Directive 73/23/EEC, as indicated by the EN. 
+
+**User Guidance**  
+If you experience interference with reception or functionality, it may be caused by external factors. To mitigate this, follow these steps: check the I/O connections and ensure proper grounding. If interference persists, try repositioning the affected receiver or relocating the device to a different AC outlet. 
+
+**Safety and Regulatory Compliance**  
+This Touchmonitor is designed to minimize light reflections; it should be directed away from direct sunlight. It complies with Reflection Class III and ISO standards, as well as FCC regulations concerning interference. 
+
+**Product Warranty**  
+The Touchmonitor comes with a warranty that covers defects in materials and workmanship for a specified period. To claim the warranty, customers must report issues within thirty days of discovery and provide access to inspect the product. Warranty remedies are exclusive to the buyer and include refunds. The seller is not liable for any additional costs incurred from procurement or installation of substitute products, and no other warranties beyond the specified terms are provided. 
+
+For further product specifications, including features related to the AccuTouch Touchscreen technology, mechanical specifications, and performance metrics, please refer to the detailed sections or visit our website.
+
+**Contact Information**  
+For more details and inquiries, please visit www.elotouch.com or contact our North American office at ELO-TOUCH, Inc. at (800) 356-8682. 
+
+### Note  
+This document is intended for informational purposes regarding the Touchmonitor and its performance standards.
+

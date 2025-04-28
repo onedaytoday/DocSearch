@@ -1,0 +1,77 @@
+**15A1 LCD Touchcomputer Overview**
+
+**Touchcomputer Details**:  
+Model: 15A1 LCD Touchcomputer  
+Part Number: E362310  
+Revision: C  
+Website: www.elotouch.com  
+Copyright: This publication may not be reproduced, transmitted, transcribed, or translated by any means without written permission from TouchSystems. The information contained is provided without warranties, and references to products or services do not infer any rights thereof in specific countries. TouchSystems reserves the right to make changes without notification. Trademarks include SecureTouch, AccuTouch, and MonitorMouse.
+
+### Unpacking Instructions
+This chapter covers unpacking the Touchcomputer, along with the included peripherals: PS/2 DB9 connectors, and CD for the 15A1 C model.
+
+### Initial Setup
+To power up the Touchcomputer, ensure all peripherals are connected. Follow the on-screen prompts as the system boots up. For configuration options, make selections according to the displayed instructions.
+
+### Device Testing Procedures
+- **Touchscreen Calibration**: Ensure the touchscreen functionality by following the specific procedures outlined.
+- **Magnetic Stripe Reader (MSR) Testing**: Engage with the MSR interfaces (HID) to verify operational status.
+- **Customer Display Testing**: Verify that the customer display is correctly connected and functioning.
+
+### On-Screen Display (OSD) Functions
+The OSD allows access to various settings via designated buttons. You can adjust items like brightness, color balance, and display sharpness. Factory default settings can be restored as needed. Shortcut buttons are also available for quick adjustments.
+
+### I/O Interface Summary
+The Touchcomputer features multiple I/O interfaces for connectivity:
+- **USB Ports**: Four USB Type A ports.
+- **Ethernet**: RJ45 LAN connection.
+- **COM Ports**: Configurations for RS232, RS422, or RS485 interfaces accessible through a DB9 connector.
+- **Audio**: Microphone input for peripheral connectivity.
+- **VGA**: D-SUB port for secondary displays.
+- **PS/2 Keyboard/Mouse**: Allows connection of PS/2 devices, with a security feature to prevent theft.
+
+### Peripheral Considerations
+Additional peripherals may come with the Touchcomputer; ensure proper handling and installation to avoid damage. Cleaning should only be done with recommended materials to maintain the screen's integrity.
+
+### Servicing Instructions
+To service, first, power down the Touchcomputer and disconnect it. Unscrew the back cover and chassis as outlined, allowing access to internal components. Any recovery of the operating system can be achieved by using the included recovery media.
+
+### Technical Specifications Summary
+- **CPU and RAM**: Up to 1.5GB DDR2 RAM.
+- **Operating Systems Supported**: Windows XP Professional & Windows Embedded POS (WEPOS).
+- **Power Requirements**: 12V DC input, with various energy specifications outlined.
+- **Compliance**: FCC, CE, VCCI certifications.
+- **Weight and Dimensions**: Detailed weight information and mounting options available.
+
+For further assistance with your Touchcomputer, refer to the warranty guidelines and support resources.
+
+**RJ45 and DB9 Definitions**  
+
+The RJ45 connection is designed to interface with the DB9 configuration, specifically regarding the signaling for Clear To Send (CTS) and Data to Receive (RD). The circuit functions with +12V DC power, ensuring proper grounding, and accommodates up to 15A. An overview of switch operation shows how the +12V DC triggers the device, which monitors the input/output states of GPIOs, particularly concerning their operational status through defined variables like GPIO_BASE and PMBASE.  
+
+**Touchscreen Specifications**  
+
+The touchscreen operates on a 12V DC supply with a minimum current requirement reported. The device incorporates either five-wire resistive or surface-wave technology, with further details available at www.elotouch.com.  
+
+**Peripheral Specifications (MSR)**  
+
+The Magnetic Stripe Reader (MSR) operates via USB, reading three tracks compliant with ISO/ANSI standards, allowing data transmission for credit card processing. It supports both forward and backward reading, with criteria for ASCII output and approximately 100,000 hours of mechanical Mean Time Between Failures (MTBF) defined.  
+
+**Environmental Specifications**  
+
+Operational conditions range from specific temperature and humidity levels, with non-condensing criteria outlined for both functionality and storage.  
+
+**Technical Assistance**  
+
+For further technical support, users can access help through the ELO Touch website to find contact options or check for updates. Important safety notes emphasize that unauthorized modifications or maintenance should be avoided, and grounding standards are essential to prevent electrical hazards.  
+
+**Regulatory Compliance**  
+
+This device has undergone testing to comply with FCC Class regulations in the U.S. and adheres to CE directives in Europe. Users are advised on potential interference factors and provided with recommendations for resolving any communication issues.  
+
+**Warranty Information**  
+
+The seller warrants that the product will be free from defects in materials and workmanship. Warranty claims must be filed within thirty days of discovery. The remedies for any breach are limited to refunding the purchase price, without additional warranties expressed or implied. No seller employee is authorized to provide alternative warranty terms beyond this definition.  
+
+For additional product information, visit www.elotouch.com or the North America Office.
+

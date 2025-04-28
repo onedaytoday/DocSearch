@@ -1,0 +1,44 @@
+**Multi-Touch Touch CA Release - July**  
+**Supported Operating Systems:** Windows XP, 2012 R2  
+**Compatible Touch Technologies:**  
+- iTouch (SAW)  
+- AccuTouch (SAW)  
+- CarrollTouch (IR)  
+- AccuTouch Touch IR Capacitive  
+
+**Supported Languages:** Simplified Chinese, Traditional Chinese, English, French  
+
+### Installation and Uninstallation Instructions  
+
+To uninstall, navigate to the Control Panel, select "Programs and Features," then locate and select the Touch application. If you prefer single-touch functionality, modify the `EloOptions.ini` file to enable the one-touch setting.  
+
+The installation procedure allows users to calibrate Touch and access advanced properties through Touch Services. You can fine-tune the Touch settings via the relevant directory.  
+
+**Cursor Edge Adjustment (CEA):**  
+This feature helps to enhance the touch sensitivity by calibrating points that might otherwise be ignored. Users can increase or decrease the CEA through the provided controls. 
+
+To disable CEA, ensure your Touch service is calibrated correctly before applying changes. If calibration is completed, the user can adjust preferences accordingly.  
+
+### Sound Options  
+Users can choose between outputting sound through the motherboard or directly from Touch, with three click options available:  
+- Click initiation  
+- Release engagement  
+- Combined functionalities  
+
+### Click Functionality  
+This system includes a feature to allow click actions in specified areas on the interface, with customizable timing for input interactions.  
+
+### Installation Procedure  
+For setup, download the required drivers and follow the instructions outlined in the ICE documentation. Ensure that the installation files are copied correctly to the specified directories.
+
+To initiate, right-click on the USB settings in ICE and follow prompts to complete the connection. Confirm the installation of the Touchscreen through the appropriate software.  
+
+**Command Configuration**  
+Users can define commands in the `EloOptions.ini` file based on either USB or RS-232 interfaces. Each command must be detailed in decimal, hexadecimal, or CHAR formats to ensure proper execution.
+
+**Touch Count and Interaction Options**  
+The device supports configurations for single-touch, dual-touch, and more, with options to customize the interaction feedback according to user preferences.
+
+### Updates  
+The driver has been updated to improve compatibility with Windows XP SP3 and to address previous issues with touch registration. Always consult documentation for any necessary pre-requisites and instructions for successful installations.
+

@@ -1,0 +1,47 @@
+# TND4204VX Vandal-Resistant Dome Camera Instruction Manual
+
+**CAUTION: ELECTRIC SHOCK HAZARD**
+- Do not open the camera unit.
+- To mitigate electric shock risk, do not remove the cover (or back). 
+- There are no serviceable parts inside; any repairs should be conducted by qualified personnel.
+
+**Safety Information:**
+- This device has been tested and complies with Class B standards of the FCC, which provide reasonable protection against interference in a residential installation. 
+- Users must prevent interference from external devices, as outlined in the user manual.
+
+**IMPORTANT SAFETY INSTRUCTIONS:**
+- Adhere strictly to all instructions.
+- Clean only with a soft cloth.
+- Avoid exposure to excessive heat or other environmental factors that might compromise performance.
+
+**Camera Functions and Installation:**
+
+### Main Functions:
+- **AW PUSH**: Used for adjusting exposure settings based on lighting.
+- **DOWN/UP ALC**: Locking screw adjustment for shooting field calibration.
+- **Selector Switches**:
+  - **SENS UP**: Increases sensitivity.
+  - **BLC**: Enables Back Light Compensation for brighter scenes.
+  - **INT/LL**: Switches synchronization modes between Internal and Line-Lock settings.
+
+### Installation Steps:
+1. Use the included fixing screws and dedicated wrench to securely attach the mounting cover.
+2. Ensure proper alignment of the BNC connectors and the mounting screws to achieve a secure fit.
+3. Verify that all peripheral connections are secure and functioning correctly.
+4. Mount the camera, ensuring that it is firmly in place to prevent movement.
+
+### Specifications:
+- **Model**: TND4204VX
+- **Effective Scanning**: 768(H) x 494(V)
+- **Signal-to-Noise Ratio**: 48dB
+- **Video Output**: BNC
+- **Power Supply**: AC24V (15V-27V) or DC12V (11V-35V)
+- **Power Consumption**: Approx. 2.5W (AC) or 2.8W (DC)
+- **IP66 Rating**: Dust and water-resistant.
+
+**Manufacturer Information:**
+- ELMO Company, Limited
+- For further assistance, refer to company subsidiaries. 
+
+**Printed in China**.
+

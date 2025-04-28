@@ -1,0 +1,90 @@
+### NOTICE: 
+This unit has been tested in accordance with CISPR standards and is classified as providing protection against electromagnetic interference. Compliance with installation instructions is essential to mitigate the amount of radiated interference emitted. Operations may result in interference with receivers connected to outlets with a capacity exceeding 4K VA to 20K VA. Adherence to EU Directives 73/23/EEC and 89/336/EEC, regarding Low Voltage and Electromagnetic Compatibility (EMC), is mandatory. Products meeting CE compliance must follow the provided guidelines. 
+
+### IMPORTANT SAFETY INSTRUCTIONS
+**SAVE THESE INSTRUCTIONS**  
+**CAUTION:** To prevent electric shock, disconnect the AC power supply before servicing. 
+
+#### Introduction
+This document provides guidelines for the installation and maintenance of the UPS system, including battery management strategies. Proper usage of the UPS is crucial to prevent electrical interference, especially near sensitive equipment like computers and telecommunications devices.
+
+#### Operational Guidelines
+- Regularly check the integrity of the supply cord and ensure the unit is correctly grounded.
+- To minimize the risk of electric shock, ensure that all power sources are disconnected before any servicing occurs.
+- Follow manufacturer's specified voltage ratings when connecting devices to the UPS.
+
+#### UPS Features and Options
+The UPS has various configurations and features, including multiple operating ratings (VA), efficient battery management, and connectivity options such as RS232 and USB for easy interface with external systems. 
+
+#### Backup Power Management
+UPS models come with different backup capacities (e.g., 4000VA to 20000VA) and manage connections based on load requirements and input/output interactions. Proper usage ensures continuous operation and protects connected equipment from power fluctuations.
+
+#### Environmental and Maintenance Recommendations
+Ensure the UPS operates in an environment with stable temperatures between +15°C and +25°C. Regular maintenance is important for battery longevity, including charging schedules every couple of months, depending on usage.
+
+#### Installation Instructions
+Follow specified installation guidance closely, especially concerning grounding and connection of batteries and input supplies. Ensure emergency shut-off options (EPO) are accessible and clearly marked.
+
+### Final Reminders
+For troubleshooting and maintenance directives, refer to the operator's manual. Environmental stability, along with methodical adherence to the product's specifications, is imperative for optimal operation. In case of any disturbances or unusual signals from the UPS, consult the technical documentation for resolution steps.
+
+To operate the UPS, turn the ON/OFF button for at least a few seconds. The operating buttons are located on the front panel. To connect the UPS, use the USB port located at the back, which may need to be purchased separately. The UPS can be configured through a customer-supplied remote switch that permits its shutdown via the Emergency Power Off (EPO) function. This shuts down the device immediately and protects the connected software. To restart the UPS, it generally requires a manual intervention if needed. All necessary instructions regarding installation and operation are covered in this chapter.
+
+The UPS typically operates automatically for selected functions, which can be displayed by pressing the FUNC button. After pressing FUNC, select the desired function and confirm it by pressing the ENTER button. If no selection is made within a specific timeframe (up to 14 seconds), the system will revert to its previous state.
+
+Functional status is indicated on the LCD panel, and various LED lights will show the operational state (e.g., ON-LINE, ON-BATTERY, FAULT). The UPS also provides specific output values, including output voltage, frequency, current, and battery status, among others, displayed on the LCD screen.
+
+In terms of troubleshooting, one should refer to the guidelines provided for addressing any malfunctions. Notably, if the ON BATTERY LED is flashing or if there are issues with internal components, immediate action may be required, such as shutting down the UPS or checking connections.
+
+The UPS is designed to operate under specific environmental conditions and should be kept in a clean area free from obstructions. The performance assumes a standard operational temperature of around 25°C and adheres to specific electrical standards. 
+
+Caution is essential when dealing with the UPS to prevent electrical hazards, and it is not recommended to disconnect the battery while the unit is operational. Regular maintenance and monitoring of the battery conditions are important to ensure prolonged functionality and safety. 
+
+It's imperative to follow all safety guidelines when operating or maintaining the UPS to correctly manage connected loads and to ensure efficiency.
+
+### Specification Summary:
+
+#### ISOTR Model Overview
+
+- **Tower Models**: 
+  - **Without ISOTR**: VGD-5000, VGD-6000, VGD-10000, VGD-15000, VGD-20000
+    - **Capacity**: 
+      - VA: 4000VA to 20000VA
+      - Watts: 2800W to 14000W
+    - Input Voltage Options: 100V, 110V, 115V, 120V, 208V, 220V, 230V, 240V
+    - **Protection Standards**: IEC, FCC, CISPR, EMC (EMS/EMI)
+    - **Environmental Compliance**: UL, CE
+    - **Relative Humidity**: Specific conditions specified
+
+- **UPS Features**:
+  - **Harmonic Distortion**: Total Harmonic Distortion (THD) specifications indicated.
+  - **Efficiency**: High efficiency with AC to AC backup wave performance.
+  - **Recovery Time**: Defined in seconds for UPS mode, bypass mode, and fault status.
+  - **Communication Protocols**: RS-232, USB for monitoring and alerts.
+  - **Warnings**: Indicated by LED/LCD display; color-coded status (yellow for UPS mode, bypass; red for fault).
+
+#### Battery Configuration
+
+- **Battery Options**:
+  - Options include sealed, maintenance-free batteries with rated voltages of 12V and capacities of 7.2AH and 9AH.
+  - Configurations include multiple sets based on the model (e.g., 2SET).
+
+- **Typical Battery Specs**: 
+  - Voltage ratings are 240V DC.
+  - Self-test functions enabled.
+
+#### Mounting and Installation
+
+- **Rack-Mount Design**:
+  - Compatibility with 3U-UPS and 3U-BATT cabinets.
+  - Mechanically designed for both front and wall installation.
+  - Installation involves proper alignment with EIA standards and secure mounting processes.
+
+#### External Components
+
+- **Rear Panel Components**:
+  - Includes a terminal block, bypass switch, SNMP slot, and breaker.
+  - Dedicated remote control port for extended functionality.
+
+This technical outline serves to inform on specifications, capabilities, and installation methods for the varying UPS models and configurations within the VGD series.
+

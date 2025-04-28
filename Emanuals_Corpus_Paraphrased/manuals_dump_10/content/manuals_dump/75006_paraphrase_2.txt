@@ -1,0 +1,61 @@
+**Product Documentation: E30MO65GSSB**
+
+**File Structure:**
+- Cover: E30M065GSS cover.eps
+- Wiring Diagrams: 
+  - E30MO65GSSB-Wiring-1.eps 
+  - E30MO65GSSB-Wiring-2.eps
+
+**Manufacturer Details:**
+- Appliances North America
+- P.O. Box, Augusta, GA
+- Product Model: E30MO65GSSB
+- TIN References: 
+  - SEB471MRR0: Instructions 
+  - SEB472MRR0: Built-in Microwave 
+
+**Copyright:** Products, Inc. - All rights reserved for the E30MO65GS model.
+
+**Parts List for E30MO65GSSB Model:**
+
+1. **Wiring Components:**
+   - Assembly Cord
+   - Switch (various types)
+   - Thermistor
+   - Thermal Convection Motor
+   - High Heating Motor
+   - High Rectifier
+   - Turntable Motor Assembly
+   - Light Motor
+   - Turntable Bearing Assembly
+   - Thermal Protection Components
+
+2. **Cabinet Components:**
+   - Duct Assemblies and Cushions
+   - Miscellaneous fasteners (screws, washers)
+
+3. **Control Panel and Door Components:**
+   - Touch Assembly
+   - Thermal Head and Control Screws
+
+**Schematic Notes:**
+
+- **Oven Door Conditions:**
+  - Closed: Display shows clock.
+  - Cooking Time Programmed: Start pad activated.
+  - Includes details on noise filters, thermal cut-outs, and circuit fuses (117V).
+
+- **Additional Functions:**
+  - Magnetron and convection motor operations.
+  - Sensor switches for door detection.
+
+**Wiring Schematics:**
+
+- Thermal cut-out connections.
+- Power transformer layouts.
+- Interlock and monitor switch configurations.
+
+Each schematic outlines operational states (OFF, cooking, convection) under respective conditions, detailing the relevant wiring and component interactions necessary for microwave functionality.
+
+For a comprehensive understanding, refer to the associated wiring diagrams.
+

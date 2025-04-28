@@ -1,0 +1,109 @@
+### Touchcomputer LCD User Guide
+
+#### Touchcomputer TE
+**Contact Information**: 1-800-ELOTOUCH | www.elotouch.com
+
+**Revision Notice**: This publication, including its content, may not be reproduced, transmitted, or translated in any form without written permission from TE Connectivity Corporation. The information herein is provided "as is" without any warranties, either express or implied, regarding merchantability or suitability for a specific purpose. TE reserves the right to make revisions to this publication and its contents at any time without prior notice. All trademarks mentioned are the property of their respective holders.
+
+---
+
+### Acknowledgments
+
+#### Unpacking the Touchcomputer
+- **Components**: Touchscreen, Base, Brackets
+- **Operation**: Detailed instructions starting on page 13.
+- **On-Screen Display (OSD)**: LED functionalities, optional peripherals, and more covered in Chapter 20.
+
+#### Technical Support
+- Contact for assistance is detailed on page 48.
+
+#### Warranty Information
+- Refer to page 50 for warranty details regarding the Touchcomputer model 15D1.
+
+---
+
+### Setup Instructions
+
+1. **Selecting Operating System (Windows XP and POSReady only)**: Follow specified guidelines.
+   - **Caution**: Ensure correct procedures are followed during OS setup.
+   - **Connection**: Attach peripherals as required.
+
+2. **OSD Navigation**: Access OSD by using the LEFT or RIGHT buttons, and SELECT to choose functions.
+   - Adjust settings including brightness and display calibration.
+
+3. **Mounting Options**: Various installation options are listed, including use of ISO screws for secure attachment.
+
+4. **I/O Compatibility**: Comprehensive input/output details for connecting devices, including USB and Ethernet ports.
+
+5. **Optional Peripherals**: Descriptions of field-installable peripherals available for purchase, such as MSR (Magstripe Reader) and FPR (Fingerprint Reader).
+
+6. **MSR Functionality**: Capability to read credit card data and other information, with bidirectional reading support.
+
+---
+
+For complete instructions on hardware connections, operating functionalities, and troubleshooting, please refer to the specific chapter sections outlined in this user guide.
+
+**Testing the MSR 15D1 OUCHCOMPUTER USER GUIDE**
+
+To test the USB MSR (Magnetic Strip Reader), access the MSR interface. Double-click the HID entry to verify connectivity. If the ID is displayed, the device is functioning properly. You can also connect it to the touch computer. The software for character display and settings can be found at www.elotouch.com, which includes support for bright characters and international character sets (X Y), with a font size of 5.5 mm (W) and 10.5 mm (H).
+
+**FPR Testing Specifications:**
+
+Access the FPR (Fingerprint Reader) by double-clicking to verify functionality. You can choose between USB 1-D, low-cost USB, and USB-SSI interfaces, both of which are compatible with the device. The performance standards for 2-D scanning (PDF417) can be implemented using the USB interface, with power supply requirements of 5V and typical values of 0.25A.
+
+**General Touch Computer Testing:**
+
+To connect and set up the touchscreen, ensure the software recognizes the COM ports (COM1, COM2, COM3). Use the appropriate app and fields to register the connections. For USB configuration, refer to the specific section in the user guide. After establishing connections, the system should confirm connectivity in the relevant fields.
+
+**Wireless LAN Connectivity Testing:**
+
+For wireless operation, verify the touch computer supports wireless USB with B/G/N protocols. Double-click the network settings to ensure wireless connectivity is detected. If the wireless interface is not initialized, troubleshoot the setup.
+
+**Mounting Options:**
+
+The rear-facing LCD can be mounted using the DVI-D interface, employing standard VESA MIS-D E835074 fittings. The HDD/SSD can be mounted based on standard specifications. Ensure any third-party peripherals are properly attached.
+
+**Safety and Maintenance:**
+
+To minimize the risk of electrical shock, power down the touch computer before cleaning. Use a grounded, 3-wire cord for connection. Prevent damage by avoiding improper cleaning agents. Ensure compliance with safety regulations regarding circuit boards containing lithium batteries.
+
+**Recovery Process:**
+
+If you need to restore the touch computer to factory settings, there are two methods: using the built-in recovery software for XP and POSReady users or the recovery DVD. Follow the prompts for each method to successfully recover the system.
+
+**Reassigning COM Ports:**
+
+After recovery, you may need to reassign USB ports. Access the hardware settings to view the current assignments. Correct any discrepancies based on recommended configurations.
+
+**Technical Support Information:**
+
+For assistance, refer to the technical support options available on the manufacturer's website. You can access support links for detailed queries and troubleshooting guides.
+
+### Regulatory Information
+
+**I. General Information**  
+A) The device is intended for operation under specified conditions, and any deviations may void warranties or lead to hazards like fire.  
+B) Only qualified service technicians should perform repairs on this equipment, as it is not operator-serviceable.  
+C) Use this unit with a properly grounded outlet to prevent electric shock or serious injury. Improper grounding poses a risk.
+
+**II. Notice to Users**  
+A) This equipment has been tested and complies with Class B regulations of the FCC, ensuring protection against interference under normal operating conditions.  
+B) Notice for Canada: The device adheres to Class B limits established by Industry Canada.  
+C) Notice for the European Union: The device complies with relevant directives, including EMC Directive 89/336/EEC and Low Voltage Directive 73/23/EEC, following EN standards.  
+D) User Information: While this device is designed to minimize interference, outside factors may still affect performance. Users should take measures such as repositioning the device if interference occurs.
+
+**III. Agency Compliance**  
+Ensure that the device is connected to a properly grounded outlet to mitigate risks related to RF (radio frequency) interference and electric shock. This product is certified by various agencies, including FCC, TUV, CE, CB, GOST-R, C-Tick, VCCI, CCC, BSMI, and KC.
+
+### Warranty Information
+
+The company warrants that the product is free from defects in materials and workmanship for a specified number of years. Warranty claims must be reported in writing within thirty days of discovering a defect. The company retains the option to inspect the product before fulfilling a warranty claim. 
+
+These remedies are the sole recourse for warranty breaches. Unless expressly stated, there are no additional warranties regarding the products, including but not limited to fitness for a particular purpose or marketability. No employee outside this agreement is authorized to provide other warranties.
+
+Liability is limited to refunding the purchase price of the product. The company is not responsible for any costs incurred in acquiring substitute goods or for any special, consequential, or incidental damages related to product use.
+
+For more information about the product, specifications, and news, please visit www.elotouch.com or contact Elo Touch Solutions, North America Corporation. 
+
+**Printed in the USA.**
+

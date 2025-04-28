@@ -1,0 +1,109 @@
+# Operation Manual
+
+## Elinchrom LTD
+
+### Introduction
+This document details the safety, compliance, and operational guidelines for the Elinchrom BX Compact series lighting products, designed for professional photographers. These products utilize advanced technology to ensure reliable performance and longevity.
+
+### Declaration of Conformity
+Elinchrom products comply with FCC regulations and are designed to minimize interference. Any installation must follow specified guidelines to avoid disruption. If interference occurs, users are advised to disconnect the equipment from the power source and follow troubleshooting steps.
+
+### Features Overview
+The BXCompact series includes user-friendly features such as:
+- **Charge Ready Indicator**: Signals when the unit is fully charged and ready for use.
+- **Visual-Flash-Control (VFC)**: Automatically turns off the flash while recharging, ensuring seamless operation.
+- **Test-Flash Synchronization**: Provides a test flash option for confirming settings.
+
+### Operational Instructions
+To effectively operate the BX Compact:
+1. Connect the unit to an earthed power supply.
+2. Ensure the protective cover is in place before use.
+3. Power on the unit by turning the switch to the 'ON' position.
+4. Adjust settings to suit your specific shooting requirements.
+
+### Safety Precautions
+- Ensure the unit is connected to an appropriate outlet.
+- Avoid operating the flash in environments exceeding specified temperature limits.
+- In case of overheating, the thermal protection will engage to prevent damage.
+
+### Troubleshooting and Maintenance
+The equipment will display error codes for various issues, including overheating. Users are encouraged to seek professional service for repairs or to consult the manual for specific troubleshooting steps.
+
+For detailed operational guidelines and advanced features, please refer to the full manual.
+
+### Charge Ready Instructions
+
+**Charge Ready Indication:**
+- Each time the flashes are fired, they recycle. 
+- Press the Charge Ready switch for fewer than 3 seconds to toggle the Charge Ready (ON/OFF) LED. 
+   - When active, the Charge Ready LED lights up; when inactive, it turns off. 
+   - Press for less than 3 seconds to display the flash power as A.X (X represents the power level). 
+   - The device reverts to its previous state after 3 seconds.
+
+**EL-Wireless Operation:**
+- The off, group, and customized settings can be toggled. 
+- Simultaneously pressing the buttons reveals advanced features when the flash is off. 
+- This allows navigation through groups G.1 to G.4 by pressing the buttons. 
+- Follow similar steps to adjust settings using F.1 to F.8, minimizing interference.
+
+### Safety Precautions
+
+**Device Safety:**
+- If you notice issues with the ON/OFF switch, replace as necessary to avoid overheating concerns. 
+- Switch off and disconnect power if overheating or physical damage is evident. 
+- Let the device cool down before handling to prevent injury. 
+- Protect the terminals and ensure proper insulation.
+- Always use ONLY the specified protective devices.
+
+**Error Codes:**
+- E1 indicates overheating: service required.
+- E2 signifies function interruption: check for recharging.
+- E5 shows a cooling error: may need service.
+- E4 indicates issues with battery timing; switch off, then back on to troubleshoot.
+
+### Technical Specifications
+
+- **Battery Installation:** Follow guidelines for proper installation to avoid damage.
+- **Integrated Features:** The device supports various protocols, ensuring compatibility across different camera brands.
+- **Operating Instructions:** The EL-Skyport Transmitter operates wirelessly at 2.4GHz with up to 60 minutes of speed mode and 30,000 flashes per battery.
+
+### Setup Instructions
+
+1. Pull the battery drawer out carefully, ensuring the correct polarity when inserting the Lithium CR2430 battery.
+2. Use the screw-lock connector on the hot shoe to ensure a stable connection.
+3. For optimal performance, maintain a clear line of sight between transmitter and receiver to minimize interference.
+
+### Troubleshooting
+
+- If the unit doesn’t function, confirm that both transmitter and receiver have matching settings regarding frequency and group.
+- Reposition devices to avoid distance restrictions and ensure proper connection to units.
+- Consult the EL-Skyport software for additional adjustments and troubleshooting.
+
+### Additional Features
+
+- The RX module allows for enhanced operation of RX flash units via USB when used with the appropriate software.
+- Continued usage of the device may activate a power-saving mode after a 30-minute inactivity period, which can be reactivated using the test button. 
+
+For best results, ensure the latest software is utilized, following all operational protocols closely to enhance performance and reliability.
+
+### English Compliance Statement
+
+This device has been tested and meets the requirements outlined in the EU directives concerning the harmonization of member states' laws related to the EMCDirective 89/336/EEC, the Low Voltage Directive 73/23/EEC, and the R&TTE Directive 99/5/EC.
+
+### FCC Compliance Notice
+
+This device adheres to Part 15 of the FCC rules. Operation is subject to the following two conditions: 
+1. This device must not cause harmful interference.
+2. This device must accept any interference received, including that which may lead to unwanted operation.
+
+The equipment has been certified to comply with the Class B computing device limits specified in Part 15 of the FCC Rules. These limits are intended to provide reasonable protection against harmful interference from radio frequency energy. If the device is not installed or operated according to the provided instructions, it may cause harmful interference to radio communications; however, there is no assurance that interference will not occur in a specific installation. If interference is experienced with radio or television reception, which can be identified by switching the device off and on, the user may attempt to resolve the issue through the following measures:
+- Reorient or relocate the receiving antenna
+- Increase the distance between the device and the receiver
+- Connect the device to an outlet on a different circuit from the one used for the receiver
+
+For further assistance, consult your dealer or an experienced radio/TV technician. Alterations or modifications not expressly approved by the responsible party could void the user's authority to operate the equipment.
+
+### Environmental Compliance Statement
+
+This device has been manufactured using materials that can be recycled or disposed of in an environmentally responsible manner. After use, the device may be returned for recycling, provided it is in a condition resulting from normal use. Any non-reclaimed components will be disposed of in an eco-friendly manner. For disposal inquiries, please contact your local office or your nearest ELINCHROM agent (refer to our website for a list of ELINCHROM agents worldwide).
+

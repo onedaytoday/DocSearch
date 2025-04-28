@@ -1,0 +1,80 @@
+### Amplifiers with Conditions
+
+**Notice:** The following information is intended for users regarding their installation. The text and graphics in this document are provided for reference only. This document is based on Motion Information without revisions. Updated information can be found in the document titled MAN-RAVIG.PDF. Copyright © Motion. All rights reserved. For further details, visit www.elmomc.com.
+
+### Chapter Information
+This chapter outlines the operational information for amplifiers, including essential details for proper usage and grounding techniques. It is crucial to ensure a low-resistance earth ground connection and to possess the knowledge and permissions necessary for tasks such as assembling, commissioning, and operating motors. Incorrect handling may lead to significant issues, including electrical build-up, which could affect performance.
+
+### Conformance Information
+The amplifiers have been developed, produced, and tested in accordance with Motion’s standards. They comply with Directive 89/392/EEC and align with EN60204-1 and EN292-2, among other directives. Compliance with EMC regulations is established to minimize risks associated with electrical arcing. Care should be taken when servicing to avoid electrical shock, particularly when addressing equipment under voltage.
+
+### Product Overview
+The Motion Product Family includes various amplifiers designed to operate effectively under specific non-operating conditions (e.g., shock tolerance). These products meet stringent military standards (MIL-STD-704, MIL-STD-810, etc.) ensuring reliability across different operational environments.
+
+### Amplifiers Specifications
+The amplifiers incorporate integrated circuits (ICs) designed for optimal performance, offering significant operating characteristics such as linearity and thermal conductivity. The design includes DC-to-DC converters which support efficient operation, with remote feedback and multiple input options housed in a durable, plated-copper structure.
+
+### Mounting Instructions
+It is essential to mount the amplifiers properly to manage their heat dissipation, especially under loads exceeding 500W. The installation should adhere to specific specifications, including screw size and type. 
+
+### Function Overview
+The document describes various functions and connector locations, detailing the positive and negative input specifications for the amplifier, as well as additional features for operational efficiency.
+
+### DC Supply Requirements
+The technical specifications for the DC supply must align with the standards set forth in EN60950 and other directives. The recommended supply is single-phase to facilitate efficient operation and necessary protections. 
+
+### Command Inputs
+Command inputs and operating parameters are specified to ensure proper functioning of the amplifier. The feedback mechanisms are outlined, emphasizing the need for specific resistor values to maintain operational integrity.
+
+### Summary of Inductance and Performance
+The performance characteristics of the amplifiers, particularly in relation to induction motors, are emphasized. The document outlines the impact of feedback selections on inductance, ensuring optimal performance without the need for external inductors.
+
+For any further assistance or details, external resources and documentation should be referred to as per established guidelines.
+
+### MAN-RAVIG Continuous (ECLC)
+
+The connection from J2/ (ECLC) to J2/2 (ECLRET) is referenced at 3.75V. The ECLC operates internally and is activated when voltage exceeds this threshold. The minimum operational voltage for the ECLC is specified. The connections at J2/ (ECLC) and J2/2 (ECLRET) are essential for functionality. When the ECLC impedance exceeds K, the internal workings of the amplifier are impacted.
+
+### ECLP Connection
+
+The ECLP is tied to J2/3 (ECLP) and J2/2 (ECLRET) as well, operating similarly at 3.75V. The ECLP activates internally when the voltage exceeds its set minimum. The relationship between J2/3 (ECLP) and J2/2 (ECLRET) is crucial for its operation.
+
+For ECLP, when impedance goes beyond the specified limit, the internal functions of the amplifier are affected. Connections between J2/7 and J2/8 are latched for short protection effects when the input is activated, which temporarily disconnects the latch. The reason for this choice is based on recommended amplifier settings and opto-coupler functions. When input is high, the amplifier activates instantly.
+
+### MAN-RAVIG Indications
+
+The following indications detail functionality:
+- AOK (Amplifier OK)
+- SO1
+- SO2
+- SO3 (Short Protection)
+
+These serve to signal when input activations occur. Note that without proper indications, any readings can become inconclusive. 
+
+### Technical Specifications
+
+**A.1 Electrical Specifications**
+- Units: VDC
+- Efficiency: Rated for specific DC supply
+- Mounting: PCB mount
+
+**A.2 Performance Specifications**
+- Continuous linearity
+
+**A.3 Mechanical Specifications**
+- Dimensions: Compliant with PCB configurations at connectors J1 and J2
+- Operating Temperature Range: From -40°C to +85°C (-40°F to +185°F)
+- Non-operating Conditions: -40°C to +125°C (-40°F to +257°F)
+
+**A.4 Shock & Vibration Specifications**
+- Non-operating Shock: Characterized to withstand specific msec durations
+
+**A.5 Quality and Compliance Specifications**
+- **A.5.1 Quality Standards**: ISO standards adhered to
+- **A.5.2 Military Specifications**: Compliant with MIL-STD-704 and MIL-STD-810 
+- **A.5.3 EMC Characteristics**: Tested according to EN55011 and relevant IEC standards
+- **A.5.4 Reliability Standards**: IPC standards applied for workmanship and PCB quality
+- **A.5.5 Environmental Compliance**: Adhering to WEEE and RoHS directives
+
+All specifications ensure the reliability and safety of the installations in various operational scenarios.
+

@@ -1,0 +1,112 @@
+o o o o
+Corporation. Apple Computer, Inc. iPhone Apple Computer, Inc. Microsoft Corporation. Corporation. Corporation. Corporation.
+0C 40C. DC, VAC. ACHTUNG! A, and with high and which and reused. This that and their end-of- life, should of from household Please, of this community collection/recycling the Union there and Please, to the Recycling
+PRODUKTBERSICHT EIGENSCHAFTEN..........................................................................................................................1 LIEFERUMFANG............................................................................................................................1 OPTIONALES ZUBEHR...............................................................................................................1 TECHNISCHE DATEN....................................................................................................................2 FRONTSEITE ANSCHLSSE RCKSEITE INSTALLATION....................................................................................................................................5 VIDEOEINGNGE..........................................................................................................................5 AUDIOANSCHLSSE INSTALLATION ALARMEINGNGE RS-485 KEYBOARD PTZ INSTALLATION...................................................................................8 RS-485 RS-485 INSTALLATION USB-MAUS.........................................................................................................10 MONITORANSCHLUSS......................................................................................................................11 NETZWERKANSCHLUSS............................................................................................................11 PC ABSCHLUSS INSTALLATION......................................................................................................13 KONFIGURATION BER NETZWERK IP-PARAMETER SETUP MIT IP-UTILITY VERBINDUNG ZU ERS-4 HERSTELLEN.....................................................................................15 BROWSER SICHERHEITSEINSTELLUNGEN.............................................................................16 ActiveX ActiveX NETZWERK KONFIGURATION: LIVE ANSICHT.......................................................................21 NETZWERK KONFIGURATION: EXPRESS NETZWERK KONFIGURATION: KAMERA NETZWERK KONFIGURATION: AUFNAHME NETZWERK KONFIGURATION: ALARM.....................................................................................34 INHALT
+HDD HD HDD HD NETZWERK KONFIGURATION: TIMER......................................................................................44 NETZWERK KONFIGURATION: NETZWERK LAN DDNS DDNS..................................................................................................................55 DDNS.......................................................................................................................57 NETZWERK KONFIGURATION: HDD..........................................................................................59 NETZWERK KONFIGURATION: DISPLAY OSD..............................................................................................................60 M/T SEQ NETZWERK KONFIGURATION: SYSTEM...................................................................................62 BEDIENUNG BER NETWERK BILDSCHIRM LIVEANSICHT........................................................................................................70 KAMERA ANSICHTEN...............................................................................................................72 BIDIREKTIONALE AUDIOBERTRAGUNG AUFNAHMESUCHE VIDEO EXPORT WIEDERGABE VON EXPORTDATEIEN MIT EFPLAYER SOFTWARE......................................78 PTZ CONTROL.............................................................................................................................79 INFO Info:
+Info: ANHANG A: FESTPLATTENEINBAU...............................................................................................83 ERS-4 GEHUSE FFNEN MONTAGE HDD-WINKEL LFTERMONTAGE......................................................................................................................86 SATA UND SPANNUNGSKABEL.................................................................................................87 MONTAGE DER FESTPLATTE IN DAS GEHUSE.....................................................................88 ERS-4 GEHUSE SCHLIESSEN ANHANG B: NETZWERK GRUNDLAGEN........................................................................................90 TCP/IP EINFHRUNG.............................................................................................................90 SUBNETZMASKE......................................................................................................................90 GATEWAY ADRESSE VIRTUELLE PORTS VOR DER INSTALLATION WIE IST IHR NETZWERK AUFGEBAUT?.................................................................................92 EINFACHE PUNKT-ZU-PUNKT VERBINDUNG........................................................................92 DIREKTE HIGH SPEED MODEM VERBINDUNG ROUTER ODER LAN VERBINDUNG........................................................................................98 ANHANG C: ALARMMODI ANHANG D: REGELN FR AUTOMATISCHES SETUP IM EXPRESS MEN..............................104
+PRODUKTBERSICHT ERS-4 CCTV optionalen H.264 EIGENSCHAFTEN H.264 (GUI) Optional SATA LIEFERUMFANG ERS-4 CD IP-Utility OPTIONALES ZUBEHR ERS-HDMK: ERS-4 SATA HDD ERS-4-NH ERS-4
+TECHNISCHE DATEN SS FBIS, BNC, SS FBAS, BNC VGA RCA RCA RS-485 BASE-T, 8P8C RJ45 USB USB USB USB LED HDD Traffic NTP 12VDC VAC (B H) 0C~40C 32F~104F Functional H.264 GUI (Graphical Interface) PTZ BPS PAL BPS NTSC BPS PAL BPS NTSC BPS PAL BPS NTSC BPS PAL BPS NTSC BPS PAL BPS NTSC BPS PAL BPS NTSC ERS-4
+FRONTSEITE LED USB LED USB USB LED: POWER: LED ALARM: LED HDD LED HDD LED ERS-4
+ANSCHLSSE RCKSEITE DC12V: DC 12V RS485: RS-485 PTZ RCA 1V RCA 1V BNC BNC VGA: VGA VGA USB: USB USB LAN: 100Base-T 8P8C RJ-45 ERS-4
+INSTALLATION VIDEOEINGNGE RG-59, RG-12, BNC RG-58), PAL/CCIR ACHTUNG: ERS-4 (PAL/NTSC) ERS-4
+AUDIOANSCHLSSE ERS-4 SS ACHTUNG: hat SS FUNKTIONALITT AUDIOAUFNAHME: KAMERA ALLGEMEIN ERS-4
+INSTALLATION ALARMEINGNGE ERS-4 ERS-4 (N.C.) (N.O.) hat N.O. N.C. of ERS-4 ALARM NC ERS-4 COM NO
+RS-485 KEYBOARD PTZ INSTALLATION ERS-4 EKB-500 RS-485 RS-485 ERS-4 RS-485 CAT5. UTP RS-485 RS-485 RS-485 RS-485 RS-485 Ist RS-485 EDA 997A RS-485 ERS-4
+RS-485 RS-485 RS- RS-485 RS-485 RS-485 RS-485 EDA 997A RS-485 RS-485 ERS-4 ERS-4
+optionale Software USB optionale EKB-500 ACHTUNG RS-485 ERS-4: RS-485 >KAMERA >ALLGEMEIN RS-485 >SYSTEM SCHNITTSTELLEN ACHTUNG: P KAMERA) INSTALLATION USB-MAUS USB USB ERS-4 ANMERKUNG: Microsoft USB USB ERS-4
+BNC- VGA VGA ERS-4 NETZWERKANSCHLUSS ERS-4 H.264 Informationen, Routerinstallationen PC PC PC PC or PC ERS-4
+Router ERS-4
+ABSCHLUSS INSTALLATION ERS-4 Strom POWER LED ERS-4
+KONFIGURATION BER NETZWERK ERS-4 USB IP-PARAMETER SETUP MIT IP-UTILITY "IPUtility.exe" CD-ROM. Devices. ERS-4 ERS-4 Passwort Passwort: Devices, IP ERS-4
+VERBINDUNG ZU ERS-4 HERSTELLEN ERS-4 to selected IP Passwort Passwort: Passwort OK, ERS-4 Browser. Firefox ActiveX XML ERS-4
+BROWSER SICHERHEITSEINSTELLUNGEN ActiveX IP ERS-4 Computers ERS-4
+Passwort Passwort: ERS-4
+ActiveX ActiveX NICHT Extras>Internetoptionen ERS-4
+ActiveX IE7 IE7 OK OK, ERS-4
+Passwort Passwort: ERS-4 ERS-4
+NETZWERK KONFIGURATION: LIVE ANSICHT UP ON/OFF PTZ Info: (ERS-4 PC) (PC ERS-4) PC PC ERS-4
+Info, Informationen ERS-4
+NETZWERK KONFIGURATION: EXPRESS EXPRESS EXPRESS ERS-4
+ERS-4 and ERS-4 ERS-4 ERS-4 and PAL: NTSC: Normal Normal Normal (PAL) (NTSC) D: REGELN FR AUTOMATISCHES SETUP IM EXPRESS MEN. IP: IP DHCP: IP DHCP LAN. IP ERS-4
+IP-Adresse IP IP DHCP DHCP Gateway Gateway DHCP DNS DNS DHCP DNS DDNS DNS DNS DHCP DNS DDNS Passwort Passwort ERS-4 JA. ERS-4
+NETZWERK KONFIGURATION: KAMERA ERS-4 PAL: KAMERA Normal ERS-4
+Checkbox Checkbox PTZ ID RS-485 PTZ ID AUS ID RS-485 S/N ID OK, CH1...4 NTSC: ERS-4 (fps), Ist ERS-4
+OK, CH1...4 ERS-4
+ERS-4) PC optionale Software ERS-4
+Motion Timeout "Timeout" OK, Timeout: Trans+Timeout: ERS-4
+CH1...4 Checkbox, Checkbox, PC optionale Software ERS-4
+Timeout OK, CH1...4 Timeout: Trans+Timeout: ERS-4
+NETZWERK KONFIGURATION: AUFNAHME TIMER AUS: ERS-4 BERNAHME AUFNAHME ERS-4
+NETZWERK KONFIGURATION: ALARM PC optionale Software ALARM ERS-4
+Trans+Timeout: Timeout "Timeout" ERS-4) PTZ PTZ hat, Preset Preset OK, CH1...4 Timeout: ERS-4
+ERS-4 "FAN FEHLER" PC optionale Software ERS-4
+HDD "HD PC optionale Software Stop Record HDD C C F. ACHTUNG: Checkbox ACHTUNG: ERS-4
+ERS-4
+HD "HD PC optionale Software ERS-4
+HDD ERS-4 "BERSCHREIBEN" "AUFNAHME" HD VOLL" PC optionale Software Timeout: Trans+Timeout: Timeout "Timeout" "Timeout+Transparent". ERS-4
+HD HD AUS". PC optionale Software Timeout: Trans+Timeout: Timeout "Timeout" "Timeout+Transparent". ERS-4
+PC optionale Software ERS-4
+Timeout: Trans+Timeout: ERS-4
+NETZWERK KONFIGURATION: TIMER ERS-4 EXPRESS "AUFNAHME" Checkbox "TIMER AUFNAHME" EXPRESS "FEIERTAGE" EXPRESS TIMER ERS-4
+Normal "AUFNAHME" Checkbox "TIMER AUFNAHME" ERS-4 ERS-4
+ERS-4 "FEIERTAGE" TIMER ERS-4
+EXPRESS ERS-4
+EXIT, OK. ERS-4
+OK. "AUFNAHME" Checkbox "TIMER AUFNAHME" ERS-4
+ERS-4
+OK. OK. ERS-4
+NETZWERK KONFIGURATION: NETZWERK LAN IP: IP DHCP: DHCP Communication IP DSL Service (ISP), ISP Passwort: ISP Passwort IP IP IP NETZWERK DHCP ERS-4
+DHCP Gateway DHCP Gateway IP DNS DHCP DNS DDNS DNS IP DNS DHCP DNS DDNS HTTP HTTP/WEB ERS-4 3M: ERS-4
+ERS-4 SMTP SMTP SMTP SMTP SMTP Passwort) SSL SSL SMTP Passwort Passwort SMTP hoher ISP ERS-4
+DDNS ERS-4 DDNS Services DDNS ERS-4. DDNS DDNS Service DVR www.everfocusddns.com "Success" ERS-4
+DDNS Software and Option ERS-4 ERS-4 IP-Adresse http://[ihr_name].everfocusddns.com Option Router) Option ERS-4
+DDNS DDNS Service ERS-4, Passwort Passwort ERS-4
+ERS-4 Software Software IP IP Software UDP: TCP: UDP LAN ID ID ID Software ID ERS-4
+NETZWERK KONFIGURATION: HDD Statusinformationen Format OK. HDD OK: ERS-4 "BERSCHREIBEN" HDD ERS-4
+NETZWERK KONFIGURATION: DISPLAY ERS-4. OSD HDD BNC/VGA VGA BNC MONITOR ERS-4
+M/T SEQ (s) ERS-4
+NETZWERK KONFIGURATION: SYSTEM SYSTEM NTP. Format JJJJ/MM/TT, TT/MM/JJJJ MM/TT/JJJJ. Format Synchronisation NTP NTP NTP PC START AUSFHREN OK. DOS IP NTP SYSTEM ERS-4
+NTP ERS-4
+ERS-4
+ERS-4 PTZ Copy Info Passwort OSD OSD PTZ Info Passwort ERS-4
+Passwort Passwort Passwort Passwort ERS-4
+Passwort Passwort Passwort ERS-4
+RS-485 PTZ PTZ D, P, ID RS-485 ERS-4, ERS- EKB-500 RS-485 RS-485 KAMERA)! Rate RS485 Stop Stoppbits: ERS-4
+ERS-4 ACHTUNG: NTP ERS-4
+BEDIENUNG BER NETWERK BILDSCHIRM LIVEANSICHT UP ON/OFF PTZ Info: (ERS-4 PC) (PC ERS-4) PC PC ERS-4
+Info, Informationen ERS-4
+KAMERA ANSICHTEN BIDIREKTIONALE AUDIOBERTRAGUNG ERS-4 PC PC ERS-4 ERS-4
+AUFNAHMESUCHE ERS-4 Bis: ERS-4
+"WIEDERGABE" Stop ERS-4
+COPY/EXPORT ERS-4
+ERS-4
+VIDEO EXPORT EXPORT Download Software Format. ERS-4 ERS-4
+WIEDERGABE VON EXPORTDATEIEN MIT EFPLAYER SOFTWARE Software Format PC. PC. ERS-4 JPG Snapshot AVI
+PTZ CONTROL S/N RS- PTZ PTZ RS485 CAMERA ALLGEMEIN. RS-485 SYSTEM SCHNITTSTELLEN PRESET GO PRESET SET PRESET DELETE Preset Tour TOUR GO PATTERN GO AUTO-PAN PRESET SET OSD I+ ESC OSD I- ANMERKUNG: PTZ Tour Preset Tour ERS-4
+INFO Info: Informationen ERS-4 ERS-4 NTSC/PAL ActiveX IP IP ERS-4 MAC MAC ERS-4 DVR NETWORK>DDNS) ID ID (>NETZWERK>ALARM) HDD INFO ERS-4
+Info: ERS-4 Informationen LOG INFO Option, Option, Option, Option, Option, ERS-4 ERS-4 ERS-4
+Format LOG ERS-4
+ANHANG A: FESTPLATTENEINBAU ERS-4 ERS-HDMK. ERS-HDMK SATA HDD HDD ERS-4
+ERS-4 GEHUSE FFNEN ERS-4
+MONTAGE HDD-WINKEL ERS-4
+LFTERMONTAGE Kabelposition ERS-4
+SATA UND SPANNUNGSKABEL SATA SATA ERS-4
+MONTAGE DER FESTPLATTE IN DAS GEHUSE ERS-4
+ERS-4 GEHUSE SCHLIESSEN ERS-4
+ANHANG B: NETZWERK GRUNDLAGEN DVR TCP/IP EINFHRUNG TCP/IP (LAN) TCP/IP IP IP IP IP LAN IP Computers IP LAN LAN Computer; IP SUBNETZMASKE LAN hat LAN IP GATEWAY ADRESSE LAN hat Gateway. Gateway Gateway LAN IP Router). Gateway VIRTUELLE PORTS URL ERS-4
+URL IP theoretisch HTTP). IP IP Ethernet Switch Router. USB Ports.. VOR DER INSTALLATION High-speed High-speed T1, DSL Service Router Router Service Router Computern IP Computern IP IP IP IP Hosting IP IP IP IP IP Service IP DDNS DDNS ERS-4
+Service, IP Informationen IP Informationen DDNS Service EDR EDR H/M, H/M, EDR Ease EDR D, A/D A/D ECOR ECOR PARAGON WIE IST IHR NETZWERK AUFGEBAUT? High Router LAN LAN Network) Router LAN Router Computern IP EINFACHE PUNKT-ZU-PUNKT VERBINDUNG ERS-4
+LAN Computers. IP IP Gateway Option DNS Computers IP 2000/XP. ERS-4
+ERS-4
+(TCP/IP) Option IP IP OK. DIREKTE HIGH SPEED MODEM VERBINDUNG ERS-4
+ERS-4 DVR
+LAN High IP IP Service IP DHCP Service (IP Service ERS-4
+ROUTER ODER LAN VERBINDUNG LAN Router. DVR Router ERS-4
+Router: DHCP IP o OK. o DOS (s. o Information IP IP IP Computers IP (IP ERS-4
+IP Router Router PC Router Ports. o Ports: o Service o Routers Service (IP Service IP IP DDNS ERS-4
+ANHANG C: ALARMMODI Timeout Timeout ERS-4
+Timeout Timeout ERS-4
+Timeout: Timeout Timeout+Transparent: Timeout ERS-4
+ANHANG D: REGELN FR AUTOMATISCHES SETUP IM EXPRESS MEN Normal ERS-4 ERS-4 ERS-4
+Normal ERS-4 Option ERS-4
+Office 12F, Road, office Information Industry Office D-46446 Office WBG Marive East 18F, city USA California Office Highland Unit CA ,U.S.A USA New York Office Unit NY ERS-4 P/N: 4605XERS04001AR

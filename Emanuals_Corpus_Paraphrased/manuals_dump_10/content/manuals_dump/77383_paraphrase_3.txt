@@ -1,0 +1,108 @@
+**AE4-1395: Ton Conditioning Section Instructions**
+
+### Overview
+
+This document provides detailed guidelines related to the AE4-1395 Ton Conditioning Section, emphasizing its application, operational parameters, and necessary precautions.
+
+### Table of Contents
+- Applications
+- Reasons for Retrofitting
+- Performance Selection
+- Change-Out Assembly Procedures
+- Ton Modulation Procedures
+- Testing and Troubleshooting
+- Capacity Graphs
+- Thermistor Specifications
+
+### Important Safety Instructions
+
+**DANGER:** Follow all instructions to avoid serious injury or death. 
+
+- **WARNING:** Electrical shock hazards necessitate proper disconnection and servicing procedures.
+- **CAUTION:** Handle pressurized systems carefully to prevent exposure to high pressure or potential burns.
+
+### Application Guidelines
+
+This section outlines specifications for various refrigerants, including R-410A, R-22, and R-407C. Systems such as VAVs that demand specific operational conditions are included. Each application demands adherence to the parameters listed in previous Emerson documents (e.g., AE4-1331).
+
+### Performance and Operational Considerations
+
+Operating temperatures and suction superheats must not exceed manufacturer recommendations to prevent overheating and ensure optimal cooling performance. 
+
+### Sound Characteristics
+
+The acoustic profile of equipment during operation should adhere to specified norms. Any abnormal sounds should be investigated to prevent equipment failure.
+
+### Thermistors and Crankcase Heaters
+
+Specifications for thermistors must be followed closely, including suitable replacements and installation guidelines. Proper charge management for R-22 systems is critical, especially concerning crankcase heaters.
+
+### Closing Notes
+
+For additional information regarding performance ratings and operational parameters, visit [www.EmersonClimate.com](http://www.EmersonClimate.com). Customers seeking to purchase or assemble components should consult this document to ensure compliance with operational standards and safety protocols.
+
+### Revised Text
+
+Modulation technology from Emerson, specifically the Emerson Comfort series, addresses both protection and OEM applications. For OEM specifics, refer to the VDC information under AE8-1328. The Emerson Comfort system is designed for both OEM integration and retrofit scenarios, typically situated to optimize efficiency without extraneous information. For additional details, consult AE8-1393 regarding the necessary protection features included.
+
+It is crucial to conduct application tests to ensure the performance aligns with expectations. This includes monitoring the system's operation and confirming that it meets the anticipated performance benchmarks. The recommended suction superheat and other parameters should be carefully assessed throughout operation.
+
+### Retrofit Applications and Guidelines
+
+Numerous reasons exist for undertaking retrofitting in buildings, including improved energy efficiency and operational cost reduction. Detailed guidelines for the installation of retrofit units are provided under AE4-1395. It is important to note that modifications can impact warranties. The retrofitting process for HVAC systems must comply with operational targets and specific performance criteria, including heating and cooling load management, as outlined by Emerson Inc.
+
+### Operational Instructions
+
+When implementing modifications, ensure to monitor system pressure and flow rates, recording these values accurately. Performance levels of both the existing and new units should be documented to facilitate a seamless transition. For best practices, refurbishment procedures should be followed diligently, ensuring that systems are properly charged and leak-tested before operation. 
+
+### Maintenance and Troubleshooting
+
+For troubleshooting modulation issues, reference the flow chart included in the guidelines. Ensure that all physical connections are appropriately aligned, and gauge the system’s flow to confirm expected operational standards. Any deviations from specified operational parameters should prompt an immediate review and correction.
+
+Finally, routine maintenance should be conducted following OEM guidelines to ensure continuous optimal performance, with an emphasis on system monitoring and adjustment based on real-time data. 
+
+Additional information and detailed operational procedures can be found in the Emerson documentation. 
+
+Emerson Inc. Printed in the U.S.A.
+
+**Load Capacity Information**  
+Emerson Inc. has published the U.S.A. Application Capacity Graph, indicating load capacities in seconds for PM Thermistors (Model AE4-1395). 
+
+**Suction Assembly Details**  
+For the suction assembly, indicated as "To Ton Suction," refer to the instruction for Model AE4-1395. 
+
+**Troubleshooting Overheating Issues**  
+If overheating occurs, troubleshoot by checking for proper grounding and continuity. Ensure to allow the unit to cool before proceeding. Follow the instructions carefully.
+
+**Thermistor Models**  
+The following models are included: 
+- ZPD34-54K5
+- ZRD36-48KC
+- ZPD61-91KC
+- ZRD61-81KC
+- ZPD103-182KC
+- ZRD94-125KC
+
+**Modulation Accessory and Specifications**  
+This document encompasses modulation family accessories: 
+- ZPD34-54K5
+- ZPD61-91KC
+- ZPD103-137KC
+- ZPD154-182KC
+- ZPDT12-18MC
+- ZPDU13MC, among others.
+
+**Mounting and Protection Information**  
+Safety notes regarding mounting crankcase heaters and thermistor protection are included. All information provided is for guidance, and Emerson Inc. disclaims any responsibility regarding product selection, use, or application. 
+
+**Retrofit Information**  
+For OEM Emerson Comfort retrofit options, the following voltages are applicable: 
+- 24V
+- 110V TBD
+- 220V TBD
+
+Visit the service section at www.EmersonClimate.com for more detailed information on Comfort Modulation and compatible thermistors, including models such as ZPD34-54K5, ZPD61-91KC, and others. 
+
+**Technical Specifications**  
+For suction terminal compatibility, refer to the specific configurations that fit thermistors ZRD81KC and ZPD91KC within the AE4-1395 documentation. 
+

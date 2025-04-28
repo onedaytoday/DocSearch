@@ -1,0 +1,17 @@
+### Paraphrased Technical Summary
+
+The B/W and EL2000 telephone entry systems feature components such as the Unlock function, LED boards, and associated mounting screws. When connecting the EL2000, ensure that the LED board is properly positioned and secured. If the EL2000 is linked to a switched input, adjustments to the mounting screws may be necessary. The BNC connector should be attached to the rear of the device.
+
+For the EL25 model, similar procedures apply regarding the telephone entry/access, LED functions, and mounting adjustments. It is crucial to ensure proper alignment of the mounting screws, and the LED board must be securely fastened to the rear mounting plate.
+
+**Technical Specifications:**
+- For B/W models (EL25BWCAMKT, EL2000BWCAMKT), the CCD effective resolutions are provided in EIA and CCIR formats.
+- The S/N ratio exceeds certain parameters (AGC off), with a minimum aperture of F2.0 and BLC settings customizable for both NTSC and PAL standards.
+- The color correction ratio is R=0.45, accommodating a white balance range of 2100K to 8200K.
+  
+**Operating Conditions:**
+- Devices operate effectively within a temperature range of 14°F to 122°F (-10°C to 50°C) and should maintain specified humidity levels.
+- The mean time between failures (MTBF) and smear effect under specific VDC conditions must be accounted for to ensure device integrity and performance.
+
+All specifications, configurations, and mounting instructions must be adhered to for optimal usage and longevity of the devices.
+

@@ -1,0 +1,134 @@
+# USER MANUAL: Touch 1528L Touchmonitors SW2000095
+
+**Copyright Notice:** This document is the property of Touch Inc. Unauthorized reproduction, transmission, transcription, or translation without written permission from Touch Inc. is prohibited. The contents herein are provided "as is" without any guarantees or warranties, explicitly including but not limited to implied warranties of merchantability. Touch Inc. reserves the right to amend this publication independently. 
+
+**Safety Warnings:** 
+
+- **Risk of Electrical Shock:** Do not open the unit. To minimize the risk of shock, avoid accessing internal components yourself; only qualified service personnel should perform repairs. 
+- The device is designed to mitigate risks against fire or electrical shock. 
+
+**Specifications and Usage:**
+
+- **Device Classification:** The touchmonitor is classified as a Class I (Grounded) device and contains no applied parts.
+- **Ingress Protection:** The device is rated as ordinary equipment with IPX1 protection.
+- **Operational Environment:** Designed for continuous operation in environments ranging from 0°C to 40°C (with a storage range of -20°C to +60°C, avoiding condensation).
+
+**Compliance Information:**
+
+- The 1528L complies with EMC standards and directives related to electromagnetic compatibility. Interference should be monitored, as outlined in the specifications. The device has been tested per FCC requirements, EU Directives (including LVD, EMC, MDD), and carries the CE marking.
+
+**Immunity Testing:**
+
+- The device meets immunity standards, including IEC60601 for Electrostatic Discharge (ESD) and IEC61000 series for RF and conducted disturbances. If any operational interruptions are noted, it is advisable to reduce environmental RF noise or switch the device to battery operation for stability.
+
+**Product Overview:**
+
+- The 1528L is a 15-inch LCD touchmonitor featuring multiple interface options, including USB. It supports various touchscreen technologies such as AccuTouch (resistive), Acoustic Wave (SAW), and CarrollTouch (IR). 
+
+**Installation Instructions:**
+
+- Carefully unpack and connect the touchmonitor via the relevant interface (USB or DVI) per the guidelines provided. Ensure to power off the device before making any connections to prevent damage.
+
+**Final Notes:**
+
+- Ensure compatibility with software drivers located on the TouchTools CD-ROM for seamless operation across several operating systems, including Windows XP, NT, CE, DOS, and OS/2. 
+
+For additional information about operation or troubleshooting, please refer to the respective chapters within this manual.
+
+### User Instructions for USB Touchmonitor Installation and Operation
+
+For additional information regarding the operating instructions for the USB touchmonitor, please visit www.elotouch.com. When setting up your touchmonitor, adhere to the guidelines outlined in the section below. For Windows XP or newer systems, follow these steps:
+
+1. Choose "Next" to begin the setup.
+2. Select "Recommended" when prompted to search locations and press "Next."
+3. Specify the directory of the TouchTools CD-ROM and click "Next."
+4. Once the USB touchscreen is detected, press "Next."
+5. If prompted, ensure the CD-ROM is active and follow any remaining instructions.
+
+For maintaining optimal performance, refer to Chapter A for details on adjusting the touchmonitor to factory specifications. Use the On-Screen Display (OSD) menu to modify settings such as brightness and color temperature; options include 9300K, 6500K, 5500K, and 7500K.
+
+To navigate the OSD:
+
+- Use the MENU button to access options.
+- Rotate clockwise or counterclockwise to adjust selections.
+- Use the SELECT button to confirm changes.
+
+After setup, the OSD will automatically lock after a set duration. To unlock, press the MENU button for a few seconds until the "OSD UNLOCK" message appears.
+
+### Troubleshooting
+
+Should you experience issues with the touchmonitor's operation, follow these troubleshooting steps:
+
+1. Ensure the monitor is powered on and connected securely.
+2. Adjust the brightness using the OSD controls, which may help with visibility.
+3. If characters appear distorted, confirm that you are using an appropriate input resolution such as VGA, SVGA, or XGA.
+
+### Care and Maintenance
+
+To ensure longevity and performance, follow these cleaning and maintenance guidelines:
+
+- Turn off the touchmonitor before cleaning.
+- Use a soft, damp cloth for cleaning the touchscreen to avoid scratches.
+- Avoid using harsh chemicals or cleaners directly on the touchscreen.
+
+### Technical Specifications
+
+Refer to the following table for touchmonitor specifications. 
+
+- Horizontal and Vertical Scanning Frequencies
+- Native Resolution and Pitch for various inputs (VGA, SVGA, XGA)
+- Brightness and response time specifics
+- Power requirements and operational ranges
+
+### Power Cord Selection
+
+For North American use, employ UL Listed grounding cords. Ensure compatibility with local standards when using cords in other regions. Refer to the applicable country’s safety regulations and agency listings to select proper cords.
+
+### Touchscreen Specifications
+
+The touchscreen incorporates specifications such as mechanical durability, activation force, and chemical resistance tested against standard cleaners. Configurations include AccuTouch (resistive) options with special coatings for optimal performance.
+
+For any additional specifications or operation guidance, please consult the detailed manuals or contact technical support.
+
+### Specifications for CarollTouch Touchscreen
+
+**Mechanical and Activation Characteristics:**
+This touchscreen features standard touch activation, with a specified activation force. Connectivity options include RS232 and USB. The light overlay complies with ASTM D1003-92 standards. The touchscreen is resistant to chemicals such as isopropyl and ammonia-based cleaners, with a design utilizing polycarbonate materials.
+
+**Contact Information:**
+Touch Inc., California | Phone: 800-ELO-TOUCH  
+Website: [www.elotouch.com](http://www.elotouch.com)  
+Related Items:  
+- E448370 cord  
+- E894354 (VGA)  
+- 5313018038F0 (VGA)  
+- 5313018037F0 (DVI)  
+- 5313118055F0 (DVI)  
+- 5313118046F0 (DVI)  
+- 5313118045F0 (USB)  
+- 5313118048F0 (USB)  
+- 5313118047F0 (USB)  
+- 5313118053F0 (USB)  
+- 5313118052F0 (USB)  
+- 1528L SW200095 A
+
+**Important Safety Information:**
+A) Ensure that the device is operated according to specified guidelines to prevent damage or a fire hazard. Only qualified service personnel should perform repairs.  
+B) The device should be properly grounded to prevent the risk of electric shock or equipment failure.  
+C) Regulatory Notices:  
+   - The device has been tested and complies with FCC Class A standards, providing reasonable protection against interference.  
+   - Installation must adhere to related instructions to avoid interference.  
+   - Compliance with CE directives for low-voltage (LVD) and electromagnetic compatibility (EMC) requirements is guaranteed, as outlined in the relevant standards. 
+
+**User Considerations:**
+Users should be aware that external factors can interfere with device performance. In such cases, measures such as adjusting the equipment's position or changing the outlet may resolve issues. For assistance, consult a qualified technician.
+
+### Warranty Information:
+The manufacturer warrants that the product is free from defects in materials and workmanship. Claims for warranty must be reported in writing within thirty days of discovery of a defect. The warranty covers reasonable inspection costs and offers replacement options for defective items. 
+
+Any warranty excludes indirect damages and does not extend beyond the original purchaser. Additional terms may apply in the event of product alterations, and the manufacturer disclaims all other warranties unless specifically stated. 
+
+For further information about the product, specifications, or press releases, please visit [www.elotouch.com](http://www.elotouch.com) or contact the North American office. 
+
+Copyright © [Year] ELO Touch Solutions, Inc. All Rights Reserved.
+

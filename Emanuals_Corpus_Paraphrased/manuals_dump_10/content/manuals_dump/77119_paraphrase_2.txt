@@ -1,0 +1,138 @@
+### Paraphrased Document
+
+**1928L LCD Touchmonitor Overview**
+
+**Model Name:** 1928L LCD Touchmonitor  
+**Revision P/N:** E116103  
+**Copyright:** TouchSystems Corporation. All rights reserved. Reproduction, transmission, or translation of this document is prohibited without prior written consent from TouchSystems. The content herein is subject to change without notice and is provided without any express or implied warranties, including but not limited to merchantability or fitness for a particular purpose.
+
+**Safety Warning:**  
+To avoid the risk of electric shock, do not open the unit. Electrical shock hazards exist internally, and only qualified personnel should conduct servicing. Improper handling can lead to serious injury. This product is designed to resist certain types of electromagnetic interference as per applicable standards. The specifications detail performance limits under various conditions.
+
+**Product Specifications:**  
+- **Classification:** This device is classified as grounded equipment with no applied parts and is suitable for continuous operation within a specified temperature range.  
+- **Operating Temperature:** Operating temperature range is from 0°C to 40°C; transportation should be in a non-condensing environment.  
+- **Ingress Protection:** Rated IPX1.
+
+**Compliance Standards:**  
+- Conforms to IEC 60601-1 and related safety standards.  
+- EMC compliance is confirmed per applicable CISPR and IEC standards.
+
+**Power Supply Information:**  
+The 1928L operates on AC input. Proper grounding and connection practices should be followed as outlined in the manual. Typical input ratings should be adhered to in order to prevent damage.
+
+**Installation Instructions:**
+1. **Connecting the Monitor:**
+   - Ensure that both the monitor and PC are turned off.
+   - Connect the appropriate video cable (VGA or DVI-D) between the PC and monitor.
+   - Secure connections using screws as needed.
+
+2. **Connecting Touchscreen:**
+   - Connect the USB or RS-232 serial cables from the monitor to the PC.
+   - Ensure all connections are secure.
+
+3. **Speaker Connection:**
+   - Connect external speakers to the designated port on the underside of the unit.
+
+**Technical Specifications:**
+- **Display Type:** 19-inch SXGA TFT LCD with touch functionality.  
+- **Typical Brightness and Response Times:** Specific metrics will be outlined in corresponding sections.  
+- **Power Rating:** Standard power consumption rates should be observed to ensure compliance.
+
+**Customer Support and Warranty Information:**  
+For additional details about this product or for warranty inquiries, please refer to the provided sections or contact our customer support.
+
+The 1928L touchmonitor is designed primarily for integrated use as both an informational display and an interactive touchscreen interface. Detailed operating procedures and software functionalities can be found in dedicated sections of this manual.
+
+### STEP 4: Connecting Power to the Touchmonitor
+
+**Connect the power connections under the touchmonitor.** Ensure that the power source is routed properly to prevent interference. **Note:** To maintain protection, connect the touchmonitor's power cord to a grounded AC power source.
+
+### Mounting the Touchmonitor 
+
+The touchmonitor is designed to comply with the VESA Physical Mounting Interface (FPMPMI). This interface is located on the back of the touchscreen. Use M4 Phillips screws and a screwdriver to secure the touchmonitor according to the provided screw template. 
+
+**Rear Mounting:** If the VESA mounting interface is already connected, ensure that all four screws are tightly fastened. Refer to the mounting template provided for correct alignment. For further details, consult GCX (www.gcx.com), Ergotron (www.ergotron.com), or other specific resources.
+
+### LCD Touch Software
+
+To utilize the LCD capabilities, install the graphic software from the included CD-ROM compatible with operational systems such as Windows XP, NT, CE, MS-DOS, and OS/2. For compatible touchmonitor software and drivers, refer to www.elotouch.com. 
+
+**Installation Instructions:** 
+1. Plug the USB touchmonitor into your system to ensure it is recognized as a plug-and-play device. 
+2. Follow the provided installation instructions carefully to complete the software setup.
+
+### Touchmonitor Features
+
+The touchmonitor's On-Screen Display (OSD) allows users to adjust settings such as brightness and C. The OSD functions navigate through the following:
+
+- **Display/Exit OSD:** Navigate using adjustment buttons to modify items clockwise or counter-clockwise.
+- **Select Items:** Options are selectable from the OSD. Note that VGA input is required for specific settings like the H-Position and Clock adjustments.
+
+***Note:** The OSD will automatically time out after a set duration of inactivity.*
+
+### Power-Saving Mode
+
+The LCD automatically enters a power-saving mode when there’s no input signal. For optimal clarity and longevity, it is advisable to turn off the LCD when not in use.
+
+### Common Suggestions
+
+To keep the system running smoothly, ensure both the touchscreen and LCD are turned off during cleaning. Utilize appropriate care instructions found in the operation manual to prevent any damage.
+
+### Troubleshooting
+
+Refer to sections regarding the LCD resolutions: ensure the input matches the specifications needed for VGA, SVGA, XGA, and SXGA formats. Following the emergency procedures will help mitigate risks of shock or damage.
+
+### Technical Specifications
+
+- **Active Matrix LCD:** Feature a pixel pitch of 0.294mm (H) x 0.294mm (V).
+- **Brightness:** Rated in typical values for accurate representation.
+- **Power Supply:** AC 100-240V, DC 12V, 4A; temperature operational ranges will also be specified.
+
+### Cord Selection Guide
+
+For North America, use UL listed cords rated for grounding. Specific accessory items and part numbers can be obtained for touch monitor maintenance.
+
+For international operations, adhere to local agency specifications and ensure compliance with the respective electrical supply regulations.
+
+### Concluding Functionality 
+
+Ensure all connections and operations conform to safety standards to maintain optimal performance of the touchmonitor.
+
+--- 
+
+This paraphrase maintains the original information but delivers it in a more concise technical format.
+
+**HAR Flexible Cord Specifications**
+
+The HAR flexible cord, either printed or in black-red, is labeled on or threaded through the insulation of the section and adheres to the following standards: CEBEC, VDE, UTE, IMQ, BASEC, KEMA-KEUR, SEMKO, NSAI, NEMKO, and ELOT. The cord meets the requirements for safety and quality under various regulations.
+
+**AccuTouch (Resistive) Touchscreen Specifications**
+
+The AccuTouch touchscreen features mechanical specifications with more than the typical number of touchpoints per inch. The activation force generally exceeds 85 ounces, and it is rated for expected performance, including wear testing. It is designed to operate without failures and is sealed against splashes. The unit's clarity is supported by ASTM D1003 and ASTM D2457 standards, ensuring it can withstand ammonia-based cleaners and other chemicals.
+
+**Acoustic Touchmonitor Specifications**
+
+Mechanical specifications for the acoustic touch monitor indicate that the activation force typically ranges within ounces when connected via USB. The monitor is protected against various chemicals, and its durability is validated against known wear-out metrics, with operational testing verifying performance under expected conditions.
+
+**User Information**
+
+1. **General Warnings:**
+   - Ensure the device is used within specified operational guidelines to avoid hazards.
+   - Service should only be conducted by qualified technicians.
+   - Proper grounding is necessary to prevent electric shock.
+
+2. **Interference Compliance:**
+   - Tested in accordance with FCC Class standards, this device meets the requirements for reducing interference during installations.
+   - Compliance with European Union standards is also confirmed, with necessary certifications in place for electromagnetic compatibility.
+
+3. **Warranty Information:**
+   - This product is warranted against defects in materials and workmanship for a specified period.
+   - To exercise the warranty, contact the manufacturer within thirty days of discovering the issue.
+   - Remedies are limited to replacement or repair of the product, with no additional warranties implied.
+
+**Product Details:**
+Comprehensive specifications, such as brightness, contrast, and other operational details, are available for review on the manufacturer's website. Various connection options and mounting interfaces are supported to ensure compatibility with different setups.
+
+For more information, please visit www.elotouch.com or contact our North American office.
+

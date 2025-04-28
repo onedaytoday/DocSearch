@@ -1,0 +1,41 @@
+### ELK-M1KPAS Arming Station Overview
+
+**Application**  
+The ELK-M1KPAS is a user-friendly arming station designed for the M1 Family Platform, featuring clear functionality and LED indicators for "Ready" and "Armed" statuses. Its compact design eliminates the need for an expensive LCD, making it ideal for various environments, including offices.
+
+**Features**  
+- Blue and white backlighting
+- Function access through the M1/EZ8 via 'RS-485'
+- Mounting hardware included
+- "Flying Lead" connector
+
+**Specifications**  
+- Color: White
+- Power: 12V DC
+- Compatible with CAT5 or CAT6 wiring
+- Ensure compliance with local Authority Having Jurisdiction (AHJ) regulations for proper installation.
+
+**Installation Guidelines**  
+Mount the ELK-M1KPAS according to the specified layout using appropriate screws. Make sure to connect the red, white, and black wires securely, avoiding any splicing while the control power is on. Use the appropriate connectors for your network configuration (e.g., ELK-900-2 "B" Connectors).
+
+**Termination Notes**  
+Proper termination of the RS-485 data bus is critical. Refer to the jumpers JP1 and JP2 for activating the M1KPAS and M1KP2 expanders. Disable the JP3 jumper to prevent conflicts.
+
+**User Operation**  
+To arm the system, press and hold the appropriate button(s) for a few seconds to initiate the bootloader sequence, signaled by indicator lights. The M1KPAS will display various status indicators: Ready (Green), Trouble (Yellow), and Armed (Red).
+
+**Troubleshooting**  
+- In case of issues, verify that all connections are secure and that termination is correctly set up.
+- If problems persist, consult the documentation for guidance on indicators and error signals.
+
+**Optional Features**  
+The M1KPAS includes options for additional arming functionalities, including Night Mode. If using temporary features, ensure all configurations comply with your operational requirements.
+
+**Security Notifications**  
+Indicator lights notify users of system status and any authorized access or violations. Use appropriate functions to manage bypass settings and ensure security compliance at all times.
+
+**System Maintenance**  
+Conduct periodic checks of the system status and respond to any troubleshooting notifications promptly. For any operational questions, consult the user manual or technical support as needed.
+
+This guide serves to assist with the installation, operation, and maintenance of the ELK-M1KPAS Arming Station to ensure effective security management within your premises.
+

@@ -1,0 +1,84 @@
+**Copyright Notice**  
+All rights reserved. No part of this publication may be reproduced, transmitted, transcribed, or translated in any form or by any means without the written consent of TouchSystems. The information provided is without warranties or representations concerning the content, accuracy, or fitness for a particular purpose. TouchSystems, Inc. assumes no liability for any revisions made to this publication. Registered trademarks include SecureTouch, AccuTouch, and MonitorMouse, which are owned by TouchSystems, Inc. Acknowledgments are made to others for their contributions where applicable.
+
+**Table of Contents**  
+- Introduction  
+- About the Product  
+- Chapter on Unpacking the Touchmonitor  
+- Product Overview (1545L)  
+- Rear Unit Specifications for Products (1547L/1548L/1549L)  
+- Rear Unit Specifications for Product (1567L)  
+- Attaching L-Brackets  
+- Touch Interface Connections  
+- Connecting the Touchscreen  
+- Remote OSD Connection  
+- USB Connections  
+- LCD VESA Mount Specifications  
+- Software Installation  
+- Touch Drivers for Windows XP and NT, MS-DOS  
+- Operation Guidelines  
+- Troubleshooting Common Issues  
+- Technical Specifications  
+- Product Warranty  
+- Index  
+
+**About the Product**  
+Congratulations on your purchase of the LCD touchscreen monitor. This high-resolution device enhances user experience by integrating advanced touch technology. To optimize your experience, adhere strictly to the installation instructions in this manual. The touchmonitor features an XGA TFT display with the following input capabilities: Direct RGB input (262,144 colors) and compatibility with XGA/SVGA/VGA/VESA/NEC PC-98 refresh rates.
+
+**Installation and Setup**  
+Ensure all included items are available, including the LCD touchmonitor, software CD, and mounting kit. 
+
+**Connecting the Touch Interface**  
+1. Ensure the touchmonitor is powered off.
+2. Connect the appropriate cable (either RS-232 or USB) to your PC and the touchmonitor.
+3. Tighten connections securely.
+
+**Remote OSD Connection**  
+- Connect the DIN connector from the remote OSD to the touchmonitor.  
+Make sure to ground the system properly by using a three-pronged AC connector.
+
+**VESA Mount Compatibility**  
+The touchmonitor is designed to meet VESA mounting standards. For specific mounting options, refer to mounting resources listed in Section C. Compatibility with various mounts is provided.
+
+**Software Installation**  
+Drivers for the touchscreen can be found on the accompanying CD-ROM, which supports various operating systems including Windows XP, NT, MS-DOS, and OS/2. Follow the installation prompts to properly configure the software.
+
+**On-Screen Display (OSD) Functionality**  
+To navigate the OSD, use the UP and DOWN buttons to adjust settings like contrast and brightness. The OSD provides access to various performance options. 
+
+For detailed operational instructions, troubleshooting, and technical specifications, please refer to the corresponding sections of this manual.
+
+### OSD Function Phase and Brightness Settings
+
+The OSD (On-Screen Display) allows users to adjust the brightness and phase settings of the display. Users can position the OSD horizontally and set it to factory defaults, such as C1/C2/USER color settings at either 9300K or 6500K. To confirm selections, press the SELECT button. Options for R, G, and B (red, green, and blue) can be adjusted individually. For further adjustments, select CONTRAST in the OSD menu. The OSD will automatically close after a few seconds of inactivity.
+
+### Troubleshooting and Connectivity
+
+If there are issues with the touchmonitor's display, ensure that it is connected securely. Verify that the graphics refresh rate matches the LCD specifications and that the VGA connection is secure. If you experience a crooked image or higher resolution than the LCD can display, refer to the troubleshooting section for guidance.
+
+### LCD Touchmonitor Specifications
+
+The LCD touchmonitor (ET1545L/1547L/1548L/1567L) features a 15-inch active thin-film transistor (TFT) display with various resolution inputs (VGA/SVGA/XGA) and a standard operating temperature range of 0°C to 50°C. The touch-sensitive surface is designed for high durability and performance, with multiple layers and protective coatings to resist wear and environmental factors.
+
+### Cleaning Instructions
+
+To maintain the touchmonitor, avoid using abrasive cleaners. It is recommended to use a soft cloth dampened with a non-ammonia cleaner for the screen and ensure any cleaning agents do not contact the touchscreen directly. Also, ensure that the device is grounded to prevent electrical shock.
+
+### Regulatory Information
+
+This product complies with FCC Class B regulations and CE directives to ensure minimal electromagnetic interference. Users should follow the provided instructions to maintain compliance and minimize disruptions. In case of interference, repositioning the equipment or consulting a technician might be necessary.
+
+### Warranty Information
+
+The touchmonitor comes with a warranty covering defects in materials and workmanship for a specified duration. Users must report any issues within thirty days of discovery. The warranty includes reasonable repair or replacement options for defective products, provided they are used according to the guidelines outlined in the warranty documentation.
+
+**Exclusive Remedies for Breach of Warranty**
+
+The remedies specified herein constitute the sole recourse available to the Buyer for any breach of warranty. Apart from the explicit warranty stated above, the Seller does not provide any additional warranties, whether expressed or implied by law, regarding the products, including but not limited to their suitability for any purpose, quality, merchantability, or non-infringement. No employee of the Seller, nor any other individual, is authorized to establish any warranty for the goods beyond what is articulated in this document. The Seller's liability under this warranty is strictly limited to a refund of the product's purchase price. Under no circumstances shall the Seller be liable for any costs associated with the acquisition or installation of substitute goods by the Buyer, nor for any special, consequential, indirect, or incidental damages.
+
+**Product Specifications and Information**
+
+The document contains detailed specifications and information regarding the LCD Touchmonitor models ET15-XXWC-1, ET1545L, ET1547L, ET1548L, and ET1549L. It includes topics such as product features, connection instructions (USB and touchscreen), brightness settings, OSD (On-Screen Display) functionality, troubleshooting steps, and warranty details. Also encompassed are safety information and mounting options (including VESA mounts). 
+
+This compilation serves as a comprehensive guide for users of the aforementioned touchmonitor models, ensuring proper usage and understanding of technical specifications.
+

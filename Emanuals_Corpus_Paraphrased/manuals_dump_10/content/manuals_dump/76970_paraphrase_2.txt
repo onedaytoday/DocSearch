@@ -1,0 +1,135 @@
+**DOCUMENT CAMERA INSTRUCTION MANUAL**
+
+**IMPORTANT SAFEGUARDS:**
+Ensure that the operating instructions are followed for safe operation. Retain these instructions for future reference. Follow cleaning recommendations using suitable methods and tools as specified. Only utilize approved accessories and mounting methods to avoid hazards. 
+
+**Power and Grounding:**
+Ensure that grounding is correctly established for AC sources. The power cord must be routed to prevent pinching or damage. Avoid exposing the device to moisture, as this can create fire or electrical shock risks. 
+
+**Service and Repair:**
+Do not open the device's cover, as there are no user-serviceable parts inside. All servicing must be performed by qualified personnel. If experiencing unusual performance, refer to the operating instructions for troubleshooting guidelines. Unauthorized servicing may result in risks of fire or shock.
+
+**Environmental Precautions:**
+Avoid exposing the device to extreme temperatures, humidity, or direct sunlight. Operating parameters include a temperature range of 5°C to 40°C (41°F to 104°F) and appropriate humidity levels. Handle cables and connections with care to prevent damage.
+
+**User Information:**
+This product adheres to FCC standards and may cause radio interference. If this occurs, the user may need to take corrective actions.
+
+**Setup and Operation:**
+Familiarize yourself with the components and functions before use. Instructions for connecting various inputs and outputs (e.g., DVI, RGB, SD) are provided for optimal performance.
+
+**Specifications and Troubleshooting:**
+Detailed specifications, part names, and functions are outlined, including troubleshooting steps for addressing potential issues.
+
+For additional assistance with setup and operation, please refer to the instructional sections regarding specific functionalities and procedures in this manual.
+
+### On-Screen Display (OSD) Overview
+
+The OSD (On-Screen Display) provides information on options and functions, accessible via the remote control. By pressing the [MENU] button, users can access the OSD, navigate through options using the wireless controller, and confirm selections with the [ENTER] button. The OSD hierarchy allows users to trace back to previous items, starting from the main function screen.
+
+### Main Functions
+
+- **Brightness Adjustment**: The OSD allows for the adjustment of brightness levels. Options called Text1, Text2, and Text3 provide varying clarity for black-and-white text, while the Graphics setting handles images and photographs effectively. 
+- **Edge Effect**: Users can apply an Edge Effect filter to graphics. This includes options to enhance the image’s white level and adjust intensity settings.
+- **Input Source Selection**: Users can switch between various input sources, including USB and SD card connections, as well as selecting the appropriate output (Video Out) for the connected devices.
+
+### Functionality and Settings
+
+- **Slide Show Options**: The OSD allows users to choose specific files or slides for display.
+- **Wireless Remote Functions**: Functions such as memory presets can be called upon using the remote. The OSD menu can be navigated to operate various settings, including color modes (Color/Black & White) and brightness adjustments.
+
+### Setting Up the Device
+
+When connecting peripherals, ensure the power supply is off and all devices are correctly linked. Use appropriate cables, such as USB 2.0 for PC connections, and connect to RGB or DVI inputs as needed.
+
+### Storing Settings and Operation Procedures
+
+Users can save configurations and settings, with clear instructions for locking and unlocking options. It’s crucial to turn off power before making changes to device connections to avoid any malfunctions.
+
+### Summary of Operational Guidelines
+
+- Always check the compatibility of your SD card (256MB or 512MB recommended) and ensure it is properly inserted to avoid issues.
+- Utilize the OSD to navigate and execute commands effectively, switching between options seamlessly.
+- Adjust settings based on the environment to optimize performance, especially in varying lighting conditions.
+
+### Conclusion
+
+For effective use, familiarize yourself with the OSD functions and navigation techniques, ensuring a smooth operation across various settings.
+
+### Technical Paraphrase
+
+To operate the device, you can use either the front panel or the wireless remote. To access the SD card or display settings, press the [MENU] button on the remote. Selecting an option is done by pressing [ENTER] on the remote after highlighting the desired setting on the OSD. To convert the output to SD, ensure the [START SLIDE SHOW] option is selected in the OSD, followed by hitting [ENTER] to perform the action.
+
+The SD card can be formatted using the front panel or wireless remote; just access the [MENU] and choose the [Format] option. When connected to a PC via USB, use the provided software from the CD-ROM to facilitate operations. Ensure your PC runs a compatible OS, such as Microsoft Windows versions 2000 (SP4) or XP (SP2 or above).
+
+For connecting the SD card to the USB-enabled PC, the first action should be to power on the device and establish the USB connection. The device supports JPEG images saved in the format: DCIM/100_ELMO/IMAG0001.JPG, IMAG0002.JPG, etc. Please note that images might be locked or restricted from writing while connected.
+
+Shooting settings allow the rotation of the lens head for wall shooting. Adjustments can be made between TEL (telephoto) and WIDE modes.
+
+**Various Functions and Operations:**
+To control lighting, press the [LAMP] button on either the front panel or remote. Both lights can be turned on simultaneously or individually adjusted.
+
+The [AF] button auto-focuses the camera with a one-shot mechanism; once focused, the operation can be released. Adjustments can be made using [FOCUS NEAR] or [FOCUS FAR] buttons on the remote.
+
+For brightness adjustments, press the [BRIGHTNESS] button to navigate through settings on the OSD. If selecting [NORMAL], it will revert to default brightness settings.
+
+The state of the system settings can be saved or loaded. Functions such as brightness, white balance, color/B&W settings, and rotation can be retained when the system is turned off. Pressing the [PRESET] button stores these settings, while the [CALL] button retrieves them.
+
+**RS-232C Specifications:**
+Connect the PC to the device via RS-232C, following the pin configuration for the DSUB-9P connector. This allows for communication where commands and feedback can be exchanged with specified formats.
+
+**Command Specifications:**
+Commands observed include lighting selections, focusing options, slide-show controls, and USB mode switching among others. Each command must follow specified ASCII formats for successful communication.
+
+This structured approach will ensure accurate functionality across various operations, integrated effectively with different modes of input and output.
+
+### Function Command
+
+- **RO II**: Set to "To the Edge" (OFF)
+- **AW II**: Adjust white settings (One (R_Up) (R_Down) (B_Down))
+- **CT (GRAPHICS)**: Switch to (TEXT1) (TEXT2) (TEXT3)
+- **NP II**: Toggle between Color/B&W
+- **CB (Color)**: Select Color/B&W (B&W)
+- **LL (OFF)**: Activate front controls (ON) and wireless functions
+- **DF II**: Initiate QS
+- **QR II**: Access ROM details
+- **ACK SA (OFF)**: Deactivate ACK (ON)
+- **CR SC (OFF)**: Deactivate CR (ON)
+- **RS-232C**: Check connection; if correctly linked, acknowledgement will be sent.
+
+### Troubleshooting
+
+- **Symptoms**: Confirm the following issues. If abnormalities are detected, contact your point of purchase or local branch/office.
+  
+- **Symptoms include**:
+  - Incorrect connection to the TV
+  - AC power disconnection
+  - Power switch issues (switch ON, but device turns OFF immediately)
+  - Delay issues with the switch turning OFF and back ON
+  - Focusing problems with the TELE
+  - Protection light activation during pre-heating
+  - PAL/NTSC connectivity issues
+  - Non-functioning DIP switches
+  - Unresponsive front control/buttons
+  
+- **Interference Sources**: Recognize interference disruptions from TV or CMOS devices, and manually adjust the settings if necessary.
+  
+### Specifications
+
+- **Power Requirements**: 12VDC (AC 240VAC), 30W (AC included)
+- **Inputs**: DVI DVI-D 24P, RGB input DSUB 15P, RS-232C 9P, USB Memory interface SD 
+- **Outputs**: RCA (NTSC/PAL)
+
+### Camera Shooting Specifications
+
+- **Resolution Support**: Shooting SXGA, HDTV, XGA with TELE/WIDE adjustments
+- **Camera Sensor**: 1.3M CMOS effective
+- **Specifications**: RGB support up to 800TV or 450TV 
+- **Lighting Equipment Specs**: High lighting options (FPL9EX-N), cold-cathode 
+- **Wireless Options**: Compatible with R03, AAA batteries
+- **Software**: Instruction manual, warranty card, USB software, and CD-ROM included
+
+### Acknowledgments
+
+Specifications adhere to ELMO, VESA, and SVGA standards, including SXGA, VGA, and XGA formats, as recognized by the International Corporation.
+

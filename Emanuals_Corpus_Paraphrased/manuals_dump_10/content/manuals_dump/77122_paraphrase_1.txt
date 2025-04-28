@@ -1,0 +1,118 @@
+**Disclaimer**: The AMM170TK2, AMM17TK2, AMM18TK2, AMM19TK2, and AMM19TK2(HB) are trademarks of ADAVN International Corp. (2005) and TouchSystems, Inc. All other trademarks are the property of their respective owners. The following contains information intended purely for reference.
+
+## Table of Contents
+- **Product Features**.................................................6
+- **EU Declaration of Conformity**..................................12
+- **Unpacking Instructions**.............................................12
+- **Screen Precautions**...................................................14
+- **Cleaning Guidelines**................................................16
+- **DDC Settings**..........................................................17
+- **Installation and Connection (VGA)**..........................20
+- **OSD Settings (DVI)**................................................22
+- **OSD Functionality and Troubleshooting**...................29
+- **Specifications for AMM19TK2**.................................30
+- **Specifications for AMM19TK2/HB**...........................31
+- **Classification and Warranty Information**...................35-42
+
+### Touchscreen Compatibility
+**For IBM/IBM Compatible Systems (Windows 95/98/ME/2000)**
+To set up the touchscreen with compatible IBM computers, follow the recommended procedures outlined in the OSD setup. Ensure to refresh the information to restore factory settings, if needed, by pressing the designated keys.
+
+**For IBM/IBM Compatible Systems (Windows NT)**
+Similar procedures apply to NT-based systems. Details can be found in the OSD section to facilitate configuration.
+
+**For Apple Systems**
+When configuring for Apple monitors (such as the G3), select a screen depth of 1280x1024, or as recommended by the device.
+
+### Introduction
+Congratulations on acquiring the AMM170TK2/AMM17TK2/AMM18TK2/AMM19TK2/AMM19TK2(HB) high-performance TFT LCD. This product features advanced microprocessor-based technology and supports RGB color input. Key features include an Advanced Video System (AVS) for optimized contrast and brightness, as well as an Advanced Touchscreen (ATS) accessible through the front panel. 
+
+Customization options allow varied mounting configurations, enhancing flexibility in installation. The device meets safety and performance standards as per UL60601-1 and related specifications, ensuring compliance with CE regulations.
+
+### Product Contents
+Included in the packaging are the following items: LCD device (AMM170TK2, AMM17TK2, AMM18TK2, AMM19TK2, or AMM19TK2/HB), VGA HDDB15, DVI-D cable, AC power supply, optional Touchscreen, and user documentation. 
+
+### Safety and Compliance
+Follow the provided instructions for installation and use to maintain the warranty and ensure the reliability and performance of the device. Any unauthorized modifications or repairs are solely the responsibility of the user. Caution should be exercised to prevent the risk of electric shock or fire hazards.
+
+### AC Supply Information
+Ensure the AMM170TK2/AMM17TK2/AMM18TK2/AMM19TK2/AMM19TK2(HB) is connected to a grounded outlet and avoid direct application of cleaners on the device. When cleaning, use a soft cloth to avoid scratching the display. Maintain reasonable distances from heavy electromagnetic fields during operation.
+
+### Definitions and Compliance
+The product adheres to IPX1 standards of protection. Refer to the EU Declaration of Conformity for further information regarding compliance, which can be obtained by contacting ADAVN International Corp. 
+
+### Unpacking Instructions
+Before unpacking, ensure the setup location is free from direct sunlight and other bright light sources to optimize cooling and performance. Check that all items listed are included before proceeding with installation.
+
+### Screen Position Adjustment
+Adjust the monitor's position according to the guidelines provided in the enclosed documentation to ensure optimal viewing angles. Please refer to the diagrams illustrating the adjustment procedures.
+
+### SAFETY PRECAUTIONS
+
+To prevent risks such as fire or electric shock, ensure that the power cord is properly covered and that the monitor is kept away from direct sunlight or bright backgrounds. When cleaning the LCD monitor, use appropriate cleaning cloths and solutions, avoiding direct application of cleaners. Recommended cleaning solutions include isopropyl alcohol and bleach.
+
+### PRESET MODES
+
+To minimize common display issues, certain preset modes can be utilized. If any anomalies are detected, adjustments can be made to ensure proper screen centering and matching of settings.
+
+### POWER MANAGEMENT FUNCTION
+
+The power management feature helps to reduce power consumption by activating standby mode after a specified period (approximately 3 seconds). The monitor will turn off with a corresponding LED indication and will restore the display after being turned back on. This model adheres to the VESA DPMS standard, which includes four phases of power-saving functionalities.
+
+### DDC (Display Data Channel)
+
+The DDC interface allows the monitor to communicate with the connected device regarding its specifications. This model supports DDC1 and DDC2B protocols.
+
+### INSTALLATION
+
+Please adhere to the following steps for installation:
+1. Connect the VGA cable to the D-SUB input.
+2. Attach the DC power cord and ensure the AC power connections are secured.
+3. Consult the troubleshooting section if the monitor does not function properly.
+
+### CONNECTING THE POWER CORD
+
+Ensure the power cord type is compatible with the local standards. This monitor requires an AC supply compatible with NEMA 5-15P or NEMA 6-15P configurations.
+
+### CONNECTING TO VCR OR TV
+
+For connecting the monitor to a VCR or TV, turn off both devices first. Connect the appropriate cables to the correct inputs and ensure the power supply connections are secure.
+
+### USER CONTROLS
+
+- **LED Indicator:** Lights up when the power is ON.
+- **Power Switch:** Toggles the monitor ON/OFF.
+- **OSD (On-Screen Display) Controls:** Various buttons on the monitor allow navigation and selection within the OSD menu to adjust settings such as brightness and input source.
+
+### OSD SCREEN SECTIONS
+
+- For VGA and DVI connections, users can navigate through the OSD to adjust brightness, color settings, and more, using the dedicated buttons for selection and adjustment.
+
+### TROUBLESHOOTING
+
+Refer to the troubleshooting section for common issues regarding the LCD. This section aims to guide users through resolving typical problems they may encounter with the AMM170TK2 series.
+
+### SPECIFICATIONS
+
+The specifications include operational safety and compliance details, as well as any necessary environmental conditions for optimal performance. The monitor is designed for continuous operation and has been tested to meet international safety standards. Always ensure proper use and maintenance to uphold its operational integrity.
+
+### HEALTH AND SAFETY INFORMATION
+
+The AMM170TK2 series is designed with user safety in mind, incorporating protective measures against electric shock and complying with IEC and UL standards. It is crucial to follow the input requirements and observe the environmental conditions during use.
+
+**Model Overview and Warranty Information for AMM170TK2 Series**
+
+**Models:** AMM170TK2, AMM17TK2, AMM18TK2, AMM19TK2 (HB)
+
+**Connectors:** The devices feature a DC connector, either the SCD-014-1-A (SHIUA CHYUAN), a DHSB-15 FRF7 (LEOCO), DVI-D DDWG, or Touch interface.
+
+**Warranty Coverage:** The AMM170TK2 series is warranted against defects in materials and workmanship, ensuring compliance with provided specifications. This warranty is valid from the date of purchase and does not cover damage from neglect, improper service, or use outside of recommended practices. Warranty claims require prior authorization, and repairs should be directed to an authorized service center. The warranty does not cover cleaning, consumable items, or damages from unauthorized repairs.
+
+**Limitation of Warranty:** ADVAN disclaims all implied warranties, including but not limited to merchantability and fitness for a particular purpose, except where prohibited by law. This warranty does not cover indirect or consequential damages, including loss of profits.
+
+**Technical Assistance:** For technical support, customers can contact ADVAN during business hours or refer to the official website for guidance. Returns for service must include a Return Merchandise Authorization (RMA) number, and returned items must be disinfected and in clean condition.
+
+**Touchscreen Functionality:** The AMM170TK2 series includes a touchscreen interface with a scratch-resistant, hard-coated protective layer. It is compatible with various operating systems, including DOS, NT, XP, and OS/2. To set up the touchscreen, follow the software installation instructions provided by ELO for optimal performance.
+
+**Contact Information:** For further assistance, please reach out to ELO INC. in California, USA.
+

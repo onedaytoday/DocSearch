@@ -1,0 +1,3 @@
+LITE SCREENS INFRARED REMOTE CONTROL CODE VMAX2 Home2(3) and Tension2(3) have a frequency of 38KHz. The commands are as follows: Stop: 1111, Down: 1111. For the VMAX CineTension (VMAX Only), the operations UP, STOP, and DOWN are included. The MCU RF Remote Head operation allows for a head count (Count Clock = 32767 times/second). The counter clock starts at "0" with 12 counts (Counter Clock = 32767 times/second) to ensure high performance during operations UP, STOP, and DOWN for VMAX Only, using IR IC technology at a frequency of 38KHz.
+
+

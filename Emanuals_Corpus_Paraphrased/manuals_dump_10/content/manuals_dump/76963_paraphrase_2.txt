@@ -1,0 +1,154 @@
+# VISUAL PRESENTER P100HD INSTRUCTION MANUAL
+
+### Important Safeguards
+
+To ensure safe operation, please adhere to the following instructions:
+
+- **Retain Instructions:** Keep this manual for future reference.
+- **Follow Operating Instructions:** Always operate the device according to the provided operating guidelines.
+- **Cleaning Precautions:** Disconnect from the power outlet before cleaning. Use a soft, dry cloth; do not use water or corrosive cleaners.
+- **Safety Hazards:** Avoid placing the unit near water or in damp areas to prevent risk of electric shock or fire.
+- **Mounting Instructions:** Follow the recommended mounting guidelines to prevent overheating or structural damage.
+
+### Power Supply Instructions
+
+- **Type and Grounding:** Ensure the power supply is compatible with the specified input type. Grounding is essential to avert electric shock.
+- **Power Cord Protection:** Route power cords safely to avoid pinching or damage that could lead to fire hazards.
+- **Lightning Protection:** Disconnect during storms or when not in use to prevent damage.
+
+### Servicing Guidelines
+
+- **Professional Servicing Only:** Do not attempt repairs yourself. Contact a qualified technician for servicing.
+- **Avoid Overheating:** Keep the unit away from heat-generating devices to maintain optimal functioning.
+
+### User Information
+
+- **FCC Compliance:** This device complies with FCC Class B regulations, which provide reasonable protection against interference.
+- **Radio Frequency Interference:** This product may cause radio interference in a domestic environment, and users may need to implement corrective measures if needed.
+
+### Usage Instructions
+
+- **Operating Environment:** Use the device within the specified temperature range of 0°C to 40°C (32°F to 104°F) and keep it away from extreme humidity and heat sources.
+- **Battery Precautions:** Use only the recommended battery type. Avoid recharging non-rechargeable batteries or short-circuiting.
+- **Microphone Connectivity:** When using external microphones, ensure compatibility to avoid malfunction.
+
+### Recording Information
+
+- **Recording Limitations:** The device supports recording up to 2GB. Use compatible software for playback.
+- **Copyright Compliance:** Be aware of copyright laws regarding recordings.
+
+### Included Items
+
+The following items are included with your purchase:
+- AC Adapter
+- LAN Cable
+- Instruction CD
+- Remote Control
+- Warranty Information
+
+### Basic Operations
+
+- **Remote Control Functions:** Refer to section P21 for setting and adjusting settings.
+- **Input Ports:** The device includes HDMI, RGB, and audio input ports for various connectivity options.
+
+### Connecting Devices
+
+- **USB and RS-232C Connectivity:** Utilize USB for PC connections and RS-232C for other devices as outlined in section specifications.
+- **LAN Connection:** For network operations, follow the guidelines for Ethernet connectivity.
+
+For detailed instructions regarding specific functions and operations, refer to the corresponding sections of the manual.
+
+**Caution:** Handle the device gently to avoid scratches or damage. Always follow guidelines to ensure optimal performance and safety.
+
+To connect the device with HDMI input, connect the HDMI cable to the [HDMI OUT] port. Ensure that the other end is plugged into the HDMI input on your device. For power, connect the AC adapter to the [DC IN 12V] port. If the display appears off-center, adjust the clock phase settings on the connected PC by navigating to the appropriate selection (Normal) for optimal image alignment. The source of information sent to the connected device will be reflected in the [RGB OUT] and [HDMI OUT] options based on the selected input.
+
+For microphone input, connect your microphone to the MIC IN port. Ensure that you only use compatible microphones to prevent malfunction. You can also connect to the SD card or utilize wireless USB options for input.
+
+When preparing the remote control, insert AAA batteries as illustrated, keeping in mind to avoid exposure to direct sunlight which can affect performance. Children should not have access to the batteries due to safety concerns; immediate caution is necessary if swallowed.
+
+For software connectivity, use the included CD-ROM to install the necessary drivers on your PC and follow the provided instructions carefully. Ensure any security features are released as indicated during initial setup.
+
+When connecting the AC power, ensure all devices are powered off to avoid electrical issues. Use the ON/OFF switch responsibly; the LED will light up in red when powered on.
+
+The touchscreen interface will allow you to select features by tapping. Be careful not to apply excessive pressure as it could lead to malfunction. This touchscreen typically supports functions like Zoom In/Out, adjusting brightness, and selecting input sources (RGB IN1, RGB IN2, HDMI IN1, HDMI IN2, etc.).
+
+The highlight function enables you to emphasize sections of the display. While activated, you can use buttons to capture or release highlighted inputs on the screen. Scrolling through content will expand previous selections, maintaining a steady ratio. 
+
+Power settings can be adjusted as needed, reverting to factory brightness settings if required. When navigating through options, selections regarding SD or USB memory will show relevant information based on your input source.
+
+In summary, manage your device configuration with attention to connections, settings, and safety measures, allowing for a seamless experience with various input and output functions.
+
+### AF Function Overview
+
+- **AF Mode:** The AF function can be activated manually or automatically with a single press on the designated button. This enables adjustments to white balance characteristics based on the selected mode.
+
+- **White Balance Control:** By using the [Up] or [Down] buttons, operators can modify the white balance settings. The system automatically evaluates and adjusts these characteristics.
+
+### Image Quality Adjustments
+
+- **Edge Effect Function:** Enhancements are available for text and graphics to improve clarity in images, particularly when using DLP technology. The outline effect can be activated to help emphasize characters.
+
+- **Quality Rate Function:** This feature allows adjustment of light supply to achieve desired quality levels when using graphic inputs. Ensure the appropriate settings are selected for optimal recording.
+
+### USB and Memory Management
+
+- **Memory Selection:** Users can switch between SD cards and USB drives for data management and transfer. The recommended format for SD cards is SDXC, and USB drives are supported up to 32GB.
+
+- **Formatting Aids:** Formatting options are available for SD and USB storage. Users can follow prompts on the interface to switch between recording and playback modes.
+
+### Recording Operations
+
+- **Recording Functionality:** The system supports video output during recording to HDMI while reading and writing to memory (compatible with SD Class standards). Users can monitor recording status via on-screen indicators.
+
+- **Thumbnail Display:** Recorded files are displayed as thumbnails, allowing easy navigation. Selection of a thumbnail enables full-screen viewing.
+
+### Input and Output Management
+
+- **Input Selection:** Users can toggle between different input options like HDMI and RGB. The selected input affects output to both RGB and HDMI ports.
+
+### Network and Configuration Settings
+
+- **Network Setup:** Users can access network settings to configure IP addresses and manage connections effectively. Factory reset options are available for troubleshooting.
+
+- **Software Compatibility:** Ensure that necessary software is installed on the connected PC, especially for live streaming and control functions accessed via web configuration.
+
+### Cautions
+
+- **Device Handling:** Mishandling the SD card or USB connections may lead to device malfunction. Always ensure proper insertion and avoid forcing connections.
+
+- **Data Management:** Continuous use of USB or SD during operations may cause issues if not managed properly. Follow the correct procedures to avoid data loss or corruption.
+
+Here’s a paraphrased version of your text:
+
+**[MIC IN] and [AUDIO IN]**: The MIC IN serves as the input for the microphone, while the AUDIO IN is used for audio signals coming from the [AUDIO OUT]. Connect the microphone directly to [MIC IN]. If a different microphone is connected, it may cause a malfunction. The ELMO Wireless allows for wireless connections or direct operations such as input/output. To connect the ELMO (CRA-1), follow the specified instructions and ensure the system is powered on. The On-Screen Display (OSD) will show while the input is being established between the CRA-1 and the ELMO Wireless.
+
+For touch operations, select functions accordingly. If the wrong option is chosen, adjust by selecting the required function. When selecting functions, do so carefully. Hold the device upright during use to avoid activation issues. To establish a selection, touch the screen as needed, and proceed through the available functions.
+
+**Function Selection**: Options like whiteboard OSD show or hide the background and adjust thickness settings. Functions allow users to customize the appearance, including color, thickness, and highlights. The system also supports saving and formatting options via USB, as well as access control for protected and unprotected files.
+
+**RS-232C Information**: The RS-232C interface can connect to a PC for data exchange. If you encounter any issues, consult the point of purchase for commands and troubleshooting.
+
+**Troubleshooting**: If you notice abnormalities, first check connections and power sources. Symptoms like lighting irregularities, system shutdowns, or display issues should be addressed through proper checks and confirmations. Should you need assistance, contact the retailer or technical support.
+
+**Specifications**: The device operates on 12VDC (AC 100-240V), consuming 26.4W. Input interfaces include mic input, USB, and RS-232C. The dimensions are D20.5 x H23.2 cm for the main unit, with additional inputs for RGB and HDMI. 
+
+For any performance or warranty inquiries, please refer to the place of purchase.
+
+**Item Specifications**  
+F2.7 Shooting with 16X and 8X Auto/Manual/Zoom capabilities using CMOS technology. Effective output options include RGB with 800TV resolution or SXGA, WXGA, and XGA. The device features various zoom functionalities: TELE and WIDE settings. The RGB output supports negative polarity for SXGA, WXGA, and XGA.
+
+**Output Options**  
+HDMI output is available with automatic, one-push, or manual brightness adjustments, alongside color/B&W selection and three graphic text options (Text1/Text2/Text3). It also features an edge effect with available graphic lighting utilizing a white LED, and graphics display options (Graphics1/Graphics2).
+
+**Compliance and Licensing Information**  
+Compatible with SD and SDHC cards (per SD-3C, LLC standards). The device incorporates HDMI technology licensed by HDMI Licensing LLC and is compliant with specifications set by the JPEG Group. The AVC format is incorporated, developed in accordance with AVC patent and technology agreements which require licensed use from MPEG-LA, LLC. Additional licensing information is available through MPEG-LA, LLC.
+
+**Note**  
+Unauthorized recording of copyrighted material infringes on the rights of copyright holders and violates copyright law. 
+
+**ELMO Subsidiary Information**  
+ELMO USA Corporation  
+Headquarters: Plainview, NY, U.S.A.  
+Coast Branch: Cypress, CA, U.S.A.  
+
+

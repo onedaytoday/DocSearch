@@ -1,0 +1,63 @@
+This document outlines the Navisphere Utility, Navisphere Command Interface (CLI), and software operating information, including updates relevant to supported models such as the CX3, CX200, CX400, CX600, and CX700. This includes details about the functionality of EMC products and versions, along with the installation instructions for the Navisphere software from the provided CD. Key topics include the interaction with various storage arrays, management commands, and system features such as High Availability (HA). 
+
+The EMC Navisphere software provides options for monitoring and managing connected components, including Host Bus Adapters (HBAs) and logical unit numbers (LUNs). The CLI allows users to execute commands for system provisioning, information retrieval, and batch processing. Additionally, the document features technical details, GUI references, release notes, and accounts related to EMC products.
+
+To install the software, users can mount the CD and run the initialization tool, which helps with installation while providing necessary information. It is crucial to ensure that network IP configurations are correctly set for the devices involved.
+
+The CLI includes commands for user access, switching configurations, and settings for both SP A and SP B. It is recommended to refer to specific user manuals for further instruction on network integration and management processes. Comprehensive knowledge of the product's specifications is essential for optimum system performance.
+
+The function of LUN and operating system information is crucial for the high-availability (HA) server setup, which can be initiated from a CD without needing the server itself. The necessary LUN mapping details are presented in the Manager UI or can be accessed via the CLI. It is important to manually gather the required information for utilities like this, and since the utility can be run on demand, you have greater control over its execution frequency.
+
+In the Navisphere UI, the labeling "Manually Registered" appears, signifying that the system is currently configured to show LUN identification, including the ID and IP address. The registration service feature should be utilized, especially when both the host and server support version 6.22.20. Ensuring proper network connectivity between the host and the storage system is essential for LUN information accessibility.
+
+For connecting to the CLI, you need to be aware of your software release and network configuration. The TCP/IP connection facilitates LUN information retrieval, allowing both Navisphere UI and CLI interactions. It's important to maintain compatibility with versions 6.X and ensure correct settings for various operating systems like AIX, HP-UX, ESX, and NetWare.
+
+The information regarding the operational software and revisions should be actively monitored. If booted from the CD, adhere to specific I/O recommendations to avoid issues. Tools like the Navisphere CLI can assist in gleaning important insights.
+
+When downloading EMC products, navigate to the appropriate directory to ensure you have the necessary files. Double-check network connections as well and utilize the commands effectively for both CLI and GUI interactions.
+
+Maintaining accurate configuration files such as agentID.txt is crucial. It should include the fully qualified domain name, IP address of the NIC, and other essential identifiers without additional formatting. 
+
+For environmental configurations, ensure that the necessary paths are set up in your profile files. Use specific commands to locate the required software while ensuring the system is properly initialized and operational.
+
+In summary, follow these guidelines for effective management and troubleshooting of the EMC environment, ensuring all configurations and information retrieval processes are executed correctly.
+
+### Navisphere EMC Products Overview
+
+This section covers the Navisphere EMC products, including software connected to Navisphere or EMC systems. Users can obtain the software from the provided CD, but it can also be downloaded from the Software Downloads and Licensing section. 
+
+To access software downloads, navigate to the appropriate directory where the software will be stored. For instance:
+
+- **AX150 Downloads** or **AX100 Downloads**: Choose the Navisphere option then proceed to specify the directory for the software.
+
+To install the software from the CD, first mount the CD. Once mounted, you can execute commands using HOSTUTIL or HOSTUTLA to confirm successful installation. If the software is not found, follow the prompts accordingly.
+
+### Starting Navisphere 
+
+To initiate Navisphere, access the directory: `/opt/Navisphere/bin`, either from the CD that came with your device or from a downloaded source. The software is designed to support high-availability configurations with EMC products.
+
+### Performing High-Availability Tasks
+
+The high-availability option provides pertinent information about connected systems. To use this feature, select the high-availability command following the provided on-screen prompts, ensuring to check each Storage Processor (SP) and compatible software options.
+
+### Software Security and Directories
+
+For operations involving security specifications and relevant file directories, ensure to specify the intended output directory and required IP addresses for the SP. The command structure must include:
+
+- **-secfilepath securityfilepath**: This indicates the security information file.
+- **-directory outputdirectory**: Establishes the target directory for installation.
+
+### Recommendations and Updates
+
+It is advisable to maintain updated software, referencing the appropriate EMC Release Notes for compatibility with FLARE OE or other operating systems. For any queries regarding software versions or compatibility, consult the EMC Interoperability section.
+
+### Software Removal Instructions
+
+To remove the software, access the section under Software Downloads and Licensing. If necessary, unmount the CD using the respective command. 
+
+### Copyright Information
+
+EMC Corporation retains all rights to this publication, provided as is. No warranties are implied regarding the information contained herein, and users are encouraged to refer to the EMC Command Interfaces Reference for additional commands. 
+
+For further inquiries or technical support, please refer to the appropriate EMC resources.
+

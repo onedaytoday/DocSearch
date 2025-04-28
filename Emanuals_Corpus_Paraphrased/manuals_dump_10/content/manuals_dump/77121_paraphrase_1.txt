@@ -1,0 +1,22 @@
+**Safety Notices**  
+- The title "WARNING" serves to alert users to potential hazards that could result in death or property damage.  
+- The title "CAUTION" is intended to inform users of risks that, while serious, may not necessarily lead to fatal outcomes.  
+- The title "NOTE" provides users with important information regarding installation, operation, or functionality, though it does not imply risk.  
+
+**Auto Select Settings**  
+- **(HV)**: High Voltage  
+- **C C**: LED Only, Steady  
+
+**Item Functions**:  
+- **Brightness Control**: Adjust the brightness by moving the control left or right.  
+- **OSD Settings**: Navigate OSD options by moving left or right.  
+- **OSD Timeout**: Select background color or set a timeout for OSD appearance (options: Choose, Red).  
+- **DPMS**: Manage power source settings.  
+- **Sharpness Adjustment**: Increase or adjust sharpness from predefined levels.  
+- **Source Selection**: Choose input methods (RGB, etc.) and reset to factory settings as needed.  
+- **Information Refresh**: Display input information and refresh rate.
+
+**Connector Specifications**:  
+- Voltage: +12V DC  
+- Ground: GND  
+

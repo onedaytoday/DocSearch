@@ -1,0 +1,143 @@
+**EMC Corporation Headquarters**  
+**Service Reference: SVC-4EMC**  
+**Models Covered: FC4500, FC5300, and FC5700**  
+**Configuration Planning Guide**  
+
+**Copyright Notice:** All rights reserved by EMC Corporation. This publication may not be reproduced or distributed in any form without the prior written permission of EMC Corporation. The information provided is subject to change without notice and is not guaranteed by EMC Corporation. The company disclaims all warranties, express or implied, including any implied warranties of merchantability or fitness for a particular purpose regarding the accuracy or reliability of the information presented.
+
+**Overview of EMC Technologies:**  
+This document outlines the fundamental aspects of EMC storage systems, including high availability, configuration insights, and compliance with operational requirements. It serves as a guide for implementing various EMC storage configurations, with a particular focus on RAID types, including mirrored, unshared, and shared installations.
+
+**Introduction to EMC Systems:**  
+The manual discusses the architecture and capabilities of EMC's high-performance storage solutions, emphasizing their ability to handle various I/O types such as SCSI and IP. It includes details on both switched and FC-AL configurations and the integration of switches in these environments.
+
+**Host-Bus Adapters and Switches:**  
+The document describes various host-bus adapters (HBAs) and switches available through EMC, including guidelines for selecting the right types based on performance and capacity needs. It also covers the installation process and connectivity options, ensuring optimal integration into existing networks.
+
+**Implementation Scenarios:**  
+Multiple sections detail specific installation scenarios, such as unshared configurations and high-availability (HA) shared setups. These guides are designed to assist users in achieving effective network setups tailored to their needs.
+
+**Technical Support and Additional Resources:**  
+For further information regarding RAID configurations and other network components, users are encouraged to consult the subsequent chapters and reference materials provided by EMC.
+
+This guide serves both as an introduction to EMC technology and as a comprehensive reference for configuring and managing EMC storage systems efficiently.
+
+This chapter covers RAID (Redundant Array of Independent Disks), providing essential background information and discussing various topics related to it. The discussion will address different types of RAID, including their trade-offs and applications, specifically focusing on RAID configurations without DAE-only or JBOD (Just a Bunch Of Disks), as well as RAID software.
+
+RAID enables simultaneous reading and writing by employing multiple read/write heads, which enhances performance. Each RAID configuration allows a specific amount of data to be read or written across various sectors within a group. The chapter will explain mirroring, which can be implemented through software, producing redundant copies of data without additional overhead. 
+
+Different RAID levels offer specific functionalities, such as increased capacities or better performance, and are suitable for various applications and user needs. The importance of selecting an appropriate RAID type based on performance requirements and capacity is emphasized.
+
+The chapter further elaborates on how I/O operations are managed across RAID configurations, discussing aspects such as write performance and the distribution of workloads. It concludes by analyzing the advantages and drawbacks of RAID systems, highlighting the balance between redundancy, performance, and efficiency for optimal operation in diverse environments.
+
+### RAID Overview and Considerations
+
+**RAID Group Dynamics**: When configuring RAID Groups, various factors, including performance and I/O metrics, play crucial roles. Different RAID configurations impact both read and write performance, allowing varied flexibility based on workload characteristics.
+
+**Performance Trade-offs**: Selecting a specific RAID type influences performance outcomes, especially under heavy read/write loads. Some RAID configurations can achieve high performance while still maintaining redundancy, which is essential for critical applications.
+
+**Applications and Use Cases**: This section discusses the specifications and operational characteristics of different RAID types suitable for various applications. Scenarios include environments with frequent I/O operations, such as flight reservation systems, which necessitate high write efficiency to manage user data effectively. 
+
+**Future Directions**: This chapter explores RAID configurations, detailing the resulting trade-offs. It emphasizes methods for improving performance under various operational conditions, illustrating how different RAID setups can affect access speeds for users.
+
+### Installation and Connectivity
+
+**Shared Switched Connectivity**: The chapter outlines installations involving Shared Switched Paths, emphasizing high-availability connections across several hardware configurations. It includes information about various RAID types, their classifications, and the corresponding Logical Unit Numbers (LUNs) utilized in the setup.
+
+**Identifying RAID Configurations**: A detailed breakdown of Management IDs for different RAID and LUN types is provided, highlighting their configurations and functionality.
+
+### Application and LUN Management
+
+**LUN Documentation**: This section focuses on the importance of accurately documenting LUN IDs and their associated RAID types. It guides users on how to complete the LUN worksheet, ensuring proper alignment of applications with their respective storage characteristics.
+
+**Operational Requirements**: The document provides a comprehensive structure for detailing application requirements and operational metrics, including the necessary RAID type and LUN ID for effective performance within a Storage Area Network (SAN).
+
+### Summary
+
+In summary, this information serves to streamline understanding and implementation of RAID systems, focusing on performance metrics, application requirements, and proper configuration of LUNs and RAID types. Whether dealing with Shared Switched or dedicated configurations, this documentation aids in making informed decisions regarding storage architecture.
+
+Here's a paraphrased version of the provided text:
+
+---
+
+### Unshared Direct and Shared-or-Clustered Direct Configuration
+
+For unshared systems, indicate the SP FC-AL IDs for SP A and SP B, along with their respective memory in megabytes. Specify the cache size in megabytes and kilobytes, as well as the RAID ID and its associated LUN IDs and RAID type. Additionally, complete the LUN Worksheet, documenting each LUN ID and corresponding information.
+
+### Caching Considerations
+
+When completing the LUN Worksheet, ensure the headers are filled out accurately, including RAID type and memory considerations. It is advisable to optimize SP memory allocation for read and write operations, including batch caching allowances. Aim to allocate about one-third of the total cache memory to write caching to balance performance effectively.
+
+### RAID Group and LUN Assignments
+
+Each LUN ID corresponds to a specific LUN within its assigned RAID Group. The RAID ID for the group should be noted, particularly the first assigned RAID Group ID. Indicate the total capacity in gigabytes, ensuring that the LUN does not exceed the RAID Group limits.
+
+### User Considerations
+
+If sharing resources across various applications, note the recommended RAID configurations for optimal performance. Clarify which SP (A or B) will manage each LUN, and ensure that the specified RAID type aligns with prior configurations.
+
+### Next Steps
+
+This chapter has provided guidelines on configuring LUNs and RAID settings. Once the worksheets are filled, proceed to the next chapter, which covers the mounting process for directories. For installations involving shared resources, ensure that secondary paths are correctly assigned.
+
+### Summary of Configuration Steps
+
+In summary, the RAID and LUN setup must address all parameters carefully, including memory assignments, cache configurations, and the specifics of the RAID group. Complete the worksheets for both unshared and shared environments, documenting all necessary IDs and types.
+
+---
+
+This paraphrased text maintains the original meaning while ensuring a more readable and technically coherent format.
+
+Here's a technical paraphrase of the provided text:
+
+This document outlines the configuration of storage systems involving unshared and shared resources. It details the necessary information for each Storage Processor (SP), including specific identifiers such as SP A and SP B, memory allocations in megabytes, caching specifications, RAID IDs, and LUN (Logical Unit Number) details. Each LUN ID must be recorded accordingly.
+
+You are required to specify whether the system uses Unshared Direct or Shared/Clustered Direct configurations. The respective SP FC-AL IDs need to be identified for each SP, which interconnects through dedicated switches. It is essential to note the overall memory capacity available for each SP, including any RAID-related memory allocations, ensuring effective memory distribution to enhance read/write operations.
+
+The document guides users on how to complete the EMC LUN Worksheet, emphasizing the significance of properly annotating LUN IDs and RAID configurations. It specifies the hierarchy of LUN IDs within RAID Groups, and highlights the IDs necessary for operational connectivity through host bus adapters. 
+
+The document also categorizes RAID types, such as RAID-0, RAID-1, RAID-3, and RAID-5, explaining their capacity limits and performance characteristics. Performance trade-offs between shared and unshared configurations are discussed, notably the impact on I/O operations and cache integrity. 
+
+For effective system performance, it is suggested to allocate memory appropriately and understand the implications of using different RAID strategies. Finally, it notates the need for reliable power supply setups, emphasizing the high availability of infrastructure components like the DPE and associated cabling considerations. 
+
+This chapter provides foundational knowledge essential for configuring both shared and unshared environments efficiently, paving the way for advanced operational practices in subsequent sections.
+
+### Specifications for Unshared HA SPS Units
+
+**Overview of DPE Units:**
+Unshared High Availability (HA) Storage Processor (SPS) options are available in variants with and without write cache and RAID configurations. The following outlines the various models, including DPE (Disk Processor Enclosure) and DAE (Disk Array Enclosure) combinations, mounted in a rack.
+
+**Configurations:**
+Typically, the mounting setup has specific configurations for SPS or Battery Backup Unit (BBU) located at the top or within the rack. The choices are as follows:
+- **DPE without write cache**
+- **DPE with write cache**
+- **DAE with or without write cache**
+- **RAID configurations**
+
+**Physical Specifications:**
+- **Rackmount Size:** EMC specifications for Rackmount enclosures include dimensions for height, width, and depth. Standard sizes include U (rack units) and service clearances for airflow.
+- **Power Ratings:** Each DPE/DAE requires specific input power ratings, e.g., single-phase A. Typical power specifications include various voltages (e.g., USA: NEMA 6-15P).
+  
+**Environmental Conditions:**
+- **Operating Temperature:** The equipment is designed to function within specified temperature ranges (°C and °F).
+- **Humidity:** It operates effectively under non-condensing relative humidity.
+
+**Cabling and Connectivity:**
+Cabling configurations may involve using SC, MIA, or twin-axial cables. The setup may include direct connections to other devices and switches. Optimum configurations should ensure proper grounding and connectivity between the DPE and DAEs.
+
+**Worksheets and Documentation:**
+For precise installation and configuration, various worksheets are provided to facilitate planning for shared and unshared connections, as well as performance paths associated with DPE/DAE setups.
+
+**Recommendations for Setups:**
+Proper attention must be paid to switch configurations, enabling seamless communication across the network fabric. Ensure specifications are followed precisely when assembling the components and connecting to existing infrastructure.
+
+This chapter serves as a guide for understanding the complexities involved in configuring unshared DPE-based and DAE-only solutions. Further chapters will elaborate on detailed software configurations and operational readiness.
+
+EMC's Navisphere software and associated caches facilitate communication between storage processors (SPs) and include a graphical user interface (GUI) for monitoring performance. The application integrates with HP CA Unicenter software, enabling high-availability implementations through its Application-Transparent (ATF) optional software. This allows for seamless connectivity to Logical Unit Numbers (LUNs) via host-bus switches or directly to SPs.
+
+Additionally, CDE software, which comes included with each host-bus connection, allows users to execute commands directly through the CLI (Command Line Interface) or the GUI. The Navisphere software supports TCP/IP and provides features for both unshared and shared configurations across various operating systems, including NT and UNIX.
+
+The software enables users to manage shared or clustered environments effectively. Users will need to fill out worksheets detailing shared hostnames and operating software to document setups for different hosts, including their respective Navisphere configurations.
+
+Ultimately, the documentation should capture whether each Navisphere installation is unshared or shared/clusterized, along with the specific type of software in use for accurate record-keeping and system management.
+

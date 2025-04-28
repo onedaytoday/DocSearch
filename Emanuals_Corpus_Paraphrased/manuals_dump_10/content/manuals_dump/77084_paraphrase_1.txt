@@ -1,0 +1,80 @@
+**Touchmonitor LCD Mount Touchmonitor 1566L Revision P/N TouchSystems, Inc. 1-800-ELOTOUCH www.elotouch.com**
+
+Copyright © Inc. All rights reserved. This material may not be reproduced, transmitted, transcribed, translated, or otherwise utilized without written permission from TouchSystems. The information is provided without guarantees or warranties concerning accuracy or completeness, including but not limited to implied warranties of merchantability or fitness for a particular purpose. TouchSystems reserves the right to make revisions or updates to this publication at any time without prior notice. 
+Product names such as SecureTouch, AccuTouch, and MonitorMouse are trademarks of their respective owners.
+
+**Table of Contents**
+1. Introduction
+2. Precautions
+3. Product Overview
+4. Mounting the Touchmonitor
+5. Connecting the Touchmonitor
+6. Software Information
+7. Touch Functionality
+8. Technical Specifications
+9. Warranty Information
+
+Congratulations on your purchase of the LCD mount touchmonitor. This high-resolution monitor is designed for optimal performance with an LCD interface that facilitates effective information flow through touch interactions. Follow the guidelines provided in this document to ensure proper setup and usage.
+
+**Product Overview**
+The LCD mount touchmonitor features:
+- Direct RGB input supporting XGA, SVGA, VGA resolutions
+- High refresh rates compliant with VESA standards
+- Multiple language options for On-Screen Display (OSD) including English and Spanish
+- VESA DDC 1/2B support and VESA DPMS compatibility
+- Certified safety standards including UL, CUL, FCC, CE, and C-Tick compliance
+
+**Installation and Setup**
+Upon unpacking the touchmonitor, ensure you have the following components:
+- LCD unit
+- Installation CD
+- Power supply brick
+
+Ensure you have the necessary tools, including a hex wrench for mounting. Follow the provided instructions for securely mounting the touchmonitor to an appropriate surface while considering NEMA standards.
+
+**Connecting the Touchmonitor**
+Ensure that both the PC and touchmonitor are powered off while making connections. Connect the touchmonitor to the PC as follows:
+- Attach the appropriate cables for video signals (using RS-232 as needed).
+- Ensure proper alignment and secure connections as per the installation guide.
+
+**Software Installation**
+The included CD-ROM contains software that allows the touchmonitor to interface with different operating systems, including NT and MS-DOS. Follow the on-screen instructions for installation:
+1. For Windows NT, execute the software from the CD and follow the prompts.
+2. For MS-DOS, navigate to the CD directory and execute the INSTALL command.
+
+**Operating the OSD**
+The OSD can be accessed via the corded controls located at the back of the unit. Use these controls to navigate through settings such as brightness and positioning. Both the UP and DOWN buttons allow users to adjust display characteristics, while the AUTO button helps optimize settings automatically.
+
+For troubleshooting or further details on connectivity and operating requirements, please refer to the relevant sections of this manual or visit www.elotouch.com for support.
+
+### Touchmonitor Guidance and Specifications
+
+Ensure that the touch monitor is properly connected. If issues arise, check connections and power supply based on troubleshooting steps in the relevant chapters. The LCD may display incorrectly if resolutions between the monitor and host do not match, affecting the tracking function and graphical refresh rates. 
+
+For optimal performance, ensure compatibility between input types, such as VGA, SVGA, and XGA, as illustrated in Chapter Active Resolution A-25. Mismatched inputs can cause visual artifacts.
+
+To maintain safety, power down the touch monitor before cleaning. Use a 3-wire grounding cord and avoid unauthorized repairs to prevent voiding your warranty. For cleaning, use a soft cloth lightly dampened, avoiding direct application of chemicals or cleaners on the touchscreen surface.
+
+### Touchmonitor Specifications
+
+The ET1566L model features a 15-inch active thin-film transistor (TFT) display and an AccuTouch touchscreen. It is designed to operate in a temperature range from 0°C to 40°C and is certified to various EMC standards.
+
+**Touchscreen Performance:**
+- Activation Force: Typically under 6 ounces
+- Tested for over 30,000 touches without performance degradation
+- Resilience against chemicals like hexane and ammonia
+
+### Construction and Features
+
+The CarrollTouch IR assembly consists of FR4 material, rated for safety, and utilizes a flat flexible cable (FFC) for connectivity. Designed to support multiple touchpoints and ensure durable performance, it complies with proper electrical standards.
+
+### Regulatory Compliance and Warranty
+
+This device adheres to FCC Class A regulations and the EMC Directive 89/336/EEC, ensuring it minimizes interference with other devices. Users should ensure proper grounding to mitigate shock risks.
+
+Regarding warranty, the monitor comes with a standard coverage of several years against defects in materials and workmanship. Any needed repairs or claims should be promptly reported per the warranty guidelines provided. Always keep products in their original packaging for return purposes.
+
+If experiencing interference or other technical issues, consult the manual for troubleshooting tips and compliance guidelines.
+
+The remedies outlined herein shall constitute the exclusive recourse for the buyer in cases of warranty breaches. Aside from the specific warranty detailed above, the seller offers no additional warranties—neither express nor implied by law—pertaining to the products, including their suitability for any purpose, quality, merchantability, or non-infringement. No employee or representative of the seller is permitted to provide any warranties beyond those specified herein. The seller’s liability concerning the warranty is restricted to the reimbursement of the product's purchase price. The seller shall not be responsible for costs associated with acquiring or installing substitute goods by the buyer, nor for any special, consequential, indirect, or incidental damages linked to the products.
+

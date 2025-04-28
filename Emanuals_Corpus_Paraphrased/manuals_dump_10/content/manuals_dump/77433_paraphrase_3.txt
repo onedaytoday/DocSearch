@@ -1,0 +1,274 @@
+### Instruction IM-106-5500, CCO
+
+**IMPORTANT: READ THIS PAGE PRIOR TO CONTINUING!**
+
+This document provides essential instructions for the proper handling and operation of Rosemount Analytical products, including those used internationally. It is critical to adhere to the following guidelines to ensure compliance with specifications, warranty coverage, and safe operation. Neglecting these instructions may lead to safety hazards, property damage, or voided warranties.
+
+#### PREFACE
+This section contains key information related to the CCO device.
+
+#### DEFINITIONS
+The following symbols and definitions apply to WARNINGS, CAUTIONS, and NOTES included throughout this manual. Users should familiarize themselves with the content for safe and effective operation.
+
+- **WARNING**: Failure to observe instructions could result in severe injury or long-term health risks.
+  
+- **CAUTION**: Non-compliance may impact equipment effectiveness or performance.
+
+- **NOTE**: This contains operational or maintenance information.
+
+#### SYSTEM DESCRIPTION
+The CCO (CO) system integrates several components essential for monitoring and controlling combustion processes, typically in boiler operations. It includes advanced features designed to comply with regulatory standards, allowing for quick data processing and display on an LCD interface.
+
+#### TYPICAL UNIT OVERVIEW
+The heater assembly employs a high-intensity heating element with long operational life and durability, featuring a refractory coating. Precise ambient conditions are maintained to ensure optimal performance.
+
+#### HEATED SOURCE DETECTOR UNIT
+This unit measures CO levels effectively while being sealed for reliable, maintenance-free operation over time. The heater's output is strategically focused using a DC chopper to ensure accurate readings of CO concentrations.
+
+#### OPERATIONAL PRINCIPLES
+The CCO device operates on principles of radiation absorption to gauge CO levels directly. It is critical that calibration occurs only when absolutely necessary, allowing secure immediate operation.
+
+#### MEASUREMENT AND CORRECTIONS
+The unit utilizes derived factors and algorithms to smooth and calculate CO concentrations based on reference measurements. Factors for STP correction and other conversions are also specified.
+
+#### CO ABSORPTION DETAILS
+The absorption characteristics of CO within specific IR bands play a crucial role in measurement accuracy. The document provides detailed explanations of these phenomena and how they impact the overall functionality of the detection system.
+
+### CONCLUSIONS
+The guidelines and specifications detailed in this document are crucial for safe, effective operation of Rosemount Analytical products. Adherence to these principles ensures compliance with regulatory standards and optimal performance.
+
+**Instruction IM-106-5500, CCO**
+
+**Specifications:**
+- The CCO operates within the STP Units specifications, measuring values normalized from seconds to high operation outputs.
+- The construction is sealed to IP65 and electrically heated.
+- Requires a temperature range of -20°C to 50°C with a voltage supply of 85-132/170-264V AC at 50VA.
+- Notably, the CCO is isolated with a relay rating of 10A, 250V.
+
+**Safety Considerations:**
+- Prior to installation, ensure the AC supply is switched off to prevent serious injury or death. Follow all instructions carefully, particularly regarding protective covers and grounding leads.
+- The installation must be conducted cautiously; handling wires while the power is on may result in severe injury.
+  
+**Electrical Supply Data:**
+- The CCO operates from an AC supply that can range between 85-132V AC and 170-264V AC, with a built-in 2A/20 rated internal protection.
+- It offers three input options: PS1, PS2, and additional thresholds without exceeding 50VA of performance.
+- Maintaining isolation of relays rated at 250V, 10A is essential during operation.
+
+**Cable Requirements:**
+- Utilize shielded interconnecting cables for proper functioning, which must also be grounded. An output rating of 10A at 250V AC and 50VA should be heeded.
+
+**Duct Work Considerations:**
+- Position the duct work to enhance serviceability and maintain atmospheric pressure. The mounting should accommodate a temperature range from -20°C to 50°C for both the transmitter and receiver.
+
+**Mounting Instructions:**
+- Ensure the correct installation of mounting brackets and plates, utilizing stand-off measurements for optimal fitment. Secure the components thoroughly to avoid operational issues.
+
+**Isolation Valves and Air Purge:**
+- Mount isolation valves properly to avoid contamination. Use the provided four screws to secure the mount and ensure proper alignment.
+
+**Head Air Supply:**
+- Ensure a clean air supply for optimal operation. The blower should be specified accurately by Rosemount Analytical, yielding acceptable flow rates.
+
+**Signal Processor and Electrical Connections:**
+- Follow specific routing requirements for electrical connections to minimize interference. Ensure that all connections are isolated and ready for installation.
+  
+**Wiring Diagram and Connections:**
+- Reference detailed wiring diagrams for accurate interconnections, ensuring that screen cables are not grounded at the power supply. 
+
+**Operational Guidelines:**
+- The operational procedures should ideally be conducted after recording the necessary parameters. Ensure all assembly and installation recommendations are adhered to for safe and efficient operation.
+
+**Instruction IM-106-5500, CCO Power Supply Voltage Selection**
+
+To turn the power supply ON, ensure that the supply switch is correctly positioned. Confirm functionality by observing that the LED and LCD indicators are operational. For alignment, ensure that the built-in components are working properly before replacing the supply cover. With the supply OFF, remove the four screws securing the cover. Select the desired voltage setting using the switch. While the power supply is heating, monitor for the "WAITING FOR REFERENCE" display. Once the reference point is detected, "STABILIZING REF" should appear, along with the operating ratio noted at the top of the LCD. Allow the system to stabilize and ensure all readings are accurate before proceeding.
+
+---
+
+**Instruction IM-106-5500, CCO Detector Levels**
+
+Check the detection levels in designated locations. If the pathlength is below a specified threshold, recalibrate as necessary to ensure the readings from detectors D1 and D2 are accurate. Utilize the calibration mode to set and confirm detector levels. These values should reflect the maximum outputs observed; if they fall short, adjustments may be required.
+
+Make sure all connections to AC test points are accurate. Review the integrity of the receiver control board and ensure the outputs correspond correctly to the readings from D1 and D2.
+
+---
+
+**Instruction IM-106-5500, Transmitter Adjustments**
+
+To adjust the source, access the components from the rear cover. This enables you to fine-tune the light intensity as needed. Remove the cover screws carefully to avoid damaging any internal mechanisms. Adjust the chopper to ensure optimal operational parameters. In the event of high opacity readings, reduce the settings on D2 until you achieve desired performance. 
+
+Ensure that the system's settings remain consistent to maintain functionality. If operational anomalies persist, it might indicate a requirement for component upgrades or replacements.
+
+---
+
+**Instruction IM-106-5500, Units Indication**
+
+When operating the device, the factory settings dictate that the unit selection should follow predefined configurations. You can switch between different timing units (seconds, minutes, hours) by navigating through the menu options. After selecting the desired unit, confirm changes by pressing ENTER.
+
+If any options result in unexpected outputs, reset settings to factory defaults as necessary. The system needs to be properly calibrated, with no connections made to the output terminals during setup.
+
+---
+
+**Instruction IM-106-5500, Security Parameters**
+
+Access to security functions is critical. Follow the protocol for configuring detailed output settings while ensuring compliance with factory specifications. This includes defining identity path lengths and ensuring the system operates within prescribed limits. Each adjustment must be validated through the interface, and unauthorized access should be avoided.
+
+Parameter configuration may require a series of inputs, so ensure that you have the correct identity codes in place to avoid system misconfiguration. The communications ID plays a crucial role in maintaining the integrity of the device’s performance tracking.
+
+---
+
+**Instruction IM-106-5500, Calibration Factors**
+
+When recalibrating, it’s vital to document the calibration factors as these will affect performance. Utilize the interface to adjust both the input and output parameters effectively. Ensure that the calibration reflects appropriate pathlength values and that all adjustments are documented accurately for future reference.
+
+**Instruction IM-106-5500: Threshold Management**
+
+This document outlines the operation of the CCO's input thresholds. Users can select from three input options, including their respective thresholds. If terminals PS1 and PS2 are selected, they will remain in an OFF state unless manually activated or connected to an appropriate switch. To proceed with this selection, press ENTER once the option is displayed. 
+
+Each option will prompt the user to choose YES or NO regarding its activation. If YES is selected, the corresponding option will be finalized upon pressing ENTER. For managing thresholds, the system will activate or deactivate based on whether the input falls below or above the specified threshold.
+
+**Water Detector Threshold Management:**
+
+When configuring the water detection threshold, users must ensure the integration is normalized. To confirm selections, follow the displayed prompts and use the ARROW keys accordingly. If the measured input is below the threshold, the system will designate it as OFF; if above, it will be ON. The selection must cater to whether the environment is categorized as WET or DRY; adjustments will depend on the conditions.
+
+**Calibration and Factor Management:**
+
+Calibration is paramount for ensuring accuracy. Users are advised to check the calibration factor against factory standards and to note any discrepancies. Detectors D1 and D2 will indicate their respective counts for verification. It’s essential to consult Rosemount Analytical for any calibration concerns or adjustments needed.
+
+**Operational Notes:**
+
+During commissioning, monitor that the system operates within acceptable parameters. Any adjustments should be recorded, particularly changes affecting the factory-calibrated factor. The operational mode must be consistently evaluated to ensure optimal performance.
+
+**User Instruction Manual:**
+
+The CCO's manual includes sections detailing modes of operation, key functionalities, and startup procedures. It is designed for users to navigate options effectively, ensuring correct input selection and operational integrity. Adjustments or measurements regarding output settings should be handled through the designated setup modes, maintaining rigorous accuracy with all calibration factors noted.
+
+**Conclusion:**
+
+In summary, the IM-106-5500 outlines the necessary procedures for maintaining, calibrating, and operating the CCO system effectively. It emphasizes the importance of each step in ensuring both accuracy and compliance with operational standards.
+
+**Instruction IM-106-5500: CCO Relay Adjustment**
+
+To operate the CCO relay, press the MODE button at the top of the interface. The current setting will be displayed. Use the ENTER key to navigate through and select the desired format from the options shown below.
+
+**Diagnostic Mode:**
+In this mode, you can enable or disable the chopper 'Y' by pressing the MODE button. Keep in mind that toggling the system can help normalize operations, which is essential for collecting data accurately. There are three possible input options: ON or OFF for each input. The four threshold settings can also be adjusted. Press ENTER to save your changes, and use the arrow keys to select among the displayed options.
+
+**Tree Detector Configuration:**
+The display should show Detector D1 as a reference, indicating that it should be higher than D2. Data from Detectors D1, D2, E1, and E2 will provide phase correction modulation details. Ensure that the signal conveys whether the detection occurs within the sight path. If displayed incorrectly, consult the section on Detector Phase Correction. The timing is important, with corrections noted in milliseconds.
+
+**IR Signal Analysis:**
+The chopper should ideally measure an IR value of around 60. This data can be accessed via the CCO section of Cross-Duct. Various functional factors can be monitored here, including MARK/SPACE indications, which identify when the IR signal is obscured or clear. The operational data and its effects are retrievable, ensuring proper functionality.
+
+**Condition Monitoring:**
+While in this mode, pressing ENTER will display conditions. *ALL CLEAR* indicates the system is functioning without saturation or excessive values. Conditions that are out of reference may need to be addressed as per the Troubleshooting section. Ensure that all hours logged are current.
+
+**Security Entry Protocol:**
+This section allows for secure entry into the system. To prevent unauthorized access, you must enter a four-digit security code. If entered correctly, the LED will extinguish, indicating access approval. Confirm the selection against the required format.
+
+**Output and Configuration:**
+Configure the output options by pressing ENTER while the desired selections are displayed. Utilize ARROW keys to scroll through options, confirming each entry with ENTER. You can set averages and configure units for output measurement.
+
+**Parameter Management:**
+Select parameters or options with the ARROW keys and confirm them with ENTER. Each set function should operate as intended. If error indications occur, check against factory settings without connecting terminal devices during configuration.
+
+**Threshold Control:**
+When setting the threshold, options include selecting inputs that can either be ON or OFF. Make sure to adjust the appropriate settings to ensure accurate readings, especially concerning the PS1 and PS2 input terminals.
+
+**Final Configuration:**
+If selecting specific operational thresholds, confirm using ENTER. You will be prompted to toggle options, indicating whether to set conditions to ON or OFF based on threshold measurements. Follow the respective guidelines for appropriate configuration of inputs and outputs.
+
+---
+
+This structured instructional document outlines the procedures necessary for operating the CCO relay system effectively, ensuring optimal functionality and security during configuration.
+
+### Instruction IM-106-5500: CCO Overview
+
+#### Input Configuration and Normalization
+To configure the CCO input correctly, use the ENTER key and the ARROW keys to select the appropriate water type: WET or DRY. Ensure that the input values are consistently and accurately measured. The selected input should be normalized based on the IR absorption characteristics. If an input unit is present, it must be properly integrated to transmit accurate data. Additionally, selection of this option is essential when the temperature exceeds specific thresholds.
+
+#### Continuous Measurement
+Continuous monitoring is required for inputs categorized as WET or DRY. If using a relatively unsteady firing method, inputs should be accurately measured and recorded. Clear any necessary data from memory as needed. Utilize the integrated CCO for enhanced monitoring of expected parameters, ensuring effective readings under varying conditions.
+
+#### Calibration Procedure 
+When entering the calibration mode, the system displays options such as the 'CAL FACTOR' and CHECK CELL MODE. Each detector, D1 and D2, displays counts as part of the calibration process. If the SPAN FACTOR needs adjustment, review factory settings to confirm its accuracy. The use of recorded data may assist in fine-tuning the system effectively, aligning it with known performance metrics.
+
+#### Routine Maintenance 
+Regular maintenance is crucial for optimal operation. Keep both the CCO unit and installation area clean, removing any accumulated debris or ash every few months. Routine checks on protective covers, ground leads, and the heater assembly are essential for preventing equipment failures or safety hazards.
+
+#### Dismantling and Assembling 
+To safely disassemble the CCO unit, switch off the power supply and remove screws from the front cover carefully. Disconnect wiring from the heater assembly, ensuring a methodical approach to avoid damage. When reassembling, make certain all components are securely fastened and connected.
+
+#### Performance Verification
+The unit undergoes rigorous testing to verify performance integrity. Should there be concerns regarding functionality, refer to troubleshooting guidelines. Adjustments like the SPAN FACTOR may be necessary to maintain accurate readings based on pathlength specifications and temperature considerations.
+
+This comprehensive approach ensures continuous reliability and safety of the CCO unit, enabling effective monitoring and data collection in the specified application.
+
+### Instruction IM-106-5500: Troubleshooting Keypad LED
+
+#### Keypad LED Diagnostic
+
+If the front LED extinguishes, it indicates issues with the relay and connections. For troubleshooting, inspect protective covers and ground leads to avoid serious injury or death. If the LED display clears after troubleshooting, use the 'Clear' function. Typical LED performance readings are as follows: 
+
+- **D2**: Modulation 
+- **D1**: Mark/Space Ratio 
+- **CCO**: Count
+
+Should the LED extinguish, refer to the indicators displayed. Ensure to check conditions denoted in the troubleshooting tables. The Detector (D1) can help identify modulation factors. **Note**: Keep accurate records over hours of operation for further troubleshooting.
+
+#### Troubleshooting Steps
+
+For suspected equipment issues:
+1. Check supply voltage (110/220V selection switch) and ensure power is on.
+2. Monitor LED indicators on the supply PCB.
+3. Proceed to troubleshoot based on observed conditions:
+   - If the supply is OK, continue diagnostics.
+   - If indicators are incorrect or if an LED is blown, take action accordingly.
+
+#### Component Checks
+
+Verify heater cartridge functionality as specified in the section guidelines. If the heater is non-functional, replacement may be required. Turn on the unit and check for appropriate LED indications, which signal proper operations. Ensure necessary supplies, including M+ and M-, are correct. DC readings should confirm operational status of the assembly.
+
+#### Test Points and Voltage Checks
+
+For further diagnostics, utilize test points T1 through T10. Expected voltage readings include:
+- DC outputs should range appropriately between specified points.
+- Ensure isolation and integrity of the supply inputs.
+- Verify all component readings align with operational standards.
+
+#### Returning Equipment
+
+For factory returns, authorization from Rosemount Analytical is required. Follow specific instructions provided by the company to ensure compliance with warranty and service conditions. Equipment should be inspected and tested as per guidelines.
+
+#### Recommended Spare Parts
+
+Refer to the recommended parts list for anticipated replacements. Keep a stock of critical items based on operational needs.
+
+#### Important Safety Instructions
+
+Adhere to the following safety measures, particularly within EU jurisdictions. Compliance with directives concerning wiring and installations is essential. Ensure proper grounding and the use of protective covers during maintenance. Utilize wiring consistent with IEC standards and maintain clear labeling of disconnect points. Adequately train all personnel involved in servicing to adhere to safety protocols.
+
+By following these guidelines, you can effectively troubleshoot and maintain the performance of the equipment.
+
+**Instruction IM-106-5500 Overview:**
+
+This document references various IEC standards and directives, including IEC227, IEC245, and IEC947, ensuring compliance for temperatures exceeding 75°C and carrying a current of up to 10A. It aligns with EN61010-1, IEC417, and ISO3864. 
+
+Key Notes:
+
+- Each section under CCO A-3 through A-14 emphasizes the importance of safety and compliance with the specified IEC standards.
+- The guidelines cover critical operational procedures for equipment, including fault conditions and isolation protocols.
+  
+**Warranty Information for Rosemount Analytical:**
+
+Rosemount Analytical guarantees that products shipped will be free from defects in workmanship for one year from the date of purchase. Should any nonconformance arise, the purchaser must notify Rosemount Analytical in writing. The remedies available are limited and do not extend to any implied warranties regarding market suitability or fitness for specific uses. 
+
+The warranty aligns with industry standards, allowing for correction of defects as outlined by Rosemount Analytical. Conditions such as wear and tear are not covered under this warranty. 
+
+This document and any related instructions pertain to the essential service protocols for equipment, ensuring safety and compliance during installation and operation.
+
+**Contact Information:**
+
+For more details, please reach out to Rosemount Analytical Inc., based in Solon, OH, for European, Middle Eastern, African, Latin American, and Asia Pacific inquiries. 
+
+**Note:** All trademarks are the property of their respective owners.
+

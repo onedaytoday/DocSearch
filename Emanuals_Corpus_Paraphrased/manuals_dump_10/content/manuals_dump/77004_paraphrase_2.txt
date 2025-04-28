@@ -1,0 +1,99 @@
+# VISUAL PRESENTER INSTRUCTION MANUAL
+
+Please refer to this instruction manual for guidance.
+
+### IMPORTANT SAFEGUARDS
+- Carefully follow the operating and cleaning instructions provided in this manual. Retain these instructions for future reference. 
+- Ensure that all operating procedures are adhered to, including cleaning protocols. 
+- Use cleaning products that are safe for electronics, avoiding water near the unit. 
+- Follow all mounting guidelines to prevent serious damage or hazards. 
+- The device should not be placed near heat sources, and proper ventilation must be maintained to avoid overheating.
+
+### Grounding Instructions
+- The device must be connected to a properly grounded outlet. If the device uses a grounding-type plug, ensure it fits securely in the outlet.
+
+### Power-Cord Protection
+- Arrange power cords to prevent them from being pinched or exposed to items that could damage them. Lightning protection should be in place against power surges, minimizing the risk of fire or electric shock.
+
+### Servicing
+- Only qualified personnel should service the device. Unauthorized repairs could lead to fire or electric shock risks. Disconnect power before any servicing, following the procedures outlined in the operating instructions.
+
+### Important Warnings
+- **Caution:** Risk of electric shock. Do not open the cover; it contains no user-serviceable parts. Seek qualified assistance for servicing.
+- **Warning:** To prevent fire or electric shock, do not expose the device to rain or moisture.
+
+### Compliance Information
+- This device meets FCC Class requirements and provides reasonable protection against interference. Users can contact the FCC for guidance regarding interference issues.
+
+### OPERATIONAL GUIDELINES
+- Ensure the device is used within the specified temperature (5°C to 40°C; 41°F to 104°F) and humidity levels. Avoid direct exposure to sunlight or heaters.
+- Properly dispose of or recharge batteries to prevent leakage or short-circuits.
+
+### CONTENTS
+- Included are the device's functions, appearance, rear panel layout, remote preparation, RGB input assignments, operational procedures, specifications, and troubleshooting guides.
+
+### PART NAMES AND FUNCTIONS
+- **Lighting Unit**: Equipped with controls for light settings.
+- **Remote Control**: Used for various functions including input selection and image rotation.
+- **Connections**: AC and DC power inputs, RS-232C communication port, and various video output options.
+
+### REMOTE CONTROL FUNCTIONS
+- The wireless remote allows access to features such as OSD control, image rotation, and lighting adjustments. Ensure batteries are installed with the correct polarity for efficient operation.
+
+### SETUP INSTRUCTIONS
+- Set up the device by following the illustrated guidelines in the manual. Ensure all connections are secure for optimal performance.
+
+For any further assistance, consult the relevant sections of this manual.
+
+To turn off the supply to the RGB input, ensure the connections are properly made. When connected correctly, if the RGB input is manually set up, the dot clock may appear. Refer to the relevant section for output specifications, including mouse control, AC input, and connections like RCA and DIN 4P. This applies to Y/C connections as needed.
+
+Regarding RGB input assignments (DSUB 15P), ensure that the signal wiring is clearly delineated, with GND and NC configurations properly assigned. A detailed restriction applies to RGB specifications, particularly concerning the color or black and white selections. The buttons on the front panel also control various modes.
+
+For connecting the ELMO HD-80XG, the DC output from the specified device should be used, along with the required accessories. Switch on the device and check the LED indicator for operational status; if the device shuts down immediately after switching on, it may indicate an issue requiring a restart after a brief interval. 
+
+Using the front buttons, such as [TELE], [WIDE], or [AF], will enable zooming and focusing functions. Be mindful of wireless operation controls, as they allow access to various features, including adjusting position or negating settings without directly interacting with the device.
+
+If utilizing various lighting modes, buttons such as [UPPER] or [BASE] will activate distinct lighting setups. When the power supply is activated, lighting functions will also be accessible. Note that adjustments to lighting and baselight may be required depending on the context of use.
+
+For video input selections, ensure correct function mode is pressed when switching between built-in settings. LEDs will indicate the currently selected mode, including RGB options. When focusing, the [AF] button can be adjusted for dynamic changes in context.
+
+Further, color/B&W selections can be toggled via dedicated buttons, and adjustments in rotation can be made for image presentation. Keep in mind that iris settings are manually adjustable, and the relevant information is found in the OSD section.
+
+When using an LCD (optional), ensure proper connectivity for optimal performance. The On-Screen Display (OSD) can be navigated with specific button presses, providing access to various configurations and settings. Keep a record of the operational steps as they can greatly enhance user experience and system efficiency.
+
+### Technical Overview:
+
+**Device Controls:**
+- The TELE/WIDE function is activated. Similarly, NEAR/FAR and IRIS OPEN/CLOSE functions can also be activated.
+- Each option can be selected by clicking the corresponding button, denoted by colors such as white, yellow, and red. The white setting allows switching between Auto, Manual, and One-push modes.
+- The initial setting for the white option is tied to subsequent selections for <RED> and <BLUE>. The One-click feature permits the selection of white or <BLUE> functions.
+  
+**Video Signal Settings:**
+- The device supports ON/OFF functionality as well as NTSC/PAL selection. USB/RS-232C connectivity options are also available.
+- The sound from the microphone can be controlled, with a button press outputting the previous audio settings.
+- The first switch will turn the device ON. Pressing the button again will deactivate it (OFF). The NTSC/PAL correction feature can be toggled, displaying the active type initially.
+
+**RS-232C Protocol Specifications:**
+- The device connects to a PC via RS-232C, allowing commands sent from the PC to control various functions.
+- The command table outlines functions such as Iris control, lighting selections, and color adjustments (Color/B&W).
+- Commands are executed through specified ASCII codes, and an acknowledgment (ACK) is transmitted for correctly received instructions.
+
+**Troubleshooting Guide:**
+- Ensure the TV is properly connected to power and turned ON. If the TELE/WHITE option is immediately turned OFF, wait a few seconds before reactivating it.
+- Focusing issues may arise due to excessive distance; adjustments can be made.
+- If excessive light interfering with CCD appears, consider adjusting settings or consulting authorized service.
+
+**Specifications:**
+- Power requirements include AC outlet specifications (AC120V 45W, DC12V 0.9A).
+- Input interfaces include RGB, Mic, RS-232C, USB, with varying specifications for each connection type.
+
+**Lighting Specifications:**
+- High lighting features a 3-wave-length type at 6W, and options for DC wiring are available.
+- The compatibility of outputs such as RGB and VGA conforms to VESA standards.
+
+**Legal Disclaimer:**
+- Unauthorized reproduction of copyrighted material is prohibited according to copyright laws. 
+
+**Manufacturer Information:**
+- ELMO CO., LTD. and its subsidiaries maintain all rights to this document.
+

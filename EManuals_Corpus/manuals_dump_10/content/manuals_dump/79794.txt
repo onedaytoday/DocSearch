@@ -1,0 +1,49 @@
+o o C C o o
+Copyright this rights of this publication reproduced, transmitted, transcribed, or translated or or mechanical, or otherwise, without the written of this COPYRIGHT
+FCC COMPLIANCE STATEMENT This with of the FCC Operation to the following this interference, and this interference received, including interference that operation. or the the authority to DISCLAIMER This or warranties, or implied, with to the hereof and specifically warranties, merchantability or software this or "as Should the following their purchase, the (and this its or its the of servicing, and or from the software. Further, this the right to this and to from to the hereof without to of such or
+Introduction......................................................................1 Product Started.................................................................4 Procedure...................................... Software Procedure GDI/Host-based Introduction Search of the TCP/IP Introduction TCP/IP...............................................................................37 from Troubleshooting TCP/IP...............................................................................40
+Introduction Thank purchasing This allows GDI/Host-based become the GDI that built-in Graphical Interface (GDI), to the from to another such as or PCL GDI host-based they the to of that, of the GDI This which allows to with the GDI as connected directly to With the the GDI easy to become and to about the with the GDI The GDI the operating SP4 and XP SP1 The the to GDI and easily. It offers the and GDI Network and with and required.
+Product This the following One One One One CD-ROM (Including the software and
+This GDI GDI through the GDI that built-in Graphical Interface (GDI), to the from to another such as or PCL GDI the bi-directional and frequently, that the of The with the GDI as connected directly to The OS this SP4 and XP SP1 The GDI 98SE/ME/NT, or MAC OS. the please to the following chapters. Section GDI/Host-based
+Started should One with SP4 or XP SP1 One GDI or with USB and CD One Ethernet One USB Procedure Unpack the and that the items the previous section provided. the USB to the with the GDI that to the the to attached the to the of the the to the The the Power-On-Self-Test (POST) the LED unlighted, the ready. You the shipped with the NOT other from other To the and GDI or recommended that the the GDI or
+Software Installation Procedure should operating This SP4 or XP SP1 Please follow the below to You to the and the the CD shipped with the CD-ROM The should automatically. If manually from CD-ROM directory. The following displayed. Click Utility.
+The displayed, "Next". Click Next to the the or Change to specify the where would to the
+The the The Please to to
+The executed, to the and the with the to Please Next. The search the within the Select the would to and Next to
+Please the of the selected to the The If to the of the and the with the directly, please You to Following the completed the the to the Click Next.
+Please the the manually. the as follows. IP Address: If selected DHCP, the try to the automatically. If DHCP within the the and the assigned the DHCP The assigned IP shown the IP DHCP within the then there as below: Please assign the of the manually. Please Next once found the
+The IP to the within or connected If the IP incorrect, then to throughout the router/gateway/computer IP then to IP to with IP (Please IP please follow exactly!) If the incorrect, prompted to Next. If to please to the installation. You then the to the IP
+The finished. Please to apply and the The allows to the and with the to Please to the to the
+GDI/Host-based Following the procedures GDI/Host-based installation. MP130) The the automatically. You and the the prompting, the Please the the following displayed. please GDI CD to CD-ROM and the of the GDI carefully. GDI users to the the GDI to GDI connecting the GDI to the Please to the below which the displayed the installation. To the GDI to through the directly connected the GDI to through the USB If the directly.
+The to the to and search and the GDI
+You the If there to manually the New please this and Next to Select the software (Recommended) and Next.
+the and Next. the
+the completely GDI bound with the to Please to that through the successfully. or please the and the abnormally of the installed. If there and shown the that the ready, the It recommended to to the successfully. If the to the If completed the successfully, please to to
+Congratulations, the successfully. The to the the If to please Name(Network). The following to the Click OK and then installations completed.
+GDI restarting the there to and the The Name(Network) the If to or please to Name(Network). To the or other of the please right Name(Network) and the Name(Network) then the
+the completed, there four to Start/Programs/Print the If the the software Section this to the and the to Allows to the IP Address, and other advanced features. Uninstall software
+The to the Normal or GDI with the If there the or the please the to Please to the Section the 98SE/Me/NT, the only allow to Normal
+Introduction This chapter This the and functions the This only include functions or other the The the following and Search Search the Network about the such as TCP/IP IP and DHCP Network and Please to the following sections the of each function
+Search Every when the the Search because the to search the Group the of the You the would to from the The the the selected the right of the the The seconds
+of Click showed the right of the The information of the displayed including MAC ID, of each IP and You refresh the the Refresh You the the the the of the currently selected
+the Click showed the right of the of the to the selected to and of the The finished the please to the the the items of the selected to the
+Click and the You information this You the and the of the You this to the when searching the the to authenticate the to the from the or the tool.
+TCP/IP Click TCP/IP and the TCP/IP You the to IP from DHCP or manually specify IP. The built-in DHCP You this DHCP and IP
+IP Assignment: Click the IP to the IP If the to IP from DHCP IP. You Static IP to manually IP Address, and the Static IP and the as follows. IP Address: IP The IP information of the obtained from DHCP the field. If DHCP to the information manually. Static IP Manually assign the IP information the with to the DHCP Click the DHCP to the DHCP the the DHCP If selected, the DHCP within the and once the DHCP the his DHCP and assign IP to Please the Starting Address, Gateway and DNS; then the IP within the each DHCP If the DHCP to assign of IP the Gateway and DNS; then the assign IP within the each DHCP The DHCP You to DHCP the or the IP each manually.
+Click and the the and the firmware this You this Firmware to the firmware of the Click PC. selecting the firmware the to the process. the firmware, please that the IP of the the as If to the to factory please and the firmware
+Introduction and the Through or easily and browsers. IP to built-in The IP Address, and of the as follows. IP Address:
+You to the or the of the the IP of the You to and to the
+This the information about the The the of the MAC ID of the with PS. The the as You this to the easily when searching the the the type of the USB the of the USB the LPT the of the the
+Wireless LAN It the WLAN function. the firmware of the MAC The MAC ID of the displayed RAW/IPP/LPR the RAW/IPP/LPR
+This the information and the of the connected to the USB The information includes and the The of the includes Ready, or Ready: The ready to The connected to through USB or turned off. The ready of
+TCP/IP This TCP/IP of the DHCP/BOOTP: If the to IP from DCHP On. IP Address: the IP of the the IP the of the the Gateway: the of the the
+the from the please the of the to the and the You the and of the from the of the You this to the easily when searching the the of the The to The Re-type the the
+Advanced advanced of the TCP/IP (LPR/IPP/RAW): This TCP/IP and LPR/IPP/RAW these
+TCP/IP You the to IP from DHCP or manually specify IP. If the to IP from DHCP TCP/IP Automatically DHCP/ BOOTP). You the following TCP/IP to manually assign IP Address, and the
+the to the to the and the
+You this to the factory Click OK and the restarted, the completed. that of cleared.
+from You this this Click to the and then OK, the that firmware, to follow the or the cant back to
+Troubleshooting The the the If please the and follow the instructions the to the the IP the with IP the IP should the the or with the IP of The following procedures to the IP of You and IP the Click and and OK.
+and IP The MAC the Physical (00-00-E2-82-C3-AD). This found searching the the and the connected to the properly. the LAN and Ready turned The to the IP of the DHCP the If DHCP to the IP from the DHCP automatically. and then TCP/IP Select IP and the the IP Manually and then TCP/IP Select Static IP and the IP and as Click the
+IP to recommended DHCP assignment dramatically the IP
+The information the first released the information, please with GDI HP B&W OK HP B&W OK MPC (MFP) OK (MFP) PIXMA MP530 OK FAXPHONE L120 OK All-in-One (MFP) P6250 OK All-in-One (MFP) X2350 OK All-in-One (MFP) X3350 OK All-in-One (MFP) X3470 OK All-in-One (MFP) X5470 OK All-in-One (MFP) X6170 OK All-in-One (MFP) X7170 OK All-in-One (MFP) X7350 OK Z617 OK Z735 OK B&W EPL-6200L OK MFP CM3000 OK

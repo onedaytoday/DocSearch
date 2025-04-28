@@ -1,0 +1,86 @@
+### Touchmonitor 1928L LCD Touchmonitor Revision
+
+**1928L LCD Touchmonitor Revision P/N E116103**
+Copyright by TouchSystems. This publication's content may not be reproduced, transmitted, or translated without written permission from TouchSystems. Information contained herein is subject to change without notice and does not carry any express or implied warranties, including merchantability or fitness for a specific purpose. TouchSystems reserves the right to make revisions to this document as necessary.
+
+**Warnings:**
+This device may pose risk of electrical shock, fire, or other hazards. To reduce the risk of electrical shock, do not open the back cover, and only qualified personnel should perform service. Uninsulated parts within the device may cause shock. Follow installation and connection guidelines carefully. Ensure that the power is turned off before connections. Use accessories compliant with IEC standards to minimize hazards. The device is intended for continuous operation in environments without condensation.
+
+### Product Overview
+The **1928L** combines an LCD display with a touchscreen interface. It utilizes an SXGA LCD capable of displaying vibrant graphics.
+
+### Specifications
+- **Display**: TFT LCD, resolution specifics: 1280x1024 (SXGA).
+- **Performance**: Brightness, response time, and ratio parameters specified for optimal operation.
+- **Electric Specifications**: Input requirements are AC 100-240V, 1.0A; DC output at 12V, 4.0A.
+
+### Installation and Setup
+1. **Connecting Video**: Ensure that both the monitor and PC are powered off. Connect the DVI-D cable from the PC to the monitor’s video port.
+2. **Connecting Touch Interface**: Connect the USB or RS-232 serial cable to the appropriate ports on both the monitor and the PC.
+3. **Power Connection**: Safely route the power cable through the indicated path to avoid interference.
+4. **Software Installation**: Install the provided software for touch functionality through the included CD-ROM, ensuring compatibility with various operating systems.
+
+### Operation
+**On-screen Display (OSD) Controls**:
+- Navigate through menu settings for brightness, contrast, and sharpness adjustments.
+- Options available in multiple languages (English, Spanish, Chinese, Polish).
+  
+**User Functions**: Return to factory settings using the OSD. OSD also provides information about input modes and configurations.
+
+### Troubleshooting
+If issues arise, such as failure to display input correctly, verify connections and ensure proper input resolution settings are applied. 
+
+For further assistance, consult the technical specifications section or contact TouchSystems’ support for service inquiries.
+
+### Safety Considerations
+This device is classified according to safety standards (UL60601-1 and CAN/CSA C22.2), indicating it is grounded, with no applied parts. It is crucial to adhere to local electrical regulations and ensure accessories used are suitable for the environment.
+
+### Warranty Information
+The product comes with a defined warranty period. Refer to the warranty section for details on claims and limitations. 
+
+For more information about compatibility and additional technical specifications, please visit the TouchSystems website or consult the detailed product documentation.
+
+**Touchmonitor A-20 SVGA LCD Overview:**
+
+The A-20 Touchmonitor features a vertically oriented SVGA LCD with an XGA input, ensuring compatibility with various signal types. When the input resolution exceeds the LCD's specifications, image artifacts such as distorted characters may occur due to the LCD’s processing algorithms. 
+
+**Safety and Maintenance Information:**
+
+To minimize electric shock risks, ensure the touchmonitor is properly grounded using a 3-wire cord connected to a grounded outlet. Avoid using unauthorized electrical components to maintain warranty coverage. Prevent obstructions near the monitor, and avoid contact with any moisture. If the touchmonitor shows signs of malfunction, discontinue use immediately.
+
+**Touchmonitor Specifications:**
+
+- LCD Type: TFT Active
+- Pitch: 0.294mm (H) x 0.294mm (V)
+- Supported Resolutions: VGA, SVGA, and SXGA
+- Brightness and Response Time: Typical brightness levels and specific response times will be provided.
+- Voltage: AC input range of 100-240V; DC output of 12V, 4A.
+
+**Cord Selection:**
+
+For North America, ensure that the selected power cords are appropriately rated and UL-listed. Similar standards apply for other countries' cords, with agencies like IEC, VDE, and others ensuring compliance with local safety requirements.
+
+**Regulatory Information:**
+
+The touchmonitor meets various international safety and interference standards, including FCC Class B and CE directives. Users are advised to follow proper installation procedures to avoid interference issues. 
+
+**Warranty Details:**
+
+Touchmonitor products are warranted for a specific duration against defects in materials and workmanship. Remedies under this warranty are limited to refunds or replacements, and do not cover installation costs or indirect damages. 
+
+This summary collects relevant technical details for effective user support and safety compliance while offering a concise overview of the warranty provisions associated with the touchmonitor.
+
+ET1928L-XXWA-1-G Touchmonitor Specifications Overview: This document details the AccuTouch (resistive) touchscreen's specifications, including unit brightness, connectivity options via USB, and various performance metrics. It covers important information such as protection ratings, chemical resilience, expected performance levels, and power management features. 
+
+Sections include:
+
+- Introduction to touchmonitor specifications
+- TM LCD performance features
+- Native resolution and OSD (On-Screen Display) settings
+- Sharpness and H-position adjustments
+- Touch activation force and interface details
+- Safety guidelines and troubleshooting tips
+- Warranty information
+
+For additional details, visit www.elotouch.com or contact the ELO-TOUCH Corporation offices in the USA.
+

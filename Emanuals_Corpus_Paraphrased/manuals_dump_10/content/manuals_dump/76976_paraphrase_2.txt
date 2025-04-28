@@ -1,0 +1,77 @@
+**EDR Models: EDR-X04, EDR-X109, EDR-X116, EDR-X216, EDR-X416, and Remote 2003G**  
+**ELMO DVR 2003G V2.07**  
+**Copyright Notice**  
+All rights reserved by ELMO. Reproduction in any form, including photocopying or electronic recording, without written permission from the copyright holder and publisher is prohibited.
+
+### ELMO DVR and Remote User Manual
+
+Thank you for purchasing the ELMO DVR from ELMO LTD. This manual covers both the ELMO DVR and ELMO DVR Remote software. For assistance or inquiries, please contact our technical support team. ELMO guarantees that this device meets specified standards and is free from defects in material and workmanship for a period of three years from the date of purchase. Please note that warranties on Compact (CP) products may differ. This warranty does not cover indirect damages or loss of profit incurred during the use, installation, or purchase of the ELMO DVR.
+
+### Technical Support  
+To initiate warranty service, shipments must be insured and properly packaged. Refer to the warranty documentation for details or contact our support team at ELMO, Country Road, Plainview, New York, USA.
+
+### Installation Guidelines  
+Avoid placing the device in locations with excessive heat, direct sunlight, or near microwaves and wireless devices as they may interfere with performance. Ensure the DVR is powered and unobstructed.
+
+### User Interface Overview  
+The following diagram illustrates the back panel of the ELMO DVR, detailing the functions of its connections. Users can access various features by double-clicking on specific icons. For security purposes, it is advisable to manage access credentials carefully.
+
+### Recording Features  
+The ELMO DVR provides a range of functions including playback and search capabilities, which can be enhanced by motion detection and POS integration. Users can configure settings for motion detection, recording duration, and activation of features such as Pre-Alarm for enhanced security.
+
+### Communication Settings  
+Users can configure communication protocols and emergency settings to ensure connectivity and functionality during critical conditions. 
+
+### Sound Recording  
+The DVR can record audio via an integrated microphone, allowing synchronized sound capture during video recording. Users can manage audio settings within the interface.
+
+### Conclusion  
+This manual provides detailed instructions for using the ELMO DVR, including troubleshooting and setup information. For any additional assistance, please refer to our technical support resources.
+
+
+**ELMO USER MANUAL 2003G**
+
+This manual outlines the steps for audio management and communication format selection in the ELMO DVR system, including choosing between NTSC and PAL formats. To activate sound, navigate by clicking the appropriate option to select and enable audio settings. 
+
+The ELMO DVR is equipped with P/T/Z capabilities for tracking motion detection. Note that some features may not be available in all models. To customize tracking options following motion detection, select the relevant settings as indicated.
+
+To manage sound levels, use the brightness settings and background refresh rate adjustments. Ensure that the system is updated daily and set to the appropriate detection range to improve motion tracking accuracy.
+
+When configuring SMTP settings, input the necessary server details, including the server IP address. Users must complete the specified fields to ensure successful communication, especially when integrating other security features.
+
+For backing up data to a CD-R, it is essential to have sufficient free space (at least 650MB). Follow the prompts to select backup options and ensure that the format is compatible (choose between Encrypted or AVI).
+
+You can create snapshots during playback; simply select the snapshot function, then confirm the action. The user interface allows creating schedules and setting priorities for saved recordings.
+
+The ELMO DVR includes advanced search functions for recorded footage, distinguishing between motion and continuous recordings. To search effectively, select the desired date or time range highlighted on the interface.
+
+Lastly, the PAC function allows users to overlay PAC text onto recordings, enabling better visibility of motion events. Adjust text color based on the background for optimal clarity.
+
+**End of ELMO USER MANUAL 2003G**
+
+**ELMO USER MANUAL 2003G**
+
+**Search Functionality:**  
+The ELMO DVR Remote allows users to search for previously recorded footage either remotely or from CD-R/CD-RW. It connects to the DVR and enables users to identify specific recordings based on IP addresses, whether they're from an active Emergency event or motion events. The software interface of the DVR can be used to navigate these features.
+
+**Creating Connections:**  
+To set up a connection, the user should access the appropriate IP addresses, which can be verified through services like www.123ip.com. After clicking the necessary options, the "Creating New Group" screen will display, allowing users to input characters that define their group selection. 
+
+**Connecting and Disconnecting:**  
+When connecting to the network, users will see a "Connecting LAN" message indicating their current status. If necessary, users can stop the connection, which will prompt a "Disconnecting" message. 
+
+**Remote Software Functions:**  
+The ELMO DVR Remote software provides various options for searching through recorded footage, whether from HDD or CD-R media. Users can search through previously recorded files while connected to the DVR. 
+
+**Recording Options:**  
+Users can initiate recording during playback by selecting specific options. The software allows users to back up recordings and choose formats, including Encrypted and AVI. To access these options, click 'Search' and select the desired recording format.
+
+**Snapshot Capability:**  
+The software allows users to take snapshots during playback. Selecting the Snapshot option enables users to capture frames, and they can choose to terminate the process if needed.
+
+**Communication Options:**  
+Users can choose their connectivity methods, including phone or LAN/high-speed options, which will alter the network settings available in the software. The menu will display TCP/IP options relevant to the current network configuration.
+
+**Playback Control:**  
+During playback, users can utilize various buttons to control the recording and navigate through the footage. This feature supports both local and remote searches and plays back recorded content seamlessly.
+

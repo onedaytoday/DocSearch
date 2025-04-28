@@ -1,0 +1,186 @@
+**Integrated High ESD-370**
+
+**Notice:** The information provided at the time of publication is subject to change. The right to modify specifications of both the information and products is reserved. Copyright prohibits any reproduction—whether by copying, translating, or converting into machine-readable formats—without prior written consent. For warranty service or instructions, refer to the relevant documents. If there is any issue with the item, refrain from installation or operation.
+
+Be cautious with screws or covers, as the product is not user-serviceable. Ensure proper cooling, as overheating may lead to malfunction. The device operates only within specified temperatures of 0°C to 40°C (32°F to 104°F), and should not be placed in unprotected areas. Disconnect the power immediately for servicing if it comes into contact with strong impacts or during cleaning. Use a soft cloth when necessary.
+
+**Product Features:**
+- **Product Application:** Integration with High Switch Definition
+- **Connecting:** RS-485 ID Connector Definition
+- **OSD Functions:** Includes camera backlight, focus, aperture, automatic exposure (AE) settings, white balance settings, alarm settings, and various display options.
+
+**Specifications:** 
+The ESD-370 is designed for high performance in security applications and features simplified cabling for ease of installation alongside CCTV products such as keyboards and cameras. Employing advanced DSP technology, it enables clear imaging through features like Light Compensation and high infrared for nighttime operation. User-configurable functions encompass tracking and return to specified actions based on movement detection.
+
+The Integrated High also incorporates built-in compatibility with various systems such as ELMO, VCL, and AD-422. Each unit is assembled and rigorously tested in accordance with ISO standards. This ensures high reliability and performance in various environmental conditions.
+
+**Installation Guidelines:**
+Refer to provided sections for connection details, ensuring to follow the instructions for mounting and power supply setup. 
+
+**RS-485 Connector Definition:**
+- The RS-485 interface is half-duplex, facilitating communication. Configure the ID by tuning the corresponding switches as indicated. 
+
+**Operational Formats and OSD:**
+The OSD displays critical operational information. Control features such as backlight adjustments, focus settings, automatic characteristics, and various alarm configurations within the menu.
+
+In conclusion, the ESD-370 offers robust functionality for security surveillance, adaptable integration with existing systems, and user-centric operational features. For further technical specifications and guidelines, please consult the full documentation.
+
+**Item Time Schedule**
+
+- **Exit OSD:** Yes
+- **Mask:** Clear + Reset 
+- **Mask Display:** <First>, <Last> 
+- **First Exit:** Yes 
+- **Time Display:** <On>, <Off> 
+- **Schedule Settings:** 
+  - Year: Set 
+  - Month: Set 
+  - Day: Set 
+  - Hour: Set 
+  - Minute: Set 
+- **Exit + Save** 
+- **Schedule Switch:** <On>, <Off> 
+- **Schedule Point:** 
+  - Schedule Hour 
+  - Schedule Minute 
+  - Schedule Mode 
+- **No Function:** Preset Sequence 
+- **Control Modes:** 
+  - Autopan 
+  - Cruise 
+  - IR Function 
+- **Schedule Reset:** 
+- **Exit:** None 
+- **Preset Sequence:** 
+  - Autopan 
+  - Cruise 
+  - IR Function <Auto>, <On> 
+
+**Default Camera Settings**
+
+The OSD (On-Screen Display) includes functions such as ELMO. Key features include:
+
+- **Default Camera Settings:**
+  - Backlight: Off 
+  - Focus: Auto 
+  - AE Mode: Auto 
+  - WBC Mode: Auto 
+  - ID Display: On 
+- **Setup Menus:** 
+  - Menu 1 
+  - Menu 2 
+- To access the OSD, navigate using the right/left buttons to select under the <Camera Menu> for editing.
+
+Enabling these features will ensure that camera settings such as Backlight, Focus, AE, WBC, and Aperture operate correctly. Automatic adjustment features will activate when these settings are engaged. 
+
+**Backlight, Focus, and Aperture Settings**
+
+- **Backlight Compensation:** Mitigates bright environments. This function integrates with WDR (Wide Dynamic Range).
+- **Focus Control:** Options include Manual and Auto, impacting Sharpness.
+- **Aperture Settings:**
+  - BLC Level (Backlight Compensation Level)
+  - Adjust Focus Length: 10 CM 
+
+**AE Mode and Variable Light Control**
+
+The AE (Auto Exposure) function adjusts based on lighting conditions, offering options for manual or auto settings. Light received influences exposure speed and overall image quality.
+
+**WBC (White Balance) Mode and ID Display**
+
+- **AGC (Automatic Gain Control):** Higher priority than shutter settings.
+- **White Balance Settings:** Manual adjustments allow for tuning to different light sources. 
+
+**Setup Menu Overview**
+
+- **ID Display Settings:** Selectable for display.
+- **Zoom and Image Control Features:** 
+  - Zoom Speed 
+  - Digital Zoom options 
+  - Flip functions (Image/Mechanical)
+- **Angle Adjuster:**  Adjust minimum angle settings.
+
+**Title Display Configuration**
+
+- Users can create and adjust titles displayed on the screen, choosing characters based on specified steps. Titles can be edited, deleted, and saved per user input.
+
+**Alarm Settings**
+
+- Configure alarm parameters, types, and actions triggered during specific events, including entry conditions for N.O. (Normally Open) and N.C. (Normally Closed) configurations.
+
+**Home Functionality and Sequence Control**
+
+- Features for preset actions available during alarm events, including options for sequence, autopan, and dwell time settings. 
+- Each action can be assigned specific delay and operation modes, allowing control over the camera's behavior following an alarm trigger. 
+
+This provides users with flexible monitoring and control options within the camera system.
+
+### AUTOPAN DWELL TIME
+
+The DWELL TIME refers to the duration that the system operates in autopan mode, measured in seconds. To modify the DWELL TIME, a manual operation of the RUN SEQUENCE is necessary. To exit, select the desired item for the SEQUENCE and adjust the motion accordingly.
+
+The AUTOPAN function includes four preset options that can be activated using LEFT/RIGHT controls to maintain continuous motion without interruption. 
+
+- **AUTOPAN START POINT**: Follow the prompts to establish the AUTOPAN path. Select <START POINT> and press <ENTER> while the <TO FIND> item is highlighted, which will then automatically turn <TO SAVE>. The system will define the <END POINT> automatically.
+  
+**Note**: The recorded END POINT will be saved, and transitioning to another will require using <ENTER> again. 
+
+The direction of the AUTOPAN can be adjusted to rotate clockwise or counterclockwise, depending on the selected option.
+
+- **SPEED Adjustment**: Changes in rotation speed can be set between a specified range. 
+
+**CRUISE RUN**: Once this phase is complete, the system can be manually controlled. Exiting the AUTOPAN features allows you to recall operations as needed. 
+
+**RECORD START/END**: To establish a CRUISE path, record the necessary steps by pressing <ENTER> when prompted. 
+
+**RUN CRUISE**: After completion, control the function manually and exit CRUISE mode using the designated commands.
+
+### IR FUNCTION - IR WDR (DR Only)
+
+This IR function enhances visibility by capturing clear and bright images. Users should be aware that activating this function affects the overall performance. The IR AUTO mode will adjust its brightness threshold upon reaching specified settings, which can be toggled between <LOW>, <MID>, and <HI> levels. 
+
+**IR COLOR** can be selected to display images in either color or B/W modes. 
+
+**Note**: The WDR function may deactivate when the IR FUNCTION is engaged. 
+
+### PRIVACY FUNCTION
+
+The WDR function can be adjusted using the WDR SWITCH to enable or disable. In AUTO mode, the WDR operates automatically, while MANUAL mode allows users to set RATIO LEVEL, SHUTTER SPEED, and IRIS OFFSET as per their preference. 
+
+**Note**: The system retains settings while WDR is active.
+
+### PRIVACY SWITCH
+
+This setting allows users to toggle the privacy function on or off. Users can manage the shading through selected colors such as black, white, or gray. 
+
+- **SET MASK**: Initiate masking options to restrict viewable areas.
+  
+### TIME FUNCTION
+
+This integrated feature displays the current time and allows users to manage settings for year, month, day, hour, and minute.
+
+### SCHEDULE FUNCTION
+
+Users can enable or disable the schedule via the SCHEDULE SWITCH. Functions can include preset sequences, AUTOPAN, or CRUISE operations. The system allows flexibility to select from various points and modes for scheduled operations.
+
+### Technical Specifications
+
+- **General Interface**: RS-485
+- **Operating Temperature**: 0°C to 40°C (32°F to 104°F)
+- **Power Source**: AC
+- **Certification**: CE, FCC 
+
+### OSD Notes
+
+The OSD settings allow users to configure various options such as:
+
+- CAMERA DEFAULT (<ON>, <OFF>)
+- FUNCTIONS: AUTO FOCUS, MANUAL APERTURE, IRIS, etc.
+- ALARM SETTINGS: Include types and actions.
+- ZOOM speed and settings (FAST, SLOW).
+
+### Exit Commands
+
+To exit the OSD, the appropriate commands should be followed based on selected functions.
+
+For any issues or inquiries, please contact Elmo USA in Plainview, NY.
+

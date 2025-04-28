@@ -1,0 +1,80 @@
+# ESD-380 User Manual Overview
+
+## Table of Contents
+1. **PREFACE**....................................................................................................................2 
+2. **FEATURES**................................................................................................................3 
+3. **PRECAUTIONS**........................................................................................................5 
+4. **QUICK START** 
+   - Function Definition
+   - Initial Setup from ESD-CC1 Keyboard 
+   - Switch Settings and Definitions 
+   - RS-485 Installation....................................................................................................12 
+   - Connection Guidelines............................................................................................17 
+   - Cable Connection and 22-Pin Connector Definition 
+5. **OSD DISPLAY FORMAT**......................................................................................19 
+   - Specifications.......................................................................................................20 
+6. **SYSTEM ARCHITECTURE**..................................................................................21 
+   - Appendix OSD Menu...........................................................................................22 
+   - OSD Tree Structure 
+7. **APPENDIX PELCO**..............................................................................................32 
+   - Symbol Definitions 
+   - Special Functions Using PELCO KB for Dome Camera Control 
+8. **APPENDIX PHILIPS ALLEGIANT**..................................................................34 
+   - Symbol Definitions 
+   - Special Functions Using ALLEGIANT KB for Dome Camera Control 
+
+## PREFACE
+The ESD-380 is designed for robust performance and secure installation. This advanced Digital Signal Processor (DSP) features optical zoom capabilities of 22X and 12X (or 23X with specific items), with a lens resolution of 364X (or 276X depending on the captured image). Continuous backlighting and IR functionalities are integrated, enhancing performance in various applications. The RS-485 interface allows for automatic monitoring of designated areas. This product is thoroughly tested in accordance with ISO standards, ensuring high performance and reliability at competitive pricing.
+
+## FEATURES
+- **Camera Specifications**: Supports 23X and 22X optical zoom alongside various advanced features.
+- **Infrared Capabilities**: Enhanced visibility in low-light conditions.
+- **Dynamic Range (DR)**: Offers backlight compensation for optimized brightness.
+- **Camera Functions**: Includes various preset and tracking functionalities to streamline operation.
+
+## ROTARY BODY FEATURES
+This section delineates preset functions, auto-turning capabilities, and user-defined paths. The system allows continuous tracking, enhancing operational flexibility. Users can establish paths and commands efficiently.
+
+## PRECAUTIONS
+Please adhere to the specified guidelines during installation and operation to prevent damage from shock or environmental factors. User maintenance is not recommended; servicing should only be performed by qualified personnel. Operating temperature range is -30°C to 45°C (-22°F to 104°F). 
+
+## QUICK START
+1. **Initial Setup**: Access the ESD-CC1 keyboard to configure the system.
+2. **Preset Functionality**: Utilize the designated commands for preset settings and camera control.
+3. **Menu Navigation**: Easily navigate through options via the LCD interface.
+
+## INSTALLATION
+Ensure all components are securely mounted and connected. Follow specific steps for seamless integration, including attaching power connections and verifying operational status.
+
+## CABLE CONNECTION
+Refer to the connection guide for proper wiring of the 22-pin connector and RS-485 connections.
+
+## OSD DISPLAY FORMAT
+Users can configure the on-screen display for various functions including focus, alarm settings, and camera identification.
+
+## SYSTEM ARCHITECTURE
+Details regarding the architecture of the system and additional functionality can be found in the subsequent sections. 
+
+This manual serves as a comprehensive guide for the operation and installation of the ESD-380, ensuring users can optimize its extensive functionalities effectively.
+
+The user interface specified is structured as a hierarchical tree, as illustrated below. The sections covered in the setup menu consist of:
+
+- **OSD Tree Structure**: The default configuration includes options like Backlight (BLC), Auto Focusing Length, Aperture settings, AE and WBC modes, ID display, and other configurations.
+- **Backlight**: This setting adjusts the necessary lighting for optimal visibility. Enabling it enhances the brightness in designated areas.
+- **Focus**: Allows manual control between near and far focusing.
+- **Aperture**: Offers both Auto and Manual modes for light adjustment.
+- **AE Mode**: Automates the IRIS and AGC functions to adapt to light conditions.
+- **Shutter and AGC**: Controls shutter speed and automatic gain, with options for manual adjustments.
+- **WBC Mode**: Provides automatic and manual white balance options.
+- **ID Display**: Enables or disables the display of the camera ID.
+
+The OSD menu facilitates navigation through adjustable items using directional inputs. For each item, setting adjustments can revert to factory defaults if required. The alarm settings encompass PIN configuration, action types triggered by alarm events, and customizable preset positions. 
+
+Home settings dictate automatic engagement in various functions (Auto Pan, Sequence, Cruise, and Preset), with adjustable return timings. Users can save specific paths or sequences and initiate recording commands to document movements. The IR function settings allow threshold adjustments and switching between color modes (B/W or color).
+
+WDR settings can be toggled, and privacy options include shading and masking capabilities. The system supports various cable configurations (e.g., RS-485) for integration with other devices, and the setup emphasizes adherence to guidelines for optimal functionality. 
+
+The interface also details connection standards and specialized roles for additional compatibility and control. 
+
+For further assistance and details, refer to the provided resources at www.elmousa.com.
+

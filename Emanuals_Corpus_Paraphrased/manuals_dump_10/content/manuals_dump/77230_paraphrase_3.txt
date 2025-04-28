@@ -1,0 +1,99 @@
+# AM Instruction Manual for VHF/UHF Transceivers
+
+## Foreword
+Please read all the instructions thoroughly and retain this manual. It contains operating instructions for the IC-F15/F15S VHF Transceiver and IC-F25/F25S UHF Transceiver.
+
+### Definitions
+- **Warning:** Indicates potential for injury, fire, or electrical shock.
+- **Caution:** Used for situations that may lead to damage or reduced performance.
+- **Note:** Important information regarding operations.
+
+## Precautions
+### Warning!
+- **Never Use** the device near water or while wet to prevent electrical shock.
+- **Do Not Use** with high-impedance headsets or similar devices.
+  
+### Caution!
+- Use only specified battery packs: BP-230, BP-231, or BP-232.
+- **Do Not** transmit while in direct sunlight or at temperatures outside the +25°C to +55°C range.
+- Ensure batteries and chargers are properly connected to avoid malfunctions. 
+
+## Table of Contents
+1. Foreword
+2. Definitions
+3. Operating Notes
+4. Precautions
+5. Accessories
+6. Panel Description
+7. Conventional Operation
+8. Battery Charging
+9. Optional Unit Installation
+
+## Accessories
+The following accessories are included:
+- Battery unit
+- Cover (with screws)
+
+### Handling Precautions
+- **Caution:** Never hold the unit by the antenna when carrying it.
+
+### Battery Installation
+Insert the battery according to the indicated direction, ensuring a secure click when locked. To release the battery, slide the arrow as shown.
+
+### Cover Installation
+The cover must be secured when using the optional speaker-microphone. Tighten screws to ensure it is secure.
+
+## Panel Description
+### Controls and Indicators
+- **Volume Control:** Use the [VOL] knob to turn the device on/off.
+- **Channel Selector:** Utilize to switch between channels or memory channels.
+- **LED Indicator:** Displays status during operations (e.g., red for transmitting, green for receiving).
+
+### Programmable Keys
+Several keys can be programmed for additional functions including scan, emergency, and DTMF operations.
+
+## Conventional Operation
+To power on, turn the [VOL] knob. Use the channel selector to choose channels. Automatic scanning can be activated for monitoring.
+
+### Tone Selection
+CTCSS and DTCS tones allow selective communication with specific stations.
+
+### Important: 
+Keep the microphone a reasonable distance from your mouth while speaking to maintain clarity during transmissions.
+
+## Emergency Functionality
+An optional unit is available for enhanced emergency response. Ensure all components are configured properly and the device is maintained.
+
+## Optional Unit Installation
+When installing optional units, ensure the device is powered off and the cover is removed correctly. Follow specific guidelines based on the optional units used.
+
+## Battery Charging
+Charge the device within the specified temperature range (+10°C to +40°C) using designated chargers. Avoid overcharging to prolong battery life. 
+
+**Note**: Follow recommended charging cycles for optimal performance.
+
+**AM DANGER:** Only charge the specified equipment that has been tested and comes with batteries, and/or if third-party or counterfeit batteries are used. **CAUTION!** Do not pack or transport the transceiver with the battery attached. Ensure the charger terminals and connections are clean; corrosion can easily occur. If terminals show any signs of corrosion, disconnect the battery immediately before reconnecting. Avoid leaving the battery completely discharged, as this can shorten its lifespan. Recharge the battery if its capacity appears low.
+
+**BATTERY CHARGING:**
+Optional chargers for use with the BC-160 include the AC or DC charging options (OPC-515L/CP-17L). Ensure the charger is correctly connected before use. Turn off the device before attaching or detaching the battery.  
+
+Using the **AD-106 charger:** Connect the AD-106 to the BC-119N/121N while securing it with screws.
+
+For the **BC-119N with AD-106:** Required items include one AD-106 with either the AC (BC-119N) or DC (OPC-515L/CP-17L) adapter. Correct connections must be ensured, and the charger should be turned off before starting.
+
+For the **BC-121N with AD-106:** Required items include AD-106 with either the AC (BC-157) or DC (OPC-656) adapter. Proper connections are essential, and the charger must be turned off before use.
+
+**SWIVEL BELT CLIP MB-93:** To release the clip, press the designated area as indicated by the arrow until a click sound is heard. **CAUTION:** Hold the transceiver securely when removing it from the belt clip to avoid dropping or damaging the device.
+
+**OPTIONS:** Available battery packs include BP-230, BP-231, and BP-232, providing various hours of operation (typical Tx:Rx:Stand-by ratios).  
+
+**CHARGERS:** Include models BC-119N, AD-106, BC-145, and BC-160, with specific charging hours noted for each battery pack. Various optional units are available, including UT-108 DTMF Decoder and UT-109/UT-110 Scrambler Units for enhanced security.
+
+**BELT CLIPS:** Variants include the MB-93 Swivel Belt Clip, MB-94 Belt Clip, and MB-96N/96F Leather Belt Hanger. DC cables such as the CP-17L Cigarette Lighter Cable allow for vehicle charging.
+
+**HEADSETS & MICROPHONES:** Options include the HS series headsets (ear type, throat microphone) and VS-1L VOX/PTT switch operation. A range of stubby antennas and various regular antennas (FA-SCxx series) are also available.
+
+**COMPLIANCE NOTE:** This product complies with the European Telecommunications Directive 1999/5/EC and associated standards for both VHF and UHF transceivers per specified compliance declarations. 
+
+**MEMO:** List of authorized countries includes: Germany, Austria, Great Britain, Ireland, Norway, France, Netherlands, Belgium, Luxembourg, Spain, Portugal, Italy, Greece, and others.
+

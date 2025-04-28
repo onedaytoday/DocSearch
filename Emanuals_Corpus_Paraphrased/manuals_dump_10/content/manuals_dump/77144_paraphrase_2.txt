@@ -1,0 +1,251 @@
+**SecureTouch Touchscreen Revision P/N 008212M**  
+**TouchSystems, Inc.**  
+1-800-ELOTOUCH  
+[www.elotouch.com](http://www.elotouch.com)  
+Copyright TouchSystems, Inc. All rights reserved. Unauthorized reproduction, transmission, transcription, or translation of any part of this document, or its content without written permission from TouchSystems, is prohibited. The information provided is subject to change without notice and comes with no warranties, including but not limited to implied warranties of merchantability or suitability for a specific purpose. TouchSystems, Inc. is not obligated to inform users of any revisions to products or services. Trademarks mentioned, including SecureTouch, AccuTouch, MonitorMouse, and ELODEV, are the property of TouchSystems, Inc. Any acknowledgment or usage of trademarks belonging to others should be noted. 
+
+**Chapter: INTELLI TOUCH 10-YEAR WARRANTY**  
+The warranty covers defects in materials and craftsmanship for the touchscreen products for ten years, barring any specified exceptions. Warranty claims must be submitted in writing within thirty days of discovery of the issue, providing TouchSystems with the opportunity to inspect the installed products. Under this warranty, if a product is deemed defective, TouchSystems may choose to repair or replace the item or offer a credit for the original purchase price. 
+
+**Disclaimer of Other Warranties**  
+The remedies outlined above are the sole recourse for warranty breaches. Aside from the explicit warranty detailed herein, TouchSystems provides no additional express or implied warranties concerning the products, including their applicability for any particular use, quality, or non-infringement. No representative of TouchSystems is authorized to offer any warranty beyond what is explicitly stated here. TouchSystems’ liability under the warranty is strictly limited to refunding the purchase price of the product. TouchSystems shall not be liable for costs associated with procuring or installing substitute items, nor for any indirect, special, or consequential damages associated with the products.
+
+**Warranty Installation and Testing Procedures**  
+The Touchscreen and Software Agency section provides guidance on installation, inspection, and testing of touchscreen products, including handling considerations and specifications. Included are installation steps for various models (2500S, 2500U) along with necessary connections and mounting information. Troubleshooting guidelines and specifications for USB connectivity and LED characteristics are also available.
+
+**Safety Warning**  
+This chapter outlines safety procedures related to CRT installation and warns of potential hazards. It is essential to follow proper safety measures, including wearing protective gear, during installation procedures. Specific instructions for handling touchscreen installations safely are provided, ensuring the recommendations are followed when dealing with mounting and other components. 
+
+Please review the complete documentation for further detailed instructions and technical specifics.
+
+### Touchscreen Installation and Integration Guide
+
+To properly install a touchscreen, ensure that both the back of the touchscreen and the front of the LCD display are aligned before assembly. This setup allows for efficient integration with CRT, EL, and LCD displays, while accommodating thermal considerations. It is crucial to seal the installation to align with the touchscreen specifications. The following diagram presents various mounting strategies for the touchscreen.
+
+### Mounting Considerations
+When using thinner transducers, maintain appropriate clearance. If using thicker components, consider modifying the round corners for improved cleaning access. While selecting the assembly methods, note that the overall profile could be slightly reduced.
+
+Generally, ensure a clearance of at least 0.25 inches around the touchscreen. This gap minimizes interference and facilitates proper installation. Before proceeding, consult the installation instructions specific to CRT setups. Wear suitable protective gear when working near the CRT, as safety is paramount.
+
+### Definitions
+- **Monitor**: The unit or other display that integrates with the touchscreen.
+- **Bezel**: The covering that encases the front of the CRT display.
+- **Case**: The structure that encloses the top, back, and sides of the assembly.
+- **LCD**: The liquid crystal display component.
+- **Controller**: The interface managing USB data, including connections like the internal USB 2500U.
+
+### Installation Process Overview
+The installation process involves several steps:
+1. Incoming inspection of the touchscreen.
+2. Attaching the touchscreen to the CRT.
+3. Routing the touchscreen cables.
+4. Reassembling the unit after confirming the installation integrity.
+
+Ensure to carry out a thorough inspection of the touchscreen for any damage, particularly at the corners. Examine it for defects or signs of stress. Always conduct tests like linearity and other quality control measures overnight if necessary.
+
+### Warnings
+Care must be taken when handling the CRT; avoid applying excessive force which could lead to cracks. Use insulated tools to mitigate shock risks and follow proper grounding procedures as outlined in the documentation. 
+
+During assembly, the CRT should remain sufficiently shielded from exposure or accidental disconnection. Adequate clearance from nearby components is critical to prevent mechanical interferences.
+
+If any issues arise during assembly, consider repositioning touchscreens to avoid complications. Touchscreen mounting should allow for about a 0.25-inch gap for mechanical stability, which prevents shorts from overheating or exposed wires.
+
+### Reassembly
+Once the touchscreen is in place, ensure that no cables are pinched and all screws are appropriately tightened to secure the assembly. Inspect for any signs of rubbing or interference, and address these before completing the installation.
+
+### Final Considerations
+When integrating the touchscreen, verify that both the touchscreen and the CRT dimensions align correctly. Any required adjustments should be performed diligently to ensure seamless operation. If any interference is encountered, it is crucial to resolve these issues prior to finalizing the assembly.
+
+**Adjustments to Mounting the Touchscreen**
+
+Despite some slight reduction in clearance requirements, it remains essential to maintain at least a 0.25-inch gap around the touchscreen in relation to the CRT screws. This gap minimizes interference and permits proper mounting of the touchscreen. Usually, there's a cavity behind the touchscreen that accommodates enough space for the CRT's setback, which is critical for optimal functioning. If this cavity is insufficient, it could compromise performance.
+
+When assembling the touchscreen, it's important to take care of the clearance and the correct orientation of the touchscreen, ensuring it isn’t rotated incorrectly during installation. The touchscreen must face in the right direction, with its coordinates correctly adjusted via software.
+
+**Touchscreen Installation Steps**
+
+1. Ensure that there is adequate clearance around the device for installation.
+2. Route the supply wire, maintaining a clean setup, and ensure the touchscreen is properly aligned with the mounting points.
+3. It’s recommended to use spacers that allow for a thickness of 1/16-inch between the touchscreen and CRT, but a maximum thickness of 3/16-inch may be necessary if the touchscreen imposes significant interference.
+    
+When preparing the CRT and touchscreen for mounting, ensure the touchscreen is slightly recessed from the active area of the CRT. Make sure the touchscreen is secured properly during reassembly and that the mounting positions do not overlap with any other components that could generate electromagnetic interference (EMI).
+
+**Touchscreen Capabilities and Compliance**
+
+For installations that require power, USB or RS-232 connections are typically required. Ensure appropriate connections are established and that the DC-to-DC or AC supplies meet specifications, such as maintaining +5V@60W regulation. Be cautious with EMI issues and ensure that grounding is performed correctly to maintain the integrity of the system.
+
+When preparing the touchscreen and routing the cables, ensure that they do not interfere with the performance of the device. Cables must be secured, grounded, and guided appropriately to avoid any electrostatic or electromagnetic noise.
+
+**Final Touches and Testing**
+
+Once everything is mounted, it is crucial to check the connections for proper orientation and functionality. Avoid polarity issues during the setup of power supplies. The installation should result in a securely mounted touchscreen with optimal performance characteristics. If issues arise, revisit the grounding and mounting procedure to ensure all components are functioning as intended. Always ensure that protective features are still in place to mitigate performance degradation.
+
+### Technical Paraphrase of the Text
+
+**Mounting and Grounding Considerations for the Touchscreen Interface**
+
+Typically, the mounting and grounding of electronic components should prioritize EMI (Electromagnetic Interference) management. The component should be securely attached to the chassis using screws and spacers. Grounding occurs through these mounting hardware. If the device is mounted to the chassis, ensure that the grounding is interconnected with the plated-through holes to the chassis ground.
+
+Further, for connection to the power supply (P4), ensure the grounding complies with specifications regarding surface connections. For example, if connected to the 2500U system, ensure proper grounding via P4 to the chassis. Connect the touchscreen interface via the bulkhead-mounted USB plate to the 2500U USB port.
+
+**Routing the Touchscreen**
+
+This involves routing the internal wiring of the touchscreen to minimize interference from within the assembly. Leads should avoid high-impact areas, such as those near switching power supplies, CRT sections, or DC to AC inverter sections to limit EMI exposure. Also, consider grounding and shielding to mitigate RF interference and ensure effective EMI management in other areas. 
+
+**Reassembly Process**
+
+After securely mounting the touchscreen and routing the associated wiring, proceed with reassembling the device. Pay attention to the clearance between the CRT and chassis to avoid potential shorts that could lead to catastrophic failures. The back of the CRT should have a protective coating to prevent shorts between the CRT board and the chassis. It is advisable to wear heavy protective clothing during this process.
+
+**Monitoring Ground Connections**
+
+When reassembling, ensure that the ground connection from the CRT mount to the chassis is secure, using appropriate screws or push-on connectors. Utilize materials such as GE RTV-162 for any necessary sealing. Before concluding the reassembly, it’s essential to correct any discrepancies and verify the touchscreen and related components are accurate and in place.
+
+**Touchscreen Installation Warnings**
+
+Due to the high-voltage nature of LCD installations, follow all safety protocols outlined in this chapter. Protective clothing and careful handling are crucial to prevent accidental shocks.
+
+**Summary**
+
+This section details the various steps for integrating an LCD touchscreen, including unpacking, mounting, reassembling, and necessary safety precautions. Ensure that all wiring is appropriately inspected, and any touchscreens are pre-cleaned before installation. Conduct thorough testing, including brightness and quality control assessments, prior to completing the installation.
+
+**Components Definitions**
+
+- **Monitor**: The assembly that integrates the touchscreen with electronic components.
+- **Bezel**: The frame that surrounds and protects the LCD interface.
+- **Case**: The outer housing that encases the entire assembly and protects internal components.
+
+**Screw Assortments**
+
+Common screws and USB connectors used are detailed, including optional components like DC-DC converters or closed-cell padding for added support.
+
+**Disassembly Instructions**
+
+To facilitate service, carefully remove the rear casing while ensuring the proper handling of internal components. Disconnect any cables without damaging the circuitry. Maintain appropriate clearance for touchscreen installation.
+
+**Modifications and Final Assembly**
+
+Any modifications, particularly those affecting interference with the touchscreen’s operation, should be considered. Aim for a minimum clearance of 0.25 inches to prevent interference. When mounting, use spacers as necessary between the touchscreen and the chassis, ensuring that the touchscreen does not make contact with the LCD when fully assembled.
+
+Sure, here’s a concise and technical paraphrase of that text:
+
+---
+
+**Mounting and Installation of Touchscreen and LCD**
+
+Ensure proper attachment of the LCD touchscreen without gaps between the assembly and mounting surface. Thoroughly clean both the touchscreen and LCD prior to installation to prevent debris from being trapped. Inspect for any trapped particles; if necessary, use a thin wire to facilitate separation. Should separation be required, use a thin instrument (e.g., a knife) cautiously to detach the touchscreen from the LCD. 
+
+To enhance touchscreen performance, it is advisable to use closed-cell foam spacers that are at least 3/16 inch thick, as other foam types may dampen acoustic effects. Begin mounting by setting the LCD and touchscreen surfaces parallel to each other without excess pressure. Ensure that the corners of the touchscreen are securely fastened within the active area.
+
+The mounting procedure should accommodate the thickness variation of the touchscreen and incorporate the right size spacers. Additionally, when selecting screws for mounting, opt for those long enough to engage at least three threads.
+
+**USB and DC to DC Connections**
+
+Follow the guidelines for integrating the USB (2500U) and DC to DC power supply connections. Ensure all connections are correctly grounded to avoid performance issues. A direct connection to the chassis with appropriate standoffs is recommended for stability. 
+
+**Troubleshooting Procedures**
+
+If issues arise with the touchscreen or its installation, utilize the troubleshooting sections to determine if problems are hardware or software-related. Validate software functionality and confirm that the touchscreen is functioning correctly with the proper drivers and connections. 
+
+Monitor potential conflicts between software layers. Utilize resources like ELODEV or available support documentation for diagnostic steps. Ensure that the appropriate COMDUMP settings are configured for troubleshooting touchscreen interactivity.
+
+For any persistent issues, analyze both hardware and cabling integrity, and refer to additional troubleshooting materials for specific error codes and error messages.
+
+--- 
+
+This version maintains the technical accuracy and construction while clarifying the content.
+
+### 2500S COMDUMP Overview
+
+The COMDUMP for the 2500S includes software that communicates using the ASCII characters 'U' and 'T', transmitting high values for X, Y, and Z axes to the A-4002 module. The data sent to A-4002 consists of a six-byte format, structured as follows: MSB, LSB, followed by bits X11 to X0, Y11 to Y0, and Z3 to Z0, where the first four bits decrease sequentially down to 0F. The module A-53 influences operations as detailed in Table A.1.
+
+### RS-232 Connections
+
+The RS-232 interface operates via selected switches, which may include P2 headers spaced by 0.100 inches, commonly using insulation displacement connectors (IDCs). The DB9 and DB25 connectors are configured as follows:
+
+- DCD (N/C)
+- DSR
+- RXD
+- RTS
+- TXD
+- CTS
+- DTR
+- RI (N/C)
+- N/C
+- GND
+
+The operating protocol requires DSR to be asserted to indicate readiness, and CTS must be asserted to confirm clear transmission. Typically, DTR communicates with RTS through software connections to facilitate standard operations. An LED indicates whether RS-232 data is being transmitted. If RS-232 is active, the LED reflects the interaction with the Data Terminal Equipment (DTE) and Data Communication Equipment (DCE).
+
+### Touchscreen Inspection
+
+For maintenance, the touchscreen can be visually inspected by detaching the cover and gently tilting it back. This allows access to the wiring and the back of the assembly. Issues such as cracks in the transducer may be detected during this inspection.
+
+### IC Header Configuration
+
+The IC1 header serves to connect to EC2 and follows a specific pin configuration outlined in Table A.3. The IC1 header is distinguished by a white color scheme for easy identification. 
+
+### LED Functionality and Testing
+
+The onboard LED (D1) performs self-diagnostic functions, flashing once per second during testing. When the touchscreen is engaged, the LED lights continuously. If the LED flashes more than once per second, it indicates a communication issue with the host.
+
+### Specifications Overview
+
+The 2500S's computational capabilities are detailed in specifications for memory (AA and BB), hardware interactions, and software functionalities, as per Table A.1. Touchscreen specifications encompass mechanical design, environmental resistance, and performance criteria.
+
+### Chemical Resistance
+
+The touchscreen is designed to withstand various chemicals, including ammonia-based cleaners, as detailed in IEC tests. Compliance with UL standards (E162681 and UL94HB) ensures the durability and safety of touchscreens.
+
+### USB Interface and Characteristics
+
+The USB interface for the 2500U module operates under typical specifications, providing high-speed connectivity. It has a Mean Time Between Failures (MTBF) exceeding hours, along with IPC ratings for durability. Its physical design supports efficient EMI grounding through four-layer construction.
+
+### Connector Functionality
+
+The P2 header interfaces with standard USB protocols, while the P3 touchscreen header features a 0.025-inch configuration. All connections are compliant with specified standards, ensuring reliable operation and compatibility. 
+
+### Transition Characteristics and DC Functions
+
+The provided tables define specific functions and characteristics of the connectors used, aligned with EIA-232-E standards. The specification covers input and output signal characteristics, ensuring operational fidelity for all connected modules.
+
+### Technical Summary of Touchscreen and System Specifications
+
+**Table B.6:** Touchscreen specifications for P3 and B-74; details chassis ground and mounting requirements for P4 connections.
+
+**Table B.7 and B.8:** Locations and functions of P4, including DC voltage settings and LED operation indicators. Typical characteristics of the LED function are as follows: 
+
+- **Function J1:** NVRAM to J2 Emulation (E281A-4002) — The 2500S model is shipped with the LED configuration to either J1 or J2. 
+
+- **LED Operation Rate:** 
+  - Normal state: On continuously when touched (B-75).
+
+**Compliance Information:** The 2500S meets agency standards, including CNR/USR UL (USA) and NWGQ2, verified by TUV against FCC Class requirements for electromagnetic interference and shielding, including the use of ferrite beads.
+
+**Power Supply Configuration:** 
+- The 2500S model supports various mounting options, including:
+   - Wall mounts for U.S. and international power supplies.
+   - Connections for USB and RS-232 interfaces via DB9M to DB9F.
+
+**Power Specifications:**  Reference designs for power supplies include both U.S. and international configurations, allowing for AC or DC input with +5V DC output. 
+
+**Connection Types:** 
+- Details on USB and DB9M to DB9F connections from the touchscreen's rear to match power and communication requirements.
+
+**Mounting and Touchscreen Types:** Information on multiple types of SecureTouch and spherical touchscreens, emphasizing diversity in available configurations and protection measures during installation.
+
+**Technical Terminology and Concepts:** 
+- Definitions and explanations of CRT characterizations, including convergence errors, phosphor pitches, and refresh rates.
+- Insights into scanning types, focusing techniques, and specifications relevant to higher resolution monitors versus previous standards (CGA, EGA, VGA, SVGA).
+
+**Monitor Specifications and Performance:** 
+- Guidelines for optimal performance, including refresh rate considerations, interference mitigation, and enhancements in graphical clarity and functionality for graphics systems.
+
+This summary aims to consolidate essential information regarding the technical specifications and compliance requirements of the touchscreen systems and related components.
+
+Here’s a paraphrased version of your text:
+
+Shorts, specifications for 2500S B-64, touchscreens, B-62 protection, B-63 touchscreen specifications, and 2500S B-64 expected performance are covered under FCC compliance. For troubleshooting related to grounding CRTs, refer to A-51 for humidity levels relevant to 2500S B-64. Details on incoming inspection for touchscreens can be found in sections A-57 and A-59. The warranty and specifications for USB (2500U) and touchscreen interfaces are outlined in B-64.
+
+For the integration of LCDs and mounting requirements, refer to B-68 and B-75. The functionality of touchscreens, polarity, and accuracy can be reviewed in B-62 and A-55. Connection details for P4, clearance specifications for CRT and chassis, and guidelines for protective clothing during reassembly are important for 2500S B-64 reliability.
+
+When installing touchscreens using RS-232, A-54 provides advisory information. Summary steps for CRT integration, durability assessments, and testing of touchscreen thickness are necessary for proper functionality and safety compliance for 2500S B-64. It's also crucial to address shock protection and the clearance between mounting components. For troubleshooting processes and recommendations on unpacking touchscreens, refer to sections A-49 and A-51. Finally, UL compliance and software troubleshooting information, as described in A-52, should not be overlooked.
+

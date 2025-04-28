@@ -1,0 +1,46 @@
+### HBA
+
+**Copyright Notice**: The information, including translations, provided by the Corporation is protected by copyright. Unauthorized use, reproduction, or distribution of this information without written consent from the Corporation is prohibited. The Corporation disclaims all warranties, including implied warranties of merchantability. The products referenced, such as LightPulse, BlockGuard, InSpeed, SLI, and SBOD, are trademarks of the Corporation or other respective organizations.
+
+---
+
+### Introduction
+
+The Host Bus Adapter (HBA) operates at speeds of up to (Gb/s) and conforms to Fibre Channel (FC) specifications. This HBA integrates with PCI CEM specifications, enabling high performance, ease of integration, and various operational features compliant with American National Standards Institute (ANSI) FC standards. It ensures top performance and reliability via end-to-end path-parity and redundancy with cyclic redundancy check (CRC) protection, utilizing internal error-correcting code (ECC) for high-speed random-access memory (RAM).
+
+The HBA features high-density connections using a low-profile architecture and incorporates advanced functionality. The specifications comply with mandates such as RoHS and Environmental Directives regarding electronic waste. The adapter supports various operating systems, including NetWare, Solaris, and HP-UX, as well as SCSI and IP protocols.
+
+---
+
+### Hardware Identification
+
+Each HBA is shipped with a unique IEEE Fabric World Name (WWN) for seamless connectivity. The PCI ID must be verified according to the provided guidelines to ensure correct identification. The adapter should be installed in accordance with the specifications to ensure it is seated correctly and securely.
+
+---
+
+### Installation and Configuration
+
+To connect the HBA, ensure the LC connector is properly attached. The HBA is designed for straightforward installation, requiring predetermined mounting configurations and compliance with operating specifications. It is vital to ensure that the device fits properly and is adequately secured within the system housing.
+
+POST (Power-On Self-Test) indications include multiple LED states that signal operational conditions and establish proper functionality. Conditions such as 'normal', 'off', or 'flashing' indicate the status, which should be monitored upon initial power-up.
+
+---
+
+### Specifications and Compliance
+
+The HBA conforms to several regulatory standards including UL60950-1, FCC Class compliance, and EMC directives. It is essential to adhere strictly to the guidelines for operation to minimize interference and ensure regulatory compliance. A Declaration of Conformity confirms alignment with CISPR22/EN55022 Class A standards. Users are advised to review the product specifications carefully and report any discrepancies to the Corporation.
+
+---
+
+### Notices
+
+This information serves as a guide to the LightPulse series, outlining compliance with necessary regulatory standards and operational protocols. Users must ensure all components are correctly connected and that the installation meets the specified requirements for optimal performance.
+
+Alternatively, the information provided is relevant to the IEC Class designated for the countries listed below. This information is presented on a white background and is available in English. It pertains to the product classification for these countries. 
+
+The Product Information Factor includes integrated components and subassemblies. These subassemblies are relevant to the shortwave factor and relate to the overall classification. Compliance with Class specifications is essential to avoid incorrect operation, as outlined by the U.S. DHHS and within the standards EN60825-1/EN60825-2.
+
+The short wavelength characteristics enable functionality when connected to other shortwave products. The Equipment Classification Factor (OFC) includes protective measures compliant with specified factors. The functional supply voltage typically noted is around 3.465V, which influences performance.
+
+For Class products in the U.S., it is necessary to ensure proper incorporation of the relevant factors to maintain certification. This requires adherence to additional standards, such as IEC950 and DHHS conformity. All obtained factors must be confirmed with the appropriate authority to ensure compliance.
+

@@ -1,0 +1,153 @@
+**Notice**  
+This document pertains to Motion information regarding its installation. The content, including text and graphics, is for reference only, and specifications are subject to change without notice. **Revision History:** Initial Release MAN-DRUIG.PDF, Motion P.O., Motion Inc., MA, USA, DRU-XX/YYY. Advanced Continuous DC Specifications include (Amps). Copyright Motion, all rights reserved. For Feedback and/or Interpolated Tachometer information, visit www.elmomc.com.
+
+**Operational Information**  
+This chapter provides information essential for operating the equipment correctly. Always ensure proper grounding through a low-resistance earth connection. It is essential to have the requisite knowledge and authorization for tasks such as motor assembly, commissioning, and operation. Incorrect handling of electrostatic-sensitive components can lead to issues. Users should be cautious of electricity build-up, especially in environments prone to static electricity. 
+
+**Warnings**  
+The following information serves as a warning against potential injury during operation. The details provided outline safety measures related to arcing, particularly when dealing with high voltages during motion servicing. Users should ensure proper grounding to mitigate risks associated with electrical charges.
+
+**Standards Compliance**  
+This product complies with industry standards, including ISO-9001:2000, UL840, UL60950-1, and directives such as 73/23/EEC and 98/37/EC. It has undergone development, production, and testing in accordance with these standards. Warranty information covers the product's workmanship against stated specifications for a period of months from the date of installation or shipment, whichever comes first, excluding other warranties such as implied warranties of merchantability.
+
+**Introduction to MAN-DRUIG**  
+This section introduces the high-performance capabilities of the system, which supports various DC motor configurations designed for advanced motion control. The system can function independently or as part of a distributed architecture. Software tools compatible with Windows allow users to interface with their motion controllers effectively. The system supports a VDC isolated power supply, which enhances functionality and flexibility in operation.
+
+**Velocity Control**  
+The system incorporates advanced pulse-and-direction capabilities, enabling real-time motion control via various feedback mechanisms. Communication protocols supported include RS-232, allowing for efficient interaction with distributed feedback systems.
+
+**Protection Features**  
+The architecture integrates built-in protection mechanisms, including robust software reporting and recovery strategies, which ensure operational resilience and user safety.
+
+**Installation Guidelines**  
+Prior to installation, users are advised to read the introductory instructions and technical specifications carefully. The chapter outlines mounting options and emphasizes the importance of proper assembly to facilitate effective operation.
+
+**Connectors and I/O**  
+Information about connector specifications, including feedback options and communication interfaces, is outlined. Proper wiring practices should be observed to ensure optimal performance. The recommendation is to use shielded twisted pairs to minimize EMI interference.
+
+**Final Connections**  
+Detailed instructions for connecting to phase terminals and ensuring proper grounding are provided. Users should adhere to all specified guidelines to avoid safety hazards and ensure effective operation of the equipment.
+
+**PATTERN REVISED**
+
+### Isolation and Power Supply Guidelines
+
+**Isolation Requirements:** 
+Achieving effective isolation is crucial for the power supply. It is highly advised that the Protective Earth (PE) connection should not be linked to the Isolated DC Supply. The PE must remain separate from the non-isolated DC supply to maintain safety standards.
+
+**AC Connection Notes:** 
+The AC power supply is to be connected directly, and the PE must not connect to the power supply's neutral. This poses a significant risk if the PE is connected to a ground reference for a non-isolated DC supply. 
+
+**Shielding Recommendations for DC Supplies:**
+To enhance immunity, it is advised to utilize twisted and shielded cables for DC connections. The shield must be grounded at one end to promote effective noise reduction, with one side connected to the PE to maintain electrical integrity. Use M6 washers and screws for securing connections, employing M5 fittings for the PE.
+
+**Optional Functionality:**
+For systems requiring backup power during outages, ensure that the VDC supply is connected only to the designated terminals. This includes connections for data communication as outlined (CAN with DC connections). The shield should also be isolated appropriately from ground to prevent interference.
+
+**Feedback and Communication Protocols:**
+Feedback connections must adhere to specified wiring guidelines to ensure accurate operation of the tachometer and communication systems. Use recommended gauges for twisted-pair shielded cables, ensuring that connections are secure both electrically and mechanically.
+
+**Tachometer Connections:**
+For optimal performance of the interpolated tachometer, connections must be made as detailed in the schematic. The input and output assignments should be strictly followed to avoid errors in communication between components. 
+
+**Assembly Guidelines:**
+When assembling, ensure all feedback and communication wiring is connected according to the provided specifications. Pay attention to grounding requirements and the integrity of the shield connections to maintain performance.
+
+**Functionality Overview:**
+Multiple feedback functionalities can be employed, contingent on the application specifics, including configurations for emulated positions or commands that may influence operational characteristics. 
+
+**Final Assembly Instructions:**
+Throughout the installation process, ensure that all components are secured and organized per the outlined instructions. This guarantees not only optimal performance but also adherence to safety standards as defined in the specifications.
+
+---
+
+This revision maintains technical accuracy and cohesiveness while simplifying complex language for better clarity.
+
+### MAN-DRUIG Option FEEDBACK (YA[4]=2)
+
+In this configuration, the system uses inputs from the Follower or ECAM as feedback. It can be set up with various functions such as Function B2 CHAO, B2 CHBO, and B2 INDEXO, along with high inputs for B1 CHA, B1 CHB, and B1 INDEX. The system is powered by terminals SUPRET and +5V with specific assignments to these inputs.
+
+### MAN-DRUIG Pulse-and-Direction Option FEEDBACK (YA[4]=0)
+
+This configuration accepts pulse-and-direction commands. The input options include Function B2 CHAO, outputs for B2 CHBO, and high inputs for B1 PULS/CHA and B1 DIR/CHB. It also includes assigned inputs and provides sufficient power through the SUPRET supply. Ensure assembly follows the guidelines in the Feedback and Communication section.
+
+### I/O J3 Configuration
+
+The I/O connections are designated for various inputs and outputs. Follow the specified guidelines to properly assemble the connections for J3, which includes inputs like ANLIN+, ANLIN-, OUTRET2, and numerous other input/output configurations.
+
+### Communication with RS-232
+
+This section describes the interface with RS-232, essential for connecting to a PC. It highlights the electrical isolation via optocouplers and outlines the necessary wiring standards like AWG shielded cables. Adhere to the guidelines for proper assembly.
+
+### DC Supply Specifications
+
+The DC power supply must comply with EN60950 or similar directives. It should be compatible for connection to AC sources through appropriate isolation methods. Ensure the supply is correctly mounted and sheltered from overheating, and adhere to the operational requirements outlined.
+
+### Thermal Management
+
+Heat dissipation is crucial for operational stability. Components should be mounted to facilitate airflow, and the recommended operational temperatures must not exceed specified limits. Use thermal compounds to enhance heat transfer and ensure efficient cooling based on specified guidelines.
+
+### Technical Specifications Overview
+
+The technical specifications include parameters for motion control, feedback mechanisms, and advanced positioning capabilities. Various input and output options are described, including optically isolated inputs and built-in protection features for safety and reliability.
+
+### Feedback Systems
+
+The feedback systems use specific protocols for maintaining accurate performance. This includes auxiliary feedback signals to enhance the reliability of the system. Various feedback interfaces such as RS-422 are specified for high and low inputs, ensuring the system operates within expected parameters.
+
+By following these structured guidelines, the system can achieve optimal performance in technical applications.
+
+### Technical Specifications MAN-DRUIG
+
+#### A.6.2.5 Tachometer
+- The tachometer operates with inputs TAC1+ and TAC1-, and TAC2+ and TAC2-.
+- Compatible with tachometers operating at 20V or greater for TAC1+ and TAC1-, and for both TAC2+ and TAC2- at 20V and 50V.
+
+#### A.6.2.6
+- The linearity of the system may be influenced as per the conditions specified.
+- Input MAX is subject to "internal" count corrections, and phase offsets are detailed in A.6.2.8.
+
+#### A.6.2.8
+- References to interfaces can be made via RS-422, including connections such as INDEX/INDEX-, CHB/CHB-, and CHA/CHA-.
+
+#### A.6.3
+- Outputs from the tachometer include options for INDEXO/INDEXO-, CHBO/CHBO-, and relevant inputs for A & B interfaces.
+
+#### A.7 Feedback Phase
+- A.7.1: Connector locations are optically isolated for high-level input from PLCs, with typical high/low voltage specifications as well as high-speed input capabilities.
+- Functions include Home, Stop, and Soft Stop among others.
+
+#### A.7.2
+- Connectors are also optically isolated for output, with specifications for Iout, voltage, and load resistance (RL) defined based on built-in functionalities.
+
+#### A.8 Specifications
+- Supported protocols include RS-232 and CANbus with defined voltage levels for CAN_H, CAN_L, and CAN_GND.
+
+#### A.9 Modulation
+- The PWM specifications, including factory settings, are articulated with respect to quality standards.
+
+#### A.10 Quality Specification
+- Conformance with ISO standards and predictions outlined by MIL-HDBK-217, IPC-D-275, IPC-SM-782, and IPC-CM-770 are specified.
+- Insulation coordination must comply with VDE0160-7 (IEC68) testing.
+
+#### A.10.3
+- Insulation specifications, including clearance and creepage distances, adhere to UL60950 and EN60204-1 directives.
+
+#### A.10.4 EMC Specification
+- Compliance with EN55011 Class and EN61000-6-2 regarding immunity to various IEC61000 standards is mandatory.
+
+#### A.10.5 Workmanship
+- Adherence to IPC-A-610 standards is required.
+
+#### A.10.6 PCB Specification
+- Compliance with IPC-A-600 for printed circuit boards (EMC) is specified.
+
+#### A.10.7
+- Protection standards are governed by EN100015.
+
+#### A.10.8 WEEE Specification
+- Compliance with the 2002/96/EC directive and related regulations is mandated. 
+
+#### A.10.9
+- Adherence to the restrictions outlined in the 2002/95/EC directive is required, effective from July onward.
+

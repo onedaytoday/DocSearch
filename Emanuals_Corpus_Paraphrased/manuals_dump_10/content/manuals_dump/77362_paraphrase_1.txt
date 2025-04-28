@@ -1,0 +1,63 @@
+### FC4700 to IP4700 Conversion Guide
+
+This document covers the conversion from the FC4700 system to the IP4700 system, including details on the associated software. The factory-authorized EMC service is required for this process. Please note that data cannot be recovered once converted from FC4700 to IP4700.
+
+### Key Aspects of the FC4700 to IP4700 Conversion
+
+1. **Conversion Kits**: The conversion process includes specific kits identified as P/N for the FC4700 to IP4700 transition. The kits contain essential components and accessories like DPE, Ethernet cards, and LAN interfaces necessary for the conversion.
+
+2. **Data and Configuration**: It is crucial that all data is backed up prior to beginning the conversion, as it will be permanently lost during this process.
+
+3. **Software Loading**: The IP4700 software must be loaded following the specified procedures. Ensure that the system supports a twisted-pair CAT5 Ethernet connection. 
+
+4. **Sequence of Operations**: Follow the prescribed steps for firmware updates, including flashing firmware to the necessary DPE/NMP components, ensuring proper positioning of switches, and using tools like HyperTerminal for interface navigation.
+
+5. **Diagnostics**: After installation, conduct a series of diagnostic checks to ensure proper functionality and to confirm that the conversion was successful. This includes running commands to check the status of the service processors (SP) and validating firmware versions.
+
+6. **Technical Support**: In case of issues, refer to the service manual for detailed troubleshooting steps and ensure that the connections and IDs are verified correctly.
+
+7. **Finalization**: Once the conversion is verified, perform a clear log to reset the system and prepare it for optimal operation.
+
+### Important Notes
+
+- Always consult the specific sections of the IP4700 Service Manual for detailed installation instructions and configurations.
+- Pay close attention to LED indicators on the system components for troubleshooting and confirmation of system status during the conversion process.
+- It is recommended to work closely with authorized EMC personnel to ensure a seamless transition between systems.
+
+By following these guidelines, the conversion from FC4700 to IP4700 can be accomplished effectively and efficiently.
+
+Here’s a paraphrased version of the text with a natural, technical tone:
+
+---
+
+**CRU (Factory Initialization)**
+
+To initiate the conversion from FC4700 to IP4700, enter the command "clearlog" after all indicators are flashing. Ensure that the operation is complete. 
+
+**Note:** If the DAE factory is connected, follow the internal factory procedures accordingly.
+
+**Status Overview:**
+- CRU Initialization: Completed
+- DPE Chassis Status: Enter the field with characters specific to the DPE chassis, identified by serial number F20004701426.
+- Warning: This command will manipulate the write cache and affect I/O operations. Be cautious and follow prompts carefully.
+
+When the IP4700 starts, please respond promptly by entering details in the Choice field. If any discrepancies arise, revisit the "clearlog" command as needed.
+
+Follow the sequence for factory access and FCLI recovery. Ensure that the commands are entered accurately. Type and confirm as required to complete the process.
+
+Upon initiating the FC4700 to IP4700 conversion, the system will extract data, and upon completion, you will see the message "FACTORY INITIALIZATION COMPLETED SUCCESSFULLY." 
+
+Afterwards, monitor the IP4700 for successful startup and prompts.
+
+**Instructions:**
+It is crucial to adhere to the guidelines provided in the IP4700 Release Notes. These contain vital information regarding software revisions and configurations.
+
+**Legal Notice:**
+Copyright EMC Corporation. Redistribution of this material without written consent from EMC Corporation is prohibited. The information provided is without warranty, and EMC Corporation disclaims all implied warranties concerning the products and software, including merchantability and fitness for a particular purpose. EMC Corporation shall not be liable for any indirect damages or loss of profits related to the use of this information.
+
+For any abort actions, press the appropriate command. Ensure that you are utilizing the correct release of the IP4700 software as authorized.
+
+--- 
+
+This version maintains the original meaning while improving clarity and flow.
+

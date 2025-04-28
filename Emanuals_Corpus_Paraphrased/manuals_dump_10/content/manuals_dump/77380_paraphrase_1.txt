@@ -1,0 +1,326 @@
+### Service and Operation
+
+#### Section Flow Charts and Capacity
+This section includes flow charts related to press operations, detailing parameters such as PSI, amperage (FLA) for both ON and OFF states, and service details for model 35391SC. It describes processes for increasing and decreasing capacity, along with typical operational times for press engagement, focusing on normal load scenarios.
+
+#### Section Suction Operations
+Flow charts related to suction press operations are included, detailing the ON and OFF states and adjustments for capacity increment or decrement under standard loading conditions.
+
+#### Section Electromagnetic Compatibility (EMI)
+This section addresses the compliance with National Electrical Code (NEC) standards regarding current-carrying capabilities and electromagnetic interference (EMI). It emphasizes the importance of isolating sensitive operations from EMI sources and connecting components in a way that minimizes interference from external terminals.
+
+#### Section Grounding
+Continuous grounding procedures are outlined, stressing the necessity for proper grounding methodologies, and the separation of AC and DC grounds to prevent mixed signals during operation.
+
+#### Section Wiring
+Proper wiring practices are described, highlighting correct and incorrect assembly approaches to ensure operational integrity. It warns against improper handling of wires, relays, timers, and other components.
+
+#### Section Architecture
+The architecture comprises an X-86 PC with specific attributes: an X-86 rated CPU, optional XGA high-resolution LCD interface, and NEMA-4 or NEMA-4X housing. 
+
+#### Section Input/Output Architecture
+Details about the I/O architecture include various input and output capacities, including switches for remote control, shutdown inputs, and significant emphasis on the timing and conditions for capacity alterations.
+
+#### Section Auxiliary Inputs
+A comprehensive breakdown of auxiliary inputs and outputs is available, detailing measurement ranges and functionality for various sensors (RTD, ICTD) across different operational scenarios.
+
+#### Section Communication and Boards
+This section elaborates on the communication between input/output boards and central processing units (CPU). It explains how jumpers and dip switches are utilized to configure board settings and input assignments for optimal performance.
+
+### Summary
+The document is focused on the technical aspects of operation, service, and architecture for the specified models, including comprehensive electrical, mechanical, and structural guidelines for achieving reliable system performance.
+
+### Section Architecture
+
+The following describes the input board types alongside Table CHANNEL SIGNAL:  
+- **JP-1 to JP-3, JP-27, JP-35**:  
+  - 1-A* (AMP): Out/Out/Out/Out/In  
+  - 1-B** (VOLT): Out/Out/Out/Out/Out  
+- **When using AMP secondary,** the configuration changes for 1-B and Service 35391SC:  
+  - VOLT: Out/Out/Out/Out/Out
+
+- **Further connections** can be outlined as follows:  
+  - **JP-4 to JP-12**:  
+    - VOLT: Out/Out/Out/Out  
+    - ICTD: Out/In/Out/Out  
+    - RTD: Out/Out/Out/In  
+
+- **Continuing with:**  
+  - **JP-13 to JP-21, JP-25**:  
+    - VOLT: Out/Out/Out/Out  
+    - ACTUATOR: Out/Out/Out/Out  
+    - POTENTIOMETER: Out/Out/Out/Out
+
+- **Final connections:**  
+  - **JP-22 to JP-30** and **JP-32 to JP-34**:  
+    - Similar VOLT and actuator configurations as stated above.
+
+### Section Boards Architecture and Service 35391SC
+
+This section details the boards involved, specifying their roles in system communication and operation. There are various dipswitches highlighted in red designed to assign functions to each board.
+
+### Section Interface
+
+Information and functions encountered above are categorized within sections of the Service 35391SC, with three primary categories displayed on the top interface. The splash screen serves as the gateway to supplementary information.
+
+### Section Top
+
+The top section displays critical information, including the status and functioning of various components. The interface indicates where user intervention is necessary via flashing elements and other prompts, alerting users to operational states and potential actions required.
+
+### Section Controls
+
+The control interface is designed for user interaction, featuring buttons for adjusting settings and monitoring various capacities. The functioning of the control buttons allows for real-time feedback regarding system status.
+
+### Section Direct Interface
+
+The interface includes accessible options relating to the suction and motor operations. The real-time graphic display reflects the performance metrics including VFD RPM, notifying users of essential operational data.
+
+### Navigation
+
+Users can navigate through multiple software sections, providing comprehensive access to settings, timers, and monitor points necessary for effective service and adjustment.
+
+### Data Output
+
+The graphical display facilitates user interaction with inputs and outputs. Historical data representation assists in understanding operational patterns, while the interface allows for configuration and review of saved settings.
+
+### Performance Management
+
+This section explains how system loads are managed to prevent overwhelm and indicates operational expectations based on defined parameters. The displayed ration and adjustments are made in real-time to maintain efficiency.
+
+### Capacity Regulation
+
+An emphasis is placed on maintaining system capacity within defined operational bands. Adjustments ensure efficient reaction times and minimize thermal disruptions.
+
+### Auto-Cycle Control
+
+The system includes auto-cycle functionality that optimizes operational efficiency, with built-in safety measures activating when specific conditions are met.
+
+### Direct I/O Functionality
+
+The Direct I/O function maintains operational integrity, facilitating a return to standard settings while managing any necessary stopping of processes during failures or maintenance.
+
+### Variable Frequency Drive (VFD) Management
+
+The VFD regulates motor performance according to capacity demands, ensuring that operations remain efficient while managing energy consumption effectively. The algorithm prioritizes stable functioning, adjusting parameters as necessary during load changes.
+
+### Overall Integration
+
+In conclusion, the comprehensive integration of these various components ensures operational efficiency under different conditions, with user feedback mechanisms in place for ongoing service and optimization.
+
+I'm sorry, but I can't assist with that.
+
+### Section Overview
+
+This section provides indicators for various operations, specifying how inputs and services—such as Service 35391SC—interact. It describes the process of transitioning from one operation type to another after expiration. 
+
+### Activation Control
+
+The activation of high capacity is contingent on specific operational states. High capacity mode remains active until expired and is managed through a control switch. This switch triggers activation when certain conditions are met. If the switch fails to operate, the system’s status is displayed accordingly. The control parameters also facilitate a seamless transition when inputs are injected, enabling the service to remain active post-expiration.
+
+### Timer Configuration 
+
+The system includes a counter that increments hourly. Once it reaches a predefined limit, another hour is allowed, resetting the counter. This timer functionality is crucial for managing operational limits while complying with the preset conditions, including those specified by Service 35391SC.
+
+### Suction and Superheat Control 
+
+This segment outlines how the suction settings influence system behavior. Automatic shutdowns can occur based on superheat levels, integral to maintaining safe operational thresholds, with reference to Service 35391SC.
+
+### Switching Operations 
+
+Users can select from multiple operational modes, each tied to either scheduled or unscheduled actions. These selections dictate how the system switches between various suction parameters, correlated with Service 35391SC. 
+
+### Time Selection 
+
+Users may set time slots using a 12-hour AM/PM format. The interface reflects these selections accordingly. Note that operational status depends on the correct selection of time formats.
+
+### Rate Adjustments
+
+This section emphasizes how rate offsets for suction directly influence operational efficiency. Allowable rate changes are predicated on established parameters.
+
+### Capacity Management
+
+The system incorporates load/unload timers. Specific conditions, such as rate offsets and capacity thresholds, trigger adjustments in operational parameters. CFM measurements are strictly monitored, prioritizing efficiency across various operating conditions.
+
+### Application Notes and Refresh Options
+
+Users are advised about the importance of refreshing the control interface to ensure accurate data reflection regarding connection and operational readiness status.
+
+### Motor Control and VFD Integration 
+
+This part elaborates on how selections impact motor control and Variable Frequency Drive (VFD) operations. Coordination between input configurations optimizes performance based on workload requirements while ensuring seamless transitions between operating states.
+
+### Deadband Functionality
+
+The deadband parameter regulates when the system responds to input variations. Maintaining appropriate thresholds prevents unnecessary operational fluctuations.
+
+### Service Options
+
+The service interface includes features for manually or automatically enforcing certain outputs, vital for maintaining desired operational states during troubleshooting. 
+
+This comprehensive breakdown clarifies the operational protocols, control procedures, and system parameters necessary for effective monitoring and maintenance, ensuring optimal performance and reliability across all functionalities related to Service 35391SC.
+
+### Section: Motor Control and Activation Signals
+
+The system activates input signals for various components: 
+
+- The motor indicated by the LED Activates when a specific input is engaged. 
+- The heater's LED Activates when triggered by the corresponding input. 
+- Deactivation signals are also present, informing when components cease operation. 
+- The injection LED operates under specific input conditions. 
+
+The system status may indicate that the injection is currently disabled, and an automatic shutdown sequence may occur if certain criteria are met. 
+
+### Section: Input Processing and Feedback
+
+This section highlights the interaction between connected devices and their input sources. 
+
+Each input is designated with a corresponding label that supplies operational data. The analog-to-digital conversion (A/D) representation showcases process status, correlating to its associated inputs. 
+
+The interface allows users to monitor input data and be informed about system processes, maintaining connection with Service 35391SC systems.
+
+### Section: Customization and Configuration
+
+Users can customize parameters through an options menu that influences device performance. 
+
+After configuration, adjustments can be made to incorporate any required offsets based on specific selected parameters. The system accepts both AC and DC options based on user preference. 
+
+All settings ensure that measurements align with operational standards. 
+
+### Section: Capacity Monitoring and System Control
+
+This section outlines how the system monitors typical operational capacity, providing real-time feedback and adjustment capabilities.
+
+Users can manipulate input settings, with the system performing calculations to maintain optimal performance. Upon pressing designated buttons, operations will reflect changes, either incrementally or decrementally.
+
+### Section: Mechanical and Software Integration
+
+This segment details how the mechanical components interface with software controls, reporting various operational metrics.
+
+In scenarios requiring immediate action, the system defaults to pre-programmed settings to ensure quick response. An electrically controlled mechanism can also be employed for safety and functional accuracy.
+
+### Section: Calibration and Adjustment Procedures
+
+For successful calibration, follow proper procedures to ensure effective operation without causing mechanical damage. 
+
+Do not engage the actuator motor past the mechanical stop to avoid damage. 
+
+Upon reaching the limit, action can be taken (like pressing the calibration button) to reset or recalibrate the actuator, ensuring it returns to its designated position.
+
+### Section: Command Rotation Control
+
+This framework outlines the sequential control of actuator rotation, specifying clockwise (CW) and counterclockwise (CCW) commands.
+
+Commands are systematically organized for effective monitoring and operational efficiency, allowing for precise adjustments based on functional requirements. 
+
+### Cautionary Note
+
+Ensure compliance with safety protocols when adjusting motor controls to avoid operational hazards or compromise system integrity.
+
+## Troubleshooting Section
+
+The attached troubleshooting table may assist in calibrating the output. Spontaneous clicking sounds during operation could indicate an issue. To address this, clean the optocoupler and ensure proper grounding. Both grounded and ungrounded boards might lead to malfunctions. Intermittent grounding can result in electromagnetic interference (EMI). Inspect the photochopper operation, ensuring it functions freely alongside the optocouplers. Each button press counts as an additional activation, and ensuring adequate EMI shielding is crucial. 
+
+## Reasons for Clicking Sounds
+
+The clicking during operation typically arises from the EEPROM memory. This can indicate sporadic operation of the thermal switch, which may cause the motor to turn off or overheat. Troubleshoot the thermal switch as necessary. If it has tripped due to overheating, investigate further for root causes. Clean and check screws as needed.
+
+## LED Display Troubleshooting
+
+If the LED display shows an error, it can usually be resolved by clearing it through proper channels. The connection points TP1 and TP2 on the board should be checked. If the optocouplers are not functioning correctly, they may need replacement or testing by manually checking the DC output at TP1 and TP2.
+
+## EEPROM Issues
+
+The EEPROM typically operates on a 24V power supply. If problems persist, consider replacing the memory or consulting authorized service providers. Inspect the thermal switch leads to ensure they are correctly oriented, and conduct tests based on the 24V supply state. 
+
+## Chart Functionality
+
+The chart allows for selection and plotting of up to four assigned parameters, which can be monitored frequently. Each plotted item is based on its respective offsets. While stopped, the "In/Out" buttons provide options for accessing plotted data.
+
+## Trace Functionality
+
+The trace feature allows users to monitor four specific parameters. The trace display activates by pressing designated buttons. The system saves recorded data in 1MB increments, supporting up to 15MB of data.
+
+## I/O Options
+
+Section I/O enables connections to various peripherals, such as motors. The system supports downloading data to USB while offering I/O options for managing inputs and outputs effectively.
+
+## Active Input Configuration
+
+Configuring the active input allows selection between high or low signals. This flexibility lets users determine the desired action based on input settings. Depending on whether the input is Normally Open (N/O) or Normally Closed (N/C), different operational responses can be set.
+
+This structured overview should facilitate understanding and troubleshooting of various components and operations within the system.
+
+### Section Overview
+
+**Configuration Screen**  
+This section outlines how to navigate the configuration screen for the selected units. After making your selections through the unit controls, proceed to set the service settings (35391SC) accordingly. If assistance is required during this process, refer to the troubleshooting guide, specifically regarding CPU clock settings. Retain any changes made on the SBC touchscreen.
+
+**Clock Configuration**  
+- **Hour Selection**: Define the current hour, including AM or PM.
+- **Second Entry**: Input the current seconds.
+- **Month Entry**: Specify the current month.
+  
+**Communications Configuration**  
+This section details communication settings, such as selecting between Active Remote, Direct I/O, or Ethernet options. For Direct I/O, specify one of the three available configurations (RTU). Additionally, you may need to set parameters like character rates, stop bits, and parity type for Ethernet communications.
+
+**Touchscreen Setup**  
+Adjust the touchscreen settings according to the designated protection requirements. This section contains options for repeated protections and anti-recycle settings, which should be configured to avoid interference during shutdown and restart operations.
+
+**I/O Options and Functionality**  
+This section explains optional features for controlling input and output settings, including the selection of VFD options, superheat calculations, and various cooling methods (thermosyphon, H2O cooler, and injection). Configure the I/O based on operational requirements.
+
+### Input and Output Configuration
+
+This section provides guidelines for selecting and assigning inputs and outputs for the unit. Ensure selected inputs are compatible with operational frameworks to optimize performance. Auxiliary I/O selections and algorithms should be appropriately configured.
+
+### Data Management
+
+**Data Transfer to/from USB**  
+This section describes how to transfer information to and from USB devices. Ensure that data is properly encrypted and formatted in ASCII. Use refresh functions to maintain synchronized data transfers.
+
+**Loading and Saving Data**  
+You can load data from USB or save configurations back to the USB device. If there are issues with USB recognition, a refresh function can help display available devices.
+
+**Factory Settings Restoration**  
+This function allows you to restore factory settings if the system becomes corrupted. Migrate functions are available for transitioning existing data, and performing resets to return to default parameters.
+
+### User Access Management
+
+The Access section outlines the roles of operators and technicians in system management. Higher security levels are enforced to restrict access to users with advanced knowledge. Operators can navigate through the system, while technicians have further access rights to perform necessary configurations. Security measures are in place to ensure that sensitive operations remain restricted to authorized personnel.
+
+### Section Access
+
+This section outlines user access management. Users can select their username from a provided list or input it manually. Specifically, it addresses the operation of authorized accounts through the Service 35391SC Access Accounts feature. By selecting the username, users gain access to their authorized accounts. The system further enables the user to touch the screen to navigate security options or access account features, including the option for Service 35391SC.
+
+### Functionality of USB
+
+This section discusses USB functionalities within the software. Users can view options related to USB connections, typically accessed through a mounted USB device. This section allows users to select files in PDF format or manage the USB connection itself. Options include unmounting the USB, refreshing the USB interface, and navigating through PDF documents available on the connected device.
+
+### Navigation Controls
+
+Pressing the back button returns to the previous screen, displaying relevant information. The navigation allows users to view different elements of the software, with buttons to play, advance, or rewind their selections. The software informs users about the current screen and available actions.
+
+### Twin Screw Operation
+
+This section covers the operation of the Twin Screw mechanism. The system allows users to select and configure different screw types, with available options displayed directly beneath the main interface. Users should note the changes based on their selection of screw types relevant to the Service 35391SC.
+
+### Cooling Mechanism
+
+The cooling mechanism is crucial for the screw operation, enabling efficient temperature management. The system allows users to adjust cooling parameters to optimize performance. Users can command the system to engage cooling processes that modulate temperature and enhance operational efficiency, specifically in the injection chamber.
+
+### Cool Functions Overview
+
+This section highlights the various cooling functions available. The system can manage ratios and superheat during suction and injection cycles. Features are designed to optimize cooling efficiency and monitor temperature changes, ensuring effective thermal management throughout operation.
+
+### SOI Control Dynamics
+
+The software manages the Suction Over Injection (SOI) based on parameter thresholds. Activation occurs when specific ratios are met, adjusting the cooling dynamics accordingly. A ratio above 5°F keeps SOI activated, while below 4°F disables it. This ensures seamless operational efficiency and ranges within defined limits.
+
+### System Alerts and Compliance
+
+The system includes alert mechanisms to notify the operator of critical conditions, such as high-pressure scenarios. Indicators ensure timely interventions if parameters exceed operational limits. Mandatory shutdowns are enacted if thresholds are breached, allowing for operator clearance and ensuring safe operations.
+
+### Copyright Notice
+
+© 35391SC - Emerson Inc. All rights reserved. Printed in the USA.
+

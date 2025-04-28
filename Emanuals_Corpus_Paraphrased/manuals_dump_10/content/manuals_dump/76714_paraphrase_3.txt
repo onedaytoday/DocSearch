@@ -1,0 +1,26 @@
+### ELK-BLT Battery Overview
+
+The ELK-BLT Battery is designed for easy testing of rechargeable batteries, assessing their health primarily through internal conductivity measurements. The included chart allows for straightforward interpretation of these readings, providing characteristics for each battery type both when discharged and charged. This tool helps identify issues during testing and provides warnings if the battery leads are faulty. 
+
+**Specifications:**
+- Voltage: 10.0V DC
+- Amperage: Amps
+- Dimensions: 3H x 1.15D inches
+- Includes: Carrying case, self-adhesive labels, and warranty.
+
+**Usage Instructions:**
+To measure the battery, connect the black lead to the negative terminal and the red lead to the positive terminal. Ensure secure connections to obtain accurate readings quickly. Refer to the chart for interpretation based on battery type and condition.
+
+**Note:** The optimal testing temperature is around 72°F. Readings can be significantly affected by temperature variations (62°F, 52°F, and 42°F). If the device shuts down due to prolonged connection (over a few seconds), disconnecting and reconnecting the leads may be necessary. Regular recording of the battery status is recommended.
+
+**Battery Maintenance:**
+Charge the battery for at least several hours if the readings are low. Performance may be impacted by various factors, with higher amp-hour ratings typically indicating better longevity. Regular monitoring of readings will help assess the overall condition and expected lifespan of the battery.
+
+**Age and Service Life:**
+The device provides insights into battery service life, indicating optimal usage within three years. The readings tend to stabilize after the initial months, but consistent monitoring will identify when the battery may need replacement.
+
+**Charging and Capacity Considerations:**
+The amp-hour capacity indicates potential performance. Regular testing should adhere to the reference standards. Cold temperatures can negatively affect readings, and battery charging practices should minimize oxidation to maintain health and performance.
+
+In summary, the ELK-BLT Battery tool is essential for accurate monitoring and management of rechargeable batteries, enhancing their longevity and reliability.
+

@@ -1,0 +1,95 @@
+### Feedback: 
+- **CBL-DFDBK** 
+- **CBL-DFDBK-5** 
+- **I/O:** 
+  - **CBL-CELIO1 (J1)** 
+  - **CBL-CELIO1-5**
+- **Power Cables:**
+  - **CBL-MTRPWR1CEL (SAR, SA, SB, SC)** 
+  - **CBL-MTRPWR1CEL-5**
+  - **RS-232:** 
+    - **CBL-RJ452321**
+    - **CBL-RJ452321-5**
+- **Encoder Cables:**
+  - **CBL-MTRENC4 (SE)** 
+  - **CBL-MTRENC4-5** 
+  - **CBL-CEL24** 
+  - **CBL-CEL24-5**
+  - **CAN:** 
+    - **CBL-RJ45CAN2** 
+    - **CBL-RJ45CAN2-5**
+  - **CBL-MTRENC2 (SAR, SA, SB, SC)** 
+  - **CBL-MTRENC2-5**
+
+### Important Notice
+This information serves as a reference for the assembly process and includes graphics for additional clarity. The details are provided without revisions, with all rights reserved by Motion Inc., MA USA. For more information, please visit www.elmomc.com.
+
+### MAN-CBLKIT-CEL 
+**Introduction**  
+This guide details the connections within the system, specifying the function and location of each connector. The following sections will enumerate the connections:
+
+**Connectors Overview:**
+- Function | Connector | Location 
+- Ground: PE, PE (screws provided) 
+
+### Feedback Signal Connections
+- **Feedback (CBL-DFDBK-5)**
+- **CBL-MTRENC2 (SAR, SA, SB, SC)**
+- **CBL-MTRENC4 (SE)**
+- **Feedback (CBL-CELAUX-5)**
+
+### I/O Connections
+- **I/O J1 (CBL-CELIO1-5)** 
+- **I/O J2 (CBL-CELIO2-5)**
+-  Feedback Options: 
+  - (CBL-CEL24-5)
+  - (CBL-MTRCEL-5)
+  - (CBL-MTRPWR1CEL-5)
+  - (CBL-MTRPWR2CEL-5) 
+
+### RS-232 Option 
+- **CBL-RJ452321-5**
+
+### CAN Communication Options 
+- **CBL-RJ45CAN1-5**
+- **CBL-RJ45CAN2**
+
+### MAN-CBLKIT-CEL Connector Specifications
+**Function Connector Pairs:**
+1. RJ-45 CAN
+2. Feedback (high-density) 
+3. RS-232 connections
+
+**Cross-Reference Guide:**
+- **Feedback CBL-DFDBK (SAR, SA, SB, SC)**
+- **CBL-MTRENC2 (SE)**
+- **CBL-CELAUX**
+
+### Purchasing Information
+Customers can acquire components individually, such as:
+- **CBL-CELKIT01**
+- **CBL-CELKIT02**
+
+### Feedback Specifications
+The feedback system utilizes 24-AWG shielded cables and connects to the APM-SAR, SA, SB, and SC motors.
+
+### I/O J1 & J2 Specifications
+**I/O J1 (CBL-CELIO1)**
+- Inputs: IN1, IN2, IN3, IN4, and so on...
+  
+**I/O J2 (CBL-CELIO2)**
+- Inputs: IN5, IN6, IN9, etc.
+
+### Power Connections
+- **CBL-CEL24** connects to a Block with a +24VDC input.
+  
+### Communication Connections
+**RS-232:**
+- Uses 26-AWG twisted shielded wires with RJ-45 connectors.
+
+**CAN Options:**
+- **CBL-RJ45CAN1** uses RJ45 connectors for CAN communication.
+
+### Summary
+This document serves as a manual for the CBLKIT-CEL, detailing connector functionalities, application references, and feedback connections, ensuring an appropriate assembly and usage in applications.
+

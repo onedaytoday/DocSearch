@@ -1,0 +1,183 @@
+**EMC Corporation South MA Corporate Headquarters**  
+**424-EMC2 Service SVC-4EMC**  
+**EMC Switch DS-16B2 OS Procedures Manual P/N 069001111-A01**  
+Copyright © EMC Corporation. All rights reserved. The information in this publication is provided "as is." EMC Corporation makes no guarantees regarding the accuracy or completeness of the information contained herein and explicitly disclaims any implied warranties, including those related to merchantability and fitness for a particular purpose. The EMC Switch DS-16B2 has been rigorously tested and complies with standards such as UL1950, CSA IEC 60950/EN60950, FCC Class B, CISPR22 Class A, and EMC Directive 89/336/EEC, as well as ICES-003 and NMB-003. 
+
+**Warning:** This device is tested to meet Class A interference standards, which provide reasonable protection against interference in a commercial environment. Users of this equipment may be affected by interference, and they should consult the FCC for any related issues.
+
+**Switch DS-16B2 OS Procedures**  
+The Initial Switch Procedures chapter covers licensed features, IP setup, fabric-wide count, and timeout settings, along with guidelines for restoring the switch. 
+
+For detailed information on the switch's operation, including customer command usage and troubleshooting tips, refer to the subsequent chapters that include software statistics, switch information, and support contact details.
+
+The Switch DS-16B2 OS Procedures ensure effective functionality and interaction through its interface. Users are encouraged to review this documentation to optimize their experience with the Switch DS-16B2.
+
+**Support and Contact Information:**  
+For assistance, users can reach out to EMC customer support or technical assistance departments listed in this manual.
+
+**Connecting the Switch:**  
+This section outlines how to connect the Switch DS-16B2 via an RJ-45 port, covering initial setup, identifying licensed features, and displaying the hardware ID. 
+
+To display current licensed features, users can execute the `licenseShow` command, which provides visibility on the switch's capabilities and features installed. 
+
+**IP Configuration**  
+Instructions for configuring the IP address of the Switch DS-16B2 are provided, along with commands to verify current settings. 
+
+**Fabric-Wide Count Configuration**  
+Instructions for viewing and configuring the fabric-wide count are documented within the procedures.
+
+**Timeout Configuration**  
+Users should refer to the provided commands for configuring timeout settings and obtaining firmware information for the switch.
+
+Detailed use case scenarios, command references, and fabric settings follow throughout the Switch DS-16B2 OS Procedures to facilitate user navigation and operational effectiveness.
+
+### Switch Procedures for the DS-16B2 OS
+
+**Accessing Switch Procedures**
+
+To interact with the Switch DS-16B2, access the configuration by issuing the command: `configShow`. This command provides detailed information related to the switch's operations. Currently, only the RSHD.EXE and CAT.EXE hosts are compatible, which means FTP communication necessitates the use of these services either from a UNIX workstation or host.
+
+To restore the switch using FTP or RSHD services, use the following command: 
+
+```
+firmwareDownload path_filename
+```
+
+Once you've specified the IP address and the appropriate filename/path from a Windows-based system, press ENTER. To take the switch offline, execute `switchDisable`; to bring it back online, you would use `switchEnable`. Ensure that during POST (Power-On Self-Test), the switch remains connected properly. 
+
+**Naming the Switch**
+
+You can rename the switch by executing the command:
+
+```
+switchName "new_name"
+```
+
+This command allows for a name composed of characters and numbers.
+
+**Monitoring Switch Status**
+
+Monitor the switch's operational status by using the command:
+
+```
+switchStatusPolicy
+```
+
+This command checks thresholds related to supply factors and ensures the switch is operating within the MARGINAL or DOWN parameters. 
+
+**Enabling Tracking**
+
+For tracking enabled changes, use:
+
+```
+trackChangesSet
+```
+
+This command configures the switch for tracking changes in various states. To check the tracking status, execute:
+
+```
+trackChangesShow
+```
+
+This will display whether tracking is enabled or disabled, along with details to SNMP.
+
+**Static Routing Configuration**
+
+Add static routing information by running:
+
+```
+staticRouteCommand
+```
+
+This command defines how data is routed through the switch. Changes to the static routing assignment will take effect immediately.
+
+**Inter-Switch Link (ISL) Statistics**
+
+To view ISL statistics, utilize the command:
+
+```
+bcastShow
+```
+
+This displays important statistics including the status of internal groups.
+
+**Switch Information Summary**
+
+To summarize switch information, issue:
+
+```
+portErrShow
+```
+
+This will report on errors such as those related to transmitted and received frames, as well as encoding issues. 
+
+**Switch Operational Health**
+
+To check the overall health of the switch, execute:
+
+```
+switchStatusShow
+```
+
+The display will indicate if the switch is in a healthy (OK) or marginal state.
+
+**Detailed Switch Information Retrieval**
+
+To get comprehensive information about the switch, use:
+
+```
+switchShow
+```
+
+This command will present the switch’s name, type, state, role, domain ID, and other relevant identifiers.
+
+**Managing Support Information**
+
+For support-related data, utilize:
+
+```
+supportShow
+```
+
+This command generates various hardware and performance metrics, including temperature readings, fan status, and power supply information.
+
+### Conclusion
+
+To effectively manage and monitor the Switch DS-16B2, utilize these commands systematically. They provide essential functionality for configuration, monitoring, and operational management necessary for maintaining the integrity and performance of the switch.
+
+Here’s a paraphrased version of the text in a natural, technical style while retaining the same meaning:
+
+---
+
+The following outlines the procedures for the Switch DS-16B2 OS, specifically regarding the firstPort parameter, which is used to specify the initial port for retrieving information. If only firstPort is indicated, it will display information related to that port. Detailed information about other parameters must also be specified. The commands used for port management, like portRouteShow and supportShow, can be referred to in the context of the switch’s operations. Key details include OS versions: Apr PDT for Flash and Apr PST for BootProm, with certain software and diagnostic procedures associated with EMC for customer service.
+
+This document provides guidance on detecting and troubleshooting EMC software products for customers in the United States. It covers a variety of topics including detection (A-2), troubleshooting (A-3), reporting new software issues (A-6), and relevant documentation (A-7). For effective communication with EMC customer support, ensure you have the appropriate identification and contact details ready.
+
+Customers are encouraged to report information on software releases, its functionalities, and any discrepancies encountered, ensuring that all changes and relevant circumstances are thoroughly documented. This aids in the tracing of issues for EMC products, with the headquarters located at South Street, MA.
+
+The switch features advanced performance encoding that integrates with AL_PA (Arbitrated Loop Physical Address) for managing connectivity and traffic. It employs MBps (Megabytes per second) to measure throughput, and it delineates between different types of traffic such as broadcast and unicast. The API (Application Programming Interface) facilitates interaction with services, and it integrates various industry standards for efficient operation. 
+
+Throughput calculations consider the character disparity and enable optimized switching functionality. Monitoring and flow control metrics, such as EE_Credit and BB_Credit, play a crucial role in maintaining performance, while protocols like ISL (Inter-Switch Link) support interconnected operations between switches.
+
+The document also addresses latency issues, vendor communications, and details on routing protocols involved in switch operations, ensuring that all pertinent network parameters are captured and monitored for efficient performance.
+
+For any issues or inquiries, customers can find additional resources and contact EMC support via the appropriate communication channels provided.
+
+--- 
+
+This version summarizes and reorganizes the original content while maintaining the technicality and key information.
+
+The discussed content concerning inactive elements, including AL_PA and NL_Port, revolves around the 8B/10B encoding scheme and the K28.5 character. Key components are highlighted, particularly in relation to Path Selection through EMC switches and the assignment of FSPF AL_PA, which pertains to physical network topology. This information is managed through operations such as PLOGI and FLOGI to facilitate switch communication, specifically referring to DS-16B2 OS Procedures.
+
+The document details discovery processes and roles of NL_Ports, as well as functionality associated with QuickLoop technology that enhances connectivity between different ports. The operational procedures are established upon the initialization of the switch, which utilizes particular software to create network topologies.
+
+Various service rates, such as R_A_TOV and E_D_TOV, are associated with the management of SCSI connections, recovery processes, and cable configurations relevant to RAID or JBOD systems. Functions like FSPF and RSCN State notifications allow for effective communication within a specified SAN and facilitate the utilization of SCSI Services within the Switch family.
+
+Switch DS-16B2 OS Procedures elaborate on switch throughput measured in typical units, utilizing SNMP for network monitoring via IP functions, which can include both UDP and TCP/IP protocols. It also covers the operation of switches in a directory service context, allowing communication amongst various networked devices.
+
+Additionally, specific terms such as SWL (Short Wavelength) and LWL (Long Wavelength) relate to cabling types associated with GBIC or SFP modules. The documentation emphasizes the necessity of switch connections via F_Ports and NL_Ports and elaborates on the 8B/10B character algorithm as a crucial part of the data structure.
+
+Traps, as a component of SNMP, are established to notify users of significant events within the node network related to ULP_TOV SCSI recovery processes. The text also addresses unicast and broadcast communication from hosts to switches, delving into operational specifics that dictate network functioning.
+
+Workstations and WWN (World Wide Names) are discussed with respect to their linkage with attached devices, emphasizing the broader operational ecosystem within which these components interact.
+

@@ -1,0 +1,100 @@
+### Instruction AVR-320
+
+**IMPORTANT SAFETY INSTRUCTIONS**  
+- **Before Use Connection**  
+- **Front Panel Information**  
+- **Rear Panel Information**  
+- **Remote Control Unit**  
+- **Remote Control Information**  
+- **Basic Operation**  
+- **Speaker Configuration, Delay Time, Dynamic Range Control, Test Tone, LFE Trimmer, Channel Select**  
+- **Available Surround Mode**  
+- **Troubleshooting**  
+- **Specifications**  
+
+**CAUTION: Read this before operating your unit.**  
+- **Read and Follow Instructions:** Ensure that the device is operated according to the provided guidelines.  
+- **Retain These Instructions:** Keep the manual for future reference.  
+- **Heed Warnings:** Adhere to all safety warnings and instructions.  
+- **Cleaning:** Disconnect from the power outlet before cleaning. Use only recommended cleaners.  
+- **Grounding or Polarization:** Only plug the device into a compatible outlet.  
+- **Overloading:** Avoid overloading outlets or using damaged AC cords as they may lead to fire or shock hazards.  
+- **Power Sources:** Operate the device only with the specified type of power supply.  
+- **Accessories:** Use only approved accessories and follow installation instructions to prevent serious injury.  
+- **Outdoor Antenna Grounding:** Ensure that outdoor antennas are properly grounded to prevent built-up static charges.  
+- **Power Cable Protection:** Route power cables to prevent pinching or damage.  
+- **Attachments:** Avoid using unauthorized attachments that could pose safety risks.   
+
+**Conditions Requiring Service:**  
+Should any unusual behavior or characteristics arise, refer to appropriate servicing guidelines. Seek professional servicing for issues outside normal operating conditions.  
+
+**NOTE:** For safety, ensure proper grounding and make use of surge protection when necessary.  
+
+**Heat Dispersion:** Ensure proper airflow around the unit and avoid blocking vents to prevent overheating.  
+
+**Memory Function:** The memory function stores settings and can be reset if the unit experiences interruptions.  
+
+**Before Use:** Disconnect power before making high-level connections to prevent damage.  
+
+**Speaker Connection (AC):** Follow proper guidelines to connect AC wires securely without shorts.
+
+**Antenna Connections:** Ensure proper connections for FM indoor antennas; adjust or reposition for optimal reception based on area conditions.
+
+**Speaker Placement:** Position speakers to optimize sound quality with respect to room dimensions.
+
+**Connection Guidelines:** Utilize recommended connection methods for devices like DVD players and ensure compatibility with video formats for clarity in audio-visual output. Adjust TV inputs accordingly for seamless operation.
+
+**Connecting Devices and Audio Configuration**  
+When using DVD players, it is advised to set up DTS and surround sound modes such as PRO LOGIC II, MUSIC, THEATER, and HALL across available inputs, specifically COAXIAL IN and OPTICAL IN. For RCA connections, use white for left (L) and red for right (R) channels, ensuring protection from audio interferences. Ensure that RCA cords connect CD, TAPE, or other devices correctly to maintain signal integrity. To utilize digital connections, link CD or MD devices via the DIGITAL IN and OUT terminals, ensuring proper function during playback.
+
+**Power and Input Control**  
+To turn the system on or off, use the POWER button. You can switch to AUX mode using the AUX button and select STEREO or FM broadcast options. Use the STATION button to preset channels, and the VIDEO button allows access to video modes. The REMOTE DVD button activates the DVD function. To adjust sound levels, use the VOLUME control. The VFD DISPLAY shows the current input mode, whether it's 2CH STEREO or activated subwoofer functions.
+
+**Remote Control Functions**  
+When using the remote, point it at the SENSOR, ensuring it operates correctly within range; obstacles can disrupt signal. Always use compatible batteries — rechargeable or standard AAA — avoiding extreme temperatures and proper insertion for safety. 
+
+**Operation Controls**  
+To alter sound settings, press relevant buttons for different audio modes like STEREO, DOLBY PRO LOGIC II, and DTS/DOLBY DIGITAL 5.1CH. Adjust headphone settings through the PHONES jack which automatically switches to STEREO mode.
+
+**Video and Radio Operations**  
+To watch video sources, select corresponding inputs (e.g., DVD, VIDEO), ensuring sound plays through connected speakers. To access radio functions, turn on the tuner and switch between FM and MW, utilizing AUTO/MANUAL tuning for easy station selection. Utilize the MEMORY feature for storing preferred stations.
+
+**Radio Data System (RDS)**  
+RDS provides additional information from FM stations; it displays station name (PS), type (PTY), clock (CT), and text (RT) when available. Selecting the relevant DISPLAY button reveals this data. For RDS PTY SEARCH, use tuning to find specific types of broadcasts like NEWS or SPORT.
+
+**Speaker Configuration and Sound Settings**  
+Proper speaker alignment is crucial for optimal surround sound. Adjust the bass through the BASS MODE button. Set the DELAY TIME for different speaker positions according to ROOM acoustics. Using DYNAMIC RANGE CONTROL (DRC) assists in managing audio levels, especially for quieter soundtracks, while retaining high-quality surround sound. Adjustments can be made through respective buttons for precise sound tailoring.
+
+**TEST TONE**
+
+The Test Tone feature is designed for use with DOLBY DIGITAL or DOLBY PRO LOGIC II. To activate it, adjust the MASTER VOLUME to the recommended level. Press the TEST TONE button, and tones will play from each channel in the following order: L (Front Left), R (Front Right), LS (Surround Left), SUB C (Center), and RS (Surround Right). After completing this process, the MASTER VOLUME can be adjusted as needed. 
+
+The Low-Frequency Effects (LFE) can be accessed via COAX./OPT when using DTS 5.1CH. To control the LFE, press the LFE button and adjust the volume accordingly; changes will take effect within seconds. The TEST TONE and LFE TRIMMER can be adjusted through the CHANNEL SELECT feature, which lists the channels in the same order (L, R, LS, SUB C, RS).
+
+**SURROUND MODE**
+
+For an immersive surround experience similar to that in theaters, select the Surround Mode, compatible with DTS/DOLBY DIGITAL II. It is advised to utilize this function when operating with DTS/DOLBY DIGITAL. The system will automatically switch between the two modes as input is presented. The DOLBY DIGITAL enhances the surround sound field by providing an advanced audio experience, while DTS technology ensures clarity and dynamism in sound reproduction. 
+
+**AVAILABLE SURROUND MODES**
+
+The DOLBY DIGITAL MODE allows for surround audio from DVDs or LDs with DOLBY DIGITAL inputs, producing an expansive sound field. This mode complements RIGHT, LEFT, and LFE frequencies, delivering a complete and immersive audio environment. 
+
+In case of any discrepancies in sound, check connections to the AVR-320 to ensure proper input orientation. If sound is unbalanced, adjustments may be necessary via the BALANCE control. Hissing may indicate improper connections or broadcast interference. The system is optimized for playback of surround recordings or broadcasts when the SURROUND ON/OFF button is activated.
+
+For troubleshooting, ensure that the inputs are connected securely and the unit is powered correctly. The remote control batteries may need replacement if it becomes unresponsive. 
+
+**AUDIO SECTION**
+
+- Rated Power: 
+  - Front: 50W
+  - Center: 50W
+  - Rear: 50W
+- Harmonic Distortion: Less than rated 
+- LINE INPUT Sensitivity/Impedance: 
+- Bass and Treble Ratio for Woofer Output: 
+- FM Tuner Section (Unbalanced)
+- MW Tuner Section (US)
+- Video Section
+
+For more detailed specifications, please visit www.eltax.com.
+

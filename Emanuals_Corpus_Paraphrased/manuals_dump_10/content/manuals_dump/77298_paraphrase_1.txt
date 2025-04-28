@@ -1,0 +1,101 @@
+### AVR-320 Instructions
+
+**IMPORTANT SAFETY INSTRUCTIONS**  
+- **IMPORTANT INFORMATION:** See page 3.  
+- **BEFORE USE:** Refer to connection details and front panel information on page 11.  
+- **REMOTE CONTROL:** Information can be found on page 14.  
+- **BASIC OPERATION:** Refer to section on page 16 for speaker configuration, delay time, and dynamic range control.  
+- **TROUBLESHOOTING & SPECIFICATIONS:** Check page 23 for details.
+
+**CAUTION:** Please review the following safety instructions prior to operating your unit. 
+
+1. **READ AND FOLLOW INSTRUCTIONS:** Ensure correct operation by adhering to the provided instructions.  
+2. **RETAIN THESE INSTRUCTIONS:** Keep all instructions for future reference.  
+3. **HEED WARNINGS:** Always follow warnings and instructions.  
+4. **CLEANING:** Disconnect the unit before cleaning. Use a dry cloth; avoid harsh cleaners.  
+5. **GROUNDING OR POLARIZATION:** This unit must be connected to a power supply of the indicated type.  
+6. **OVERLOADING:** Avoid overloading outlets or circuits to prevent fire or electric shock.  
+7. **POWER SOURCES:** Operate the unit only with the specified power source indicated.  
+8. **ACCESSORIES:** Use only recommended accessories to prevent risks of injury.  
+9. **OUTDOOR ANTENNA GROUNDING:** Follow guidelines for grounding outdoor antenna to prevent static build-up.  
+10. **POWER CABLE PROTECTION:** Route power cords to avoid pinching or damage.  
+11. **ATTACHMENTS:** Avoid unauthorized modifications or use of attachments that may pose risks.
+
+**SERVICE REQUIREMENTS:**  
+If experiencing any of the following conditions, consult a service technician:  
+- Unusual operation or characteristics  
+- Input/output issues  
+- Any physical damage
+
+**SERVICING:** Only a qualified technician should perform service or repairs. 
+
+**HEAT DISPERSAL:** Ensure adequate space for air circulation around the unit, particularly at the top and back.
+
+**USAGE NOTES:** Choose a well-ventilated and sun-protected location, keeping a minimum distance of approximately 6 inches from walls.
+
+**MEMORY FUNCTION:** This unit retains memory settings. If the power supply is disrupted, use the RESET switch to restore functionality, pressing the POWER and RESET for more than 10 seconds.
+
+**SPEAKER CONNECTIONS:**  
+- Ensure connections are clear and not prone to short-circuits.  
+- Distinguish terminals to prevent cross-connections.
+
+**FM ANTENNAS:**  
+- Connect lead-type FM antennas as illustrated.  
+- Use an AM loop antenna if necessary for improved reception.
+
+**SURROUND SOUND SETUP:**  
+- Position speakers correctly for optimal surround sound experience, ensuring they are higher than ear level for immersive audio.
+
+**DEVICE CONNECTIONS:**  
+- For connecting devices such as DVD players and receivers, use S-VIDEO or RCA cables for clearer picture quality.  
+- Switch between inputs on your TV to select the desired source (DVD or VCR).
+
+These guidelines should promote safe and effective use of the AVR-320 system.
+
+Here’s a technical paraphrase of the provided text:
+
+For setups using DVD players, it’s advisable to use DTS and surround sound settings when only Pro Logic II, Music, Theater, Hall, and other surround modes are accessible. The device has two types of inputs: Coaxial In and Optical In. If using RCA cable connections (with white as the left audio, L, and red as the right audio, R), it's important to safeguard against incorrect wiring that could damage the inputs. The CD and tape connections utilize RCA cables in a similar format. For digital connections, ensure a proper link between CD and MD units using Digital In and Digital Out ports at those respective terminals.
+
+To operate the unit, press the power button to turn it on. Use the AUX button to switch to AUX mode, then use the Stereo button for FM broadcasts. For automatic station tuning, press the Video button; for listening to DVDs, use the DVD button. Adjust the volume knob to modify the output levels, especially when playing DTS/Dolby 5.1 or other digital audio formats. The VFD display shows the current selection in stereo mode or when surround sound is enabled.
+
+The device features various connections on the rear panel, including AC cord, speaker outputs, sub-line out, S-Video in/out, and audio in/out terminals. The coaxial input allows for another digital audio source connection, and the antenna inputs accommodate AM and lead-type FM antennas.
+
+The remote control enables operation within a designated range, provided it’s aligned with the sensor. When using the remote, be mindful of battery type, ensuring rechargeable and non-rechargeable batteries are utilized appropriately to avoid malfunction. 
+
+To operate the sound system, select from DVD, Video1, Tuner, AUX, or Tape inputs. Each mode allows for distinct sound processing options, including surround modes and stereo configurations. For radio operations, select either FM or MW frequencies and utilize the Auto/Manual tuning feature to search for stations. The system supports preset memory for saving your favorite FM and MW stations.
+
+RDS functionality allows for the display of information from FM stations, like program service names and types, when available. The system will show suitable data upon receiving the RDS signals, including PS (Program Service), PTY (Program Type), CT (Clock Time), and RT (Radio Text).
+
+For optimal speaker configuration for surround sound, connect Right, Rear, and Left Rear speakers appropriately to maximize the effect. Adjust bass levels using the Bass Mode feature and configure delay times individually for surround channels if needed. 
+
+The system also incorporates various Dolby Digital modes, allowing for customized sound experiences in accordance with the acoustic environment and furnishings. Adjust the DRC (Dynamic Range Control) settings for a more balanced output in varying listening conditions.
+
+### TEST TONE Functionality
+
+The TEST TONE feature is designed for use with DOLBY DIGITAL or DOLBY PRO LOGIC II. To activate it, adjust the MASTER VOLUME to a recommended level. Press the TEST TONE button to emit tones sequentially from each speaker: L (Front Left), R (Front Right), LS (Surround Left), C (Center), SUB (Subwoofer), and RS (Surround Right). Select each channel by pressing the TEST TONE button again and adjust the MASTER VOLUME as needed. After completing the TEST TONE sequence, make sure to finalize your settings. 
+
+The LFE (Low Frequency Effect) function can be adjusted via the LFE MIX LEVEL when using DTS or 5.1CH setups. To access this, press the LFE button and adjust the volume to suit your preferences, ensuring the LFE adjustments occur swiftly.
+
+### SURROUND MODE
+
+The Surround Mode enhances the auditory experience by replicating atmospheres commonly found in theaters. Select the surround function relevant to your content, either DTS or DOLBY DIGITAL II. When operating under these modes, it's advisable to have DTS or DOLBY DIGITAL as the main input. The system automatically switches between DOLBY DIGITAL and DTS as needed. 
+
+In the case of using a DOLBY DIGITAL source with your AV setup, it’s capable of delivering rich surround sound, contributing to a three-dimensional sound field. This is achieved with the SR-D (Surround) feature, which allows you to experience an immersive sound environment by accurately positioning audio elements.
+
+### TROUBLESHOOTING
+
+Should you encounter issues with sound output, verify connections for the AVR-320, ensuring Left/Right channels are properly configured. If sounds seem off-balance, try resetting the BALANCE settings. Note that sounds may also be disrupted by incorrect polarity or disconnected inputs. 
+
+For FM broadcasts, interference can cause hissing or unclear audio; experiment with different settings, including STEREO/MONO modes, for improved clarity. Ensure that your surround sound system is properly set up for optimum performance, whether using recorded content or live broadcasts.
+
+### AUDIO SECTION SPECIFICATIONS
+
+- Rated Power: Front: 50W, Center: 50W, Rear: 50W
+- Harmonic Distortion: Below rated levels
+- Input Sensitivity/Impedance: Standard specifications apply
+- Connectivity: Unbalanced line input
+
+### ADDITIONAL INFORMATION
+
+For more specifications and guidelines, please visit www.eltax.com.
+

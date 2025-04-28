@@ -1,0 +1,101 @@
+**1928L LCD Touch Monitor Overview**
+
+**Model:** 1928L LCD Touch Monitor  
+**Revision:** P/N E116103  
+**Copyright:** © TouchSystems. All rights reserved. Unauthorized reproduction, transmission, transcription, or translation of this document is prohibited without written consent from TouchSystems. The information contained herein is subject to change without notice, and no warranty is made regarding merchantability or fitness for a particular purpose. Any revisions to this document will be made at the discretion of TouchSystems.
+
+**Warnings:**  
+This device contains hazards related to anesthetics and other flammable materials, which can lead to fire or electrical shock. DO NOT OPEN the unit; doing so may expose you to shock hazards. To minimize the risk of electric shock, avoid tampering with the back of the unit, which is not user-serviceable. For servicing, professional assistance is recommended. 
+
+**Performance Considerations:**  
+This monitor is designed to comply with IEC standards and offers immunity to electromagnetic interference (EMI), ensuring reliable performance under various conditions. Additionally, the 1928L can withstand specified levels of interference without compromising functionality. 
+
+**Environmental Specifications:**  
+Operating Temperature: 0°C to 50°C  
+Storage Temperature: -20°C to 60°C  
+Ingress Protection: IPX1 compliant
+
+**Electromagnetic Compatibility:**  
+The 1928L meets EMC standards outlined in multiple IEC documents, including CISPR and EN specifications, indicating compliance with both emission and immunity requirements.
+
+**Power Specifications:**  
+The 1928L operates on a power supply of AC 100-240V, 1.0A or DC 12V, 4.0A.
+
+**Installation and Setup:**  
+This chapter covers the installation process for the touch monitor, including the necessary connections (VGA, DVI, USB) and mounting options. Ensure all devices are powered off before making connections. Specific sequences for connecting the video and touchscreen interfaces to a PC are outlined.
+
+**Touch Interface Instructions:**  
+To connect the touchscreen, follow these steps:  
+1. Connect the appropriate video cable (either VGA or DVI) to the corresponding port on the PC and the monitor.  
+2. Connect the USB or serial touchscreen connector to the PC. Ensure both connections are secure before powering on the touch monitor.
+
+**Safety Information:**  
+Refer to the safety guidelines within this document for proper handling and operational advice related to the touch monitor.
+
+**Technical Specifications:**  
+This section includes detailed specifications such as resolution, refresh rates, and touchscreen specifications of both resistive and acoustic types.
+
+For additional information regarding warranty and regulatory compliance, please refer to the relevant sections within this document.
+
+**Step 4 - Power Connection for the Touchmonitor**
+
+Connect the AC power cord to the underside of the touchmonitor. Ensure the cable is routed correctly from the touchmonitor to the ground protector. 
+
+**Mounting the Touchmonitor**
+
+The medically certified touchscreen adheres to the VESA Physical Mounting Interface (FPMPMI). The VESA interface, located at the back of the touchscreen, allows for compatibility with various mounting systems. Use an M4 Phillips screwdriver to install the screws at the designated locations to secure the touchmonitor to the mount. 
+
+In case the rear mount template is already affixed, check for four screws connecting to the VESA mount. Refer to the alignment template for proper installation. 
+
+**LCD Touchmonitor Software Installation**
+
+To configure the LCD with the appropriate graphical settings, install the compatible software located on the CD-ROM. This software supports various operating systems, including Windows XP, NT, CE, MS-DOS, and OS/2. For additional operational details, consult the documentation on the accompanying CD-ROM or visit the ELO Touch website for driver downloads. 
+
+**Touchmonitor Operation Guide**
+
+To adjust settings and monitor performance using the On-Screen Display (OSD), select items from the OSD menu using the relevant buttons. 
+
+- **Brightness and Contrast**: Use the OSD to modify these parameters to enhance visual clarity. 
+- **Configuration Options**: Navigate through the OSD using the buttons, where options include user configurations and factory resets. 
+
+**Safety and Maintenance Protocols**
+
+For safety against electric shock, utilize only grounded power cords and avoid using unapproved cleaning solutions. Regularly clean the touchscreen with a soft, lint-free cloth to maintain its functionality. 
+
+**Touchmonitor Technical Specifications**
+
+The touchmonitor features an LCD with a native resolution of SXGA. Its brightness levels and contrast settings can be modified through the OSD, which also provides options for adjusting various display settings. The device requires a power supply of AC 100-240V, DC 12V, 4A. 
+
+**Cord Selection**
+
+Follow guidelines for cord selection based on the region of operation. Ensure compatibility with local electrical standards, using UL listed cords when applicable. Accessory items such as different lengths of USB and VGA cables are also available for connection purposes.
+
+### Flexible Cord Specifications
+
+The HAR FLEXIBLE CORD, available in printed or black-red versions, is compliant with various standards including CEBEC, VDE, UTE, IMQ, BASEC, KEMA-KEUR, SEMKO, and NSAI. It is designed for durability and safety as indicated by its ratings for electrical insulation and performance.
+
+### Touchscreen Specifications
+
+**AccuTouch (Resistive) Touchscreen:**
+- **Touch Activation Force:** Typically less than 85 ounces.
+- **Durability:** Expected lifespan involves testing against layers and coatings, with operational resilience rated for significant touch interactions without degradation. 
+- **Environmental Resistance:** The unit is sealed against moisture, compliant with ASTM D1003 and ASTM D2457 for clarity and durability against chemicals like ammonia-based cleaners.
+
+**Acoustic Touchmonitor:**
+- **Touch Activation:** Mechanical specifications indicate performance on touch activation force, generally within prescribed limits.
+- **Durability and Chemical Resistance:** Similar to the AccuTouch, this unit is tested for durability and resistance to chemical exposure.
+
+### Safety and Regulatory Information
+
+**User Information:**
+- Ensure proper grounding of the unit to prevent electric shock. Users should contact qualified service technicians for issues related to grounding or malfunction.
+- The equipment has been tested for compliance with FCC Class regulations, ensuring reasonable interference protection.
+
+### Warranty Information
+
+Elo Touch warrants its products against defects in materials and workmanship for a specified number of years. The warranty stipulates that claims must be submitted within thirty days of discovering a defect, and it offers the option of repair, replacement, or refund. However, it limits liability to the original purchase price and does not cover installation costs or incidental damages. The warranty does not extend beyond what is explicitly stated, and employees are not authorized to provide additional guarantees.
+
+### Product Overview
+
+The product information encompasses specifications related to touchscreen types (AccuTouch and Intellitouch), mechanical and electrical performance, USB connections, and various classifications such as brightness and contrast levels. Comprehensive documentation and support are available via the official website for further inquiries and details.
+

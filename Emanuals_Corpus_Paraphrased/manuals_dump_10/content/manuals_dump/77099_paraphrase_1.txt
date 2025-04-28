@@ -1,0 +1,69 @@
+**Touchmonitor LCD Touchmonitors 25L/1 27L Revision C**  
+Touchmonitor LCD Models 1825L/1827L Revision C, P/N TouchSystems, Inc. 1-800-ELOTOUCH www.elotouch.com  
+© Copyright TouchSystems, Inc. All rights reserved. No part of this publication may be reproduced, transmitted, transcribed, or translated in any form or by any means without prior written permission from TouchSystems. The information contained herein is subject to change without notice, and TouchSystems disclaims any warranties, express or implied, including warranties of merchantability or fitness for a particular purpose. TouchSystems reserves the right to modify or discontinue products mentioned herein without obligation to notify any person of such changes. SecureTouch, AccuTouch, and MonitorMouse are trademarks of TouchSystems, Inc.  
+
+**Acknowledgments**  
+**Introduction**  
+This document provides an overview of the product, unpacking instructions, and essential setup details for the LCD Touchmonitor. It covers the unit's features, including rear connections and interfaces for both RS-232 and USB.  
+
+**Installation Steps:**  
+1. **Routing the Cables**  
+   Guide cables through the cover.  
+   
+2. **Connecting the Touchscreen**  
+   Connect the video port and ensure proper routing to the PC.  
+   
+3. **Attaching the Touchscreen Connector**  
+   Connect the USB or RS-232 touchscreen connector to the monitor and PC while ensuring that the unit is powered off.  
+   
+4. **Connecting the Speaker**  
+   Attach the speaker cable as directed.  
+
+5. **Power Supply Connection**  
+   Connect the power supply and ensure grounding for safety.  
+
+The LCD device boasts features such as high-resolution SXGA TFT display capabilities with multiple input options. It is compatible with VESA mounting for versatility in installation.  
+
+**Software Overview**  
+The included software supports various operating systems, including Windows XP and NT. Detailed installation procedures are provided.  
+
+**On-Screen Display (OSD) Functionality**  
+Users can navigate the OSD to adjust settings such as brightness, contrast, and item selection through specific button operations. For comprehensive details on each feature, refer to the provided user manual.  
+
+This setup guide serves to facilitate the installation and operation of the LCD Touchmonitor effectively, ensuring optimal performance in various environments.
+
+Sure! Here’s a technical paraphrase of the provided text:
+
+---
+
+The OSD (On-Screen Display) allows for adjustments in additional intensity, saturation, and hue related to flesh tones. It features options for phase and clock settings and supports both DSUB and DVI connections for display switching. When using a touch monitor, ensure that all I/O connections are secure as detailed in the troubleshooting chapter. If issues arise, check that power is supplied correctly and that the monitor is properly connected. 
+
+The LCD typically supports resolutions ranging from VGA to SXGA, with vertical adjustments based on the selected input format. To mitigate visual artifacts, the monitor employs specific algorithms, and users should adhere to maintenance guidelines for shock reduction and proper cleaning methods, including the use of a grounding cord. Unauthorized servicing may void the warranty, and caution is advised when handling the monitor.
+
+The compatible touch monitors utilize standard VGA connections, with specifications indicating a 0.125-inch active thin-film transistor (TFT) display and a typical brightness output. Compliance with regulatory standards is essential, including EMC directives and safety measures regarding electrical shock and fire hazards.
+
+Should interference occur, it is recommended to reposition cables or devices and reevaluate connections to resolve conflicts affecting reception. The product warranty covers defects in materials and workmanship for a defined period, with an obligation for users to report issues promptly for inspection.
+
+--- 
+
+Let me know if you need further adjustments!
+
+THE REMEDIES OUTLINED HEREIN SHALL BE THE SOLE REMEDIES AVAILABLE TO THE BUYER FOR ANY WARRANTY BREACH. BESIDES THE SPECIFIC WARRANTY STATED ABOVE, THE SELLER PROVIDES NO ADDITIONAL WARRANTIES, WHETHER EXPRESS OR IMPLIED BY LAW OR OTHERWISE, RELATED TO THE PRODUCTS, INCLUDING BUT NOT LIMITED TO THEIR SUITABILITY FOR ANY SPECIFIC PURPOSE, QUALITY, MERCHANTABILITY, NON-INFRINGEMENT, OR OTHER MATTERS. NO REPRESENTATIVE OF THE SELLER, NOR ANY OTHER INDIVIDUAL, IS AUTHORIZED TO OFFER ANY WARRANTIES FOR THE PRODUCTS EXCEPT AS DESCRIBED IN THIS DOCUMENT. THE SELLER'S LIABILITY UNDER THIS WARRANTY IS LIMITED TO A REFUND OF THE PRODUCT'S PURCHASE PRICE. UNDER NO CIRCUMSTANCES SHALL THE SELLER BE HELD RESPONSIBLE FOR THE BUYER'S COSTS INVOLVED IN ACQUIRING OR INSTALLING SUBSTITUTE PRODUCTS, OR FOR ANY SPECIAL, CONSEQUENTIAL, INDIRECT, OR INCIDENTAL DAMAGES.
+
+*Product Specifications and Technical Information*
+
+LCD Touchmonitor (ET1 2XL-XXWC-X)
+
+- Overview of Product Features
+- Accessing the VESA Mounting Interface
+- AccuTouch Specifications
+- Additional Details: Contrast, Backlight Life, and Brightness
+- Screen Compatibility and Connection Options
+- Mechanical and Construction Details
+- Operational Guidelines
+- On-Screen Display (OSD) Functionality
+- Touch Activation Force and Interface
+- Safety and Troubleshooting Instructions
+
+For further information on products and resources, please visit: www.elotouch.com or contact TouchSystems, Inc. USA, CA ELO-TOUCH KG D-85521, and other linked branches.
+

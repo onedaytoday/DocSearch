@@ -1,0 +1,38 @@
+## PSS PSS 3U PSS 6U November
+
+### Notice
+The following details pertain to Motion information regarding the PSS and PSSF. The text and graphics included herein serve as a reference only. Specifications may change without notice.
+
+### PSS Product Revision History
+- MAN-PSSUG.PDF March
+- Non-Isolated AC MAN-PSSUG.PDF
+- PSSUG0403.PDF
+- October Initial Release
+- Motion Inc., MA, USA
+- Cooling Rated Motion D-78056, MAN-PSSUG
+- Copyright Motion rights www.elmomc.com
+
+### PSS MAN-PSSUG Information
+This chapter covers the operation of the PSS supply, as well as the necessary procedures for safe operation. Individuals must possess the requisite knowledge and authorization for tasks such as assembly and motor operation. Incorrect handling can lead to hazardous situations, including electrical hazards like electricity build-up and potential injury from arcing. Always ensure the power is off while servicing the PSS to avoid high-voltage issues.
+
+### Warranty Information
+The products discussed are warranted against defects in materials and workmanship for a period specified in the documentation, commencing from the date of installation. This warranty supersedes all other warranties, including implied warranty of merchantability.
+
+### PSS MAN-PSSUG Product Overview
+The PSS and PSSF models are integrated amplifiers equipped with a power supply. They are designed to support high-inertia loads and cool efficiently. The products support both single-phase and three-phase configurations, with mounting options compliant with 19-inch DIN standards. 
+
+### Technical Specifications
+The PSS models include the following types:
+- PS1: PSSF-20/100 and PSSF-20/200
+- PS2: PSS-15/100 and PSS-12/200
+- PS3: PSS-30/200 and PSSF-60/200
+
+### Mounting and Cooling
+The PSS includes various configurations, each with specific cooling ratings and thermal protections. Ensure proper installation by reviewing the assembly guidelines and confirming the tightness of connections.
+
+### Technical Guidance
+Ensure compliance with the technical specifications when connecting and operating the PSS. For switching from single-phase to three-phase, connect the necessary terminals as outlined in the documentation. Follow provided instructions for safely powering up the system.
+
+### LED Indications
+The PSS is equipped with LEDs for monitoring supply status, indicating operational readiness, and identifying operational issues as necessary.
+

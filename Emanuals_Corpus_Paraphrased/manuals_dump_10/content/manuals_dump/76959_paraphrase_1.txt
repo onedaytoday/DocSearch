@@ -1,0 +1,160 @@
+**Notice**: This document serves as a reference for the installation of Motion Information. The accompanying text and graphics are provided for informational purposes only. Specifications are derived from Motion and may be revised without notice.  
+**Revision History**: Initial Release MAN-DRUIG.PDF | Motion P.O. Motion Inc. | MA, USA | DRU-XX/YYY Advanced Continuous (Amps) DC Motion D-78056 | MAN-DRUIG | © Motion.  
+
+**Feedback**: For any inquiries or comments, please visit www.elmomc.com. 
+
+### Chapter Information
+This section contains operational details relevant to the installation and usage of the equipment. It is essential to ensure proper grounding to mitigate risks associated with low-resistance earth connections. Only personnel knowledgeable in assembly, commissioning, and operation of motors should handle this equipment, as improperly managing electrostatic-sensitive components may lead to damage.  
+
+**Warning**: Incorrect handling may result in serious injury. 
+
+### Technical Specifications
+Adhere to the following standards: ISO-9001:2000 for Quality Management and UL840 for Insulation Coordination. Compliance with UL60950-1 and EN60204-1 directives, as well as Directive 98/37/EC, is mandatory. The EMC regulations outlined ensure safety and conformance of the products. 
+
+### Warranty Information
+Products covered under this warranty are guaranteed against defects in materials and workmanship for a specified period from the date of purchase or shipment, whichever comes first. 
+
+### Introduction
+This section covers the functionality of Motion Information regarding DC velocity and advanced motion control solutions. Devices can function independently or in a distributed configuration. Integrated software tools are provided for user accessibility via a Windows interface. The system is designed for proper connection with an isolated DC power supply. If not used correctly, this could limit the functionality. 
+
+### Velocity Control
+The system features a low-pass follower for motion control, processing both pulse-and-direction and position/velocity inputs. Support for RS-232 communication and feedback mechanisms is included, permitting advanced functionalities like on-the-fly adjustments and phase correction.
+
+### Built-in Protection Features
+Integrated protection mechanisms are present within the architecture, along with software reporting features for system resilience and recovery.
+
+### Installation Instructions
+Consult the first chapter for mounting instructions and proper setup. The installation should be configured to maintain operational integrity and safety.
+
+### Connector Details
+The installation should ensure appropriate connections using M5 and M6 hardware. Follow standard procedures for connecting feedback and power lines to optimize system performance.
+
+### Connecting the Equipment
+Ensure wiring is adequately shielded and grounded to prevent electromagnetic interference. Follow outlined instructions for proper connections to the M1, M2, and M3 terminals while ensuring that the protective earth (PE) is correctly established.
+
+### Conclusion
+Careful adherence to installation guidelines and operational safety protocols is crucial for optimal performance. Ensure all connections are secure and that grounding measures are properly implemented to prevent electrical interference.
+
+Sure! Here’s a technical paraphrase of the provided text while maintaining its original meaning:
+
+---
+
+**MAN-DRUIG Isolation Guidelines**: Achieving the necessary isolation, particularly for the battery supply, is crucial. It is recommended that the Protective Earth (PE) of the non-isolated DC supply is not connected to the Primary Reference (PR) of the isolated DC supply. The PE must not connect directly to the alternating current (AC) input. Care must be taken to avoid any connection of the PE to the supply in non-isolated systems.
+
+**Warnings**: Connecting the PE to the PR of an isolated supply, which is then linked to a non-isolated DC supply, is prohibited. 
+
+**Connecting DC Supply Notes**: To enhance electromagnetic immunity, twisted and shielded cables should be employed. The shield should connect to ground at one end and to the PE at the other to ensure a proper grounding layout. Install the M6 washer and M6 screw for securing the ground connection of the supply, and use M5 hardware to connect the PE. Optional connections to the VDC type may be made for enhanced flexibility and functionality during power outages.
+
+**Supply Connection Instructions**: Pin connections such as J1-9 and J1-8 facilitate feedback and communication. It is advised to use twisted-pair, shielded AWG wire for proper operation. Ensure the shield is securely attached to the housing and connected to the chassis ground.
+
+**Pin Configurations**: The configuration for the interpolated tachometer includes a series of functions labeled A, B, and C across different connections. Each function serves specific roles like feedback input and references. 
+
+**Signal Assignments**: Documented assignments include various input/output functions for the DRU XX/YYY device, ensuring clarity in configurations for optimum performance.
+
+**Feedback Types**: The device supports multiple feedback mechanisms, including interpolated tachometer feedback, with specific options available for motor control applications.
+
+**Installation Instructions**: For effective assembly, follow the provided guidelines on connecting feedback loops, ensuring that all components are correctly aligned and secured.
+
+**Note on Compatibility**: The system allows for various input configurations for advanced applications, including velocity control and positioning commands.
+
+---
+
+I aimed to maintain the technical integrity of the original text while improving clarity and readability. If you have more specific requirements or further sections, feel free to share!
+
+Sure! Here’s a paraphrase of the provided text with a technical tone but maintaining its original meaning:
+
+---
+
+**MAN-DRUIG Feedback Option (YA[4]=2)**  
+The B1 input of the Follower or ECAM assigns the B2 feedback according to the required input. The feedback signal configuration includes:  
+- Function \
+  B2: CHAO, CHAO-, CHBO, CHBO-, INDEX, INDEX-  
+- Input Types:  
+  - B1: CHA (high input, NC)  
+  - B1: CHB (high input, NC)  
+  - B1: INDEX (high input, NC)  
+  - PWR connections to terminals and SUPRET at +5V  
+  The feedback assignments for SUPRET supply and COMRET should utilize high J4.
+
+**MAN-DRUIG Pulse-and-Direction Feedback Option (YA[4]=0)**  
+This option processes pulse-and-direction commands through B1. The B2 configuration outputs feedback based on pulse-and-direction input and includes:  
+- Function \
+  B2: CHAO, CHAO-, CHBO, CHBO-  
+- Input Types:  
+  - B1: PULS/CHA (high input, NC)  
+  - B1: DIR/CHB (Direction/Auxiliary, high input, NC)  
+  PWR connections should utilize +5V to SUPRET. The assembly process must adhere to the guidelines outlined in the Feedback and Communication section.
+
+**MAN-DRUIG I/O Configuration**  
+The I/O components are connected via J3, which allows for both input and output functionality. Following the assembly instructions in the Feedback and Communication section is essential. The functions supported are:  
+- ANLIN+ (input)  
+- ANLIN- (input)  
+- OUTRET2, OUT2 (output)  
+- IN1 to IN6 (inputs)  
+- INRET (input)  
+
+**MAN-DRUIG Communication**  
+This part describes the RS-232 interface, which connects to the PC. Ensure the interface is properly selected within the software. The RS-232 connection is electrically isolated using optocouplers for safety. It is recommended to use shielded AWG cable for connections, grounding the shield to the PC chassis. The assembly instructions in the Feedback and Communication section must be followed.
+
+**DC Supply Specifications**  
+The DC supply must meet technical guidelines as per EN60950 or corresponding directives. It is crucial that the AC supply is either isolated or non-isolated, and must include necessary protections to the equipment. The DC supply should be properly positioned relative to the amplifier to ensure optimal performance and prevent overheating. Make sure the device is operational and that the DC supply is within specified limits prior to initialization with the relevant software.
+
+**Heat Management**  
+It is recommended to mount the unit in an environment with proper airflow, avoiding temperatures that exceed specified limits. Thermal conductivity and heat dissipation capabilities must be considered, with specific thermal resistances outlined. Utilize thermal compounds as necessary to optimize performance.
+
+**Technical Specifications Overview**  
+The specifications cover aspects of motion, including advanced positioning, feedback velocity, and communication protocols. Feedback configurations include various isolated inputs and outputs. The system features built-in protections, software aborts, and comprehensive feedback handling to ensure operational integrity.
+
+**Specific Unit Details**  
+Details for specific units, including supply voltage ratings and operational conditions, are provided. Isolated DC supply ratings should consider input VA specifications, ensuring compliance with operational requirements.
+
+**Feedback Mechanisms**  
+Detailed descriptions of feedback mechanisms and auxiliary feedback provisions are provided, including their corresponding RS-422 interface inputs, and their operational characteristics.
+
+--- 
+
+Let me know if you need further adjustments!
+
+### Technical Specifications MAN-DRUIG
+
+**Reference Section A.6.2.5: Tachometer**  
+- The tachometer operates via TAC1+ and TAC1- inputs, as well as TAC2+ and TAC2- inputs. 
+- Provide support for either TAC1+/TAC1- or TAC2+/TAC2- configurations. 
+- TAC1+/TAC1- is suitable for voltages above 20V, while TAC2+/TAC2- accommodates voltages of 20V and 50V.
+
+**Reference Section A.6.2.6 to A.6.2.8**  
+- Linearity is impacted by specifications detailed in A.6.2.7 and may require internal phase offset corrections as specified in A.6.2.8. 
+- Interface standards include RS-422 with connections for INDEX/INDEX-, CHB/CHB-, and CHA/CHA- outputs.
+
+**Reference Section A.6.3**  
+- This outlines the options for maximum input capabilities and outputs of the tachometer, detailing configurations for inputs A and B.
+
+**Reference Section A.7**  
+- Feedback phase specifications are provided in this section. 
+
+**Reference Section A.7.1: Interfaces**  
+- The connector location is optically isolated and designed for input to PLCs at high levels (typical voltage) and low-level TS inputs. 
+- High-speed inputs are facilitated with functions such as Home, Stop, and Soft Stop, optimizing performance with optocouplers during operation.
+
+**Reference Section A.7.2**  
+- Outputs are also optically isolated, supporting current output (Iout) with specified voltage levels dependent on load conditions.
+
+**Reference Section A.8: Communication Standards**  
+- Specifications for RS-232 and CANbus (including CAN_H, CAN_L, and CAN_GND) are outlined along with modulation parameters (PWM) as per factory settings.
+
+**Reference Section A.10: Quality Specifications**  
+- ISO quality standards and predictive methodologies comply with MIL-HDBK-217 for rating, de-rating, and stress factors. 
+- Compliance with IPC standards for assessment of printed circuit board structures and EMC measures (EN55011, EN61000 series) is also documented.
+
+**Reference Section A.10.3 to A.10.4: Insulation Coordination and EMC Specifications**  
+- Insulation specifications align with IEC and UL standards, including clearance and creepage criteria complying with the European directives.
+
+**Reference Section A.10.5: Workmanship Standards**  
+- Specifications adhere to IPC-A-610 regarding manufacturing quality.
+
+**Reference Section A.10.7 to A.10.9: Environmental Compliance**  
+- Protection standards are in line with EN100015. 
+- WEEE compliance is noted under 2002/96/EC, requiring responsible disposal practices, with additional regulations concerning hazardous substances (2002/95/EC) effective from July.
+
+This paraphrase preserves the technical integrity of the original specifications while rendering them in a more fluid manner.
+

@@ -1,0 +1,65 @@
+**API Touch ES601068 Overview**
+
+This document pertains to the changed release of the initial version ECO-13-0697 for the NFC Application ES601068 A. The contents herein may not be reproduced, transmitted, transcribed, or translated in any form without the written consent of Touch Inc. The information is provided without warranties of merchantability or any specific rights to modifications, and it may be updated without the obligation to notify users of such changes. Acknowledgments include AccuTouch, CarrollTouch, SecureTouch, TouchTools, and associated affiliates, as well as Microsoft Corporation. 
+
+**Introduction**
+
+The document outlines application interfaces associated with the API released as a DLL, detailing functions categorized under Battery, MCU, POS, and EEPROM. For further assistance, please contact Touch technical support or service.
+
+**Battery Application Interface Functions**
+
+1. **EloGetBatteryStatus** - Retrieves general battery information.
+   - **Output**: Returns battery charging status.
+   
+2. **EloGetBatteryCapacityPercentage** - Determines battery capacity percentage.
+   - **Input**: Location of the battery.
+   - **Output**: Capacity percentage.
+   
+3. **EloGetBatteryChargingStrength** - Gets the current charging strength.
+   - **Input/Output**: Location of the battery and strength value.
+   
+4. **EloGetBatteryChargingThreshold** - Obtains the charging threshold.
+   - **Output**: Charging threshold value.
+   
+5. **EloGetBatteryLifeTime** - Retrieves estimated battery life.
+   - **Output**: Battery life estimation.
+   
+6. **EloGetBatteryRemainingLifeTime** - Returns remaining battery life.
+   - **Output**: Remaining life estimate.
+
+7. **EloSetBatteryChargingStrength** - Configures the strength of charging.
+   - **Input**: Location and value for charging strength.
+   
+8. **EloSetBatteryChargingThreshold** - Sets the charging threshold.
+   - **Input**: Location and threshold value.
+   
+9. **EloSetBatteryLifeTime** - Updates the anticipated battery life.
+   - **Input**: Location and new lifetime estimate.
+
+**MCU Functionality**
+
+- Functions provide output values related to EC data from the MCU.
+
+**POS Functions**
+
+- Controls for MSR and enabling/disabling NFC operations.
+
+**Light Sensor and Accelerometer APIs**
+
+- **EloEnableLightSensor** and **EloGetLightSensorData** manage light sensor functionality.
+- **EloSetAccelerometerSamplingPeriod** and adjustments for G settings (2G, 4G, 8G).
+
+**Backlight and Power Control**
+
+Functions to enable backlight and manage power button status.
+
+**Camera Functions**
+
+Includes APIs to get and set camera flash strength.
+
+**EEPROM Access**
+
+Methods for reading and writing data to EEPROM, along with retrieving serial numbers for motherboard and tablets.
+
+For more information, visit [www.elotouch.com](http://www.elotouch.com) or contact Touch Inc. at 800-ELO-TOUCH.
+

@@ -1,0 +1,98 @@
+## Overview of PTC-200C Camera Instruction Manual
+
+### Important Safety Instructions
+- **General Guidelines:** Always follow these instructions carefully. Clean the device only with a soft cloth and avoid exposure to heat sources, like heaters or amplifiers.
+- **Caution:** To minimize the risk of electric shock, do not remove the camera's cover, as there are no user-serviceable parts inside. For repairs, consult qualified service personnel.
+- **Warning:** To prevent fire or electric shock, keep the camera away from rain and moisture.
+
+### Handling Precautions
+- Ensure adequate distance from heat sources or other electrical equipment. 
+- Use a damp cloth for cleaning and avoid harsh chemical cleaners.
+- Handle rechargeable batteries with care to avoid fire or short-circuiting.
+
+### Contents
+1. Important Safety Instructions
+2. Handling Precautions
+3. Part Names and Functions
+4. Wireless Remote Controller Setup
+5. Operation Procedures
+6. Troubleshooting Tips
+7. Specifications
+
+### Part Names and Functions
+- **Camera Components:** Includes an infrared sensor, composite video output, lens terminal block, DIP switches, LED indicators, alarm terminals, and RS-485 connectors.
+  
+### Wireless Remote Controller
+- The remote's positioning is crucial; avoid direct sunlight and interference from other objects.
+
+### Setting Up
+- Mount the camera securely using the provided screws and fixing plates, ensuring stability.
+- Use safety wire for additional support and security.
+
+### Basic Operation Procedures
+- Power up the camera by connecting to an AC supply and switching on the device.
+- Familiarize yourself with the PAN/TILT operations and OSD (On-Screen Display) features for easier control.
+
+### Functions Overview
+- The camera has manual controls for zooming (tele/wide) and adjusting focus (near/far).
+- The BLC (Back Light Compensation) feature is adjustable based on lighting conditions.
+- Each camera can be assigned a unique ID for remote operation.
+
+### On-Screen Display (OSD)
+- The main menu allows for customization of camera settings, including ID management and timer functions. The system defaults can be restored as needed.
+
+Ensure to follow all safety precautions and guidelines for optimal performance and safety while operating the PTC-200C camera.
+
+**Camera Configuration for Alarm In/Out**
+
+Select the menu options such as BLC, AGC, AP, and GAIN. Navigate through pages using NEXT and select MEMORY CLEAR, WB settings, and adjust white balance by using the SHIFT options to access previous settings. The BACK LIGHT function coordinates with the AGC for lighting and background correction.
+
+Home settings can be restored to factory defaults using the HOME button, which adjusts white balance based on ambient lighting conditions. The system supports various white balance settings including 3,200K, 4,200K, and 6,300K with adjustments for color corrections. You can switch between ATW and AWC modes as well as indoor and outdoor settings.
+
+For motor settings, adjust the PAN and TILT speeds, and select the desired operation mode (AUTO or MANUAL). This includes character adjustments for title displays, which utilize alphabetic and numerical inputs.
+
+**Alarm Input/Output and Termination**
+
+The ALARM IN/OUT terminals can be short-circuited to the GND as needed. When inputs are activated, appropriate outputs will be triggered based on settings configured in the OSD.
+
+The ALL CLEAR function resets the camera motor settings and restores the OSD to its factory state by toggling the DIP switch. The RS-485 interface connects the camera to a PC, allowing settings for data transmission using DIP switches for ID addressing.
+
+**ID Addressing and Termination Resistance**
+
+The ID settings and termination resistance are managed through DIP switches on the unit. Ensure that termination is enabled for the RS-485 connection and configure the ID according to the specified guidelines as outlined in the unit's documentation. Each state (ON/OFF) of the DIP switches should be adhered to for proper communication and function.
+
+These configurations ensure smooth integration and operation of the camera's features, compatible with your system's requirements.
+
+### DIP Switch Settings
+
+Set DIP Switch ID as follows: 
+- OFF, ON, OFF, ON, OFF, ON, OFF, ON, OFF, ON, OFF, ON, OFF, ON, OFF, ON, OFF, ON, OFF, ON, OFF, ON, OFF, ON, OFF, ON, OFF, ON, OFF, ON, OFF, ON, OFF, ON, OFF, ON, OFF, ON, OFF, ON, OFF, ON, OFF, ON, OFF, ON, OFF, ON, OFF, ON, OFF, ON, OFF, ON, OFF, OFF, ON, ON, OFF, OFF, ON, ON, OFF, OFF, ON, ON, OFF, OFF, ON, ON, OFF, OFF, ON, ON, OFF, OFF, ON, ON, OFF, OFF, ON, ON, OFF, OFF, ON, ON, OFF, OFF, ON, ON, OFF, OFF, ON, ON, OFF, OFF, ON, ON, OFF, OFF, ON, ON, OFF, OFF, OFF, OFF, ON, ON, ON, ON, OFF, OFF, OFF, OFF, ON, ON, ON, ON, OFF, OFF, OFF, OFF, ON, ON, ON, ON, OFF, OFF, OFF, OFF, ON, ON, ON, ON, OFF, OFF, OFF, OFF, ON, ON, ON, ON, OFF, OFF, OFF, OFF, ON, ON, ON, ON, OFF, OFF, OFF, OFF, ON, ON, ON, ON, OFF, OFF, OFF, OFF, ON, ON, ON, ON, OFF, OFF, OFF, OFF, ON, ON, ON, ON, OFF, OFF, OFF, OFF, OFF, OFF, OFF, OFF, ON, ON, ON, ON, ON, ON, ON, ON, OFF, OFF, OFF, OFF, OFF, OFF, OFF, OFF, ON, ON, ON, ON, ON, ON, ON, ON, OFF, OFF, OFF, OFF, OFF, OFF, OFF, OFF, ON, ON, ON, ON, ON, ON, ON, ON, ON, ON, ON, ON, ON, ON, ON, OFF, OFF, OFF, OFF, OFF, OFF, OFF, OFF, OFF, OFF, OFF, OFF, OFF, OFF, OFF, OFF, ON, ON, ON, ON, ON, ON, ON, ON, ON, ON, ON, ON, ON, ON, ON, ON, ON, ON, ON, ON, ON, ON, ON, ON.
+
+### Troubleshooting Tips
+
+**Symptoms**
+- **Wireless Operation Issues:** If the TV is not functioning, ensure the wireless device is connected properly to the power source. 
+- **LED Indicators:** If the red LED is ON but the device is not operating, check if the AC power is disconnected. 
+- **Signal Issues:** If the image only shows in black and white, verify the video output settings and the connection type (NTSC). 
+- **Light Settings:** If the brightness levels fluctuate, adjust the light/shade settings and ensure they correspond with the manual instructions.
+- **Fast Settings:** If the changes in ID response are too rapid, consult the manual for ID adjustments.
+
+**Specifications**
+- **Power Supply:** 12V DC MAX 1A with NTSC RCA RS-485 Connection.
+- **Image Sensor:** F1.6-3.8 focusing CCD, effective resolution of 768(H) x 494(V) and 811(H) x 508(V).
+- **Iris and AGC:** ON/OFF iris control with automatic gain control for optimal image acquisition.
+- **Signal-to-Noise Ratio:** More than 50 dB for enhanced image quality.
+
+**Supplied Accessories**
+- Power adapter (AC NO: D12-10-1000 rated input AC120V).
+- Wireless remote (RCW-PTZS).
+- BNC/RCA connection plug.
+- Fixing plate and screws (M5 head).
+- Instruction manual.
+
+### Warning
+Unauthorized recording of copyrighted materials is prohibited, respecting the rights of copyright owners. 
+
+**Company Information**
+ELMO CO., LTD., Plainview, NY, and Brampton, L6T 3T6. Printed Code: 6X1PTZC02.
+

@@ -1,0 +1,97 @@
+### Auto-Scanning with Digital Control LCD Color Medical Monitor AMM15TK2 Series
+
+**Serial Number Location**: The serial number can be found on the back of the monitor.
+
+**Warning and Caution Notices**: 
+- The "WARNING" label notifies users of potential risks that could lead to death or property damage.
+- The "CAUTION" label indicates risks that, while serious, may not be lethal.
+- The "NOTE" label is for operational guidelines and additional information.
+
+**Compliance and Operation**: 
+- The monitor is designed by ADVAN INTL Corp., 2005, and ELO TouchSystems, Inc., and is subject to their ownership rights. 
+- Ensure to follow all operational instructions to prevent damage, electric shock, or fire hazards.
+- Do not attempt internal repairs; consult the operating and cleaning sections for guidance.
+- Avoid using high-voltage cables that exceed specified limits.
+
+**Interference and Installation**:
+- To protect against interference, ensure proper grounding is achieved. 
+- The monitor meets IEC standards, providing reasonable protection against electrical interference.
+
+**Product Overview**:
+- The AMM15TK2 features a microprocessor-based TFT-LCD with RGB capabilities. 
+- It includes options such as touchscreen interfaces (AMM15TK2-TE and AMM15TK2-TEW) and advanced display features such as brightness and contrast adjustments.
+
+**Cleaning Instructions**:
+- Regular cleaning should be performed using a soft cloth—avoid harsh chemicals. 
+- Specifically, do not apply cleaners directly to the screen; use them on a cloth first.
+
+**Certifications**:
+- The monitor complies with UL and FCC standards, ensuring safety and performance in its operational environment.
+
+**Unpacking and Setup**:
+- When unpacking, use the monitor in a location away from direct sunlight or intense artificial light. 
+- Ensure a grounded outlet is used for connection.
+
+**Connectivity**:
+- The device includes various input options (like VGA and BNC connections) and may require troubleshooting if issues arise.
+
+**Power Functionality**:
+- The monitor has multiple power-saving phases (VESA DPMS), automatically adjusting power levels based on usage.
+
+**On-Screen Display (OSD)**:
+- The OSD allows direct control of brightness, contrast, and other settings via buttons on the front panel.
+
+**Operational Guidelines**:
+- For ongoing operations, follow established protocols in the OSD, including brightness adjustment, clock-phase settings, and input source selection.
+
+Always refer to the applicable sections of the manual for detailed instructions and compliance information regarding the AMM15TK2.
+
+### Item Functionality
+
+- **Brightness Adjustment:** To enhance brightness settings.
+- **Phase Clock Adjustment:** To modify clock phase.
+- **OSD Navigation:** Adjust settings via OSD (On-Screen Display) using directional controls.
+- **OSD Background and Timeout:** Select desired background color for OSD, e.g., Red, and set display timeout.
+- **DPMS Support:** Power management functionality.
+- **Source Selection:** Choose input sources.
+- **Sharpness Control:** Adjust sharpness settings with options for Normal and other configurations.
+- **Input Information:** Access factory information about input specifications for AMM15TK2.
+
+### AMM15TK2 Specifications
+
+- **Model:** AMM15TK2, a 15-inch LCD TFT touchscreen.
+- **Connectivity Options:** RS-232 DB-9 (optional), with a DC source.
+- **Regulatory Compliance:** Meets UL EN60601-1, EN60601-1-2, CE, and FCC standards for safety and EMC.
+- **Dimensions:** Specified in inches for width, height, and depth.
+
+### Connectors
+
+- **DC Connector Options:** SCD-014-1-A (SHIUA CHYUAN) and P/N DHSB-15 FRF7 (LEOCO), with connections for power and data transfer, including VGA and DDC lines.
+
+### Troubleshooting Guide
+
+- For LCD servicing, follow troubleshooting steps regarding OSD issues or brightness adjustments. If the LED is ON, check for stability and input mismatches. Ensure correct connection to AC power.
+- Seek troubleshooting advice if experiencing unstable graphics or display errors.
+
+### Health Compliance
+
+- The AMM15TK2 is suitable for medical environments, offering IPX0 protection and a continuous operation rating. It complies with IEC standards and has been tested in line with FCC Class regulations.
+
+### Warranty Information
+
+- **Warranty Coverage:** Guarantees the product is free from defects in materials and workmanship for a specified period, generally covering several months post-purchase.
+- **Exclusions:** Warranty does not cover damages or malfunctions resulting from unauthorized service or use outside specified parameters.
+- **Disclaimer:** ADVAN disclaims all other warranties, both express and implied, except those that cannot be legally waived.
+- **Limitation of Liability:** ADVAN is not responsible for indirect damages or other liabilities arising from product performance or use.
+
+### Technical Assistance
+
+- For technical support, customers can reach out via specified channels. When returning products, ensure they are properly disinfected and use the designated RMA process. Shipping responsibilities fall to the sender.
+
+### Touchscreen Software Introduction
+
+- The ELO Touchscreen integrates both hardware and software, enhancing LCD functionality with a scratch-resistant surface for durability and clarity.
+- Software installation and configuration instructions are provided for various operating systems, including DOS and NT. 
+
+For additional details, refer to ELO's official website or contact ADVAN for service inquiries.
+

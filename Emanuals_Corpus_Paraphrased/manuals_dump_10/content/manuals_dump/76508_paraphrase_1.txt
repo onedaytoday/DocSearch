@@ -1,0 +1,56 @@
+**MCE Overview**
+
+**Copyright and Warranty NM20600A-A**
+The author guarantees rights regarding this software, which is protected by copyright. This information belongs to the Brain Research Unit of the University Laboratory related to the MEG. It includes exclusive software rights from the University of California and is associated with the NM20600A software.
+
+**MCE Introduction**
+This section provides guidance on using MCE to predict MEG waveforms, including the creation of HTML and MPEG files. It discusses typography, computing factors, BEM (Boundary Element Model) selection, and the concept of Regions of Interest (ROIs).
+
+**Getting Started with MCE**
+Begin by selecting the head and loading the relevant data. If you are studying brain activity using MEG, appropriate selections must be made depending on the application context. This section will guide you through initial setup procedures and outlines important elements like L1 MNE.
+
+**Selection Considerations**
+Choose MEG data thoughtfully, considering factors like selection efficiency and the application of low-pass filtering to improve signal quality. The system allows adjustments via designated buttons, and users are advised on down-sampling ratios to balance processing load and data integrity.
+
+**Technical Warnings**
+It is essential to adhere to specific guidelines included in the Release Notes to avoid compatibility issues with MCE. Incorrect settings may lead to distorted projections, emphasizing the need for appropriate warnings to users.
+
+**BEM Selection**
+The selection of the BEM is crucial for accurate modeling of the head's geometry. Proper BEM selection influences the quality of 3D visualizations. Users can choose between existing boundaries or create new ones, provided they follow the instructions for confirmation.
+
+**Creating BEM**
+To prevent geometrical instability, it's important to select Boundary Element Models carefully. MR images can be integrated to assist in defining boundaries accurately, but adherence to recommendations for head coordinates is critical.
+
+**Loading Data**
+When loading batches, ensure correct file selection to avoid errors in ID recognition. Users can utilize commands to define the time range for activity monitoring effectively.
+
+**Defining and Exporting ROIs**
+Regions of Interest (ROIs) allow users to examine data specificity. Users can export selected ROIs for use in other applications. It's important to select the active ROI carefully, as the output will reflect weighted activity based on user selections.
+
+**SQL Operations**
+Users can utilize SQL commands to search and manage ROIs effectively. This function enhances data handling and integrates various elements within the system, ensuring that users can work with their data productively.
+
+### Predicting MEG Waveforms
+
+**MCE and NM20600A-A:** The predicted MEG waveforms are displayed in yellow, with the activity from the selected Region of Interest (ROI) highlighted. This allows for comparison between measured activity and predicted waveforms. The waveforms are updated based on the selected ROI's activity.
+
+You can visualize the predictions using commands from UNIX, specifically the [Print] command to configure the output type, such as selecting JPEG or EPS formats. You can create images using the appropriate options and save them in desired formats.
+
+**Creating HTML and MPEG:**
+The NM20600A-A module facilitates HTML and MPEG file creation, enabling the inclusion of selected data in a user-friendly format. The output supports standard web browsers like Microsoft Internet Explorer.
+
+You can enhance the animation smoothness in MPEG file creation by adjusting lengths appropriately. Use UNIX commands to manage file formats and ensure compatibility with the systems in use.
+
+**Batch Processing:**
+The batch processing feature allows users to monitor the status of various tasks. It enables background processing, freeing resources for other operations. Users can adjust priorities for batch tasks as needed.
+
+**ROI Selection:**
+The interface allows for selection and management of ROIs, enabling users to view specific activities. Use the [Colors] option to modify appearance settings, including the visualization colors of selected activities.
+
+**Final Output and Customization:**
+The user can explore various outputs, adjusting settings to refine visual representation. The system supports SQL queries for searching and refining ROI selections, facilitating targeted analysis.
+
+The HTML outputs can be customized based on user selections, ensuring flexibility in presentation formats, including PNG and color options.
+
+An integrated interface allows for easy management of selections and adjustments, contributing to a streamlined workflow.
+

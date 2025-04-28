@@ -1,0 +1,48 @@
+### Feedback Overview
+
+**Connectors and Cables:**
+- **Feedback Cables:** CBL-DFDBK, CBL-DFDBK-5, CBL-CELIO1 (J1), CBL-CELIO1-5, CBL-MTRPWR1CEL (SAR, SA, SB, SC), CBL-MTRPWR1CEL-5, RS-232 CBL-RJ452321, CBL-RJ452321-5, CBL-MTRENC4 (SE), CBL-MTRENC4-5, CBL-CEL24, CBL-CEL24-5, CAN CBL-RJ45CAN2, CBL-RJ45CAN2-5, CBL-MTRENC2 (SAR, SA, SB, SC), CBL-MTRENC2-5.
+- **Feedback CBLs:** CBL-CELAUX, CBL-CELAUX-5.
+- **I/O Connectors:** CBL-CELIO2 (J2), CBL-CELIO2-5, CBL-MTRPWRCEL, CBL-MTRPWRCEL-5, CBL-MTRPWR2CEL, CBL-MTRPWR2CEL-5.
+- **CAN Connectors:** CBL-RJ45CAN1, CBL-RJ45CAN1-5.
+
+**Important Notices:**
+This information is intended solely for reference while assembling and is meant to provide graphical representation. The content is based on revision history from November by Motion Inc., MA, USA, under copyright D-78056, MAN-CBLKIT-CEL.
+
+### Manual Structure
+- **Introduction**
+- **Connectors**
+- **Cross-Reference**
+- **Feedback Sections:**
+  - CBL-DFDBK-5
+  - CBL-MTRENC2-5 (SAR, SA, SB, SC)
+  - CBL-MTRENC4-5 (SE)
+  - CBL-CELAUX-5
+  - I/O J1 (CBL-CELIO1-5)
+  - I/O J2 (CBL-CELIO2-5)
+  - CBL-CEL24-5
+  - CBL-MTRCEL-5
+  - RS-232 Option (CBL-RJ452321-5)
+  - CAN Options (CBL-RJ45CAN1-5 and CBL-RJ45CAN2)
+
+### Connector Specifications
+- **Functionality:** Provided for specific applications, with connectors grounded accordingly. Optional connectors include various I/O functions and feedback specifications.
+
+**Feedback Connector Types:**
+- RS-232, CAN options, and assorted internal feedback mechanisms are included.
+  
+### Purchasing Information
+Several kits are offered for purchase, which include various feedback cables (e.g., CBL-DFDBK-5, CBL-MTRENC2-5, etc.). Each cable can be acquired individually or as part of kits such as CBL-CELKIT01 and CBL-CELKIT02.
+
+### Feedback Cable Details
+- **General Specifications:** The feedback cables (24-AWG shielded) connect various motor types effectively.
+- Each feedback functionality is detailed thoroughly to ensure proper application.
+
+**Detailed Input/Output Specifications:**
+- I/O J1 and J2 cables are outlined, featuring a mix of input and output options with specifications on gauge and connections.
+
+### Communication Options
+Two types of communication protocols are supported, with specifications for RS-232 and CAN connectivity options clearly defined, including cable connections and shielding requirements. Each protocol is accompanied by connectors and usage descriptions for optimal integration.
+
+This paraphrased content retains the original meaning while presenting the information in a clear, technical format.
+

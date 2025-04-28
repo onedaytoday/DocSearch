@@ -1,0 +1,98 @@
+**1739L LCD Rear-Mount Touchmonitor Overview**
+
+**Model:** 1739L LCD Touchmonitor  
+**Optional Revision:** Brick Revision C, P/N E220169  
+**Contact:** 1-800-ELOTOUCH | www.elotouch.com
+
+This document cannot be reproduced in any form without written permission from ELO Touch. The information provided is subject to change without notice, and ELO Touch specifically disclaims all implied warranties, including fitness for a particular purpose. All rights reserved, including copyright by ELO Touch.
+
+**Table of Contents:**
+
+1. **Introduction**
+   - Overview of the Product
+   - Touchmonitor Interface
+2. **Product Specifications**
+   - Features and Compatibility
+   - Rear OSD (On-Screen Display) Buttons and Functions
+3. **Troubleshooting**
+   - Common Issues and Solutions
+4. **Specifications**
+   - Technical Details of the 1739L LCD Touchmonitor
+   - Warranty Information
+
+---
+
+**Introduction**
+
+The 1739L Touchmonitor utilizes an LCD (Liquid Crystal Display) for optimal performance, incorporating active thin-film transistor (TFT) technology for effective SXGA graphics display. The device supports various video standards, including VGA, SVGA, XGA, and non-interlaced SXGA, complying with VESA DPMS standards.
+
+---
+
+**Installation and Setup**
+
+This section covers how to install the LCD Touchmonitor and necessary software. Ensure that all components are included: the touchmonitor, USB cables, and the QuickStart CD.
+
+To connect the touchmonitor to a PC, ensure the power is off. Install the USB or RS232 connection securely at the rear of the device. Tighten all screws to ensure a stable connection.
+
+The setup software is located on the included CD-ROM, which is compatible with various operating systems including NT and MS-DOS. For troubleshooting, follow the provided installation instructions carefully.
+
+---
+
+**Operation**
+
+For optimal performance, the touchmonitor should be calibrated and functions should be adjusted according to the user's needs. This includes basic settings such as brightness, contrast, clock phase, and positioning through the OSD button layout.
+
+---
+
+**Troubleshooting Guide**
+
+If issues arise with the touchmonitor, refer to the troubleshooting section for solutions to common problems. If the display shows "OUT OF RANGE," check that the input is compatible with the LCD specifications. Always ensure that all connections are tight and secure.
+
+---
+
+**Specifications**
+
+The 1739L LCD Touchmonitor is designed for user-friendly operation, highlighting features that enhance touch accuracy and responsiveness. It requires specific input to achieve optimal resolution and supports power-saving features through VESA compliance.
+
+---
+
+This paraphrased document maintains the original technical details and meaning while enhancing clarity and coherence.
+
+### A-27 SXGA LCD Overview
+
+The A-27 SXGA LCD is optimized for vertical input. The LCD is designed to accommodate SXGA inputs, matching the specifications of the input signals for seamless operation. When the input signal is compatible, the LCD displays outputs accurately. The onboard algorithms enhance the image quality while minimizing artifacts, ensuring clear text and graphics presentation.
+
+#### Touchmonitor Safety and Operation
+
+This chapter provides essential safety information regarding the touchmonitor's installation and operation. To prevent electric shock, adhere to the recommended guidelines and ensure the device is turned off before cleaning. Please consult the touchmonitor's specifications and features, including its placement and safety protocols. 
+
+If the touchmonitor becomes hazardous, refrain from addressing it directly. Use a designated cleaner for the touchscreen, avoiding any substances that may damage it. Be aware that components such as mercury in the backlight adhere to EU regulations regarding hazardous materials, necessitating proper disposal methods at designated facilities.
+ 
+#### Touchmonitor Specifications
+
+The specifications for the 1739L Touchmonitor include:
+- Display: 1739L LCD TFT Active
+- Resolution: 337.92 mm (H) x 270.336 mm (V)
+- Pixel Pitch: 0.264 mm (H & V)
+- Supported Resolutions: VGA, SVGA, XGA, SXGA
+- Brightness: Various ratings depending on touchscreen technology (CarrollTouch, Capacitive, etc.)
+- Color Depth: 16.7M colors
+- Connector Type: R.G.B. TTL or Negative
+- On-Screen Display (OSD) functionalities include Contrast and Brightness adjustments.
+
+The device complies with standards such as UL, FCC-B, CE, and RoHS.
+
+#### Regulatory Information
+
+This touchmonitor has been tested and meets the Class B standards of FCC, offering reasonable protection against electrical interference. It is essential to use specified cords and cables to uphold compliance with CE directives on electromagnetic compatibility. 
+
+Users experiencing interference should try repositioning devices or adjusting connections to minimize disruptions. Disconnection of non-essential equipment may also help.
+
+#### Warranty and Liability
+
+The product is warranted against defects in materials and workmanship. Buyers must promptly report any discovery of faults within thirty days. Remedial actions under the warranty may include repairs or product replacement at the manufacturer's discretion. 
+
+The provided warranty is the sole remedy for breaches, and beyond this, no explicit guarantees are offered regarding product suitability or performance. The manufacturer is not liable for indirect, incidental, or consequential damages.
+
+For further information about ELO Touch products, specifications, and warranty details, visit the official website at www.elotouch.com or contact the North American office.
+

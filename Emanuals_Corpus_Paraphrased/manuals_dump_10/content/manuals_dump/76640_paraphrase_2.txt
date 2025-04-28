@@ -1,0 +1,11 @@
+The B/W EL2000 telephone entry/access system features connections from the LED board to the Unlock mechanism. Please ensure the screws securing the boards are properly installed. If the EL2000 is connected to a switched input, make the necessary adjustments. For mounting, utilize the back plate designed for the EL2000 and connect via the BNC interface on the device. 
+
+The EL25 system offers similar configurations, allowing for connections to the Unlock function via its LED board. Again, proper screw placement is essential, and ensuring the device is mounted correctly is critical. The incremental adjustment of mounting screws may be necessary to fit the components correctly. 
+
+Regarding technical specifications, both the EL25 and EL2000 products utilize CCD imaging systems with the following characteristics: 
+- Effective resolutions are specified for EIA and CCIR formats, with TV scanning set on interlaced. 
+- The signal-to-noise ratio exceeds certain thresholds with AGC turned off.
+- White balance corrections and color temperature ranges from 2100K to 8200K are noted in the specifications.
+
+Moreover, a detailed analysis of MTBF (Mean Time Between Failures) indicates operational hours across various voltage and temperature conditions, indicating the resilience of these systems under specified environmental factors. These products are subject to standard operating conditions and require BNC DC connections for optimal performance.
+

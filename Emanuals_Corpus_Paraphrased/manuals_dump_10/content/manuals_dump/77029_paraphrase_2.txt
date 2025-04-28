@@ -1,0 +1,199 @@
+### Visual Presenter Instruction Manual
+
+**Important Safeguards**
+
+In order to ensure safe operation, it is crucial to adhere to the operating instructions provided and to maintain a copy for future reference. Follow all cleaning and maintenance guidelines to avoid serious hazards. Use only recommended cleaning methods—such as a cloth designed for this purpose—or specific cleaners to prevent damage. Avoid contact with water, and refrain from placing the unit near heat sources. 
+
+**Power Supply and Grounding**
+
+Ensure that the unit is connected to an appropriate AC power outlet. If using a grounding outlet, make sure all connections are secure to avoid hazards including electrical shock or fire. Protect power cords from being pinched or damaged to mitigate such risks. 
+
+**Service and Maintenance**
+
+Do not attempt to service the device unless you possess the requisite knowledge. Retain all original operating instructions for guidance on servicing or troubleshooting issues. Unauthorized repairs may void warranties and lead to safety hazards.
+
+**Heat Management**
+
+Keep the device away from heat sources (such as amplifiers or other products that generate heat), as excessive heat can damage internal components.
+
+**User Warnings**
+
+To reduce the risk of fire or electric shock, do not expose the device to rain or moisture. It conforms to Class B standards, which may cause radio interference in residential settings. Users may need to implement measures to address such interference.
+
+**Operational Environment**
+
+Before use, ensure that the device is kept away from direct sunlight, heaters, or areas with extreme humidity. The recommended operating temperature is between 5°C to 40°C (41°F to 104°F).
+
+**Interfacing and Storage**
+
+Details on setting up, operating, and troubleshooting can be found within the manual. Follow provided instructions for connecting to external devices through various output options (e.g., RGB, HDMI). For troubleshooting guidance, refer to the symptoms chart provided in the manual.
+
+**Technical Specifications**
+
+The manual includes information on various features, operation procedures, and specifications regarding model performance and settings. 
+
+**Warning and Caution Statements**
+
+- **Caution:** There are no user-serviceable parts inside. Service should be performed by qualified personnel only.
+- **Risk Warning:** Avoid removing covers, as this could expose you to high voltages and, consequently, electric shock.
+
+By adhering to these instructions and maintaining vigilance in operation and servicing, users can ensure a safe and effective experience with the Visual Presenter.
+
+### OSD (On-Screen Display) Functions Overview
+
+The OSD (On-Screen Display) provides access to various functions via the front panel or wireless remote. When the [MENU] button is pressed, the OSD appears, allowing hierarchical navigation of options. 
+
+1. **Function Hierarchy**: 
+   - **Top Hierarchy**:
+     - **White Auto/One-Push**: Adjusts the white balance automatically or via a single push.
+     - **Iris Control**: Manages brightness levels.
+     - **Edge Effect**: Enhances image clarity.
+     - **Brightness**: Adjusts display brightness settings.
+     - **Color/B&W Toggle**: Switches between Color and Black & White modes for easy reading.
+
+2. **Functionality**:
+   - **Text Mode**: Displays black-and-white characters for text clarity.
+   - **Rotation Control**: Adjusts orientation.
+   - **Memory Presets**: Recalls selected settings upon powering on.
+   - **USB and External Application Interaction**: Facilitates data transfer between the OSD and connected devices.
+
+3. **Navigation and Control**:
+   - Use directional buttons to scroll through options.
+   - The [ENTER] key selects options and confirms settings.
+   - **Iris Adjustment**: Options available for normal, open, or close functions.
+   - **Zoom & Focus Controls**: Adjusts the focus from near to far.
+
+4. **Wireless Operation**: 
+   - Enables remote adjustments. 
+   - Battery management includes replacing with R03 or AAA batteries, observing proper polarity.
+
+5. **Setup and Connection Instructions**:
+   - **USB Connection**: Link the device to a PC via USB for operation.
+   - **DVI & RGB Inputs**: Connects additional external components, with specific pin assignment for the RGB input.
+   - **Power Management**: Emphasizes the importance of proper connection to avoid equipment malfunction.
+
+6. **Storage and Functionality**:
+   - Describes the procedure for storing settings and retrieving them efficiently.
+   - **SD Card Management**: Advises on storing and accessing data from SD cards, highlighting the recommended sizes.
+
+7. **SD Operation Procedure**: 
+   - Provides instructions for handling SD cards in recording and playback modes.
+   - Details on how to switch shooting modes and deal with write protection issues for the SD card.
+
+This structured guide enhances user interaction with the device while ensuring clarity on functional capabilities and connection procedures.
+
+Here is a paraphrased version of the provided text with a technical tone while maintaining the original meaning:
+
+---
+
+**Operation Overview:**
+
+To format the SD card, use the front controls or wireless interface to access the OSD by pressing the [MENU] button. Select the desired option and confirm by pressing [ENTER]. To cancel, select [NO]. Formatting the SD card will erase all data on it.
+
+**Using Software via USB:**
+
+Connect the device to a PC via USB to utilize the software options available. The recommended software includes "ELMO TWAIN DS," compatible with Microsoft Windows 2000 (SP4 or newer). Ensure the USB connection adheres to USB 2.0 standards. When connected, the PC will recognize the SD card for data transfer.
+
+**Shooting Procedures:**
+
+For image rotation, adjust settings as necessary using the OSD during shooting. 
+
+**Lighting Controls:**
+
+Activate the lighting by pressing the front or wireless controls. The lighting will toggle on/off with each press. When operating in low light conditions, adjust the angle of the head for optimal illumination.
+
+**Focus and Iris Adjustments:**
+
+To automatically focus, press the [AF] button on either the front or wireless control. For manual focus adjustments, use the [FOCUS NEAR] or [FOCUS FAR] buttons. The iris can be opened or closed with the [IRIS OPEN] or [IRIS CLOSE] buttons, allowing adjustments to brightness.
+
+**Memory Functions:**
+
+Settings such as iris, white balance, and other configurations can be saved. Access the memory options through the wireless interface and use the [PRESET] or [CALL] functions to store or recall settings.
+
+**LCD Mounting:**
+
+To mount the optional LCD (LM-5011N), connect it via the [VIDEO OUT] port using an RCA cable alongside an accessory LCD (MS-30).
+
+**RS-232C Specifications:**
+
+This device can be connected to a PC through the RS-232C interface. Follow the appropriate instructions for software communication and ensure the PC's power is on before establishing the connection.
+
+**Command Formatting:**
+
+Communication occurs in a 1-command/1-packet format. Commands are transmitted in ASCII and include various operations such as lighting selection and image settings. Acknowledgements (ACK/NAK) will confirm successful command receipt or highlight errors during transmission.
+
+**Specifications Summary:**
+
+This section outlines the communication parameters, including command formats and functionality for various device operations.
+
+--- 
+
+This paraphrased text maintains the technical details while enhancing clarity and flow.
+
+**Functionality Commands:**
+
+1. **Function Commands:**
+   - DE II: To the SD
+   - SL II: To the SD 
+   - SU II: To the SD 
+   - Format SF II: To the SD 
+   - CA II: To the SD 
+   - USB UM II: To switch the USB (Application) 
+   - GM II: To the RO 
+   - Edge AP (OFF) II 
+   - (High) White AW: To switch the white 
+   - (One (R (R Down) (B (B Down) 
+   - Text CT (OFF) II: To switch (ON) 
+   - NP II: To adjust Color/B&W 
+   - CB (Color) II: To switch to Color/B&W 
+   - LL (OFF) II: For front operation (ON) 
+   - Wireless DF II 
+   - QS II: To review the ROM 
+   - QR II: To examine the ROM 
+   - ACK SA (OFF) II: To toggle ACK (ON) 
+   - CR SC (OFF) II: To toggle CR (ON) 
+   - RS-232C ABOUT II: Pertaining to the SPACE [20H] 
+
+**RS-232C Information:**
+Upon correct RS-232C and PC connection, acknowledgement is transmitted. Ensure screws are tightly fastened for proper operation.
+
+**Troubleshooting:**
+
+**Symptoms and Verification:**
+Review the following issues. For abnormalities, consult your point of purchase or a local office.
+
+- Ensure the item is properly connected to the TV.
+- Confirm power is connected to the AC source.
+- If the device turns ON but immediately powers OFF, attempt to switch it OFF for several seconds before turning it back ON.
+- If the device is too close to the TV, adjust the focusing.
+- If the protective indicator light flashes quickly, allow for preheating.
+- For PAL connections, ensure proper input and switch settings are correct.
+- If light intensity is insufficient, use the front panel or remote to adjust.
+- Vertical stripes may indicate interference from other devices.
+- The LCD may display manual clock settings; adjust brightness as needed.
+
+**Specifications:**
+
+**Item Specifications:**
+- Power: 12VDC (AC 240VAC), 30W (AC included)
+- Input Options: DVI, DVI-D 24P, RGB input DSUB 15P, RS-232C 9P, USB Memory interface, SD RGB DSUB 15P, RCA (NTSC/PAL), DIN 4P.
+- Shooting Specifications: 
+  - Aperture: F2.8
+  - Effective resolution: RGB 600TV or 450TV.
+- Connections: DVI TMDS (Terminated), RGB unbalanced, Negative polarity compatible with NTSC/PAL.
+- Features: White and Color/B&W selection, edge recording (SD 9-splits, 16-splits).
+
+**Lighting Specifications:**
+- High lighting: FPL9EX-N
+- WIDE compatibility with XGA: VESA standards.
+
+**Included Accessories:**
+- Instruction Manual (P10)
+- Warranty Card (P10)
+- USB TFT LCD (LM-5011N)
+- Software CD-ROM
+- RCA with EIAJ RC-6703.
+
+**Additional Notes:**
+All terms and features are registered trademarks of their respective owners.
+

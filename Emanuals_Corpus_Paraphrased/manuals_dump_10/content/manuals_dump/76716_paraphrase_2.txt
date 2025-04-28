@@ -1,0 +1,34 @@
+### Sound Card Interface ELK-129
+
+The ELK-129 Sound Card Interface is compatible with various ELK products, including the ELK-120, ELK-124, and ELK-MV480. It comes with software that facilitates downloading to the ELK-120 or ELK-124 switch, allowing sound effects playback. This functionality involves using the on-board microphone and supports .WAV file formats.
+
+### Operation
+
+Originally designed for the ELK-120 and ELK-124, the ELK-129 operates in a similar manner. For integration with the ELK-MM447 or ELK-MV480, the ELK-129 must be paired with either the ELK-MK485 or ELK-MK400. The included software will guide you through the installation and usability. 
+
+### Installation Instructions
+
+For the installation of the ELK-129 software on ELK-120 or ELK-124 systems, run the setup by navigating to A:\SETUP, then follow the prompts. Make sure to select the right directory during installation. Once installed, open the software to access the Cool Software and load the necessary sound files. 
+
+### Sound Recording and Playback
+
+While using the recording features, you can select between using the on-board microphone or an external input. Adjust dip switches to configure channels (CH1 or CH2) as needed. Be sure to power the ELK-129 correctly with a suitable DC AC source and check that the connections are secure to avoid interference.
+
+### Troubleshooting Tips
+
+If you encounter issues while recording or playing back sounds, check the settings on your Cool Software and the connections of the audio input and output. Adjust the volume levels if distortion occurs and follow the troubleshooting section for further guidance.
+
+### Additional Notes
+
+The ELK-129 recording software supports cool batch processes, which can enhance the functionality of your recordings. If you follow this process, you should effectively capture and manipulate .WAV files for playback. 
+
+For further technical details, refer to the specific instructions provided with your ELK-120 or ELK-124 interface.
+
+To adhere to the previous shooting guidelines, use the Cool software correctly with the ELK-129. You should only hear sound from the LEFT channel. Confirm this by checking your headphones and the AUDIO OUT settings. If sound is coming through the LEFT channel, ensure the output levels are aligned. While increasing the audio output, consider using the PLAY LOOP function, which allows for sound playback to modify levels. Press STOP once you've finished.
+
+If you're already utilizing a method that bypasses the need for manual adjustments, use the RECORD switch and click PLAY. Instead of manually starting with PLAY, apply the shortcut for efficiency. 
+
+If issues arise during recording, check for distortion, particularly from the microphone pickup, such as clipping from high peaks. Ensure not to overcomplicate the recording process; if your aim is to stretch the sound, be aware that improper adjustments can lead to corruption. 
+
+When applying effects, like stretching, make sure they are suitable for the original recording to avoid degradation. If problems do emerge, refer to troubleshooting steps with CoolEdit for effective functionality and conversion of recordings.
+

@@ -1,0 +1,48 @@
+### HBA Documentation Overview
+
+**Copyright Notice**  
+All rights to this document are retained by the Corporation. Unauthorized reproduction or distribution of this material is prohibited without the Corporation's written consent. The information provided herein is for reference purposes and does not impose any liability on the Corporation regarding third-party rights. References to trademarks, such as LightPulse, BlockGuard, InSpeed, SLI, and SBOD, belong to their respective owners.
+
+#### Table of Contents
+1. Introduction
+2. Jumpers
+3. Attaching the Device
+4. POST Conditions and Specifications
+5. FCC Notices and Conformance
+
+---
+
+**Introduction**  
+This document describes the Host Bus Adapter (HBA) designed for Fibre Channel (FC) communication at speeds up to 8 Gb/s. The HBA adheres to the PCI CEM Specification, integrating advanced features for reliable performance. It supports ANSI FC standards, providing high throughput and ease of operation. Key features include end-to-end path-parity and redundancy using cyclic redundancy check (CRC) protection, along with error-correcting code (ECC) for memory integrity.
+
+The HBA supports both low-density configurations and high-density applications. It features a state-of-the-art ARM processor, managing memory operations and data integrity, while enabling compatibility with various I/O technologies. The system incorporates buffer-to-buffer (BB) credits and firmware updates for enhanced performance.
+
+The HBA is compliant with various international regulations, including RoHS directives. It is operational with several operating systems, including NetWare, Solaris, HP-UX, and AIX.
+
+**Hardware Installation**  
+The HBA is equipped with a unique identifier (ID), which must be properly configured for effective operation. Each unit is shipped with a World Wide Name (WWN) for FC connectivity. The device is designed for PCI low-profile mounting and includes necessary screws for installation.
+
+To connect the HBA, use the LC connector following the specified guidelines. Ensure the connections are secure for safe operation. During the Power-On Self-Test (POST), the HBA's operational status is indicated by LEDs, which provide feedback on various conditions.
+
+**POST Conditions and LED Indicators**  
+The operational status of the HBA is indicated through LED signals during the POST process. Each state represents different scenarios, such as normal operation, errors, or restricted functionality. A specified table outlines these conditions for easy reference.
+
+**Specifications**  
+The HBA conforms to standards set by various regulatory bodies. Compliance measures include electromagnetic compatibility (EMC), safety guidelines, and testing protocols to ensure product reliability.
+
+**FCC Compliance**  
+The HBA is designed to meet FCC Class A standards for operation, ensuring minimal interference during use. Users must adhere to operational guidelines to maintain compliance.
+
+**Declaration of Conformity**  
+This HBA adheres to international safety and emissions regulations. Any modifications or misuse may void certifications. Proper installation and adherence to specified guidelines are necessary for sustained functionality.
+
+**End of Document**
+
+Alternatively, the provided information pertains to the IEC Class specifications for the countries listed below. This information features a white background. It contains details in English regarding Class designations for various countries.
+
+**Product Information Factor:** This factor encompasses both integrated and subassembly elements. The subassembly pertains to shortwave aspects and relates to the specifications established by the U.S. DHHS and within standards EN60825-1/EN60825-2. Shortwave parameters and their compatibility are critical when connected to another system. The relevant Class incorporates protective features that ensure compliance with operational constraints. 
+
+The functional supply voltage is typically specified at approximately 3.465V. The performance and compliance of products within the specified Class must adhere to established criteria. If the supply voltage falls within the designated range, those products will properly reflect their Class categorization in the U.S. 
+
+To maintain compliance, affected products must undergo recertification when integrating these factors, and they must also align with standards such as IEC950 and DHHS regulations. The necessary conformity factors can be obtained from the relevant corporation.
+

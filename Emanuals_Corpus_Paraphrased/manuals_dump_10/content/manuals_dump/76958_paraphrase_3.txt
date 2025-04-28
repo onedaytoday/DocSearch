@@ -1,0 +1,133 @@
+# User Manual for ESD-380 Heavy Duty Model
+
+## Table of Contents
+- **Preface** 2
+- **Features** 3
+- **Precautions** 5
+- **Quick Start Guide**
+  - Function Definitions
+  - Quick Start from ESD-CC1 Keyboard
+  - Switch Settings
+  - Switch Definitions 12
+- **Installation** 17
+- **Connections**
+  - 22-Pin Connector Definitions
+  - RS-485 Connector
+- **OSD Display Format** 19
+- **OSD Display Specifications** 20
+- **System Architecture** 21
+- **OSD Menu** 22
+  - OSD Tree Structure
+  - Menu Item Appendix
+- **Pelco Support** 32
+  - Symbol Definitions
+  - Special Functions for Dome Camera Control
+- **Philips Allegiant Support** 34
+  - Symbol Definitions
+  - Special Functions for Dome Camera Control
+
+---
+
+## Preface
+The ESD-380 model combines performance with rugged housing, ensuring security and ease of installation. Featuring advanced DSP technology, it offers 22x and 12x optical zoom (23x with additional features) and a resolution of 364x (276x with specific conditions). Continuous backlight compensation and infrared capabilities enhance usability across various lighting conditions. The RS-485 functionality allows remote monitoring and control, adapting automatically to real-time conditions. This device is designed for durability, thoroughly tested in accordance with ISO standards, ensuring high performance and reliability at competitive pricing.
+
+## Camera Features
+### Performance
+- **Zoom Capabilities**: 23x with 12x continuous zoom (IR ON)
+- **Dynamic Range**: Available in multiple modes including advanced DSP for better white balance and backlight optimization.
+- **WDR and Continuous Operation**: High Dynamic Range (WDR) and optimized continuous operation features enhance picture quality under varying lighting conditions.
+
+## Rotary Body Features
+The rotary design allows:
+- Preset and Auto-Turn Around functions that enhance tracking efficiency.
+- Quick adjustments with multiple preset settings for continuous monitoring.
+
+### Remote Features
+- Built-in support for remote functionality allows users to control camera movements and perform system phases directly from the OSD.
+
+## Precautions
+To ensure longevity:
+- Avoid exposing the device to high shock or extreme conditions beyond -30°C to 45°C (-22°F to 104°F).
+- Clean with a soft cloth to prevent scratching the lens or display.
+
+## Quick Start Instructions
+**From ESD-CC1 Keyboard**:
+1. Select the camera using the <DOME> button and input the ID.
+2. Utilize preset functions by pressing <SET PRESET> or <GO PRESET> for operations.
+3. Access the OSD with <SETUP> for various configurations.
+  
+## Installation Steps
+1. Unpack the camera and remove packaging.
+2. Install the mounting bracket securely with screws, avoiding any damage.
+3. Connect the power supply and signal cables according to specifications.
+
+## Cable Connections
+### 22-Pin Connector Definitions
+- **AC Connections**: T+, R-, T-, R+
+  
+## OSD Display Format
+- **Display Functionality**: Features include focus modes, backlight settings, and alarms with customizable titles.
+
+## General Features
+- Interfaces: RS-485, 52W power source.
+- Control Features: Includes presets, PTZ functionalities, and motion detection.
+
+This document should facilitate familiarity with the ESD-380's capabilities and ensure effective deployment. For detailed specifications or troubleshooting, please refer to the respective sections or consult technical support.
+
+This text outlines the OSD tree structure and setup menu for a tree-type user interface. Below is a reorganized version retaining the original content's meaning:
+
+---
+
+### OSD Tree Structure Overview
+
+This section presents the default setup menu and its components:
+
+- **Menu Settings:**
+  - **BLC Level:** Backlight configuration
+  - **Focus:** Near/Far adjustments
+  - **Aperture:** Options include Auto, Manual
+  - **AE Mode:** Automatic Exposure settings
+  - **WBC Mode:** White Balance Configuration
+  - **ID Display:** Toggle ID visibility
+
+- **Camera Controls:**
+  - **Backlight:** Adjust to enhance visibility in low-light settings.
+  - **Focus Adjustment:** Fine-tune the focus manually or automatically.
+  - **Aperture Control:** Switch between automatic and manual settings for optimal light input.
+  - **Iris and Shutter Settings:** Manual and automatic control options for exposure management.
+  - **AGC (Automatic Gain Control):** Options for adjusting gain manually or automatically.
+
+- **Menu Navigation:**
+  - Use LEFT/RIGHT/UP/DOWN keys to navigate through menu options.
+  - Select the desired item by pressing ENTER.
+  - Access special functions such as Auto Flip and Digital Zoom for enhanced usability.
+
+- **Alarm and Home Settings:**
+  - **Alarm Action:** Define actions for various alarm types.
+  - **Home Function:** Turn the home function ON/OFF.
+  - **Sequence Management:** Set up sequences with defined points, speeds, and dwell times.
+
+- **Recording and Autopan Functions:**
+  - Start and stop recordings based on specific triggers.
+  - Implement autopan functionality to move along a defined path.
+
+- **IR and WDR Functions:**
+  - Configure IR sensitivity and color settings.
+  - Adjust WDR (Wide Dynamic Range) for better image quality in varying light conditions.
+
+- **Privacy Settings:**
+  - Manage privacy zones and configure mask areas within the camera’s view.
+
+- **Cable and Connection Information:**
+  - Utilize RS-485 connections with appropriate cable lengths and types for optimal performance.
+
+### Important Instructions:
+- To exit menus or save settings, follow designated commands. Ensure proper connections as outlined for seamless operation with different control systems.
+
+### Note:
+For further assistance or technical support, visit the website: www.elmousa.com.
+
+--- 
+
+This version maintains technical accuracy while improving clarity and organization.
+

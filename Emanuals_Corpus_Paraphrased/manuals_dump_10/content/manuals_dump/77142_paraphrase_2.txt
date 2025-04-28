@@ -1,0 +1,108 @@
+### ET2239L LCD Touchmonitor
+
+**ET2239L LCD Touchmonitor Manual**  
+P/N E653007  
+1-800-ELOTOUCH  
+www.elotouch.com  
+
+**Copyright Notice:**  
+This publication may not be reproduced, transmitted, or translated in any form without prior written permission from TouchSystems. The information contained herein is provided "as is" without warranties, including but not limited to implied warranties of merchantability or fitness for a particular purpose. TouchSystems reserves the right to make modifications or improvements to this document without prior notification.
+
+### Product Overview
+
+The ET2239L Touchmonitor leverages LCD technology, specifically employing thin-film transistor (TFT) technology along with Acoustic Pulse Recognition (APR) and SecureTouch technologies. It features VGA and DVI-D inputs, supports Picture-in-Picture (PIP), and includes USB interfaces with APR functionality compatible with USB only. For additional information, visit www.elotouch.com.
+
+#### Chapter Outline:  
+- Introduction to the Product  
+- Touchmonitor Interface and Mounting  
+- On-Screen Display (OSD)  
+- Troubleshooting FAQs  
+- Technical Specifications  
+- Warranty Information  
+
+### Product Description
+
+The ET2239L Touchmonitor is designed for enhanced performance with its LCD technology, featuring a sleek, active TFT display. Support for APR and SecureTouch provides advanced touch capabilities. The device connects via VGA and DVI-D ports, including USB for APR functionalities.
+
+### Installation and Setup
+
+**Unboxing:**  
+Ensure you have the following items:  
+- ET2239L Touchmonitor  
+- USB cable  
+- OSD CD  
+- DVI-D connection cable
+
+**Installation Steps:**  
+1. Connect the touchmonitor to your computer using either the DVI-D or USB cable.  
+2. Secure connections by tightening screws.  
+3. Power on the device after proper connections.
+
+**Driver Installation:**  
+To install drivers for Windows XP and other operating systems, use the CD provided.  
+1. Select "Next" and choose "Search the CD" for the recommended option.  
+2. Specify the installation directory when prompted.  
+3. Follow the screen instructions until installation is complete.
+
+### Mounting Instructions
+
+Follow the specified diagrams to mount the touchmonitor securely. Ensure stability and compliance with standard mounting practices.
+
+### Operating Instructions
+
+The ET2239L Touchmonitor includes OSD controls to adjust settings. The relevant buttons perform the following functions:  
+- **MENU:** Access or exit the OSD  
+- **UP/DOWN:** Adjust current settings  
+- **AUTO/SEL:** Automatically select optimal settings  
+
+To unlock a locked OSD, press and hold the MENU and UP buttons for several seconds until "OSD Unlock" appears.
+
+### Troubleshooting
+
+In case of operational issues:  
+- Check the power supply and ensure connections are firm.  
+- Adjust the brightness or inspect for display anomalies using the OSD settings.  
+
+For persistent issues, refer to the touchmonitor support section on www.elotouch.com.
+
+### Safety and Regulatory Information
+
+To prevent electrical shock, ensure the touchmonitor is properly grounded. Avoid using unauthorized cleaning substances on the touchscreen. Follow all safety guidelines to maintain both the device's functionality and the validity of its warranty.
+
+### Technical Specifications
+
+**General:**  
+- Active TFT LCD  
+- Dimensions: 473.76 mm (H) x 296.1 mm (V)  
+- Pixel Pitch: 0.282 mm (H) / 0.282 mm (V)  
+- Typical Brightness and Configuration Settings
+
+**Environmental Conditions:**  
+- Operating Temperature: 0°C to 40°C  
+- Storage Temperature: -20°C to 60°C  
+- Humidity Tolerance: Up to specified limits  
+
+For complete mechanical specifications, refer to www.elotouch.com.
+
+### Regulatory Compliance
+
+**FCC Compliance:**  
+This device meets Class B standards to minimize interference. Follow all guidelines for installation and setup to maintain compliance.
+
+For further information or detailed specifications, please refer to the official documentation available online.
+
+### B) Notice Regarding Compliance with Industry Regulations
+C) Notification to the Union: This document relates to the interconnecting cabling and associated cords, specifically addressing compliance with the ITE and CE regulations listed below. These items have been tested in accordance with the CE EMC Directive 89/336/EEC and Directive 73/23/EEC, as indicated by EN standards.
+
+D) User Information: If users experience interference, it is important to understand that multiple factors can contribute to this issue. The user must ensure proper connections with the I/O cords. Should interference occur, users are advised to turn off and unplug the device, or reposition the affected receiver to minimize disruption. Disconnect devices from the AC outlet to eliminate RF emissions that could lead to interference or shock hazards.
+
+III. This notice pertains to environments where the following stipulations are applicable, as outlined below for the ET2239L.
+
+### WARRANTY
+Unless otherwise stated, the manufacturer warrants that the product is free from defects in materials and workmanship. The warranty covers the touch monitor for a specific period. Any claims must be submitted in writing within thirty days of discovery of any defect, allowing the manufacturer to inspect the product. Should the product be found defective, the manufacturer will offer options for repair, replacement, or a credit towards a future purchase of the ET2239L.
+
+### REMEDIES
+THOSE REMEDIES SPECIFIED HEREIN ARE EXCLUSIVE TO THE BUYER FOR ANY BREACH OF WARRANTY. BESIDES THE EXPRESSED WARRANTY ABOVE, NO FURTHER WARRANTIES, WHETHER EXPRESS OR IMPLIED, COME FROM THE SELLER, INCLUDING FITNESS FOR A PARTICULAR PURPOSE, QUALITY, MERCHANTABILITY, OR NON-INFRINGEMENT. NO EMPLOYEE OF THE SELLER IS AUTHORIZED TO MAKE ADDITIONAL WARRANTIES. THE SELLER'S LIABILITY RELATED TO THE WARRANTY IS LIMITED TO REFUNDING THE PRODUCT'S PURCHASE PRICE. UNDER NO CIRCUMSTANCES SHALL THE SELLER BE RESPONSIBLE FOR REPLACEMENT COSTS, INSTALLATION OF SUBSTITUTE GOODS, OR ANY SPECIAL, CONSEQUENTIAL, INDIRECT, OR INCIDENTAL DAMAGES. This warranty also encompasses responsibilities related to the product and its integration with third-party products. 
+
+For more information about the ET2239L, please visit www.elotouch.com or contact our North American office at ELO-TOUCH, D-85521, N.V. B-3010, ET2239L 2F, Printed in the USA.
+

@@ -1,0 +1,95 @@
+### Touch ET3201L Interactive Touchmonitor ET4201L Interactive Touchmonitor ET5501L Interactive Touchmonitor ET7001L Interactive Touchmonitor SW601990 USER MANUAL
+
+**Copyright Notice:** 
+No part of this document can be reproduced, transmitted, transcribed, or translated without the written consent of Touch Inc. The information herein is provided without warranties from Touch Inc. and its affiliates, whether implied or explicit including warranties of merchantability or fitness for a particular purpose. This document is subject to revisions or updates without prior notice. Acknowledged trademarks include AccuTouch, CarrollTouch, Touch TouchSystems, SecureTouch, TouchTools, and Microsoft Corporation. 
+
+---
+
+### Table of Contents
+- Introduction
+- Touchmonitor Overview
+- Mounting Guidelines
+- Technical Specifications
+- User Information
+- Warranty Information
+
+---
+
+### Introduction
+The Interactive Display Series (IDS) touchmonitor presents high performance with advanced touchscreen technology. This touchmonitor features an active thin-film-transistor LCD design, ensuring optimal performance. It offers HD graphics and additional functionalities consistent with the IDS family. Compatibility depends on the specific hardware and cabling used. For optimal operation, it's recommended to position the touchmonitor with proper ergonomic considerations, especially the larger ET7001L model which requires at least four users.
+
+---
+
+### Unpacking Instructions
+To unpack the IDS touchmonitor, ensure it is oriented correctly with all protective locks secured. For the ET7001L model, carefully remove the top packaging. Always unpack the touchmonitor on a soft surface to prevent scratching.
+
+---
+
+### Connector Interfaces
+For safe operation, it is advised to have at least four individuals when mounting the larger touchmonitors. OSHA/NIOSH guidelines recommend connecting the following: HDMI, USB, and COM ports along with the appropriate power supply. The touchmonitor can interface through various connection methods as indicated in the specifications.
+
+---
+
+### Mounting Information
+To ensure secure installation, set the touchmonitor face-down to prevent scratches while attaching mounting equipment. The following mounting options are supported: landscape, portrait, and table-top configurations.
+
+- **VESA Mounting Options:**
+  - VESA MOUNT PER MIS-F, 400x400x6MM
+  - VESA MOUNT PER MIS-F, 600x600x6MM
+  - VESA MOUNT PER MIS-F, 400x400x8MM
+
+---
+
+### Power and Operation
+To turn on the touchmonitor, press the respective controls once. Avoid abruptly powering it down. The LED indicators will change states based on operational modes (Sleep, On, Off). Refer to the specified technical details for particular model behavior.
+
+---
+
+### Touchscreen Functionality
+The touchscreens support multiple interactions and can recognize a range of gestures. When connected, the touchscreen captures and registers every touch event.
+
+---
+
+### On-Screen Display (OSD)
+The OSD is accessible via specific buttons located on the monitor. An LED indicator will signify active states. The following functionalities are available through the OSD interface:
+
+- Source Selection 
+- Brightness Adjustment 
+- Contrast Control 
+- Sharpness Tuning 
+- Aspect Ratio Configuration
+
+---
+
+### Additional Features
+Settings allow switching between input sources (e.g., HDMI, VGA, DisplayPort) while calibrating parameters like brightness and sharpness to enhance visual quality. The user is able to adjust color temperature and other display settings as per their preferences, ensuring an optimized viewing experience.
+
+---
+
+### Conclusion
+For detailed specifications and operational guidelines, please visit www.elotouch.com where further resources are available. Additional operational insights and software downloads are also accessible for users.
+
+### Paraphrased Text
+
+The OSD (On-Screen Display) inactivity settings for the Touchmonitor enable users to manage the display's behavior regarding OSD closures. Users can adjust the OSD's position horizontally (centered) and can recall settings to switch between different modes, including DDC/CI and thermal protection information. This functionality allows users to access detailed information about the touchmonitor and can be modified according to individual preferences.
+
+The OSD options can be navigated using the on-device buttons, such as selecting sources like HDMI or DisplayPort. Users can adjust audio settings, including enabling or disabling headphone functions directly through the OSD. 
+
+For units like the RFID-equipped 3201L and 4201L, integration with RFID peripherals is possible, enhancing functionality. Users should refer to the documentation available at www.elotouch.com for detailed instructions. The boot process can involve following prompts from a CD, ensuring the OS boots correctly by making necessary selections.
+
+The touchmonitor supports multiple USB profiles for improved connectivity. Users can view information regarding the monitor's status through the OSD settings. 
+
+Thermal protection settings automatically reduce backlight brightness when the operating temperature exceeds specified limits. If the temperature rises too high, the OSD indicates that thermal protection is active and will turn off the touchmonitor if the temperature remains above safe operating levels for an extended period. 
+
+The following temperature thresholds dictate operation: operations at normal brightness occur below 55°C, while higher temperatures require different brightness adjustments to prevent overheating. There are designated operating temperatures: 0°C to 40°C for normal use, with a storage range of -20°C to 50°C. Users are instructed to maintain appropriate operating conditions and to disconnect the device for cleaning to avoid damage. 
+
+All relevant service information and technical support can be accessed through www.elotouch.com, with compliance information stating that products meet established FCC and CE directives for interference and performance standards.
+
+As specified in the EMC Directive 2004/108/EC and the Directive 2006/95/EC, related to EN standards, users should be aware of potential interferences. Such interferences may impact I/O connections and device immunity. If there is interference affecting device performance or reception, try the following steps: first, unplug the device. If the issue persists, relocate the affected receiver or adjust its orientation. It may also help to reposition the AC connections and branch I/O cables.
+
+Relevant compliance with various agencies includes VCCI, BSMI, RCM, KC, FCC, UL, CUL, IC CoC, CCC, EAC, and CE. Regarding environmental regulations, products may contain toxic substances such as Lead (Pb), Mercury (Hg), and Chromium, as indicated by the SJ/T11363-2006 standards. The presence of such substances in homogeneous materials is noted, and compliance with EU RoHS is affirmed.
+
+Operating humidity ranges from 20%-80% (non-condensing) and 10%-90% (non-condensing), respectively. It is crucial to handle these products with care and not dispose of them carelessly.
+
+For warranty and product specifications, visit www.elotouch.com or contact ELO Touch Solutions North America at 800-ELO-TOUCH. All rights reserved by Interactive SW601990 E, ELO Touch Inc.
+

@@ -1,0 +1,192 @@
+**Motion DSP User Notice**
+
+This document serves as a reference for users regarding the text and graphics related to Motion DSP. The specifications contained herein may be subject to change without prior notice. This information is intended solely for reference, and any references made to Motion products (documented in MAN-CAN402IG) are based on the initial release from September (HARCREN1102). Copyright rights for this material are held by Motion Inc., located in Massachusetts, USA.
+
+**DSP MAN-CAN402IG Overview**
+
+The DSP Dictionary provides predefined terms pertaining to motion control, including operational options such as abort types and supported inputs. It also outlines control words and various shutdown reaction options.
+
+**Factors Influencing Performance**
+
+The relationship between physical parameters, functions, and polarity are discussed extensively, including velocity factors and homing methods. Included are methodologies for homing switches and procedures for achieving homing in various contexts.
+
+**Profiled Information**
+
+Software velocity profiles and various implementations are detailed. Synchronization and selection of profiled velocity are explained, along with applicable velocity thresholds.
+
+The DSP operates within a structured framework that links to the CiA DSP family and integrates with commands such as OS RS-232. Users can interact with DSP commands via this interface, while maintaining proper operational states and referencing fault reset protocols through control words via the OS.
+
+**Information Architecture**
+
+This document includes information on I/O scaling, services, and dictionary structures that facilitate motion product operations. The content addresses specifics like command structures and software references that correspond to the DS 301-based options.
+
+**Homing and Interpolation**
+
+Homing functionality is detailed, showcasing the interaction between different types of homing offsets and the implications for motion velocity and acceleration profiles.
+
+**Index of Terms**
+
+The index summarizes access types, velocity selections, homing settings, and command specifications that allow for nuanced control over motion parameters. The internal reflections of these parameters are clarified to aid in configuration and operation.
+
+This organized structure provides a comprehensive guide for users to effectively utilize DSP functionalities and manage motion control within the specified frameworks.
+
+**DSP MAN-CAN402IG Emergency Overview**
+
+This document details the type and functionality of the DSP, referencing its standards aligned with CiA DS-301 and its interaction with field devices. The DSP allows users to manage various operations through PDOs (Process Data Objects), including command handling. 
+
+**PDO Management**
+
+The DSP features four PDOs that can be controlled via a dictionary setup. NMT (Network Management) introduces these PDOs, which interact with control words to facilitate command flows. For example, the asynchronous transmission of TPDO1 occurs based on the reception of a specific control word, with timing adjustments allowing for flexibility in performance. 
+
+**Common Functions and Parameters**
+
+Common functionalities associated with the DSP include an Abort option, heartbeat monitoring, and a range of object types specifying variable access levels (e.g., INTEGER16, UNSIGNED16). Each function is monitored and reported, maintaining an operational status that permits user interventions like Quick Stop commands. 
+
+**Operational States**
+
+The DSP transitions through various states (e.g., NOT READY TO SWITCH ON, SWITCH ON DISABLED, READY TO SWITCH ON, etc.) based on conditions indicated by the control word. Each state represents specific operational conditions, enabling or disabling transitions as necessary. 
+
+**Interlock and Command Control**
+
+The DSP interlock system relies on switch mechanisms that are logically active when certain conditions are met, allowing for the management of motion commands. State transitions are governed by control word signals dictated by external commands and overall system status.
+
+**Fault Management**
+
+In cases of fault detection, the DSP executes predetermined reactions, which may involve temporarily disabling operations or requiring host commands to transition back to a ready state. The DSP retains flexibility in responding to faults and maintaining overall system integrity.
+
+**Additional Information and Software Reference**
+
+For comprehensive details and functionalities, users can refer to the specified software documentation, where access methods and additional operational parameters are outlined. This enhances user capability to accurately manage and manipulate DSP functions effectively. 
+
+This description aims to present the technical functionality of the DSP MAN-CAN402IG while preserving the essential meanings and operational details as outlined in the original document.
+
+### Paraphrased Technical Document:
+
+**DSP MAN-CAN402IG**: The transition from "NMT" to "SWITCH ON" is marked as disabled. The control word is set according to previous conditions. If certain errors occur (e.g., "QUICK STOP" or "FAULT"), control words can be rejected or aborted if limits are exceeded. RPDOs interface with the control system, and the trigger states at least one warning signal. Control word timing is measured in milliseconds.
+
+**Control Word Details**: This document defines the command controls such as Shutdown, Switch On, and Stop Command associated with the SWITCH_ON functionality, indicating that if none of these commands are executed, it still functions as a Stop command.
+
+**Operation Modes**: Detailed in the relevant chapter, operation modes such as New Homing and other features are addressed. Their functionality is dependent on proper setup and activation, with various operation settings being latched.
+
+**Operational Variables**: These include velocity profiles, where mandatory variables are defined as UNSIGNED16. States such as "Ready to Switch" or "Switched Active" should denote the system's operational readiness.
+
+**Reaction Handling**: High or low signals indicate reactions to stopping conditions, and warning notifications for critical states will be provided. Any abort exceeding limits will trigger associated warnings.
+
+**Functional Options**: Various operational selections affect how commands are operated, with conditions for switch status and immediate responses outlined. This includes the requirements for performing operations smoothly.
+
+**Velocity and Acceleration Factors**: These factors are crucial for measuring operational efficiency. The document covers the interrelationships of internal and physical factors, emphasizing how they influence motion dynamics.
+
+**Polarity and Ratio Settings**: Different settings are provided for defining polarity in relation to operational variables, categorized under optional read/write access.
+
+**Velocity and Acceleration Settings**: The document outlines detailed entries for managing velocity and acceleration settings, noting that overflows need to be carefully managed to avoid errors.
+
+**Homing Procedures**: This section elaborates the procedures involved in homing, including the importance of reference points and switch interaction to establish accurate positioning. The corresponding control word functions are also described.
+
+Here’s a rephrased and more technical version of your text while retaining the original meaning:
+
+---
+
+### DSP MAN-CAN402IG Homing Operation Notes:
+
+If the homing process is interrupted, the system may revert to the last known position. Once homing is completed, it returns to the established set point. During the homing procedure, the reference sensor must remain active, otherwise, it will be deemed inactive, thus terminating the operation. Successful homing is confirmed by reaching the defined velocity parameters. 
+
+### Offset Management:
+
+The DSP MAN-CAN402IG allows for offset adjustments. Once the homing sequence is finalized, the offset is established relative to the home position. The offset parameter is defined as a 32-bit integer, which supports read/write operations via PDO.
+
+### Homing Parameters:
+
+The homing status is represented as an 8-bit integer, which is mandatory for operation. Velocity during this process is crucial and typically maximized when searching for a homing switch. The homing variables are organized in an array format, allowing for multiple inputs that trigger the homing sequence.
+
+### Abort Conditions:
+
+An abort condition will be triggered if the maximum limit is exceeded during homing. The homing status is stored as an unsigned 32-bit integer, which can be modified through read/write operations. The command reference provides comprehensive details regarding these settings. 
+
+Homing is influenced by several parameters including the direction of actuation and the selected switches. The homing process may be independently managed to account for additional switches or inputs. In specific scenarios, the position count will increment until reaching the designated endpoint; otherwise, the system will revert if conditions are not met.
+
+### Homing Switch Input:
+
+In scenarios involving multiple homing switches, the system allows dynamic adjustments based on the configuration of these inputs. When the switches are activated, the system detects the chosen point automatically.
+
+### Further Functionality:
+
+The DSP provides closed-loop control for trajectory management with input influenced by PI/P settings. Exceeding specified thresholds can alter the operational velocity. Further details on timeouts and abort conditions are outlined, ensuring proper control of motion parameters.
+
+### Input Parameters:
+
+The DSP MAN-CAN402IG includes several input parameters, all of which can be adjusted and accessed via respective read/write entries. Notably, the system allows for adjustments in milliseconds to optimize response times.
+
+### Profiled Position and Motion Types:
+
+The software encompasses a range of motion profiles, including PTP (Point-to-Point) trajectories. Users can define motion characteristics including speed and polarity. The control system is flexible, allowing for immediate adjustments and a comprehensive motion profile management.
+
+### Final Remarks:
+
+Each parameter is reflected in system commands, ensuring seamless integration and operation. The software also includes mechanisms for adjusting offsets correctly, optimizing the overall functionality of the DSP.
+
+--- 
+
+This rephrasing maintains the essential technical details while enhancing clarity and coherence.
+
+## DSP MAN-CAN402IG Profile Velocity Overview
+
+**Profile Velocity** refers to the typical speed associated with a motion profile. The **Profile Velocity** parameter, defined as `VAR type UNSIGNED32`, is optional and can be accessed as a read-write PDO entry. This parameter reflects the velocity determined by the SP command, which is further detailed in the Command Reference documentation.
+
+In terms of its implementation, the profile velocity influences the speed at which the designated motion is accomplished. The parameter reflects the commanded speed once it has been reached.
+
+The **Profile Type** is indicated as an `INTEGER16` and is mandatory for access through read/write PDO. It specifies the type of motion being executed. 
+
+### Linear Motion Control
+
+The motion plans are controlled to ensure the velocity typically decreases while approaching a designated target. A control word acknowledges the motion, enabling the system to manage transitions between different motion stages effectively. The interaction between control commands allows for immediate response when a specific condition is met.
+
+### Interpolated Movement Information
+
+**Interpolated Movement** can be synchronized with external inputs, facilitating coordinated motion. This feature is governed by the DS301 standards, which allows for motions to be processed with reference to past input readings rather than continuously sending new commands. The interpolation mechanism records inputs to optimize communication with the system.
+
+When interpolated motion is inactive, all commands and records need to be updated until a valid state is reached. The system facilitates a control word flow to ensure trajectory consistency and acknowledges trajectory reception.
+
+### Data Input Structures
+
+The device configuration often interacts with various peripherals, requiring structured coordination. Data input types, such as arrays of `UNSIGNED8`, manage these inter-device interactions and allow for streamlined access across multiple records.
+
+The system allows for a clear FIFO structure, managing how data inputs are processed — whether through First In-First Out logic or as contemporary data records. This structure influences how motion path data, particularly time-synchronized movement paths, is handled.
+
+### Motion Synchronization
+
+Synchronization mechanisms in **Interpolated Motion** ensure that commands are executed in a coordinated fashion based on the system's specifications. If a previous synchronization occurs, it can influence the timing of subsequent commands to enhance responsiveness.
+
+### Profiled Velocity Configuration
+
+The **Profiled Velocity** section outlines parameters for velocity input and threshold management, vital for ensuring timely responses when the motion is triggered. Key functionalities facilitate emergency stops as necessary, ensuring safe operation standards are upheld. 
+
+Velocity increments are defined systematically, and adjustments are made based on specific factors that influence motion dynamics, ensuring seamless integration and operation within the system's framework. 
+
+In conclusion, this detailed setup reflects a comprehensive approach to motion control, emphasizing the importance of clear, structured communication and functioning between data inputs, command processing, and execution of designated motion profiles.
+
+Certainly! Here's a technical paraphrase of the text while maintaining the original meaning:
+
+---
+
+**DSP MAN-CAN402IG - Velocity Parameters**  
+
+The velocity, represented by `velocity_factor_1`, is an INTEGER32 type and is mandatory for entry with read-only access in the PDO. This velocity is an input variable that interacts with other velocities, denoted by UM=5 and UM=4.
+
+Another velocity parameter is of type UNSIGNED16, which is optional and allows both read and write access in the PDO, indicating its status as either velocity or phase.
+
+The velocity threshold, also measured in milliseconds, is classified as an UNSIGNED16 type with optional read/write PDO access. It determines whether the threshold is exceeded, indicating that the system is stationary.
+
+Additionally, a profiled rated force is discussed. This section outlines the closed-loop force requirements, including conditions for switching the control word and trajectory adjustments for both rotating and linear motors. It emphasizes the importance of force information for operational simplicity.
+
+Profiles are monitored through specific internal commands, which are impacted by the chosen operating profile. Details regarding these commands can be found in the Command Reference.
+
+The velocity function is linked to the control word and includes a required rate measurement, expressed in thousands and categorized as INTEGER16 with read/write PDO access.
+
+Reduced rates are calculated, and additional parameters such as the DC index and the rated force in Newtons are outlined with specified access rights.
+
+Lastly, tables detailing physical units of measurement such as velocity and current ratios, as well as notation for factors, provide further clarification and reference. 
+
+--- 
+
+Let me know if you need any modifications or additional information!
+

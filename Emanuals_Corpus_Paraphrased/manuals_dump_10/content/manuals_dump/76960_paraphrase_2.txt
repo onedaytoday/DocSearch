@@ -1,0 +1,117 @@
+**July www.elmomc.com**
+
+**Notice:** This document contains information intended for the users of Motion products. The text and graphics are provided for reference purposes only. Specifications are subject to change without notice. For related products, consult the Revision History dated July.
+
+**Caution:** This chapter includes important operational guidelines. Ensure proper grounding to minimize electrical hazards. Users should possess the knowledge and authorization to assemble, commission, and operate motors safely. Improper handling of electrostatic-sensitive components can lead to damage. 
+
+**Cleaning Instructions:** Use water-based cleaners to remove contaminants. Avoid arcing and ensure safety during operation. Protect sensitive components from electrical charges, and refrain from touching them during operation. The DC supply must comply with the outlined specifications.
+
+**Regulatory Compliance:** The Motion products adhere to industry standards including UL840 for Insulation Coordination and UL60950-1 compliance. The performance meets CE conformance requirements. Products are warranted against defects in materials and workmanship for a specified period from installation.
+
+**Introduction:** This chapter provides insights into system functionality and connections. The system operates on a DC supply, featuring advanced motion control capabilities. Users can control motion via a Windows-based interface with robust software support. 
+
+**Connector Overview:** Each connector (J1 and J2) serves specific functions for communication and input/output operations. Detailed pin configurations are provided for effective integration.
+
+**Mounting Instructions:** Ensure the PCB is mounted securely with adequate clearance for heat dissipation. Follow specifications for trace thickness and EMI compliance. Avoid using a common ground plane to prevent performance degradation.
+
+**PCB Design Considerations:** Careful design of PCB traces is essential for performance. Follow UL and IPC standards for conductor thickness to ensure safe operation across various input and feedback channels.
+
+For additional information and guidelines, visit www.elmomc.com.
+
+### MAN-GUIIG Overview
+
+The system features optically isolated input and output connections. Each input (INRET1 and INRET2) and output (OUTRET1 and OUTRET2) is designed to remain electrically isolated from other conductors to prevent interference. Traces must be arranged without any short circuits or crossover points. The power earth (PE) is directly connected to the heat sink to mitigate electromagnetic interference (EMI), and the chassis of the assembly should also be connected to the Protective Earth (PE). This configuration is crucial to avoid potential electrical hazards, such as shock or fire, while grounding EMI effectively.
+
+### Wiring Connections
+
+Connect the VP+, PR, and PE in the PCB integration section. The VDC supply is isolated, ensuring compatibility with the connected components. For the Auxiliary Supply, ensure PR receives power from the proper isolated source and not from the VDC directly.
+
+### Shared DC Supply
+
+The Shared DC supply powers both the unit and the auxiliary components. If there are power outages, ensure that the supply remains operational across all functional areas.
+
+### Feedback Configuration
+
+Feedback can be configured to receive inputs from various sources, such as tachometer setups or through an interpolated feedback system. Multiple configurations allow for different use cases, including follower or ECAM function inputs. The feedback assignment can be specified for each channel, ensuring accurate motion control.
+
+### Additional Technical Specifications
+
+1. **Motion Commands**: Support for multiple motion commands, including PTP, PT, PVT, and more. 
+2. **Advanced Positioning**: Velocity control is facilitated for precise operation across different modes.
+3. **Feedback Mechanisms**: Incorporates various feedback types, enabling smooth transitions and operational adjustments.
+4. **Thermal Management**: Proper heat sinking is crucial, with thermal limits established to maintain performance and prevent overheating.
+5. **Built-In Protection**: Includes short circuit and overheating protection mechanisms to safeguard internal components and ensure reliable operation.
+
+Make sure to follow all outlined connection procedures and consult the detailed technical specifications for any additional information regarding pin assignments and operational guidelines.
+
+### Technical Specifications MAN-GUIIG
+
+#### A.3 Unit Specifications
+- **Power Supply**: VDC input 
+- **Output**: Rated DC RMS efficiency 
+- **Mounting**: PCB mountable 
+- **Applications**: Suitable for DC motors (e.g., R45/48, R35/100, R30/200, R45/60)
+
+#### A.4 Operating Conditions 
+- **Temperature**: C° to F° (unlimited)
+- **Protection**: Not applicable
+- **Input Type**: Isolated DC supply 
+- **Power Ratings**: VDC input, VA (includes specifications from A.5)
+
+#### A.5 Functional Specifications
+- **A.5.1 Control Types**: On-the-fly AC to DC conversion, linear with PI-based control 
+- **A.5.2 Velocity Control**: Options for PI velocity control and feedback adjustments
+- **A.5.3 Software Options**: PI and FFW control; "On-the-fly" capabilities with optional interpolated feedback using tachometer input; feedback can be calculated internally or via software.
+
+#### A.6 Feedback Mechanisms
+- **A.6.1 Feedback Types**: Includes auxiliary feedback capabilities; refers to the power supply 
+- **A.6.2 Feedback Connections**: 
+  - A.6.2.1 Interface: RS-422 (to be determined), inputs for high/low phase signals 
+  - A.6.2.2 Input Behavior: In_Hall signal behavior under high or low conditions 
+  - A.6.2.3 Correction Mechanism: Internal counts for interpolated inputs with phase offset corrections 
+
+#### A.6.3 Tachometer Specifications 
+- **Inputs**: TAC1+/- and TAC2+/- variations 
+- **Functionality**: Feedback capable of providing precise rpm reference signals
+
+#### A.6.4 Output Formats 
+- **Outputs**: Phase outputs A, B, via emulated signals 
+- **Linearity Considerations**: Ensures accurate output despite signal interference 
+
+#### A.7 Interface Specifications 
+- **A.7.1 Input Interfaces**: Optically isolated inputs with high and low-level requirements 
+- **High-speed Functions**: Includes Home, Stop, and Soft Stop capabilities 
+- **Notes**: High-speed performance optimized when using optocouplers. 
+
+#### A.7.2 Connector Specifications 
+- **Location**: Placement of isolated supply connectors 
+- **Specifications**: Iout output requirements 
+
+#### A.8 Communication Protocols 
+- **Supported Interfaces**: RS-232, CANbus (CAN_H, CAN_L, CAN_GND) 
+
+#### A.9 Modulation Techniques 
+- **PWM Switching**: Factory set parameters for PWM modulation 
+
+#### A.10 Quality Assurance and Compliance 
+- **A.10.1 Quality Standards**: ISO certified specifications
+- **A.10.2 Reliability Predictions**: MIL-HDBK-217F for stress predictions 
+- **A.10.3 Safety Standards**: Compliance with UL840 for insulation coordination 
+
+#### A.10.4 EMC Compliance 
+- **Regulations**: Adherence to EN55011 and EN61000 standards 
+
+#### A.10.5 Workmanship Standards 
+- **Quality Assurance**: IPC-A-610 standards for workmanship 
+
+#### A.10.6 PCB Standards 
+- **Manufacturing Compliance**: IPC-A-600 for PCB requirements 
+
+#### A.10.7 Environmental Considerations 
+- **Compliances**: Aligns with WEEE (2002/96/EC) directive and applicable regulations 
+
+#### A.10.8 Hazardous Substance Regulations 
+- **Compliance**: Meeting directives 2002/95/EC for restricted applications 
+
+Please ensure that all out-of-service equipment is reported to the appropriate office.
+

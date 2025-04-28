@@ -1,0 +1,124 @@
+**Touchcomputer LCD User Guide**
+
+**Touchcomputer TE Series**  
+For support, contact 1-800-ELOTOUCH or visit www.elotouch.com.  
+**Revision Software Information**  
+© TE Connectivity Corporation. All rights reserved. This publication may not be reproduced, transmitted, transcribed, or translated in any form without written permission from the Corporation. Information provided is without warranty from the Corporation and its affiliates within the TE Connectivity family ("TE") regarding the suitability for particular purposes. TE reserves the right to amend this publication without prior notice. References to Microsoft Corporation products are made for clarity. Other company names and trademarks referenced remain the property of their respective owners.
+
+---
+
+### Acknowledgments
+
+**Unpacking Instructions**  
+- Touchcomputer Setup Instructions:  
+  - Touchscreen Setup: Page 11  
+  - Base Assembly: Page 11  
+  - Brackets: Page 11  
+
+### Operations Overview  
+- **On-Screen Display (OSD)** Features:  
+  - LED functionality and optional peripherals: Page 20  
+  - Magnetic Stripe Reader (MSR) and functional peripheral setup: Page 31  
+
+### Technical Support  
+- **Assistance Available**:  
+  - Contact for technical support: Page 48  
+  - Warranty Information: Page 50  
+
+### Setup and Installation  
+This section provides detailed instructions for setting up the Touchcomputer, including the following hardware components:  
+- Touchcomputer  
+- Optional security screw 
+
+### Connecting the Touchcomputer  
+When connecting to the Microsoft operating system, follow prompts to configure. Ensure hardware is properly connected.  
+- **Setup Steps**:  
+  1. Begin setup according to displayed instructions.
+  2. Select options as per requirements and confirm selections.
+
+### Operating the Touchcomputer  
+**Touchscreen Calibration**  
+If required, recalibrate the touchscreen by following the steps for adjustments in responsiveness.
+
+**Mounting Options**  
+Detailed instructions are available for mounting the device using ISO screws. Ensure proper alignment and secure connections.
+
+### On-Screen Display (OSD)  
+To navigate the OSD, use directional buttons and select the desired option to adjust settings such as brightness and clock settings.
+
+### LED Functionality  
+Indicators for device status are provided, including power, head, and HDD activity LEDs. Each LED represents specific operational conditions.
+
+### Input/Output (I/O) Interface  
+The I/O cover includes various connections for peripherals. The Touchcomputer supports multiple USB devices, Ethernet, and audio inputs.  
+
+### Optional Peripherals  
+Installation guides for optional peripherals, like the MSR and others, are included. Confirm compatibility and connection reliability.
+
+For complete specifications and further guidance, please refer to respective sections throughout the manual.
+
+### Testing and Setup Procedures for the MSR 15D1 OUCHCOMPUTER Series
+
+#### USB MSR (Keyboard Emulation)
+To test the USB MSR interface (HID), double-click on the HID entry to establish the connection with the Customer 15D1 OUCHCOMPUTER. If the ID is visible, the device is functioning correctly. This can be accomplished optionally via the touchcomputer.
+
+#### Character Display Specifications
+Characters including international sets are displayed at a brightness level determined by the specifications available at [www.elotouch.com](http://www.elotouch.com). The optimal dimensions for characters are 5.5 mm (W) by 10.5 mm (H). The USB interface for this model is designated E632206.
+
+#### FPR Specifications
+For testing the Fingerprint Reader (FPR), double-click to access the optional USB interface options, available in both 1-D and 2-D formats. These can be paired with a low-cost USB interface.
+
+#### 2-D Scanning Performance
+The operating parameters for the 15D1 OUCHCOMPUTER allow for 2-D scanning, supporting formats like PDF417. To execute scans, direct application of these features should follow the outlined guidelines.
+
+#### Recovery and Maintenance
+If the touchcomputer requires a factory reset, there is an option for recovery that includes using an included recovery DVD. Users of Windows XP and POSReady should follow specific recovery methods including access via the F8 key for advanced options.
+
+#### Safety and Maintenance Guidelines
+For safety, ensure proper grounding when cleaning the device. Always use compatible cleaning materials and avoid any that could scratch the surface.
+
+#### Technical Assistance
+For technical support, users can access various help resources available at [www.elotouch.com/go/websupport](http://www.elotouch.com/go/websupport) or contact support through [www.elotouch.com/go/contactsupport](http://www.elotouch.com/go/contactsupport).
+
+#### Conclusion
+The foregoing operational steps and specifications for the 15D1 OUCHCOMPUTER series provide essential guidance for effective usage, maintenance, and troubleshooting.
+
+### Regulatory Information
+
+**I. Information on Regulatory Compliance and Immunity**  
+15D1 OUCHCOMPUTER USER GUIDE  
+
+A) This product is designed for operation with the specifications indicated and is subject to limitations regarding warranty and fire safety.  
+B) The system is not user-serviceable; it should only be serviced by a trained technician.  
+C) This device requires a grounding connection. Ensure that the grounding wire is connected to a properly grounded outlet to prevent serious injury or death due to electric shock.  
+
+**A) United States Compliance Notice:**  
+This device has been tested and meets the Class B standards of the FCC, which provides reasonable protection against interference under normal operation. Follow the provided instructions to minimize interference.    
+
+**B) Compliance Notice to Canada:**  
+This device complies with Class B standards as established by Industry Canada regarding interference.  
+
+**C) Compliance Notice to the European Union:**  
+This equipment, along with its cords and interconnecting cables, complies with the relevant CE directives, including EMC Directive 89/336/EEC and Low Voltage Directive 73/23/EEC.  
+
+**D) User Advisory:**  
+This device may cause interference with radio reception. If interference occurs, try relocating the affected receiver or turning off the device.  
+
+**III. Agency Compliance**  
+15D1 OUCHCOMPUTER USER GUIDE   
+Ensure proper grounding during operation. This device is compliant with various standards, including FCC, TUV, CE, CB, GOST-R, C-Tick, VCCI, CCC, BSMI, KC, and COC.  
+
+### Warranty Information
+
+15D1 OUCHCOMPUTER USER GUIDE  
+
+Unless stated otherwise, the manufacturer warrants that the product is free from defects in material and workmanship for a specified duration. If defects are discovered within the warranty period, the manufacturer will provide a commercial remedy. 
+
+To make a warranty claim, notify the manufacturer in writing within thirty days of discovering any defects and provide the opportunity for inspection. Return the product in its original packaging, and ensure proper protection during transit. 
+
+The remedies specified herein are the sole remedies available to buyers for warranty breaches. Other than the explicit warranty stated, no additional warranties are provided, whether express or implied, including those related to fitness for a specific purpose, quality, or non-infringement. 
+
+Seller liability under this warranty is limited to the refund of the purchase price. The seller is not liable for the costs associated with procuring or installing substitute goods, or for any special, consequential, or incidental damages. 
+
+For more information regarding products, specifications, or updates, please visit www.elotouch.com or contact the North America office at ELO-TOUCH, CA, USA.
+

@@ -1,0 +1,97 @@
+**NOTICE:** This UPS has been tested and classified in accordance with CISPR standards, offering protection against electromagnetic interference (EMI). It is essential to follow the instructions to ensure compliance with EMI limits and installation guidelines. If interference occurs during operation, it is recommended to use one of the specified EMC standards for UPS units rated at 4K VA to 20K VA, ensuring the connection to an appropriate outlet. Compliance with applicable EU directives, such as 73/23/EEC and 89/336/EEC, is also required.
+
+**IMPORTANT SAFETY INSTRUCTIONS:** RETAIN THESE INSTRUCTIONS. WARNING: Disconnect the input AC supply before servicing the UPS to avoid electric shock. 
+
+**Introduction:** This document provides safety and operational guidelines for the UPS and its batteries, including installation and troubleshooting instructions. It is crucial to ensure proper grounding and to prevent exposure to any electrically conductive sources. 
+
+**Operating Precautions:** When using the UPS, particularly in telecom and computer applications, handling of the power supply cord must be cautious to avoid shock hazards. Any servicing should be performed only by qualified personnel. 
+
+**Efficiency Features:** The UPS has options designed to enhance efficiency while ensuring continual power supply under various load conditions. Features such as automatic reactivation post-outage ensure optimal performance, while LCD indicators help monitor system status and battery health.
+
+**Environmental Considerations:** Ensure the UPS operates within a temperature range of +15°C to +25°C. Avoid exposure to moisture or extreme humidity to maintain functionality and safety.
+
+**Connection Guidelines:** When connecting to the power supply, ensure all instructions are followed precisely, particularly regarding grounding and circuit integrity. In case of emergencies, quick disconnect features are available.
+
+**Interface Options:** The UPS is equipped with RS232 and USB interfaces for connectivity and monitoring. Optional SNMP/web interface cards can be used for advanced communication and control.
+
+**Final Notes:** It is advised to reference this document thoroughly for installation and operational procedures. Ensuring compliance with local regulations and safety standards is vital for the safe operation of the UPS.
+
+To operate the UPS, activate the ON/OFF button for a minimum of a few seconds. Ensure the operating buttons are easily accessible at the front. Connection to the UPS can be made via a USB port located at the back, which is essential for its functionality and requires a separately purchased USB cable. 
+
+An Emergency Power Off (EPO) switch, which must be supplied by the customer and located remotely, enables the immediate shutdown of the UPS and connected loads. This feature ensures safety by allowing the UPS to be powered down quickly. After activation, the UPS must be manually restarted to restore power to the outlets, and detailed information about installation and operation is provided in this chapter.
+
+During normal operations, the UPS will automatically manage functions, including selecting options displayed on the screen. Utilize the FUNC button to navigate through these options and confirm selections with the ENTER button within a specified time frame. 
+
+Additionally, LED indicators and the LCD monitor provide real-time information, such as operational status, battery levels, and input/output details. If an abnormal status occurs, specific LED indicators will activate, prompting appropriate user action as outlined in the troubleshooting section.
+
+For optimal operation, maintain the UPS in a clean environment, free from excess humidity and temperature fluctuations, to ensure longevity—typically around several years under normal conditions. If any alerts such as battery overcharge arise, take immediate action to disconnect loads and check for faults.
+
+The UPS's specifications, including input and output capacities, are crucial; ensure the system matches your requirements, and always use it within the recommended voltage ranges. Finally, for added functionality, the system supports both RS-232 and USB communication protocols, enhancing versatility in monitoring and controlling the UPS.
+
+### Specifications Overview
+
+**Without ISOTR**
+- **Tower Configurations**: 
+  - Yes (inches)
+  
+**Without Cold (DC ISOTR) Physical Dimensions**: 
+- Without ISOTR
+- With ISOTR
+- Dimensions (inches)
+
+**Compliance and Protection**:
+- Warranty Protection 
+- Certifications: IEC, FCC, CISPR
+- EMC (EMS EMI) compliance 
+- Humidity and Relative Humidity specifications 
+- UL and CE Conformance 
+
+**Model Capacities**: 
+- VGD-10000: 10000 VA / 7000 W 
+- VGD-6000: 6000 VA / 4200 W 
+- VGD-5000: 5000 VA / 3500 W 
+- VGD-4000: 4000 VA / 2800 W 
+- Input Voltage: 100V, 110V, 115V, 120V, 208V, 220V, 230V, 240V 
+
+**High Efficiency UPS Features**:
+- T.H.D. Harmonic Wave characteristics 
+- Recovery time 
+- On-battery performance 
+
+**Protection Modes**:
+- UPS mode (Yellow), Bypass mode (Yellow), Fault mode (Red)
+- Immediate input protection upon fault 
+- Continuous audio and visual alerts via LCD 
+
+**Communication Interfaces**:
+- RS-232 and USB options 
+
+**Battery Specifications**:
+- Maintenance-free, sealed batteries: 
+  - 240V 12V9AH or 240V 12V7.2AH configurations 
+- Typical DC voltage 
+
+### Connection Setup
+
+**External Battery Connector**: 
+- Located on UPS rear panel 
+- Includes terminal block, bypass switch, SNMP slot, and breaker 
+- Basic components comprise a 3U UPS and 3U battery cabinet 
+
+**Mechanical Design**: 
+- VGD 6K Rack-Mount (3U + 3U) 
+- Front view detailing 
+
+### Mounting Instructions
+
+**Rack-Mount Installation**:
+- Use EIA C standard 3U rack-mount brackets 
+- Ensure proper alignment and secure with screws 
+- For rack mounting, refer to specified installations 
+
+**Wall Installation**:
+- Follow guidelines for ceiling or wall mounting the UPS 
+- Ensure stability in the chosen configuration 
+
+This revised text provides a concise yet detailed technical overview, maintaining the core information from the original while enhancing clarity.
+

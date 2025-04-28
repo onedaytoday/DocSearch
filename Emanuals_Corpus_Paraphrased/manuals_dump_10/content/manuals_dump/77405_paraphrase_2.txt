@@ -1,0 +1,90 @@
+**Instructions and Operation Manual for the FTA1100**
+
+**Introduction**
+This manual provides details for the installation and operation of the FTA1100. Please read through the instructions carefully before proceeding. For any issues, contact customer support or factory service.
+
+**Controller Mounting**
+- **Wall Mounting:** Ensure the mounting location is appropriate. Use suitable anchors and washers to securely attach the wall mount plate. 
+- **Base Plate:** If ordered, assemble the mounting legs as outlined. Inspect all components for damage before installation.
+
+**Electrical and System Pressure Connections**
+- Confirm all wiring is correctly connected according to national standards. Follow the specific installation procedures for AC and DC connections, ensuring grounding is properly executed. 
+
+**Programming the Mark II XG**
+- Activate the device by following the programming instructions. Utilize the main menu for settings including brightness and unit configuration. 
+
+**Event Log and Data History**
+- Access these features through the main menu to monitor system activity and historical data.
+
+**USB Operations**
+- Use the USB port for data transfer and maintenance tasks as specified in the manual.
+
+**Battery and Charger Information**
+- Make sure the battery connections are secure and free from damage. Follow guidelines on battery maintenance and charging to ensure optimal performance.
+
+**Note on User Safety**
+- Adhere strictly to safety warnings regarding electrical components to prevent shock risks. 
+
+**Settings Overview**
+- Adjust display brightness, contrast, and language settings through the system setup menu. Configure date and time formats as needed, and manage pressure unit settings for system operation. 
+
+**Timings and Shutdown Procedures**
+- Define operational timings, including run and stop delays, and configure automatic shutdown parameters as necessary.
+
+For further details or clarifications, refer back to the appropriate sections of this manual.
+
+### SETTINGS OVERVIEW
+
+**Pressure and Overpressure Alarms**
+- Adjust the **OVERPRESSURE ALARM** setting using the arrow keys. 
+
+**Pressure Recordings**
+- Set **PRESSURE SETTINGS** to enable hourly recordings or other intervals by pressing the corresponding button.
+
+**Pressure Sensor Settings**
+- The current operating pressure is displayed and can be calibrated as needed.
+
+**Calibration Instructions**
+- Before calibration, ensure that the terminals are properly connected. If the pressure reading is not zero, press the button to reset it. To match the span setting, follow the appropriate prompts. 
+
+**Engine Cranking Settings**
+- Specify the type of engine control (Mechanical or Electronic) and cranking duration.
+
+**Overspeed Configurations**
+- Adjust the **OVERSPEED ALARM** settings here.
+
+**Alarm Limits**
+- Adjust the settings for various alarm limits (e.g., **MIN** and **MAX** battery levels, AC levels). 
+
+**Feature Settings**
+- Enable or adjust settings for low pressure, audible alarms, and pump room notifications as required.
+
+**Manual Testing**
+- Start a manual test based on the configured duration. 
+
+**Shutdown Timers**
+- Set up automatic shutdown parameters and user input options.
+
+**Weekly Test Setup**
+- Schedule weekly tests based on your preferences; set the days and times for these tests.
+
+**Additional Alarm Configurations**
+- Configure settings for low temperature and reservoir levels, high fuel levels, and relief valve alerts.
+
+**Configuration Options**
+- Review available factory settings and configurations, including ADC calibration.
+
+**Diagnostics and History**
+- Access recorded data for troubleshooting purposes. The event log can be cleared, but once cleared, the data cannot be recovered.
+
+**USB Functionality**
+- Save history and data to USB. Follow prompts to remove the drive safely.
+
+**Battery Charger Information**
+- Details about incoming battery charging and status indications for different battery types. Ensure correct charger compatibility to maintain proper charging functions.
+
+**Additional Notes**
+- Regular maintenance and checking of settings are recommended to ensure optimal performance and functionality. 
+
+This overview condenses the extensive settings and adjustments typically made in technical systems, ensuring clarity and easy navigation through the various options available.
+

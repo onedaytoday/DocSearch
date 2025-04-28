@@ -1,0 +1,233 @@
+**TM LNG Applications Overview**
+
+It is imperative to adhere to the instructions and information provided for the installation, operation, and maintenance of TM LNG products to ensure safety and compliance. Failure to follow these guidelines may result in serious injury or death. All personnel must read and understand this manual along with all supplementary notices and product warnings.
+
+**Product Owners**: Ensure that trained personnel are familiar with the installation and operation of this equipment. The instructions provided are essential for safe and effective use. Always refer to these guidelines and implement all recommended practices.
+
+The contents of this publication are intended solely for informational purposes. While efforts have been made to maintain accuracy, there are no express or implied guarantees concerning the products or services detailed herein. All transactions are governed by Daniel’s terms and conditions, which are available upon request. Daniel reserves the right to modify product designs and specifications without notice. Responsibility for correct selection, application, and maintenance of Daniel products lies with the purchaser and end user.
+
+**Limited Warranty**: Daniel, Inc. warrants that its products are free from defects in materials and workmanship, provided they are used as instructed. This warranty lasts for a specified period from the purchase date. Any modification or unauthorized repair voids the warranty.
+
+Daniel’s liability is limited to the price of the specific goods or services involved in a claim. The company is not liable for any incidental or consequential damages. By purchasing, you acknowledge that you understand these limitations.
+
+**LNG Specifications**: The document includes various tables outlining acronyms, specifications, and instructions related to LNG flow systems, installation details, and AMS software integration. 
+
+The products have been designed, assembled, and thoroughly tested to meet the specified standards, encompassing aspects such as connection types, grounding, and compatibility with existing systems. Recommended operating conditions and configurations are clearly defined for optimal performance. 
+
+For any further clarification, please consult the detailed sections within the manual, including introduction summaries and troubleshooting information.
+
+### LNG Section Overview
+
+**Acronyms and Definitions**
+
+This section outlines key acronyms and definitions related to LNG communication and devices. Terms include:
+
+- **FODO**: This refers to the user as or HART Communication Transducer. 
+- **I/O**: Input/Output.
+- **I.S.**: Intrinsically Safe.
+- **LAN**: Local Area Network.
+- **LED**: Light Emitting Diode.
+- **MMU**: Memory Management Unit.
+- **N/A**: Not Applicable.
+- **NOVRAM**: Non-Volatile Random Access Memory.
+- **RAM**: Random Access Memory.
+- **RTS**: Request-to-Send, particularly in RS-232C communication.
+- **RTU**: Remote Terminal Unit, specifically in MODBUS contexts.
+- **SDRAM**: Synchronous Dynamic Random Access Memory.
+- **TCP/IP**: Transmission Control Protocol/Internet Protocol.
+
+### LNG Software Overview
+
+This section covers software functionalities that collect data and generate reports regarding system health and battery status. Users should select the appropriate software and follow the provided instructions to ensure proper configuration.
+
+### LNG Flow System Details
+
+**Mounting and Assembly**  
+The LNG flow system includes an explosion-proof assembly housing the CPU Supply, I.S. Board, and Backplane. It features a synchronization bracket and is designed with safety in mind, incorporating intrinsically safe protocols for all operational environments.
+
+**Flow Measurement**  
+The LNG Flow system detects asymmetric flow and features a cross-bore design that ensures high repeatability and accuracy, even in low-flow situations, free from technological interference. 
+
+### Specifications Overview
+
+Specifications cover performance metrics such as linearity, turndown ratio, and repeatability across various measurement ranges. Models utilize ANSI standards and include custom units tailored to user requirements.
+
+### Connectivity Options
+
+Connectivity options include RS-232 and RS-485 interfaces for RTU/ASCII protocols, supporting various input configurations. The system is designed for compatibility and ease of integration with existing infrastructure.
+
+### FODO Configuration
+
+FODO configurations allow for various output selections and can interface with different supply types. It supports various phase reporting options based on application needs.
+
+### Safety Precautions
+
+Users must adhere to strict safety instructions to mitigate fire or explosion hazards. This includes maintaining a secure environment during operation and ensuring all components are correctly secured.
+
+### Compliance and Testing
+
+The LNG system complies with various safety regulations, including FCC and ATEX directives. It has been tested to meet these regulations and provide reliable interference protection during operation.
+
+### Installation and Maintenance Guidelines
+
+Proper installation is crucial to ensure the system operates effectively without pressure or leakage risks. Regular inspections and adherence to manufacturer specifications are necessary to maintain system integrity.
+
+### Conclusion
+
+This document provides a comprehensive overview of the LNG Flow system, focusing on technical specifications, safety guidelines, and operational standards necessary for effective monitoring and control within relevant environments.
+
+### LNG Section Mechanical Overview
+
+This section details the specifications and operational guidelines for LNG swivel components as per DOE-STD-1090-2004 and OSHA standards. It emphasizes the importance of using rated swivels that conform to mechanical specifications, including details about the proper installation and usage to ensure compliance and safety.
+
+1. **Swivel Ratings**: Both the swivel and hoist must adhere to specified ratings and be free of contaminants or damage. The components should revolve freely and never exceed their indicated load capacities. 
+
+2. **Operational Guidelines**: Only trained personnel are permitted to operate equipment. Avoid wrapping materials around the equipment unless specified, and always inspect for integrity before use. 
+
+3. **Mounting Instructions**: Ensure that insulation materials and associated components are correctly installed to maintain flow efficiency. The thermal characteristics of the system should be monitored to prevent overheating or excessive cooling.
+
+4. **Cabling and Grounding**: Proper cabling and grounding practices are essential for safe operations. The internal chassis ground must connect effectively to external grounding as per regulations, ensuring the safety and integrity of all electrical connections.
+
+5. **Electrical Safety Precautions**: Follow stringent safety instructions to mitigate explosion hazards and electrical risks. All work should only occur when the system is powered down.
+
+6. **Communication Protocols**: The system supports TCP/IP and other communication standards for effective data transfer. Careful configuration is crucial to maintain security and avoid unauthorized access.
+
+7. **CPU and LED Indicators**: The CPU has built-in LED indicators to monitor system status, with protections against firmware overwrites. Proper settings and configurations must be adhered to during operation.
+
+8. **Networking Considerations**: The Ethernet interface should be secured against unauthorized access, and DHCP settings must be configured accordingly to minimize risks associated with network connectivity.
+
+### Summary
+In conclusion, this technical document serves as a comprehensive guide for the installation, operation, and maintenance of LNG mechanical components, ensuring adherence to safety protocols while optimizing performance. Proper training and diligence are essential to prevent accidents and ensure operational success.
+
+### LNG Section Overview
+
+**Port/Communication Interface**
+The LNG Section features common communication protocols such as RS-232 and RS-485, including Ethernet connections. The preferred CPU and LED part number is DMC-004936. The RS-232 is connected directly to the PC using a DB-9 connector, where the wiring consists of three color-coded signals: RED connects to RX, WHITE to TX, and BLACK to COM. The system supports both RS-232 and RS-485, with the capability for automatic detection and configuration.
+
+**Installation Requirements**
+To integrate the LNG Flow system with a PC, the DB-9 connector must be correctly wired: RX, TX, and COM. 
+
+**I/O Configuration**
+The LNG Flow system includes multiple output configurations (e.g., FODO1, FODO2, FODO3) that provide uncorrected flow data based on specific criteria (e.g., flow direction). The outputs can operate in conjunction with TTL-level signals and have options for phase reporting.
+
+**Signal Isolation**
+FODO outputs are opto-isolated from the CPU, providing at least 500V isolation to ensure safety and prevent noise interference in the system. Each FODO channel has specific grounding requirements to maintain signal integrity.
+
+**Input Specifications**
+The LNG Flow system allows for isolated 24VDC service inputs which can be monitored using HART functionality compatible with DMC-004936. The flow data can be tracked for various conditions, and specific settings allow for polarity adjustments as needed.
+
+**Security Protocols**
+Configuration involves managing security settings through the WRITE PROT. switch on the CPU, ensuring correct wiring to maintain system integrity. Procedures for securing the installation and maintaining reliability are outlined and must be followed closely.
+
+**Installation Procedures**
+For securing the LNG Flow module, appropriate tools should be employed, adhering to specified torque settings during assembly. The seals should be confirmed as tested and sealed correctly.
+
+**Software Installation**
+The system requires an established software connection through Ethernet or direct input. The directory must be configured to recognize both primary and secondary IP addresses as part of the setup process.
+
+**System Configuration and HART Settings**
+During operation, users must select various options related to flow rates and action behaviors to configure the system adequately. This includes settings for flow correction and phase adjustments.
+
+**AMS Integration**
+The AMS (Asset Management System) software requires downloading of device descriptors (DD). Users must ensure proper search parameters are set to locate the correct versions for communication and setup.
+
+This paraphrased overview maintains the critical technical information from the original text while enhancing clarity and readability.
+
+Sure! Here’s a technical paraphrase of your text while maintaining the original meaning:
+
+---
+
+**Section LNG AMS Flow Configuration**
+
+The LNG AMS flow settings are outlined below. To implement changes, click on the appropriate source and select it from the options, ensuring the collector and TTL configurations correspond with the specific VDC (each phase). If necessary, refresh the source to apply updates and return to previous configurations to verify reflections in the other settings. Click on the flow direction, phase lead or lag, and note the polarity and units displayed in the HART assembly.
+
+For flow threshold settings in the LNG AMS, adjust the cutoff for flow velocity. If the measured batch falls below this value, the settings will require a new configuration. Post-configuration, if you see "Completed Successfully," proceed to adjust the flow velocity offset. Be aware that if the configuration includes the new AMS parameters, these need to be accounted for. Access the flow path information for details on flow direction and performance metrics such as the Signal-to-Noise Ratio (SNR).
+
+**Section LNG Service Procedures**
+
+In the LNG AMS service panel, navigate to the graphical representation of primary, secondary, and additional flow metrics. To modify the K-Factors, which are read-only, select the corresponding configurations and click "Next" to proceed. Ensure the Protect switch is activated for CPU safety.
+
+**Section LNG Configuration Procedures**
+
+Follow the configurations as described, ensuring that any security features and hardware setups are correctly addressed. The AMS allows for adjustments on primary and secondary flows, including options for uncorrected flow readings. Be sure to apply all configurations accurately to ensure proper data display.
+
+Additional instructions for flow detection and service actions are also provided. You may acknowledge any alerts and apply necessary changes as required. 
+
+For service monitoring, detailed charts for flow and sound velocities are provided. Click on service information to review connected performance metrics.
+
+**Section LNG Security Measures**
+
+The LNG AMS's security protocols must be adhered to, including the installation of protective hardware and compliance with specified guidelines per organizational standards.
+
+**Appendix A: LNG Flow Overview**
+
+This section provides details on the LNG flow management and references relevant specifications. 
+
+**Appendix B: Licensing Information**
+
+The contents here discuss software licensing under the GNU GPL, outlining rights concerning the use, modification, and distribution of the software, ensuring that all users are informed of their rights related to GNU licensing agreements.
+
+---
+
+This paraphrase maintains clarity while giving a comprehensive overview of the technical content and procedures involved.
+
+**LNG TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION, AND MODIFICATION**
+
+The copyright holder grants permission to copy, distribute, and modify this document under certain conditions. Any modifications or translations of the material must be clearly identified as separate from the original. This document is protected by copyright, and any actions must adhere to the specified terms. 
+
+You are permitted to publish or redistribute the entire work or any part of it, subject to the following conditions: if you engage in the standard interactive usage, you must provide a copyright notice and disclaim any warranties associated with redistribution. The licensing terms apply to the entire document. If any individual sections are taken out of context and do not reasonably stand alone, those sections will retain their individual terms but must still conform to the overarching license.
+
+This license allows for the one-time redistribution of machine-readable files. You must include relevant disclaimers pertaining to warranties or rights through documentations or third-party offers. Should this agreement be violated, your rights to use the material may be revoked. As a condition of this license, you are also expected to uphold any previous obligations regarding warranty coverage and redistribution rights.
+
+The document explicitly states that it is provided "as is," without warranties of any kind, whether express or implied, including but not limited to implied warranties of merchantability or suitability for a particular purpose. You assume all risks associated with the program's quality and performance. Should defects arise, you agree to bear all costs for necessary repairs or corrections. Neither the copyright holders nor any others who may redistribute or modify the program will be liable for any damages related to the program's use or inability to use.
+
+For new contributions to free software, the terms specify that each copy must include a notice that it is released under the respective GPL license, with an acknowledgment of the authors. Everything provided is without warranty, and you are encouraged to seek further information from the Software Foundation.
+
+The license details can also include terms related to specific libraries, applications, or combined works. Definitions apply to these terms, distinguishing the library's code and its related interfaces. If you integrate such libraries into your applications, you must ensure they are compliant with the eligibility standards set forth in the applicable GPL guidelines.
+
+In conclusion, adherence to these terms ensures compliance with copyright laws while allowing for the flexible use and distribution of software and associated materials.
+
+### LNG Combined Works
+
+This document outlines the terms related to the combined works involving the associated application and any modifications. All modifications to the Combined Work must adhere to the terms of the GNU GPL. It is essential to acknowledge the copyright contained within this Combined Work and to reference the GNU GPL appropriately. 
+
+Users must provide the Corresponding Source, as defined in the GNU GPL, along with the application relevant to the Combined Work. This includes information on how to access the Corresponding Source. The Combined Work must be compatible with the existing library information and must not compromise the rights related to that information.
+
+In summary, for any Combined Work that integrates multiple applications, these applications must comply with the specified licensing agreements, whether from sources like the Software Foundation or others. 
+
+### BSD Source
+
+The following outlines the terms for the BSD license:
+
+Copyright © <YEAR>, <OWNER>. Redistribution of this software, with or without modifications, is permitted under the following conditions: 
+
+1. Redistributions must retain the copyright notice and disclaimer.
+2. Neither the name of the copyright holder nor contributors can be used to endorse or promote products derived from this software without permission.
+
+The software is provided "as is", with no express or implied warranties, including but not limited to those of merchantability and fitness for a particular purpose. The copyright holders and contributors are not liable for any damages arising from the use of this software, even if they were advised of the potential for such damages.
+
+### M.I.T
+
+Below are the terms for the MIT license:
+
+The copyright for this software and its associated documentation is granted free of charge, allowing users to use, copy, modify, merge, publish, and distribute the software without restriction. 
+
+The software is provided "as is", without any warranties of any kind, express or implied. The authors and copyright holders are not liable for any claims, damages, or liabilities arising from the use of this software or its derivatives.
+
+### Equipment O&M Statement
+
+The equipment being returned for repair has been thoroughly decontaminated and cleaned. Documentation detailing any foreign substances, along with Material Safety Data Sheets (MSDS), is attached.
+
+**Title:** _______________________________  
+**Company:** _____________________________  
+**Phone:** ______________________________  
+
+### Emerson Contact Information
+
+For services and information related to HART architecture, contact Emerson, Inc. located in Houston, TX at:  
+**Phone:** T+1713-827-6314  
+**Fax:** F+1713-827-4805  
+**Website:** www.emerson.com  
+
+Emerson reserves the right to modify its products and services as necessary. Services are offered both on-call and on-site, with responsibility for service managed through a network of offices throughout the U.S. and internationally. For more information, please reach out to the nearest service office.
+

@@ -1,0 +1,97 @@
+### Touchmonitor and CRT Touchmonitors ET1X8XC-4XWA-1 ET2187C-4XWA-1 Revision P/N TouchSystems, Inc. 1-800-ELOTOUCH www.elotouch.com www.elogaming.com
+
+**Chapter Overview:**
+
+This section covers important precautions regarding the Touchmonitor and its features, installation, and troubleshooting processes. It includes details about connecting the Touchmonitor to software on various operating systems, such as Windows XP and NT, as well as MS-DOS.
+
+**Warranty Information:**
+
+Copyright © TouchSystems, Inc. All rights reserved. This document may not be reproduced or transmitted in any form without written consent from TouchSystems. The information provided is subject to change without notice and does not include any warranties, including any implied warranty of merchantability. TouchSystems reserves the right to revise this publication.
+
+---
+
+### Precautions About the Product
+
+Congratulations on your purchase of the Touchmonitor. This high-resolution device features CRT technology, ensuring optimal performance. Please adhere to the following guidelines to maximize functionality, including:
+
+- Touchmonitor sizes: 13.8-inch, 15.7-inch, 18-inch, and 20-inch diagonal pitches.
+- Equipped with flicker-free refresh rates.
+- Fully compliant with VESA DPMS and VESA DDC1/2B standards.
+
+### Unpacking and Installation
+
+This chapter focuses on the installation process for the Touchmonitor and related software. Ensure you have all items included in the package, such as:
+
+- CRT Touchmonitor
+- VGA Connector
+- Software CD
+
+### Connecting the Touchmonitor
+
+**Important**: Before connecting the Touchmonitor to your PC, ensure both devices are turned off.
+
+1. Connect the VGA cable from the monitor to the computer.
+2. Secure the connection with the thumbscrews.
+3. Alternatively, use USB for the touchscreen connection if applicable.
+
+Make sure to connect the AC power cable to a grounded outlet. Check if the LED indicator lights up. If not, refer to the Troubleshooting chapter.
+
+### Software Installation
+
+For the Touchmonitor to interface effectively, install the provided software from the CD. Follow the prompts for installation, ensuring compatibility with your operating system. 
+
+If using MS-DOS, type the appropriate commands to install the driver from the software CD. 
+
+### Touchmonitor Features
+
+This section emphasizes the importance of factory settings. Access the On-Screen Display (OSD) menu to adjust settings as needed. 
+
+- **OSD Functionality** includes geometry adjustments such as pincushion correction and screen rotation.
+- Reset functions are available for restoring factory settings.
+
+### Troubleshooting
+
+Common issues include signals not being received by the PC or incorrect refresh rates. Make sure all cables are properly connected and the settings conform to the recommended specifications.
+
+### Touchscreen Technology
+
+Touchscreens facilitate user interaction by allowing direct manipulation of on-screen elements, making them more intuitive than traditional keyboard/mouse setups. These screens utilize "touch-on-tube" technology, ensuring clarity and responsiveness.
+
+### Safety Guidelines
+
+To prevent electrical shock, follow all safety instructions when handling the Touchmonitor. Ensure the device is properly grounded, and handle all connections with care. If you experience any issues, refer to the troubleshooting section for assistance. 
+
+--- 
+
+For further information or support, please visit the websites provided above.
+
+Certainly! Here's a paraphrased version of the text with a natural and technical tone:
+
+**B-22 Overview**
+The connections should adhere to the AMP "Mate-N-Lock" specifications; the ground wire must be connected correspondingly to the designated terminal. The installation must include an 18 AWG wire rated for SVT 105°C, 600V, including the ground wire.
+
+**Touchmonitor Specifications**
+- Refresh Rates: 56, 60, 72, 75, and 85Hz (non-interlaced).
+- RGB input should conform to VESA DPMS and include EPA standards, with DDC 1/2B and DDC 2B support.
+- On-Screen Display (OSD) includes controls for brightness, contrast, and geometry adjustments.
+- Compliance: Meets various regulatory standards including MPRII, FCC Class B, CE, and others.
+
+**Mechanical Specifications**
+- Typical activation force for touchpoints is rated in ounces, ensuring robust performance over extended use without significant wear.
+- The touchscreen is resistant to common cleaning agents such as ammonia-based products and is designed to protect against splashes.
+  
+**Electrical Specifications**
+- Grounding is essential; a three-prong plug is recommended to prevent electrical shock.
+- Compliance with FCC Class specifications ensures protection against electromagnetic interference.
+
+**Regulatory Information**
+- This touchmonitor has been tested to meet FCC and CE Class standards, providing reasonable protection against interference.
+- Should interference occur, users may need to reposition devices or consult a qualified technician.
+
+**Warranty Information**
+- The provided warranty is exclusive; no additional express or implied warranties apply.
+- The seller's liability is limited to the refund of the product purchase price, with no coverage for incidental costs or damages attributed to the product.
+
+**Attribution**
+Refer to specifications related to the touchmonitor, including communication protocols, safety information, color accuracy, expected performance, geometry, and various operational conditions.
+

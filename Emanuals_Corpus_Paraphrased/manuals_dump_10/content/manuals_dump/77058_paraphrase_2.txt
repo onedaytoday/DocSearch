@@ -1,0 +1,154 @@
+**Touchcomputer LCD User Guide**
+
+**Touchcomputer Model:** Touchcomputer 1-800-ELOTOUCH  
+**Website:** www.elotouch.com  
+**Revision:** P/N E674343  
+
+**Copyright Notice:** All rights reserved regarding the reproduction, transmission, transcription, or translation of this document or any part of it, including any means, without written consent from TouchSystems. The content herein may change without notice and does not guarantee merchantability. References to other products or services should not be interpreted as endorsements in any countries where this document is distributed. TouchSystems reserves the right to modify this document without prior notice.
+
+---
+
+### Table of Contents
+- **Testing Peripherals**....................................................................................5  
+- **Touchscreen Brackets**............................................................................7  
+- **Operation**..................................................................................................9  
+- **On-Screen Display (OSD) and LED Functionality**................................16  
+- **Optional Peripherals**............................................................................27  
+- **Technical Specifications**......................................................................32  
+- **Connector Specifications**......................................................................38  
+- **Screen Specifications**...........................................................................39  
+- **Technical Support**................................................................................41  
+- **Warranty Information**..........................................................................46  
+
+---
+
+### Unpacking the Touchcomputer
+
+This section covers the unpacking process for the Touchcomputer. You will receive various items, including the Touchcomputer Recovery DVD and an optional security screw. 
+
+**Caution:** To protect the LCD, ensure you handle the device carefully during initial setup.
+
+#### Setup Instructions
+
+1. **Select Model:** Begin with the selection steps as shown in the guide.
+2. **Configuration:** Follow the indicated steps to configure the touchcomputer and apply any required settings.
+3. **Language Selection:** Choose your preferred language (e.g., English, Spanish, Simplified Chinese, Traditional Chinese).
+
+### Testing Peripherals
+
+In this section, ensure that connected peripherals, such as the Magnetic Stripe Reader (MSR) or other optional accessories, are properly installed. 
+
+**Note:** If the touchscreen requires recalibration for any reason, access Properties by right-clicking, and follow displayed instructions.
+
+### Mounting Options
+
+The touchcomputer offers various mounting options including bottom or top mounting. Ensure to use the included screws to secure it properly. 
+
+**Note:** When mounting, take care to allow access to connections at the back of the unit.
+
+### On-Screen Display (OSD) and LED Functionality
+
+This chapter details the functionality of the OSD and its control buttons. Use the buttons to navigate through OSD options, adjusting brightness and clock settings.
+
+- **Brightness & Clock:** Adjust settings using the RIGHT/LEFT buttons to increase or decrease values.
+- **OSD Timeout:** Determines how long the OSD is displayed before disappearing.
+
+### LED Indicators
+
+The touchcomputer features several LED indicators providing information on system status:
+
+- **Power LED:** Indicates power state (on/off).
+- **Head LED:** Indicates input activity.
+- **HDD Activity LED:** Indicates read/write activity via flashing.
+
+### Input/Output (I/O) Connections
+
+The back of the touchcomputer includes various I/O connections:
+
+- **USB ports:** Multiple configurations including USB type and standard USB.
+- **VGA port:** For video output.
+- **Ethernet:** RJ45 for network connectivity.
+
+### Optional Peripherals
+
+The touchcomputer supports several optional peripherals, including:
+
+- **Magnetic Stripe Reader (MSR):** Connects via USB to read credit cards and other magnetic data.
+
+**Note:** Make sure these peripherals are compatible with your system configuration. 
+
+### Testing the MSR
+
+To validate the functioning of the MSR, perform the following:
+
+1. Connect the MSR to the touchcomputer's USB port.
+2. Test the device by swiping cards and verifying recognition.
+
+This paraphrased text retains the technical content and original meaning while improving clarity and coherence.
+
+**Testing the 15D1 OUCHCOMPUTER SER UIDE**
+
+### Brightness and Character Specifications
+- The 15D1 provides a brightness type suitable for both international and standard characters (X Y), with font dimensions of 5.5(W) x 10.5(H).
+- Connectivity is provided via a USB interface (E326629).
+
+### Functionality Testing
+- To test the system, double-click the VFD from the 15D1 Applications menu and select COM for text in the Text field.
+
+### FPR Testing
+- The FPR utilizes optically reliable technology triggered by touch, with specifications as follows: Power Supply: 5.0VDC (typical), Operating Temperature Range: 0°C to 40°C, and ESD Rating: 4000B.
+
+### Interface Options
+- The system supports USB 1-D or the USB-SSI interface, offering flexibility based on the selected option (P/N E946856).
+- 2-D scanning is supported (P/N E449881), including various code formats like PDF417.
+
+### Additional Testing Procedures
+- To test scanning procedures, refer to section XP, connecting to the appropriate COM ports (COM1, COM2, COM3) via the USB interface.
+
+### Wireless Card Integration
+- For wireless functionality, access the Network section to ensure proper wireless detection and initialization. The system operates with a 24VDC power supply (P/N E337867) for peripheral setups.
+
+### Software and Maintenance
+- Additional POS software can be sourced from the 15D1 Applications section. 
+- Ensure the touchcomputer is powered down for cleaning and maintenance to preserve warranty validity.
+
+### Safety Warnings
+- Always use appropriate cleaning methods to protect touchscreen integrity and avoid damaging agents.
+
+### WEEE Compliance
+- The device complies with EU WEEE directives. For recovery or recycling, utilize the included recovery DVD-ROM and follow the on-screen prompts.
+
+### Specifications Overview
+- The 15D1 touchcomputer features configurations that include various CPU models and memory specifications (up to 4GB DDR2).
+- Display dimensions include a 15-inch TFT LCD with standard input variations and operating ranges (typically 0°C to 60°C).
+
+### Customer Support
+- For technical support, contact the support line toll-free at 1-800-ELO-TOUCH or visit www.elotouch.com/go/contactsupport for further assistance.
+
+### Regulatory Information
+
+#### I. Information
+**A)** This device has been tested and complies with FCC Class standards, providing reasonable protection against interference, provided the installation meets specified requirements.  
+**B)** The device is not operator-serviceable. Any required service must be performed by a qualified technician.  
+**C)** Proper grounding is essential; avoid using a grounding type other than the provided one to prevent serious injury or death from electric shock. 
+
+#### II. Notices
+**A)** For users in the United States: the device adheres to FCC Class regulations that ensure reasonable protection against interference. Users must follow the included instructions to maintain compliance.  
+**B)** For Canadian users: this device meets Industry Canada’s standards regarding radio interference, confirming compliance with established regulations.  
+**C)** For users in the European Union: the device’s cords and cabling comply with CE standards as specified by the EMC Directive 89/336/EEC and the Low Voltage Directive 73/23/EEC.  
+**D)** User Advisory: In case interference occurs, various external factors might be influential. To troubleshoot, users should reposition the device or turn it off and on to minimize interference.
+
+#### III. Agency Information
+This system connects to an AC outlet and features an I/O interface that may require proper grounding to avoid radio frequency (RF) issues and electrical hazards. Compliance labels include FCC, PCT, C-Tick, IMERC, BSMI, CE, VCCI, UL, CCC, EK/KCC, and NOM.
+
+### Warranty
+The manufacturer warrants that the product is free from defects in materials and workmanship, subject to certain conditions. Warranty coverage extends to several years, and any claims must be reported within thirty days of discovering an issue. The manufacturer reserves the right to inspect returned products. 
+
+### Limitations
+These remedies represent the exclusive options available for warranty breaches. Apart from the explicit warranty stated, no further warranties—express or implied—are offered regarding product suitability, quality, or merchantability. The seller's liability is confined to refunding the purchase price of the product and excludes any costs related to substitutes or consequential damages.
+
+### Index
+Topics include TouchSystems, 2-D scanning, specifications, testing, LED activity, I/O access, LCD specifications, mounting options, technical support, product information, and more.
+
+For further details, visit [www.elotouch.com](http://www.elotouch.com).
+

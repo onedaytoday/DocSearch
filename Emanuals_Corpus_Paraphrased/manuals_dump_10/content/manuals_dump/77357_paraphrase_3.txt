@@ -1,0 +1,490 @@
+**EMC and P/N REV A17**
+
+**EMC Corporation Corporate Headquarters: MA**  
+**Website:** www.EMC.com  
+**Copyright © EMC Corporation.** All rights reserved. Published January. The information in this publication reflects its status at the time of release and may change without notice. 
+
+**Disclaimer:** The information provided in this publication is offered "as is." EMC Corporation makes no guarantees regarding the accuracy or reliability of the information, explicitly disavowing any implied warranties regarding merchantability or fitness for a particular purpose. 
+
+This document pertains to EMC Corporation’s software, including but not limited to EMC, Navisphere, PowerPath, and Access FLARE, and retains copyrights with their respective owners. 
+
+This publication contains details relevant to EMC's products and services, including compatibility with various operating systems such as AIX, HP-UX, IRIX, NetWare, and UNIX, as well as software performance across different versions and revisions. 
+
+To ensure proper functionality, users should refer to the guidelines for the following topics: 
+- Compatibility of the operating system with EMC hardware
+- Configuration setups for physical connections
+- Service contact details for EMC support
+
+In relation to hardware, this document includes details on interfacing with the EMC software under environments like AIX, HP-UX without EMC PowerPath or VERITAS DMP, and so forth. It emphasizes safety information relevant to EMC products.
+
+Technical inquiries should be directed to EMC’s customer service or technical offices for assistance with installation, configurations, or any clarification of content arising from this publication.
+
+For operation details related to AIX, the document describes the process of connecting to various models (CX300, CX500, CX700) and the necessary configurations for existing systems. Additionally, it outlines the requirements for specific patches and higher versions of software and firmware for enhanced performance.
+
+The document also explains procedures for verification of connections between HBAs and EMC devices, detailing command usage for monitoring the status of connections and the transition to the proper configurations.
+
+For further information on configurations, supported software, and updates, refer to the EMC documentation and command interface guidelines specific to Navisphere and PowerPath within the AIX environment.
+
+**Contact Information:**
+- **Customer Service (U.S.):** (SVC-4EMC) (543-4SVC)  
+- **Worldwide Assistance:** Follow defined procedures to engage with EMC services and directories.
+
+This chapter focuses on AIX compatibility with EMC software, reserving sections for the PowerPath AIX interface and operational setups, with each configuration contextually defined for ease of use and understanding.
+
+Certainly! Here’s a technical paraphrase of your text while retaining the original meaning:
+
+To access references for AIX via the Access Reference Server, ensure the Group and PowerPath configurations are correctly set. Use the following PowerPath command to restrict access to the LUN: `every=2` for the chosen LUN to manage I/O appropriately. This command facilitates I/O operations from the HBA to the LUN, ensuring the designated paths are functional.
+
+If issues arise, execute the specified commands to establish connectivity with the Storage Processor (SP). Ensure that optional software, such as the latest AIX version or the EMC ODM tools, is installed, and follow the guidance regarding enhancements in connectivity. 
+
+For existing systems, verify operational HBAs and any required EMC ODM software updates as outlined in the documentation. CAUTION should be exercised, as improper commands can lead to significant I/O performance issues.
+
+Verify HBA connections to switches using AIX commands, checking LED indicators to confirm successful connections. It is essential to monitor the state of the switches for any connectivity issues from each HBA initiator.
+
+When managing connections, utilize the commands available through the PowerPath interface to ensure each HBA is correctly mapped to the respective LUNs. This includes using the Navisphere CLI for adjustments to the commpath properties, ensuring optimal configuration for both new and existing systems.
+
+Overall, follow the recommended commands and practices to maintain system integrity and performance, ensuring timely updates for software and documentation compliance with EMC standards.
+
+To properly manage the unmounting of HBA (Host Bus Adapter) software such as ATF or CDE in an AIX environment, it is essential to follow specific procedures. If using IBM HBAs, ensure compatibility with any installed EMC ODM (Open Data Management) software. Caution: For non-CX-Series systems, use AIX CD to mount EMC ODM via SMIT (System Management Interface Tool) or directly through ODM commands.
+
+If IBM HBAs are connected, verify their status and ensure they communicate effectively with the AIX system. For any existing and new AIX configurations, utilize commands in the HBA Navisphere and CLI to manage connectivity to the storage area network (SAN), checking switch and HBA connections through their interface LEDs.
+
+When referencing Navisphere, maintain proper security settings for users and ensure adequate access controls for HBAs connected to switches. Commands may include adjustments to the commpath settings based on IP or SP addresses. The command `LUNZ` is vital for handling logical unit numbers in this environment.
+
+It is critical to follow software revision guidelines and document any changes meticulously. When utilizing PowerPath software, ensure paths to LUNs are accurately designated; inadvertent configurations can lead to decreased I/O performance.
+
+In preparation for any significant service adjustments, such as those required for transitioning to ATF or CDE, collaboration with EMC Professional Services is advised to guarantee seamless integration with existing AIX infrastructures. Run checks on any relevant patches and updates to maintain compatibility between systems and software.
+
+For efficient management of EMC interfaces, familiarize yourself with commands in the Navisphere CLI. This includes operations related to connectivity and LUN mappings, ensuring optimal performance across existing AIX and new configurations. Always confirm that any changes conform to EMC standards and protocols.
+
+Here's a technical paraphrase of your text while preserving its meaning:
+
+---
+
+For AIX configurations with or without access to Reference or HBAs, it's important to check connections to the switches. The LEDs should help indicate the status: if both the left and right LEDs are off, this indicates that the Storage Processor (SP) is not communicating with the switch. It's essential to verify the HBA connections to the switch, using command-line tools for SAN connectivity checks.
+
+To download necessary components for AIX from PowerPath or Checkpoint, utilize the `LUNZ` AIX command. If `LUNZ` fits with the array configuration, ensure proper connectivity to the respective switches using the relevant AIX commands.
+
+The following AIX commands and software, like Navisphere, must be utilized for HBA checks and LUN connectivity. Commands such as `emc_cfgmg.sh` will provide necessary configurations. For specific EMC products, commands must reference the associated groups in PowerPath to ensure correct operation.
+
+In case of restricted user access, commands will need to be appropriately chosen to verify the I/O paths to specific LUNs.
+
+For HP-UX, various configurations with PowerPath and connectivity to EMC systems (CX300, CX500, CX700, etc.) will be described in detail. Modifications or updates related to the software versions will be included.
+
+Service installation and access to SAN, along with replication tools like MirrorView/A for EMC products (CX300, CX500, CX700), should follow the specified guidelines in the product release notes.
+
+Finally, ensure all required software, including Navisphere Command Interface and Security, are installed and correctly configured for optimal system performance and connectivity.
+
+--- 
+
+This paraphrase keeps the technical details and structure but presents them in a clearer, more concise way.
+
+### Technical Paraphrase:
+
+To access the Switch or LAN through Navisphere, security configurations need to be established for users, including settings for PowerPath and the SAN switch. Each Storage Processor (SP) has an LED indicator connected to the switch, which shows its status. If the left LED is on and the right LED is off, it indicates a connection from that SP to the switch and the host bus adapter (HBA). To verify or troubleshoot this connection, you can use various Navisphere Command Line Interface (CLI) commands that correspond to the IP addresses of the SPs.
+
+When using HP-UX, specific commands are required for managing Logical Unit Numbers (LUNs) and configuring user options. For instance, PowerPath commands like `/etc/powermt.custom` can be utilized to manage I/O paths to LUNs. It is essential to ensure the correct LUN is chosen and that PowerPath is functioning accurately.
+
+If you have existing or new HBAs, make sure to follow the highlighted steps for connectivity to various CX systems (CX300, CX500, CX700). The same applies to FC4500 switches. 
+
+When configuring IP addresses for SPs, ensure the network settings are correct, and verify that the selected command matches the hardware type. Double-check the connection from the HBA to each SP and the relevant switches. Any existing software must be compatible with the current configuration to prevent connection issues.
+
+Utilize the Navisphere CLI for managing storage groups and host mappings. The command options for setting hosts, paths, and array communications are crucial for efficient SAN management. Connectivity can be verified by observing the state of LEDs on the switches.
+
+In conclusion, proper configuration of HP-UX, emc tools, Navisphere management, and adherence to recommended CLI commands is essential to ensure a reliable and efficient storage networking environment.
+
+Here's a paraphrased version of your text with a focus on clarity and technical accuracy:
+
+---
+
+To manage access to each HBA in an HP-UX environment, utilize the specified HP-UX commands in conjunction with Navisphere for LUN configuration. It is crucial to check the configurations and RAID groups associated with the HBA and ensure that all software, including PowerPath, is correctly installed and operational.
+
+For environments with EMC and Navisphere, use commands to verify HP-UX LUNs and perform checkpoints within defined groups. If there are connectivity issues with any HBA, troubleshoot using the appropriate HP-UX commands. 
+
+When configuring PowerPath, ensure that the required LUN is selected and that the associated HBA paths are correctly set to avoid any I/O disruptions. If issues arise, commands like `class=clariion` may help in diagnosis. 
+
+For additional guidance, reference the CD that includes the Release Notes for PowerPath, and ensure all relevant patches and software updates are applied. For security configurations, verify the connectivity between switches and HBAs, ensuring all indicators on the switches align correctly with operational expectations.
+
+Lastly, when utilizing the `every=2` command for I/O operations on the chosen LUN, confirm that the output aligns with system requirements and proper functionality to achieve the desired performance.
+
+--- 
+
+This revision maintains the original meaning while presenting the information in a more organized and comprehensible manner.
+
+The current state of HP-UX software in relation to the management of HBAs (Host Bus Adapters) is as follows: For systems with the appropriate software installed, you will need to unmount the HBAs before service operations can begin. This applies specifically to CX300, CX500, and CX700 models which come factory-installed with the Access software.
+
+When managing these HBAs, caution must be exercised. If the HBAs are currently connected through specific software such as Navisphere or PowerPath, it’s critical to adhere to the guidelines for unmounting them to avoid service disruptions.
+
+In cases where the HP-UX system includes software versions A02 or higher, configuration commands through the Navisphere CLI are available for integrating different types of HBAs and improving I/O operations. Furthermore, the supported command options vary depending on whether the HBAs are connected via LAN or serial connections.
+
+Documentation for procedures related to configuring and managing these HBAs can be accessed through the Navisphere CLI, which includes commands for setting up storage groups and paths. Connections can include local host attachments or configurations via switches.
+
+Lastly, when using PowerPath, ensuring correct configurations for your HBAs and communication paths is important for optimal performance. If discrepancies arise between software versions or during system updates, follow the established procedures to mitigate issues and maintain stability across your HP-UX environment.
+
+Certainly! Here's a more concise and technically articulated paraphrase:
+
+---
+
+**HP-UX Access Configuration**
+
+For HP-UX systems, when using the command `mount` in conjunction with EMC's PowerPath, the paths to the LUNs will become active I/O paths, indicating that the system is communicating correctly with the Host Bus Adapter (HBA). Proper execution of commands can facilitate connections to Storage Processors (SP).
+
+For deployment with HP-UX, compatible installations of EMC's CX300, CX500, or CX700, along with the latest DMP software revisions, are essential. Ensure that the connected devices meet the necessary HP-UX software requirements, and are compliant with the EMC UNIX Release Notes. Additional features like MirrorView/A and SAN Navisphere are optional but recommended for improved functionality.
+
+Verify connectivity by checking the HBA indicators and ensuring that all requisite HBA switches are correctly configured. Employ appropriate HP-UX commands to perform checkpoints on LUN visibility and performance.
+
+Access control within Navisphere requires proper user authentication and permission settings. Use Navisphere CLI commands to configure communication paths, ensuring all arrays and SPs are correctly accounted for.
+
+For HP-UX deployments operating without EMC software, ensure that necessary configurations and installations, such as Access MirrorView/A, are applied. Review installation documents for managing RAID and connectivity aspects.
+
+Collectively, the integration of HP-UX with EMC systems mandates careful adherence to setup protocols, necessary software components, and systematic verification of I/O paths to ensure effective performance and reliability.
+
+--- 
+
+This version preserves the core intent and details while enhancing clarity and technical precision.
+
+### Software Updates
+
+This document outlines the necessary software updates for EMC storage systems, specifically the CX200, CX300, CX400, CX500, CX600, CX700, and higher models, as well as the FC4500. It details compatibility with the Navisphere 6.X browser-based operating system and the command-line interface (CLI) for these storage devices.
+
+### Supported Firmware and Driver Versions
+
+Ensure that the relevant software, including PowerPath and Navisphere CLI, is installed according to the provided part numbers (P/N). For instance:
+
+- EMC CX300, CX500, CX700 (P/N)
+- EMC FC4700-2 (P/N)
+- EMC FC4500, FC5300, FC5700 (P/N)
+- EMC Navisphere commands (P/N)
+- EMC SAN Copy (P/N)
+
+### Connectivity and Configuration
+
+Verify connectivity from each Host Bus Adapter (HBA) to the switch, making sure that the indicator LEDs reflect the proper state. The right configurations should show whether the HBA is connected correctly.
+
+### Access and Security
+
+Ensure users have the appropriate security clearance for Navisphere and related switches. The correct assignments and configurations allow access to the storage network through standard commands.
+
+### Handling Software Patches
+
+When using PowerPath, ensure to mount and unmount the CD-ROM with the necessary software patches. Use specific commands to verify whether the HBA is correctly recognized and to manage I/O paths.
+
+### Existing and New Installations
+
+For both existing systems and new setups, confirm that the required software revisions are in place. Use the designated commands to check and manage HBA connections effectively.
+
+### Caution
+
+Be mindful that the performance can be significantly affected by improper configurations or outdated software. Always perform checks before making changes to production systems to maintain optimal operation.
+
+I'm sorry, but the text you've provided seems to be a bit fragmented and unclear. It appears to include a mix of technical commands and explanations related to the Navisphere CLI, connectivity, and various components associated with HBAs and storage configurations. Could you clarify or provide specific sections you want to focus on for paraphrasing? This will help ensure that the paraphrase maintains the intended meaning while providing a clearer and more structured context.
+
+### Access and Configuration Reference for EMC Arrays
+
+#### Supported Systems
+This document pertains to the following EMC systems: CX200, CX300, CX400, CX500, CX600, CX700, FC4500, and PowerPath. It outlines the commands to be used with the Navisphere CLI; ensure software versions are compatible before executing any commands.
+
+#### Connectivity and Management Commands
+For arrays that utilize HBAs, use the specified Navisphere CLI commands to configure array connection paths, indicating the SP IP or HBA type as necessary. It’s crucial to verify existing HBA configurations and initiators to manage connections effectively.
+
+#### HBA and Switch Configuration
+When connecting HBAs to switches, analyze the indicators and LEDs on each switch to confirm connectivity. The status of these LEDs provides information about the connection. The WWPN of each HBA should also be checked against the SAN configurations to ensure proper integration.
+
+#### Mounting and Unmounting Media
+To mount or unmount the CD-ROM for software installations like PowerPath, specific command lines must be used to facilitate the process. Ensure the HBA is recognized correctly to avoid loading issues related to patches and updates.
+
+#### I/O Operations
+Utilize specific commands for selecting LUNs when performing I/O operations to ensure data integrity and path allocation. The system should reflect proper I/O commands as specified, highlighting any paths that are incorrectly configured.
+
+#### DMP Software Revisions
+Review the security requirements and revisions for the DMP software, especially concerning compatibility with the Navisphere 6.X versions and necessary patches for supported volumes.
+
+#### Summary
+To ensure proper orchestration of the EMC systems and their connectivity, reference the Navisphere documentation and adhere to outlined procedures for managing systems, configuring connections, and applying software updates effectively.
+
+Here’s a technical paraphrase of the provided text while maintaining the original meaning:
+
+Utilize the Access Reference, including Switch and DMP, to manage connectivity through the switches. Ensure the proper configuration of SAN switches, verifying the connection to the Storage Processor (SP). It's important to obtain the World Wide Port Name (WWPN) for the respective switches and their corresponding HBAs to facilitate communication. Use the Checkpoint switch software to confirm that the HBAs are correctly connected and operational, as well as to ensure each HBA's mapping is accurate within the relevant storage group. Utilize the Connectivity Navisphere to manage these configurations, aligning them with recommended practices for VERITAS DMP.
+
+For installing DMP, download the necessary files from the EMC Services or use the appropriate commands to set the storage group configurations through the Navisphere Command Line Interface (CLI). Ensure the IP address of the SP is correctly referenced, especially if integrating with VERITAS VXVM or newer versions. Familiarize yourself with the CLI commands and check the secondary connections.
+
+When dealing with software installations, particularly regarding EMC systems, follow the procedures outlined for initializing new setups, especially for devices like CX300, CX500, or CX700. This involves connecting to the specified hardware and ensuring compliance with any required patches or updates. Engage with the corresponding software revisions specific to platforms like NetWare, ensuring they are compatible with the hardware in use.
+
+To establish effective connectivity, focus on verifying the proper alignment of HBAs with the required switches. Each HBA should have its URL documented for seamless communication with the SP and other network components. Any necessary configurations can be checked visually via the LED indicators on devices.
+
+For managing the security settings and access configurations, leverage the CLI commands to administer important network paths and RAID settings. It's critical to adhere to the EMC guidelines to ensure the software operates correctly without conflicts, especially when connecting to multiple devices within the SAN framework.
+
+Lastly, always refer to the EMC Release Notes for the most current and relevant information regarding software and hardware compatibility, ensuring all installations are up-to-date and properly aligned with respect to connectivity and operational guidelines.
+
+The integration of NetWare with Access Reference involves the existing EMC and SAN switches. Each Host Bus Adapter (HBA) connects to a switch, which can be monitored via the switch's LED indicators. The LED status will indicate whether the HBA is properly connected, showing whether both Left and Right LEDs are off, or whether one is lit indicating connectivity through the switch.
+
+For the Navisphere environment, if using SAN Copy or MirrorView/A along with the necessary software packages, those users should also have access to security protocols for both LAN and switch systems. 
+
+Specific commands within the Navisphere CLI can be employed to manage the connectivity and configurations as they relate to various Storage Processors (SP). Ensure that all configurations adhere to the established connectivity guidelines for effective management of the storage resources.
+
+To interact with NetWare regarding RAID configurations, utilize the respective commands to perform checkpoints for each LUN. It is also essential to replace "LUNZ" references with correct identifiers and to utilize PowerPath commands to facilitate connectivity management.
+
+In instances where access is restricted, manual commands may be necessary. Acknowledge that there are safety cautions regarding I/O operations pertaining to the HBAs and connectivity setups. 
+
+Updates and configurations can be performed via the Navisphere Utility, ensuring that either new or existing configurations for the specified models (CX series) are successfully implemented. 
+
+Commands to manage storage groups and LUN associations should reflect current connectivity statuses, ensuring accurate command execution for effective storage management within the NetWare environment. 
+
+For existing configurations related to the FC4500 or analogous systems, follow the Navisphere CLI commands to monitor and adjust configurations. This will enhance the storage array management, providing essential connectivity and functionality across all related devices. 
+
+Always verify the proper installation and configuration processes to ensure operational reliability, particularly for setups involving the PowerPath software.
+
+## Access Reference with and Without PowerPath
+
+### Command Overview:
+To manage LUN access, execute the following command if PowerPath is restricted: `class=clariion Choose LUN`. This command enables I/O to the selected LUN with parameters set as `every=2`, ensuring the chosen LUN receives I/O operations. If using HBA, this command will apply specifically to its designated paths.
+
+### NetWare Updates:
+For both new and existing NetWare installations, update with the following command if PowerPath is limited in its capacity. The command `every=2` facilitates access to ensure that I/O is consistently directed to the selected LUN through the specified HBA. 
+
+### Transitioning Services:
+If utilizing services like ATF or CDE, caution is advised, and it is recommended to consult EMC Professional Services. Ensure that any software transition to PowerPath is implemented correctly for optimal functionality. This includes maintaining existing connections while transitioning from ATF or CDE.
+
+### Connectivity and Issue Resolution:
+In connecting to switches via Navisphere, LED indicators can help diagnose connectivity issues. Be attentive to whether the LEDs indicate appropriate connections between HBAs and switches. The command `Scan` can be utilized alongside `Checkpoint` processes to verify that paths are accurately established to each LUN.
+
+### Command Execution:
+Run the `Navisphere CLI commands` appropriately to check device statuses and connectivity across your network. Use the command `class=clariion` for path verification, and ensure correct LUN access has been assigned through your NetWare configuration.
+
+### Best Practices:
+For seamless operation between PowerPath and NetWare, ensure that configurations follow the specified commands precisely. Keep an eye on maintenance aspects of the HBA and software updates to mitigate issues before they arise. Regular monitoring of path statuses and I/O operations will ensure the system remains operational and efficient.
+
+### Final Notes:
+Should you experience connectivity issues or need additional assistance, refer to the documentation provided for troubleshooting steps or reach out to EMC Professional Services for specialized support.
+
+Here’s a paraphrased version of the text in a natural, technical manner:
+
+---
+
+**Access and Reference Details for Navisphere CLI Commands**
+
+To manage arrays like CX200, CX300, CX400, CX500, CX600, CX700, or other HBAs, utilize the relevant Navisphere CLI commands corresponding to the specified array comm path, using the SP IP address for existing HBAs. The commands presented here apply to existing NetWare initiators.
+
+**Access and Reference with FC4500 and NetWare**
+
+When interfacing with the EMC FC4500, follow the appropriate Navisphere CLI commands based on whether existing HBAs are connected. Use specific commands to manage storage groups and hosts effectively.
+
+**Caution When Using NetWare and PowerPath**
+
+Be aware that managing connections through NetWare with PowerPath requires careful monitoring of device states. If NetWare devices appear inactive, take corrective actions to ensure that LUN paths are properly configured, either through manual steps or software patches.
+
+**Checking HBA Connectivity to Switches**
+
+Verify the connection of HBAs to switches or Checkpoint SANs. Observe the LED indicators on each HBA switch to ensure proper connectivity and functionality. Ensure that each HBA is appropriately registered to the switch within your system's connectivity management.
+
+**Working with LUNs and Commands**
+
+To maintain proper LUN access during operations, utilize commands that cater to PowerPath requirements. It is essential to ensure that all I/O activities directed at LUNs are performed using commands that specify the correct parameters, such as `class=clariion`.
+
+**Installation and Software Revisions**
+
+Maintain current software, drivers, and firmware as indicated in the EMC release notes and ensure compatibility with hardware like CX300, CX400, CX500, CX600, CX700, and FC4500. Reference the latest patches and validate your configurations in compliance with EMC’s guidelines.
+
+**Conclusion**
+
+This document provides guidance on utilizing EMC PowerPath and Navisphere CLI for effective storage management across supported array architectures. Always verify that connections, command implementations, and system configurations comply with the latest EMC protocols and best practices.
+
+--- 
+
+This paraphrase maintains the original meaning while presenting the information in a clearer and more organized manner.
+
+**EMC and Installation Reference (P/N EMC and 19-Inch NEMA)**  
+Installation guide for EMC models including the CX300, CX500, and CX700 series, with specific part numbers related to cabling and configurations. For systems utilizing DPE and DPE2 configurations, ensure that the appropriate part numbers (A01, A02, or higher) are referenced.
+
+**PowerPath and HBA (Host Bus Adapter) Considerations**  
+It is critical to ensure that all HBAs are configured correctly as outlined by guidelines to maximize service efficiency. Caution is advised as improper configurations can significantly increase I/O demand. Always verify that PowerPath software is up-to-date and compatible with the installation version of Unix systems.
+
+**Switch Connectivity and Indicator LED Status**  
+When connecting HBAs to switches, check the LED indicators on the switches to ensure proper connections. The status of the LEDs can provide instant feedback on the connectivity status between the SPs and the HBAs.
+
+**Command Reference and Configuration**  
+Utilize the Navisphere CLI commands for managing storage group configurations, ensuring each HBA is assigned accurately to the respective storage group. Be mindful of connectivity commands like `arraycommpath` when assessing paths to the LUNs, especially for managing I/O policies efficiently.
+
+**Access Without Reference Considerations**  
+For systems without direct access, properly configure PowerPath and HBA connections. Ensure compatibility with existing software revisions to maintain effective operation across CX300, CX500, and CX700 models. Always refer to EMC documentation for the latest command protocols and best practices.
+
+**Conclusion**  
+Maintaining updated configurations and software patches, along with careful monitoring of connection statuses, is essential for the seamless operation of EMC systems and ensuring optimal performance across all connected networks and storage solutions.
+
+Here's a paraphrased version of the text that retains the original meaning while using a more natural and technical tone:
+
+---
+
+### Access and Configuration of the FC4500 and PowerPath
+
+When utilizing Navisphere CLI with the FC4500, various commands can be executed based on the HBA (Host Bus Adapter) connection status. It is essential to verify the connectivity of each HBA to the array using commands that document the paths and status. 
+
+If the existing storage group is available, use Navisphere to assign identifiers to unknown-type checkpoints. This pertains to each LUN (Logical Unit Number), where certain checkpoints can either utilize PowerPath or other management tools for efficient management of RAID groups. 
+
+### Command Execution for Mounting and Connectivity
+
+In order to properly mount LUNs and ensure connectivity, use the following PowerPath commands. Ensure to specify mount points accurately for proper partitioning. If paths are not correctly specified, consult documentation to rectify connectivity issues.
+
+### I/O Management and Commands
+
+For controlling I/O to the chosen LUN, utilize the command: `class=clariion for I/O operations`, ensuring to specify parameters such as `every=2`. This will allow for checks on I/O paths relative to each chosen LUN.
+
+### Integration with VERITAS Storage 
+
+To achieve compatibility with VERITAS versions 3.1.1 and earlier, specific commands are needed for managing volume policies. Upgrading to VERITAS 3.2 will require adjustments in configuration commands, including `length=16` for optimal performance with PowerPath.
+
+### Professional Services and Support
+
+Note that any service-related actions involving the ATF or CDE software requires careful adherence to EMC's guidelines. EMC recommends engaging Professional Services for software installation and configuration to ensure that PowerPath operates optimally and meets performance standards.
+
+### Conclusion 
+
+While working with existing and new HBAs, it’s crucial to monitor their connectivity status and manage them effectively using tools like Navisphere. Always follow up with PowerPath commands for optimal performance and make sure you’re equipped with the latest software patches to minimize issues when connecting to EMC systems.
+
+--- 
+
+This version maintains the original intent and details, presenting the information clearly and concisely for technical readers.
+
+The following information pertains to the integration of existing EMC environments with connected SAN systems. EMC Professional Services advise caution when utilizing ATF (Advanced Technology Framework) or CDE (Cluster Data Environment). It is recommended that users consult EMC Professional Services for configuration and support regarding PowerPath and software transitions.
+
+For the CX300, CX500, and CX700 series, ensure that HBAs (Host Bus Adapters) are connected as supplied from the factory. If you encounter issues or require modifications, it is essential to consult EMC Professional Services. Upgrades or transitions involving software revisions must be thoroughly checked against the existing HBA setups to avoid I/O performance degradation.
+
+Utilize Navisphere CLI commands to verify and manage connections. For instances where firmware revisions are in question, ensure compatibility with existing configurations, especially regarding storage processors (SP).
+
+When connected to FC4500 systems, use specific CLI commands to manage your devices, while maintaining compliance with established connection protocols. PowerPath commands are required for operational integrity within these environments. 
+
+In the case of SAN switches, ensure that each HBA's connectivity is properly lit by indicator LEDs to verify functional relationships.
+
+If using PowerPath on specific LUNs (Logical Unit Numbers), ensure adherence to set commands to optimize data flow. This includes maintaining paths and ensuring robust communication with the underlying storage group configurations.
+
+For users operating with VERITAS software, note that specific commands and parameters need to be established to ensure optimal pathing behavior. It is critical to remain apprised of software updates to fully leverage functionality mapped between EMC and VERITAS systems.
+
+In summary, employ best practices regarding software integration and hardware configurations to maintain system performance and reliability within existing EMC infrastructures. Always consult technical support when in doubt.
+
+### Revised Text on DMP Software Revisions
+
+This section outlines the revisions related to the VERITAS DMP software for the CX300, CX500, and CX700 models. The DMP software must be installed with the corresponding HBA and is compatible with the EMC environment.
+
+### HBA and Firmware Compatibility
+The DMP software requires updated operating systems and patches aligned with EMC standards. Ensure that your firmware and drivers associated with the HBA are sufficiently updated (versions FC4700 or higher). Ensure that the switches, security configurations, and Navisphere settings are properly integrated.
+
+The relevant EMC models are:
+- CX300 (DPE) - P/N A02 or higher
+- CX300 (DPE2) - P/N A01
+- CX500 (DPE2) - P/N A02 or higher
+- CX500 (DPE2) - P/N A01
+- CX700 (SPE) - P/N A02 or higher
+- CX700 (SPE) - P/N A01
+
+### HBA Configuration
+To enhance connectivity and performance, properly configure the HBA with the corresponding switches. Follow the outlined steps to ensure correct linking between the HBA and the switch. It is crucial to note that improper configurations can lead to significant I/O degradation.
+
+Use the Navisphere CLI to manage the array communication properties by executing the command: `arraycommpath`. Specify the IP address of the corresponding SP to verify switch connectivity.
+
+### Command Usage for Configurations
+Utilize the following Navisphere CLI commands to adjust storage group settings:
+- `storagegroup -sethost solaris_host` where you designate the IP address of the SP and the associated solaris_host.
+
+It's important to fulfill the requirements of both LUNs and the appropriate VERITAS configurations to maintain system integrity.
+
+### Operational Guidelines
+- Disconnect the existing SP to ensure a stable configuration before implementing the new software.
+- Before proceeding with the installation, verify that all necessary patches and operational guidelines are adhered to in accordance with the "NDU Procedure."
+
+### UNIX Integration Corrections
+The following guidelines will assist in connecting UNIX environments to the relevant SAN configurations. Ensure compatibility with existing software and recommended integrations to harness the full potential of your system.
+
+Carefully manage the UDID (UUID) for each HBA. If required, execute the necessary commands to realign configurations, aligning with the EMC protocols.
+
+### RAID Management and LUN Integration
+With respect to RAID management, ensure the LUN setup in the Navisphere reflects the corresponding SP's configuration requirements. Document and confirm all properties using the appropriate Navisphere commands to submit selected units into their rightful groups. 
+
+Approach any potential patch implementations with caution to guarantee system stability and performance.
+
+All adjustments and implementations are to be executed following precise Navisphere CLI commands to maintain effective operations across your EMC environment.
+
+**Revised Version:**
+
+The Access Reference for SRM LUN in Navisphere 6.X allows users with existing accounts and security permissions to interact with the system. For connectivity, particularly through UNIX, the command must reference the LUN's UDID. To verify that the LUN is operational, use the appropriate command at the SRM to initialize a checkpoint. Subsequently, the LUN should be visible within the management interface.
+
+Commands for RAID configuration and group assignments are also available through Navisphere, alongside setup for new UNIX systems and relevant security protocols. After initializing these configurations, the following commands will assist in verifying accessibility to different components or software, such as VERITAS DMP and PowerPath.
+
+This section focuses on the compatibility of various EMC models, including CX200LC and others, with their existing setups. Information regarding the PowerPath or other DMP configurations will specify connections with older or factory-installed models, such as FC4500, CX300, CX500, or CX700.
+
+The document further outlines software revisions for EMC hardware, emphasizing the necessary drivers and firmware for different CX models and ensuring that the PowerPath utility is correctly updated for seamless operation across systems. Particular attention should be paid to the specific product numbers listed for reference.
+
+Take caution when interfacing HBAs with NICs, as improper connections may significantly impact I/O performance. Each HBA or NIC's IP configuration must be properly assigned, and the network setup should be verified for efficiency.
+
+When using SAN Copy or MirrorView/A software, commands in the CLI should be executed to check connectivity and interaction with switches and other storage devices. Ensure that appropriate LED indicators reveal the status of connections to avoid misconfigurations.
+
+The reference also covers advanced security setups, such as optional CHAP, which enhances security for NIC initiators. Usage of these protocols should be implemented with care to maintain system functionality and access control.
+
+By following the specified guidelines and commands, users can establish efficient communication with the LUN and manage it within the Navisphere environment while ensuring compliance with security standards and maintaining optimal system performance.
+
+**Access and Connectivity Information:**
+
+**With Access / Without Access:**
+Refer to the specifics regarding HBA (Host Bus Adapter) or PowerPath in both new and existing setups. Note that having no HBA connected can lead to significantly increased I/O times. It's crucial to utilize the latest patches for PowerPath from the EMC software, Navisphere, or Navisphere CLI for optimal performance. 
+
+**Connectivity Status:** 
+Ensure that the HBA is connected correctly to the switches associated with the storage systems, such as the CX500i. The functionality of SAN Copy should be verified, especially for any secondary hosts using LAN connectivity. Confirm the connection status by checking the switch LEDs for each HBA, to ensure proper linkage to every storage processor (SP). 
+
+**Switch and NIC Configurations:** 
+When configuring SANs with systems like CX200, CX300, CX400, CX500, CX600, or CX700, it's essential to monitor switch indicators for indications of connectivity issues, such as LEDs being off on both left and right indicators. Each HBA should be connected properly to the designated switches, and if required, check the configuration through the Navisphere utility.
+
+**Setup and Initiations:**
+For environments with optional CHAP (Challenge-Handshake Authentication Protocol) security implemented, ensure that CHAP settings are consistent across all NICs and HBAs. This can be configured through Navisphere for each initiator.
+
+**Utilizing PowerPath and VSS:**
+To enhance functionality with PowerPath, attempts to use options like the Virtual Storage Stack (VSS) should be conducted carefully, ensuring compliance with the pre-defined commands. Always focus on correct LUN (Logical Unit Number) selections and I/O operations, establishing paths correctly.
+
+**Final Checks and Command Execution:**
+Conduct thorough checks using PowerPath commands to ensure paths to LUNs are established correctly and that the setup is functioning as intended. Disconnection issues should be addressed promptly, following the correct protocols to restore connections.
+
+**Conclusion:**
+Regularly monitor and maintain connectivity within your EMC environments, and leverage tools like Navisphere and PowerPath for optimal performance. Ensure firmware/software is updated and configurations are thoroughly validated for all components involved.
+
+I'm sorry, but that text is quite technical and seems to contain internal jargon that can lead to misunderstandings without proper context. Can you clarify or provide specific sections that you want paraphrased?
+
+### Access Reference Overview for CX Series and HBA/NIC Configuration
+
+To manage your CX300, CX500, or CX700 storage systems, you can connect to a switch or use the CX500i HBA. Utilize Navisphere for managing security settings and user access, ensuring proper connections from the HBA or NIC to the switch or Checkpoint SAN.
+
+Check the switch's LED indicators to monitor HBA connections. If the left and right LEDs are both off, they indicate that the Storage Processor (SP) is disconnected from the switch. Proper connections must be maintained between each HBA and the switch.
+
+Using the Navisphere CLI, you can issue commands to verify the connectivity from each HBA initiator to the SAN. Confirm the state of the Checkpoint software on the switch for proper operation. 
+
+For enhanced security, you could implement optional CHAP settings in Navisphere, which can be applied to both existing and new HBAs. When configuring RAID settings, ensure these settings are applied consistently across your arrays.
+
+Should you utilize PowerPath software, always ensure compatibility by following the relevant instructions. For any service interruptions or adjustments, it is advisable to engage EMC Professional Services for assistance with ATF or CDE software integration.
+
+Connectivity checks and software revisions should be kept up-to-date to avoid performance bottlenecks in I/O operations. When performing configurations, utilize caution and refer to the appropriate commands based on your specific setup, ensuring that non-disruptive practices are followed.
+
+Always consult the Navisphere CLI documentation for detailed commands and their implications on the configuration of your connected HBAs. The commands can be used to manage HBA types, connectivity, and overall system performance effectively.
+
+Sure! Here’s a paraphrased version of the text in a more concise and technical manner:
+
+---
+
+**Access with and without Reference**
+
+**HBAs Connected to Switches:** The system setup includes HBAs either linked directly to switches or through CX500i switches, and connectivity to a router or switch. Each HBA connects to an individual NIC, allowing each to communicate with the SAN switches and checkpoint software for necessary utilities. The checkpoints interface with Navisphere to manage connectivity for each HBA, ensuring proper access to existing SAN switches.
+
+**Security Configurations with CX500i:** For added security, the CX500i supports optional CHAP (Challenge-Handshake Authentication Protocol). If a Service Processor (SP) is connected through a NIC or HBA initiator, CHAP authentication is implemented. If preconfigured, Navisphere facilitates CHAP setup for each NIC or HBA, ensuring secure communication.
+
+**PowerPath Commands and Configuration:** Using PowerPath with Navisphere, a disconnect command may be issued to the FC4500. To restrict commands, utilize the following syntax: `class=clariion Choose LUN to Choose LUN to I/O the I/O`. The system manages I/O to LUNs effectively, maintaining command integrity.
+
+**DMP Software Revisions:** The DMP software for systems connected to CX300, CX500, or CX700 requires specific revisions and HotFixes for optimal operation. Ensure the DMP software is compatible with necessary switches and optional software such as SAN MirrorView/A.
+
+**Using NAVISPHERE CLI Commands:** To assign resources, utilize specified CLI commands for storage group configuration via the `arraycommpath` and ensure effective communication pathways between service processors.
+
+**Switch Configuration and Monitoring:** Regularly check the WWPN (World Wide Port Name) and connectivity through the checkpoint switch software. Ensure that all HBAs maintain proper configurations, and revisit the VERITAS documentation for any required updates.
+
+**Reporting Issues and Customer Support:** For troubleshooting, EMC Customer Support provides extensive documentation on detecting and resolving software issues. Collect pertinent information, including tracking ID and functional details of the software, when reaching out for assistance.
+
+--- 
+
+Let me know if you need further modifications!
+
+Please provide the necessary information regarding the EMC Customer FTP in the U.S., specifically for the EMC Customer located at South Street, MA. If there has been an assignment, kindly include that information as well as details for Customer A-7 and Customer A-8.
+

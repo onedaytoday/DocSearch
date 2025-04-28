@@ -1,0 +1,43 @@
+**HBA Overview**
+
+**Copyright Notice**  
+This translation is provided by the Corporation and may not be reproduced without prior approval. The Corporation disclaims any responsibility related to the accuracy of third-party information or its proprietary rights. LightPulse, BlockGuard, InSpeed, SLI, and SBOD are trademarks of the Corporation, along with any other referenced names or organizations.
+
+**Introduction**  
+The Host Bus Adapter (HBA) operates at gigabits per second (Gb/s) and complies with the Fibre Channel (FC) specifications, aligning with both PCI and CEM standards. It provides exceptional performance and integrates seamlessly with FC networks, offering high throughput and end-to-end path redundancy, including Cyclic Redundancy Check (CRC) protections and internal random-access memory (RAM). 
+
+The architecture includes state-of-the-art technology with Error-Correcting Code (ECC) memory protection. The HBA supports high-density applications and features advanced ARM architecture for enhanced instruction and caching capabilities. It is compatible with VC0 and TC0 Class, and facilitates read/write operations.
+
+To support integration with existing products like LP8000, LP9002L, LP9802, and LP10000 HBAs, the software is compatible with various operating systems, including NetWare, Solaris, and HP-UX. Additionally, it adheres to the Restriction of Hazardous Substances (RoHS) Directive, ensuring compliance with environmental standards.
+
+**Hardware Identification**  
+The HBA is identifiable by its IEEE World Wide Name (WWN) and must be properly connected for optimal functionality. The device features a low-profile design that allows for reduced mounting height, and proper installation ensures reliable grounding for operational integrity.
+
+**Connecting the HBA**  
+Ensure the HBA is securely attached before applying power. During the Power-On Self-Test (POST), LEDs will indicate the operational status, which is important for confirming successful identification by the system.
+
+**POST LED States**  
+- On: Normal operation
+- Flashing: Indicates issues or pending checks
+- Off: No power or not detected
+
+**Specifications**  
+The HBA supports various interfaces, complying with FC-0 physical standards. It is designed to meet international safety and electromagnetic compatibility (EMC) standards, ensuring reliable performance across different environments.
+
+**Regulatory Compliance**  
+This HBA complies with FCC regulations and has been tested to minimize interference. The operation of the HBA should not cause disruption to other devices, and users are advised to follow proper guidelines to mitigate any potential interference.
+
+**Declaration of Conformity**  
+This device meets the requirements of CISPR22/EN55022 Class A, which confirms its compliance with interference standards.
+
+**Notice**  
+This information about the LightPulse HBA product line includes regulatory compliance and operational instructions necessary for safe and effective use. Users should maintain awareness of the specific technical requirements and follow recommended practices for installation and operation.
+
+Alternatively, the information provided is relevant for the IEC Class specifications for the countries listed below. The information is presented on a white background. In English, the Class designations are applicable to those countries. 
+
+The Product Information Factor is comprised of an integrated factor and a subassembly. This subassembly relates to the shortwave factor and its characteristics, as outlined in the classifications below. These Class classifications pertain to service operations and factors that must adhere to compliance regulations to prevent misuse, as established by the U.S. Department of Health and Human Services (DHHS) and in accordance with EN60825-1/EN60825-2 standards.
+
+Short wavelength components are permissible when interconnected with additional shortwave factors. This Class also integrates protective measures. The specified functional supply for the factor is typically set at 3.465V. Performance metrics related to this supply are categorized under Class parameters.
+
+For products classified in the U.S., correct compliance with the established factors is necessary for maintenance of their classification. Recertification may be required for products incorporating these factors to ensure they meet standards similar to those outlined in IEC950 and adherence to DHHS regulations. The conformity factor is obtained from the relevant Corporation.
+

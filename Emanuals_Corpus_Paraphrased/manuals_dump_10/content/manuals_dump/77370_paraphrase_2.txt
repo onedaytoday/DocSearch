@@ -1,0 +1,53 @@
+### Overview of Third-Party Switches P/N A02 - November
+
+This document pertains to the EMC Switches installed in both EMC and third-party racks. The sections are organized as follows:
+
+1. **Information** .......................................... 3
+2. **Switch Mounting (DS16B2RKLS)** ................ 17
+
+### EMC and Third-Party Switches
+
+The DS-16B2 and DS-32B2 switches support data rates up to 10 Gb/s. Each switch is designed to integrate seamlessly with the highest level of connected devices. During configuration, units can be individually set up or combined based on requirements. 
+
+The DS-16B2 has a standard 19-inch height and is housed in an air-cooled chassis, while the DS-32B2 features a 1.5U air-cooled chassis. Both switches can be utilized as standalone units or mounted within standardized EIA 19-inch racks.
+
+#### Mounting Information
+
+The mounted dimensions for the following switches include:
+- **DS-16B2-00**: DS16B2RKLS
+- **DS-32B2-00**: DS16B2RKLS
+
+Tables will provide explicit details on the mounting process, including required screws and washers for assembly.
+
+### Cooling and Dimensions
+
+The heat dissipation specifications and cooling requirements for the DS-16B2 and DS-32B2 switches will be evaluated in the subsequent sections. Tables will delineate the dimensions, including height, depth, and required clearance.
+
+### Rack/Cabinet Installation Procedures
+
+Switches are typically positioned at the top of the rack/cabinet. The installation process requires specific attention to the outlets and switch ratings as outlined in Table EMC2056S.
+
+### Assembly Instructions
+
+The assembly consists of various components, including screws and washers (listed in Table EMC2044S). The following items are essential for mounting:
+- M5 pan-head screws (Qty. as required)
+- Round-hole washers (Qty. as required)
+
+### Final Assembly
+
+Ensure to follow the specified installation instructions to secure the switches correctly within the rack/cabinet. The sections provide detailed steps for using M5 head screws and washers to fasten the switch assembly effectively.
+
+### Technical Support and Information
+
+For support, please contact EMC Customer Service:
+- In the United States: (SVC-4EMC) or (543-4SVC)
+- Worldwide inquiries can follow similar channels.
+
+### Disclaimer
+
+The information presented in this document is provided "as is" without any warranties, express or implied. EMC Corporation disclaims all representations regarding the accuracy and reliability of the content presented herein.
+
+### Copyright Notice
+
+All rights reserved by EMC Corporation. Unauthorized use or reproduction of this information is prohibited.
+

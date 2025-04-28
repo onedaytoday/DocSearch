@@ -1,0 +1,259 @@
+**Instruction 748467-A Continuous**
+
+Rosemount Analytical and its products must be utilized in accordance with strict technical standards, ensuring compliance within specified guidelines. The guidelines outlined must be adhered to and integrated when using Rosemount Analytical products. It is essential to follow these instructions for the safeguarding of life, property, and warranty conditions. Non-compliance can void your warranty and may lead to hazardous situations including fire or operational failure. Ensure all protective covers are closed during operations to prevent shocks.
+
+The following sections provide crucial information about various components such as the NDIR reaction, CPU ADIO board, and PCMCIA interface. There is also information regarding the MicroCEM wireless LAN, assembly, flow measurement, and software updates.
+
+**LIST OF ILLUSTRATIONS:**
+- MicroCEM Assembly
+- Detector Assembly
+- Interface Tables
+- Assignments for RS-232 and RS-485
+- Factory PID Sections
+
+**INSTRUCTION OVERVIEW**
+This document contains essential operating information regarding the MicroCEM. Users should familiarize themselves with the content and acknowledge all warnings and notes, which highlight significant risks, including potential hazards, health risks, and equipment malfunction.
+
+**SAFETY SUMMARY**
+Users must recognize the authorized personnel, possible explosion hazards, and electrical shock risks associated with MicroCEM operations. Handling procedures for toxic gases and high-pressure cylinders should be strictly followed to prevent accidents.
+
+**COMPLIANCE AND OPERATIONS**
+The MicroCEM is designed for continuous measurement of CO and other gases in parts per million (PPM). It operates effectively with a cooling system and is compatible with standard PC/104 boards. Applications include emissions monitoring for EPA-compliant fired heaters. 
+
+**FUNCTIONALITY**
+The MicroCEM measures gas concentrations using a continuous flow system where reactions occur involving nitrogen oxides (NOx). The emission measurements are based on photonic reactions, whereby the system utilizes specific wavelengths to quantify NOx levels, ensuring precise monitoring and reporting.
+
+For more details, please refer to the Customer Service section or relevant certifications as needed.
+
+### Instruction 748467-A
+
+**Microflow Technology Overview**
+
+The NDIR Microflow device comprises interconnected flow chambers and a reference, facilitating operation through various methodologies. The chambers include a sorption component, a chopper, and a photodetector to measure specific quantities. The design allows for enhanced measurement accuracy by aligning the flow and sensor configurations to the absorption characteristics. The overall assembly incorporates a board that strengthens the device's functionality while also allowing for easy maintenance. 
+
+### Detector Methodologies
+
+The MicroCEM system operates based on three selected methods: Non-Dispersive Infrared (NDIR) technology, which relies on analyzing the absorption characteristics of gases such as CO and CO2. Specifications provided by Rosemount Analytical Inc. of Emerson detail how absorption correlates with gas concentration, using various detectors to minimize interference. This correlation is crucial for characterizing specific gas types and accurately measuring concentrations within expected ranges. 
+
+### Functional Composition
+
+The system includes a thermal chopper that enhances measurement accuracy by distinguishing between reference and sample signals. The absorption chambers are designed to be higher in temperature compared to their surroundings, allowing for efficient gas flow and minimization of cooling effects. The chopper mechanism consistently cycles the flow, ensuring that measurements are both reliable and repeatable.
+
+### Central Processing Unit (CPU)
+
+The CPU is built on an AT architecture, equipped with peripherals such as SVGA, Ethernet, IDE, and USB interfaces, operating on 64MB SDRAM. Storage includes an SSD and HDD configuration, which supports the operating system and other functionalities.
+
+### Analog/Digital I/O Board (ADIO)
+
+The ADIO board utilizes an off-the-shelf PC/104 design, providing multiple input/output channels for analog-to-digital (A/D) and digital-to-analog (D/A) conversions. Features include onboard DMA capabilities and simplified clock synchronization, enabling high reliability across various applications. Configurable output ranges allow for increased flexibility in data collection.
+
+### Autocalibration and Data Management
+
+The design integrates an autocalibration circuit that utilizes a 16-bit A/D converter and FIFO buffers to optimize performance, ensuring minimal software overhead and increased data processing speeds. The ADIO's EEPROM supports calibration data recall, enhancing measurement accuracy continuously.
+
+### Performance Specifications
+
+Specific performance metrics include:
+
+- A/D voltage input ranges (10V, 5V, and lower increments)
+- Nonlinearity specifications within acceptable thresholds
+- Compatibility with various analog devices and sensors
+
+This structured design underlines the robust functionality and versatility of the MicroCEM and its subsystems, ensuring accuracy and reliability in gas measurement applications.
+
+**Instruction 748467-A: PCMCIA Adapter Overview**
+
+The PCMCIA adapter is compatible with PCMCIA types I, II, and III, adhering to Microsoft FFS-II, PCMCIA Version 2, and JEIDA specifications. Supported cards include Memory, Flash/SRAM/ROM, LAN, Wireless LAN, and SCSI. The adapter interfaces with the PC/104 architecture, compatible with AT PC/104 CPUs.
+
+It supports both PCMCIA versions 1.0 and 2.0, accommodating I/O and Memory cards. It facilitates functionality with DOS and other real-time operating systems through connectors J1 (PCMCIA) and J3 (PC/104 XT) and J4 (PC/104 AT). The system complies with PCMCIA specifications V2.1 and JEIDA V4.1, ensuring compatibility with MS-DOS or MS-WINDOWS for PCMCIA services.
+
+**MicroCEM Modem Features**
+
+The PC/104 modem is designed with flexibility in mind, supporting high-speed connections, including both dial-up (V.90, 56K) and leased-line functionalities. It incorporates support for various protocols like V.42 and MNP, complying with FCC regulations for leased lines and industry standards.
+
+**MicroCEM Flash Drive Specifications**
+
+The MicroCEM Flash Drive demonstrates typical performance metrics, including a ready time of approximately 5 ms and a burst transfer rate of 128 MB to/from the host. Command response times to DRQ are notably efficient.
+
+**MicroCEM Physical Specifications**
+
+The device operates within temperature ranges of 0°C to 60°C and can withstand a non-operational range of -40°C to 85°C. It is constructed to endure humidity and shock within specified operating limits. 
+
+**Instruction 748467-A: Pocket PC Specifications**
+
+This Pocket PC serves as a graphic interface for MicroCEM, featuring an SH3 processor with 32 MB RAM and 16 MB ROM and a rich-color CSTN LCD. It includes a pen-and-touch interface, a rechargeable Lithium-Ion battery, and an array of connectivity options including USB and IrDA.
+
+**Wireless LAN Adapter Features**
+
+The wireless LAN adapter enables connection to a wireless network, facilitating data transmission between devices. Security measures include support for WEP and DSSS with a 32-character ID. It is fully compatible with NDIS, operating on various platforms, and adheres to multiple regulatory standards.
+
+**Power Supply Specifications**
+
+The high-performance power supply includes Active Power Factor Correction (PFC) for optimized efficiency and minimal power loss. The design complies with international safety standards, ensuring both electrical and mechanical protection.
+
+**MicroCEM System Specifications**
+
+Configured as a wall-mounted NEMA 4X (IP65) unit, the MicroCEM operates within a temperature range of 0°C to 50°C. It supports various inputs and outputs including RS-232, LAN, and distributed process control interfaces. 
+
+**Safety Warnings and Installation Overview**
+
+Precautions should be taken to avoid electrical shock and ensure proper installation, particularly regarding exposure to elements and access to secure locations. 
+
+**Sample Calibration Gas Instructions**
+
+Ensure that the gas connections are sealed and clean. The system should be adequately prepared to handle anodized teflon connections, ensuring compatibility with operations.
+
+**MicroCEM Setup Requirements**
+
+The system incorporates various components including valves, regulators, and detectors suited for precise atmospheric measurements. Clients must provide necessary fittings and specifications based on their operational needs.
+
+This comprehensive overview outlines the essential specifications and compatibility features related to Rosemount Analytical Inc.’s MicroCEM system and associated components.
+
+### Instruction 748467-A: Electrical Connections
+
+The NEMA connections for the MicroCEM must be secured. The locations for these connections are specified on the cover of the device, provided by Rosemount Analytical Inc., a division of Emerson. 
+
+**Connection Interfaces:**
+- AC Power Input
+- Analog Interface (J2)
+- Digital Interface (J3)
+- RS232 Interface (J4)
+- LAN Interface (J5)
+- RS485 Interface (J6)
+- Phone Line Interface (J7)
+- Antenna Connection (J8)
+
+Ensure that all connections are in line with the application's requirements, with careful consideration of installation procedures outlined for the MicroCEM.
+
+### External and Internal Connections
+
+- **Power Supply Configuration:**
+  - AC Input (J1)
+  - Modem (J8)
+  - RS232 (J4)
+  - LAN (J5)
+  - RS485 (J6)
+  - Phone (J7)
+  
+- **Diagnostics:**
+  - LED indicators for issues (DS1 for trouble, DS2 for heartbeat)
+  
+- **Sensor and Valve Connections:**
+  - Peltier power, temperature sensors (internal and external), sample valves, and calibration valves.
+
+**Current Loop and Diagnostics:**
+- The system monitors for various parameters including low-range readings, operational limits, and external switch activation for calibration initiation.
+
+### Connection Specifications
+
+**Pin Assignments:**
+- Each connection interface comes with clear signaling definitions for accurate integration.
+- Assignments include input for external digital signals, barometric pressure, and more. 
+
+### Leak Check Procedures
+
+Regular checks should be performed to ensure integrity and performance. This includes monitoring flow rates and ensuring proper shut-off configurations.
+
+### Startup Procedure
+
+Ensure the MicroCEM is set up correctly per the guidelines in Section A. Apply power and validate that all systems are functioning optimally through the PC interface.
+
+### User Interface
+
+The MicroCEM connects via RS232, and its functionality is monitored through LED indicators which show active and trouble statuses. User interaction through the interface provides access to operational data and historical readings.
+
+### Alarm Levels
+
+A clear summary of alarm conditions based on specific sensor readings including oxygen and carbon monoxide levels, and system diagnostics, are provided. These alerts assist in maintaining operational safety and performance standards. 
+
+### Summary
+
+This document provides instructions and specifications for proper installation, integration, and troubleshooting of the MicroCEM system to ensure effective monitoring and control.
+
+**Instruction 748467-A MicroCEM Overview**
+
+When initiating the MicroCEM or MicroCEM Administration for the first time, the system prompts the current user's activity status. This is managed by Rosemount Analytical Inc. of Emerson. The user interface indicates the status of the device, showing the settings pertinent to the MicroCEM Administration.
+
+**MicroCEM Settings**
+
+The MicroCEM allows users to access current settings. If the display is active, the settings can be adjusted or reviewed. Rosemount Analytical Inc. provides factory settings, and users can modify configurations based on their operational needs. 
+
+**Factory Settings**
+
+Factory configurations can be adjusted by authorized technicians. The specifics include settings for O2 and CO sensor limits, offsets, and allocations. The device will manage internal functions, including warm-up time, heater settings, and safety protocols automatically based on the specified parameters.
+
+**Operational Parameters**
+
+Key operational parameters include O2 and CO thresholds, error limits, and system outputs. The configuration allows for detailed monitoring of performance through both analog and digital interfaces, ensuring timely adjustments are made throughout the operation phase.
+
+**Data Logs**
+
+The MicroCEM records historical data over a three-month period, encompassing various measurements and alerts. These logs can be saved in ASCII or CSV formats for further analysis. The files detail operational statuses, including timestamps and measurement states, allowing for comprehensive review and diagnostics.
+
+**Viewing Data Logs**
+
+Users can selectively view data logs by specifying the desired timeframes. The interface allows filtering by hour and month, facilitating easy navigation through historical data and ensuring users have access to relevant operational information.
+
+For precise instructions and configurations, refer to the complete Instruction 748467-A documentation.
+
+
+**Instruction 748467-A: Overview of MicroCEM Data Access and Software Features**
+
+The MicroCEM system, developed by Rosemount Analytical Inc. of Emerson, facilitates access to real-time data via a web browser or local network connections like PPP and RAS. The data can be exported in CSV or ASCII formats every few seconds.
+
+**Data History Access**  
+Users can navigate the MicroCEM interface to retrieve historical data, selecting specific time frames such as hour, month, or combinations thereof. Various shortcuts are available for quick access to this information.
+
+**Data Downloading**  
+The MicroCEM interface allows for the selection and downloading of three specific datasets. Upon making the desired selection, users utilize the HTTP download functionality to save the data temporarily. Confirmation of successful download will be communicated through the interface.
+
+**Excel Integration**  
+The MicroCEM can connect with Microsoft Excel, allowing seamless data transfer for analysis. Users initiate a new query to pull data directly from the MicroCEM into an Excel spreadsheet, which can refresh periodically through right-click options.
+
+**Auto Calibration Feature**  
+The system includes an automatic calibration process that activates as needed. This function is crucial for maintaining the integrity and accuracy of measurements within the MicroCEM environment.
+
+**Software Overview**  
+The MicroCEM software, which operates on a PC platform, interfaces directly with the MicroCEM hardware via TCP/IP or RS232 connections. Shared memory is utilized for data transfer, and troubleshooting options are built into the software for user convenience.
+
+**Safety and Maintenance Alerts**  
+Warnings against electrical hazards emphasize the importance of professional servicing for repairs. Users are advised to maintain the integrity of the device and perform regular checks on the reaction chamber to prevent buildup or malfunctions.
+
+**Assembly and Component Replacement**  
+Instructions for assembling and servicing individual components like the ozone generator, detectors, and converters are provided, including detailed schematics and orientation guidelines to ensure proper installation.
+
+**Leak Troubleshooting**  
+To identify leaks, users should apply a foaming solution to suspected areas. Monitor the feedback visually to ascertain the leak's location. Any connection issues between the MicroCEM and a PC will trigger the Trouble LED, providing an immediate visual alert for troubleshooting.
+
+In summary, Instruction 748467-A outlines critical features and instructions for effectively using and maintaining the MicroCEM system while ensuring safety and reliability in operation.
+
+### PMD, NDIR, PDD, AUX, EXIO, Thermoelectric Cooler, Thermistor Heater, Thermistor, Converter Assembly and Supply
+
+**Replacement Parts Instructions**  
+**Document: 748467-A**
+
+**Manufacturer:** Rosemount Analytical Inc. of Emerson  
+**Product:** MicroCEM  
+
+#### Return of Materials
+To initiate the return of materials, authorization must be obtained from the Rosemount Analytical Inc. office. Items should not be sent back without prior approval, as they may incur damage during transit. Proper instructions must be followed based on the condition of the units (e.g., housing, environmental exposure) to determine if warranty or non-warranty service is applicable. 
+
+If warranty service is anticipated, items will be examined and tested at the factory. If determined to be under warranty, repairs or replacements will proceed according to the guidelines provided. For material returns, direct communication should occur through Customer Service.
+
+#### Warranty Information
+The equipment is warranted against defects in workmanship and materials for a specified period following purchase. Warranty coverage extends to repairs or replacements conducted at the factory, free of charge, contingent on the conditions outlined in this document. Warranty excludes any indirect or consequential damages.
+
+**Explicit Warranty Terms:**  
+- **Limitation of Liability:** Seller's liability for breach of warranty shall be confined to repair or replacement under the standard warranty clause.  
+- **Exclusion of Damages:** Seller is not liable for any incidental or consequential damages, including, but not limited to, loss of profits, use, revenue, or damage to property.  
+- **Indemnification:** Seller is not obligated to indemnify Buyer nor liable for damage claims covered by insurance provided to Buyer and its successors.
+
+#### Contact Information  
+For support and inquiries, please reach out to:  
+- **Asia Pacific:** Fisher-Rosemount  
+- **European Technology Center:** Fisher-Rosemount, Hasselroth  
+- **Europe, Middle East, and Africa:** Fisher-Rosemount, Heath, PO22 9SH  
+- **Latin America:** Rosemount Americas  
+
+This document, Instruction 748467-A, is a critical resource for service and warranty procedures regarding Rosemount Analytical Inc. products.
+

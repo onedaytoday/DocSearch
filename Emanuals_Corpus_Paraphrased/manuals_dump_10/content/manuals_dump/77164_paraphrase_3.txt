@@ -1,0 +1,133 @@
+### Touchmonitor LCD Touchcomputer ESY1525L / ESY1527L Technical Overview
+
+**Contact Information:**
+TouchSystems, Inc.  
+Phone: 1-800-ELOTOUCH  
+Website: www.elotouch.com  
+
+**Copyright Notice:**  
+This publication, including any reproduction, transmission, transcription, or translation, is protected under copyright. Any unauthorized use without written permission from TouchSystems is prohibited. The information provided is subject to change, and this document does not imply any warranties regarding merchantability or fitness for a specific purpose, nor does it guarantee the continuity of information. Trade names such as SecureTouch, AccuTouch, and MonitorMouse are registered trademarks of TouchSystems, Inc.
+
+### Product Introduction
+Congratulations on your purchase of the Touchcomputer. This model includes an LCD touchscreen and operates under various configurations. The following specifications are relevant:
+
+- **Display:** 15-inch LCD XGA TFT
+- **Operating Systems Supported:** Windows CE and Windows XP
+- **Memory Configuration:** Options for 64MB or 256MB of SDRAM
+- **Storage Options:** Internal 64MB flash for Windows CE and the ability to boot from Compact Flash
+- **Touchscreen Options:** AccuTouch or standard touchscreen USB interface
+
+### Connectivity
+The Touchcomputer supports multiple connectivity options, including:
+- Wireless Network Adapter (via PCMCIA)
+- Wired Network (Ethernet)
+- USB ports for peripherals
+
+### Initial Setup and Software Configuration
+Upon first powering on the Touchcomputer, follow the on-screen prompts for operating system installation. Ensure all cables are appropriately connected, including power, to complete the setup process.
+
+### Testing and Configuration
+For device testing:
+1. Access the relevant testing icon on the interface.
+2. Follow prompts to test credit card scanning and other peripheral functions.
+3. Adjust brightness settings using dedicated buttons.
+
+#### OSD Functionality
+Use the designated keys to activate the On-Screen Display (OSD) for adjusting settings:
+- The relevant switches will toggle OSD functions when pressed together.
+
+### Technical Specifications
+**Mother Board Components:**
+- Processor: VIA Eden ESP, 1 MHz
+- Memory: PC133/SDR SDRAM support
+- Boot ROM: integrated
+- Controller Chips: VIA VT8606, Realtek Ethernet controller
+
+**Connector Locations on Motherboard:**
+- CN1, CN2: COM3 and COM4
+- CN3: 5V power
+- CN4: 5V and 12V power
+- USB ports (various) for connectivity
+- VGA CRT output, IDE connectors, and more.
+
+### Maintenance and Service Recommendations
+Always ensure the Touchcomputer is powered down before servicing. Follow standard safety practices when handling internal components, avoiding direct damage to the motherboard or connectors.
+
+For technical support, visit the resource section at www.elotouch.com/support/default.asp, or reach out via the listed phone line for assistance. 
+
+This summary provides a detailed yet concise overview of key features and considerations for the Touchmonitor LCD Touchcomputer models ESY1525L and ESY1527L.
+
+**USB Connectors and Interfaces:**
+
+- **USB1, USB2 Ports:** Feature headers J9 (optional), J11 (LVDS Connector - DF13-20), J13 (VGA CRT - optional), and J14 (also optional). 
+- **Pin Configuration:**
+  - USB Data:
+    - USB- 
+    - USB+ 
+    - Ground 
+    - +12V 
+    - TX0- 
+    - TX0+ 
+    - TX1- 
+    - TX1+ 
+    - TX2- 
+    - TX2+ 
+    - TX3- 
+    - TX3+ 
+    - TXC- 
+    - TXC+ 
+    - +5V or +3.3V 
+    - ENABKL 
+    - Ground (multiple entries).
+
+- **PS/2 Connectors:** J16 and J17 provide connections with NC, Ground, and +5V clock pins. 
+
+**System Specifications:**
+- **Processor:** VIA CPU with memory options ranging from 128MB to 1GB.
+- **Functions:** Support for APM and WinCE.Net operating systems.
+- **Ports:** Includes internal RS-232 connections (CN13 and CN14) and four USB ports. The system features one Ethernet (100/10Base-T) and a PCMCIA slot (J12), alongside one PS2 interface.
+- **Clock:** A backup lithium clock battery is integrated to maintain function.
+
+- **Display Characteristics:**
+  - The LCD features native colors, a-Si TFT, and standard brightness levels.
+  - Chromaticity specifications are provided, covering white and touch points.
+
+- **Customer USB MSR:** Features a VFD (Vacuum Fluorescent Display) and USB interface, compatible with standard ASCII characters. 
+
+**Regulatory Compliance:**
+- The product conforms to FCC Class B requirements, ensuring reasonable protection against interference.
+- Compliance with CE directives (89/336/EEC for EMC and 73/23/EEC for electrical safety) is also noted.
+
+**Warranty Terms:**
+- The warranty covers product functionality and defects in workmanship for a specified term. It limits liability to a refund of the product price and excludes additional costs related to replacement or installation of substitute goods. 
+
+For any queries or more information, please visit [www.elotouch.com](http://www.elotouch.com).
+
+**Touchcomputer 15" LCD Desktop Touchcomputer Series ESY1525L/ESY1527L Revision**  
+TouchSystems, Inc.  
+1-800-ELOTOUCH  
+www.elotouch.com  
+
+**Copyright Information**  
+All rights are reserved by TouchSystems, Inc. The product information includes SecureTouch, AccuTouch, and MonitorMouse trademarks.
+
+**Product Overview**  
+Presentation of Touchcomputers, highlighted by their touchscreens and related functionalities. Specifications include available motherboards, audio features, and operating systems (XP, CE) for various configurations.
+
+**Technical Specifications**  
+The hardware includes components such as SDRAM, Compact Flash memory, and optional MSR functionalities. Additional input options encompass USB-HID and touchscreen technologies like AccuTouch. Standard configurations support XP Professional, CE, and CE.Net operating systems.
+
+**Connector Layout**  
+The motherboard connectivity allows for various input/output configurations, including COM ports and USB interfaces to enhance connectivity options. Specifications cover connections for power supply, data transfer, and additional features.
+
+**CPU and Performance**  
+Utilization of VIA processors and memory configurations support numerous applications, while peripheral interfaces include Ethernet and PCMCIA slots for extended functionality.
+
+**Compliance and Safety Notes**  
+Adherence to international standards (ISO, ANSI) is essential, alongside guidelines for proper installation and handling to avoid reflective glare. Safety systems caution against incorrect replacements with appropriate instructions provided.
+
+**Warranty Information**  
+The provided warranties serve as exclusive remedies for buyers regarding any infringements on their rights. The seller disclaims any implied warranties beyond those explicitly stated. All liability is limited to the refund of the product price, excluding costs for replacement or installation.
+
+For detailed support, please refer to the support section at www.elotouch.com/support/default.asp.
+

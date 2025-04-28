@@ -1,0 +1,62 @@
+### Motion DSP Manual Overview
+
+**Notice**  
+The information provided herein, including text and graphics, is intended solely for reference. All specifications are subject to modifications without prior notice unless explicitly stated otherwise.  
+
+**Revision History**  
+- **April:** Initial Release of MAN-CAN305IG  
+- **Motion P.O.** Motion Inc., MA USA  
+- **Copyright:** © Motion Inc. All rights reserved.  
+
+---
+
+### Introduction to MAN-CAN305IG
+
+This document outlines the DSP-based Motion profile as per the CiA DSP specifications. The focus is on communication services and their operational objectives within the LSS (Layered Services Subset).
+
+#### Objectives and Terminology
+
+- **LSS Objectives:** Define services aimed at enhancing communication efficacy.
+- **Abbreviations:** Understand terminology like COB-ID, critical for identifying services during software interactions.
+
+### LSS Services Overview
+
+- LSS provides various functionalities, including service switching and synchronization. These services facilitate the communication of commands in a seamless manner and require compliant setup.
+
+#### LSS Commands
+
+- Commands are issued within the framework of defined identifiers, ensuring the LSS operates effectively across the network.
+
+### Functionality of LSS Services
+
+**LSS Services include:**
+
+1. **Switch Operation Modes:** Control and initiate service changes based on specific identifiers.
+2. **Selective Switching:** Offers targeted switching capabilities, allowing the system to react to specific commands.
+
+### Command Structure and Execution
+
+- Commands are structured for consistency and include identifiers representing various operational states. Each command is linked to specific functionalities while adhering to the communication protocol.
+
+### Service Confirmation and Execution
+
+- Each service includes a confirmation methodology to ensure commands are executed correctly. If issues arise during execution, alternative options can be pursued as per the defined protocol.
+
+### Summary of Command and Service Rates
+
+- The LSS service operates within specified rates, which determine the efficiency of communication. Accurate selection and execution of commands are crucial for operational success.
+
+### Switching and Delay Services
+
+- The switch_delay parameter determines the responsiveness of service changes, requiring precise calibration for optimal performance.
+
+In conclusion, this document centers on the operational specifications of DSP-based motion control, outlining key services, command structures, and performance metrics critical for effective implementation within LSS frameworks.
+
+**DSP MAN-CAN305IG COB-ID Overview:**
+
+The COB-ID boundaries encompass the CS Serial Number range, including both the Low and High boundaries for these identifiers, as defined by CiA standards. These boundaries also pertain to the LSS (Layer Setting Services), which requires matching Product Codes and corresponding Revision Numbers for compatibility with the LSS service commands.
+
+Regarding the LSS command, the unconfirmed state includes boundaries for both the Revision Number and Serial Number, with specific lower and upper limits provided by the CiA. If the conditions align with the CS configurations, it influences LSS type interactions.
+
+For interoperability, the DSP MAN-CAN305IG follows a specified procedure to differentiate between LMT (Layer Management Tool) and LSS services. The defined COB-ID aids in the correct identification of the involved LSS. Locally confirmed LSS services should be monitored in accordance with expected service time-outs to ensure that operations are completed without delay. It is advisable to carefully manage these time-outs to maintain efficient service performance.
+

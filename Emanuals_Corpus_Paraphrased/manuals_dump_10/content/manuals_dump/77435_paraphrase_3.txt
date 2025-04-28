@@ -1,0 +1,89 @@
+# UNI-TRAN PREMIUM PLUS TOXIC GAS DETECTOR USER MANUAL UT-P+-STXXXX for ST1200 Detector (MAN-0005-00)
+
+**Copyright Notice**
+This document serves informational purposes only. While we strive to present accurate technical data, typographical errors may exist. The incorporation of information within this manual is subject to changes and does not impose any liability on the company. The product is engineered for extended service life, rigorously tested and inspected prior to shipment. 
+
+**Warranty Information**
+The company warrants the device's materials and workmanship for a specific duration from the purchase date, with specific terms for various components. Any reproduction or distribution of this document or its contents without written permission from the company is prohibited.
+
+---
+
+### Table of Contents
+1. **Introduction**
+   - Overview and Features
+   - Sensor Locations
+   - Unpacking the Detector
+   - Mounting Instructions for ST1200, ST1300, ST1400, ST1500, ST1600
+   - Activation Procedures
+   - Troubleshooting Guidelines
+
+### Chapter 1: Introduction
+The UNI-TRAN toxic gas detectors are engineered for rapid and effective detection of a variety of hazardous gases. These devices offer high performance through advanced firmware and reliable operation while minimizing the likelihood of false readings. The user interface includes LED indicators and can operate in both English and Spanish.
+
+### Chapter 2: Unpacking the Detector
+Inspect the contents upon receipt for any damage. Ensure that the detector's sensor is positioned in a location that guarantees optimal performance for the gases it detects, such as Hydrogen Sulfide (H₂S), Carbon Monoxide (CO), and Sulfur Dioxide (SO₂). Refer to relevant industry publications for guidance.
+
+### Chapter 3: Mounting the Detector
+The detector housing should be oriented correctly to allow proper airflow and any necessary water drainage. Confirm that all connections adhere to applicable regulations. 
+
+### Chapter 4: Wiring and Shields
+The wiring from the detector to the relay board should be done using 18AWG shielded cables to minimize electromagnetic interference. It is crucial to maintain proper grounding during the installation process to ensure safe operation.
+
+### Chapter 5: Switch Activation
+This section covers the activation procedures for the UNI-TRAN detectors. The configuration allows the user to select from multiple options for operating the switches, including latching and non-latching relay options. 
+
+- **Latching vs. Non-Latching Options**
+  - The activation options should be selected based on operational requirements. 
+  - Follow the prompts displayed, confirming selections with the corresponding switch activation.
+
+**Warning:** Ensure that the detector is securely mounted and grounded during installation. Upon applying power, verify that the indicators are functioning as expected.
+
+### Conclusion
+Always refer to this user manual for comprehensive operational guidelines and troubleshooting methods to maintain optimal performance of your UNI-TRAN toxic gas detector.
+
+--- 
+
+Please refer to individual chapters for detailed procedures and specifications related to your specific model.
+
+The ST1400 can operate in both latching and non-latching modes, allowing for various high relay options. When the display shows a high relay status, it is typically set to a value higher than the standard relay. Users can acknowledge the selection by pressing the switch/CAL/RESET button, which will prompt a flashing display. Note that high relay settings require confirmation with a YES response when prompted.
+
+The UNI-TRAN device should be initialized using an external DC power supply to activate either the switch or the internal push-button. Once activated, the system should display an LED signal, indicating the need for clean air input. After the initial setup, confirm that the STATUS LED is illuminated properly, indicating readiness.
+
+It is essential for the detector to be allowed to stabilize in the field for at least a few hours before operation. Follow the instructions to connect the UNI-TRAN to the ST1400 and ensure that the LED signals are operating correctly. Apply zero air for calibration using the appropriate accessories, and be prepared to reset using the CAL/RESET if necessary.
+
+The device has features that continuously monitor its performance, with specific LED indicators for operational statuses. If issues arise, a red and green LED flashing pattern will signal a fault, prompting users to retry the calibration procedure.
+
+The primary operation involves selecting from three options that allow for various relay configurations. Each option will trigger different actions upon acknowledgment. It's crucial to follow the outlined procedures for each step to ensure optimal operation of the ST1400 and its interaction with the UNI-TRAN.
+
+In summary, make careful selections during the calibration process and ensure that all connections and settings are verified to prevent erroneous readings. If problems persist, consult the troubleshooting chapter for further assistance.
+
+**Operation of the Light Detector**
+
+The Light Detector operates using four LEDs, activated by a switch located on the detector's housing. This switch is designed to hold the detector in a specific state during operation. Upon activation, the switch initiates a clear state for the detector, allowing it to respond to its surroundings.
+
+For proper functioning, the detector requires an SPDT relay, rated for either DC or AC, to facilitate shutdown mechanisms. Both the normally open and normally closed relay contacts are utilized, with the relay activating based on detected conditions. The relay is preconfigured at the factory for standard operation, enabling specific isolation features for either isolated or non-isolated output operations.
+
+When the detection threshold is exceeded, the LED indicator will flash red, signaling a sensor failure. It’s crucial to diagnose this condition promptly to ensure optimal performance. The unit should be examined whenever high conditions are indicated or when the UNI-TRAN system is providing power to the sensor, according to the troubleshooting chapter.
+
+Repairs may be conducted in the field; however, if the issue stems from factory settings, the unit should be returned for warranty coverage, which lasts for years from the purchase date. This warranty provides assurance that operations can continue smoothly, subject to MRA authorization. 
+
+**Relay Settings**
+
+- **Switch On:** Refers to either an activated switch or one that has been detected.
+- **High:** Refers to relays that are normally in the high state.
+- **Non-Latching:** Indicates that a relay, once activated, will revert to its resting state after the high condition is resolved.
+
+**Physical Considerations**
+
+Direct contact with the detector must be minimized to avoid unexpected malfunctions. Any protective packaging should remain intact to prevent electric hazards. The recommended protective measures, including shielding, should be established during field installations to maintain safety standards.
+
+**Technical Specifications**  
+
+The sensor features include detection times of up to X seconds, linearity and repeatability ratings compliant with CSA and NRTL/C standards. It operates effectively within a temperature range of -40°F to +122°F and maintains functionality in varying humidity conditions, conforming to Class I, C, and D specifications, as well as NEMA 3R.
+
+For further technical specifications, refer to the available models (ST1200, ST1210, etc.) and their respective environmental ratings. All installations must adhere to CSA and NRTL/C guidelines, ensuring compliance for the Class I, B, C, and D classifications along with NEMA 4X standards. 
+
+**Contact Information**
+
+For further inquiries or detailed information, please contact us via our website or telephone at www.net-safety.com.
+

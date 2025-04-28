@@ -1,0 +1,200 @@
+**EMC Corporation South MA Corporate Headquarters**
+**424-EMC2 Service SVC-4EMC**
+**EMC FC4500, FC5300, and FC5700 Configuration Planning Guide P/N**
+
+Copyright © EMC Corporation. All rights reserved. No part of this document may be reproduced or distributed in any form, or by any means, without prior written permission from EMC Corporation. The information herein is provided "as is," without any warranties, express or implied, including but not limited to implied warranties of merchantability or fitness for a particular purpose. EMC Corporation shall not be liable for any indirect, incidental, or consequential damages arising from the use of this information. EMC-related trademarks include, but are not limited to, EMC, MOSAIC:2000, Navisphere, the EMC Effect, and other proprietary names. All other trademarks are the property of their respective owners.
+
+---
+
+This document provides essential background on the EMC FC4500, FC5300, and FC5700 systems, detailing various configurations and best practices. You should be familiar with the hardware and operations described herein to utilize the systems effectively.
+
+### Chapter Overview
+
+1. **Introducing EMC Background**
+   - Information about Switched Shared and Unshared Networks
+   - Technical specifications for RAID configurations (Mirrored RAID, Unshared RAID, etc.)
+   - Descriptions of high-availability setups
+
+The chapter elaborates on EMC’s high-performance RAID units, covering various types of connections (e.g., SCSI, IP, FC-AL) and their applications within network configurations. 
+
+### About the Systems
+
+- The document details the architecture of the host-bus adapters (HBAs), which are crucial for ensuring seamless I/O operations within these systems. 
+- It discusses the electromagnetic compatibility and cooling requirements pertinent to deployment.
+
+### Installation Guidelines
+
+Sections also outline procedures for installations—covering shared and unshared setups—while emphasizing cost-effectiveness and performance. 
+
+- **Network Configuration**: The setup of shared SAN architectures and the various benefits such as improved user connectivity and data recovery capabilities.
+- **RAID Implementation**: Specifics on RAID types and their installation requirements, ensuring reliability and integrity of data access.
+
+### Next Steps
+
+For further understanding, refer to chapters focused on detailed RAID configurations, trade-offs between shared/unshared setups, and additional software functionalities provided by EMC systems.
+
+This chapter discusses RAID concepts, covering essential background information, topics related to RAID configuration, trade-offs, and applications. 
+
+**Introducing RAID**: RAID (Redundant Array of Independent Disks) offers various configurations that enhance data performance and redundancy. It allows simultaneous read/write operations, improving overall data access speed. RAID can manage data across multiple sectors, enabling quick information retrieval.
+
+**RAID Configurations and Trade-offs**: Different RAID types provide specific advantages in terms of capacity and performance. For example, mirroring can be executed via software or third-party solutions, offering robust data protection without direct dependence on hardware.
+
+**RAID Applications**: The text explores the different RAID levels available, such as RAID 0, RAID 1, and others. Each level has unique performance characteristics, depending on how data is distributed or duplicated across disks. 
+
+**Performance and I/O**: The RAID system optimizes input/output performance by distributing data across multiple disks, enhancing both read and write speeds. Performance metrics vary based on the RAID configuration, and applications should consider these to meet their specific needs.
+
+**Flexibility and Efficiency**: RAID implementations vary in their setups, offering flexibility but also necessitating careful planning to fully leverage their features. High throughput can be achieved with optimized settings, ensuring minimal downtime and efficient data processing.
+
+In summary, this chapter delves into RAID technology, focusing on configurations, their respective trade-offs, and how they align with user requirements for efficient data storage and management.
+
+Certainly! Here's a paraphrased version of the text in a more natural, technical style while keeping the same meaning:
+
+---
+
+### RAID Overview
+
+RAID (Redundant Array of Independent Disks) groups, including specific RAID configurations, are influenced by various factors, primarily performance and redundancy. Different RAID types can enhance I/O and write performance. RAID systems offer flexibility, with some setups allowing better I/O throughput than others, depending on the operational requirements from the LUN (Logical Unit Number). Certain RAID configurations are better suited for environments with high write activity, where sustained performance is critical. 
+
+### Applications of RAID
+
+This section delves into various RAID configurations and their applications in environments requiring reliable write operations, such as transactional systems in reservations that handle dynamic data updates, like flight information. For instance, RAID configurations can optimize performance for systems managing point-of-sale data and high-frequency write operations. Users may also consider RAID setups to support weather data processing or other applications needing robust write and read access while scheduling intensive operations during off-peak hours.
+
+### Future Considerations
+
+This chapter addresses RAID configurations and their associated trade-offs, guiding users on shared versus unshared implementations. It details how users access three types of RAID that offer short-term enhancements to performance. RAID performance can vary significantly based on configuration, with some setups providing high redundancy without performance degradation.
+
+### Shared Switched and Unshared Configurations
+
+The document outlines installation procedures for shared switched configurations (high-availability), detailing their connectivity to multiple storage paths, including highly available switches. It also discusses compatibility with specific software applications, highlighting optional software features such as Application Task Force (ATF) which can optimize the performance of shared or dedicated paths.
+
+### RAID Configuration Details
+
+The document lists specific identifiers for various RAID setups, their types, and associated LUNs. Each LUN is designated with a unique ID, which is crucial for managing the RAID groups effectively. This section helps in recording essential information about the system’s configuration to ensure proper resource allocation and monitoring.
+
+### Application and LUN Worksheet
+
+An application worksheet is provided to guide entries for LUN IDs, RAID types, and their corresponding applications. It offers a structured format to fill in necessary data for tracking and managing RAID configurations effectively. This facilitates organization and complicates data management, ensuring performance efficiency across the ready RAID setups.
+
+### Final Considerations
+
+The guidelines conclude with instructions for completing the LUN worksheet, detailing RAID types and optimizing configurations, ensuring all necessary parameters are accurately recorded for seamless operations in shared or dedicated environments.
+
+--- 
+
+This version maintains the original concepts while improving clarity and technical detail, making it easier to understand.
+
+Here is a paraphrased version of the provided text, maintaining its original meaning but presenting it in a more concise and technical manner:
+
+---
+
+**LUN and RAID Configuration Details**
+
+**SP Configuration:**
+- SP Type: SS1 (Unshared Direct) or Shared Direct / Clustered    
+- SP FC-AL ID:  
+  - SP A: __  
+  - SP B: __  
+- Memory Allocation (MB):  
+  - SP A: __  
+  - SP B: __  
+  - Cache Size: __ MB (Read/Write)  
+
+**RAID Configuration:**
+- RAID ID:  
+- LUN IDs:  
+- RAID Type:  
+- RAID Memory (MB): __  
+- LUN Details:  
+  - Write Cache (MB): Should be approximately one-third of total cache memory.  
+  - Read/Write: Define if the LUN is optimized for read, write, or both based on user I/O patterns.
+
+**LUN Information:**
+- Each LUN ID is assigned at the LUN creation, tracking associations within their respective RAID Group.  
+- Host-Bus Adapter (HBA) specifications and operating conditions are outlined based on RAID configurations.
+
+**Recommendations:**
+- Assign cache sizing optimally to balance performance and overhead.  
+- Specify RAID types clearly for each LUN to enhance RAID performance.
+
+**Next Steps:**
+- Once the configuration is complete, proceed to the installation documentation outlined in Chapter __, including paths for unshared and shared applications.
+
+**Instructions for Completing LUN Worksheet:**
+- Fill in the header for each LUN with corresponding IDs and RAID types.  
+- Specify required parameters (e.g., Read/Write operations) for optimal performance associated with the applications under consideration.
+
+**Path Configuration Guides:**
+- Discuss unshared and shared paths with details on implementation costs and efficiencies.  
+- Outline connections between SPs and RAID organizations clearly for better resource management.
+
+---
+
+This paraphrase aims to present the technical information in a structured and clear manner while preserving the original content's integrity.
+
+Here’s a paraphrased version of your text with a focus on maintaining technical clarity:
+
+---
+
+For storage configurations, specify Unshared Direct, Shared-or-Clustered Direct, or Shared Switched settings. Include the SP FC-AL ID (applicable only for unshared configurations):  
+- SP A: _____  
+- SP B: _____  
+
+Document the memory allocation (in Mbytes):  
+- SP A: _____  
+- SP B: _____  
+
+List cache sizes in MB as well as RAID specifications:  
+- RAID ID: _____  
+- LUN IDs: _____  
+- SP: _____  
+- RAID type: _____  
+- RAID Memory (MB): _____  
+
+Each LUN ID must also be noted:  
+- LUN ID: _____  
+- LUN ID: _____  
+- LUN ID: _____  
+
+For configurations using Unshared Direct Applications, complete the LUN Worksheet by ensuring each header is filled out accurately. Identify whether the configuration is Unshared Direct or Shared-or-Clustered Direct based on the software in use. Make sure to list the correct SP FC-AL IDs and associated switches located at the back of the SP. If an FC-AL ID is assigned to multiple SPs, verify the memory allocation for both SPs to ensure they have sufficient resources.  
+
+Memory can be divided to serve read or write operations, with general recommendations favoring a two-thirds allocation for write caching and one-third for read I/O caching. Confirm that the total cache memory reflects these distributions. For RAID configurations, specify the RAID type under each RAID Group/LUN section, ensuring each LUN ID is sequentially bound to its respective RAID Group.  
+
+The LUN capacity should not exceed the capacity of the RAID Group it belongs to. Specify the operational IDs associated with each LUN, and indicate the RAID characteristics when assigning LUNs. Furthermore, it is crucial to document the amounts of SP memory available to enhance performance effectively.
+
+This chapter provides an overview of unshared configurations and prepares you to engage with more advanced concepts in subsequent sections. Be prepared for discussions on establishing SP ownership, directory pathnames, and interdependencies when LUNs are shared between multiple systems, ensuring clarity in shared vs. unshared environments.
+
+---
+
+Feel free to provide more specific details or ask for clarifications if needed!
+
+### Paraphrased Text:
+
+#### Unshared HA SPS Units
+
+The specifications for unshared High Availability Storage Processing System (HA SPS) units, including DPEs (Data Processing Enclosures) and DAEs (Disk Array Enclosures), are outlined as follows. The units are available in configurations with and without write caches, and can support RAID configurations.
+
+##### Mounting and Power Details:
+Typically, these units can be mounted in rack cabinets. The vertical space required for mounting (U height) varies by configuration. Input power specifications include options for single-phase connection, with specific ratings for DPE and DAE units. The cooling requirements, relative humidity tolerances, and service clearance guidelines are also applicable.
+
+##### Rackmount EMC Specifications:
+The EMC guidelines recommend various configurations for rackmounted systems. Dimensions such as height, width, and depth, alongside service clearance requirements, are specified. Power consumption and cooling measurements (in KJ/hour) for each component, including SPS and DAE units, are provided.
+
+##### Cabling:
+A variety of cable types are supported for connectivity, including shielded and twin-axial cabling for DPEs and DAEs. The systems are compatible with various switches and host bus configurations, enabling efficient data transfer and connectivity.
+
+##### Shared vs. Unshared Configurations:
+Worksheets detailing shared and unshared configurations are available for planning and implementation. These include specifics for connection paths and lengths separating shared and unshared devices.
+
+##### Additional Resources:
+The chapter concludes with references to required worksheets and additional information available through Navisphere Software. This documentation aids in the setup and integration of the storage systems, ensuring thorough understanding and deployment.
+
+--- 
+
+This version maintains the original's technical information while presenting it in a clearer, more organized manner.
+
+The EMC Navisphere software, along with its caching capabilities, facilitates communication between storage processors (SPs) and provides a graphical user interface (GUI) for managing Navisphere products. This software allows users to monitor performance across various Navisphere platforms, including integration with HP CA Unicenter for enhanced service management.
+
+Optional Application-Transparent (ATF) software is available for high-availability setups, enabling connections across LUNs via host-bus switches or directly between SPs. CDE (Common Data Environment) software is included with each host-bus, allowing for seamless integration with Navisphere and providing a Command Line Interface (CLI) alternative to the GUI. The software is compatible with multiple operating systems, including various UNIX platforms.
+
+Navisphere software operates over TCP/IP and offers both shared and unshared configurations for NT or other UNIX operating systems, facilitating connection to a Storage Area Network (SAN). This document outlines the necessary details for configuration and operation, including worksheets for recording system information such as hostnames and operating software specifics for both shared and unshared Navisphere installations. Users are instructed to fill out the provided worksheets with the relevant details of their configurations.
+

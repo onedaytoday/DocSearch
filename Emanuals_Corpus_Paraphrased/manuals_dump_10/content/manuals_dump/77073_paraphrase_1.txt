@@ -1,0 +1,70 @@
+**Touch 1517L and 1717L Touchmonitors User Manual SW601708**  
+Copyright © Touch Inc. All rights reserved. Reproduction, transmission, transcription, or translation of any part of this publication is strictly prohibited without written consent from Touch Inc. The content herein is subject to change without prior notice, and Touch Inc. and its affiliates make no warranties regarding merchantability or fitness for a particular purpose. The names AccuTouch, CarrollTouch, and TouchSystems as well as their affiliates are mentioned. Microsoft Corporation’s involvement is acknowledged.
+
+**Table of Contents**  
+1. Introduction  
+2. Mounting  
+3. Operation  
+4. Technical Information  
+5. Warranty Information  
+
+**Introduction**  
+This manual provides product information about the 1517L and 1717L touchmonitors, detailing performance, features, and operational guidance. These touchmonitors utilize advanced thin-film transistor LCD technology for high performance, featuring an LED backlight that minimizes power consumption and eliminates mercury commonly found in CCFL backlighting. Additional functionalities include compatibility with on-screen displays (OSD) and optional magnetic stripe readers (MSR). Users should observe the recommended precautions outlined in the user information chapter.
+
+**Unpacking the Touchmonitor**  
+Included in the package are the touchmonitor with protective covering, TouchTools CD, VGA cable, USB cable, and AC-DC power adapter specific for North America.
+
+**Connector Interfaces**  
+Connect the VGA input to the corresponding VGA interface, ensuring screws are tightened for optimal performance. The USB connections should also be secured properly to the respective USB ports, while ensuring the AC input is connected appropriately.
+
+**Installing the Software**  
+To install the software, refer to the TouchTools CD compatible with various operating systems including XP and Vista. For further assistance with other operating systems, consult www.elotouch.com.
+
+**Mounting Information**  
+The OSD text orientation can be adjusted. Utilize the four-hole VESA mounting interface on the monitor's rear with M4 screws for installation. The VESA configurations are compliant with standards MIS-B and C, allowing for secure mounting.
+
+**Operating Instructions**  
+To power on or off the monitor, use the designated button. The LED indicator provides information on the monitor’s operational status. To reduce unnecessary power use, utilize SLEEP mode, which can be activated by touching the screen. Ensure the input settings conform to specifications outlined in the manual.
+
+**On-Screen Display (OSD) Functions**  
+The OSD interface allows for adjustments to settings such as brightness, clock settings, and scaling options. Users can choose aspect ratios and sharpness, and customize color temperature settings. Language preferences for the OSD can also be selected.
+
+**Technical Support**  
+For troubleshooting and further assistance, refer to the technical specifications available at www.elotouch.com. Should issues arise with the touchmonitor, ensure that all connections are secure and compliant with specified resolutions/timings. 
+
+**Cleaning and Maintenance**  
+To prevent damage, avoid using user-serviceable components. Always disconnect the power before cleaning. Use a soft cloth for maintenance, avoiding any harsh substances that could scratch the monitor or touchscreen. 
+
+**Regulatory Compliance**  
+This device complies with WEEE directives and should be disposed of in compliance with local regulations for electronic waste recovery and recycling. 
+
+**Information Notices**  
+Refer to specific guidelines regarding electrical safety and shielding to avoid interference during installation and operation. Ensure compliance with FCC guidelines for electromagnetic compatibility, along with CE directives as applicable in the European Union. 
+
+---
+
+This paraphrase maintains the technical nature and intended meaning of the original text while ensuring clarity and coherence.
+
+### EMC Compliance and User Information
+
+This product adheres to the EMC Directive 2004/108/EC and the Low Voltage Directive 2006/95/EC. It is essential for users to recognize potential interference factors that can affect the device's performance. If you experience interference affecting the reception of other devices, it is recommended to turn off the product and adjust its position, as well as the placement of the affected devices, such as moving them to a different power outlet. Disconnecting the I/O connections may also reduce Radio Frequency (RF) interference. For faulty I/O connections, consult a technician.
+
+### Regulatory Compliance
+
+The product complies with various international standards, including C-Tick, CUL, IC, CCC, and CE certifications, as well as relevant provisions from the Chinese Administration for Information Products. Any materials that may contain toxic substances, including Mercury (Hg) and Chromium, are acknowledged as per SJ/T11363-2006 guidelines. Additionally, compounds such as Polybrominated Biphenyls (PBB) and Polybrominated Diphenyl Ethers (PBDE) are regulated.
+
+### Environmental Conditions
+
+Operational humidity ranges are specified as follows: 20%-80% (non-condensing) and 10%-90% (non-condensing), depending on the model. The device should not be disposed of casually.
+
+### Specifications
+
+- **Power Ratings**: 100-240VAC, 12VDC, 3.33A (LPS); 12VDC, 2.5A.
+- **Temperature Conditions**: Operating range of 0°C to 40°C with humidity (non-condensing), and storage conditions between -20°C and 60°C with humidity (non-condensing).
+
+### Warranty Information
+
+The manufacturer warrants that the product is free from defects in materials and workmanship for a period of three years from the date of purchase. Any warranty claims should be submitted in writing within thirty days of discovery of the defect, allowing the company the opportunity to inspect the product. If repairs or replacements are necessary, the warranty may involve further conditions. This warranty does not cover indirect damages or other implied warranties beyond what is explicitly stated. 
+
+For additional details about the product, including specifications and software updates, please visit [www.elotouch.com](http://www.elotouch.com) or contact the North America office at 800-ELO-TOUCH. All rights reserved.
+

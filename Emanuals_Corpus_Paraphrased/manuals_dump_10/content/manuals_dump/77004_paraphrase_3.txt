@@ -1,0 +1,67 @@
+### VISUAL PRESENTER INSTRUCTION MANUAL
+
+This instruction manual is for reference and guidance.
+
+#### IMPORTANT SAFEGUARDS
+- Adhere to operational guidelines and instructions for safe usage. Keep these instructions for future reference.
+- Follow all instructions regarding operation, as well as cleaning. Use only recommended cleaning materials, avoiding harsh substances or liquids to prevent damage.
+- Exercise caution during installation and use; improper mounting or use can lead to serious hazards.
+- Ensure that this device is connected to a power supply as specified. The type of power supply must match the device requirements to avoid malfunction or damage.
+- Grounding is essential. Use a grounded outlet if specified. If you're unsure about the grounding type, consult the manual.
+  
+#### POWER-CORD PROTECTION
+- Ensure power cords are not pinched or subjected to heavy objects to prevent damage. This reduces the risk of electrical shock or fire.
+
+#### MAINTENANCE
+- Do not attempt repairs beyond those described in the manual. For any service, disconnect the device from the power source and consult qualified personnel.
+- Take appropriate measures against overheating by maintaining adequate space around the unit.
+
+#### CAUTION
+- To avoid electric shock, do not remove covers. There are no user-serviceable parts inside—seek professional assistance as needed.
+- Avoid exposure to rain or moisture to prevent fire hazards.
+
+#### DEVICE COMPATIBILITY
+- This device complies with Class B of the FCC standards, offering protection against interference when operated as directed. 
+
+#### USAGE PARAMETERS
+- The optimal operating temperature should remain between 5°C to 40°C (41°F to 104°F) away from direct sunlight or heating sources.
+
+#### CONTENTS
+- Overview of device functions, appearance, connections, and operation procedures including RGB input configurations, specifications, and troubleshooting guides.
+
+#### PART NAMES AND FUNCTIONS
+- Familiarize yourself with the components: Lighting Unit, Remote Control, Power Connections, and Input/Output ports.
+
+#### OPERATING THE REMOTE
+- The remote control features buttons for various adjustments including image rotation, contrast settings, and lighting control.
+- Familiarize yourself with each button's function for effective use of the device.
+
+#### SETUP GUIDELINES
+- Carefully follow the illustrated setup instructions, ensuring proper connections and functionality before operation. 
+
+This manual contains crucial safety and operational information vital for effective and safe use of the visual presenter device. Ensure all steps and precautions are adhered to avoid potential risks.
+
+To turn off the supply when connected to the RGB input, ensure that the device is properly connected to the RGB output. If adjustments are needed, check the manual to make necessary modifications. For RGB configurations, use appropriate connections, either through RCA or 4-pin DIN as specified in the manual. The output options include various USB power types and RS-232C connectors. The RGB input configuration should follow the DSUB 15P format, detailing connections for red, green, blue, and ground.
+
+The device allows for functionality related to color and black/white selection. Manual adjustments can be made using front panel controls. Users can activate features like telephoto and wide-angle focusing, in addition to wireless operation. 
+
+In terms of lighting functions, options are available for 3D effects and base lighting via front or remote controls.  The lighting will only activate when the supply is on, and it can be adjusted as needed. 
+
+For video input options, the built-in microphone functionality can toggle between settings depending on the selected mode. Users need to ensure proper connection to the HD-80XG unit, with all necessary inputs and power sources set correctly.
+
+Turning on the device will illuminate an LED indicator showing operational status. Should you need to restart, turn the device off, wait a few seconds, and then turn it back on again. Focusing remains adjustable as per user input, and the system releases focus when stable.
+
+Other features include color adjustments, image rotation capabilities, and on-screen display (OSD) management via various button controls. The OSD will provide feedback on functions and can be navigated using dedicated remote buttons or panel inputs.
+
+All operational procedures must be performed according to the user's manual to ensure proper functionality and prevent disconnections during use.
+
+The TELE/WIDE options are activated. Similarly, NEAR/FAR and the IRIS OPEN/CLOSE settings can be activated. Each functionality is accessed by clicking corresponding buttons, which are labeled in white, yellow, and red. The system allows for the selection of Auto/Manual/One-push for the white balance.
+
+To switch between colors, click the designated buttons to transition the display between different modes such as RED and BLUE. The selections for Function ON/OFF, NTSC/PAL, and USB/RS-232C are also available through the interface. When operating with microphone input, sound output is controlled by clicking specific buttons. The initial state is set to ON, and clicking the designated button can switch it to OFF. This functionality can be specified in NTSC or PAL formats.
+
+The RS-232C specifications dictate the connection between the PC and device via RS-232C, including command functionality for controlling various aspects of the system. This includes commands for adjusting the iris, lighting, and switching between color options. Commands such as ON/OFF, zoom adjustments (TELE/WIDE), and color modes (Color/B&W) are detailed in command tables.
+
+Furthermore, troubleshooting hints have been provided for various symptoms, addressing possible causes and corrective measures. Specifications for power requirements, input types, and imaging capabilities outline standard operational parameters. 
+
+Finally, there are warnings about unauthorized recording of copyrighted material, emphasizing adherence to copyright regulations. For more technical details, refer to the included specifications related to connectivity and performance.
+

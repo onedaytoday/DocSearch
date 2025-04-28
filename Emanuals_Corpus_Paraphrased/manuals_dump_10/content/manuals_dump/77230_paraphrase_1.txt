@@ -1,0 +1,95 @@
+# AM Instruction Manual for VHF and UHF Transceivers
+
+## Foreword 
+Please read all instructions thoroughly and retain this manual for future reference. This manual contains operating instructions for the IC-F15/F15S VHF Transceiver and the IC-F25/F25S UHF Transceiver.
+
+## Important Definitions
+**Warning**: Indicates a risk of injury, fire, or electric shock.  
+**Caution**: Indicates a risk of fire or shock, but of less severity.  
+**Note**: Additional information related to operation.
+
+## Operating Notes
+When using the transceiver, maintain a distance of at least a few centimeters from your mouth when using the microphone.
+
+## Precautions
+**Warning!** Avoid using the transceiver or touching the antenna while it is connected to the power source.  
+**Caution!** Do not use high-impedance headsets.  
+**Important!** Only use specified battery models (BP-230, BP-231, or BP-232). Refrain from pressing PTT when not in use.  
+Avoid exposure to direct sunlight and operating in extreme temperatures (below 25°C or above 55°C). Ensure that batteries and chargers are securely attached; improper connection can lead to serious damage and affect warranty.
+
+## Table of Contents
+- Foreword
+- Important Definitions
+- Operating Notes
+- Precautions
+- Accessories
+- Panel Description
+- Conventional Operation
+- Optional Unit Installation
+- Battery Charging
+
+## Accessories
+Included in the package: Qty. Battery, Unit Cover (with screws).  
+**Caution:** Never hold the transceiver by the antenna when transporting it.
+
+### Battery Installation
+Insert the battery at a 45-degree angle, aligning it with the release mechanism until you hear a click. To detach, press the release mechanism and slide the battery down.
+
+### Speaker-Microphone Installation
+Remove the cover when using the optional speaker-microphone. Tighten screws after attaching the cover.
+
+## Panel Description
+### Features
+- **Volume Control [VOL]**: Used to turn the device on and adjust volume.
+- **LED Indicator**: Displays operational statuses, including transmission and battery status.
+- **Key Functions**: Customizable keys for dedicated functionalities, including scanning and emergency features.
+
+### Emergency Operation
+The emergency function activates automatically when triggered, requiring an optional Unit (UT-113) for full functionality. Proper individual training on usage is recommended.
+
+## Conventional Operation
+To power on, rotate the [VOL] knob. Select channels using either [CHANNEL SWITCH] or [MR-CH]. The features of CTCSS and DTCS allow selective calling to specific stations while blocking others.
+
+### Scrambler Operation
+For enhanced security, use the optional UT-109 or UT-110 scrambler units. Activate via the scrambler function key.
+
+## Battery Charging
+Charge batteries within the recommended temperature range (+10°C to +40°C). Ensure all unit components are securely attached and avoid alternative power sources. Charging time should be adhered to for optimal battery life. 
+
+For detailed procedures on component installation, operation, and maintenance, refer back to the relevant sections of this manual.
+
+### Battery Charging Instructions
+
+**WARNING:** Only charge the specified batteries. Do not use third-party or counterfeit chargers. **CAUTION:** Never connect the transceiver with the battery attached to chargers if the terminals appear corroded. Avoid packing or transporting devices with connectors exposed, as this can lead to damage. Always charge the battery before significant use. If the battery capacity drops, recharge it to maintain performance.
+
+**Battery Charging Options:**
+1. **Using the BC-160:** 
+   - Compatible with AC (BC-145) or DC adapters (OPC-515L/CP-17L). 
+   - Ensure it is turned off before connecting.
+
+2. **Using the AD-106 Charger:** 
+   - Works with the BC-119N/121N batteries.
+   - Ensure all connections are secure utilizing the provided screws.
+
+3. **Charging with BC-119N + AD-106:** 
+   - Requires the AD-106 and compatible AC (BC-119N) or DC (OPC-515L/CP-17L) power sources. 
+   - Ensure the battery is connected properly before use.
+
+4. **Charging with BC-121N + AD-106:** 
+   - Requires the AD-106 and either AC (BC-157) or DC (OPC-656) power sources. 
+   - Follow the same safety and connectivity precautions as mentioned above.
+
+**Swivel Belt Clip MB-93:**
+To detach, press the release mechanism as indicated, listening for an audible click.
+
+**Options:**
+- Various battery packs (BP-230, BP-231, BP-232) provide extended operational hours under typical use conditions.
+- Chargers include BC-119N, BC-121N, and BC-160, which are compatible with specific battery packs.
+- Speaker microphones, headsets, and antennas are available for enhanced communication.
+
+**Compliance and Safety:**
+This device adheres to the Telecommunications Directive 1999/5/EC and meets the required specifications. Ensure compliance with local regulations regarding device use. 
+
+**Memo:**
+Country of origin and other specifications are documented for reference.
+

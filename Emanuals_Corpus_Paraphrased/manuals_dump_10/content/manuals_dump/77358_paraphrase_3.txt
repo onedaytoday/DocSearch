@@ -1,0 +1,46 @@
+This document outlines the procedure for servicing EMC CX300, CX500, and CX700 models, which includes initial steps for battery service, optional Navisphere 6.X software installation, and connection settings for the Service Processor (SP) LAN and switch. The service procedures are applicable to versions P/N REV A01, released in November.
+
+To initiate the service, you must ensure the appropriate FLARE software and Navisphere are installed on the CX300, CX500, or CX700 system. The Navisphere UI requires a suitable Java Runtime Environment (JRE) version. Refer to the EMC Navisphere 6.X Release Notes for installation instructions and system requirements. 
+
+When preparing the system for service, if a PPP connection is mentioned, follow the guidelines for establishing the connection using the designated communication interface. Ensure your workstation is correctly configured for TCP/IP connectivity. 
+
+Check the physical characteristics of the SP as detailed in the service table. Ensure that the correct COM settings are selected for reliable PPP communication. Once the initial setup is complete, the system will be prompted to configure TCP/IP settings, set security protocols, and save the configurations.
+
+After confirming connectivity, validate the IP assignments and security features as specified to ensure proper functionality. Follow the prompts displayed in the Navisphere interface for final steps in establishing the connection, making sure to navigate through all necessary network configurations.
+
+Upon successful setup, the status indicators (LEDs) on the devices should reflect that services are operational. In case of any errors during setup, refer to the troubleshooting section or consult the Navisphere documentation for further assistance. 
+
+Ensure all configurations adhere to security protocols outlined in the EMC Navisphere 6.X documentation to maintain integrity across the system.
+
+### EMC CX300, CX500, and CX700 User Instructions
+
+To complete the NT setup for the EMC CX300, CX500, and CX700 systems, select the appropriate phonebook created in the previous section. Click ‘OK’ to access the displayed URL. Ensure the screen reflects the correct information. 
+
+If you're prompted to re-establish a connection, wait for about 30 seconds and refresh the URL. Use the F5 key to refresh the browser after restarting it. 
+
+### Battery Information
+
+For the EMC CX300, CX500, and CX700 systems, each Storage Processor (SP) requires a Battery Backup Unit (BBU) or a Storage Processor Supply (SPS) to maintain performance during write caching. After completion of write operations, the system will automatically handle the write-back process. Reference the battery specifications found in the user manual. 
+
+### Navisphere 6.X Software Integration
+
+#### Connecting to the SP LAN
+
+The optional Navisphere 6.X software, including SAN Copy functionalities, should be installed directly onto the designated SP LAN, utilizing the RJ45 port for connection. This applies to all models: CX300, CX500, and CX700.
+
+For the correct installation procedure of Navisphere Access, retrieve the respective software from the provided CD-ROMs, ensuring you follow the installation guidelines specific to each application, such as SAN Copy or Access.
+
+#### Security Recommendations
+
+EMC strongly advises enabling Navisphere 6.X security features, especially when connected to a network. Always access the interface using the assigned IP address for the Storage Processor, ensuring security protocols are in place. 
+
+When navigating the security options, adhere strictly to any recommendations provided to maintain the security integrity of your storage system.
+
+### Connecting to the Switch/Host
+
+For connecting the Storage Processors (SPs) to the LAN, refer to the appropriate diagrams based on your model (CX500 or CX700). Remove any protective covers from the SP and utilize the relevant connectors for establishing a secure link to your host bus adapter (HBA). Ensure all connections are properly made to avoid any communication errors in your storage area network (SAN). 
+
+### Disclaimer
+
+The information contained in this publication is provided "AS IS", without warranties of any kind. EMC Corporation disclaims any implied warranties regarding merchantability or fitness for a specific purpose. All trademarks mentioned are the properties of their respective owners.
+

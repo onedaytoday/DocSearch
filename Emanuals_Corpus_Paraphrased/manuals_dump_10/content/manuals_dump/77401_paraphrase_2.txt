@@ -1,0 +1,288 @@
+### TM Flow Direct or Remote Mount Service Instructions
+
+**Contact Information**  
+For U.S. customers, please reach out to our North American Customer Service at no charge. For inquiries from Scotland or East Africa, please contact us through the UAE office. Authorization for RMA (Return Merchandise Authorization) must be secured prior to proceeding. Download the RMA form from our service website: [Emerson Process Support Services](http://www2.emersonprocess.com/EN-US/BRANDS/DANIEL/SUPPORT-SERVICES/Pages/Support-Services.aspx).
+
+**Important Warnings**  
+All personnel must thoroughly read and comply with the instructions provided in this manual, along with all associated notices and product warnings. Failure to follow these instructions might result in severe injury or even death. The operation of these sophisticated products requires strict adherence to installation and operational guidelines.
+
+**Product Integrity**  
+The information contained within this publication is for informational purposes only. While we strive for accuracy, it does not constitute any warranty concerning the products or services provided. All sales are subject to Daniel's terms and conditions, available upon request. We reserve the right to alter product designs or specifications at any time, and Daniel assumes no responsibility for the selection, usage, or maintenance of any product. All liability for proper selection and maintenance lies with the purchaser and end-user.
+
+Daniel believes the information provided is both complete and accurate but offers no warranties, either expressed or implied, regarding merchantability or fitness for a particular purpose. Consequently, Daniel cannot be held liable for any incidental, punitive, or consequential damages arising from the use of its products, including but not limited to lost revenue or claims made by third parties.
+
+**Limited Warranty**  
+Daniel warrants that licensed firmware is free from defects in materials and workmanship for a period specified, beginning either from the date of purchase or specified service completion. Products purchased from third parties are not covered by this warranty. Warranty claims must be made in writing, and Daniel reserves the right to repair or replace defective goods at its discretion. The warranties stated above are exclusive and cover no additional representations.
+
+**Limitation of Liability**  
+Daniel shall not be liable for any delays in performance or for damages caused by such delays. Buyer remedies are exclusive, and Daniel’s liability shall not exceed the purchase price of goods or services directly related to the claim. Buyers acknowledge that Daniel's liability shall not extend to indirect, consequential, or punitive damages, including loss of anticipated profits or costs incurred.
+
+### Flow Specifications
+- **Mounting Options:** Suitable for heated or cooled environments.
+- **Security Features:** Includes security seals and explosion-proof housings.
+- **Input/Output:** Supports various I/O configurations including DHCP.
+  
+**Example Applications:**  
+- Typical setups include direct or remote mounting configurations with specified security options for integrity.
+
+This information covers typical applications along with detailed specifications and warnings regarding the assembly and installation of flow devices. Always refer to the installation, operation, maintenance, and troubleshooting manuals for comprehensive guidelines.
+
+### Flow Section Overview
+
+**Introduction**  
+This section provides an overview of flow systems, including typical applications and various mount options. Each assembled unit is crafted and rigorously tested according to specific part numbers (P/N) for HART Flow software and other related products.
+
+**Applications**  
+The systems are suitable for projects involving batch loading and offloading, particularly in offshore environments, such as Floating Production Storage and Offloading (FPSO) and other offshore platforms.
+
+**Safety Standards**  
+The equipment is designed to be explosion-proof and comes with various features, including an intrinsic safety layout. These systems support immediate reporting capabilities and offer auto-detection for ASCII or RTU communication protocols. They are equipped with Internet-ready connectivity via Ethernet TCP/IP, along with on-board LED indicators and optional features.
+
+### Acronym and Definition Table
+
+This section lists key acronyms and their definitions, such as:
+
+- **CPU**: Central Processing Unit
+- **ADC**: Analog-to-Digital Converter
+- **AMS**: Asset Management Software
+- **HART**: Highway Addressable Remote Transducer
+- **MODBUS**: A communication protocol for industrial automation
+- **RTU**: Remote Terminal Unit
+
+### Mounting Options
+
+The Flow assembly can be mounted directly and comes with protective shrouds. Several configurations are available, including:
+
+1. **Explosion-proof**: Features include a supply CPU, I.S. board, backplane, and optional LCD.
+2. **Intrinsically-safe**: Designed for operation in hazardous conditions.
+
+### Installation Guidance
+
+For remote mounting, the assembly includes options for explosion-proof and intrinsically-safe environments, as well as junction configurations.
+
+### Flow Measurement Capabilities
+
+The Flow measurement system operates with a two-path design that ensures accurate flow measurement across varying velocities, enabling high repeatability and low-flow detection without the drawbacks associated with other technologies. It incorporates a housing that safeguards the CPU, I.S. board, backplane, and optional LCD board.
+
+### Performance Specifications
+
+Specifications include flow performance metrics such as:
+
+- **Linearity**
+- **Turndown Ratio**
+- **Velocity Measurement**
+
+### Connectivity Features
+
+Integration options include various interfaces (RS-232/RS-485) for data communication and direct connection to DC power supplies, ensuring isolation of AI inputs.
+
+### Regulatory Compliance
+
+The Flow system meets requisite safety and performance standards from organizations such as UL, CSA, and ATEX. It has been tested for compliance with the FCC requirements to mitigate electrical interference.
+
+### Conclusion
+
+This section summarizes essential details related to flow systems, emphasizing technical specifications and compliance with safety standards suitable for various industrial applications.
+
+### Mechanical Flow Section – Safety and Installation Guidelines 
+
+**Surface Temperature Hazard**  
+Be cautious of potential hazards due to hot or cold surfaces. Always wear protective gear when handling equipment.
+
+**Cutting Hazard**  
+Sharp edges present a serious risk. Use protective measures to prevent injury.
+
+**Transportation Hazard**  
+Be aware of transportation risks related to the bore. Ensure the area is clear to avoid accidents while transporting or mounting equipment.
+
+**Crushing Hazard**  
+Avoid actions that may cause crushing injuries during installation or adjustment.
+
+**Escaping Fluids Hazard**  
+Be mindful of pressure within fluid systems. Do not attempt to release fluid or interact with housing under pressure, as it may lead to hazardous situations. If fluid escapes, take immediate precautions to ensure safety.
+
+**Fluid Contents Under Pressure**  
+Fluid contents can pose serious risks. Releasing pressure improperly can lead to dangerous fluid escape.
+
+**Equipment Assembly**  
+The equipment is pre-assembled and tested at the factory. Options include various mounting assemblies like direct mount with shroud and explosion-proof configurations. Options may include intrinsically safe designs with additional protective features.
+
+**Sunshield Protection**  
+When mounting equipment in exposed areas, use sunshields to protect against prolonged sunlight exposure, which can lead to overheating. Users are responsible for selecting appropriate shields based on environmental conditions.
+
+**Flow Orientation**  
+Correct flow orientation is crucial. Follow specified guidelines for uni-directional and bi-directional flow installations to prevent operational issues.
+
+**Faulty Installation Risks**  
+Improper installation can lead to equipment failure. Ensure that all assembly and orientation are as per specifications to maintain performance and safety.
+
+**Safety Instructions**  
+Always adhere to provided safety instructions to mitigate risks to personnel and equipment. Improper handling while connected can result in serious injury or death.
+
+**Hoisting and Rigging Guidelines**  
+Follow the hoisting and rigging guidelines to safely lift and position equipment. Maintain safety standards and respect weight ratings during lifting operations.
+
+**Shock and Stress Avoidance**  
+Avoid applying shock to equipment during service. Continuous inspection is essential to prevent further issues. 
+
+**Threading and Fastening**  
+Use appropriately rated threaded components as specified. Follow provided tables and ratings for selection to ensure structural integrity.
+
+**Wrapping and Shielding**  
+Never allow cables or wraps to interfere with equipment functionality. Inspect regularly and maintain proper organization.
+
+**Operation Temperature Limits**  
+Maintain equipment within specified operating temperature ranges to prevent hazardous conditions, especially when handling heated or cooled components.
+
+**Flow Section March Overview**
+
+**TTL Collector Conductors**  
+The system utilizes TTL (Transistor-Transistor Logic) for input selection. The characteristics of the cabling must be effectively managed to ensure appropriate input levels are achieved. If the voltage input exceeds the specified threshold, performance may be compromised due to electrical interference. The American Wire Gauge (AWG) specifications for the conductors are outlined below, specifically noting resistance in Ohms per foot for the VDC connections.
+
+**Grounding Requirements**  
+The grounding mechanisms within the housing must be intrinsically linked to the chassis ground. Secondary ground connections should also interface with the chassis ground to provide a robust internal grounding framework. Regulatory standards mandate that the internal chassis ground is established according to safety protocols. 
+
+**Safety Precautions**  
+Installation instructions emphasize the risks posed by HAZARDOUS VOLTAGE present within the environment, which can lead to severe injury or fatality. It is critical to disconnect power sources before any maintenance to prevent potential hazards.
+
+**Explosion-Proof Considerations**  
+For environments deemed hazardous, it is advisable to ensure devices are turned OFF during servicing. Proper implementation of safety measures—such as disconnecting power and adhering to field specifications—is essential to prevent dangerous situations.
+
+**Communication Protocols**  
+Utilization of TCP/IP is recommended over traditional methods like ASCII or RTU for I/O communication. The system supports various connections, including RS-485 and RS-232, and is compatible with HART for advanced field communication.
+
+**CPU and LED Functionality**  
+The CPU functionality is indicated via light-emitting diodes (LEDs), which ensure operational integrity. The PROT switch safeguards against unintended overwriting of firmware, with clear LED indications for each state.
+
+**Accessibility and DHCP Configuration**  
+The CPU supports DHCP for automatic IP assignment, ensuring compatibility with various network setups. A dedicated port enables easy connection, while security practices should restrict unauthorized access through firewalls and controlled network policies.
+
+**I/O Connections**  
+The system supports a DB-9 connector for I/O interfacing, facilitating communication between the CPU and external devices. Proper wiring practices uphold the integrity of communication, maintaining functionality across all channels.
+
+**Outputs and Isolation**  
+FODO outputs are designed with 50V isolation from the CPU ground, ensuring safe operation in variable conditions. This design is crucial for resilience against electrical noise and interference.
+
+**Input Functionality**  
+Configuration via the MSTS allows for specific input settings and protocols, including comprehensive HART functionality. The polarity of inputs is critical for ensuring proper operational states and interfacing with the system’s software.
+
+**Switch Protection**  
+The WRITE PROT switch serves as a safeguard for the CPU, controlling access to firmware updates. Clear guidelines are provided for enabling and disabling write protection to maintain system integrity.
+
+### Section Flow March Security
+
+#### Introduction to Security Commissioning
+
+The following instructions outline the commissioning process for the security flow. Be cautious of cutting hazards from sharp edges. Always wear protective gear to prevent serious injury.
+
+#### Activating the WRITE PROTECT Switch
+
+To initiate the procedure, switch the CPU to the ON position, and follow the steps below regarding the security wires:
+
+1. Security Direct or Mount
+   - Securely mount the components using a wrench, rotating clockwise. Loosen screws by turning counterclockwise.
+
+2. Security Seals
+   - Follow the procedures to manage the security seals, ensuring all four head screws are handled as specified.
+
+3. Junction Mount Option
+   - Adhere to the instructions for mounting the junction cover, ensuring proper screw rotation and security wire management.
+
+4. Security Shroud Installation
+   - Arrange the shrouds in the specified order: front (Item B), right back (Item D), right front (Item E), and back (Item C). Ensure all security wires are threaded correctly.
+
+5. Latched Shroud Security
+   - Follow the outlined process for latched shrouds, ensuring that the wires and components are covered appropriately.
+
+6. Sealing and Testing
+   - Ensure that all components are properly sealed and tested according to customer requirements, allowing for accurate operation and performance.
+
+#### Software and Mechanical Setup
+
+Configure the mechanical components alongside the software (P/N) as per the established protocol. Follow the prompts on your device to set up software correctly, which includes selecting Microsoft Office and confirming system settings. 
+
+#### Correcting Flow Parameters
+
+Adjust selections to accommodate corrections and confirm flow settings (U.S. Customary or metric). Click through the interface options to set velocity, pressures, and other parameters accurately, ensuring they align with expected operations.
+
+#### AMS (Asset Management System) Integration
+
+If AMS is installed, utilize the search functions to locate the correct installation files for your system. Select the applicable options from the drop-down menus, ensuring revisions match the required specifications. 
+
+#### Finalizing Configurations
+
+Apply all selected parameters and changes to ensure accurate output reflecting flow direction and rate, complying with HART standards. Click "OK" to confirm all settings and finalize the service parameters.
+
+### Conclusion
+
+Following these outlined workflows ensures efficient commissioning and integration of security and flow systems effectively. Always prioritize safety and compliance with testing protocols.
+
+### Section Flow Overview
+
+#### AMS Procedure
+In the AMS flow procedure, make sure the security wires are connected properly to the CPU and the Bracket/Cover. Begin by selecting the Protect switch and follow the instructions to configure the CPU. Click on the appropriate commands for secondary and uncorrected flow options. The displays will show relevant options such as flow direction or actions that need to be applied. Ensure to refresh the AMS to confirm changes.
+
+#### Flow Configuration 
+When configuring flow details, select the source type, whether it be fixed or variable, and indicate the flow rate settings. Choose to display either atmospheric or high readings as appropriate. Activate normal or inverted polarity based on selected configurations. Click 'Apply' to record these settings.
+
+#### AMS Flow State
+In this section, monitor flow detection commands. Clicking 'Next' will provide additional flow details, including velocity cuts. Complete the setup by reviewing the displayed flow velocity.
+
+#### AMS Service Tasks
+When accessing AMS service tools, analyze the flow path information, which consists of flow and sound velocity metrics. Consult the corresponding charts to gain insights into system performance. Follow the established actions for any necessary adjustments. Click 'Acknowledge' to confirm changes and clear alerts.
+
+#### Security Procedures
+Ensure that security measures, including the shroud covering relevant wiring, are in place to safeguard the system. Adhere strictly to commissioning instructions and check all wiring in the field for compliance.
+
+#### Software Licensing Information
+This section outlines the terms under the GNU General Public License (GPL). The rights for copying, distributing, and modifying the software are clearly stated, along with the responsibilities of individuals who use or distribute the software. Users should be aware of their rights under copyright and the implications these rights have on the software usage and distribution.
+
+#### Conditions for Redistribution
+The terms for copying, modifying, and distributing covered software specify adherence to GPL requirements. Users must retain copyright notices and provide warranty disclaimers as applicable. This guarantees protections for the rights of the authors and those redistributing the software.
+
+### Rephrased Text
+
+**Flow March Overview**
+You may utilize, modify, and redistribute the software in accordance with the terms outlined in this document. If you intend to publish, distribute, or utilize any part of this software—whether as a whole or in parts—please adhere to the guidelines specified in Section X. These guidelines apply universally to the software. In cases where sections may be considered separately, the associated terms will still be applicable to those sections as standalone entities. This provision safeguards the rights of the original authors and contributors.
+
+**Third-Party Distribution**
+If you distribute or offer the software, it may be produced in machine-readable formats and must include the associated sections of the software. Such distribution is permitted for a minimum of three years and can be done without charge. The distribution must include the original offer and adhere to the requirements of protecting the rights of the original authors. Any limitations on use, particularly in restricted countries, must be observed and the geographic scope clearly defined.
+
+**No Warranty**
+This software is provided free of charge, and there is no warranty associated with it, except where explicitly stated otherwise. The copyright holders provide the software "as is," without implied warranties of merchantability or fitness for a particular purpose. The entire risk regarding the quality and performance of the software rests with you. Should any defects arise, you will bear the costs of necessary repairs or corrections. The copyright holders are not liable for any damages arising from the use or inability to use the software, including but not limited to the loss of data or inaccuracies, even if they have been informed of potential damages.
+
+**Redistribution and Rights**
+These terms enable everyone to freely redistribute and modify the software. You should retain the copyright notice and provide the terms under which the software is distributed. This includes conditional terms ensuring no warranty against defects in performance. Ensure that all redistributions are accompanied by the original GNU license documents.
+
+**Library Definitions**
+- "The Library" refers to the software covered by these terms, which may be integrated with other applications as specified.
+- "Application" denotes any application that interfaces with the Library.
+- "Combined Work" describes any amalgamation of the Library with another application.
+
+**Corresponding Source**
+The term "Corresponding Source" refers to the source code necessary for modification. When conveying the Library or making modifications, it should carry the same terms as dictated by the GNU GPL.
+
+By following these guidelines, we work together to foster a community of free software and collaboration.
+
+### Flow March Combined Works
+
+The terms of the Combined Work allow you to choose modifications that effectively relate to the Combined Work, which, along with its respective modifications, must adhere to the GNU General Public License (GPL). Each Combined Work must clearly display copyright information and direct users to the GNU GPL. Additionally, it should include the Corresponding Source for both the Combined Work and any related applications. In accordance with the GNU GPL, specific sections should specify how to convey the Corresponding Source.
+
+If the Combined Work includes information that overlaps with existing library interfaces, it must comply with all necessary information provisions in the GNU GPL. This includes the requirement of providing the necessary Corresponding Source and the Corresponding Application, as delineated in the appropriate section.
+
+When integrating with other applications, the Combined Work must also maintain compliance with the library's terms. These terms should be provided alongside your distribution of the Combined Work and should mention any conditions set forth by the GNU Software Foundation. If the information or options related to the Combined Work are in dispute, the guidelines established by the GNU Software Foundation will apply.
+
+### Flow March B.3 BSD Source
+
+Under the BSD license, the following terms apply: Copyright (YEAR), (OWNER). Redistribution and use are granted with or without modifications, provided that the following conditions are met:
+
+- Redistributions of the copyright notice must retain the notice itself and the following disclaimers.
+
+THE SOFTWARE IS PROVIDED "AS IS" BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS, WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES ARISING from the use of this software, whether in contract or tort, even if advised of potential damage.
+
+### Flow March B.4 MIT Source
+
+The MIT License states: The copyright holder grants permission, free of charge, to use this software and associated documentation (the "Software"), including the rights to use, copy, modify, publish, and distribute the Software to others.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY, whether in action of contract, tort, or otherwise, arising from the Software or its use in any capacity.
+

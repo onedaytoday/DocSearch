@@ -1,0 +1,38 @@
+### Sound Card Interface ELK-129 Overview
+
+The ELK-129 Sound Card Interface is designed to work with ELK systems including the ELK-120, ELK-124, and ELK-MV480. The interface comes with software for use with these models. It facilitates downloading sounds to the ELK-120 or ELK-124 switches, which can then be executed via a foot switch with compact time intervals.
+
+#### Specifications
+- Requires a DC power supply of 12V, 20VA.
+- Minimum system requirements: 4MB RAM, compatible sound card.
+- Warranty details are included.
+
+#### Application
+The ELK-129 allows playback for sound and sound effects, enabling recordings from the on-board microphone. It supports various audio formats, particularly .WAV files. Sounds can be recorded from different sources, edited, and stored for future use.
+
+#### Operation
+The ELK-129 is primarily compatible with ELK-120 and ELK-124 systems. When integrated with the ELK-MM447 or ELK-MV480, additional software adjustments are necessary. Users must follow the provided instructions, which include installing supplied software.
+
+While using the ELK-120 or ELK-124, connect the AC power as recommended. It's essential to set SW1 as needed for the respective model and ensure proper input/output configurations.
+
+#### Setup Instructions
+For software installation, run the `SETUP.EXE` from the drive containing the software. Follow the prompts until the installation is complete. After finishing, validate the sound directories to ensure the .WAV files are present and functioning.
+
+To test the setup, ensure that output is audible and that the input is properly configured. If no sound is heard, check volume settings and ensure inputs are correctly selected.
+
+#### Recording Operations
+DIP switches allow selection between different recording modes and configurations. The activation of the recording switch must align with the setup intended for the ELK-120 or ELK-124 models.
+
+Ensure the recording level is appropriate to avoid distortion. If sounds are too low or too high, adjustments to volume settings may be necessary.
+
+#### Troubleshooting
+If audio playback is distorted or absent, revisit the connection settings and adjust as required. Experimenting with different sound selection and recording configurations can yield better results, ensuring that voltage levels are correctly set.
+
+This interface is designed to enhance the usability of ELK systems and provide a streamlined experience in sound management. For further assistance, refer to the detailed setup and operation manual provided with the ELK-129.
+
+To properly follow the previous shooting guidelines with ELK-129, ensure that you only hear sound from the LEFT channel of your headphones, while confirming the AUDIO OUT is set accordingly. If sound is heard solely from the LEFT, adjust the settings. Increasing output can be done by pressing the PLAY LOOP button, which allows for audio playback while you stop and restart as needed.
+
+If you're using an alternative method to record, you can manually activate the RECORD switch and click PLAY. Note that if the microphone’s sound becomes distorted, it may suggest an issue with the VU levels. Always choose a quality recording source and avoid unnecessary background noise while recording. 
+
+If the audio contains issues or appears corrupted, especially after applying effects, try using CoolEdit for troubleshooting and functionalities like converting formats. Prioritize functionality when attempting to resolve recording issues.
+
