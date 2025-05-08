@@ -1,8 +1,11 @@
 import numpy as np
 import matplotlib.pyplot as plt
+import pandas as pd
 import seaborn as sns
 import torch
 from llm2vec import LLM2Vec
+from datasets import load_dataset
+from requests.compat import chardet
 
 import LLM2VecModel
 
@@ -21,20 +24,28 @@ def main():
     # print("manuals_test")
     # result_best, result_a, result_b = run_test(manuals_test, [model_best, model_a, model_b])
     # evaluate_topk_accuracy([result_a, result_b, result_best])
+    #
+    # print("manuals_seen_test")
+    # result_best, result_a, result_b = run_test(manuals_seen_test, [model_best, model_a, model_b])
+    # evaluate_topk_accuracy([result_a, result_b, result_best])
+    #
+    # print("manuals_unseen_test")
+    # result_best, result_a, result_b = run_test(manuals_unseen_test, [model_best, model_a, model_b])
+    # evaluate_topk_accuracy([result_a, result_b, result_best])
 
-    print("manuals_seen_test")
-    result_best, result_a, result_b = run_test(manuals_seen_test, [model_best, model_a, model_b])
+    print("manual_test_final")
+    result_best, result_a, result_b = run_test(manual_test_final, [model_best, model_a, model_b])
     evaluate_topk_accuracy([result_a, result_b, result_best])
 
-    print("manuals_unseen_test")
-    result_best, result_a, result_b = run_test(manuals_unseen_test, [model_best, model_a, model_b])
-    compare_similarity(result_a, result_b)
+    # print("MMLU PHil")
+    # result_best, result_a, result_b = run_test(mmlu_phil_test, [model_best, model_a, model_b])
+    # evaluate_topk_accuracy([result_a, result_b, result_best])
 
-    print("Similarity Move to the best")
-    print(torch.argmax(result_best, dim=1))
-    vis_similiarty(abs(result_best - result_b) - abs(result_best - result_a))
-    evaluate_topk_accuracy([result_a, result_b, result_best])
-    plt.show()
+    # print("Similarity Move to the best")
+    # print(torch.argmax(result_best, dim=1))
+    # vis_similiarty(abs(result_best - result_b) - abs(result_best - result_a))
+    # evaluate_topk_accuracy([result_a, result_b, result_best])
+    # plt.show()
 
 
 def run_test(test, models):
@@ -44,7 +55,7 @@ def run_test(test, models):
     return output
 
 
-def evaluate_topk_accuracy(similarity_matrices, topk=(1, 2, 3, 4, 5)):
+def evaluate_topk_accuracy(similarity_matrices, topk=(1, 2, 3, 4, 5, 10)):
     results = []
 
     for idx, sim_matrix in enumerate(similarity_matrices):
@@ -83,6 +94,71 @@ def calculate_cos_similarity(embeder, docs, queries):
     q_reps_norm = torch.nn.functional.normalize(q_reps, p=2, dim=1)
     d_reps_norm = torch.nn.functional.normalize(d_reps, p=2, dim=1)
     return torch.mm(q_reps_norm, d_reps_norm.transpose(0, 1))
+
+
+def extract_mmlu_qa(subject: str = "philosophy", split: str = "test"):
+    """
+    Extract (question, correct_answer) pairs from the MMLU dataset for a given subject.
+
+    Args:
+        subject (str): MMLU subject (default is 'philosophy').
+        split (str): Dataset split ('train', 'test', or 'validation').
+
+    Returns:
+        List[Tuple[str, str]]: List of (question, correct_answer) tuples.
+    """
+    # Load dataset
+    dataset = load_dataset("cais/mmlu", subject)[split]
+
+    # Collect question-answer pairs
+    questions = []
+    answers = []
+    for example in dataset:
+        question = example["question"]
+        choices = example["choices"]
+        correct_answer = choices[example["answer"]]
+        questions.append(question)
+        answers.append(correct_answer)
+
+    return questions, answers
+
+
+def prepare_test_data(csv_path, n_samples=100):
+    """
+    Reads a CSV file and extracts N random questions and answers as lists of strings.
+
+    Args:
+        csv_path (str): Path to the CSV file.
+        n_samples (int): Number of random samples to return.
+
+    Returns:
+        tuple: (questions, answers), both are lists of strings.
+    """
+
+    f = open(csv_path, "rb")
+    raw_data = f.read()
+    result = chardet.detect(raw_data)
+    f.close()
+    print(result)
+    df = pd.read_csv(csv_path, encoding=result['encoding'])
+
+    # Ensure required columns exist
+    required_columns = {'question', 'answer'}
+    if not required_columns.issubset(df.columns):
+        raise ValueError(f"CSV must contain the following columns: {required_columns}")
+
+    # Drop rows with missing questions or answers
+    df = df.dropna(subset=['question', 'answer'])
+
+    if n_samples > len(df):
+        n_samples = len(df)
+
+    sampled_df = df.sample(n=n_samples, random_state=42)  # random_state for reproducibility
+
+    questions = sampled_df['question'].astype(str).tolist()
+    answers = sampled_df['answer'].astype(str).tolist()
+
+    return questions, answers
 
 
 def titans_test(a):
@@ -319,6 +395,37 @@ def manuals_test(a):
 
     return calculate_cos_similarity(embeder=a, docs=documents, queries=prompts)
 
+
+def chatGPT_tests(a):
+    file_path = "generated_questions.csv"
+    prompts, documents = prepare_test_data(file_path, 25)
+    return calculate_cos_similarity(embeder=a, docs=documents, queries=prompts)
+
+def manual_test_final(a):
+    file_path = "final_question_set.csv"
+    prompts, documents = prepare_test_data(file_path, 50)
+    return calculate_cos_similarity(embeder=a, docs=documents, queries=prompts)
+
+def manuals_test_V2(a):
+    file_path = "technical_manual_questions_answers.csv"
+    prompts, documents = prepare_test_data(file_path, 50)
+    return calculate_cos_similarity(embeder=a, docs=documents, queries=prompts)
+
+
+def manuals_test_V3(a):
+    file_path = "advanced_hardware_technical_manual2.csv"
+    prompts, documents = prepare_test_data(file_path, 50)
+    return calculate_cos_similarity(embeder=a, docs=documents, queries=prompts)
+
+
+def manuals_test_V4(a):
+    file_path = "appliance_manual_questions.csv"
+    prompts, documents = prepare_test_data(file_path, 50)
+    return calculate_cos_similarity(embeder=a, docs=documents, queries=prompts)
+
+def mmlu_phil_test(a):
+    prompts, documents = extract_mmlu_qa(subject="electrical_engineering")
+    return calculate_cos_similarity(embeder=a, docs=documents, queries=prompts)
 
 def compare_similarity(similarity_a, similarity_b):
     print("Similarity A")
