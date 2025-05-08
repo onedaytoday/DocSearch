@@ -3,8 +3,7 @@ import os
 import openai
 from pathlib import Path
 
-key = "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"
-
+key =  ""
 # Initialize OpenAI API
 openai.api_key = key  # Replace this
 client = OpenAI(api_key=key)
