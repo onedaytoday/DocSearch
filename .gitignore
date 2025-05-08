@@ -10,3 +10,4 @@ __pycache__/LLM2VecModel.cpython-310.pyc
 /.idea
 /.idea
 /ManuelsDataset
+*.txt
