@@ -4,24 +4,27 @@ import csv
 from pathlib import Path
 
 # OpenAI key setup
-key = "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"
+key = ""
 client = OpenAI(api_key=key)
 
 # Directories
-input_dir = Path("Emanuals_Corpus")
+input_dir = Path("Emanuals_Corpus_Paraphrased")
 output_csv = Path("generated_questions.csv")
 
 # Parameters
 max_chars_per_request = 8000  # character limit
 ai_model = "gpt-4o-mini"
 
+
 # Helper to generate Q&A
 def generate_question_answer(text):
-    prompt = f"""Based on the following text, generate ONE question and a detailed answer.
+    prompt = f"""Based on the following text, generate ONE fully self-contained question and a detailed answer.
+The question must include all necessary context so it makes sense on its own, without referring back to the original text.
+
 Please format the response EXACTLY like this:
 
-Question: <your question here>
-Answer: <your detailed answer here>
+Question: <a clear, self-contained question that includes relevant context from the text without referring to it>
+Answer: <a detailed answer that fully explains the answer using information from the text without referring to it>
 
 Here is the text:
 {text}
@@ -34,6 +37,7 @@ Here is the text:
         temperature=0.3,
     )
     return response.choices[0].message.content
+
 
 # Create CSV if it doesn't exist, and track already processed files
 processed_files = set()

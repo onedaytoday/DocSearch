@@ -1,8 +1,6 @@
-import llm2vec
 from llm2vec import LLM2Vec
 from datasets import Dataset
 import torch
-from torch.utils.data import DataLoader
 from transformers import AutoTokenizer, AutoModel, AutoConfig, Trainer, TrainingArguments, \
     DataCollatorForLanguageModeling, AutoModelForCausalLM, TextDataset
 from peft import PeftModel, LoraConfig, TaskType, get_peft_model
@@ -81,7 +79,7 @@ class LLM2VecModel:
             logging_dir="./logs",  # Log directory
             num_train_epochs=2,  # Number of training epochs
             per_device_train_batch_size=8,  # Batch size
-            save_steps=50000,  # Save checkpoint every 500 steps
+            save_steps=5000,  # Save checkpoint every 500 steps
             logging_steps=1000,  # Log every 100 steps
         )
 
@@ -116,9 +114,8 @@ class LLM2VecModel:
 
         print(type(self.tokenizer))
 
-
-        manuels_path = "ManuelsDataset/combined.txt"
-        test_texts_path = "text_files/text.txt"
+        manuels_path = "text_files/combined.txt"
+        test_texts_path = "text_files/test_text.txt"
         train_dataset = TextDataset(tokenizer=self.tokenizer, file_path=manuels_path, block_size=128)
         data_collator = DataCollatorForLanguageModeling(
             tokenizer=self.tokenizer,

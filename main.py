@@ -4,7 +4,7 @@ import torch
 
 from LLM2VecModel import LLM2VecModel
 
-HF_PASSCODE = "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"
+HF_PASSCODE = ""
 MODEL_ID = "McGill-NLP/LLM2Vec-Meta-Llama-31-8B-Instruct-mntp"
 MODEL_SECONDARY_ID = "McGill-NLP/LLM2Vec-Meta-Llama-31-8B-Instruct-mntp-supervised"
 Path_to_model = r"C:\Users\Omid\.cache\huggingface\hub\models--meta-llama--Meta-Llama-3.1-8B-Instruct\snapshots" \
